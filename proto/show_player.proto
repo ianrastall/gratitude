@@ -230,6 +230,9 @@ message ShowTrack {
   uint32 sample_rate = 5;
   uint32 channels = 6;
   string codec = 7;
+  uint32 bit_depth = 8;
+  string sample_format = 9;
+  string channel_layout = 10;
 }
 message ShowDraft {
   string folder = 1;

@@ -140,7 +140,7 @@ public sealed partial class WorkshopWindow : Window
     private void RenderTracks(int selected)
     {
         if (_draft is null) return;
-        TracksList.ItemsSource = _draft.Tracks.Select((t, i) => new ImportTrackRow(i, $"{i+1}. {t.Title}", $"{t.Set} · {Path.GetFileName(t.Path)} · {t.Duration / 60:F1} min · {t.Codec} {t.SampleRate} Hz / {t.Channels} ch")).ToList();
+        TracksList.ItemsSource = _draft.Tracks.Select((t, i) => new ImportTrackRow(i, $"{i+1}. {t.Title}", $"{t.Set} · {Path.GetFileName(t.Path)} · {t.Duration / 60:F1} min · {t.Codec} {t.SampleRate} Hz / {t.BitDepth} bit / {t.Channels} ch")).ToList();
         TracksList.SelectedIndex = selected;
     }
 

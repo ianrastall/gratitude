@@ -1,6 +1,8 @@
 # Show Player
 
-A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.1.1. Working name: Show Player.
+A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.1.2. Working name: Show Player.
+
+0.1.2 removes segue arrows from song/chapter titles, including embedded tags and playback of existing MKAs. Export preserves the original sample rate and bit depth, rejects mismatched source formats and verifies output precision before saving. No gaps, fades or silence trimming are applied; existing source silence is retained.
 
 0.1.1 fixes import of decorated set headings (`--Set 1--`), compound track labels (`101-d1t01 - Bertha ->`), introductory encoding notes and explicitly missing songs. Verified against Ian's 22-track 1977-12-27 Winterland folder. When the TXT song count differs from the audio count, embedded audio titles are used before filenames.
 
@@ -12,9 +14,9 @@ Launch **Show Player** from Start. Choose **Import a show…** to select a folde
 
 Import reads audio files recursively (up to four subfolder levels), proposes a natural filename order, reads the largest non-checksum TXT and extracts artist, date, venue, sets and song names. Choose a different TXT if needed. Review the metadata, edit song titles and set labels, and move tracks up/down. Confirm the review box, then choose **Create MKA…**. Original audio is never changed. The output must have a new filename.
 
-The default mode copies compressed audio without re-encoding. Uncheck **Copy compressed audio unchanged** to encode the joined audio as FLAC. Tracks must share a sample rate and channel count; stream copy also requires matching codecs. Shorten may require FLAC mode. Packaging lossy audio into FLAC does not restore lost information.
+The default mode copies compressed audio without re-encoding. Uncheck **Copy compressed audio unchanged** to encode supported lossless 16-bit or 24-bit integer audio as FLAC at the original rate and depth. Tracks must have matching codecs, sample rates, bit depths, sample formats and channel layouts; otherwise packaging is refused. Shorten may require FLAC mode. Automatic conversion filters are disabled. Export re-probes the files and verifies the resulting MKA's rate/depth/channel count before saving. This file-preservation policy does not control conversions performed by Windows or the audio device during playback.
 
-Sets are represented in chapter names, such as `Set 2 / Dark Star`. The original TXT is attached unchanged as `show-notes.txt`; its text also appears under **Recording notes** in the player. Each audio file becomes one chapter. A recording that needs cuts inside one file requires preparation outside this version.
+Sets are represented in chapter names, such as `Set 2 / Dark Star`. Continuation indicators such as `>`, `->` and `→` are removed from song names; an internal medley connector becomes a slash. This affects display/exported chapter names, not the source tags or notes. The original TXT is attached unchanged as `show-notes.txt`; its text also appears under **Recording notes** in the player. Each audio file becomes one chapter. A recording that needs cuts inside one file requires preparation outside this version.
 
 **Find recordings** searches the two catalogues supplied by Ian on 29 October 2026. Search results and seed counts are historical snapshots, not a live index. Search a date such as `1993-09-22`, a taper or a source identifier. The first 500 matches are shown; narrow the search or choose a source to see other matches. Two-digit `gd93-09-22` names also match the four-digit date.
 

@@ -20,6 +20,9 @@ pub struct Track {
     pub sample_rate: u32,
     pub channels: u32,
     pub codec: String,
+    pub bit_depth: u32,
+    pub sample_format: String,
+    pub channel_layout: String,
 }
 #[derive(Clone, Debug, Default, Serialize, Deserialize)]
 pub struct Draft {
@@ -100,6 +103,80 @@ fn get_bytes(url: &str) -> Result<Vec<u8>, String> {
 }
 fn rx(pattern: &str) -> Regex {
     Regex::new(pattern).expect("static regex")
+}
+/// Segue notation belongs in the original notes, not song/chapter names.
+pub fn clean_title(title: &str) -> String {
+    let arrow = r"(?:-+>|=+>|~+>|[>→⇒➔➜⟶↦]+)";
+    let title = rx(&format!(r"\s*(?:{arrow}\s*)+$")).replace(title, "").into_owned();
+    let title = rx(&format!(r"^(?:\s*{arrow})+\s*")).replace(&title, "").into_owned();
+    rx(&format!(r"\s*{arrow}\s*")).replace_all(title.trim(), " / ").trim().to_owned()
+}
+fn probe_audio(path: &Path) -> Result<Value, String> {
+    let output=hidden(&mut Command::new(tool("ffprobe"))).args(["-v","error","-select_streams","a:0","-show_entries","stream=codec_name,sample_rate,channels,sample_fmt,channel_layout,bits_per_sample,bits_per_raw_sample:format=duration:format_tags=title:stream_tags=title","-of","json"]).arg(path).output().map_err(|e|format!("ffprobe could not start: {e}"))?;
+    if !output.status.success() {
+        return Err(format!("Cannot inspect {}: {}", path.display(), String::from_utf8_lossy(&output.stderr)));
+    }
+    serde_json::from_slice(&output.stdout).map_err(|e| e.to_string())
+}
+fn source_depth(stream: &Value) -> u32 {
+    fn number(v: &Value) -> u32 {
+        v.as_u64().map(|n| n as u32).or_else(|| v.as_str().and_then(|s| s.parse().ok())).unwrap_or(0)
+    }
+    let bits = number(&stream["bits_per_raw_sample"]).max(number(&stream["bits_per_sample"]));
+    if bits > 0 {
+        bits
+    } else {
+        match stream["sample_fmt"].as_str().unwrap_or_default() {
+            "u8" | "u8p" => 8,
+            "s16" | "s16p" => 16,
+            "s32" | "s32p" => 32,
+            _ => 0,
+        }
+    }
+}
+fn validate_audio(tracks: &[Track], copy: bool) -> Result<(), String> {
+    let first = tracks.first().ok_or("No tracks to package.")?;
+    if first.sample_rate == 0 || first.channels == 0 {
+        return Err("The source sample rate or channel count is unknown. Packaging cannot preserve it safely.".into());
+    }
+    if tracks.iter().any(|t| {
+        t.sample_rate != first.sample_rate
+            || t.channels != first.channels
+            || t.bit_depth != first.bit_depth
+            || t.channel_layout != first.channel_layout
+            || t.sample_format != first.sample_format
+            || t.codec != first.codec
+    }) {
+        return Err("Tracks must have matching codecs and identical sample rates, bit depths and channel layouts. Show Player never resamples or changes precision to make them match.".into());
+    }
+    if !copy
+        && (!matches!(first.bit_depth, 16 | 24)
+            || !tracks.iter().all(|t| {
+                matches!(t.codec.as_str(), "flac" | "shorten" | "alac")
+                    || t.codec.starts_with("pcm_s16")
+                    || t.codec.starts_with("pcm_s24")
+            }))
+    {
+        return Err("FLAC conversion requires lossless 16-bit or 24-bit integer audio. Use stream copy to preserve other source formats.".into());
+    }
+    Ok(())
+}
+fn validate_probed(track: &Track, v: &Value) -> Result<(), String> {
+    let s = &v["streams"][0];
+    let rate = s["sample_rate"].as_str().and_then(|s| s.parse::<u32>().ok()).unwrap_or(0);
+    if rate != track.sample_rate
+        || source_depth(s) != track.bit_depth
+        || s["channels"].as_u64().unwrap_or(0) != u64::from(track.channels)
+        || s["codec_name"].as_str().unwrap_or_default() != track.codec
+        || s["sample_fmt"].as_str().unwrap_or_default() != track.sample_format
+        || s["channel_layout"].as_str().unwrap_or_default() != track.channel_layout
+    {
+        return Err(format!(
+            "Audio format changed or does not match the reviewed import: {}. Import the folder again; no resampling will be performed.",
+            track.path
+        ));
+    }
+    Ok(())
 }
 fn natural_key(s: &str) -> String {
     rx(r"\d+").replace_all(&s.to_lowercase(), |c: &regex::Captures<'_>| format!("{:0>12}", &c[0])).into_owned()
@@ -207,7 +284,7 @@ pub fn parse_notes(notes: &str) -> (String, String, String, Vec<(String, String)
             tracks.push((line.into(), set.clone()));
         }
     }
-    (artist, date, venue, tracks)
+    (artist, date, venue, tracks.into_iter().map(|(title, set)| (clean_title(&title), set)).collect())
 }
 fn missing_song(line: &str) -> Option<String> {
     rx(r"(?i)^(?:\(\s*missing\s*\)|\[\s*missing\s*\]|missing\s*[-:])\s*[-:]?\s*(.+)$")
@@ -225,7 +302,7 @@ fn embedded_title(value: &Value) -> Option<String> {
     .flat_map(|tags| tags.iter())
     .find(|(key, title)| key.eq_ignore_ascii_case("title") && title.as_str().is_some_and(|s| !s.trim().is_empty()))
     .and_then(|(_, v)| v.as_str())
-    .map(|s| s.trim().to_owned())
+    .map(clean_title)
 }
 pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
     let folder = fs::canonicalize(folder).map_err(|e| e.to_string())?;
@@ -281,35 +358,18 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
         draft.warnings.push("Notes are not UTF-8; the original bytes will still be attached unchanged.".into());
     }
     for (i, path) in audio.iter().enumerate() {
-        let output = hidden(&mut Command::new(tool("ffprobe")))
-            .args([
-                "-v",
-                "error",
-                "-select_streams",
-                "a:0",
-                "-show_entries",
-                "stream=codec_name,sample_rate,channels:format=duration:format_tags=title:stream_tags=title",
-                "-of",
-                "json",
-            ])
-            .arg(path)
-            .output()
-            .map_err(|e| format!("ffprobe could not start: {e}"))?;
-        if !output.status.success() {
-            return Err(format!("Cannot inspect {}: {}", path.display(), String::from_utf8_lossy(&output.stderr)));
-        }
-        let v: Value = serde_json::from_slice(&output.stdout).map_err(|e| e.to_string())?;
+        let v = probe_audio(path)?;
         let s = &v["streams"][0];
         let duration = v["format"]["duration"]
             .as_str()
             .and_then(|s| s.parse::<f64>().ok())
             .filter(|s| s.is_finite() && *s > 0.0)
             .ok_or_else(|| format!("Unknown duration for {}", path.display()))?;
-        let title = if titles.len() == audio.len() {
+        let title = clean_title(&if titles.len() == audio.len() {
             titles[i].0.clone()
         } else {
             embedded_title(&v).unwrap_or_else(|| path.file_stem().unwrap_or_default().to_string_lossy().into())
-        };
+        });
         let set = if titles.len() == audio.len() { titles[i].1.clone() } else { String::new() };
         draft.tracks.push(Track {
             path: path.to_string_lossy().into(),
@@ -319,14 +379,13 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
             sample_rate: s["sample_rate"].as_str().and_then(|s| s.parse().ok()).unwrap_or(0),
             channels: s["channels"].as_u64().unwrap_or(0) as u32,
             codec: s["codec_name"].as_str().unwrap_or_default().into(),
+            bit_depth: source_depth(s),
+            sample_format: s["sample_fmt"].as_str().unwrap_or_default().into(),
+            channel_layout: s["channel_layout"].as_str().unwrap_or_default().into(),
         });
     }
-    let first = &draft.tracks[0];
-    if draft.tracks.iter().any(|t| t.sample_rate != first.sample_rate || t.channels != first.channels) {
-        draft.warnings.push(
-            "Mixed sample rates or channel counts. This version requires matching audio settings before packaging."
-                .into(),
-        );
+    if let Err(reason) = validate_audio(&draft.tracks, false) {
+        draft.warnings.push(reason);
     }
     Ok(draft)
 }
@@ -579,15 +638,7 @@ impl Service {
         if draft.tracks.is_empty() {
             return Err("No tracks to package.".into());
         }
-        let first = &draft.tracks[0];
-        if draft.tracks.iter().any(|t| {
-            t.sample_rate != first.sample_rate || t.channels != first.channels || (copy_audio && t.codec != first.codec)
-        }) {
-            return Err(
-                "Tracks must have matching sample rates and channel counts; stream copy also requires matching codecs."
-                    .into(),
-            );
-        }
+        validate_audio(&draft.tracks, copy_audio)?;
         for t in &draft.tracks {
             if !t.duration.is_finite() || t.duration <= 0.0 || !Path::new(&t.path).is_file() {
                 return Err("A track is missing or has an invalid duration.".into());
@@ -595,6 +646,12 @@ impl Service {
         }
         let output_string = output.to_string_lossy().into_owned();
         self.start("Creating MKA", output_string, move |cancel, status| {
+            for track in &draft.tracks {
+                if cancel.load(Ordering::Relaxed) {
+                    return Err("Cancelled".into());
+                }
+                validate_probed(track, &probe_audio(Path::new(&track.path))?)?;
+            }
             let parent = output.parent().ok_or("Choose an output folder.")?;
             fs::create_dir_all(parent).map_err(|e| e.to_string())?;
             let temp =
@@ -626,7 +683,8 @@ impl Service {
                 concat += &format!("file '{p}'\nduration {:.9}\n", t.duration);
                 let start = (elapsed * 1000.0_f64).round() as u64;
                 elapsed += t.duration;
-                let title = if t.set.is_empty() { t.title.clone() } else { format!("{} / {}", t.set, t.title) };
+                let song = clean_title(&t.title);
+                let title = if t.set.is_empty() { song } else { format!("{} / {}", t.set, song) };
                 meta += &format!(
                     "[CHAPTER]\nTIMEBASE=1/1000\nSTART={start}\nEND={}\ntitle={}\n",
                     (elapsed * 1000.0).round() as u64,
@@ -638,6 +696,7 @@ impl Service {
             fs::write(&metadata, meta).map_err(|e| e.to_string())?;
             let partial = temp.path().join("show.mka");
             let mut cmd = Command::new(tool("ffmpeg"));
+            cmd.arg("-noauto_conversion_filters").arg("-xerror");
             cmd.args(["-hide_banner", "-nostdin", "-n", "-f", "concat", "-safe", "0", "-i"])
                 .arg(&list)
                 .args(["-f", "ffmetadata", "-i"])
@@ -652,6 +711,15 @@ impl Service {
                     "-c:a",
                     if copy_audio { "copy" } else { "flac" },
                 ]);
+            if !copy_audio {
+                let source = &draft.tracks[0];
+                cmd.args(["-sample_fmt", if source.bit_depth == 16 { "s16" } else { "s32" }]).args([
+                    "-ar",
+                    &source.sample_rate.to_string(),
+                    "-bits_per_raw_sample",
+                    &source.bit_depth.to_string(),
+                ]);
+            }
             if !draft.notes_path.is_empty() {
                 cmd.arg("-attach").arg(&draft.notes_path).args([
                     "-metadata:s:t:0",
@@ -662,6 +730,17 @@ impl Service {
             }
             cmd.arg(&partial);
             run(&mut cmd, &temp.path().join("ffmpeg.log"), &cancel, &status)?;
+            let output_probe = probe_audio(&partial)?;
+            let output_stream = &output_probe["streams"][0];
+            let original = &draft.tracks[0];
+            if output_stream["sample_rate"].as_str().and_then(|s| s.parse::<u32>().ok()) != Some(original.sample_rate)
+                || source_depth(output_stream) != original.bit_depth
+                || output_stream["channels"].as_u64() != Some(u64::from(original.channels))
+            {
+                return Err(
+                    "Output sample rate, bit depth or channels differ from the source. The MKA was not saved.".into()
+                );
+            }
             if cancel.load(Ordering::Relaxed) {
                 return Err("Cancelled".into());
             }
@@ -699,6 +778,42 @@ fn run(cmd: &mut Command, log_path: &Path, cancel: &AtomicBool, status: &Mutex<J
 mod tests {
     use super::*;
     #[test]
+    fn strips_segue_markers_without_removing_song_punctuation() {
+        for title in ["Bertha >", "Bertha->", "Bertha -->", "Bertha >> ", "Bertha →", "Bertha =>"] {
+            assert_eq!(clean_title(title), "Bertha");
+        }
+        assert_eq!(clean_title("Scarlet > Fire"), "Scarlet / Fire");
+        assert_eq!(clean_title("> He's Gone ->"), "He's Gone");
+        assert_eq!(clean_title("Brown-Eyed Women"), "Brown-Eyed Women");
+    }
+    #[test]
+    fn refuses_rate_or_precision_changes() {
+        let source = Track {
+            sample_rate: 96000,
+            bit_depth: 24,
+            channels: 2,
+            channel_layout: "stereo".into(),
+            sample_format: "s32".into(),
+            codec: "flac".into(),
+            ..Default::default()
+        };
+        for copy in [true, false] {
+            assert!(validate_audio(&[source.clone(), source.clone()], copy).is_ok());
+            let mut changed = source.clone();
+            changed.sample_rate = 48000;
+            assert!(validate_audio(&[source.clone(), changed], copy).is_err());
+            let mut changed = source.clone();
+            changed.bit_depth = 16;
+            assert!(validate_audio(&[source.clone(), changed], copy).is_err());
+            let mut changed = source.clone();
+            changed.channel_layout = "dual mono".into();
+            assert!(validate_audio(&[source.clone(), changed], copy).is_err());
+        }
+        let floating = Track { codec: "pcm_f32le".into(), sample_format: "flt".into(), bit_depth: 32, ..source };
+        assert!(validate_audio(std::slice::from_ref(&floating), false).is_err());
+        assert!(validate_audio(&[floating], true).is_ok());
+    }
+    #[test]
     fn parses_winterland_labels_decorated_sets_and_missing_encore() {
         let (artist, date, venue, tracks) = parse_notes(include_str!("../../../tests/fixtures/gd1977-12-27.24069.txt"));
         assert_eq!(
@@ -706,7 +821,7 @@ mod tests {
             ("Grateful Dead", "1977-12-27", "Winterland Arena")
         );
         let expected = [
-            "Bertha ->",
+            "Bertha",
             "Good Lovin'",
             "Brown-Eyed Women",
             "Cassidy",
@@ -719,14 +834,14 @@ mod tests {
             "Friend of the Devil",
             "The Music Never Stopped",
             "Cold Rain & Snow",
-            "Lazy Lightnin' ->",
+            "Lazy Lightnin'",
             "Supplication",
-            "Scarlet Begonias ->",
+            "Scarlet Begonias",
             "Fire on the Mountain",
-            "Estimated Prophet ->",
+            "Estimated Prophet",
             "He's Gone",
-            "Truckin' ->",
-            "Wharf Rat ->",
+            "Truckin'",
+            "Wharf Rat",
             "Around & Around",
         ];
         assert_eq!(tracks.iter().map(|t| t.0.as_str()).collect::<Vec<_>>(), expected);
@@ -738,7 +853,7 @@ mod tests {
     fn reads_embedded_titles_case_insensitively() {
         assert_eq!(
             embedded_title(&serde_json::json!({"format":{"tags":{"TITLE":"Bertha>"}}})).as_deref(),
-            Some("Bertha>")
+            Some("Bertha")
         );
         assert_eq!(
             embedded_title(&serde_json::json!({"streams":[{"tags":{"title":"Sugaree"}}]})).as_deref(),
@@ -799,7 +914,7 @@ mod tests {
         );
         assert_eq!((artist.as_str(), date.as_str(), venue.as_str()), ("Grateful Dead", "1977-05-08", "Barton Hall"));
         assert_eq!(tracks.len(), 4);
-        assert_eq!(tracks[2], ("Scarlet Begonias >".into(), "Set 2".into()));
+        assert_eq!(tracks[2], ("Scarlet Begonias".into(), "Set 2".into()));
     }
     #[test]
     fn parses_old_dates_and_ignores_hashes() {

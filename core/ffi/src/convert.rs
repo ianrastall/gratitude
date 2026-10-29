@@ -125,6 +125,9 @@ impl From<show_player_core::shows::Track> for crate::messages::ShowTrack {
             sample_rate: t.sample_rate,
             channels: t.channels,
             codec: t.codec,
+            bit_depth: t.bit_depth,
+            sample_format: t.sample_format,
+            channel_layout: t.channel_layout,
         }
     }
 }
@@ -138,6 +141,9 @@ impl From<crate::messages::ShowTrack> for show_player_core::shows::Track {
             sample_rate: t.sample_rate,
             channels: t.channels,
             codec: t.codec,
+            bit_depth: t.bit_depth,
+            sample_format: t.sample_format,
+            channel_layout: t.channel_layout,
         }
     }
 }

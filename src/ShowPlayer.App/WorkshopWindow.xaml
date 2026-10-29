@@ -53,7 +53,7 @@
                             <TextBlock x:Name="WarningsText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <CheckBox x:Name="ReviewedBox"><TextBlock Text="I reviewed the track order and titles" TextWrapping="Wrap"/></CheckBox>
                             <CheckBox x:Name="CopyAudioBox" IsChecked="True"><TextBlock Text="Copy compressed audio unchanged" TextWrapping="Wrap"/></CheckBox>
-                            <TextBlock Text="With this unchecked, audio is encoded as FLAC. Sample rates and channel counts must match. Sets are included in chapter names." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
+                            <TextBlock Text="With this unchecked, lossless 16-bit or 24-bit audio is encoded as FLAC at its original rate and depth. Formats must match. No resampling, gap insertion, trimming or crossfading. Sets are included in chapter names." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <Button x:Name="CreateButton" Content="Create MKA…" Style="{StaticResource AccentButtonStyle}" Click="OnCreate" IsEnabled="False"/>
                             <Expander Header="Original show notes"><ScrollViewer MaxHeight="320"><TextBlock x:Name="NotesText" Style="{StaticResource JupiterMonoTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/></ScrollViewer></Expander>
                         </StackPanel>

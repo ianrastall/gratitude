@@ -15,10 +15,10 @@ pub fn dedupe_title(title: &str) -> String {
 /// mpv appends a chapter's TITLE tag to its display name, giving
 /// "Book - Chapter / Chapter". Drops the tail when it only repeats the end.
 pub fn trim_chapter_title(title: &str) -> String {
-    match title.rsplit_once(" / ") {
+    crate::shows::clean_title(&match title.rsplit_once(" / ") {
         Some((head, tail)) if head.ends_with(tail) => head.to_owned(),
         _ => title.to_owned(),
-    }
+    })
 }
 
 #[cfg(test)]
@@ -35,6 +35,7 @@ mod tests {
 
     #[test]
     fn drops_a_repeated_chapter_tail() {
+        assert_eq!(trim_chapter_title("Set 1 / Bertha ->"), "Set 1 / Bertha");
         assert_eq!(trim_chapter_title("Book - Chapter 1 / Chapter 1"), "Book - Chapter 1");
         assert_eq!(trim_chapter_title("Part 1 / Part 2"), "Part 1 / Part 2");
         assert_eq!(trim_chapter_title("Chapter 3"), "Chapter 3");
