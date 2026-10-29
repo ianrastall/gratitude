@@ -1,6 +1,8 @@
 # Show Player
 
-A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.1.0. Working name: Show Player.
+A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.1.1. Working name: Show Player.
+
+0.1.1 fixes import of decorated set headings (`--Set 1--`), compound track labels (`101-d1t01 - Bertha ->`), introductory encoding notes and explicitly missing songs. Verified against Ian's 22-track 1977-12-27 Winterland folder. When the TXT song count differs from the audio count, embedded audio titles are used before filenames.
 
 The bundled recording catalogue is Grateful Dead-specific. Local folder import accepts any artist; the file model does not assume GD song names or dates.
 

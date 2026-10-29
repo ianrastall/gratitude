@@ -2,6 +2,8 @@
 
 Active root: `D:/jupiter/show-player`. Do not work from D:/GitHub backups. Inherit `D:/jupiter/AGENTS.md` and shared standards. Working name: Show Player. Initial version: 0.1.0.
 
+Latest version: 0.1.1. Ian's first test folder (`D:/music-orig/1977-12-27 Winterland SBD FLAC`) exposed decorated set headings, compound labels, an encoding preamble, and a missing encore. The parser now imports all 22 actual songs with 12 Set 1 / 10 Set 2, warns about the absent Samson & Delilah, and reads embedded TITLE tags as fallback when TXT counts do not match. The original TXT is a regression fixture. Actual-folder verification is `dotnet run --project tests/ShowPlayer.WorkflowCheck -c Release -- --verify-winterland <folder> [report.json]`. See `docs/validation-0.1.1.md`.
+
 Read `readme.md`, `docs/project-brief.md` and `docs/validation.md`. Run `pwsh build/build.ps1` for normal release verification and installer creation. Close the development executable before rebuilding because Windows locks its EXE and native DLL.
 
 The initial catalogue snapshots came from `D:/all/gd_torrents.json` and `D:/all/grateful_dead_torrent_urls.txt`, copied into `data/`. They contain 1,373 etree records and 17,548 Archive URL lines, 15,204 unique URLs. Catalogue search deduplicates Archive identifiers and normalizes gdYY-MM-DD aliases. Do not treat saved seed counts as live, or the etree snapshot's `size` strings as trustworthy byte counts.

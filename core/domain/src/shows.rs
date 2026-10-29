@@ -128,7 +128,8 @@ fn collect(folder: &Path, depth: u32, files: &mut Vec<PathBuf>) -> Result<(), St
     Ok(())
 }
 pub fn parse_notes(notes: &str) -> (String, String, String, Vec<(String, String)>) {
-    let lines: Vec<_> = notes.lines().map(str::trim).filter(|l| !l.is_empty()).collect();
+    let preamble = rx(r"(?i)^(?:this is (?:a |an )?(?:flac|shn|lossless)|shnid\s*:|encoding notes\s*:)");
+    let lines: Vec<_> = notes.lines().map(str::trim).filter(|l| !l.is_empty() && !preamble.is_match(l)).collect();
     let artist = lines.first().copied().unwrap_or_default().to_string();
     let date_re = rx(r"\b((?:19|20)\d{2})[-/.](\d{1,2})[-/.](\d{1,2})\b");
     let us_re = rx(r"\b(\d{1,2})[-/](\d{1,2})[-/]((?:19|20)?\d{2})\b");
@@ -164,25 +165,29 @@ pub fn parse_notes(notes: &str) -> (String, String, String, Vec<(String, String)
     }
     let numbered = rx(r"(?i)^(?:(?:d\d+\s*t|t)\s*)?\d{1,3}(?:\s*[.):-]\s*|\s+)(.+)$");
     let explicit = rx(r"(?i)^d\d+t\d+\s*[-.:)]?\s*(.+)$");
+    let compound = rx(r"(?i)^\d{1,3}\s*[-.:)]\s*d\d+t\d+\s*[-.:)]\s*(.+)$");
     let mut set = String::new();
     let mut set_numbered = false;
     let mut tracks = Vec::new();
     for line in lines {
+        if missing_song(line).is_some() {
+            continue;
+        }
         if rx(r"(?i)^(?:shntool output|flac fingerprints|md5 checksums|ffp checksums)\s*:").is_match(line) {
             break;
         }
         if rx(r"^\d{1,3}:\d{2}(?:[.:]\d+)?\s").is_match(line) {
             continue;
         }
-        if rx(r"(?i)^(?:set\s*(?:one|two|three|i{1,3}|[123])|(?:first|second|third)\s+set|encore)\s*:?[\s-]*$")
-            .is_match(line)
-        {
-            set = line.trim_end_matches(':').to_string();
+        let heading = line.trim_matches(|c: char| c.is_whitespace() || matches!(c, '-' | '_' | '=' | ':'));
+        if rx(r"(?i)^(?:set\s*(?:one|two|three|i{1,3}|[123])|(?:first|second|third)\s+set|encore)$").is_match(heading) {
+            set = heading.to_string();
             set_numbered = false;
             continue;
         }
         if rx(r"(?i)^(?:source(?:\s+\d+)?|lineage|notes|recording|transfer|checksums)\s*:").is_match(line) {
             set.clear();
+            set_numbered = true;
             continue;
         }
         if let Some(song) = line.strip_prefix("E:").or_else(|| line.strip_prefix("Encore:")) {
@@ -190,7 +195,8 @@ pub fn parse_notes(notes: &str) -> (String, String, String, Vec<(String, String)
             set.clear();
             continue;
         }
-        if let Some(c) = explicit.captures(line).or_else(|| numbered.captures(line)) {
+        if let Some(c) = compound.captures(line).or_else(|| explicit.captures(line)).or_else(|| numbered.captures(line))
+        {
             set_numbered = true;
             let title = c[1].trim();
             // Dates, hashes and bare timings are not song titles.
@@ -202,6 +208,24 @@ pub fn parse_notes(notes: &str) -> (String, String, String, Vec<(String, String)
         }
     }
     (artist, date, venue, tracks)
+}
+fn missing_song(line: &str) -> Option<String> {
+    rx(r"(?i)^(?:\(\s*missing\s*\)|\[\s*missing\s*\]|missing\s*[-:])\s*[-:]?\s*(.+)$")
+        .captures(line.trim())
+        .map(|c| c[1].trim().to_owned())
+}
+fn embedded_title(value: &Value) -> Option<String> {
+    [
+        value.get("format").and_then(|f| f.get("tags")),
+        value.get("streams").and_then(|s| s.get(0)).and_then(|s| s.get("tags")),
+    ]
+    .into_iter()
+    .flatten()
+    .filter_map(Value::as_object)
+    .flat_map(|tags| tags.iter())
+    .find(|(key, title)| key.eq_ignore_ascii_case("title") && title.as_str().is_some_and(|s| !s.trim().is_empty()))
+    .and_then(|(_, v)| v.as_str())
+    .map(|s| s.trim().to_owned())
 }
 pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
     let folder = fs::canonicalize(folder).map_err(|e| e.to_string())?;
@@ -236,9 +260,12 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
         notes: text,
         ..Default::default()
     };
+    for song in draft.notes.lines().filter_map(missing_song) {
+        draft.warnings.push(format!("TXT marks {song} as missing; no track was added for it."));
+    }
     if titles.len() != audio.len() {
         draft.warnings.push(format!(
-            "TXT contains {} numbered entries; folder contains {} audio files. Review every track title and order.",
+            "TXT contains {} song entries; folder contains {} audio files. Embedded song titles are used where available. Review every track title and order.",
             titles.len(),
             audio.len()
         ));
@@ -261,7 +288,7 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
                 "-select_streams",
                 "a:0",
                 "-show_entries",
-                "stream=codec_name,sample_rate,channels:format=duration",
+                "stream=codec_name,sample_rate,channels:format=duration:format_tags=title:stream_tags=title",
                 "-of",
                 "json",
             ])
@@ -281,7 +308,7 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
         let title = if titles.len() == audio.len() {
             titles[i].0.clone()
         } else {
-            path.file_stem().unwrap_or_default().to_string_lossy().into()
+            embedded_title(&v).unwrap_or_else(|| path.file_stem().unwrap_or_default().to_string_lossy().into())
         };
         let set = if titles.len() == audio.len() { titles[i].1.clone() } else { String::new() };
         draft.tracks.push(Track {
@@ -671,6 +698,54 @@ fn run(cmd: &mut Command, log_path: &Path, cancel: &AtomicBool, status: &Mutex<J
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn parses_winterland_labels_decorated_sets_and_missing_encore() {
+        let (artist, date, venue, tracks) = parse_notes(include_str!("../../../tests/fixtures/gd1977-12-27.24069.txt"));
+        assert_eq!(
+            (artist.as_str(), date.as_str(), venue.as_str()),
+            ("Grateful Dead", "1977-12-27", "Winterland Arena")
+        );
+        let expected = [
+            "Bertha ->",
+            "Good Lovin'",
+            "Brown-Eyed Women",
+            "Cassidy",
+            "Peggy-O",
+            "Looks Like Rain",
+            "Dire Wolf",
+            "Passenger",
+            "Candyman",
+            "El Paso",
+            "Friend of the Devil",
+            "The Music Never Stopped",
+            "Cold Rain & Snow",
+            "Lazy Lightnin' ->",
+            "Supplication",
+            "Scarlet Begonias ->",
+            "Fire on the Mountain",
+            "Estimated Prophet ->",
+            "He's Gone",
+            "Truckin' ->",
+            "Wharf Rat ->",
+            "Around & Around",
+        ];
+        assert_eq!(tracks.iter().map(|t| t.0.as_str()).collect::<Vec<_>>(), expected);
+        assert!(tracks[..12].iter().all(|t| t.1 == "Set 1"));
+        assert!(tracks[12..].iter().all(|t| t.1 == "Set 2"));
+        assert_eq!(missing_song("(missing) - Samson & Delilah").as_deref(), Some("Samson & Delilah"));
+    }
+    #[test]
+    fn reads_embedded_titles_case_insensitively() {
+        assert_eq!(
+            embedded_title(&serde_json::json!({"format":{"tags":{"TITLE":"Bertha>"}}})).as_deref(),
+            Some("Bertha>")
+        );
+        assert_eq!(
+            embedded_title(&serde_json::json!({"streams":[{"tags":{"title":"Sugaree"}}]})).as_deref(),
+            Some("Sugaree")
+        );
+        assert!(embedded_title(&serde_json::json!({"format":{"tags":{"title":" "}}})).is_none());
+    }
     #[test]
     fn cancels_jobs_and_refuses_overlapping_work() {
         let service = Service::default();

@@ -3,6 +3,20 @@ using System.Text.Json;
 using Jupiter.ShowPlayer.Interop;
 using Jupiter.ShowPlayer.Interop.Messages;
 
+if (args.Length >= 2 && args[0] == "--verify-winterland")
+{
+    using var checkCore = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(Environment.CurrentDirectory, "work", "winterland-check-" + Guid.NewGuid().ToString("N")), AudioOutput = "null" });
+    var imported = checkCore.InspectShow(args[1]);
+    string[] expected = ["Bertha ->", "Good Lovin'", "Brown-Eyed Women", "Cassidy", "Peggy-O", "Looks Like Rain", "Dire Wolf", "Passenger", "Candyman", "El Paso", "Friend of the Devil", "The Music Never Stopped", "Cold Rain & Snow", "Lazy Lightnin' ->", "Supplication", "Scarlet Begonias ->", "Fire on the Mountain", "Estimated Prophet ->", "He's Gone", "Truckin' ->", "Wharf Rat ->", "Around & Around"];
+    Require(imported.Tracks.Select(t => t.Title).SequenceEqual(expected), "Real-folder song titles do not match the TXT setlist");
+    Require(imported.Tracks.Take(12).All(t => t.Set == "Set 1") && imported.Tracks.Skip(12).All(t => t.Set == "Set 2"), "Real-folder sets are incorrect");
+    Require(imported.Artist == "Grateful Dead" && imported.Date == "1977-12-27" && imported.Venue == "Winterland Arena", "Real-folder header is incorrect");
+    Require(imported.Warnings.Count == 1 && imported.Warnings[0].Contains("Samson & Delilah"), "Missing encore warning is incorrect");
+    Console.WriteLine("PASS actual Winterland folder: all 22 titles, 12 Set 1 / 10 Set 2, artist/date/venue, missing encore warning");
+    if (args.Length >= 3) File.WriteAllText(args[2], Google.Protobuf.JsonFormatter.Default.Format(imported));
+    return;
+}
+
 string fixture = args.Length > 0 ? Path.GetFullPath(args[0]) : Path.Combine(Path.GetTempPath(), "show-player-check-" + Guid.NewGuid().ToString("N"));
 Directory.CreateDirectory(fixture);
 string tools = Path.Combine(AppContext.BaseDirectory, "tools");
@@ -23,7 +37,7 @@ static void Require(bool condition, string message) { if (!condition) throw new 
 string source = Path.Combine(fixture, "source's show"); Directory.CreateDirectory(source);
 foreach (int track in new[] { 1, 2, 10 })
 {
-    Ffmpeg("-v", "error", "-y", "-f", "lavfi", "-i", $"sine=frequency={300+track*20}:duration=12", "-ar", "44100", "-ac", "2", "-c:a", "flac", Path.Combine(source, $"track{track}.flac"));
+    Ffmpeg("-v", "error", "-y", "-f", "lavfi", "-i", $"sine=frequency={300+track*20}:duration=12", "-ar", "44100", "-ac", "2", "-c:a", "flac", "-metadata", $"title=Embedded song {track}", Path.Combine(source, $"track{track}.flac"));
 }
 string notes = "Grateful Dead\r\n1977-05-08\r\nBarton Hall\r\nSet 1:\r\n01. Test opening >\r\n02. Test transition\r\nEncore:\r\n03. Test encore\r\nSource: synthetic audio for verification\r\n";
 File.WriteAllText(Path.Combine(source, "show.txt"), notes);
@@ -34,6 +48,12 @@ Require(draft.Tracks.Count == 3 && draft.Artist == "Grateful Dead" && draft.Date
 Require(Path.GetFileName(draft.Tracks[2].Path) == "track10.flac", "Natural order mismatch");
 Require(draft.Tracks[2].Set == "Encore" && draft.Tracks[0].Title == "Test opening >", "Set or song parsing failed");
 Require(core.SearchRecordings("1993-09-22", "All sources").Count > 0, "Catalogue search failed");
+string incompleteNotes = Path.Combine(fixture, "incomplete.txt");
+File.WriteAllText(incompleteNotes, "Grateful Dead\n1977-05-08\nBarton Hall\n01. One entry\n");
+var fallback = core.InspectShow(source, incompleteNotes);
+Require(fallback.Tracks.Select(t => t.Title).SequenceEqual(new[] { "Embedded song 1", "Embedded song 2", "Embedded song 10" }), "Embedded title fallback failed");
+Require(fallback.Warnings.Count > 0, "Mismatched TXT should remain visible");
+Console.WriteLine("PASS mismatched TXT falls back to embedded audio titles");
 foreach (bool copy in new[] { true, false })
 {
     string output = Path.Combine(fixture, copy ? "copy.mka" : "flac.mka");
