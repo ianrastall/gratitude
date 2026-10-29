@@ -42,6 +42,15 @@ pub struct Recording {
     pub url: String,
     pub key: String,
     pub detail: String,
+    pub source_kind: String,
+    pub source_summary: String,
+    pub credits: String,
+    pub date: String,
+    pub venue: String,
+    pub show_info: String,
+    pub evidence: String,
+    pub modifiers: Vec<String>,
+    pub inferred: bool,
 }
 #[derive(Clone, Debug, Default, Serialize, Deserialize)]
 pub struct Job {
@@ -102,7 +111,14 @@ fn get_bytes(url: &str) -> Result<Vec<u8>, String> {
         .map_err(|e| e.to_string())
 }
 fn rx(pattern: &str) -> Regex {
-    Regex::new(pattern).expect("static regex")
+    static PATTERNS: std::sync::OnceLock<Mutex<std::collections::HashMap<String, Regex>>> = std::sync::OnceLock::new();
+    PATTERNS
+        .get_or_init(Default::default)
+        .lock()
+        .unwrap_or_else(|e| e.into_inner())
+        .entry(pattern.to_owned())
+        .or_insert_with(|| Regex::new(pattern).expect("static regex"))
+        .clone()
 }
 /// Segue notation belongs in the original notes, not song/chapter names.
 pub fn clean_title(title: &str) -> String {
@@ -413,6 +429,7 @@ pub fn catalogue(data: &Path, query: &str, source: &str) -> Result<Vec<Recording
                     url: format!("https://bt.etree.org/details.php?torrentId={id}"),
                     key: format!("etree-{id}"),
                     detail: format!("Saved listing; {} seeds at capture (not live)", r["seeds"].as_u64().unwrap_or(0)),
+                    ..Default::default()
                 });
             }
         }
@@ -431,6 +448,7 @@ pub fn catalogue(data: &Path, query: &str, source: &str) -> Result<Vec<Recording
                     url: format!("https://archive.org/details/{id}"),
                     key: id.into(),
                     detail: "Saved listing; download availability will be checked".into(),
+                    ..Default::default()
                 });
             }
         }

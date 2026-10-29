@@ -36,6 +36,8 @@ public sealed record StartupOptions(string? DataDirectory, string? AudioOutput, 
 
 public partial class App : Application
 {
+    public event Action? RecordingPrioritiesChanged;
+    public void NotifyRecordingPrioritiesChanged() => RecordingPrioritiesChanged?.Invoke();
     private MainWindow? _window;
 
     public App()

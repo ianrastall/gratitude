@@ -77,7 +77,7 @@ try {
     Invoke-Step 'publish app' { dotnet publish src/ShowPlayer.App -c Release -o $appDir --nologo -v q }
 
     # Without the app's own .pri the published app crashes at startup.
-    foreach ($file in 'ShowPlayer.exe', 'ShowPlayer.pri', 'show_player_ffi.dll', 'libmpv-2.dll', 'Assets/AppIcon.ico', 'tools/aria2c.exe', 'tools/ffmpeg.exe', 'tools/ffprobe.exe', 'data/gd_torrents.json') {
+    foreach ($file in 'ShowPlayer.exe', 'ShowPlayer.pri', 'show_player_ffi.dll', 'libmpv-2.dll', 'Assets/AppIcon.ico', 'tools/aria2c.exe', 'tools/ffmpeg.exe', 'tools/ffprobe.exe', 'data/gd-shows.xml', 'data/gdshowsdb-LICENSE.txt') {
         if (-not (Test-Path (Join-Path $appDir $file))) { throw "The published folder is missing $file." }
     }
 

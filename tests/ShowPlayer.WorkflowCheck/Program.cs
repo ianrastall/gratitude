@@ -39,7 +39,7 @@ foreach (int track in new[] { 1, 2, 10 })
 {
     Ffmpeg("-v", "error", "-y", "-f", "lavfi", "-i", $"sine=frequency={300+track*20}:duration=12", "-ar", "44100", "-ac", "2", "-c:a", "flac", "-metadata", $"title=Embedded song {track} ->", Path.Combine(source, $"track{track}.flac"));
 }
-string notes = "Grateful Dead\r\n1977-05-08\r\nBarton Hall\r\nSet 1:\r\n01. Test opening >\r\n02. Test transition\r\nEncore:\r\n03. Test encore\r\nSource: synthetic audio for verification\r\n";
+string notes = "Grateful Dead\r\n1977-05-08\r\nBarton Hall\r\nSet 1:\r\n01. Test opening >\r\n02. Test transition\r\nEncore:\r\n03. Test encore\r\nSource: SBD synthetic audio for verification\r\n";
 File.WriteAllText(Path.Combine(source, "show.txt"), notes);
 using var core = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(fixture, "data"), AudioOutput = "null" });
 core.Start();
@@ -48,6 +48,18 @@ Require(draft.Tracks.Count == 3 && draft.Artist == "Grateful Dead" && draft.Date
 Require(Path.GetFileName(draft.Tracks[2].Path) == "track10.flac", "Natural order mismatch");
 Require(draft.Tracks[2].Set == "Encore" && draft.Tracks[0].Title == "Test opening", "Set or song parsing failed");
 Require(core.SearchRecordings("1993-09-22", "All sources").Count > 0, "Catalogue search failed");
+var priorities = core.GetPriorities();
+Require(priorities.Sources.Take(3).SequenceEqual(new[] { "SBD", "MTX", "AUD" }), "Default source priorities are incorrect");
+var cornell = core.SearchRecordings("1977-05-08", "All sources");
+Require(cornell.Count > 0 && cornell[0].SourceKind == "SBD" && cornell[0].ShowInfo.Contains("Scarlet Begonias"), "XML show facts or source ranking are missing");
+var audienceFirst = priorities.Clone();
+audienceFirst.Sources.Clear(); audienceFirst.Sources.Add(new[] { "AUD", "MTX", "SBD" });
+core.SetPriorities(audienceFirst);
+Require(core.SearchRecordings("1977-05-08", "All sources")[0].SourceKind == "AUD", "Personal priorities did not reorder recordings");
+using (var reopened = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(fixture, "data"), AudioOutput = "null" }))
+    Require(reopened.GetPriorities().Sources[0] == "AUD", "Priorities were not persisted");
+core.SetPriorities(priorities);
+Console.WriteLine("PASS XML show/setlist search, source badges, personal ranking and persisted priorities");
 string incompleteNotes = Path.Combine(fixture, "incomplete.txt");
 File.WriteAllText(incompleteNotes, "Grateful Dead\n1977-05-08\nBarton Hall\n01. One entry\n");
 var fallback = core.InspectShow(source, incompleteNotes);
@@ -63,6 +75,7 @@ foreach (bool copy in new[] { true, false })
     ShowJob job;
     do { Thread.Sleep(100); job = core.GetJob(); } while (job.State == "Running" && timer.Elapsed.TotalSeconds < 45);
     Require(job.State == "Completed", "Packaging failed: " + job.Log);
+    Require(core.ListBooks(fixture).Single(b => b.Path == output).SourceKind == "SBD", "Library lost the recording type stored in MKA notes");
     using var probe = JsonDocument.Parse(Run(Path.Combine(tools, "ffprobe.exe"), "-v", "error", "-show_chapters", "-show_streams", "-show_format", "-of", "json", output));
     Require(probe.RootElement.GetProperty("chapters").GetArrayLength() == 3, "Wrong chapter count");
     Require(probe.RootElement.GetProperty("chapters")[0].GetProperty("tags").GetProperty("title").GetString() == "Set 1 / Test opening", "Export retained a manually entered segue marker");

@@ -23,7 +23,7 @@ public sealed record ChapterRow(int Index, string Number, string Title, string L
 }
 
 /// <summary>One row of the Books pane.</summary>
-public sealed record BookRow(string Path, string Title, string Detail)
+public sealed record BookRow(string Path, string Title, string Detail,string SourceInfo,string Credits)
 {
     public override string ToString() => $"{Title}, {Detail}";
 }
@@ -60,6 +60,8 @@ public sealed partial class MainWindow : Window
     private void OnImportShow(object sender, RoutedEventArgs e) => OpenWorkshop("import");
     private void OnFindRecordings(object sender, RoutedEventArgs e) => OpenWorkshop("find");
     private void OnShowJob(object sender, RoutedEventArgs e) => OpenWorkshop("job");
+    private void OnRecordingPriorities(object sender, RoutedEventArgs e) => PrioritiesControl.OpenEditor();
+    private void OnPriorityChange() => _ = RefreshBooksAsync();
 
     // A projection of the core's state, kept from its events and snapshots.
     private ulong _generation;          // newest generation seen in an event
@@ -123,6 +125,8 @@ public sealed partial class MainWindow : Window
         _volume = initial.Volume;
         _mute = initial.Mute;
         _core.Start();
+        PrioritiesControl.Configure(_core);
+        App.Current.RecordingPrioritiesChanged += OnPriorityChange;
 
         // With no book named on the command line, carry on with the last one.
         string? startup = options.OpenPath ?? (_lastBook.Length > 0 ? _lastBook : null);
@@ -496,7 +500,7 @@ public sealed partial class MainWindow : Window
         string search = BookSearch.Text.Trim();
         var rows = _books
             .Where(b => search.Length == 0 || b.Title.Contains(search, StringComparison.CurrentCultureIgnoreCase))
-            .Select(b => new BookRow(b.Path, b.Title, BookDetail(b)))
+            .Select(b => new BookRow(b.Path, b.Title, BookDetail(b),b.SourceSummary,string.IsNullOrWhiteSpace(b.Credits)?"People: not identified":b.Credits))
             .ToList();
         BookList.ItemsSource = rows;
         bool empty = rows.Count == 0;
@@ -559,8 +563,8 @@ public sealed partial class MainWindow : Window
         RecentMenu.Items.Clear();
         foreach (Book book in recent)
         {
-            var item = new MenuFlyoutItem { Text = book.Title, Tag = book.Path, IsEnabled = book.Exists };
-            ToolTipService.SetToolTip(item, book.Path);
+            var item = new MenuFlyoutItem { Text = $"{book.SourceSummary} | {book.Title}", Tag = book.Path, IsEnabled = book.Exists };
+            ToolTipService.SetToolTip(item, $"{book.Credits}\n{book.Path}");
             item.Click += (_, _) => OpenBook(book.Path);
             RecentMenu.Items.Add(item);
         }
@@ -970,6 +974,7 @@ public sealed partial class MainWindow : Window
 
     private void OnClosed(object sender, WindowEventArgs args)
     {
+        App.Current.RecordingPrioritiesChanged -= OnPriorityChange;
         _workshop?.Close();
         _closed = true;
         SaveLayout();

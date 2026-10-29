@@ -3,6 +3,7 @@
 //! the C ABI facade (`show_player_ffi`) and the console harness are its
 //! front ends.
 
+pub mod catalogue;
 pub mod library;
 pub mod matroska;
 pub mod mpv;

@@ -145,6 +145,7 @@ impl EventSink for QueueSink {
 }
 
 pub struct CoreHandle {
+    data_dir: PathBuf,
     shows: show_player_core::shows::Service,
     player: Player,
     events: Arc<EventQueue>,
@@ -199,8 +200,19 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
         Ok(()) => ok(response::Result::Done(messages::Empty {})),
         Err(code) => player_error(id, code),
     };
-    let books = |r: Result<Vec<library::BookEntry>, String>| match r {
-        Ok(list) => ok(response::Result::Books(convert::books_to_message(&list))),
+    let books = |r: Result<Vec<library::BookEntry>, String>, ranked: bool| match r {
+        Ok(mut list) => {
+            let preferences = show_player_core::catalogue::Priorities::load(&core.data_dir);
+            if ranked {
+                list.sort_by_cached_key(|b| {
+                    let mut p = show_player_core::catalogue::classify(&b.evidence, &b.path, "", "", "", "");
+                    p.kind = b.source_kind.clone();
+                    p.modifiers = b.modifiers.clone();
+                    (show_player_core::catalogue::rank(&p, &preferences), b.title.clone())
+                });
+            }
+            ok(response::Result::Books(convert::books_to_message(&list)))
+        }
         Err(e) => error_response(id, ErrorKind::Io, e),
     };
     let player = &core.player;
@@ -213,13 +225,25 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
         Some(C::SearchRecordings(s)) => {
             let data =
                 std::env::current_exe().ok().and_then(|p| p.parent().map(|p| p.join("data"))).unwrap_or_default();
-            match show_player_core::shows::catalogue(&data, &s.query, &s.source) {
+            match show_player_core::catalogue::search(
+                &data.join("gd-shows.xml"),
+                &s.query,
+                &s.source,
+                &show_player_core::catalogue::Priorities::load(&core.data_dir),
+            ) {
                 Ok(rows) => ok(response::Result::Recordings(messages::RecordingList {
                     items: rows.into_iter().map(Into::into).collect(),
                 })),
                 Err(e) => error_response(id, ErrorKind::Io, e),
             }
         }
+        Some(C::GetPriorities(_)) => {
+            ok(response::Result::Priorities(show_player_core::catalogue::Priorities::load(&core.data_dir).into()))
+        }
+        Some(C::SetPriorities(p)) => match show_player_core::catalogue::Priorities::from(p).save(&core.data_dir) {
+            Ok(p) => ok(response::Result::Priorities(p.into())),
+            Err(e) => error_response(id, ErrorKind::InvalidArgument, e),
+        },
         Some(C::PackageShow(s)) => match s.draft {
             Some(d) => match core.shows.package(d.into(), PathBuf::from(s.output), s.copy_audio) {
                 Ok(j) => ok(response::Result::Job(j.into())),
@@ -257,11 +281,11 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
             if l.folder.is_empty() {
                 return error_response(id, ErrorKind::InvalidArgument, "No folder was given.");
             }
-            books(library::list_folder(&mut lock(&core.reader), Path::new(&l.folder)))
+            books(library::list_folder(&mut lock(&core.reader), Path::new(&l.folder)), true)
         }
         Some(C::RecentBooks(r)) => {
             let limit = if r.limit == 0 { DEFAULT_RECENT } else { r.limit as usize };
-            books(library::recent(&mut lock(&core.reader), limit))
+            books(library::recent(&mut lock(&core.reader), limit), false)
         }
         None => error_response(id, ErrorKind::UnknownCommand, "Unknown or missing command."),
     }
@@ -299,6 +323,7 @@ pub fn create(config: messages::CoreConfig) -> Result<CoreHandle, Box<messages::
     )
     .map_err(|e| fail(convert::error_kind(e.code), e.message))?;
     Ok(CoreHandle {
+        data_dir: data_dir.clone(),
         shows: Default::default(),
         player,
         events,

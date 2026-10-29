@@ -90,6 +90,64 @@ pub fn read_title(path: &Path) -> Option<String> {
     None
 }
 
+/// Source/credit notes from bounded Matroska tags before the first cluster.
+pub fn read_source_notes(path: &Path) -> String {
+    fn tags(bytes: &[u8], depth: u32, out: &mut Vec<String>) {
+        if depth > 8 {
+            return;
+        }
+        let mut cursor = std::io::Cursor::new(bytes);
+        let mut name = String::new();
+        let mut value = String::new();
+        while (cursor.position() as usize) < bytes.len() {
+            let Some((id, Some(size))) = read_element(&mut cursor) else { break };
+            let start = cursor.position() as usize;
+            let Some(end) = start.checked_add(size as usize).filter(|&end| end <= bytes.len()) else { break };
+            match id {
+                0x7373 | 0x67C8 => tags(&bytes[start..end], depth + 1, out),
+                0x45A3 => name = String::from_utf8_lossy(&bytes[start..end]).to_uppercase(),
+                0x4487 if size < 1024 * 1024 => value = String::from_utf8_lossy(&bytes[start..end]).into_owned(),
+                _ => {}
+            }
+            cursor.set_position(end as u64);
+        }
+        if ["COMMENT", "DESCRIPTION", "SOURCE", "SOURCE_TYPE", "TAPER", "TRANSFERER", "LINEAGE", "CREDITS"]
+            .contains(&name.as_str())
+            && !value.is_empty()
+        {
+            out.push(value);
+        }
+    }
+    let read = || -> Option<String> {
+        let mut file = BufReader::new(File::open(path).ok()?);
+        let (id, size) = read_element(&mut file)?;
+        if id != EBML_HEADER {
+            return None;
+        }
+        skip(&mut file, size?)?;
+        if read_element(&mut file)?.0 != SEGMENT {
+            return None;
+        }
+        let mut values = Vec::new();
+        while file.stream_position().ok()? < MAX_SCAN_BYTES {
+            let (id, size) = read_element(&mut file)?;
+            if id == CLUSTER {
+                break;
+            }
+            let size = size?;
+            if id == 0x1254_C367 && size < 4 * 1024 * 1024 {
+                let mut bytes = vec![0; size as usize];
+                file.read_exact(&mut bytes).ok()?;
+                tags(&bytes, 0, &mut values);
+            } else {
+                skip(&mut file, size)?;
+            }
+        }
+        Some(values.join("\n"))
+    };
+    read().unwrap_or_default()
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -117,6 +175,21 @@ mod tests {
         let path = dir.path().join("book.mka");
         std::fs::write(&path, &file).unwrap();
         assert_eq!(read_title(&path).as_deref(), Some("Earth\u{2019}s Children"));
+    }
+
+    #[test]
+    fn reads_source_notes_without_using_song_titles() {
+        let mut tag = element(&[0x45, 0xA3], b"COMMENT");
+        tag.extend(element(&[0x44, 0x87], b"SBD; Charlie Miller"));
+        let simple = element(&[0x67, 0xC8], &tag);
+        let mut file = element(&[0x1A, 0x45, 0xDF, 0xA3], &[]);
+        file.extend([0x18, 0x53, 0x80, 0x67, 0xFF]);
+        file.extend(element(&[0x12, 0x54, 0xC3, 0x67], &element(&[0x73, 0x73], &simple)));
+        file.extend(element(&[0x1F, 0x43, 0xB6, 0x75], &[]));
+        let dir = tempfile::tempdir().unwrap();
+        let path = dir.path().join("source.mka");
+        std::fs::write(&path, &file).unwrap();
+        assert_eq!(read_source_notes(&path), "SBD; Charlie Miller");
     }
 
     #[test]

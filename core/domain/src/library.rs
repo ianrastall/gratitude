@@ -11,6 +11,11 @@ pub const BOOK_EXTENSIONS: [&str; 1] = ["mka"];
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct BookEntry {
+    pub source_summary: String,
+    pub credits: String,
+    pub source_kind: String,
+    pub evidence: String,
+    pub modifiers: Vec<String>,
     pub path: String,
     pub title: String,
     pub position_ms: i64,
@@ -41,7 +46,22 @@ fn entry(path: String, row: Option<BookRow>) -> BookEntry {
     let title = title_of(&path, row.as_ref().map(|r| r.title.as_str()));
     let (position_ms, duration_ms, finished, last_played_utc) =
         row.map_or((0, 0, false, 0), |r| (r.position_ms, r.duration_ms, r.finished, r.last_played_utc));
-    BookEntry { path, title, position_ms, duration_ms, finished, last_played_utc, exists }
+    let notes = matroska::read_source_notes(Path::new(&path));
+    let profile = crate::catalogue::classify(&notes, &format!("{title} {path}"), "", "", "", "");
+    BookEntry {
+        source_summary: profile.summary(),
+        credits: profile.credits,
+        source_kind: profile.kind,
+        evidence: profile.evidence,
+        modifiers: profile.modifiers,
+        path,
+        title,
+        position_ms,
+        duration_ms,
+        finished,
+        last_played_utc,
+        exists,
+    }
 }
 
 /// The books directly in `folder`, by title. A store that cannot be read

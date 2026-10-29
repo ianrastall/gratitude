@@ -1,6 +1,8 @@
 # Show Player
 
-A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.1.2. Working name: Show Player.
+A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.2.0. Working name: Show Player.
+
+0.2.0 adds a single attributed XML catalogue for 1967–1995, show setlists, prominent recording types/modifiers/credits, and personal recording priorities at the top right of the player and workshop. See `docs/catalogue.md` for coverage, structure and rebuilding.
 
 0.1.2 removes segue arrows from song/chapter titles, including embedded tags and playback of existing MKAs. Export preserves the original sample rate and bit depth, rejects mismatched source formats and verifies output precision before saving. No gaps, fades or silence trimming are applied; existing source silence is retained.
 
@@ -18,7 +20,9 @@ The default mode copies compressed audio without re-encoding. Uncheck **Copy com
 
 Sets are represented in chapter names, such as `Set 2 / Dark Star`. Continuation indicators such as `>`, `->` and `→` are removed from song names; an internal medley connector becomes a slash. This affects display/exported chapter names, not the source tags or notes. The original TXT is attached unchanged as `show-notes.txt`; its text also appears under **Recording notes** in the player. Each audio file becomes one chapter. A recording that needs cuts inside one file requires preparation outside this version.
 
-**Find recordings** searches the two catalogues supplied by Ian on 29 October 2026. Search results and seed counts are historical snapshots, not a live index. Search a date such as `1993-09-22`, a taper or a source identifier. The first 500 matches are shown; narrow the search or choose a source to see other matches. Two-digit `gd93-09-22` names also match the four-digit date.
+**Find recordings** searches `data/gd-shows.xml`: show facts/setlists from gdshowsdb, Archive recording metadata, Infinite Dead source links and Ian's historical listings. Search a date such as `1993-09-22`, venue, song, person or source identifier. Up to 500 matches are shown after personal ranking; narrow the search or choose a provider to see other matches. Search results and seed counts are historical snapshots, not a live index. Metadata-only dates, unknown facts and inferred source classifications are labelled.
+
+The top-right **Priorities** control saves source, people and modifier order per Windows user. Defaults are SBD, MTX, AUD, FM, UNKNOWN, then Betty, Miller. Choose whether source type or people rank first. FOB is a location modifier; FM can be a broadcast modifier or the primary type when no more specific type is known. Credits preserve recording versus transfer/mastering roles where supplied. Recent shows keep chronological order and also display source information.
 
 Before a download, the app resolves the current etree torrent link or queries Archive metadata. Archive restricted/stream-only items are refused; downloadable items select original files rather than all derived encodings. Downloads run through bundled aria2, including HTTP web seeds where the torrent supplies them. The default is 30 minutes of seeding after download, with a 256 KiB/s upload cap. BitTorrent also uploads during download. Choose 0, 30 or 120 minutes before starting.
 
@@ -44,7 +48,7 @@ The normal release runs formatting, Clippy, Rust tests, managed/native workflow 
 | `core/ffi`, `proto` | Rust-owned protobuf C ABI and generated message schema |
 | `src/ShowPlayer.Interop` | Managed native lifetime and typed operations |
 | `src/ShowPlayer.App` | WinUI 3/Jupiter.UI player and workshop |
-| `data` | User-supplied GD catalogue snapshots |
+| `data` | Runtime XML catalogue, source licence and historical rebuild inputs |
 | `tests` | Core/ABI, packaging/audio preservation, playback/resume and webseed verification |
 
 Playback and installer infrastructure is adapted from Ian's Jupiter Audio Bookshelf project; Show Player has separate application, installation and data identities. See `docs/project-brief.md`, `docs/jupiter-exceptions.md` and `docs/validation.md`.

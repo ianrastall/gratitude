@@ -198,6 +198,8 @@ public sealed class AudioCore : IDisposable
         Query(new Request { DownloadRecording = new DownloadRecording { Recording = recording, Destination = destination, SeedMinutes = seedMinutes } }).Job;
     public ShowJob GetJob() => Query(new Request { GetJob = NoArguments }).Job;
     public void CancelJob() => Query(new Request { CancelJob = NoArguments });
+    public RecordingPriorities GetPriorities() => Query(new Request { GetPriorities = NoArguments }).Priorities;
+    public RecordingPriorities SetPriorities(RecordingPriorities priorities) => Query(new Request { SetPriorities = priorities }).Priorities;
 
     /// <summary>Opens a book. The returned id comes back in its BookLoaded or LoadFailed event.</summary>
     public ErrorKind Open(string path, out ulong requestId)

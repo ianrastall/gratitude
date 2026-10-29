@@ -13,6 +13,9 @@ public sealed record RecordingRow(Recording Recording)
 {
     public string Title => Recording.Title;
     public string Detail => $"{Recording.Source} · {Recording.Detail}";
+    public string SourceInfo => Recording.SourceSummary + (Recording.Inferred ? " · type inferred from identifier" : "");
+    public string ShowHeading => $"{Recording.Date} · {Recording.Venue}";
+    public string Credits => string.IsNullOrWhiteSpace(Recording.Credits) ? "People: not identified in this snapshot" : Recording.Credits;
     public override string ToString() => Title;
 }
 
@@ -31,13 +34,15 @@ public sealed partial class WorkshopWindow : Window
         _main = main;
         _core = core;
         InitializeComponent();
+        PrioritiesControl.Configure(core);
+        App.Current.RecordingPrioritiesChanged += OnPriorityChange;
         App.Current.Accent.Attach(Root);
         App.Current.Theme.Attach(this);
         AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets", "AppIcon.ico"));
         DestinationBox.Text = App.Current.Settings.DownloadFolder ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), "Show Player", "Sources");
         _timer.Tick += (_, _) => PollJob();
         _timer.Start();
-        Closed += (_, _) => { _closed = true; _timer.Stop(); };
+        Closed += (_, _) => { _closed = true; _timer.Stop(); App.Current.RecordingPrioritiesChanged -= OnPriorityChange; };
         Root.Loaded += (_, _) =>
         {
             double scale = Root.XamlRoot.RasterizationScale;
@@ -58,6 +63,7 @@ public sealed partial class WorkshopWindow : Window
         Navigation.SelectedItem = Navigation.MenuItems.OfType<NavigationViewItem>().First(i => (string)i.Tag == page);
         Activate();
     }
+    private void OnPriorityChange() { if (RecordingsList.ItemsSource is not null) _ = Search(); }
 
     private void OnNavigation(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
     {
@@ -201,12 +207,15 @@ public sealed partial class WorkshopWindow : Window
         _searching = true;
         SearchSummary.Text = "Searching saved listings…";
         string query = SearchBox.Text, source = SourceBox.SelectedItem?.ToString() ?? "All sources";
+        string? selected = (RecordingsList.SelectedItem as RecordingRow)?.Recording.Key;
         try
         {
             var rows = await Task.Run(() => _core.SearchRecordings(query, source));
             if (_closed) return;
-            RecordingsList.ItemsSource = rows.Select(r => new RecordingRow(r)).ToList();
-            SearchSummary.Text = $"{rows.Count} matches{(rows.Count == 500 ? " (first 500; narrow your search)" : "")} · seed counts are saved, not live";
+            var results = rows.Select(r => new RecordingRow(r)).ToList();
+            RecordingsList.ItemsSource = results;
+            RecordingsList.SelectedIndex = results.FindIndex(r => r.Recording.Key == selected);
+            SearchSummary.Text = $"{rows.Count} matches{(rows.Count == 500 ? " (first 500; narrow your search)" : "")} · ranked by your priorities · attributed offline XML snapshot";
         }
         catch (Exception ex) { Error(ex); }
         finally { _searching = false; }
@@ -217,6 +226,9 @@ public sealed partial class WorkshopWindow : Window
     {
         var row = RecordingsList.SelectedItem as RecordingRow;
         RecordingTitle.Text = row?.Title ?? "Select a recording.";
+        RecordingSourceInfo.Text = row?.SourceInfo ?? "";
+        RecordingCredits.Text = row?.Credits ?? "";
+        ShowInfoText.Text = row?.Recording.ShowInfo ?? "";
         DetailsLink.IsEnabled = DownloadButton.IsEnabled = row is not null;
         DetailsLink.NavigateUri = row is null ? null : new Uri(row.Recording.Url);
     }

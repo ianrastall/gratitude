@@ -109,6 +109,8 @@ message Request {
     DownloadRecording download_recording = 19;
     Empty get_job = 20;
     Empty cancel_job = 21;
+    Empty get_priorities = 22;
+    RecordingPriorities set_priorities = 23;
   }
 }
 
@@ -162,6 +164,11 @@ message Book {
   // Seconds since 1970 (UTC); 0 if never played.
   int64 last_played_utc = 6;
   bool exists = 7;
+  string source_summary = 8;
+  string credits = 9;
+  string source_kind = 10;
+  string evidence = 11;
+  repeated string modifiers = 12;
 }
 
 message BookList {
@@ -178,6 +185,7 @@ message Response {
     ShowDraft show_draft = 6;
     RecordingList recordings = 7;
     ShowJob job = 8;
+    RecordingPriorities priorities = 9;
   }
 }
 
@@ -250,6 +258,21 @@ message Recording {
   string url = 3;
   string key = 4;
   string detail = 5;
+  string source_kind = 6;
+  string source_summary = 7;
+  string credits = 8;
+  string date = 9;
+  string venue = 10;
+  string show_info = 11;
+  string evidence = 12;
+  repeated string modifiers = 13;
+  bool inferred = 14;
+}
+message RecordingPriorities {
+  repeated string sources = 1;
+  repeated string people = 2;
+  repeated string modifiers = 3;
+  bool people_first = 4;
 }
 message RecordingList { repeated Recording items = 1; }
 message ShowJob {

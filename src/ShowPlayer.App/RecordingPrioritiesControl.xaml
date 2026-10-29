@@ -1,0 +1,18 @@
+<UserControl x:Class="Jupiter.ShowPlayer.App.RecordingPrioritiesControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+ <Button x:Name="OpenButton" Click="OnOpen" HorizontalAlignment="Right" MaxWidth="640" ToolTipService.ToolTip="Choose recording priorities">
+  <TextBlock x:Name="Summary" Text="Priorities: SBD > MTX > AUD | Betty > Miller" TextWrapping="Wrap" Style="{StaticResource JupiterCaptionTextStyle}"/>
+  <Button.Flyout><Flyout x:Name="Editor" Placement="BottomEdgeAlignedRight"><ScrollViewer MaxHeight="640"><StackPanel Width="400" Spacing="12">
+    <TextBlock Text="Recording priorities" Style="{StaticResource JupiterPaneHeadingTextStyle}"/>
+    <TextBox x:Name="SourcesBox" Header="Source order, highest first" TextWrapping="Wrap"/>
+    <TextBlock Text="Comma-separated: SBD, MTX, AUD, FM, UNKNOWN. Unlisted types go last." TextWrapping="Wrap" Style="{StaticResource JupiterCaptionTextStyle}"/>
+    <TextBox x:Name="PeopleBox" Header="People order, highest first" TextWrapping="Wrap"/>
+    <TextBlock Text="Comma-separated names or aliases, for example Betty, Miller, Hunter Seamons. This ranks any credited role, including transfer/mastering." TextWrapping="Wrap" Style="{StaticResource JupiterCaptionTextStyle}"/>
+    <TextBox x:Name="ModifiersBox" Header="Optional modifier order, highest first" TextWrapping="Wrap"/>
+    <TextBlock Text="FOB, FM, PRE-FM, DSBD, ULTRAMATRIX or DTS. Leave empty for no modifier preference." TextWrapping="Wrap" Style="{StaticResource JupiterCaptionTextStyle}"/>
+    <RadioButtons x:Name="FirstBox" Header="Rank first" SelectedIndex="0"><x:String>Source type</x:String><x:String>People</x:String></RadioButtons>
+    <TextBlock x:Name="Problem" TextWrapping="Wrap" Style="{StaticResource JupiterCaptionTextStyle}"/>
+    <StackPanel Orientation="Horizontal" Spacing="8"><Button Content="Apply priorities" Style="{StaticResource AccentButtonStyle}" Click="OnApply"/><Button Content="Reset defaults" Click="OnReset"/></StackPanel>
+    <TextBlock Text="Applies to your recording lists and is saved for this Windows user. These are personal preferences; catalogue facts do not change." TextWrapping="Wrap" Style="{StaticResource JupiterCaptionTextStyle}"/>
+  </StackPanel></ScrollViewer></Flyout></Button.Flyout>
+ </Button>
+</UserControl>

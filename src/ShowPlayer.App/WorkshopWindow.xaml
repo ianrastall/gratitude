@@ -4,7 +4,9 @@
     xmlns:local="using:Jupiter.ShowPlayer.App"
     Title="Show workshop - Show Player">
     <Grid x:Name="Root" Background="{ThemeResource JupiterWindowBrush}">
-        <NavigationView x:Name="Navigation" PaneDisplayMode="Left" OpenPaneLength="224" CompactPaneLength="48" IsBackButtonVisible="Collapsed" IsSettingsVisible="True" SelectionChanged="OnNavigation">
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+        <local:RecordingPrioritiesControl x:Name="PrioritiesControl" HorizontalAlignment="Right" Margin="16,4"/>
+        <NavigationView Grid.Row="1" x:Name="Navigation" PaneDisplayMode="Left" OpenPaneLength="224" CompactPaneLength="48" IsBackButtonVisible="Collapsed" IsSettingsVisible="True" SelectionChanged="OnNavigation">
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="Import a show" Tag="import" Icon="OpenFile" />
                 <NavigationViewItem Content="Find recordings" Tag="find" Icon="Find" />
@@ -64,8 +66,8 @@
                     <Grid Padding="16" RowSpacing="8">
                         <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
                         <StackPanel Spacing="8">
-                            <TextBlock Text="Grateful Dead recordings" Style="{StaticResource JupiterPaneHeadingTextStyle}"/>
-                            <AutoSuggestBox x:Name="SearchBox" Header="Search saved listings" PlaceholderText="Date, venue, source or taper" QueryIcon="Find" QuerySubmitted="OnSearchSubmitted"/>
+                            <TextBlock Text="Grateful Dead recordings · 1967–1995" Style="{StaticResource JupiterPaneHeadingTextStyle}"/>
+                            <AutoSuggestBox x:Name="SearchBox" Header="Search show catalogue" PlaceholderText="Date, venue, song, source or person" QueryIcon="Find" QuerySubmitted="OnSearchSubmitted"/>
                             <StackPanel Orientation="Horizontal" Spacing="8">
                                 <ComboBox x:Name="SourceBox" Header="Source" SelectedIndex="0"><x:String>All sources</x:String><x:String>etree</x:String><x:String>Archive.org</x:String></ComboBox>
                                 <Button Content="Search" VerticalAlignment="Bottom" Click="OnSearch"/>
@@ -74,21 +76,27 @@
                         <TextBlock x:Name="SearchSummary" Grid.Row="1" Text="Saved catalogues are snapshots. Availability is checked before downloading." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                         <ListView x:Name="RecordingsList" Grid.Row="2" SelectionChanged="OnRecordingSelected" AutomationProperties.Name="Recording search results">
                             <ListView.ItemTemplate><DataTemplate x:DataType="local:RecordingRow"><StackPanel Spacing="4" Padding="0,4">
+                                <TextBlock Text="{x:Bind SourceInfo}" Style="{StaticResource JupiterBodyStrongTextStyle}" TextWrapping="Wrap"/>
+                                <TextBlock Text="{x:Bind ShowHeading}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap"/>
+                                <TextBlock Text="{x:Bind Credits}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                                 <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap"/>
                                 <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             </StackPanel></DataTemplate></ListView.ItemTemplate>
                         </ListView>
                     </Grid>
-                    <StackPanel Grid.Column="1" Padding="16" Spacing="16" Background="{ThemeResource JupiterSurfaceBrush}" BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="1,0,0,0">
+                    <ScrollViewer Grid.Column="1" Background="{ThemeResource JupiterSurfaceBrush}" BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="1,0,0,0"><StackPanel Padding="16" Spacing="16">
                         <TextBlock Text="Download recording" Style="{StaticResource JupiterPaneHeadingTextStyle}"/>
+                        <TextBlock x:Name="RecordingSourceInfo" Style="{StaticResource JupiterBodyStrongTextStyle}" TextWrapping="Wrap"/>
+                        <TextBlock x:Name="RecordingCredits" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                         <TextBlock x:Name="RecordingTitle" Text="Select a recording." Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap"/>
                         <HyperlinkButton x:Name="DetailsLink" Content="Open source page" IsEnabled="False"/>
+                        <Expander Header="Show info and setlist"><ScrollViewer MaxHeight="400"><TextBlock x:Name="ShowInfoText" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/></ScrollViewer></Expander>
                         <TextBox x:Name="DestinationBox" Header="Download folder" IsReadOnly="True" TextWrapping="Wrap"/>
                         <Button Content="Browse…" Click="OnDestination"/>
                         <ComboBox x:Name="SeedBox" Header="Seed after downloading" SelectedIndex="1"><x:String>0 minutes</x:String><x:String>30 minutes</x:String><x:String>120 minutes</x:String></ComboBox>
                         <TextBlock Text="BitTorrent uploads pieces while downloading. Uploads are capped at 256 KiB/s. Original files stay separate from your MKA." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                         <Button x:Name="DownloadButton" Content="Download recording" Style="{StaticResource AccentButtonStyle}" Click="OnDownload" IsEnabled="False"/>
-                    </StackPanel>
+                    </StackPanel></ScrollViewer>
                 </Grid>
                 <Grid x:Name="JobPage" Grid.Row="1" Padding="24" RowSpacing="16" Visibility="Collapsed">
                     <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>

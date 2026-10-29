@@ -3,7 +3,7 @@ resolver = "3"
 members = ["core/domain", "core/ffi", "cli"]
 
 [workspace.package]
-version = "0.1.2"
+version = "0.2.0"
 edition = "2024"
 rust-version = "1.99"
 publish = false
@@ -21,6 +21,7 @@ tempfile = "3.27.0"
 serde = { version = "1", features = ["derive"] }
 regex = "1"
 ureq = { version = "3.5.0", features = ["gzip"] }
+roxmltree = "0.21.2"
 
 [profile.release]
 panic = "unwind"

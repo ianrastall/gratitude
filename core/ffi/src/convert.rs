@@ -103,6 +103,11 @@ pub fn books_to_message(books: &[BookEntry]) -> messages::BookList {
         books: books
             .iter()
             .map(|b| messages::Book {
+                source_summary: b.source_summary.clone(),
+                credits: b.credits.clone(),
+                source_kind: b.source_kind.clone(),
+                evidence: b.evidence.clone(),
+                modifiers: b.modifiers.clone(),
                 path: b.path.clone(),
                 title: b.title.clone(),
                 position_ms: b.position_ms,
@@ -177,16 +182,56 @@ impl From<crate::messages::ShowDraft> for show_player_core::shows::Draft {
 }
 impl From<show_player_core::shows::Recording> for crate::messages::Recording {
     fn from(r: show_player_core::shows::Recording) -> Self {
-        Self { title: r.title, source: r.source, url: r.url, key: r.key, detail: r.detail }
+        Self {
+            title: r.title,
+            source: r.source,
+            url: r.url,
+            key: r.key,
+            detail: r.detail,
+            source_kind: r.source_kind,
+            source_summary: r.source_summary,
+            credits: r.credits,
+            date: r.date,
+            venue: r.venue,
+            show_info: r.show_info,
+            evidence: r.evidence,
+            modifiers: r.modifiers,
+            inferred: r.inferred,
+        }
     }
 }
 impl From<crate::messages::Recording> for show_player_core::shows::Recording {
     fn from(r: crate::messages::Recording) -> Self {
-        Self { title: r.title, source: r.source, url: r.url, key: r.key, detail: r.detail }
+        Self {
+            title: r.title,
+            source: r.source,
+            url: r.url,
+            key: r.key,
+            detail: r.detail,
+            source_kind: r.source_kind,
+            source_summary: r.source_summary,
+            credits: r.credits,
+            date: r.date,
+            venue: r.venue,
+            show_info: r.show_info,
+            evidence: r.evidence,
+            modifiers: r.modifiers,
+            inferred: r.inferred,
+        }
     }
 }
 impl From<show_player_core::shows::Job> for crate::messages::ShowJob {
     fn from(j: show_player_core::shows::Job) -> Self {
         Self { state: j.state, phase: j.phase, log: j.log, output: j.output }
+    }
+}
+impl From<crate::messages::RecordingPriorities> for show_player_core::catalogue::Priorities {
+    fn from(p: crate::messages::RecordingPriorities) -> Self {
+        Self { sources: p.sources, people: p.people, modifiers: p.modifiers, people_first: p.people_first }
+    }
+}
+impl From<show_player_core::catalogue::Priorities> for crate::messages::RecordingPriorities {
+    fn from(p: show_player_core::catalogue::Priorities) -> Self {
+        Self { sources: p.sources, people: p.people, modifiers: p.modifiers, people_first: p.people_first }
     }
 }
