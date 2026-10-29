@@ -1,0 +1,20 @@
+# Build output
+/target/
+/dist/
+/work/
+bin/
+obj/
+.vs/
+*.user
+__pycache__/
+
+# Third-party binaries are fetched, never committed. See third_party/README.md.
+/third_party/libmpv/
+/third_party/tools/
+
+# Media never goes in the repository
+*.mka
+*.mp3
+*.flac
+*.opus
+*.m4b

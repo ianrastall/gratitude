@@ -1,0 +1,261 @@
+// Messages across the Show Player C ABI (version 3). Generated into Rust
+// with prost and into C# with Google.Protobuf during each build.
+//
+// Evolution: never reuse a field number; reserve removed fields and names.
+// Unknown fields are ignored. An unknown enum value in a request is rejected
+// as INVALID_ARGUMENT; the shell treats an unknown state or event as idle or
+// ignores it.
+syntax = "proto3";
+
+package jupiter.show_player.v1;
+
+option csharp_namespace = "Jupiter.ShowPlayer.Interop.Messages";
+
+// Passed to ab_create.
+message CoreConfig {
+  // Where the resume store lives. Empty selects %LOCALAPPDATA%\show-player.
+  string data_dir = 1;
+  // libmpv-2.dll by absolute path. Empty selects the file beside the executable.
+  string engine_path = 2;
+  // The engine's audio output driver. Empty selects its default; "null" is silent.
+  string audio_output = 3;
+  // Milliseconds between saves while playing. Zero selects 5000.
+  uint32 save_interval_ms = 4;
+}
+
+enum PlaybackState {
+  PLAYBACK_STATE_IDLE = 0;
+  PLAYBACK_STATE_LOADING = 1;
+  PLAYBACK_STATE_PAUSED = 2;
+  PLAYBACK_STATE_PLAYING = 3;
+  PLAYBACK_STATE_FINISHED = 4;
+  PLAYBACK_STATE_MISSING = 5;
+  PLAYBACK_STATE_FAILED = 6;
+}
+
+// Why a book is missing or failed, or why a request was refused.
+enum ErrorKind {
+  ERROR_KIND_NONE = 0;
+  ERROR_KIND_INVALID_ARGUMENT = 1;
+  ERROR_KIND_INVALID_STATE = 2;
+  ERROR_KIND_NOT_FOUND = 3;
+  ERROR_KIND_IO = 4;
+  ERROR_KIND_STORE = 5;
+  ERROR_KIND_ENGINE = 6;
+  ERROR_KIND_UNKNOWN_COMMAND = 7;
+  ERROR_KIND_SHUTTING_DOWN = 8;
+  ERROR_KIND_INTERNAL = 9;
+}
+
+message Empty {}
+
+message Open {
+  string path = 1;
+}
+
+message Seek {
+  double seconds = 1;
+}
+
+message ChapterSelect {
+  int32 index = 1;
+}
+
+message SetVolume {
+  // 0 to 100.
+  double volume = 1;
+}
+
+message SetMute {
+  bool mute = 1;
+}
+
+message GetSnapshot {
+  bool include_chapters = 1;
+}
+
+message ListBooks {
+  string folder = 1;
+}
+
+message RecentBooks {
+  // Zero selects 10.
+  uint32 limit = 1;
+}
+
+// Playback commands queue work and return Done at once; their outcome
+// arrives as events. The request id of an Open comes back in its
+// BOOK_LOADED or LOAD_FAILED event.
+message Request {
+  uint64 request_id = 1;
+  oneof command {
+    Open open = 2;
+    Empty close_book = 3;
+    Empty play = 4;
+    Empty pause = 5;
+    Seek seek_absolute = 6;
+    Seek seek_relative = 7;
+    ChapterSelect chapter_select = 8;
+    Empty chapter_next = 9;
+    Empty chapter_previous = 10;
+    SetVolume set_volume = 11;
+    SetMute set_mute = 12;
+    GetSnapshot get_snapshot = 13;
+    ListBooks list_books = 14;
+    RecentBooks recent_books = 15;
+    InspectShow inspect_show = 16;
+    SearchRecordings search_recordings = 17;
+    PackageShow package_show = 18;
+    DownloadRecording download_recording = 19;
+    Empty get_job = 20;
+    Empty cancel_job = 21;
+  }
+}
+
+message Error {
+  ErrorKind kind = 1;
+  string message = 2;
+}
+
+message Chapter {
+  string title = 1;
+  double start = 2;
+  double end = 3;
+}
+
+// A consistent copy of the player's state at one moment.
+message Snapshot {
+  PlaybackState state = 1;
+  // Incremented by every open and close.
+  uint64 generation = 2;
+  ErrorKind error = 3;
+  int32 engine_error = 4;
+  // Current chapter index, -1 if none.
+  int32 chapter = 5;
+  int32 chapter_count = 6;
+  double position = 7;
+  double duration = 8;
+  double volume = 9;
+  bool mute = 10;
+  // The position is not being saved.
+  bool save_failed = 11;
+  // The stored record was finished when the book was opened.
+  bool was_finished = 12;
+  int64 file_size = 13;
+  string path = 14;
+  string title = 15;
+  string author = 16;
+  string comment = 17;
+  string codec = 18;
+  // The book loaded most recently, in this or an earlier run; empty if none.
+  string last_book = 19;
+  // Present only when requested.
+  repeated Chapter chapters = 20;
+}
+
+message Book {
+  string path = 1;
+  string title = 2;
+  int64 position_ms = 3;
+  int64 duration_ms = 4;
+  bool finished = 5;
+  // Seconds since 1970 (UTC); 0 if never played.
+  int64 last_played_utc = 6;
+  bool exists = 7;
+}
+
+message BookList {
+  repeated Book books = 1;
+}
+
+message Response {
+  uint64 request_id = 1;
+  oneof result {
+    Empty done = 2;
+    Error error = 3;
+    Snapshot snapshot = 4;
+    BookList books = 5;
+    ShowDraft show_draft = 6;
+    RecordingList recordings = 7;
+    ShowJob job = 8;
+  }
+}
+
+enum EventType {
+  EVENT_TYPE_UNSPECIFIED = 0;
+  EVENT_TYPE_STATE_CHANGED = 1;
+  EVENT_TYPE_BOOK_LOADED = 2;
+  EVENT_TYPE_LOAD_FAILED = 3;
+  EVENT_TYPE_POSITION = 4;
+  EVENT_TYPE_CHAPTER_CHANGED = 5;
+  EVENT_TYPE_FINISHED = 6;
+  EVENT_TYPE_SAVE_FAILED = 7;
+  EVENT_TYPE_SAVE_RECOVERED = 8;
+  EVENT_TYPE_VOLUME_CHANGED = 9;
+  EVENT_TYPE_LOG = 10;
+}
+
+// The player's state when the event was raised.
+message Event {
+  EventType type = 1;
+  uint64 generation = 2;
+  // The Open request answered (BOOK_LOADED, LOAD_FAILED); otherwise 0.
+  uint64 request_id = 3;
+  PlaybackState state = 4;
+  ErrorKind error = 5;
+  int32 engine_error = 6;
+  int32 chapter = 7;
+  double position = 8;
+  double duration = 9;
+  double volume = 10;
+  bool mute = 11;
+  // LOG only: 0 error, 1 warning, 2 information.
+  int32 log_level = 12;
+  string message = 13;
+}
+
+// Returned by ab_wait_events, oldest first.
+message EventBatch {
+  repeated Event events = 1;
+  // Events left out because the shell fell behind; positions are coalesced
+  // first, so this is normally zero.
+  uint32 dropped = 2;
+}
+
+message ShowTrack {
+  string path = 1;
+  string title = 2;
+  string set = 3;
+  double duration = 4;
+  uint32 sample_rate = 5;
+  uint32 channels = 6;
+  string codec = 7;
+}
+message ShowDraft {
+  string folder = 1;
+  string artist = 2;
+  string date = 3;
+  string venue = 4;
+  string notes_path = 5;
+  string notes = 6;
+  repeated string warnings = 7;
+  repeated ShowTrack tracks = 8;
+}
+message Recording {
+  string title = 1;
+  string source = 2;
+  string url = 3;
+  string key = 4;
+  string detail = 5;
+}
+message RecordingList { repeated Recording items = 1; }
+message ShowJob {
+  string state = 1;
+  string phase = 2;
+  string log = 3;
+  string output = 4;
+}
+message InspectShow { string folder = 1; string notes_path = 2; }
+message SearchRecordings { string query = 1; string source = 2; }
+message PackageShow { ShowDraft draft = 1; string output = 2; bool copy_audio = 3; }
+message DownloadRecording { Recording recording = 1; string destination = 2; uint32 seed_minutes = 3; }

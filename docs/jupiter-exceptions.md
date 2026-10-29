@@ -1,0 +1,9 @@
+# Jupiter conformance and exceptions
+
+Show Player uses WinUI 3/C# with a Rust domain core, narrow generated protobuf C ABI and shared Jupiter.UI resources. The style check runs as an error on every build. It uses the standard Windows title bar, player workspace, collection panes, shared theme/accent controls and a self-contained Inno Setup installer with a Start Menu entry.
+
+The show workshop is an owned secondary suite window, keeping listening available independently of import/download tasks. It uses standard 224/48 navigation widths and collection/detail regions. Its minimum size is 1000 × 640 effective pixels rather than 800 × 560: the navigation, editable track list and metadata inspector need that width. The initial workshop inspector is fixed at the standard 320-pixel width rather than resizable; its import content scrolls. The player library pane retains its splitter. Workshop pane resizing is follow-up work. These are recorded layout exceptions, not a replacement visual system.
+
+The unsaved metadata review draft is a C# projection of the Rust inspection result. It is submitted in a typed protobuf request and validated again in Rust before packaging. Persisted playback state remains Rust-owned. Draft persistence is not implemented.
+
+aria2 and FFmpeg/ffprobe run as bundled external-process adapters under Rust. No shell is used; paths are separate process arguments. Child processes are hidden, logs are surfaced in the workshop, and cancellation terminates and waits for the child. aria2's file listing is parsed solely to select the original filenames returned by current Archive metadata. Tests cover that adapter format and actual local BitTorrent webseeding. libmpv remains an in-process dynamically loaded LGPL playback dependency inherited from Audio Bookshelf.

@@ -1,0 +1,16 @@
+[package]
+name = "show-player-harness"
+description = "Console driver for the Show Player core: one command per line in, one JSON event per line out."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "abharness"
+path = "src/main.rs"
+
+[dependencies]
+show_player_core.workspace = true
+serde_json.workspace = true

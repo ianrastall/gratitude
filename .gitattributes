@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.zst binary
+*.ico binary
+*.png binary
+*.sln text eol=crlf
+tests/fixtures/*.txt -text whitespace=-trailing-space

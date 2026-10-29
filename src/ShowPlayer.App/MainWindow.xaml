@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Jupiter.ShowPlayer.App.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Jupiter.ShowPlayer.App"
+    xmlns:controls="using:CommunityToolkit.WinUI.Controls"
+    Title="Show Player">
+
+    <!-- Player workspace (standard section 7): the open book centered on the window
+         background, the Books pane on the right, a status bar below. -->
+    <Grid x:Name="Root" Background="{ThemeResource JupiterWindowBrush}" PreviewKeyDown="OnPreviewKeyDown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <MenuBar>
+            <MenuBarItem Title="File">
+                <MenuFlyoutItem x:Name="OpenItem" Text="Open…" Click="OnOpenFile">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="O" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutSubItem x:Name="RecentMenu" Text="Open recent" />
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem x:Name="CloseBookItem" Text="Close show" Click="OnCloseBook" IsEnabled="False">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="W" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem Text="Settings" Click="OnSettings" KeyboardAcceleratorTextOverride="Ctrl+," />
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem Text="Exit" Click="OnExit" KeyboardAcceleratorTextOverride="Alt+F4" />
+            </MenuBarItem>
+            <MenuBarItem Title="View">
+                <ToggleMenuFlyoutItem x:Name="BooksPaneItem" Text="Shows pane" Click="OnToggleBooksPane">
+                    <ToggleMenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="B" />
+                    </ToggleMenuFlyoutItem.KeyboardAccelerators>
+                </ToggleMenuFlyoutItem>
+                <MenuFlyoutItem Text="Refresh shows" Click="OnRefreshBooks">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="F5" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem x:Name="ZoomInItem" Text="Zoom in" Click="OnZoomIn" KeyboardAcceleratorTextOverride="Ctrl++" />
+                <MenuFlyoutItem x:Name="ZoomOutItem" Text="Zoom out" Click="OnZoomOut" KeyboardAcceleratorTextOverride="Ctrl+-" />
+                <MenuFlyoutItem Text="Actual size" Click="OnZoomReset" KeyboardAcceleratorTextOverride="Ctrl+0" />
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem Text="Full screen" Click="OnFullScreen">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="F11" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+            </MenuBarItem>
+            <MenuBarItem Title="Show">
+                <MenuFlyoutItem Text="Import a show…" Click="OnImportShow" />
+                <MenuFlyoutItem Text="Find recordings…" Click="OnFindRecordings" />
+                <MenuFlyoutItem Text="Job…" Click="OnShowJob" />
+            </MenuBarItem>
+            <MenuBarItem Title="Playback">
+                <MenuFlyoutItem x:Name="PlayPauseItem" Text="Play" Click="OnPlayPause" IsEnabled="False" KeyboardAcceleratorTextOverride="Space" />
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem x:Name="BackItem" Text="Back 30 seconds" Click="OnBack" IsEnabled="False">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="Left" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutItem x:Name="ForwardItem" Text="Forward 30 seconds" Click="OnForward" IsEnabled="False">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="Right" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutItem x:Name="PreviousItem" Text="Previous chapter" Click="OnPrevious" IsEnabled="False">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control,Shift" Key="Left" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutItem x:Name="NextItem" Text="Next chapter" Click="OnNext" IsEnabled="False">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control,Shift" Key="Right" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem x:Name="VolumeUpItem" Text="Volume up" Click="OnVolumeUp">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="Up" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutItem x:Name="VolumeDownItem" Text="Volume down" Click="OnVolumeDown">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="Down" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <ToggleMenuFlyoutItem x:Name="MuteItem" Text="Mute" Click="OnMuteItem">
+                    <ToggleMenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="M" />
+                    </ToggleMenuFlyoutItem.KeyboardAccelerators>
+                </ToggleMenuFlyoutItem>
+            </MenuBarItem>
+            <MenuBarItem Title="Help">
+                <MenuFlyoutItem Text="Keyboard shortcuts" Click="OnShortcuts">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="F1" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem Text="About Show Player" Click="OnAbout" />
+            </MenuBarItem>
+        </MenuBar>
+
+        <!-- View > Zoom draws everything below the menu bar larger: Scaled is kept at
+             the available size divided by the zoom, and the Viewbox stretches it back. -->
+        <Viewbox x:Name="Zoom" Grid.Row="1" Stretch="Fill" SizeChanged="OnZoomSizeChanged">
+            <Grid x:Name="Scaled">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid x:Name="Workspace" BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="0,1,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MinWidth="480" />
+                        <ColumnDefinition x:Name="SplitterColumn" Width="Auto" />
+                        <ColumnDefinition x:Name="BooksColumn" Width="320" MinWidth="240" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- The open book -->
+                    <Grid x:Name="Player" Padding="24" RowSpacing="16" MaxWidth="960">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <InfoBar x:Name="Notice" IsOpen="False" IsClosable="True" />
+
+                        <StackPanel x:Name="BookHeading" Grid.Row="1" Spacing="4" Visibility="Collapsed">
+                            <TextBlock x:Name="TitleText" Style="{StaticResource JupiterSectionHeadingTextStyle}" TextWrapping="Wrap" MaxLines="2"
+                                       TextTrimming="CharacterEllipsis" IsTextSelectionEnabled="True" />
+                            <TextBlock x:Name="AuthorText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+
+                        <!-- Empty state: no book open -->
+                        <StackPanel x:Name="EmptyState" Grid.Row="2" Spacing="12" VerticalAlignment="Center" HorizontalAlignment="Center" MaxWidth="480">
+                            <TextBlock Text="No show open" Style="{StaticResource JupiterPageHeadingTextStyle}" HorizontalAlignment="Center" />
+                            <TextBlock x:Name="EmptyText" Text="Choose a show in the Shows pane, or open a file."
+                                       Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" TextAlignment="Center" />
+                            <Button x:Name="EmptyOpenButton" Content="Open…" Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Center" Click="OnOpenFile" />
+                            <Button Content="Import a show…" HorizontalAlignment="Center" Click="OnImportShow" />
+                            <Button Content="Find recordings…" HorizontalAlignment="Center" Click="OnFindRecordings" />
+                        </StackPanel>
+
+                        <Grid x:Name="ChapterArea" Grid.Row="2" RowSpacing="8" Visibility="Collapsed">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock x:Name="ChaptersHeading" Text="Chapters" Style="{StaticResource JupiterPaneHeadingTextStyle}" />
+                            <ListView x:Name="ChapterList" Grid.Row="1" SelectionMode="Single" IsItemClickEnabled="True" ItemClick="OnChapterClicked"
+                                      AutomationProperties.Name="Chapters">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate x:DataType="local:ChapterRow">
+                                        <Grid ColumnSpacing="12">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Text="{x:Bind Number}" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center" MinWidth="24" />
+                                            <TextBlock Grid.Column="1" Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}"
+                                                       TextTrimming="CharacterEllipsis" VerticalAlignment="Center" ToolTipService.ToolTip="{x:Bind Title}" />
+                                            <TextBlock Grid.Column="2" Text="{x:Bind Length}" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </Grid>
+
+                        <!-- Position within the current chapter -->
+                        <Grid x:Name="PositionRow" Grid.Row="3" ColumnSpacing="12" Visibility="Collapsed">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" MinWidth="64" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" MinWidth="64" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock x:Name="ElapsedText" Text="0:00" Style="{StaticResource JupiterBodyTextStyle}" VerticalAlignment="Center" />
+                            <Slider x:Name="PositionSlider" Grid.Column="1" Minimum="0" Maximum="1" StepFrequency="1" IsThumbToolTipEnabled="False"
+                                    IsEnabled="False" ValueChanged="OnPositionSliderChanged" AutomationProperties.Name="Position in chapter" />
+                            <TextBlock x:Name="ChapterLengthText" Grid.Column="2" Text="0:00" Style="{StaticResource JupiterBodyTextStyle}"
+                                       VerticalAlignment="Center" HorizontalAlignment="Right" AutomationProperties.Name="Chapter length" />
+                        </Grid>
+
+                        <!-- Transport: one primary action, the rest neutral -->
+                        <Grid x:Name="TransportRow" Grid.Row="4" ColumnSpacing="8" Visibility="Collapsed">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button x:Name="PreviousButton" HorizontalAlignment="Stretch" IsEnabled="False" Click="OnPrevious"
+                                    ToolTipService.ToolTip="Previous chapter (Ctrl+Shift+Left)" AutomationProperties.Name="Previous chapter">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <FontIcon Glyph="&#xE892;" Style="{StaticResource JupiterCommandIconStyle}" />
+                                    <TextBlock Text="Previous" />
+                                </StackPanel>
+                            </Button>
+                            <Button x:Name="BackButton" Grid.Column="1" HorizontalAlignment="Stretch" IsEnabled="False" Click="OnBack">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <FontIcon Glyph="&#xEB9E;" Style="{StaticResource JupiterCommandIconStyle}" />
+                                    <TextBlock x:Name="BackLabel" Text="Back 30 s" />
+                                </StackPanel>
+                            </Button>
+                            <Button x:Name="PlayPauseButton" Grid.Column="2" HorizontalAlignment="Stretch" IsEnabled="False" Click="OnPlayPause"
+                                    Style="{StaticResource AccentButtonStyle}" ToolTipService.ToolTip="Space">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <FontIcon x:Name="PlayPauseIcon" Glyph="&#xE768;" FontSize="{StaticResource JupiterCommandIconSize}" />
+                                    <TextBlock x:Name="PlayPauseLabel" Text="Play" />
+                                </StackPanel>
+                            </Button>
+                            <Button x:Name="ForwardButton" Grid.Column="3" HorizontalAlignment="Stretch" IsEnabled="False" Click="OnForward">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <FontIcon Glyph="&#xEB9D;" Style="{StaticResource JupiterCommandIconStyle}" />
+                                    <TextBlock x:Name="ForwardLabel" Text="Forward 30 s" />
+                                </StackPanel>
+                            </Button>
+                            <Button x:Name="NextButton" Grid.Column="4" HorizontalAlignment="Stretch" IsEnabled="False" Click="OnNext"
+                                    ToolTipService.ToolTip="Next chapter (Ctrl+Shift+Right)" AutomationProperties.Name="Next chapter">
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <FontIcon Glyph="&#xE893;" Style="{StaticResource JupiterCommandIconStyle}" />
+                                    <TextBlock Text="Next" />
+                                </StackPanel>
+                            </Button>
+                        </Grid>
+
+                        <!-- Volume belongs to the player, not to a book -->
+                        <Grid x:Name="VolumeRow" Grid.Row="5" ColumnSpacing="12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" MaxWidth="320" />
+                                <ColumnDefinition Width="Auto" MinWidth="48" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <ToggleButton x:Name="MuteButton" Click="OnMuteButton" ToolTipService.ToolTip="Mute (Ctrl+M)" AutomationProperties.Name="Mute">
+                                <FontIcon x:Name="MuteIcon" Glyph="&#xE767;" FontSize="{StaticResource JupiterCommandIconSize}" />
+                            </ToggleButton>
+                            <Slider x:Name="VolumeSlider" Grid.Column="1" Minimum="0" Maximum="100" StepFrequency="1" IsThumbToolTipEnabled="False"
+                                    VerticalAlignment="Center" ValueChanged="OnVolumeSliderChanged" AutomationProperties.Name="Volume" />
+                            <TextBlock x:Name="VolumeText" Grid.Column="2" Text="100%" Style="{StaticResource JupiterBodyTextStyle}" VerticalAlignment="Center" />
+                        </Grid>
+                    </Grid>
+
+                    <controls:GridSplitter x:Name="BooksSplitter" Grid.Column="1" Width="8" ResizeBehavior="BasedOnAlignment" ResizeDirection="Columns"
+                                           Background="{ThemeResource JupiterWindowBrush}" AutomationProperties.Name="Resize shows pane" />
+
+                    <!-- Books pane: the books folder, searchable, with saved progress -->
+                    <Grid x:Name="BooksPane" Grid.Column="2" Padding="16" RowSpacing="8" Background="{ThemeResource JupiterSurfaceBrush}"
+                          BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="1,0,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Shows" Style="{StaticResource JupiterPaneHeadingTextStyle}" />
+                        <TextBlock x:Name="FolderText" Grid.Row="1" Style="{StaticResource JupiterCaptionTextStyle}" TextTrimming="CharacterEllipsis" />
+                        <AutoSuggestBox x:Name="BookSearch" Grid.Row="2" PlaceholderText="Search shows" QueryIcon="Find"
+                                        TextChanged="OnBookSearchChanged" AutomationProperties.Name="Search shows" />
+                        <ListView x:Name="BookList" Grid.Row="3" SelectionMode="Single" IsItemClickEnabled="True" ItemClick="OnBookClicked"
+                                  AutomationProperties.Name="Shows">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="local:BookRow">
+                                    <StackPanel Padding="0,8" Spacing="4" ToolTipService.ToolTip="{x:Bind Path}">
+                                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" MaxLines="2" TextTrimming="CharacterEllipsis" />
+                                        <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        <StackPanel x:Name="BooksEmpty" Grid.Row="3" Spacing="8" Visibility="Collapsed">
+                            <TextBlock x:Name="BooksEmptyText" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
+                            <HyperlinkButton Content="Choose a shows folder…" Click="OnChooseFolder" />
+                        </StackPanel>
+                        <Expander Grid.Row="4" Header="Recording notes" HorizontalAlignment="Stretch">
+                            <ScrollViewer MaxHeight="240"><TextBlock x:Name="PlaybackNotes" Style="{StaticResource JupiterMonoTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True" /></ScrollViewer>
+                        </Expander>
+                    </Grid>
+                </Grid>
+
+                <!-- Status bar (standard section 6): persistent state only -->
+                <Grid x:Name="StatusBar" Grid.Row="1" MinHeight="{StaticResource JupiterStatusBarHeight}" Padding="{StaticResource JupiterStatusBarPadding}" ColumnSpacing="16"
+                      Background="{ThemeResource JupiterSurfaceBrush}" BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="0,1,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="StatusText" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center"
+                               TextTrimming="CharacterEllipsis" AutomationProperties.LiveSetting="Polite" />
+                    <TextBlock x:Name="DetailText" Grid.Column="1" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center" />
+                </Grid>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Window>

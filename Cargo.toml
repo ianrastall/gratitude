@@ -1,0 +1,26 @@
+[workspace]
+resolver = "3"
+members = ["core/domain", "core/ffi", "cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99"
+publish = false
+license = "MIT"
+
+[workspace.dependencies]
+show_player_core = { path = "core/domain" }
+libloading = "0.8.9"
+prost = "0.14.4"
+prost-build = "0.14.4"
+protox = "0.10.0"
+rusqlite = { version = "0.40.2", features = ["bundled"] }
+serde_json = "1.0.154"
+tempfile = "3.27.0"
+serde = { version = "1", features = ["derive"] }
+regex = "1"
+ureq = { version = "3.5.0", features = ["gzip"] }
+
+[profile.release]
+panic = "unwind"

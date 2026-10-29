@@ -1,0 +1,26 @@
+<Project>
+  <!-- Builds the Rust C ABI facade with Cargo and ships it, with libmpv, beside the managed assemblies. -->
+  <PropertyGroup>
+    <CargoProfileDir Condition="'$(Configuration)' == 'Release'">release</CargoProfileDir>
+    <CargoProfileDir Condition="'$(Configuration)' != 'Release'">debug</CargoProfileDir>
+    <CargoProfileFlag Condition="'$(Configuration)' == 'Release'">--release</CargoProfileFlag>
+    <CargoTargetDir>$(RepoRoot)target</CargoTargetDir>
+    <NativeCoreDll>$(CargoTargetDir)\x86_64-pc-windows-msvc\$(CargoProfileDir)\show_player_ffi.dll</NativeCoreDll>
+    <EngineDll>$(RepoRoot)third_party\libmpv\libmpv-2.dll</EngineDll>
+  </PropertyGroup>
+
+  <Target Name="BuildNativeCore" BeforeTargets="AssignTargetPaths" Condition="'$(DesignTimeBuild)' != 'true' and '$(SkipNativeBuild)' != 'true'">
+    <Error Condition="!Exists('$(EngineDll)')" Text="libmpv is missing. See third_party/README.md." />
+    <!-- Cargo runs from the repository root so .cargo/config.toml (static CRT, CFG) applies. -->
+    <Exec Command="cargo build -p show_player_ffi --locked --target x86_64-pc-windows-msvc --target-dir &quot;$(CargoTargetDir)&quot; $(CargoProfileFlag)" WorkingDirectory="$(RepoRoot)" />
+  </Target>
+
+  <ItemGroup>
+    <None Include="$(RepoRoot)third_party\tools\*" Link="tools\%(Filename)%(Extension)" Visible="false" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="$(RepoRoot)data\*" Link="data\%(Filename)%(Extension)" Visible="false" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="$(NativeCoreDll)" Link="show_player_ffi.dll" Visible="false"
+          CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="$(EngineDll)" Link="libmpv-2.dll" Visible="false"
+          CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
