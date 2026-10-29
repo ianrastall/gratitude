@@ -53,6 +53,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [InstallDelete]
+; Removed downloader runtime; existing user downloads stay untouched.
+Type: files; Name: "{app}\tools\aria2c.exe"
 Type: files; Name: "{autoprograms}\Show Player.lnk"
 Type: files; Name: "{autodesktop}\Show Player.lnk"
 ; 0.1 to 0.3 shipped the C++ core; it is replaced by the Rust core.

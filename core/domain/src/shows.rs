@@ -26,6 +26,9 @@ pub struct Track {
 }
 #[derive(Clone, Debug, Default, Serialize, Deserialize)]
 pub struct Draft {
+    pub source_summary: String,
+    pub credits: String,
+    pub reference_info: String,
     pub folder: String,
     pub artist: String,
     pub date: String,
@@ -84,31 +87,6 @@ fn tool(name: &str) -> PathBuf {
         .and_then(|p| p.parent().map(|p| p.join("tools").join(format!("{name}.exe"))))
         .filter(|p| p.is_file())
         .unwrap_or_else(|| PathBuf::from(format!("{name}.exe")))
-}
-fn get(url: &str) -> Result<String, String> {
-    let agent = ureq::Agent::config_builder().timeout_global(Some(Duration::from_secs(35))).build().new_agent();
-    agent
-        .get(url)
-        .header("User-Agent", "JupiterShowPlayer/0.1")
-        .call()
-        .map_err(|e| e.to_string())?
-        .body_mut()
-        .with_config()
-        .limit(16 * 1024 * 1024)
-        .read_to_string()
-        .map_err(|e| e.to_string())
-}
-fn get_bytes(url: &str) -> Result<Vec<u8>, String> {
-    let agent = ureq::Agent::config_builder().timeout_global(Some(Duration::from_secs(35))).build().new_agent();
-    agent
-        .get(url)
-        .call()
-        .map_err(|e| e.to_string())?
-        .body_mut()
-        .with_config()
-        .limit(16 * 1024 * 1024)
-        .read_to_vec()
-        .map_err(|e| e.to_string())
 }
 fn rx(pattern: &str) -> Regex {
     static PATTERNS: std::sync::OnceLock<Mutex<std::collections::HashMap<String, Regex>>> = std::sync::OnceLock::new();
@@ -403,138 +381,10 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
     if let Err(reason) = validate_audio(&draft.tracks, false) {
         draft.warnings.push(reason);
     }
+    let profile = crate::catalogue::classify(&draft.notes, &folder.to_string_lossy(), "", "", "", "");
+    draft.source_summary = profile.summary();
+    draft.credits = profile.credits;
     Ok(draft)
-}
-pub fn catalogue(data: &Path, query: &str, source: &str) -> Result<Vec<Recording>, String> {
-    let tokens: Vec<_> = query.to_lowercase().split_whitespace().map(str::to_owned).collect();
-    let short_date = rx(r"(?i)gd(\d{2})-(\d{2})-(\d{2})");
-    let matches = |s: &str| {
-        let expanded =
-            short_date.replace_all(s, |c: &regex::Captures<'_>| format!("gd19{}-{}-{}", &c[1], &c[2], &c[3]));
-        let s = format!("{s} {expanded}").to_lowercase();
-        tokens.iter().all(|t| s.contains(t))
-    };
-    let mut rows = Vec::new();
-    if source != "Archive.org" {
-        let items: Vec<Value> =
-            serde_json::from_slice(&fs::read(data.join("gd_torrents.json")).map_err(|e| e.to_string())?)
-                .map_err(|e| e.to_string())?;
-        for r in items {
-            let title = r["title"].as_str().unwrap_or_default();
-            if matches(title) {
-                let id = r["id"].as_u64().unwrap_or(0);
-                rows.push(Recording {
-                    title: title.into(),
-                    source: "etree".into(),
-                    url: format!("https://bt.etree.org/details.php?torrentId={id}"),
-                    key: format!("etree-{id}"),
-                    detail: format!("Saved listing; {} seeds at capture (not live)", r["seeds"].as_u64().unwrap_or(0)),
-                    ..Default::default()
-                });
-            }
-        }
-    }
-    if source != "etree" {
-        let urls = fs::read_to_string(data.join("grateful_dead_torrent_urls.txt")).map_err(|e| e.to_string())?;
-        let mut seen = std::collections::HashSet::new();
-        for line in urls.lines() {
-            if let Some(id) = line.split("/items/").nth(1).and_then(|s| s.split('/').next())
-                && matches(id)
-                && seen.insert(id.to_string())
-            {
-                rows.push(Recording {
-                    title: id.into(),
-                    source: "Archive.org".into(),
-                    url: format!("https://archive.org/details/{id}"),
-                    key: id.into(),
-                    detail: "Saved listing; download availability will be checked".into(),
-                    ..Default::default()
-                });
-            }
-        }
-    }
-    rows.truncate(500);
-    Ok(rows)
-}
-pub fn torrent_url(recording: &Recording) -> Result<(String, Vec<String>), String> {
-    if recording.source == "Archive.org" {
-        if !rx(r"^[A-Za-z0-9_.-]+$").is_match(&recording.key) {
-            return Err("Invalid Archive identifier.".into());
-        }
-        let v: Value = serde_json::from_str(&get(&format!("https://archive.org/metadata/{}", recording.key))?)
-            .map_err(|e| e.to_string())?;
-        let metadata = &v["metadata"];
-        if metadata["collection"].to_string().contains("stream_only")
-            || metadata["access-restricted-item"].as_str() == Some("true")
-            || metadata["no-download"].as_str() == Some("true")
-        {
-            return Err("Archive.org marks this recording as restricted or stream-only.".into());
-        }
-        let files = v["files"].as_array().ok_or("Archive returned no files.")?;
-        let downloadable = files.iter().any(|f| {
-            f["source"].as_str() == Some("original")
-                && f["private"].as_str() != Some("true")
-                && f["private"].as_bool() != Some(true)
-                && f["name"].as_str().is_some_and(|n| is_audio(Path::new(n)))
-        });
-        if !downloadable {
-            return Err("No downloadable original audio is exposed for this recording.".into());
-        }
-        let name = files
-            .iter()
-            .find(|f| f["format"].as_str() == Some("Archive BitTorrent"))
-            .and_then(|f| f["name"].as_str())
-            .ok_or("No current Archive torrent is available.")?;
-        if name.contains('/') || name.contains('\\') || name.contains(' ') {
-            return Err("Unexpected torrent filename.".into());
-        }
-        let wanted = files
-            .iter()
-            .filter(|f| {
-                f["source"].as_str() == Some("original")
-                    && f["private"].as_str() != Some("true")
-                    && f["private"].as_bool() != Some(true)
-            })
-            .filter_map(|f| f["name"].as_str())
-            .map(str::to_owned)
-            .collect();
-        Ok((format!("https://archive.org/download/{}/{name}", recording.key), wanted))
-    } else if recording.source == "etree" {
-        let id = recording
-            .key
-            .strip_prefix("etree-")
-            .filter(|s| s.chars().all(|c| c.is_ascii_digit()))
-            .ok_or("Invalid etree ID.")?;
-        let html = get(&format!("https://bt.etree.org/details.php?torrentId={id}"))?;
-        let links = rx(r#"(?i)href\s*=\s*["']([^"']+)["']"#);
-        for c in links.captures_iter(&html) {
-            let href = c[1].replace("&amp;", "&");
-            if href.contains("download.php") || href.ends_with(".torrent") {
-                if href.starts_with("https://bt.etree.org/") {
-                    return Ok((href, Vec::new()));
-                }
-                if !href.contains("://") && !href.starts_with("//") {
-                    return Ok((format!("https://bt.etree.org/{}", href.trim_start_matches('/')), Vec::new()));
-                }
-            }
-        }
-        Err("No torrent link found on the etree detail page. The saved listing may be stale.".into())
-    } else {
-        Err("Unknown recording source.".into())
-    }
-}
-fn select_indices(listing: &str, wanted: &[String]) -> Vec<String> {
-    if wanted.is_empty() {
-        return Vec::new();
-    }
-    let line = rx(r"(?m)^\s*(\d+)\|(.+)\r?$");
-    line.captures_iter(listing)
-        .filter(|c| {
-            let path = c[2].trim().replace('\\', "/");
-            wanted.iter().any(|w| path == *w || path.ends_with(&format!("/{w}")))
-        })
-        .map(|c| c[1].to_owned())
-        .collect()
 }
 impl Service {
     pub fn snapshot(&self) -> Job {
@@ -584,67 +434,6 @@ impl Service {
             running.store(false, Ordering::SeqCst);
         });
         Ok(initial)
-    }
-    pub fn download(&self, r: Recording, destination: PathBuf, seed_minutes: u32) -> Result<Job, String> {
-        if seed_minutes > 1440 {
-            return Err("Seeding time must be at most 1440 minutes.".into());
-        }
-        if !rx(r"^[A-Za-z0-9_.-]+$").is_match(&r.key) {
-            return Err("Invalid recording identifier.".into());
-        }
-        let dest = destination.join(&r.key);
-        let output = dest.to_string_lossy().to_string();
-        self.start("Checking recording availability", output, move |cancel, status| {
-            let (url, wanted) = torrent_url(&r)?;
-            if cancel.load(Ordering::Relaxed) {
-                return Err("Cancelled".into());
-            }
-            fs::create_dir_all(&dest).map_err(|e| e.to_string())?;
-            let torrent = dest.join("recording.torrent");
-            fs::write(&torrent, get_bytes(&url)?).map_err(|e| e.to_string())?;
-            let listing = hidden(&mut Command::new(tool("aria2c")))
-                .args(["--no-conf=true", "--show-files=true"])
-                .arg(&torrent)
-                .output()
-                .map_err(|e| e.to_string())?;
-            if !listing.status.success() {
-                return Err("The source did not return a readable torrent.".into());
-            }
-            let listing = String::from_utf8_lossy(&listing.stdout);
-            let indices = select_indices(&listing, &wanted);
-            if !wanted.is_empty() && indices.is_empty() {
-                return Err(
-                    "The current torrent does not contain the advertised original files. Try refreshing later.".into(),
-                );
-            }
-            status.lock().unwrap_or_else(|e| e.into_inner()).phase = "Downloading; seeding follows if requested".into();
-            let log = dest.join("show-player-download.log");
-            let mut cmd = Command::new(tool("aria2c"));
-            cmd.arg(format!("--dht-file-path={}", dest.join(".show-player-dht.dat").display()))
-                .arg(format!("--dht-file-path6={}", dest.join(".show-player-dht6.dat").display()))
-                .arg("--enable-color=false");
-            if !indices.is_empty() {
-                cmd.arg(format!("--select-file={}", indices.join(",")));
-            }
-            cmd.args([
-                "--no-conf=true",
-                "--check-integrity=true",
-                "--auto-file-renaming=false",
-                "--allow-overwrite=false",
-                "--auto-save-interval=1",
-                "--summary-interval=1",
-                "--console-log-level=notice",
-                "--follow-torrent=true",
-                "--bt-save-metadata=true",
-                "--max-upload-limit=256K",
-                "--max-connection-per-server=2",
-                "--bt-stop-timeout=120",
-            ])
-            .arg(format!("--seed-time={seed_minutes}"))
-            .arg(format!("--dir={}", dest.display()))
-            .arg(torrent);
-            run(&mut cmd, &log, &cancel, &status)
-        })
     }
     pub fn package(&self, draft: Draft, output: PathBuf, copy_audio: bool) -> Result<Job, String> {
         if output.extension().is_none_or(|x| !x.eq_ignore_ascii_case("mka")) {
@@ -908,14 +697,6 @@ mod tests {
         assert_eq!(tracks[19].1, "encore");
     }
     #[test]
-    fn selects_original_files_from_torrent_listing() {
-        let wanted = vec!["song.flac".into(), "show.txt".into()];
-        assert_eq!(
-            select_indices("  1|./show/song.flac\n  2|./show/song.mp3\n  3|./show/show.txt\n", &wanted),
-            ["1", "3"]
-        );
-    }
-    #[test]
     fn parses_unnumbered_sets_and_named_months() {
         let (_, date, venue, tracks) = parse_notes(
             "Grateful Dead\nSeptember 22, 1993\nMadison Square Garden\nSet 1:\nHelp On the Way >\nSlipknot >\nSet 2:\nDark Star\nE: I Fought the Law\nSource 1: SBD\nEquipment details",
@@ -949,10 +730,5 @@ mod tests {
     fn rejects_bad_jobs_before_starting_tools() {
         let service = Service::default();
         assert!(service.package(Draft::default(), PathBuf::from("x.mka"), true).is_err());
-        assert!(
-            service
-                .download(Recording { key: "../escape".into(), ..Default::default() }, PathBuf::from("x"), 0)
-                .is_err()
-        );
     }
 }

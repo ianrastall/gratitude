@@ -9,16 +9,6 @@ using Windows.Graphics;
 namespace Jupiter.ShowPlayer.App;
 
 public sealed record ImportTrackRow(int Index, string Label, string Detail);
-public sealed record RecordingRow(Recording Recording)
-{
-    public string Title => Recording.Title;
-    public string Detail => $"{Recording.Source} · {Recording.Detail}";
-    public string SourceInfo => Recording.SourceSummary + (Recording.Inferred ? " · type inferred from identifier" : "");
-    public string ShowHeading => $"{Recording.Date} · {Recording.Venue}";
-    public string Credits => string.IsNullOrWhiteSpace(Recording.Credits) ? "People: not identified in this snapshot" : Recording.Credits;
-    public override string ToString() => Title;
-}
-
 public sealed partial class WorkshopWindow : Window
 {
     private readonly AudioCore _core;
@@ -26,7 +16,7 @@ public sealed partial class WorkshopWindow : Window
     private readonly DispatcherTimer _timer = new() { Interval = TimeSpan.FromMilliseconds(600) };
     private ShowDraft? _draft;
     private ShowJob? _job;
-    private bool _editing, _closed, _inspecting, _searching;
+    private bool _editing, _closed, _inspecting;
     private int _trackIndex = -1;
 
     public WorkshopWindow(MainWindow main, AudioCore core, string page)
@@ -35,14 +25,12 @@ public sealed partial class WorkshopWindow : Window
         _core = core;
         InitializeComponent();
         PrioritiesControl.Configure(core);
-        App.Current.RecordingPrioritiesChanged += OnPriorityChange;
         App.Current.Accent.Attach(Root);
         App.Current.Theme.Attach(this);
         AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets", "AppIcon.ico"));
-        DestinationBox.Text = App.Current.Settings.DownloadFolder ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), "Gratitude", "Sources");
         _timer.Tick += (_, _) => PollJob();
         _timer.Start();
-        Closed += (_, _) => { _closed = true; _timer.Stop(); App.Current.RecordingPrioritiesChanged -= OnPriorityChange; };
+        Closed += (_, _) => { _closed = true; _timer.Stop(); };
         Root.Loaded += (_, _) =>
         {
             double scale = Root.XamlRoot.RasterizationScale;
@@ -63,14 +51,12 @@ public sealed partial class WorkshopWindow : Window
         Navigation.SelectedItem = Navigation.MenuItems.OfType<NavigationViewItem>().First(i => (string)i.Tag == page);
         Activate();
     }
-    private void OnPriorityChange() { if (RecordingsList.ItemsSource is not null) _ = Search(); }
 
     private void OnNavigation(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
     {
         if (args.IsSettingsSelected) { _main.OpenAppearanceSettings(); return; }
         if (args.SelectedItem is not NavigationViewItem { Tag: string page }) return;
         ImportPage.Visibility = page == "import" ? Visibility.Visible : Visibility.Collapsed;
-        FindPage.Visibility = page == "find" ? Visibility.Visible : Visibility.Collapsed;
         JobPage.Visibility = page == "job" ? Visibility.Visible : Visibility.Collapsed;
     }
 
@@ -125,6 +111,9 @@ public sealed partial class WorkshopWindow : Window
             DateBox.Text = draft.Date;
             VenueBox.Text = draft.Venue;
             NotesText.Text = draft.Notes;
+            ImportSourceInfo.Labels = draft.SourceSummary;
+            ImportCredits.Text = draft.Credits;
+            ReferenceText.Text = string.IsNullOrEmpty(draft.ReferenceInfo) ? "No matching show reference in the offline catalogue." : draft.ReferenceInfo;
             WarningsText.Text = string.Join("\n\n", draft.Warnings);
             ReviewedBox.IsChecked = false;
             ImportSummary.Text = $"{draft.Tracks.Count} files · {TimeSpan.FromSeconds(draft.Tracks.Sum(t => t.Duration)):h\\:mm\\:ss} · review the proposed order and titles";
@@ -201,61 +190,6 @@ public sealed partial class WorkshopWindow : Window
         catch (Exception ex) { Error(ex); }
     }
 
-    private async Task Search()
-    {
-        if (_searching) return;
-        _searching = true;
-        SearchSummary.Text = "Searching saved listings…";
-        string query = SearchBox.Text, source = SourceBox.SelectedItem?.ToString() ?? "All sources";
-        string? selected = (RecordingsList.SelectedItem as RecordingRow)?.Recording.Key;
-        try
-        {
-            var rows = await Task.Run(() => _core.SearchRecordings(query, source));
-            if (_closed) return;
-            var results = rows.Select(r => new RecordingRow(r)).ToList();
-            RecordingsList.ItemsSource = results;
-            RecordingsList.SelectedIndex = results.FindIndex(r => r.Recording.Key == selected);
-            SearchSummary.Text = $"{rows.Count} matches{(rows.Count == 500 ? " (first 500; narrow your search)" : "")} · ranked by source preference and credit tier · attributed offline XML snapshot";
-        }
-        catch (Exception ex) { Error(ex); }
-        finally { _searching = false; }
-    }
-    private async void OnSearch(object sender, RoutedEventArgs e) => await Search();
-    private async void OnSearchSubmitted(AutoSuggestBox sender, AutoSuggestBoxQuerySubmittedEventArgs args) => await Search();
-    private void OnRecordingSelected(object sender, SelectionChangedEventArgs e)
-    {
-        var row = RecordingsList.SelectedItem as RecordingRow;
-        RecordingTitle.Text = row?.Title ?? "Select a recording.";
-        RecordingSourceInfo.Labels = row?.SourceInfo ?? "";
-        RecordingCredits.Text = row?.Credits ?? "";
-        ShowInfoText.Text = row?.Recording.ShowInfo ?? "";
-        DetailsLink.IsEnabled = DownloadButton.IsEnabled = row is not null;
-        DetailsLink.NavigateUri = row is null ? null : new Uri(row.Recording.Url);
-    }
-    private async void OnDestination(object sender, RoutedEventArgs e)
-    {
-        try
-        {
-            if (await MainWindow.PickFolderAsync(AppWindow.Id, DestinationBox.Text) is { } folder)
-            {
-                DestinationBox.Text = folder;
-                App.Current.Settings.DownloadFolder = folder;
-                App.Current.Settings.Save();
-            }
-        }
-        catch (Exception ex) { Error(ex); }
-    }
-    private void OnDownload(object sender, RoutedEventArgs e)
-    {
-        if (RecordingsList.SelectedItem is not RecordingRow row) return;
-        try
-        {
-            uint seed = SeedBox.SelectedIndex switch { 1 => 30, 2 => 120, _ => 0 };
-            _job = _core.DownloadRecording(row.Recording, DestinationBox.Text, seed);
-            ShowJob(); Navigate("job");
-        }
-        catch (Exception ex) { Error(ex); }
-    }
     private void PollJob()
     {
         if (_closed) return;
@@ -273,7 +207,6 @@ public sealed partial class WorkshopWindow : Window
         JobProgress.Visibility = running ? Visibility.Visible : Visibility.Collapsed;
         CancelButton.IsEnabled = running;
         UseOutputButton.IsEnabled = _job.State == "Completed";
-        DownloadButton.IsEnabled = !running && RecordingsList.SelectedItem is RecordingRow;
         CreateButton.IsEnabled = !running && !_inspecting && _draft is not null;
     }
     private void OnCancel(object sender, RoutedEventArgs e)
@@ -281,10 +214,9 @@ public sealed partial class WorkshopWindow : Window
         try { _core.CancelJob(); JobState.Text = "Cancelling"; CancelButton.IsEnabled = false; }
         catch (Exception ex) { Error(ex); }
     }
-    private async void OnUseOutput(object sender, RoutedEventArgs e)
+    private void OnUseOutput(object sender, RoutedEventArgs e)
     {
         if (_job is null || _job.State != "Completed") return;
         if (File.Exists(_job.Output)) { _main.OpenShow(_job.Output); _main.ShowAndActivate(); }
-        else if (Directory.Exists(_job.Output)) { Navigate("import"); await Inspect(_job.Output); }
     }
 }

@@ -155,6 +155,9 @@ impl From<crate::messages::ShowTrack> for show_player_core::shows::Track {
 impl From<show_player_core::shows::Draft> for crate::messages::ShowDraft {
     fn from(d: show_player_core::shows::Draft) -> Self {
         Self {
+            source_summary: d.source_summary,
+            credits: d.credits,
+            reference_info: d.reference_info,
             folder: d.folder,
             artist: d.artist,
             date: d.date,
@@ -169,6 +172,9 @@ impl From<show_player_core::shows::Draft> for crate::messages::ShowDraft {
 impl From<crate::messages::ShowDraft> for show_player_core::shows::Draft {
     fn from(d: crate::messages::ShowDraft) -> Self {
         Self {
+            source_summary: d.source_summary,
+            credits: d.credits,
+            reference_info: d.reference_info,
             folder: d.folder,
             artist: d.artist,
             date: d.date,

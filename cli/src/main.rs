@@ -181,22 +181,6 @@ fn main() {
                 show_player_core::shows::inspect(std::path::Path::new(value), "")
                     .and_then(|d| serde_json::to_string_pretty(&d).map_err(|e| e.to_string())),
             ),
-            "--resolve-etree" => Some(
-                show_player_core::shows::torrent_url(&show_player_core::shows::Recording {
-                    source: "etree".into(),
-                    key: format!("etree-{value}"),
-                    ..Default::default()
-                })
-                .and_then(|d| serde_json::to_string_pretty(&d).map_err(|e| e.to_string())),
-            ),
-            "--resolve-archive" => Some(
-                show_player_core::shows::torrent_url(&show_player_core::shows::Recording {
-                    source: "Archive.org".into(),
-                    key: value.clone(),
-                    ..Default::default()
-                })
-                .and_then(|d| serde_json::to_string_pretty(&d).map_err(|e| e.to_string())),
-            ),
             _ => None,
         };
         if let Some(result) = result {

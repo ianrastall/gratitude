@@ -58,7 +58,6 @@ public sealed partial class MainWindow : Window
         _workshop.Activate();
     }
     private void OnImportShow(object sender, RoutedEventArgs e) => OpenWorkshop("import");
-    private void OnFindRecordings(object sender, RoutedEventArgs e) => OpenWorkshop("find");
     private void OnShowJob(object sender, RoutedEventArgs e) => OpenWorkshop("job");
     private void OnRecordingPriorities(object sender, RoutedEventArgs e) => PrioritiesControl.OpenEditor();
     private void OnPriorityChange() => _ = RefreshBooksAsync();

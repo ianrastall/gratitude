@@ -2,11 +2,10 @@
 
 Binaries under `libmpv/` and `tools/` are local build prerequisites and are not committed. This file records their provenance. The installer includes the tools and accompanying license files. The app source is MIT; each external tool retains its own license.
 
-## Download and packaging tools
+## Packaging tools
 
 | Tool | Build/source | License | Binary SHA-256 |
 | --- | --- | --- | --- |
-| aria2c | Official `aria2-1.37.0-win-64bit-build1.zip`, https://github.com/aria2/aria2/releases/tag/release-1.37.0 | GPL-2.0-or-later with the included OpenSSL exception/license; `COPYING`, `aria2-LICENSE.OpenSSL.txt` and authors ship in tools | `BE2099C214F63A3CB4954B09A0BECD6E2E34660B886D4C898D260FEBFE9D70C2` |
 | ffmpeg | Existing local Chocolatey installation, Gyan essentials build 8.0.1, https://www.gyan.dev/ffmpeg/builds/ | GPL version 3 (`--enable-gpl --enable-version3`); `FFmpeg-LICENSE.txt` ships in tools | `5AF82A0D4FE2B9EAE211B967332EA97EDFC51C6B328CA35B827E73EAC560DC0D` |
 | ffprobe | Same FFmpeg 8.0.1 distribution | Same GPL version 3 | `192A1D6899059765AC8C39764FC3148D4E6049955956DC2029F81F4BD6A8972D` |
 
@@ -34,3 +33,5 @@ each time it is replaced.
 The zip also contains `libmpv.dll.a` (MinGW import library, unused: we load
 the DLL through a function table), the `include/mpv` headers, and two
 libbluray `.jar` files that are not shipped.
+
+Gratitude 0.2.2 no longer bundles aria2. Legacy acquisition binaries/tests may remain in the developer checkout; installed upgrades remove the old aria2 executable and preserve user downloads.

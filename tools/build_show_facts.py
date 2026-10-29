@@ -104,7 +104,7 @@ def main():
                 unplaced.append(dict(source='archive-index',date_text=key,reason='No unambiguous 1967–1995 date'));continue
             def text(field):
                 value=item.get(field,'');return clean(' | '.join(map(str,value)) if isinstance(value,list) else value)
-            r=dict(key=key,source='Archive.org',title=text('title') or key,date=date,source_text=text('source'),taper=text('taper'),transferer=text('transferer'),lineage=text('lineage'),hints='',detail='Archive metadata snapshot; availability checked before download',provenance=['archive-index'],references=[])
+            r=dict(key=key,source='Archive.org',title=text('title') or key,date=date,source_text=text('source'),taper=text('taper'),transferer=text('transferer'),lineage=text('lineage'),hints='',detail='Archive metadata snapshot; reference only',provenance=['archive-index'],references=[])
             recordings[('Archive.org',key)]=r
             s=show(date)
             if not s['venue']:s['venue']=text('venue')
@@ -128,7 +128,7 @@ def main():
                 key=m[1];date=date_of(key)
                 if not date:
                     unplaced.append(dict(source=provider,date_text=key,reason='No unambiguous 1967–1995 date'));continue
-                r=recordings.setdefault(('Archive.org',key),dict(key=key,source='Archive.org',title=key,date=date,source_text='',taper='',transferer='',lineage='',hints='',detail='Historical listing; availability checked before download',provenance=[],references=[]))
+                r=recordings.setdefault(('Archive.org',key),dict(key=key,source='Archive.org',title=key,date=date,source_text='',taper='',transferer='',lineage='',hints='',detail='Historical listing; reference only',provenance=[],references=[]))
                 if provider not in r['provenance']:r['provenance'].append(provider)
     posts=[]
     for page in [1,2]:
@@ -154,7 +154,7 @@ def main():
                 m=re.search(r'archive\.org/(?:details|download)/([^/?#]+)',link)
                 if not m:continue
                 key=urllib.parse.unquote(m[1])
-                r=recordings.setdefault(('Archive.org',key),dict(key=key,source='Archive.org',title=key,date=date,source_text='',taper='',transferer='',lineage='',hints='',detail='Linked by Infinite Dead; availability checked before download',provenance=[],references=[]))
+                r=recordings.setdefault(('Archive.org',key),dict(key=key,source='Archive.org',title=key,date=date,source_text='',taper='',transferer='',lineage='',hints='',detail='Linked by Infinite Dead; reference only',provenance=[],references=[]))
                 # This text is only input evidence for Rust fact extraction. The
                 # compiler emits classifications/credits, never review prose.
                 context=previous if text.strip().startswith(('http://','https://')) else text

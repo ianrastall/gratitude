@@ -403,6 +403,10 @@ pub fn profile(r: &Recording) -> Profile {
         inferred: r.inferred,
     }
 }
+/// Offline show reference for a local import; does not replace the folder's notes.
+pub fn show_info(path: &Path, date: &str) -> Result<Option<String>, String> {
+    Ok(load(path)?.shows.get(date).cloned())
+}
 pub fn search(path: &Path, query: &str, provider: &str, priorities: &Priorities) -> Result<Vec<Recording>, String> {
     let data = load(path)?;
     let tokens = query.to_lowercase().split_whitespace().map(str::to_owned).collect::<Vec<_>>();
@@ -456,7 +460,7 @@ pub fn compile(facts: &Path, output: &Path) -> Result<(), String> {
     let mut out = String::from(
         "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<gratefulDeadCatalogue schemaVersion=\"1\" artist=\"Grateful Dead\" startYear=\"1967\" endYear=\"1995\" capturedDate=\"2026-10-29\">\n",
     );
-    out.push_str("  <coverage>Source-attributed snapshot, not a claim of complete or definitive historical knowledge. Unknown dates are retained separately. Set numbering follows the source; encore roles are not inferred. Recording availability is checked before download.</coverage>\n  <sources>\n");
+    out.push_str("  <coverage>Source-attributed snapshot, not a claim of complete or definitive historical knowledge. Unknown dates are retained separately. Set numbering follows the source; encore roles are not inferred. Recording listings are references only; Gratitude does not download recordings.</coverage>\n  <sources>\n");
     for s in facts["sources"].as_array().ok_or("Missing fact sources")? {
         let _ = writeln!(
             out,
@@ -581,7 +585,7 @@ pub fn compile(facts: &Path, output: &Path) -> Result<(), String> {
                 ),
                 ("sourceChain", text(r, "source_text")),
                 ("lineage", text(r, "lineage")),
-                ("detail", text(r, "detail")),
+                ("detail", text(r, "detail").replace("availability checked before download", "reference only")),
             ] {
                 let _ = writeln!(out, "        <{name}>{}</{name}>", xml(&value));
             }

@@ -16,7 +16,7 @@
   </Target>
 
   <ItemGroup>
-    <None Include="$(RepoRoot)third_party\tools\*" Link="tools\%(Filename)%(Extension)" Visible="false" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="$(RepoRoot)third_party\tools\*" Exclude="$(RepoRoot)third_party\tools\aria2c.exe" Link="tools\%(Filename)%(Extension)" Visible="false" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <None Include="$(RepoRoot)data\*" Link="data\%(Filename)%(Extension)" Visible="false" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <None Include="$(NativeCoreDll)" Link="show_player_ffi.dll" Visible="false"
           CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />

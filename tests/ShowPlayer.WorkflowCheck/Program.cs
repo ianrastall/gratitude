@@ -47,6 +47,7 @@ var draft = core.InspectShow(source);
 Require(draft.Tracks.Count == 3 && draft.Artist == "Grateful Dead" && draft.Date == "1977-05-08", "Import metadata mismatch");
 Require(Path.GetFileName(draft.Tracks[2].Path) == "track10.flac", "Natural order mismatch");
 Require(draft.Tracks[2].Set == "Encore" && draft.Tracks[0].Title == "Test opening", "Set or song parsing failed");
+Require(draft.SourceSummary == "SBD" && draft.ReferenceInfo.Contains("Minglewood Blues"), "Local import source label or offline show reference is missing");
 Require(core.SearchRecordings("1993-09-22", "All sources").Count > 0, "Catalogue search failed");
 var priorities = core.GetPriorities();
 Require(priorities.Sources.Take(3).SequenceEqual(new[] { "SBD", "MTX", "AUD" }), "Default source priorities are incorrect");

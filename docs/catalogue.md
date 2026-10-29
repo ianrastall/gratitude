@@ -22,7 +22,7 @@ Personal preferences live separately in `%LOCALAPPDATA%\show-player\recording-pr
 ## Sources and limits
 
 - [gdshowsdb](https://github.com/jefmsmit/gdshowsdb): MIT-licensed performance facts and setlists. The XML records the exact revision and links each year to that revision.
-- [Archive Grateful Dead collection](https://archive.org/details/GratefulDead): public metadata for 18,327 indexed items in the requested years, supplemented by the supplied historical URL list. Restricted/stream-only access is checked separately before downloading.
+- [Archive Grateful Dead collection](https://archive.org/details/GratefulDead): public metadata for 18,327 indexed items in the requested years, supplemented by the supplied historical URL list. Recording listings are historical references only; the app does not download or check online availability.
 - [Infinite Dead](https://infinitedead.net/about/): 359 public posts covering July and October. Only links and derived factual classifications/credits are used; review prose is not distributed.
 - Ian's etree JSON and Archive URL list: historical listings; reported seed counts are capture-time values.
 - John Brackett, *Live Dead* (Duke University Press), supplied as PDF: historical context. It is not used as an exhaustive show index; no book text is included.

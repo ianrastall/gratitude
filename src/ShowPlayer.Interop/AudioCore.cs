@@ -194,8 +194,6 @@ public sealed class AudioCore : IDisposable
         Query(new Request { SearchRecordings = new SearchRecordings { Query = query, Source = source } }).Recordings.Items;
     public ShowJob PackageShow(ShowDraft draft, string output, bool copyAudio) =>
         Query(new Request { PackageShow = new PackageShow { Draft = draft, Output = output, CopyAudio = copyAudio } }).Job;
-    public ShowJob DownloadRecording(Recording recording, string destination, uint seedMinutes) =>
-        Query(new Request { DownloadRecording = new DownloadRecording { Recording = recording, Destination = destination, SeedMinutes = seedMinutes } }).Job;
     public ShowJob GetJob() => Query(new Request { GetJob = NoArguments }).Job;
     public void CancelJob() => Query(new Request { CancelJob = NoArguments });
     public RecordingPriorities GetPriorities() => Query(new Request { GetPriorities = NoArguments }).Priorities;

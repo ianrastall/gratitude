@@ -1,56 +1,37 @@
 # Gratitude
 
-A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.2.1.
+A Windows player and creator for concert recordings already on your computer. Version 0.2.2. Follows Jupiter style standard 1.1.
 
-0.2.1 renames the app Gratitude, adds colored source/modifier badges and simplifies preferences to SBD versus MTX. Install upgrades preserve the existing application identity, settings and resume database.
-
-0.2.0 adds a single attributed XML catalogue for 1967–1995, show setlists, prominent recording types/modifiers/credits, and personal recording priorities at the top right of the player and workshop. See `docs/catalogue.md` for coverage, structure and rebuilding.
-
-0.1.2 removes segue arrows from song/chapter titles, including embedded tags and playback of existing MKAs. Export preserves the original sample rate and bit depth, rejects mismatched source formats and verifies output precision before saving. No gaps, fades or silence trimming are applied; existing source silence is retained.
-
-0.1.1 fixes import of decorated set headings (`--Set 1--`), compound track labels (`101-d1t01 - Bertha ->`), introductory encoding notes and explicitly missing songs. Verified against Ian's 22-track 1977-12-27 Winterland folder. When the TXT song count differs from the audio count, embedded audio titles are used before filenames.
-
-The bundled recording catalogue is Grateful Dead-specific. Local folder import accepts any artist; the file model does not assume GD song names or dates.
+Gratitude works exclusively with local folders and Matroska audio (`.mka`). It does not search for online recordings, download, torrent, seed or stream online sources. The acquisition workflow, network client and bundled torrent engine have been removed. Existing downloaded files and partial downloads remain untouched.
 
 ## Use
 
-Launch **Gratitude** from Start. Choose **Import a show…** to select a folder of audio files and show notes, or **Find recordings…** to search the saved GD listings.
+Launch **Gratitude** from Start. Choose **Import a show...** and select an existing folder of audio files and show notes. Import accepts any artist.
 
-Import reads audio files recursively (up to four subfolder levels), proposes a natural filename order, reads the largest non-checksum TXT and extracts artist, date, venue, sets and song names. Choose a different TXT if needed. Review the metadata, edit song titles and set labels, and move tracks up/down. Confirm the review box, then choose **Create MKA…**. Original audio is never changed. The output must have a new filename.
+The Rust core reads audio recursively (up to four subfolder levels), proposes natural filename order, and parses the largest non-checksum TXT for artist, date, venue, sets and songs. Select another TXT if needed. When TXT and audio counts differ, embedded audio titles are preferred to filenames and a warning remains visible. Review/edit metadata, titles, sets and order, then check the review box and choose **Create MKA...**.
 
-The default mode copies compressed audio without re-encoding. Uncheck **Copy compressed audio unchanged** to encode supported lossless 16-bit or 24-bit integer audio as FLAC at the original rate and depth. Tracks must have matching codecs, sample rates, bit depths, sample formats and channel layouts; otherwise packaging is refused. Shorten may require FLAC mode. Automatic conversion filters are disabled. Export re-probes the files and verifies the resulting MKA's rate/depth/channel count before saving. This file-preservation policy does not control conversions performed by Windows or the audio device during playback.
+Source badges and credits come from local notes/folder names. For a dated Grateful Dead import, **Offline show reference** shows the matching entry from the bundled 1967-1995 XML. The reference does not replace local notes, tags or proposed tracks. No reference lookup uses the network.
 
-Sets are represented in chapter names, such as `Set 2 / Dark Star`. Continuation indicators such as `>`, `->` and `→` are removed from song names; an internal medley connector becomes a slash. This affects display/exported chapter names, not the source tags or notes. The original TXT is attached unchanged as `show-notes.txt`; its text also appears under **Recording notes** in the player. Each audio file becomes one chapter. A recording that needs cuts inside one file requires preparation outside this version.
+Copying compressed audio unchanged is the default. Optional FLAC encoding accepts supported lossless 16-bit/24-bit integer sources at their original rate and depth. Tracks must have matching codecs, sample rates, depths, sample formats and channel layouts. Export re-probes inputs and verifies output precision. No resampling, gap insertion, trimming, fades or crossfading is applied; original silence remains. Source files are never modified, and existing output is refused. This preservation policy does not control Windows/audio-device conversions during playback.
 
-**Find recordings** searches `data/gd-shows.xml`: show facts/setlists from gdshowsdb, Archive recording metadata, Infinite Dead source links and Ian's historical listings. Search a date such as `1993-09-22`, venue, song, person or source identifier. Up to 500 matches are shown after personal ranking; narrow the search or choose a provider to see other matches. Search results and seed counts are historical snapshots, not a live index. Metadata-only dates, unknown facts and inferred source classifications are labelled.
+Sets appear in chapters, such as `Set 2 / Dark Star`. Segue arrows are stripped from display/exported song titles, including embedded tags; internal medley connectors become slashes. Original TXT bytes are attached as `show-notes.txt` and included in recording notes. Each source file becomes a chapter; splitting inside a file requires preparation outside Gratitude.
 
-The top-right source selector saves **SBD first** or **MTX first**. AUD, FM and UNKNOWN follow both. Category-specific credit tiers from the supplied SBD/AUD/MTX list are applied automatically (members of each tier tie; unlisted credits follow listed tiers); people and modifier ordering are no longer user settings. Source types and modifiers appear in colored boxes. FOB is a location modifier; FM can be a broadcast modifier or the primary type when no more specific type is known. Credits preserve recording versus transfer/mastering roles where supplied. Recent shows keep chronological order and also display source information.
+**MKA job** shows packaging progress and cancellation. Closing the main window cancels an active package; closing only the workshop leaves it running. Failed/cancelled packaging does not publish a partial MKA.
 
-Before a download, the app resolves the current etree torrent link or queries Archive metadata. Archive restricted/stream-only items are refused; downloadable items select original files rather than all derived encodings. Downloads run through bundled aria2, including HTTP web seeds where the torrent supplies them. The default is 30 minutes of seeding after download, with a 256 KiB/s upload cap. BitTorrent also uploads during download. Choose 0, 30 or 120 minutes before starting.
+The local Shows pane displays colored source/modifier badges and credits. The top-right choice is **SBD first** or **MTX first**, with AUD/FM/UNKNOWN following both. The supplied category-specific tiers apply automatically; members of a tier tie. See `docs/recording-tiers.md`. Recent shows retain recency. Playback supports chapters, seeking, volume and saved positions. File > Settings controls library folder, skip interval, theme and accent.
 
-Only one download or packaging job runs at a time. **Job** shows tool activity and **Cancel job** stops it. Retry the same recording to resume/recheck retained download files. **Open result** imports a completed download or plays a completed MKA. Closing the main window cancels an active job. Closing just the workshop leaves it running. Original downloads stay separate from the MKA for seeding.
+## Offline reference
 
-Playback supports chapter navigation, volume, seeking and saved positions. **File > Settings** controls the MKA library folder, skip interval, theme and Windows/custom accent.
+`data/gd-shows.xml` contains attributed GD show facts, setlists, historical recording references and separately marked credit-tier policy. It is not a current availability index or download service. Unknown and metadata-only dates remain labelled. See `docs/catalogue.md` for coverage, sources and the separate developer rebuild workflow.
 
-## Build
+## Build and delivery
 
-Windows 11 24H2 x64, .NET SDK 10.0.113, Rust 1.99.1, Inno Setup 6 and Python 3.12+. Shared `../jupiter-ui` is required. See `third_party/README.md` for the bundled playback and process tools.
+Requires Windows 11 24H2 x64, .NET 10, Rust, Python, Inno Setup 6, shared `../jupiter-ui`, and binaries described in `third_party/README.md`.
 
 ```powershell
 pwsh build/build.ps1
 ```
 
-The normal release runs formatting, Clippy, Rust tests, managed/native workflow verification and a local torrent/webseed check, publishes self-contained runtimes, and creates an installer plus supplemental portable zip under `dist/`. Installers use a distinct Show Player identity and preserve `%LOCALAPPDATA%\show-player` and all user audio on upgrade/uninstall.
+Release runs formatting, Clippy, Rust/ABI tests, managed local-import/MKA/audio checks and WinUI style checks, then publishes a self-contained installer and supplemental portable zip under `dist/`. There is no bundled aria2 or HTTP client. Upgrades retain existing application identity and `%LOCALAPPDATA%\show-player` data. Uninstall does not remove user audio or app data.
 
-## Structure
-
-| Location | Responsibility |
-| --- | --- |
-| `core/domain` | Rust playback/resume, catalogue, TXT import, metadata and cancellable tool jobs |
-| `core/ffi`, `proto` | Rust-owned protobuf C ABI and generated message schema |
-| `src/ShowPlayer.Interop` | Managed native lifetime and typed operations |
-| `src/ShowPlayer.App` | WinUI 3/Jupiter.UI player and workshop |
-| `data` | Runtime XML catalogue, source licence and historical rebuild inputs |
-| `tests` | Core/ABI, packaging/audio preservation, playback/resume and webseed verification |
-
-Playback and installer infrastructure is adapted from Ian's Jupiter Audio Bookshelf project; Show Player has separate application, installation and data identities. See `docs/project-brief.md`, `docs/jupiter-exceptions.md` and `docs/validation.md`.
+Rust owns local inspection, TXT parsing, offline references, MKA creation, playback and resume state. WinUI 3/C# owns the interface through a protobuf C ABI. Playback infrastructure is adapted from Jupiter Audio Bookshelf. See `docs/project-brief.md` and `docs/validation-0.2.2.md`.
