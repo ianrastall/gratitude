@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Jupiter.ShowPlayer.App"
     xmlns:controls="using:CommunityToolkit.WinUI.Controls"
-    Title="Show Player">
+    Title="Gratitude">
 
     <!-- Player workspace (standard section 7): the open book centered on the window
          background, the Books pane on the right, a status bar below. -->
@@ -110,7 +110,7 @@
                     </MenuFlyoutItem.KeyboardAccelerators>
                 </MenuFlyoutItem>
                 <MenuFlyoutSeparator />
-                <MenuFlyoutItem Text="About Show Player" Click="OnAbout" />
+                <MenuFlyoutItem Text="About Gratitude" Click="OnAbout" />
             </MenuBarItem>
         </MenuBar>
         <local:RecordingPrioritiesControl Grid.Column="1" x:Name="PrioritiesControl" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="8,0,12,0"/>
@@ -284,7 +284,7 @@
                             <ListView.ItemTemplate>
                                 <DataTemplate x:DataType="local:BookRow">
                                     <StackPanel Padding="0,8" Spacing="4" ToolTipService.ToolTip="{x:Bind Path}">
-                                        <TextBlock Text="{x:Bind SourceInfo}" Style="{StaticResource JupiterBodyStrongTextStyle}" TextWrapping="Wrap" />
+                                        <local:SourceBadgesControl Labels="{x:Bind SourceInfo}" />
                                         <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" MaxLines="2" TextTrimming="CharacterEllipsis" />
                                         <TextBlock Text="{x:Bind Credits}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" />
                                         <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />

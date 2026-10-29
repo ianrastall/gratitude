@@ -52,12 +52,12 @@ var priorities = core.GetPriorities();
 Require(priorities.Sources.Take(3).SequenceEqual(new[] { "SBD", "MTX", "AUD" }), "Default source priorities are incorrect");
 var cornell = core.SearchRecordings("1977-05-08", "All sources");
 Require(cornell.Count > 0 && cornell[0].SourceKind == "SBD" && cornell[0].ShowInfo.Contains("Scarlet Begonias"), "XML show facts or source ranking are missing");
-var audienceFirst = priorities.Clone();
-audienceFirst.Sources.Clear(); audienceFirst.Sources.Add(new[] { "AUD", "MTX", "SBD" });
-core.SetPriorities(audienceFirst);
-Require(core.SearchRecordings("1977-05-08", "All sources")[0].SourceKind == "AUD", "Personal priorities did not reorder recordings");
+var matrixFirst = priorities.Clone();
+matrixFirst.Sources.Clear(); matrixFirst.Sources.Add(new[] { "MTX", "SBD" });
+core.SetPriorities(matrixFirst);
+Require(core.SearchRecordings("1977-05-08", "All sources")[0].SourceKind == "MTX", "Source preference did not reorder recordings");
 using (var reopened = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(fixture, "data"), AudioOutput = "null" }))
-    Require(reopened.GetPriorities().Sources[0] == "AUD", "Priorities were not persisted");
+    Require(reopened.GetPriorities().Sources[0] == "MTX", "Source preference was not persisted");
 core.SetPriorities(priorities);
 Console.WriteLine("PASS XML show/setlist search, source badges, personal ranking and persisted priorities");
 string incompleteNotes = Path.Combine(fixture, "incomplete.txt");

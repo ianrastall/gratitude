@@ -303,7 +303,7 @@ public sealed partial class MainWindow : Window
         ToolTipService.SetToolTip(TitleText, _bookPath);
         CloseBookItem.IsEnabled = hasBook;
         // Standard section 6: "Document name - App name" while a book is open.
-        Title = open && _state != PlaybackState.Loading ? $"{_bookTitle} - Show Player" : "Show Player";
+        Title = open && _state != PlaybackState.Loading ? $"{_bookTitle} - Gratitude" : "Gratitude";
     }
 
     private void ShowTransport()
@@ -390,7 +390,7 @@ public sealed partial class MainWindow : Window
         if (_startupError is not null)
         {
             return (InfoBarSeverity.Error, "The player could not start",
-                $"{_startupError} Reinstalling Show Player restores its files; your saved positions are kept.");
+                $"{_startupError} Reinstalling Gratitude restores its files; your saved positions are kept.");
         }
         if (_state == PlaybackState.Missing)
         {
@@ -897,12 +897,12 @@ public sealed partial class MainWindow : Window
             Style = Style("JupiterBodyTextStyle"),
             TextWrapping = TextWrapping.Wrap,
             IsTextSelectionEnabled = true,
-            Text = $"Show Player\nPart of Jupiter\nVersion {shortVersion}"
+            Text = $"Gratitude\nPart of Jupiter\nVersion {shortVersion}"
                 + (build.Length > 0 ? $"\nBuild {build[..Math.Min(build.Length, 12)]}" : "")
                 + "\nMIT License"
                 + "\nPlayback by libmpv, under the GNU LGPL 2.1 or later; its license is in the licenses folder.",
         };
-        await Dialog("About Show Player", text).ShowAsync();
+        await Dialog("About Gratitude", text).ShowAsync();
     }
 
     private ContentDialog Dialog(string title, object content)

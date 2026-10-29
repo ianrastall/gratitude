@@ -8,7 +8,7 @@
 ; live in %LOCALAPPDATA%\show-player and are left alone by install,
 ; upgrade and uninstall.
 
-#define AppName "Show Player"
+#define AppName "Gratitude"
 #define AppExe "ShowPlayer.exe"
 #define AppUserModelId "IanRastall.ShowPlayer"
 #ifndef AppVersion
@@ -44,7 +44,7 @@ SolidCompression=yes
 ; reinstall does not leave a blank Start menu icon.
 ChangesAssociations=yes
 OutputDir=..\dist
-OutputBaseFilename=ShowPlayer-{#AppVersion}-win-x64-setup
+OutputBaseFilename=Gratitude-{#AppVersion}-win-x64-setup
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -53,6 +53,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [InstallDelete]
+Type: files; Name: "{autoprograms}\Show Player.lnk"
+Type: files; Name: "{autodesktop}\Show Player.lnk"
 ; 0.1 to 0.3 shipped the C++ core; it is replaced by the Rust core.
 Type: files; Name: "{app}\abcore.dll"
 ; A Jupiter folder in Start is never used; Start lists the app by name.

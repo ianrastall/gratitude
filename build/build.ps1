@@ -81,11 +81,11 @@ try {
         if (-not (Test-Path (Join-Path $appDir $file))) { throw "The published folder is missing $file." }
     }
 
-    $zip = Join-Path $dist "ShowPlayer-$version-win-x64-portable.zip"
+    $zip = Join-Path $dist "Gratitude-$version-win-x64-portable.zip"
     if (Test-Path $zip) { Remove-Item $zip -Force }
     Compress-Archive -Path (Join-Path $appDir '*') -DestinationPath $zip -CompressionLevel Optimal
     Invoke-Step 'build installer' { & $InnoCompiler /Qp "/DAppVersion=$version" (Join-Path $PSScriptRoot 'installer.iss') }
-    $setup = Join-Path $dist "ShowPlayer-$version-win-x64-setup.exe"
+    $setup = Join-Path $dist "Gratitude-$version-win-x64-setup.exe"
     Get-Item $setup, $zip | ForEach-Object { '{0}  {1:n1} MB' -f $_.FullName, ($_.Length / 1MB) }
 }
 finally {

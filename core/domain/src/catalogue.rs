@@ -67,6 +67,16 @@ impl Priorities {
                 return Err(format!("Unknown modifier {s}. Use FOB, FM, PRE-FM, DSBD, ULTRAMATRIX or DTS."));
             }
         }
+        // Migrate free-form preferences to the two supported source choices.
+        let position = |kind: &str| self.sources.iter().position(|s| s == kind).unwrap_or(usize::MAX);
+        let matrix_first = position("MTX") < position("SBD");
+        self.sources =
+            if matrix_first { ["MTX", "SBD", "AUD", "FM", "UNKNOWN"] } else { ["SBD", "MTX", "AUD", "FM", "UNKNOWN"] }
+                .map(str::to_owned)
+                .into();
+        self.people = Self::default().people;
+        self.modifiers.clear();
+        self.people_first = false;
         Ok(self)
     }
     pub fn load(directory: &Path) -> Self {
@@ -141,7 +151,56 @@ const ALIASES: &[(&str, &str)] = &[
     ("Rob Eaton", r"(?i)\b(?:rob[- ._]*eaton|eaton)\b"),
     ("Rango Keshavan", r"(?i)\b(?:rango[- ._]*keshavan|keshavan)\b"),
     ("GEMS", r"(?i)\bgems\b"),
+    ("Owsley Stanley", r"(?i)\bowsley\b|\bbear[- ._]+stanley\b|[._-]bear(?:[._-]|$)|^bear$"),
+    ("Dick Latvala", r"(?i)\b(?:dick[- ._]+latvala|latvala)\b"),
+    ("David Lemieux", r"(?i)\b(?:david[- ._]+lemieux|lemieux)\b"),
+    ("Jeffrey Norman", r"(?i)\bjeff(?:rey)?[- ._]+norman\b|[._-]norman(?:[._-]|$)|^norman$"),
+    ("Paul Stubblebine", r"(?i)\b(?:paul[- ._]+stubblebine|stubblebine)\b"),
+    ("Kidd Candelario", r"(?i)\b(?:kidd[- ._]+candelario|candelario)\b|[._-]kidd(?:[._-]|$)|^kidd$"),
+    ("Rex Jackson", r"(?i)\brex[- ._]+jackson\b|[._-]rex(?:[._-]|$)|^rex$"),
+    ("Bob Wagner", r"(?i)\bbob[- ._]+wagner\b|[._-]wagner(?:[._-]|$)|^wagner$"),
+    ("Rob Bertrando", r"(?i)\b(?:rob[- ._]+bertrando|bertrando)\b"),
+    ("Jerry Moore", r"(?i)\bjerry[- ._]+moore\b|[._-]moore(?:[._-]|$)|^moore$"),
+    ("Barry Glassberg", r"(?i)\b(?:barry[- ._]+glassberg|glassberg)\b"),
+    ("Oade Brothers", r"(?i)\boade(?:[- ._]+(?:brothers|bros))?\b"),
+    ("Jim Wise", r"(?i)\bjim[- ._]+wise\b|[._-]wise(?:[._-]|$)|^wise$"),
+    ("Joani Walker", r"(?i)\bjoani[- ._]+walker\b|[._-]walker(?:[._-]|$)|^walker$"),
+    ("Paul Scotton", r"(?i)\b(?:paul[- ._]+scotton|scotton)\b"),
+    ("Steve Rolfe", r"(?i)\b(?:steve[- ._]+rolfe|rolfe)\b"),
+    ("Reinhart Holwein", r"(?i)\b(?:reinhart[- ._]+holwein|holwein)\b"),
+    ("Marty Weinberg", r"(?i)\b(?:marty[- ._]+weinberg|weinberg)\b"),
+    ("Bob Menke", r"(?i)\b(?:bob[- ._]+menke|menke)\b"),
+    ("Louis Falanga", r"(?i)\b(?:louis[- ._]+falanga|falanga)\b"),
+    ("Ted Mattes", r"(?i)\b(?:ted[- ._]+mattes|mattes)\b"),
+    ("Baker/Bruns", r"(?i)\bbaker\s*/\s*bruns\b|[._-](?:baker|bruns)(?:[._-]|$)|^(?:baker|bruns)$"),
+    ("Ken and Judy Lee", r"(?i)\b(?:ken(?:\s*(?:and|&)\s*judy)?|judy)[- ._]+lee\b"),
+    ("Chris Chappell", r"(?i)\b(?:chris[- ._]+chappell|chappell|sick[- ._]*bits)\b"),
+    ("Kevin Tobin", r"(?i)\b(?:kevin[- ._]+tobin|tobin)\b"),
+    ("SIRMick", r"(?i)\bsirmick\b"),
+    ("Hucky", r"(?i)\bhucky\b"),
 ];
+
+// User-supplied house policy, not historical facts or a universal quality claim.
+// Members of a tier tie; alphabetical/identifier ordering supplies stable display.
+const SBD_TIERS: &[&[&str]] = &[
+    &["Betty Cantor-Jackson", "Owsley Stanley", "Dan Healy"],
+    &[
+        "Charlie Miller",
+        "Dick Latvala",
+        "David Lemieux",
+        "Jeffrey Norman",
+        "Paul Stubblebine",
+        "Kidd Candelario",
+        "Rex Jackson",
+    ],
+];
+const AUD_TIERS: &[&[&str]] = &[
+    &["Bob Wagner", "Rob Bertrando", "Jerry Moore", "Barry Glassberg", "Rango Keshavan"],
+    &["Oade Brothers", "Jim Wise", "Joani Walker", "Paul Scotton", "Steve Rolfe", "Reinhart Holwein"],
+    &["Marty Weinberg", "Bob Menke", "Louis Falanga", "Ted Mattes", "Baker/Bruns", "Ken and Judy Lee"],
+];
+const MTX_TIERS: &[&[&str]] =
+    &[&["Hunter Seamons", "Dave Usborne"], &["Chris Chappell", "Kevin Tobin", "SIRMick", "Hucky"]];
 pub fn classify(source: &str, identifier: &str, taper: &str, transfer: &str, lineage: &str, hints: &str) -> Profile {
     let hint = re(r"(?i)^\s*(?:(?:better|cool|great|main)\s+)*(SBD|AUD|matrix|ultramatrix|FM)\b")
         .captures(hints.trim())
@@ -202,24 +261,21 @@ impl Profile {
             .join(" | ")
     }
 }
-fn person_match(needle: &str, profile: &Profile) -> bool {
-    let n = needle.to_lowercase();
-    if n == "betty" {
-        return profile.people.iter().any(|p| p == "Betty Cantor-Jackson");
-    }
-    if n == "miller" {
-        return profile.people.iter().any(|p| p == "Charlie Miller");
-    }
-    profile.people.iter().any(|p| p.to_lowercase().contains(&n)) || profile.evidence.to_lowercase().contains(&n)
-}
 pub fn compare(a: &Profile, b: &Profile, p: &Priorities) -> Ordering {
     rank(a, p).cmp(&rank(b, p))
 }
 pub fn rank(x: &Profile, p: &Priorities) -> (usize, usize, usize) {
-    let source = |x: &Profile| p.sources.iter().position(|s| s == &x.kind).unwrap_or(p.sources.len());
-    let person = |x: &Profile| p.people.iter().position(|n| person_match(n, x)).unwrap_or(p.people.len());
-    let modifier = |x: &Profile| p.modifiers.iter().position(|n| x.modifiers.contains(n)).unwrap_or(p.modifiers.len());
-    if p.people_first { (person(x), source(x), modifier(x)) } else { (source(x), person(x), modifier(x)) }
+    let p = p.clone().validate().unwrap_or_default();
+    let source = p.sources.iter().position(|s| s == &x.kind).unwrap_or(p.sources.len());
+    let tiers = match x.kind.as_str() {
+        "SBD" | "FM" => SBD_TIERS,
+        "AUD" => AUD_TIERS,
+        "MTX" => MTX_TIERS,
+        _ => &[],
+    };
+    let credit =
+        tiers.iter().position(|tier| tier.iter().any(|name| x.people.iter().any(|p| p == name))).unwrap_or(tiers.len());
+    (source, credit, 0)
 }
 #[derive(Default)]
 struct Catalogue {
@@ -411,7 +467,20 @@ pub fn compile(facts: &Path, output: &Path) -> Result<(), String> {
             xml(&text(s, "scope"))
         );
     }
-    out.push_str("  </sources>\n  <recordingTaxonomy>\n    <type code=\"SBD\" meaning=\"Soundboard\"/><type code=\"MTX\" meaning=\"Matrix of sources\"/><type code=\"AUD\" meaning=\"Audience recording\"/><type code=\"FM\" meaning=\"Broadcast source without a more specific known primary type\"/><type code=\"UNKNOWN\" meaning=\"Not established by available evidence\"/>\n    <modifier code=\"FOB\" meaning=\"Front of board microphone location\"/><modifier code=\"FM\" meaning=\"FM broadcast\"/><modifier code=\"PRE-FM\" meaning=\"Pre-broadcast source\"/><modifier code=\"DSBD\" meaning=\"Digital soundboard\"/><modifier code=\"ULTRAMATRIX\" meaning=\"Ultramatrix source lineage\"/>\n    <rankingPolicy>Personal priorities are separate from facts. Supplied default: SBD, MTX, AUD, FM, UNKNOWN; then Betty, Miller.</rankingPolicy>\n  </recordingTaxonomy>\n  <shows>\n");
+    out.push_str("  </sources>\n  <recordingTaxonomy>\n    <type code=\"SBD\" meaning=\"Soundboard\"/><type code=\"MTX\" meaning=\"Matrix of sources\"/><type code=\"AUD\" meaning=\"Audience recording\"/><type code=\"FM\" meaning=\"Broadcast source without a more specific known primary type\"/><type code=\"UNKNOWN\" meaning=\"Not established by available evidence\"/>\n    <modifier code=\"FOB\" meaning=\"Front of board microphone location\"/><modifier code=\"FM\" meaning=\"FM broadcast\"/><modifier code=\"PRE-FM\" meaning=\"Pre-broadcast source\"/><modifier code=\"DSBD\" meaning=\"Digital soundboard\"/><modifier code=\"ULTRAMATRIX\" meaning=\"Ultramatrix source lineage\"/>\n    <rankingPolicy>Personal source preference is SBD-first or MTX-first. AUD, FM and UNKNOWN follow both. Credit tiers are user-supplied house policy, separate from historical facts.</rankingPolicy>\n  </recordingTaxonomy>\n");
+    out.push_str("  <creditTiers policy=\"User-supplied house defaults; members of a tier tie; unlisted credits follow listed tiers\">\n");
+    for (kind, tiers) in [("SBD", SBD_TIERS), ("AUD", AUD_TIERS), ("MTX", MTX_TIERS)] {
+        let _ = writeln!(out, "    <category type=\"{kind}\">");
+        for (i, tier) in tiers.iter().enumerate() {
+            let _ = writeln!(out, "      <tier number=\"{}\">", i + 1);
+            for name in *tier {
+                let _ = writeln!(out, "        <person name=\"{}\" />", xml(name));
+            }
+            out.push_str("      </tier>\n");
+        }
+        out.push_str("    </category>\n");
+    }
+    out.push_str("  </creditTiers>\n  <shows>\n");
     for s in facts["shows"].as_array().ok_or("Missing shows")? {
         let date = text(s, "date");
         if date.get(..4).and_then(|s| s.parse::<u32>().ok()).is_none_or(|y| !(1967..=1995).contains(&y)) {
@@ -561,15 +630,18 @@ mod tests {
         assert_eq!(classify("SBD", "gd.aud", "", "", "", "").kind, "SBD");
     }
     #[test]
-    fn rank_is_personal_and_configurable() {
+    fn only_soundboard_matrix_order_is_personal() {
         let a = classify("SBD", "betty", "", "", "", "");
         let b = classify("AUD", "miller", "", "", "", "");
         let mut p = Priorities::default();
         assert_eq!(compare(&a, &b, &p), Ordering::Less);
-        p.sources = vec!["AUD".into(), "SBD".into()];
-        assert_eq!(compare(&a, &b, &p), Ordering::Greater);
+        p.sources = vec!["AUD".into(), "MTX".into(), "SBD".into()];
+        assert_eq!(compare(&a, &b, &p), Ordering::Less);
         p.people_first = true;
         assert_eq!(compare(&a, &b, &p), Ordering::Less);
+        let matrix = classify("MTX", "", "", "", "", "");
+        assert_eq!(compare(&matrix, &a, &p), Ordering::Less);
+        assert_eq!(compare(&a, &matrix, &Priorities::default()), Ordering::Less);
     }
     #[test]
     fn priorities_persist_and_reject_invalid_values() {
@@ -578,7 +650,28 @@ mod tests {
         let saved = p.save(dir.path()).unwrap();
         assert_eq!(Priorities::load(dir.path()), saved);
         assert_eq!(saved.sources.len(), 5);
+        assert_eq!(saved.sources[0], "SBD");
+        assert_eq!(saved.people, vec!["Betty", "Miller"]);
         assert!(Priorities { sources: vec!["BANANA".into()], ..Default::default() }.validate().is_err());
+    }
+    #[test]
+    fn supplied_tiers_are_category_specific_and_tied() {
+        let p = Priorities::default();
+        let recording = |kind, taper, transfer| classify(kind, "", taper, transfer, "", "");
+        let betty = recording("SBD", "Betty Cantor", "");
+        let bear = recording("SBD", "Owsley Stanley", "");
+        let miller = recording("SBD", "", "Charlie Miller");
+        assert_eq!(compare(&betty, &bear, &p), Ordering::Equal);
+        assert_eq!(compare(&betty, &miller, &p), Ordering::Less);
+        let wagner = recording("AUD", "Bob Wagner", "Charlie Miller");
+        let weinberg = recording("AUD", "Marty Weinberg", "Charlie Miller");
+        assert_eq!(compare(&wagner, &weinberg, &p), Ordering::Less);
+        let hunter = recording("MTX", "", "Hunter Seamons");
+        let usborne = recording("MTX", "", "Dave Usborne");
+        let tobin = recording("MTX", "", "Kevin Tobin");
+        assert_eq!(compare(&hunter, &usborne, &p), Ordering::Equal);
+        assert_eq!(compare(&hunter, &tobin, &p), Ordering::Less);
+        assert_eq!(recording("AUD", "Oade Brothers", "").people, vec!["Oade Brothers"]);
     }
     #[test]
     fn xml_disables_dtd_and_preserves_unknowns() {

@@ -5,7 +5,7 @@ using Windows.Graphics;
 
 namespace Jupiter.ShowPlayer.App;
 
-/// <summary>Settings - Show Player: one per app, non-modal, changes apply at once.</summary>
+/// <summary>Settings - Gratitude: one per app, non-modal, changes apply at once.</summary>
 public sealed partial class SettingsWindow : Window
 {
     private readonly MainWindow _main;

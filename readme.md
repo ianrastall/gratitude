@@ -1,6 +1,8 @@
-# Show Player
+# Gratitude
 
-A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.2.0. Working name: Show Player.
+A Windows player and creator for concert recordings packaged as Matroska audio (`.mka`). Version 0.2.1.
+
+0.2.1 renames the app Gratitude, adds colored source/modifier badges and simplifies preferences to SBD versus MTX. Install upgrades preserve the existing application identity, settings and resume database.
 
 0.2.0 adds a single attributed XML catalogue for 1967–1995, show setlists, prominent recording types/modifiers/credits, and personal recording priorities at the top right of the player and workshop. See `docs/catalogue.md` for coverage, structure and rebuilding.
 
@@ -12,7 +14,7 @@ The bundled recording catalogue is Grateful Dead-specific. Local folder import a
 
 ## Use
 
-Launch **Show Player** from Start. Choose **Import a show…** to select a folder of audio files and show notes, or **Find recordings…** to search the saved GD listings.
+Launch **Gratitude** from Start. Choose **Import a show…** to select a folder of audio files and show notes, or **Find recordings…** to search the saved GD listings.
 
 Import reads audio files recursively (up to four subfolder levels), proposes a natural filename order, reads the largest non-checksum TXT and extracts artist, date, venue, sets and song names. Choose a different TXT if needed. Review the metadata, edit song titles and set labels, and move tracks up/down. Confirm the review box, then choose **Create MKA…**. Original audio is never changed. The output must have a new filename.
 
@@ -22,7 +24,7 @@ Sets are represented in chapter names, such as `Set 2 / Dark Star`. Continuation
 
 **Find recordings** searches `data/gd-shows.xml`: show facts/setlists from gdshowsdb, Archive recording metadata, Infinite Dead source links and Ian's historical listings. Search a date such as `1993-09-22`, venue, song, person or source identifier. Up to 500 matches are shown after personal ranking; narrow the search or choose a provider to see other matches. Search results and seed counts are historical snapshots, not a live index. Metadata-only dates, unknown facts and inferred source classifications are labelled.
 
-The top-right **Priorities** control saves source, people and modifier order per Windows user. Defaults are SBD, MTX, AUD, FM, UNKNOWN, then Betty, Miller. Choose whether source type or people rank first. FOB is a location modifier; FM can be a broadcast modifier or the primary type when no more specific type is known. Credits preserve recording versus transfer/mastering roles where supplied. Recent shows keep chronological order and also display source information.
+The top-right source selector saves **SBD first** or **MTX first**. AUD, FM and UNKNOWN follow both. Category-specific credit tiers from the supplied SBD/AUD/MTX list are applied automatically (members of each tier tie; unlisted credits follow listed tiers); people and modifier ordering are no longer user settings. Source types and modifiers appear in colored boxes. FOB is a location modifier; FM can be a broadcast modifier or the primary type when no more specific type is known. Credits preserve recording versus transfer/mastering roles where supplied. Recent shows keep chronological order and also display source information.
 
 Before a download, the app resolves the current etree torrent link or queries Archive metadata. Archive restricted/stream-only items are refused; downloadable items select original files rather than all derived encodings. Downloads run through bundled aria2, including HTTP web seeds where the torrent supplies them. The default is 30 minutes of seeding after download, with a 256 KiB/s upload cap. BitTorrent also uploads during download. Choose 0, 30 or 120 minutes before starting.
 

@@ -17,7 +17,7 @@ The 29 October 2026 snapshot contains 2,305 distinct dates, 2,233 performance/se
 
 SBD = soundboard; MTX = matrix; AUD = audience. FOB describes microphone location, FM broadcast, PRE-FM pre-broadcast, DSBD digital soundboard, ULTRAMATRIX lineage and DTS encoding. The primary type follows explicit source metadata before identifier inference. Unknown remains UNKNOWN. Source descriptions may themselves contain errors. Person aliases are conservative; David Cantor is not assumed to be Betty Cantor-Jackson, nor Miller Auditorium to be Charlie Miller.
 
-Personal preferences live separately in `%LOCALAPPDATA%\show-player\recording-priorities.json`. A user's order is not a claim about objective quality. Priority applies before the 500-result display limit; source-first and people-first are available. Library lists share these preferences; the Recent menu retains recency.
+Personal preferences live separately in `%LOCALAPPDATA%\show-player\recording-priorities.json`. As of 0.2.1, only SBD-first versus MTX-first is configurable; AUD, FM and UNKNOWN follow both. Legacy preferences are normalized on read, retaining the relative SBD/MTX choice. Credit tiers use the user-supplied SBD, AUD and MTX tables, with members of each tier tied and unlisted credits following the listed tiers. The XML also records those tables as policy, distinct from facts. Old people/modifier/people-first fields are compatibility fields, not user controls. Priority applies before the 500-result display limit. Library lists share these preferences; the Recent menu retains recency.
 
 ## Sources and limits
 

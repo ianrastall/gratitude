@@ -25,7 +25,7 @@ public sealed class AppSettings : Jupiter.UI.IAccentPreferences, Jupiter.UI.IThe
 
     public int Version { get; set; }
 
-    /// <summary>Version 1 (Show Player 0.1 to 0.3) only: the size setting, read as <see cref="Zoom"/>.</summary>
+    /// <summary>Version 1 (Gratitude 0.1 to 0.3) only: the size setting, read as <see cref="Zoom"/>.</summary>
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
     public double Scale { get; set; }
 

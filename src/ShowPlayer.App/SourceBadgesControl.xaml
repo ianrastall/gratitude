@@ -1,0 +1,12 @@
+<UserControl x:Class="Jupiter.ShowPlayer.App.SourceBadgesControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="SourceSbdBrush" Color="#174A70" /> <!-- jupiter-allow JUP001: recording-content palette; docs/jupiter-exceptions.md -->
+        <SolidColorBrush x:Key="SourceMtxBrush" Color="#563871" /> <!-- jupiter-allow JUP001: recording-content palette; docs/jupiter-exceptions.md -->
+        <SolidColorBrush x:Key="SourceAudBrush" Color="#694B1C" /> <!-- jupiter-allow JUP001: recording-content palette; docs/jupiter-exceptions.md -->
+        <SolidColorBrush x:Key="SourceModifierBrush" Color="#1C5550" /> <!-- jupiter-allow JUP001: recording-content palette; docs/jupiter-exceptions.md -->
+        <SolidColorBrush x:Key="SourceBadgeTextBrush" Color="#FFFFFF" /> <!-- jupiter-allow JUP001: recording-content palette; docs/jupiter-exceptions.md -->
+    </UserControl.Resources>
+    <StackPanel x:Name="Rows" Spacing="4" />
+</UserControl>

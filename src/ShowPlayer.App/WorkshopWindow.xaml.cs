@@ -39,7 +39,7 @@ public sealed partial class WorkshopWindow : Window
         App.Current.Accent.Attach(Root);
         App.Current.Theme.Attach(this);
         AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets", "AppIcon.ico"));
-        DestinationBox.Text = App.Current.Settings.DownloadFolder ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), "Show Player", "Sources");
+        DestinationBox.Text = App.Current.Settings.DownloadFolder ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), "Gratitude", "Sources");
         _timer.Tick += (_, _) => PollJob();
         _timer.Start();
         Closed += (_, _) => { _closed = true; _timer.Stop(); App.Current.RecordingPrioritiesChanged -= OnPriorityChange; };
@@ -215,7 +215,7 @@ public sealed partial class WorkshopWindow : Window
             var results = rows.Select(r => new RecordingRow(r)).ToList();
             RecordingsList.ItemsSource = results;
             RecordingsList.SelectedIndex = results.FindIndex(r => r.Recording.Key == selected);
-            SearchSummary.Text = $"{rows.Count} matches{(rows.Count == 500 ? " (first 500; narrow your search)" : "")} · ranked by your priorities · attributed offline XML snapshot";
+            SearchSummary.Text = $"{rows.Count} matches{(rows.Count == 500 ? " (first 500; narrow your search)" : "")} · ranked by source preference and credit tier · attributed offline XML snapshot";
         }
         catch (Exception ex) { Error(ex); }
         finally { _searching = false; }
@@ -226,7 +226,7 @@ public sealed partial class WorkshopWindow : Window
     {
         var row = RecordingsList.SelectedItem as RecordingRow;
         RecordingTitle.Text = row?.Title ?? "Select a recording.";
-        RecordingSourceInfo.Text = row?.SourceInfo ?? "";
+        RecordingSourceInfo.Labels = row?.SourceInfo ?? "";
         RecordingCredits.Text = row?.Credits ?? "";
         ShowInfoText.Text = row?.Recording.ShowInfo ?? "";
         DetailsLink.IsEnabled = DownloadButton.IsEnabled = row is not null;
