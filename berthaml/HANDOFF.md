@@ -16,7 +16,7 @@ Remaining steps:
 4. Link local folders to shows and recordings: identifier, shnid, then file names and durations against track lists. Needs a store schema migration that preserves saved positions.
 5. New UI against the Jupiter style standard: show browser, setlists in playback, every owned performance of a song.
 
-Decided unless Ian objects: era rosters are added with a label saying they are roster-derived, reversing the current no-derived-lineups rule, and 1965-66 is a later capture. Before the roughly 18,000 Archive track lists are fetched, stop committing the TXT/JSON/M3U8 exports, which would reach about 54,000 files.
+Decided unless Ian objects: era rosters are added with a label saying they are roster-derived, reversing the current no-derived-lineups rule, and 1965-66 is a later capture. Before the roughly 18,000 Archive track lists are fetched, stop committing the TXT/JSON/M3U8 exports, which would reach about 54,000 files, and store the captures in a few bundled archives rather than one file each. File count is what costs here: `git add` of this 4,150-file change took about 30 minutes on Ian's hard disk, roughly 120 to 300 files a minute, despite being only about 30 MB. `sources/recording-playlists/index.json` and `cache_name` assume one file per capture and will need changing.
 
 ## Dataset implementation, 30 October 2026
 
