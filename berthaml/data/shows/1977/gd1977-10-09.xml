@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-10-09" date="1977-10-09">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19771009-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-686" nameAsBilled="McNichols Sports Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-04" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-05" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-06" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-07" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-08" song="s-supplication" transition="unknown"/>
+      <performance id="p01-09" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-10" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-03" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-06" song="s-truckin" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-08986bb05bfb0b2d5f92" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-09.144480.sbd.troy.smith.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Sandy Troy</credit>
+      <lineage>Sandy Troy's 7" Soundboard Reels @ 3.75 ips of unknown provenance (reels were not labeled, except to denote the date &amp; dolby b) | Soundboard Reels (Akai GX-636)&gt; Lamb Labs dolby decoder &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp 2496&gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1977-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d673ecb34b56f7dce929" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-09.144481.sbd.troy.smith.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Sandy Troy</credit>
+      <lineage>Sandy Troy's 7" Soundboard Reels @ 3.75 ips of unknown provenance (reels were not labeled, except to denote the date &amp; dolby b) | Soundboard Reels (Akai GX-636)&gt; Lamb Labs dolby decoder &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp 2496&gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1977-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9c34c813e2a10e06b9e3" kind="audience">
+      <identifier scheme="archive-org">gd1977-10-09.170283.set2.aud.tiffany.andrewF.flac1648</identifier>
+      <credit role="recordist">thanks to Ben Tiffany for the source tape</credit>
+      <lineage>Unknown AUD &gt; ? &gt; Cassette | Maxell XLII-100 &gt; Denon DRS-640 (Dolby Out) &gt; Tascam DA-3000 @24/96WAV &gt; Wavelab &gt; CD-Wave (24bit) &gt; TLH &gt; FLAC 2496.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1977-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-b2318673472c9080b72e" kind="audience">
+      <identifier scheme="archive-org">gd1977-10-09.170284.set2.aud.tiffany.andrewF.flac2496</identifier>
+      <credit role="recordist">thanks to Ben Tiffany for the source tape</credit>
+      <lineage>Unknown AUD &gt; ? &gt; Cassette | Maxell XLII-100 &gt; Denon DRS-640 (Dolby Out) &gt; Tascam DA-3000 @24/96WAV &gt; Wavelab &gt; CD-Wave (24bit) &gt; TLH &gt; FLAC 2496.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1977-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-23bf2a96e8eb958ef610" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-09.sbd.miller.109972.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat (48k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v11.1 -&gt; Adobe Audition v3.0 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1977-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b960ae7d4590ec3a266b" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-09.sbd.miller.88961.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat (48k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v9.12 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Arena on 1977-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-77-denver-co-mcnichols-sports-arena/</note>
+    </recording>
+    <recording id="r-59e6a97962dc07043b33" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-09.sbd.unknown.3918.sbeok.shnf</identifier>
+      <lineage>SBD&gt;?&gt;CDR&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Arena on 1977-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Doug Moog</note>
+    </recording>
+    <recording id="r-d7779dc367a86911252b" kind="soundboard">
+      <identifier scheme="archive-org">gd77-10-09.sbd.clugston.6954.sbeok.shnf</identifier>
+      <lineage>Soundboard | Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1977-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-77-denver-co-mcnichols-sports-arena/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

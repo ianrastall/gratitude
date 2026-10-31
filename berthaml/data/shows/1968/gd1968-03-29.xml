@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1968-03-29" date="1968-03-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19680329-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 2d25718265bbf93e911ca094cd440c5bfa14493f4b08447a90a094af9c2bd20c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-127" nameAsBilled="Carousel Ballroom"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-good-morning-little-schoolgirl" transition="unknown"/>
+      <performance id="p01-02" song="s-death-don-t-have-no-mercy" transition="unknown"/>
+      <performance id="p01-03" song="s-sitting-on-top-of-the-world" transition="unknown"/>
+      <performance id="p01-04" song="s-dark-star" transition="unknown"/>
+      <performance id="p01-05" song="s-morning-dew" transition="unknown"/>
+      <performance id="p01-06" song="s-turn-on-your-lovelight" transition="segue"/>
+      <performance id="p01-07" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p01-08" song="s-drums" transition="segue"/>
+      <performance id="p01-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p01-10" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p01-11" song="s-new-potato-caboose" transition="segue"/>
+      <performance id="p01-12" song="s-born-cross-eyed" transition="unknown"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-56305fa1a1de32e90d19" kind="soundboard">
+      <identifier scheme="archive-org">gd1968-03-29.sbd.miller.108993.flac16</identifier>
+      <lineage>SBD -&gt; (4 Track) Master Reels -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-78b8b3b142143adb252a" kind="audience">
+      <identifier scheme="archive-org">gd68-03-29.aud.cotsman.6029.sbeok.shnf</identifier>
+      <lineage>Audience | AUD &gt; MR &gt; D &gt; PCM &gt; D &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-d42d1bf01fe3a7953ad8" kind="audience">
+      <identifier scheme="archive-org">gd68-03-29.aud.vernon.9473.sbeok.shnf</identifier>
+      <lineage>Audience | AUD &gt; ?? &gt; CDR &gt; EAC (secure) &gt; Cool Edit (minor fixes) &gt; CD Wave (retracking) &gt; mkwACT &gt; SHN (seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Raoul Duke and Matt Vernon</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

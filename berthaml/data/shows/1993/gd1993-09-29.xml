@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-09-29" date="1993-09-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930929-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-502" nameAsBilled="Boston Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-the-same-thing" transition="unknown"/>
+      <performance id="p01-04" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-05" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-06" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-07" song="s-eternity" transition="unknown"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-eyes-of-the-world" transition="unknown"/>
+      <performance id="p02-02" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-03" song="s-way-to-go-home" transition="unknown"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-playing-in-the-band-reprise" transition="unknown"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-liberty" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-1d6ea8a52b8ba5168b78" kind="unknown">
+      <identifier scheme="archive-org">gd1993-09-29.128697.boedicker.flac16</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source: Sony D6 Cassette Master&gt;Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8. Sector Boundaries Aligned Using Traders Little helper. Taped By Dave Boedicker, Taper Section, Section BB, Row 34,Seat 1</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-4907485b4b35002e2b15" kind="audience">
+      <identifier scheme="archive-org">gd1993-09-29.139995.aud.lamarre.berger.flac1648</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>flac16/48kHz ; aud dat master, sennheiser 441's&gt;denon dtr-80, taped by Doug Lamarre, transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-9e29fa9b8fb39f5e0c13" kind="audience">
+      <identifier scheme="archive-org">gd1993-09-29.140132.schoeps.cmc4.mk4.gastwirt.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rich Gastwirt</credit>
+      <lineage>Rich Gastwirt's Master Audience Dat 16/48; Schoeps CMC4/MK4 -&gt; Oade P/S -&gt; Panasonic SV-255</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-4eef8445557242edd401" kind="unknown">
+      <identifier scheme="archive-org">gd1993-09-29.164517.me88.rogosa.flac1648</identifier>
+      <credit role="recordist">Dan Rogosa</credit>
+      <lineage>2x Sennheiser ME 88's (stand) &gt; Sony TCD-D7 | Transfer: MDAT &gt; Fostex D-15 &gt; Tascam DA-3000 &gt; WAV @ 16/48 Master: Wavelab 11 (tracking, fades, remove DC offset) &gt; FLAC 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Mark Goldey</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6bda27de345498ed5ee9" kind="unknown">
+      <identifier scheme="archive-org">gd1993-09-29.168189.bk4011.braveman.flac1648</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>B&amp;K 4011 &gt; DAT(48k) First row taper section, unknown taper | Sony PCM-R500 &gt; Scarlett 8i6 (SPDIF) &gt; REAPER WAV 16/48 &gt; Goldwave &gt; FLAC1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer 7/14/24 by</note>
+    </recording>
+    <recording id="r-e8a5216a1120b865d8ed" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-09-29.48k.andrewf.86807.flac16</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>Nakamichi CM-300's w/CP-4 shotgun capsules &gt; Casio DA-7 &gt; Sony DT-Dat tape. Mics on 7-foot stand, pointed at stacks, floor taping section, aprx 2 or 3 rows behind soundboard. | MAD &gt; Sony TCD-D10P &gt; SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-7b91dc3b0bb054a29608" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-09-29.nak300.andrewf.86808.flac16</identifier>
+      <credit role="recordist">Andrew F</credit>
+      <lineage>Nakamichi CM-300's w/CP-4 shotgun capsules &gt; Casio DA-7 &gt; Sony DT-Dat tape. Mics on 7-foot stand, pointed at stacks, floor taping section, aprx 2 or 3 rows behind soundboard. | MAD &gt; Sony TCD-D10P &gt; SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; R8Brain v1.9 (downsample to 44.1kHz) &gt; TLH &gt; FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-12aea2ce6afc579ef8bb" kind="audience">
+      <identifier scheme="archive-org">gd1993-09-29.Nak300CP4.Baker.Keo.117089.Flac1644</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D5; Taper:Mr.Baker,Transfer By Keo; Tapes Maxell MX-S 90,100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32 Bit Float/96 kHz; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+    </recording>
+    <recording id="r-1e5fefdb9e1467022509" kind="audience">
+      <identifier scheme="archive-org">gd1993-09-29.Nak300CP4.Baker.Keo.117090.Flac2496</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D5; Taper:Mr.Baker,Transfer By Keo; Tapes Maxell MX-S 90,100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked/Metadata Tagging With AudioGate Software To 24 Bit/96 kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+    </recording>
+    <recording id="r-6bb6a9cce9d8ad98c7a1" kind="unknown">
+      <identifier scheme="archive-org">gd1993-09-29.neumann-birkhead.koucky.88144.flac16</identifier>
+      <credit role="recordist">Jim Birkhead</credit>
+      <lineage>Neumann km 82i &gt; Sonosax SX-PR power supply &gt; Sony TCD D10 PRO II DAT x1 | Panasonic SV-3700 &gt; M-Audio Audiophile 2496 to 48 khz Wavelab 5.0 mastering with iZotope Ozone 3 &gt; dithered to 44.1 khz &gt; CDWAV1.9 &gt; FLAC (level 8).</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+    </recording>
+    <recording id="r-1bdf10bfbe50db390020" kind="unknown">
+      <identifier scheme="archive-org">gd1993-09-29.senn421.miller.100235.sbeok.flac16</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>Sennheiser 421 -&gt; Cassette Master | Cassette Master -&gt; Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.21 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-0372fbde166397a579c9" kind="soundboard">
+      <identifier scheme="archive-org">gd93-09-29.dsbd.miller.28800.sbeok.flacf</identifier>
+      <lineage>flac16 Set 1: SBD -&gt; Master Dat -&gt; Dat Clone (48k) Set 2: SBD -&gt; Master Dat (48k) | Dat (Sony 500) -&gt; Behringer UltraMatch SRC2000 -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-129ab9f9662e911ec6c0" kind="audience">
+      <identifier scheme="archive-org">gd93-09-29.schoeps.pujol.12436.sbeok.shnf</identifier>
+      <credit role="recordist">Dave Minor</credit>
+      <lineage>Audience: Schoeps | Schoeps (unknown model/ps) &gt; Sony D7 (48khz) &gt; Sony PCM-R300 (clone) &gt; Monster SPDIF digital cable &gt; RMEdigi96/8PAD &gt; SoundForge 6.0 &gt; CD Wave &gt; mkwACT &gt; SHN (seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1993-09-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Marc Pujol</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

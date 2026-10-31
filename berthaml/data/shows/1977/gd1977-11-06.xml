@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-11-06" date="1977-11-06">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19771106-04" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-695" nameAsBilled="Broome County Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p01-02" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-03" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="segue"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-06" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-07" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-dupree-s-diamond-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-passenger" transition="unknown"/>
+      <performance id="p01-10" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-11" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-sunrise" transition="unknown"/>
+      <performance id="p02-03" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-04" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-05" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-06" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-11" song="s-truckin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6e5d41946b9d1189b657" kind="unknown">
+      <identifier scheme="archive-org">gd1977-11-06.122296.sbd.flac16</identifier>
+      <lineage>MR&gt;PCM&gt;DAT&gt;HD&gt;CDR&gt;EAC&gt;Flac level 8 via TLH</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-996262f0412e9af947aa" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-11-06.139055.SBD.Miller.Noel.t-flac16</identifier>
+      <lineage>Soundboard Master Reels &gt; PCM &gt; DAT; Charlie Miller | Dat (Panasonic SV-3700) &gt; Tascam DA-3000 &gt; wav 16/44; Edited &amp; Mastered in Audacity by Joe Noel; Wave &gt; Flac 16/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d1d8243c24c86c5d4d16" kind="audience">
+      <identifier scheme="archive-org">gd1977-11-06.148411.1st.set.fob.shure.sm57.sublette.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Kathy Sublette's Master (FOB) Audience Cassette; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a494a3bdc4869782e38b" kind="audience">
+      <identifier scheme="archive-org">gd1977-11-06.148412.1st.set.fob.shure.sm57.sublette.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Kathy Sublette's Master (FOB) Audience Cassette; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a11f98ae644c423704fb" kind="audience">
+      <identifier scheme="archive-org">gd1977-11-06.171136.s1-s2p.aud.AndrewF.flac2448</identifier>
+      <credit role="recordist">from the tape collection of Rich Petrunis &amp; with thanks to John Petrunis</credit>
+      <lineage>Unknown AUD from the tape collection of Rich Petrunis &amp; with thanks to John Petrunis. | Transfer: TDK D-120 &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-5bde296ea7e06ad18796" kind="unknown">
+      <identifier scheme="archive-org">gd1977-11-06.mtx.seamons.92273.sbeok.flac16</identifier>
+      <credit role="recordist">See Notes</credit>
+      <lineage>See Notes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-245ba67c025f6f4551b0" kind="audience">
+      <identifier scheme="archive-org">gd77-11-06.moore.cribbs.16758.sbeok.shnf</identifier>
+      <credit role="recordist">Jerry Moore</credit>
+      <lineage>Audience Recording: Sony ECM-33Ps | Sony ECM-33Ps&gt; Sony 158; A:C:D:Cool Edit:CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
+    </recording>
+    <recording id="r-c0c7ffcd60f1857413ef" kind="soundboard">
+      <identifier scheme="archive-org">gd77-11-06.sbd.nawrocki.283.sbeok.shnf</identifier>
+      <lineage>Soundboard | Reel -&gt; DAT -&gt; CDR&gt; EAC -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1977-11-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-c2ceb5b92f55f6ac3714" kind="unknown">
+      <identifier scheme="other">etree-594640</identifier>
+      <note>Supplied catalogue listing: etree; gd1977-11-06.139055.SBD.Miller.Noel.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

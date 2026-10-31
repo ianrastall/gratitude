@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  BerthaML song catalog. Every item a performance can reference, including
+  improvisational segments (Drums, Space, Feedback, Jam).
+
+  Play counts and first/last-played dates are deliberately absent: they are
+  derived from the show files and would drift if stored here.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:b="urn:berthaml:1"
+           targetNamespace="urn:berthaml:1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+
+  <xs:include schemaLocation="common.xsd"/>
+
+  <xs:element name="songs" type="b:SongCatalog">
+    <xs:key name="songKey">
+      <xs:selector xpath="b:song"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:keyref name="partOfRef" refer="b:songKey">
+      <xs:selector xpath="b:song/b:partOf"/>
+      <xs:field xpath="@song"/>
+    </xs:keyref>
+  </xs:element>
+
+  <xs:complexType name="SongCatalog">
+    <xs:sequence>
+      <xs:element name="record" type="b:Record"/>
+      <xs:element name="song" type="b:Song" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+  </xs:complexType>
+
+  <xs:complexType name="Song">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <!-- Spellings and variants found in setlists, e.g. "Dancin' In The Streets" -->
+      <xs:element name="altTitle" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="credit" type="b:SongCredit" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- Usual lead vocalist(s); used when a performance has no <lead>. -->
+      <xs:element name="defaultLead" type="b:PersonOnly" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- This song is a named part of a larger suite, e.g. Let It Grow in Weather Report Suite. -->
+      <xs:element name="partOf" type="b:PartOf" minOccurs="0"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="b:SongId" use="required"/>
+    <xs:attribute name="kind" type="b:SongKind" use="required"/>
+    <xs:attribute name="origin" type="b:SongOrigin"/>
+    <xs:attribute name="instrumental" type="xs:boolean" default="false"/>
+  </xs:complexType>
+
+  <xs:simpleType name="SongKind">
+    <xs:restriction base="xs:token">
+      <!-- Source title known, classification not yet researched. -->
+      <xs:enumeration value="unknown"/>
+      <xs:enumeration value="song"/>
+      <!-- Drums, Space, Feedback, Jam and similar -->
+      <xs:enumeration value="improvisation"/>
+      <!-- a named suite that exists only as a grouping of parts -->
+      <xs:enumeration value="suite"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="SongOrigin">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="original"/>
+      <xs:enumeration value="cover"/>
+      <xs:enumeration value="traditional"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Either @person (a registry entry) or text (a name), not both. validate.py checks this. -->
+  <xs:complexType name="SongCredit">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="role" type="b:CreditRole" use="required"/>
+        <xs:attribute name="person" type="b:PersonRef"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="CreditRole">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="words"/>
+      <xs:enumeration value="music"/>
+      <xs:enumeration value="words-and-music"/>
+      <xs:enumeration value="arrangement"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="PartOf">
+    <xs:attribute name="song" type="b:SongRef" use="required"/>
+    <xs:attribute name="part" type="xs:positiveInteger"/>
+  </xs:complexType>
+
+</xs:schema>

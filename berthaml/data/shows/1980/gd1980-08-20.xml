@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-08-20" date="1980-08-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19800820-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-706" nameAsBilled="Uptown Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-loser" transition="unknown"/>
+      <performance id="p01-03" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-04" song="s-ramble-on-rose" transition="segue"/>
+      <performance id="p01-05" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-06" song="s-big-railroad-blues" transition="segue"/>
+      <performance id="p01-07" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-08" song="s-far-from-me" transition="unknown"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="segue"/>
+      <performance id="p01-10" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-greatest-story-ever-told" transition="segue"/>
+      <performance id="p02-02" song="s-althea" transition="segue"/>
+      <performance id="p02-03" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-04" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-05" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4c0e74fea715fc5e2692" kind="unknown">
+      <identifier scheme="archive-org">gd1980-08-20.128619.naks.mason.flac16</identifier>
+      <credit role="recordist">Mason B. Taylor</credit>
+      <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-ffa2b9a369614f18355c" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-20.140367.set2p.aud.flac1644</identifier>
+      <lineage>Partial Set 2 Audience Cassette of unknown lineage with fills from Archives .wav files &gt; PC &gt; Soundforge</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-31fcf8b3dfa069caf119" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-20.147366.s1.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (Maxell UDXL-II) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-382ea66ac460ab62b509" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-20.147370.s1.sbd.cm.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (Maxell UDXL-II) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-536286c0f7e1b0cd7298" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-20.151836.aud.unknown.andrewf.t-flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>AUD of unknown lineage &gt; ? &gt; lo-gen cassette via Richie &amp; Rip. | Transfer: TDK SA-90's &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transfer by Andrew F. 03/2020</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-23b61d13535d5f7b9ee8" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-20.175119.set1.sbd.phase-repair.miller.flac2496</identifier>
+      <lineage>SBD &gt; Cassette Master (Maxell UDXL-II) | Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24 Patch Info: Nakamichi CM700/CP704 &gt; Cassette Master &gt; Dat &gt; CD (shnid=8740) supplies: Jack Straw (0:00 - 1:09) Looks Like Rain (6:05 - 6:39) Remastering Info: FLAC/24 &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 14, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ec3f77eee730a602f973" kind="audience">
+      <identifier scheme="archive-org">gd80-08-20.naks.munder.8740.sbeok.shnf</identifier>
+      <lineage>Audience Recording: Nak 700's w/shotgun caps | FOBalcony Nak 700's w/shotgun caps&gt;Sony TC-158 MC&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-01197c66cc00eee95e4a" kind="unknown">
+      <identifier scheme="other">etree-606721</identifier>
+      <note>Supplied catalogue listing: etree; gd1980-08-20.147370.s1.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

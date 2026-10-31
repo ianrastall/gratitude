@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-04-03" date="1985-04-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850403-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-06" song="s-down-in-the-bottom" transition="segue"/>
+      <performance id="p01-07" song="s-i-ain-t-superstitious" transition="unknown"/>
+      <performance id="p01-08" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-02" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-truckin" transition="segue"/>
+      <performance id="p02-05" song="s-spoonful" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-2528c4bfaeeb49529e59" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.124794.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>lineage: (3) audio technica atm 11 (fob)&gt; optimus&gt; d-5mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-0cdedf9d763b43c44d11" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.132859.at-akg.ackerman.flac1644</identifier>
+      <credit role="recordist">Ray Ackerman</credit>
+      <lineage>AUD: 2x AT835B shotguns plus 1x AKG D12E center mic &gt; unknown mixer &gt; unknown lead deck &gt; Sony WM-D6C &gt; MAC, recording and transfer to CDR by Ray Ackerman. | MAC &gt; CDR on unknown equipment 2005. CDR &gt; EAC (secure) &gt; WavMerge &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged, April 2015.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Ray Ackerman</note>
+    </recording>
+    <recording id="r-c472d19c9885c2af814d" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.140860.unknown.bryant.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Source Info: Robert Bryant's Master Audience Cassettes; unknown mics &gt; Sony TC-D5M; Transfer Info: Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0 &gt; TLH flac2496; 24 bit &gt; 16 bit via dBpoweramp</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1733149253cee28b9307" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.140861.unknown.bryant.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Source Info: Robert Bryant's Master Audience Cassettes; unknown mics &gt; Sony TC-D5M; Transfer Info: Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-daf2c3b5c8c7cbc5ed9f" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.145343.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's | nakamichi dragon &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-303f89f8e86653122853" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.145344.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's | nakamichi dragon &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-bed5ffe646f294b8bb56" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.149313.senn441.hunt.mattes.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+      <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-de0eba17279e512cb734" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.149314.senn441.hunt.mattes.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+      <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-2f5f4121b7fa924e5acb" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.150652.Schoeps.Oade.Ackerman.Noel.t.flac2444</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Master PCM (Oade mod Sony PCM-F1) &gt; DAT | DAT &gt; Tascam DA 30 mkii &gt; Microtrack ii &gt; wavelab 5 &gt; WAV 24/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Ray Ackerman and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-e99fe938dea6be783a53" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.150693.Schoeps.Oade.Ackerman.Noel.t.flac1644</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Master PCM (Oade mod Sony PCM-F1) &gt; DAT | DAT &gt; Tascam DA 30 mkii &gt; Microtrack ii &gt; wavelab 5 &gt; WAV 24/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Ray Ackerman and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-d4035c6fb74fc648a023" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.152125.beyerm88.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew: Tom Pinney; Kyle Holbrook; JJ Hance; Eric Britt, Sean Murtha; Gary Steel; Mike Davis; Kenny Davis</credit>
+      <lineage>Master AUDCA: Beyer M88's XY &gt; Sony TCD5M no nr &gt; Maxell MX 90s No Dolby -lead deck Location: 55 feet from stage, DFC, head level (19th row) | Transfer: Nakamichi LX5 &gt; Tascam DR680|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-6001656076ce125d6033" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.152126.beyerm88.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew: Tom Pinney; Kyle Holbrook; JJ Hance; Eric Britt, Sean Murtha; Gary Steel; Mike Davis; Kenny Davis</credit>
+      <lineage>Master AUDCA: Beyer M88's XY &gt; Sony TCD5M no nr &gt; Maxell MX 90s No Dolby -lead deck Location: 55 feet from stage, DFC, head level (19th row) | Transfer: Nakamichi LX5 &gt; Tascam DR680|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-89a43307c3003b527438" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.163541.akg451.neumann.u87.blend.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-ddb87cc9d0fcf2298504" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.163542.akg451.neumann.u87.blend.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller;24 bit</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-06a1ebf6dcf987fb7901" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.170432.beyer.m160.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6e8d83dec87af43dd103" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.170433.beyer.m160.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-73979c5e9d8ad2474d00" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.173161.nak304.thomas.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-97155bfe143ab2be608a" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-03.173234.nak304.thomas.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bfdec40e86a5c233491c" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.ecm220t.keshavan.miller.106795.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-237912603e7b59c2af43" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.nak100.holtz.jaz.95409.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Nakamichi CM 100's with CP-4 shotguns -&gt; D-5 | Master Cassettes (Set I Fugi FR type IV metal 90, Set II Maxell Metaxial 90) -&gt; Tascam 112 -&gt; RCA -&gt; Edirol M-10dx 24bit 96kHz -&gt; COAX -&gt; M-audio Delta 1010lt -&gt; Wave Lab 5.0 -&gt; R8brainPro 16bit 44.1kHz -&gt; Traders Little Helper flac 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): JAZ</note>
+    </recording>
+    <recording id="r-6080a2d811cfb847214f" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.nak300.damico.87313.sbeok.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>nak 300 mics &gt; sony d-6 &gt; mac | mac &gt; nak dragon tape deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-838928ee0395ea2c6d0d" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-04-03.sbd.walker-scotton.miller.106252.flac16</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette (Maxell XLII-S90) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-0056e5f3c38fd9e1b0b0" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-03.senn421-mccue.ford.76403.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue</credit>
+      <lineage>MAC: Sennheiser 421s &gt; Sony D5 &gt; 2 TDK MA90s | MAC&gt;Nakamichi CD2&gt;Lunatec V3(16/44.1)&gt;Audiophile 2496&gt;CEP</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-c6b273a2c86ce5a500e8" kind="unknown">
+      <identifier scheme="archive-org">gd85-04-03.oade-schoeps.sacks.23927.sbeok.flacf</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1 | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav &gt; cdwav &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Doug Oade - Darren Sacks</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-a769f82050bd5fac70da" kind="audience">
+      <identifier scheme="archive-org">gd85-04-03.oade.connor.8625.sbeok.shnf</identifier>
+      <lineage>Oade's Master Audience PCM &gt; Schoeps CMC-441 mics &gt; Oade M118&gt; Sony PCM-F1 &gt; DAT&gt; CDR&gt; EAC&gt; Shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-74c45be199e05181624d" kind="soundboard">
+      <identifier scheme="archive-org">gd85-04-03.sbd.clugston.7550.sbeok.shnf</identifier>
+      <lineage>Sources: Master Soundboard Cassette &gt; C &gt; CDR, Master Audience Cassette: (2) Sennheiser ME-80's + (2) Sennheiser 441'ssource supplies patches,CD Mastering / Patching by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1985-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-f76883eb94479e36c928" kind="unknown">
+      <identifier scheme="other">etree-597711</identifier>
+      <note>Supplied catalogue listing: etree; gd1985-04-03.140861.unknown.bryant.miller.clugston.flac2496. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

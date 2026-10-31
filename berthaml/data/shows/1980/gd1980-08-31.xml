@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-08-31" date="1980-08-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19800831-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-553" nameAsBilled="Capital Centre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-althea" transition="unknown"/>
+      <performance id="p01-07" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-09" song="s-far-from-me" transition="unknown"/>
+      <performance id="p01-10" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-11" song="s-supplication" transition="unknown"/>
+      <performance id="p01-12" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-greatest-story-ever-told" transition="segue"/>
+      <performance id="p02-02" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-03" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-04" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-05" song="s-comes-a-time" transition="segue"/>
+      <performance id="p02-06" song="s-truckin" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-11" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-12" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-9068927f266e5b3881fb" kind="unknown">
+      <identifier scheme="archive-org">gd1980-08-31.128509.naks.mason.flac16</identifier>
+      <credit role="recordist">Mason B. Taylor</credit>
+      <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-b1d0752caaa3d81dc2de" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-31.139642.set1-aud.set2-sbd.flac1644</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Recording Info: Set 1: Sennheiser 421 &gt; Cassette Master &gt; SHN (shnid=7456); Set 2: SBD &gt; Cassette Master &gt; Cassette &gt; CD (shnid=26353); Transfer Info: CD &gt; Adobe Audition CC 2015 &gt; Samplitude Professional v11.2.1 &gt; FLAC; All Mastering By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-216e1c1093ce161730db" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.142992.aud.sterry.beckwith.miller.clugston.flac2496</identifier>
+      <credit role="recordist">George Sterry</credit>
+      <lineage>Source Info: George Sterry's Master Audience Cassettes; Unknown mics &gt; Sony TC158SD (Maxell UDXLII-C90); Transfer Info: Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; KORG AudioGate 4 (.wav 24-bit/96k)&gt; Adobe Audition 3.01 (24-bit/96k) &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and David Beckwith</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5c29137c49624c7c6706" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.142993.aud.sterry.beckwith.miller.clugston.flac1648</identifier>
+      <credit role="recordist">George Sterry</credit>
+      <lineage>flac16/48kHz ; Source Info: George Sterry's Master Audience Cassettes; Unknown mics &gt; Sony TC158SD (Maxell UDXLII-C90); Transfer Info: Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; KORG AudioGate 4 (.wav 24-bit/96k)&gt; Adobe Audition 3.01 (24-bit/96k) &gt; TLH flac2496; 24-bit &gt; 16-bit via dBpoweramp</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and David Beckwith</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-72f565933c57ac733dd3" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.144288.fob.nak700.cohen.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Cohen</credit>
+      <lineage>Mark Cohen's (FOB) Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5 | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c3b40ff9fc5ff851a92f" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.144289.fob.nak700.cohen.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Cohen</credit>
+      <lineage>Mark Cohen's (FOB) Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5 | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-22b4e11c8af2f6d3a159" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.154697.senn.blend.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 (left + right) + (1) Sennheiser 421 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2021 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-e42adb617542f2a6a541" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.154698.senn.blend.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 (left + right) + (1) Sennheiser 421 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2021 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-1d932cdc66cc7c0aceb4" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-31.174993.sbd.miller.phase-repair.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; Cassette &gt; CD | Transfer Info: CD &gt; Adobe Audition 2015 &gt; Samplitude Pro v11.2.1 &gt; FLAC Remastering Info: FLAC &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mastered by Charlie Miller November 4, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-20368c17f7f1dbb6bd39" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.179467.aud.Stiegler.Carbonetta.Visser.Mattes.flac2496</identifier>
+      <credit role="recordist">Tim Stiegler</credit>
+      <lineage>(1st Gen Aud) | Transferred By: Nick Carbonetta, Master cassette &gt; Nakamichi CR7A &gt; Korg MR-2000 @ 1 bit, 5.6 Mhz Rendered By: Eric Visser, From 1 Bit to 24/96 WAV File using Audiogate Edited &amp; Tracked By: Eric Visser, Cyberlink Audio Director &gt; Normalize &gt; Wav Track &gt; 24 Bit 96 Khz FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Nick Carbonetta</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
+    </recording>
+    <recording id="r-2dc109fbf263b551995c" kind="audience">
+      <identifier scheme="archive-org">gd1980-08-31.aud.braverman.8824.shnf</identifier>
+      <lineage>Audience (unknown equipment -- may be Jim Wise's master) | ?&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Center on 1980-08-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
+    </recording>
+    <recording id="r-d1e78b92f8d87f430d2b" kind="unknown">
+      <identifier scheme="archive-org">gd1980-08-31.aud.cohen.34418.sbeok.flac16</identifier>
+      <credit role="recordist">Mark Cohen</credit>
+      <lineage>Nak 700s&gt; Sony TC-D5</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Center on 1980-08-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+    </recording>
+    <recording id="r-787f544a92d7c00e9e45" kind="unknown">
+      <identifier scheme="archive-org">gd1980-08-31.nak300.morris.101718.sbeok.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-5f7eeb61100b6fadbad4" kind="audience">
+      <identifier scheme="archive-org">gd80-08-31.senn421-wise.popi.7456.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Audience Recording: Sennheiser 421's | Master Audience Cassette &gt; DAT &gt; Hard disk (Sound Forge) &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-49ebd53098a8690e3088" kind="soundboard">
+      <identifier scheme="archive-org">gd80-08-31.set1-senn-set2-sbd.miller.26353.sbeok.shnf</identifier>
+      <lineage>Soundboard and Audience composite | AUD, SBD combo: Set 1: Sennheiser 421&gt; Cassette Master&gt; Dat&gt; Sound Forge&gt; CD&gt; EAC&gt; SHN. Set 2: SBD&gt; Cassette Master&gt; Cassette&gt; Dat&gt; CD&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1980-08-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

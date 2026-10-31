@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-10-27" date="1991-10-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19911027-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-sugar-magnolia" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-althea" transition="unknown"/>
+      <performance id="p01-05" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-06" song="s-candyman" transition="unknown"/>
+      <performance id="p01-07" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-08" song="s-touch-of-grey" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-iko-iko" transition="segue"/>
+      <performance id="p02-06" song="s-mona" transition="segue"/>
+      <performance id="p02-07" song="s-jam" transition="segue"/>
+      <performance id="p02-08" song="s-drums" transition="segue"/>
+      <performance id="p02-09" song="s-space" transition="segue"/>
+      <performance id="p02-10" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-11" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-12" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-13" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c098621a87cd10e939ab" kind="unknown">
+      <identifier scheme="archive-org">gd1991-10-27.117198.d5scott.BeyerM160.flac16</identifier>
+      <credit role="recordist">D5scott</credit>
+      <lineage>source: 2 Beyer M160 microphones - up front/center&gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-c040fa79ee609d2317bf" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-10-27.137738.sbd.miller.us.dat.flac1648</identifier>
+      <lineage>SBD &gt; Dat Master (48k) | Dat Master (Sony PCM-R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dd4db92a7a888df0dfe4" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-10-27.139272.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-039fa8b33e757beac8dd" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-10-27.139300.sbd.cm.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-91-oakland-ca-oakland-coliseum-arena/</note>
+    </recording>
+    <recording id="r-88c17618c9d2444b2100" kind="unknown">
+      <identifier scheme="archive-org">gd1991-10-27.168818.cm300.cp4.ont.flac1644</identifier>
+      <credit role="recordist">OldNeumanntapr</credit>
+      <lineage>OTS; Nakamichi CM 300 CP4s &gt;Sony WM-D6C [MX-S 100s w/Dolby C] | MX-S Cassette Masters Transferred Via Denon DR-M12HR Cassette Deck w/Dolby C Engaged &gt;Tascam DR100mkII (24bit/48kHz) WAV &gt;Audacity (Amplify, Track Splits, Balance Channel Levels, Minor Edits [Tape Flips], Fades, Downsample To 16bit/44.1kHz) &gt;FLAC (Level 8) + Tags Via xACT 2.53 [Sept. 2024]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
+    </recording>
+    <recording id="r-4fa015cec7bcb153655a" kind="audience">
+      <identifier scheme="archive-org">gd1991-10-27.AKG451.Darby.120119.Flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M, Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt; Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-73e8d1f56e0a622edd66" kind="unknown">
+      <identifier scheme="archive-org">gd1991-10-27.AKG451.Darby.120120.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M, Tapes Sony Metal-ES | Tascam 112 MKII (XLR Out)&gt; Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Alameda County Coliseum Arena on 1991-10-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-9c12db32883beece8d5b" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-10-27.sbd.gmb.81199.sbeok.flac16</identifier>
+      <credit role="recordist">DAT source provided by B.Koucky (rec'd from B.Fried 1996).</credit>
+      <lineage>SBD &gt; DAT(48KHz) &gt; DAT playback on Sony PCM-R500 &gt; XLR analog outputs &gt; Mogami Gold cables &gt; Neutrik inputs, Presonus Firebox (pre-amplification and analog-to-digital) &gt; firewire &gt; PC/WinXP Pro &gt; recorded to 24 bit/96 KHz WAV withWavelab 5 &gt; mastered with Waves L3 Multimaximizer (threshold of -2.9 dB, ceiling -0.1 dB)&gt; rendered to 16 bit /44.1 KHz WAV using UV22-HR dithering (normal/no autoblack) &gt; tracked with CDWAV 1.9 &gt; FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1991-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer, mastering and lossless encoding by C.Ladner.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-91-oakland-ca-oakland-coliseum-arena/</note>
+    </recording>
+    <recording id="r-4938eaef754214235f2b" kind="audience">
+      <identifier scheme="archive-org">gd1991-10-27.young-buick.gems.102206.flac16</identifier>
+      <credit role="recordist">Marcus Buick and James Young</credit>
+      <lineage>B&amp;K 4011 110º ORTF &gt; Neumann BS 48i-2&gt; Panasonic sv255, Recording Location: FOB - Hand Held Both Sets | 16 bit – 48kHz DAT Master &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0 by Todd Evans Editing and Mastering: Jamie Waddell on the GEMS Edit Station. Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither Traders Little Helper for FLAC Level 8 SBE Free Todd Evans - Tag &amp; Rename for FLAC Meta-Data Tagging</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jamie Waddell and Todd Evans</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-91-oakland-ca-oakland-coliseum-arena/</note>
+    </recording>
+    <recording id="r-78edc1cfdeddb9f67b47" kind="soundboard">
+      <identifier scheme="archive-org">gd91-10-27.sbd.martinson.537.sbeok.shnf</identifier>
+      <lineage>SBD&gt; DAT&gt; ZA2&gt; Soundforge 4&gt; CD Architect&gt; CDR&gt; EAC&gt; shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-91-oakland-ca-oakland-coliseum-arena/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

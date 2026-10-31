@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-04-12" date="1978-04-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780412-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-551" nameAsBilled="Cameron Indoor Stadium, Duke University"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-03" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-04" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-05" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-08" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-loser" transition="unknown"/>
+      <performance id="p01-10" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-11" song="s-supplication" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-bertha" transition="segue"/>
+      <performance id="p02-02" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-03" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-df363f8f9bdd9c82fddb" kind="matrix">
+      <identifier scheme="archive-org">gd1978-04-12.134566.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid=107256) Recording Info:SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k); Transfer Info:Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v11.03 -&gt; FLAC; All Transfers and Mastering By Charlie Miller + AUD (shnid=105875) Recording Info:(FOB) Sony 54P -&gt; Cassette Master (Sony TC-158); Transfer Info:Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; Recorded By Robert Wagner; All Transfers and Mastering By Charlie Miller - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium on 1978-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5e95a24bb9075ca7688a" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.134567.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=107256) Recording Info:SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k); Transfer Info:Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v11.03 -&gt; FLAC; All Transfers and Mastering By Charlie Miller + AUD (shnid=105875) Recording Info:(FOB) Sony 54P -&gt; Cassette Master (Sony TC-158); Transfer Info:Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; Recorded By Robert Wagner; All Transfers and Mastering By Charlie Miller - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium on 1978-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6ed33e11157cbe8ae765" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.134820.sur5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid=107256) Recording Info:SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k); Transfer Info:Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v11.03 -&gt; FLAC; All Transfers and Mastering By Charlie Miller + AUD (shnid=105875) Recording Info:(FOB) Sony 54P -&gt; Cassette Master (Sony TC-158); Transfer Info:Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; Recorded By Robert Wagner; All Transfers and Mastering By Charlie Miller - mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4d76f62de0d392c956a2" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.141776.sbd.betty.dalton.miller.sirmick.flac1644</identifier>
+      <credit role="recordist">Betty Cantor and Tim Dalton</credit>
+      <lineage>Source: SBD Master Reel (7" two track @ 7 1/2 ips - recorded by Betty Cantor) &gt; PCM501ES @ 44.055 kHz - Provided by Tim Dalton; Transfer: PCM &gt; Sony SL-10 &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 &gt; wav 16-bit/44.1k - Transferred by Charlie Miller; Lineage: wav &gt; Adobe Audition 3 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick April 2018</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-13eda672a530bfc6a6ab" kind="audience">
+      <identifier scheme="archive-org">gd1978-04-12.148070.fob.sony.54p.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Audience Cassettes; Sony 54P mics &gt; Sony TC-158 (Maxell UDXLII-C90) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2014 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-88a3dd25c92a6704e7d9" kind="audience">
+      <identifier scheme="archive-org">gd1978-04-12.148071.fob.sony.54p.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Audience Cassettes; Sony 54P mics &gt; Sony TC-158 (Maxell UDXLII-C90) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2014 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1978-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-750c0063634c495d860d" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.149339.BettyBoard.Anon.Noel.t-flac16</identifier>
+      <credit role="recordist">Betty Cantor</credit>
+      <lineage>Source: Betty Cantor’s SBD Reel Master &gt; Beta tape &gt; Beta VCR &gt; PCM | Transfer: PCM &gt; Sony PCM601esd spdif out &gt; VX Pocket/Laptop &gt; Nuendo &gt; Waves q10 &gt; WAV 16/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1978-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Source &amp; Transfer by Anonymous;Edited &amp; Mastered using Adobe Audition by Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
+    </recording>
+    <recording id="r-4dd373648699472bed56" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.149531.BettyBoard.Anon.Noel.fixed.t-flac16</identifier>
+      <lineage>Source: Betty Cantor’s Master SBD Reel &gt; Beta tape &gt; Beta VCR &gt; PCM | Transfer: PCM &gt; Sony PCM601esd spdif out &gt; VX Pocket/Laptop &gt; Nuendo &gt; Waves q10 &gt; WAV 16/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): PCM provided by anonymous, while hiding out away from the Bay Area. Edited &amp; reMastered using Adobe Audition by Joe Noel November 8, 2019</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role unspecified.</note>
+    </recording>
+    <recording id="r-e87a8ff13951f528c6ea" kind="unknown">
+      <identifier scheme="archive-org">gd1978-04-12.155360.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound (48k) mixed in Adobe Audition CC 2014</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-866996412e5c646960ed" kind="matrix">
+      <identifier scheme="archive-org">gd1978-04-12.169012.mtx.seamons.ht172.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) October 31, 2024</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+    </recording>
+    <recording id="r-d9fb2eb79f7baf5c2e02" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.sbd.fix.miller.107156.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1bf7abd9a272493e16f7" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.sbd.henry.95673.sbefail.shnf</identifier>
+      <lineage>SBD&gt;MR&gt;PCM&gt;D&gt;CD | CD&gt;Toast Audio Extractor&gt;Peak&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium - Duke University on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): J. Henry</note>
+    </recording>
+    <recording id="r-1ba219d7375018c42538" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.sbd.miller.106985.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium on 1978-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-43600af453e31f9b6c1b" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-12.sbd.serafin.18805.sbeok.shnf</identifier>
+      <lineage>SBD &gt; GD Master 2" 8 Track RTR 15 i.p.s. (2 decks) &gt; GD Vault 1" Mixdown Safety RTR @ 15 i.p.s. &gt; MCS 24 bit/96 kHz ADAT &gt; SSSB (SHNTOOL used and verified)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium - Duke University on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jay Serafin</note>
+    </recording>
+    <recording id="r-6bbb1fe64cb2d0decdb0" kind="audience">
+      <identifier scheme="archive-org">gd1978-04-12.sony54p.wagner.miller.105875.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>(FOB) Sony 54P -&gt; Cassette Master (Sony TC-158) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-0c6611d832e3a2ba3137" kind="soundboard">
+      <identifier scheme="archive-org">gd78-04-12.sbd.ashley-bertha.14085.sbeok.shnf</identifier>
+      <lineage>Soundboard | Bertha Remaster of Master Reel source.SBD&gt;&gt;MR&gt;&gt;PCM&gt;&gt;DAT&gt;&gt;CDA(Toast)&gt;&gt;SHN&gt;&gt;DAW(Bertha)&gt;&gt;CDA/SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-6a77be7c37b6c0a6b71f" kind="soundboard">
+      <identifier scheme="archive-org">gd78-04-12.sbd.henry.11476.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;MR&gt;PCM&gt;D&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1978-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e0c8944ade126b64ad5d" kind="unknown">
+      <identifier scheme="other">etree-609255</identifier>
+      <note>Supplied catalogue listing: etree; gd78-04-12 Betty Board Anon Noel fixed t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

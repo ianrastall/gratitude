@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-06-11" date="1991-06-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910611-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-984" nameAsBilled="Charlotte Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-iko-iko" transition="unknown"/>
+      <performance id="p01-02" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-04" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-07" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-08" song="s-bird-song" transition="segue"/>
+      <performance id="p01-09" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-victim-or-the-crime" transition="segue"/>
+      <performance id="p02-02" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-03" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-playing-in-the-band-reprise" transition="segue"/>
+      <performance id="p02-09" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-d4f0343b8bb63ad6116b" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-11.111294.NeumannKMF4.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Neumann KMF4 microphones &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-29d401d2c0056568736b" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-11.132802.at835b.cdipietro.flac</identifier>
+      <credit role="recordist">cdipietro</credit>
+      <lineage>record: Audio Technica at835b's &gt; Sony D5 pro II &gt; cassette master; | Aiwa ad-f810&gt;Tascam DA MK30II(a-d) &gt; coax &gt; M-Audio 24/96 Audiophile &gt; SoundForge 10 &gt; CDwav(track split); record and transfer by c dipietro</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): cdipietro</note>
+    </recording>
+    <recording id="r-60088ffbdd10791a0aa7" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-11.138322.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2c27e2e62faee4172010" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-11.138338.sbd.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-84e54f7f029f29601e4c" kind="matrix">
+      <identifier scheme="archive-org">gd1991-06-11.138343.mtx.sirmick.sbeok.flac16</identifier>
+      <lineage>Two source matrix: 70% sbd/30% aud with a few level adjustments; sbd: Cassette Master (TDK SA-X100/Tascam Deck); transferred and master by Charlie Miller; Resampled an dithered with iZotope RX 6 Advanced; and aud: B&amp;K 4011 110 degrees ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro Recorded by James Young &amp; Clay Brennecke, transferred by Todd Evans and mastered by Jamie Waddell; matrix created with Adobe Audition 1.5 SIRMick</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4ed6be6f28336550187d" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-11.fob.brennecke-young.GEMS.95642.flac16</identifier>
+      <credit role="recordist">James Young and Clay Brennecke</credit>
+      <lineage>B&amp;K 4011 110º ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro Recording Location: DFC Front Row Taper Section | 16 bit - 48kHz DAT Clone &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0, Weiss Saracon for 16 BIT - 44.1kHz SRC and POWR-3 Dither Tracked in CDwave, FLAC'd Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-a05cae5b24428903ac82" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-11.sbd.valter-ladner.5158.shnf</identifier>
+      <credit role="recordist">John Valter</credit>
+      <lineage>SBD &gt; CM &gt; DAT &gt; CDR | EAC (high, secure, offset corrected) &gt; shntools (boundaries confirmed) &gt; MKWACT &gt; SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Ladner</note>
+    </recording>
+    <recording id="r-c3400d78676fc2e8d476" kind="soundboard">
+      <identifier scheme="archive-org">gd91-06-11.sbd.james.5609.sbeok.shnf</identifier>
+      <lineage>source unknown (likely SBD&gt; CM&gt; DAT&gt; CDR)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-10-09" date="1982-10-09">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19821009-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-404" nameAsBilled="Frost Amphitheatre, Stanford University"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-on-the-road-again" transition="segue"/>
+      <performance id="p01-05" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-06" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-07" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-08" song="s-big-river" transition="unknown"/>
+      <performance id="p01-09" song="s-dupree-s-diamond-blues" transition="unknown"/>
+      <performance id="p01-10" song="s-the-music-never-stopped" transition="segue"/>
+      <performance id="p01-11" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-02" song="s-touch-of-grey" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="segue"/>
+      <performance id="p02-10" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-f9bcd3549c2bac1a7209" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.111040.nak300.hoey.flac16</identifier>
+      <lineage>Recorded, Transferred and Mastered by N. Hoey 2 Nakamichi CM 300 &gt; Sony TC D-5m (Dolby B)(TDK MA-90)(FOB) Nakamichi Dragon (Dolby B decoded) &gt; Panasonic 3800 DAT (internal A/D conversion) &gt; Soundforge (editing) &gt; CD Architect &gt; Mitsui disc &gt; Toast 9 &gt; Xact</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-1cc0b8cf6626cce75708" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.147105.beyer.tomkins.flac2448</identifier>
+      <credit role="recordist">Rip Tompkins &amp; Richie Stankiewicz</credit>
+      <lineage>Source: FOB Beyers M160's &gt; Sony TC-D5M &gt; Maxell MX. Concert recording by Rip Tompkins, &amp; with thanks to Richie Stankiewicz! | Transfer: MAC &gt; Nakamichi CR-5A (Dolby-B in) &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 07/2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-dcded70d972cd6c79555" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.167454.shure.sm57.kelley.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Ken Kelley</credit>
+      <lineage>Ken Kelley's Master Audience Cassettes; Shure SM57 mics &gt; JVC KD-2 w/Super ANRS (Maxell XLII-S90) | Master Cassettes (JVC KD-A55 w/Super ANRS) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2024 &gt; TLH 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dc5f98b98da2be516981" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.167455.shure.sm57.kelley.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Ken Kelley</credit>
+      <lineage>Ken Kelley's Master Audience Cassettes; Shure SM57 mics &gt; JVC KD-2 w/Super ANRS (Maxell XLII-S90) | Master Cassettes (JVC KD-A55 w/Super ANRS) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2024 &gt; TLH 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3744a7b1cbe77a6e4cf6" kind="matrix">
+      <identifier scheme="archive-org">gd1982-10-09.mtx.seamons.93811.sbeok.flac16</identifier>
+      <lineage>SBD/AUD Matrix Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bfca49f759f1f30a0a72" kind="unknown">
+      <identifier scheme="archive-org">gd1982-10-09.nak700.anon-poris.LMPP.95656.flac16</identifier>
+      <credit role="recordist">anonymous taper and Jamie Poris</credit>
+      <lineage>3 Nak 700's (L &amp; R Cardiods, Center Omni - 3 DB Low Pass filter) 25 foot back, Dead Center &gt; -15 db pads &gt; 3 mic mixer Preamp&gt; Patchbay &gt; Sony D5 &gt; MAC (Dolby B ) | MAC (Dolby B ) &gt; CR-5A &gt; HD-P2 &gt; 24/96 Wave &gt; wavelab 5 &gt; plugins &gt; r8brain Pro &gt; 16/44.1 wave &gt; cd wave &gt; THL (lvl 8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brian Green and Evan K.</note>
+    </recording>
+    <recording id="r-541746c27eb94b6054c5" kind="unknown">
+      <identifier scheme="archive-org">gd1982-10-09.sbd.barrick.337.shnf</identifier>
+      <lineage>SBDMR&gt;PCM&gt;DAT&gt;CD-R</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Ampitheater on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Dave Barrick</note>
+    </recording>
+    <recording id="r-85b037fc831a6a55efb7" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-10-09.sbd.miller.110621.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (TDK MA-R90/Dolby B) -&gt; Cassette (JVC KD-V6/XLII-S90/Dolby C) | Cassette (Nakamichi DR-1/Dolby C) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-82-palo-alto-ca-stanford-university-frost-amphitheater/</note>
+    </recording>
+    <recording id="r-e5d53b1be23f8383b4db" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.sonyecm220T.fixed.keshavan.miller.93825.flac24</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>(FOB) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji Metal Tape/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/24 (1 DVD FLAC)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-3adeebf0d54c6aecad85" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.sonyecm220T.fixed.keshavan.miller.93827.sbeok.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>(FOB) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji Metal Tape/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1982-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-ef739471ecabf3079e8e" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.sonyecm220T.keshavan.miller.93682.sbeok.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>(FOB) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji Metal Tape/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-d097ffa1ec5a6b2f3dfd" kind="audience">
+      <identifier scheme="archive-org">gd1982-10-09.sonyecm220T.keshavan.miller.93683.sbeok.flac24</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>(FOB) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji Metal Tape/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/24 (1 DVD FLAC)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-c85d5a759f78b41ca651" kind="soundboard">
+      <identifier scheme="archive-org">gd82-10-09.sbd-patched.wiley.15800.sbeok.shnf</identifier>
+      <lineage>Main Source A : SBD&gt;MR&gt;PCM&gt;DAT&gt;CD-R</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-ccfc9c8acead146980a8" kind="soundboard">
+      <identifier scheme="archive-org">gd82-10-09.sbd.samaritano.23730.sbeok.shnf</identifier>
+      <lineage>Soundboard-&gt;Cassette Master(MA-R90/Dolby B)-&gt;1st Generation Cassette(XLII-S90/Dolby C).1st Generation Cassette-&gt;Fostex D5 (pass-through only)-&gt;ZA2-&gt;Samplitude v7.02 Professional-&gt;.wav-&gt;mkw-&gt;SHN. Transfer, editing, and SHN by Joe Samaritano</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-edbada433704ff0e6627" kind="unknown">
+      <identifier scheme="archive-org">gd82-10-09.sonyecm.clugston.5183.sbeok.shnf</identifier>
+      <lineage>Sony ECM-220T mics &gt; Sony TC-D5M &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1982-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-82-palo-alto-ca-stanford-university-frost-amphitheater/</note>
+    </recording>
+    <recording id="r-1ba8ab8082c3c9a87cc3" kind="soundboard">
+      <identifier scheme="archive-org">gd82-10-09.sbd-patched.wiley.15800.sbeok.shn</identifier>
+      <note>Supplied catalogue listing: Archive.org; gd82-10-09.sbd-patched.wiley.15800.sbeok.shn. Source references: infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-82-palo-alto-ca-stanford-university-frost-amphitheater/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

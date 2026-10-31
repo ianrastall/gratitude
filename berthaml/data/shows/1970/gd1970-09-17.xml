@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1970-09-17" date="1970-09-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19700917-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-155" nameAsBilled="Fillmore East"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="acoustic">
+      <performance id="p01-01" song="s-truckin" transition="unknown"/>
+      <performance id="p01-02" song="s-monkey-and-the-engineer" transition="unknown"/>
+      <performance id="p01-03" song="s-dark-hollow" transition="unknown"/>
+      <performance id="p01-04" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-05" song="s-ripple" transition="unknown"/>
+      <performance id="p01-06" song="s-brokedown-palace" transition="unknown"/>
+      <performance id="p01-07" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p01-08" song="s-rosa-lee-mcfall" transition="unknown"/>
+      <performance id="p01-09" song="s-jordan" transition="segue"/>
+      <performance id="p01-10" song="s-swing-low-sweet-chariot" transition="unknown"/>
+      <note>Source section label: Acoustic Set</note>
+    </set>
+    <set kind="set" n="2" mode="electric">
+      <performance id="p02-01" song="s-smokestack-lightning" transition="unknown"/>
+      <performance id="p02-02" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-03" song="s-candyman" transition="unknown"/>
+      <performance id="p02-04" song="s-easy-wind" transition="unknown"/>
+      <performance id="p02-05" song="s-dark-star" transition="segue"/>
+      <performance id="p02-06" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-good-lovin" transition="segue"/>
+      <performance id="p02-09" song="s-drums" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-11" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Electric Set</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-8fcaeabcf6ee9477fbf2" kind="audience">
+      <identifier scheme="archive-org">gd1970-09-17.145891.partials3.akg190e.weinberg.wolfe.smith.joeb.sirmick.flac16</identifier>
+      <credit role="recordist">Marty Weinberg</credit>
+      <lineage>Source: AKG190E &gt; Uher 400L &gt; Master Audience Reel &gt; ??? &gt; Reel 3.75 ips (low gen) - Recorded by Marty Weinberg and provided by Don Wolfe | Transfer: Reel &gt; Akai GX636 &gt; Tascam DA3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; wav 24/96 Lineage: wav 24/96 &gt;Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; iZotope RX7 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Don Wolfe, Matt Smith, Sirmick</note>
+      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-710552a06b3703832ee4" kind="audience">
+      <identifier scheme="archive-org">gd1970-09-17.145892.partials3.akg190e.weinberg.wolfe.smith.joeb.sirmick.flac24</identifier>
+      <credit role="recordist">Marty Weinberg</credit>
+      <lineage>Source: AKG190E &gt; Uher 400L &gt; Master Audience Reel &gt; ??? &gt; Reel 3.75 ips (low gen) - Recorded by Marty Weinberg and provided by Don Wolfe | Transfer: Reel &gt; Akai GX636 &gt; Tascam DA3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; wav 24/96 Lineage: wav 24/96 &gt;Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; iZotope RX7 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Don Wolfe, Matt Smith, Sirmick</note>
+      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-351a5bf72e12a04bf2ea" kind="matrix">
+      <identifier scheme="archive-org">gd1970-09-17.146027.mtx.darkstar.sirmick.flac16</identifier>
+      <lineage>Matrix by Sirmick</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Sirmick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5d2624a35d7ee8b0d099" kind="unknown">
+      <identifier scheme="archive-org">gd1970-09-17.169454.FillmoreEast.NYC.NY.acoustic.aud.gen2.toner.holmes.minches.daniel.flac1644</identifier>
+      <lineage>This is an remaster of shnid=16090</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Edited &amp; Remastered by Daniel</note>
+    </recording>
+    <recording id="r-0917a3a0978d4ee17558" kind="unknown">
+      <identifier scheme="archive-org">gd1970-09-17.aud.cbass.15983.sbeok.shnf</identifier>
+      <lineage>MAC&gt;Reel&gt;Cassette&gt;DAT&gt;CD&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): cbass</note>
+    </recording>
+    <recording id="r-3b737012f2d547fe9ffb" kind="audience">
+      <identifier scheme="archive-org">gd1970-09-17.partial.aud.weinberg.33826.flac16</identifier>
+      <credit role="recordist">Marty Weinberg</credit>
+      <lineage>AKG190E&gt;Uher 400L&gt;Master Audience Reel&gt;Reel&gt;DAT&gt;CDR&gt;EAC(Secure Mode)&gt;WAV&gt;Soundforge (Speed Corrected)&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): GEMS</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+    </recording>
+    <recording id="r-78c5facd2ad6591c4f4a" kind="audience">
+      <identifier scheme="archive-org">gd70-09-17.aud.remaster.sirmick.27591.sbeok.shnf</identifier>
+      <credit role="recordist">Jack Toner</credit>
+      <lineage>Remastered Audience | See Notes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dwight Holmes, David Minches, Jack Warner, SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-babf34bd488b10997f9e" kind="audience">
+      <identifier scheme="archive-org">gd70-09-17.aud.warner.16090.sbeok.shnf</identifier>
+      <credit role="recordist">Jack Toner</credit>
+      <lineage>Audience | See Notes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dwight Holmes, David Minches, Jack Warner</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

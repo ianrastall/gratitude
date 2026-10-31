@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1970-11-11" date="1970-11-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19701111-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-348" nameAsBilled="46th Street Rock Palace"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-casey-jones" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-04" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-05" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-06" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-mama-tried" transition="unknown"/>
+      <performance id="p01-08" song="s-hurts-me-too" transition="unknown"/>
+      <performance id="p01-09" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p01-10" song="s-drums" transition="segue"/>
+      <performance id="p01-11" song="s-the-other-one" transition="segue"/>
+      <performance id="p01-12" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p01-13" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p01-14" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p01-15" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-16" song="s-truckin" transition="unknown"/>
+      <performance id="p01-17" song="s-good-lovin" transition="segue"/>
+      <performance id="p01-18" song="s-drums" transition="segue"/>
+      <performance id="p01-19" song="s-good-lovin" transition="segue"/>
+      <performance id="p01-20" song="s-la-bamba" transition="segue"/>
+      <performance id="p01-21" song="s-good-lovin" transition="unknown"/>
+      <performance id="p01-22" song="s-goin-down-the-road-feelin-bad" transition="unknown"/>
+      <performance id="p01-23" song="s-john-s-other" transition="unknown"/>
+      <performance id="p01-24" song="s-uncle-sam-blues" transition="unknown"/>
+      <performance id="p01-25" song="s-around-and-around" transition="unknown"/>
+      <performance id="p01-26" song="s-ode-for-billie-dean" transition="unknown"/>
+      <performance id="p01-27" song="s-not-fade-away" transition="segue"/>
+      <performance id="p01-28" song="s-hey-bo-diddley" transition="segue"/>
+      <performance id="p01-29" song="s-who-do-you-love" transition="segue"/>
+      <performance id="p01-30" song="s-jam" transition="segue"/>
+      <performance id="p01-31" song="s-drums" transition="segue"/>
+      <performance id="p01-32" song="s-jam" transition="unknown"/>
+      <performance id="p01-33" song="s-come-back-baby" transition="unknown"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c8d73a1afac35f2f6394" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-11-11.179254.sbd.cassidy.minches.miller.t.flac2496</identifier>
+      <credit role="recordist">Peter S. Kimble</credit>
+      <lineage>SBD (mono) &gt; Master Reel (3.75ips) | Transfer Info: Master Reel (Technics RS-1500) &gt; Tascam DA-3000 (24-bit/96k) Mastering Info: WAV &gt; Samplitude Pro X6 Suite &gt; Adobe Audition 2025 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at 46th Street Rock Palace on 1970-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred by David Minches Mastered by Charlie Miller September 17, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ad1c2ebc42bec8c3aafe" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-11-11.179257.sbd.cassidy.minches.miller.t.flac1648</identifier>
+      <credit role="recordist">Peter S. Kimble</credit>
+      <lineage>SBD (mono) &gt; Master Reel (3.75ips) | Transfer Info: Master Reel (Technics RS-1500) &gt; Tascam DA-3000 (24-bit/96k) Mastering Info: WAV &gt; Samplitude Pro X6 Suite &gt; Adobe Audition 2025 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at 46th Street Rock Palace on 1970-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred by David Minches Mastered by Charlie Miller September 17, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ad674aa28e73c6d6ab81" kind="audience">
+      <identifier scheme="archive-org">gd70-11-11.aud.cotsman.17081.sbeok.shnf</identifier>
+      <lineage>Audience: Unknown Mics | AUD &gt; MC &gt; Cx4 &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at 46th Street Rock Palace on 1970-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chuck Kiefe and JCotsman</note>
+    </recording>
+    <recording id="r-1e23f51d683173d0efc4" kind="audience">
+      <identifier scheme="archive-org">gd70-11-11.aud.sirmick.31154.sbeok.flacf</identifier>
+      <lineage>Audience: Unknown Mics (remaster) | Audience &gt; MC &gt; Cass (4 gens) &gt; DAT &gt; CD &gt; EAC &gt; SHN &gt; wav &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at 46th Street Rock Palace on 1970-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

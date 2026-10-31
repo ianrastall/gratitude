@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-02-19" date="1991-02-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910219-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1991-02-19.141764.sbd.miller.flac2496" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 c37fd6f2c296b7f712c5674861defb97ca951639bf3ca13c489681bcf63ea8bd</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-althea" transition="unknown"/>
+      <performance id="p01-04" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-06" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p01-07" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-08" song="s-cassidy" transition="segue"/>
+      <performance id="p01-09" song="s-new-speedway-boogie" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-truckin" transition="segue"/>
+      <performance id="p02-04" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-10" song="s-black-peter" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4fc3e25d54babd1116cb" kind="audience">
+      <identifier scheme="archive-org">gd1991-02-19.132350.aud.mattes.petty.flac16</identifier>
+      <credit role="recordist">Ted Mattes</credit>
+      <lineage>FOB/Schoeps CMC 34's&gt; Oade p/s&gt; M-1000 cables&gt; SV-255 by Ted Mattes. DAT clone provided by Lance Deal; | Fostex D-5 (AES/BU)&gt; Luminous Monarch cable&gt; (s/pdif) M-Audio Audiophile 2496&gt; Audacity @ 16/48&gt; 16/44&gt; CDWAve(tracking)&gt; TLH (SBE's/Flac/md5); Tranferred and liberated to etree on January 27, 2015 by Will Petty</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Willl Petty</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-8bc9cc264dde289ae180" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-02-19.141764.sbd.miller.flac2496</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <playlist id="pl-305f629a9e127551df9e" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1991-02-19.141764.sbd.miller.flac2496">
+        <track n="1" title="01 Bertha" file="01Bertha.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT384.97S"/>
+        <track n="2" title="02 Greatest Story Ever Told" file="02GreatestStoryEverTold.flac" mappingStatus="unreviewed" sourceNumber="2" duration="PT330.03S"/>
+        <track n="3" title="03 Althea" file="03Althea.flac" mappingStatus="unreviewed" sourceNumber="3" duration="PT597.55S"/>
+        <track n="4" title="04 Queen Jane Approximately" file="04QueenJaneApproximately.flac" mappingStatus="unreviewed" sourceNumber="4" duration="PT471.49S"/>
+        <track n="5" title="05 Ramble On Rose" file="05RambleOnRose.flac" mappingStatus="unreviewed" sourceNumber="5" duration="PT638.46S"/>
+        <track n="6" title="06 Picasso Moon" file="06PicassoMoon.flac" mappingStatus="unreviewed" sourceNumber="6" duration="PT555.16S"/>
+        <track n="7" title="07 Peggy-O" file="07Peggy-o.flac" mappingStatus="unreviewed" sourceNumber="7" duration="PT444.89S"/>
+        <track n="8" title="08 Cassidy" file="08Cassidy.flac" mappingStatus="unreviewed" sourceNumber="8" duration="PT423.17S"/>
+        <track n="9" title="09 New Speedway Boogie" file="09NewSpeedwayBoogie.flac" mappingStatus="unreviewed" sourceNumber="9" duration="PT547.03S"/>
+        <track n="10" title="10 Tuning" file="10Tuning.flac" mappingStatus="unreviewed" sourceNumber="10" duration="PT59.86S"/>
+        <track n="11" title="11 China Cat Sunflower" file="11ChinaCatSunflower.flac" mappingStatus="unreviewed" sourceNumber="11" duration="PT444.62S"/>
+        <track n="12" title="12 I Know You Rider" file="12IKnowYouRider.flac" mappingStatus="unreviewed" sourceNumber="12" duration="PT461.72S"/>
+        <track n="13" title="13 Truckin'" file="13Truckin.flac" mappingStatus="unreviewed" sourceNumber="13" duration="PT484.54S"/>
+        <track n="14" title="14 Crazy Fingers" file="14CrazyFingers.flac" mappingStatus="unreviewed" sourceNumber="14" duration="PT1271.91S"/>
+        <track n="15" title="15 Drums" file="15Drums.flac" mappingStatus="unreviewed" sourceNumber="15" duration="PT846.88S"/>
+        <track n="16" title="16 Space" file="16Space.flac" mappingStatus="unreviewed" sourceNumber="16" duration="PT514.08S"/>
+        <track n="17" title="17 The Wheel" file="17TheWheel.flac" mappingStatus="unreviewed" sourceNumber="17" duration="PT322.34S"/>
+        <track n="18" title="18 All Along The Watchtower" file="18AllAlongTheWatchtower.flac" mappingStatus="unreviewed" sourceNumber="18" duration="PT454.7S"/>
+        <track n="19" title="19 Black Peter" file="19BlackPeter.flac" mappingStatus="unreviewed" sourceNumber="19" duration="PT591.01S"/>
+        <track n="20" title="20 Sugar Magnolia" file="20SugarMagnolia.flac" mappingStatus="unreviewed" sourceNumber="20" duration="PT572.5S"/>
+        <track n="21" title="21 Encore Break" file="21EncoreBreak.flac" mappingStatus="unreviewed" sourceNumber="21" duration="PT158.81S"/>
+        <track n="22" title="22 US Blues" file="22UsBlues.flac" mappingStatus="unreviewed" sourceNumber="22" duration="PT312.43S"/>
+        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+      </playlist>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Archive source metadata (lineage): Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</note>
+      <note>Archive source metadata (source): SBD &gt; Cassette Master (TDK SA-X100)</note>
+      <note>Archive source metadata (transferer): Charlie Miller</note>
+    </recording>
+    <recording id="r-767984ce50b140f0fdf3" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-02-19.141847.sbd.cm.miller.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c45bb33c9d96770a80e3" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-02-19.141849.sbd.cm.miller.fixed.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-53d57cc9d909c5ebcf86" kind="soundboard">
+      <identifier scheme="archive-org">gd91-02-19.sbd.ladner.8574.sbeok.shnf</identifier>
+      <lineage>SBD &gt; DAT &gt; Soundforge&gt; CDR &gt; WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

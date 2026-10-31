@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-05-15" date="1981-05-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810515-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-809" nameAsBilled="Athletic Center, Rutgers University"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-05" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-06" song="s-candyman" transition="segue"/>
+      <performance id="p01-07" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-08" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-09" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-10" song="s-ramble-on-rose" transition="segue"/>
+      <performance id="p01-11" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-12" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-08" song="s-black-peter" transition="segue"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-540aa6827700c4ec1b1f" kind="matrix">
+      <identifier scheme="archive-org">gd1981-05-15.137907.mtx.dusborne.flac16</identifier>
+      <lineage>2 source matrix by Dusborne; Soundboard (Shnid:95751), Recording Info: SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat (48k),Transfer Info:Dat (Sony D8) -&gt; Samplitude Professional v9.11 -&gt; Adobe Audition v1.5 -&gt; FLAC; and Audience (shnid:30113), MAC&gt;DAT&gt;CD,AKG CE-1 microphones &gt; Uher CR-240 cassette deck, no dolby, TDK SA C90 cassettes.audience cassette master recorded by Kenny Mance; | MAC &gt; Uher CR-240 &gt; Sony PCM-M1(2/05). Sony PCM-R500 &gt; HHB CDR830plus &gt; EAC &gt; Sound Forge 5.0 &gt; CD Wave 1.71 &gt; cd</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Athletic Center - Rutgers University on 1981-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c8bc3c489e0c46b52b80" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-05-15.142953.senn421.wise.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16/48 Jim Wise's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony TC-D5 (Maxell UDXLII-C90)(located at the soundboard)Transfer Info:Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496. Mastered by Scott Clugston.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Athletic Center - Rutgers University on 1981-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-238caaf75459aa2ff6d0" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-05-15.142954.senn421.wise.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac24/96 Jim Wise's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony TC-D5 (Maxell UDXLII-C90)(located at the soundboard)Transfer Info:Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496. Mastering by Scott Clugston.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Athletic Center - Rutgers University on 1981-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-571ec924737a73de1298" kind="matrix">
+      <identifier scheme="archive-org">gd1981-05-15.152448.mtx.seamons.ht128.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Athletic Center, Rutgers University on 1981-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+    </recording>
+    <recording id="r-8f44166613fb842a12d5" kind="unknown">
+      <identifier scheme="archive-org">gd1981-05-15.akg.mance.cohen.30113.sbeok.shnf</identifier>
+      <credit role="recordist">Kenny Mance</credit>
+      <lineage>AKG CE-1 &gt; Uher CR-240 (no dolby) &gt; MAC(TDK SA C90) | MAC &gt; Uher CR-240 &gt; Sony PCM-M1(2/05). Sony PCM-R500 &gt; HHB CDR830plus &gt; EAC &gt; Sound Forge 5.0 &gt; CD Wave 1.71 &gt; cd</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rutgers Athletic Center on 1981-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Anne Cohen</note>
+    </recording>
+    <recording id="r-772487854606265f337c" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-05-15.sbd.miller.86783.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat (48k) | Dat (Sony D8) -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rutgers Athletic Center on 1981-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9cad09ecaffc8eb47a77" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-05-15.sbd.miller.95751.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat (48k) | Dat (Sony D8) -&gt; Samplitude Professional v9.11 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Athletic Center - Rutgers University on 1981-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0395bf738b8ff835968d" kind="audience">
+      <identifier scheme="archive-org">gd81-05-15.senn.munder.9008.sbeok.shnf</identifier>
+      <lineage>Audience Recording: Sennheiser 421 | (FOB) Senn 421&gt; Cm&gt; Dat&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Athletic Center, Rutgers U on 1981-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-02-23" date="1993-02-23">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930223-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-stuck-inside-of-mobile-with-the-memphis-blues-again" transition="unknown"/>
+      <performance id="p01-05" song="s-broken-arrow" transition="unknown"/>
+      <performance id="p01-06" song="s-way-to-go-home" transition="unknown"/>
+      <performance id="p01-07" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-drums" transition="segue"/>
+      <performance id="p02-02" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-03" song="s-corrina" transition="unknown"/>
+      <performance id="p02-04" song="s-lazy-river-road" transition="segue"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c57d3d0001fcdd0e7c96" kind="unknown">
+      <identifier scheme="archive-org">gd1993-02-23.116152.NeumannKMF4.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>source: 2 Neumann KMF4 microphones-up front &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-0155533c07b4fc878fe8" kind="matrix">
+      <identifier scheme="archive-org">gd1993-02-23.123213.mtx.flac16</identifier>
+      <lineage>Matrix created with Audacity, Sbd +0 dB Gain, Aud -8 dB Gain, with slight variations to avoid clipping; soundboard source - gd93-02-23.sbd.unknown.14485.sbeok.shnf and aud source - gd1993-02-23.116152.NeumannKMF4.daweez.d5scott</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e5470500da10b99738ba" kind="audience">
+      <identifier scheme="archive-org">gd1993-02-23.134784.neumann.fob.jbraveman.flac1648</identifier>
+      <credit role="recordist">unknown</credit>
+      <lineage>flac16/48kHz ; Source: Neumann TLM 170 FOB AUD &gt; DAT; | DATx (Sony 60ES) &gt; Microtrack 24/96 WAV &gt; TLH Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): jbraveman</note>
+    </recording>
+    <recording id="r-a40f4af5c80f461caafa" kind="audience">
+      <identifier scheme="archive-org">gd1993-02-23.138786.SchoepsMK4.FOB.Darroch.Ammons.t-flac1648</identifier>
+      <credit role="recordist">Rob Darroch</credit>
+      <lineage>flac16/48kHz ; Rob Darroch recording [FOB DFC]: Schoeps MK4 Capsules in hat &gt; Bill Reutelhuber PS &gt; Panasonic SV250. Mics worn in hat by Rob Darroch; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel T,F &amp; P: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
+    </recording>
+    <recording id="r-3995836c28cfa6677b31" kind="audience">
+      <identifier scheme="archive-org">gd1993-02-23.141067.fob.cmc54.ebel.flac1644</identifier>
+      <lineage>fl1c6/44.1 Source Info:FOB Schoeps CMC 54-&gt; DATTransfer Info:DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt;SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)Transfers by Pete Ebel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-e374a55a846910636569" kind="audience">
+      <identifier scheme="archive-org">gd1993-02-23.141069.set1.fob.unknown-mics.ebel.flac1644</identifier>
+      <lineage>flac16/44.1 set 1 only. Source Info:FOB Mic's Unknown-&gt; DATTransfer Info:DAT (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt;SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)Transfers by Pete Ebel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-5237fb789b359ff5b5fe" kind="matrix">
+      <identifier scheme="archive-org">gd1993-02-23.142895.mtx.tobin.flac1644</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid = 1611) SBD&gt; DAT&gt; Sonic Solutions (for phase correction)&gt; CD; via Mike Hall + AUD (shnid = 141067) fl1c6/44.1 Source Info: FOB Schoeps CMC 54-&gt; DAT Transfer Info: DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48) Transfers by Pete Ebel - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cc04d069b33b0cf78101" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-02-23.142896.dts.tobin.flac1644</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; - SBD (shnid = 1611) SBD&gt; DAT&gt; Sonic Solutions (for phase correction)&gt; CD; via Mike Hall + AUD (shnid = 141067) fl1c6/44.1 Source Info: FOB Schoeps CMC 54-&gt; DAT Transfer Info: DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48) Transfers by Pete Ebel - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c3a87e7bb25cf73e2614" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-02-23.142897.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 1611) SBD&gt; DAT&gt; Sonic Solutions (for phase correction)&gt; CD; via Mike Hall + AUD (shnid = 141067) fl1c6/44.1 Source Info: FOB Schoeps CMC 54-&gt; DAT Transfer Info: DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48) Transfers by Pete Ebel - surround mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0f254a06170215c25946" kind="audience">
+      <identifier scheme="archive-org">gd1993-02-23.149400.fob.schoepsmk4.darroch.ebel.flac1648</identifier>
+      <credit role="recordist">Rob Darroch</credit>
+      <lineage>FOB Schoeps MK4-&gt;Reutelhuber P/S-&gt;Panasonic SV255-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-2e4e36d3b055cf91cce6" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-02-23.sbd.unknown.14485.shnf</identifier>
+      <lineage>SBD&gt;DAT(S)&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1993-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-1d5fac9106c84217d8b0" kind="soundboard">
+      <identifier scheme="archive-org">gd93-02-23.sbd.hall.1611.sbeok.shnf</identifier>
+      <lineage>SBD&gt; DAT&gt; Sonic Solutions (for phase correction)&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

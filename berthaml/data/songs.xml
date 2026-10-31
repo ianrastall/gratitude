@@ -1,0 +1,1686 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<songs xmlns="urn:berthaml:1" schemaVersion="1.0">
+  <record status="draft" updated="2026-10-30">
+    <cite title="DeadDisc: Dick's Picks Volume 8" href="https://deaddisc.com/disc/Dicks_Pick_8.htm" accessed="2026-10-30">Writer credits as printed on the release.</cite>
+    <cite title="Jerrybase year-table factual capture" href="https://jerrybase.com/events" accessed="2026-10-30">Imported titles only; see sources/jerrybase-facts.json.gz and inputs.lock.json. Existing seed credits and lead defaults retain their original research status.</cite>
+  </record>
+  <!--
+    Seed catalog: only the songs needed by the sample show. Credits are
+    entered for originals whose credits appear in the cited source; cover
+    and traditional credits are not yet entered. Default leads are seed
+    values from general knowledge.
+  -->
+  <song id="s-dont-ease-me-in" kind="song" origin="traditional">
+    <title>Don't Ease Me In</title>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-i-know-you-rider" kind="song" origin="traditional">
+    <title>I Know You Rider</title>
+    <defaultLead person="p-garcia"/>
+    <defaultLead person="p-weir"/>
+  </song>
+  <song id="s-friend-of-the-devil" kind="song" origin="original">
+    <title>Friend Of The Devil</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="music" person="p-dawson"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-dire-wolf" kind="song" origin="original">
+    <title>Dire Wolf</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-beat-it-on-down-the-line" kind="song" origin="cover">
+    <title>Beat It On Down The Line</title>
+    <credit role="words-and-music">Jesse Fuller</credit>
+    <defaultLead person="p-weir"/>
+  </song>
+  <song id="s-black-peter" kind="song" origin="original">
+    <title>Black Peter</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-candyman" kind="song" origin="original">
+    <title>Candyman</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-cumberland-blues" kind="song" origin="original">
+    <title>Cumberland Blues</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="music" person="p-lesh"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-deep-elem-blues" kind="song" origin="traditional">
+    <title>Deep Elem Blues</title>
+    <defaultLead person="p-weir"/>
+  </song>
+  <song id="s-cold-jordan" kind="song" origin="traditional">
+    <title>Cold Jordan</title>
+  </song>
+  <song id="s-uncle-johns-band" kind="song" origin="original">
+    <title>Uncle John's Band</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-st-stephen" kind="song" origin="original">
+    <title>St. Stephen</title>
+    <altTitle>Saint Stephen</altTitle>
+    <credit role="music" person="p-garcia"/>
+    <credit role="music" person="p-lesh"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-thats-it-for-the-other-one" kind="suite" origin="original">
+    <title>That's It For The Other One</title>
+  </song>
+  <song id="s-cryptical-envelopment" kind="song" origin="original">
+    <title>Cryptical Envelopment</title>
+    <credit role="words-and-music" person="p-garcia"/>
+    <defaultLead person="p-garcia"/>
+    <partOf song="s-thats-it-for-the-other-one" part="1"/>
+  </song>
+  <song id="s-the-other-one" kind="song" origin="original">
+    <title>The Other One</title>
+    <credit role="words" person="p-weir"/>
+    <credit role="music" person="p-weir"/>
+    <credit role="music" person="p-kreutzmann"/>
+    <defaultLead person="p-weir"/>
+    <partOf song="s-thats-it-for-the-other-one" part="3"/>
+  </song>
+  <song id="s-drums" kind="improvisation" instrumental="true">
+    <title>Drums</title>
+    <altTitle>Rhythm Devils</altTitle>
+  </song>
+  <song id="s-feedback" kind="improvisation" instrumental="true">
+    <title>Feedback</title>
+  </song>
+  <song id="s-cosmic-charlie" kind="song" origin="original">
+    <title>Cosmic Charlie</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-casey-jones" kind="song" origin="original">
+    <title>Casey Jones</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-good-lovin" kind="song" origin="cover">
+    <title>Good Lovin'</title>
+    <defaultLead person="p-mckernan"/>
+  </song>
+  <song id="s-cold-rain-and-snow" kind="song" origin="traditional">
+    <title>Cold Rain And Snow</title>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-its-a-mans-mans-mans-world" kind="song" origin="cover">
+    <title>It's A Man's Man's Man's World</title>
+    <altTitle>It's A Man's World</altTitle>
+    <defaultLead person="p-mckernan"/>
+  </song>
+  <song id="s-dancing-in-the-street" kind="song" origin="cover">
+    <title>Dancing In The Street</title>
+    <altTitle>Dancin' In The Streets</altTitle>
+    <altTitle>Dancing In The Streets</altTitle>
+    <defaultLead person="p-weir"/>
+  </song>
+  <song id="s-morning-dew" kind="song" origin="cover">
+    <title>Morning Dew</title>
+    <defaultLead person="p-garcia"/>
+  </song>
+  <song id="s-viola-lee-blues" kind="song" origin="cover">
+    <title>Viola Lee Blues</title>
+  </song>
+  <song id="s-we-bid-you-goodnight" kind="song" origin="traditional">
+    <title>We Bid You Goodnight</title>
+    <altTitle>And We Bid You Goodnight</altTitle>
+  </song>
+  <song id="s-i-m-a-road-runner" kind="unknown">
+    <title>(I'm A) Road Runner</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-a-day-in-the-life" kind="unknown">
+    <title>A Day In the Life</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-a-mind-to-give-up-livin" kind="unknown">
+    <title>A Mind To Give Up Livin'</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-a-voice-from-on-high" kind="unknown">
+    <title>A Voice From On High</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ain-t-that-peculiar" kind="unknown">
+    <title>Ain't That Peculiar</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-alabama-bound" kind="unknown">
+    <title>Alabama Bound</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-alabama-getaway" kind="unknown">
+    <title>Alabama Getaway</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-all-along-the-watchtower" kind="unknown">
+    <title>All Along The Watchtower</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-alligator" kind="unknown">
+    <title>Alligator</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-althea" kind="unknown">
+    <title>Althea</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-are-you-lonely-for-me" kind="unknown">
+    <title>Are You Lonely For Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-around-and-around" kind="unknown">
+    <title>Around And Around</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-at-a-siding" kind="unknown">
+    <title>At a Siding</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-attics-of-my-life" kind="unknown">
+    <title>Attics Of My Life</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-baba-o-riley" kind="unknown">
+    <title>Baba O'Riley</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-baby-what-you-want-me-to-do" kind="unknown">
+    <title>Baby What You Want Me To Do?</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-bad-moon-rising" kind="unknown">
+    <title>Bad Moon Rising</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ballad-of-a-thin-man" kind="unknown">
+    <title>Ballad Of A Thin Man</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ballad-of-casey-jones" kind="unknown">
+    <title>Ballad Of Casey Jones</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-beautiful-jam" kind="unknown">
+    <title>Beautiful Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-believe-it-or-not" kind="unknown">
+    <title>Believe It Or Not</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-bertha" kind="unknown">
+    <title>Bertha</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-big-boss-man" kind="unknown">
+    <title>Big Boss Man</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-big-boy-pete" kind="unknown">
+    <title>Big Boy Pete</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-big-breasa" kind="unknown">
+    <title>Big Breasa</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-big-railroad-blues" kind="unknown">
+    <title>Big Railroad Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-big-river" kind="unknown">
+    <title>Big River</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-bird-song" kind="unknown">
+    <title>Bird Song</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-black-muddy-river" kind="unknown">
+    <title>Black Muddy River</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-black-queen" kind="unknown">
+    <title>Black Queen</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-black-throated-wind" kind="unknown">
+    <title>Black Throated Wind</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-blackbird" kind="unknown">
+    <title>Blackbird</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-blow-away" kind="unknown">
+    <title>Blow Away</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-blue-suede-shoes" kind="unknown">
+    <title>Blue Suede Shoes</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-blues-for-allah" kind="unknown">
+    <title>Blues For Allah</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-blues-jam" kind="unknown">
+    <title>Blues Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-born-cross-eyed" kind="unknown">
+    <title>Born Cross-Eyed</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-born-on-the-bayou" kind="unknown">
+    <title>Born On The Bayou</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-box-of-rain" kind="unknown">
+    <title>Box Of Rain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-bridging-the-gap" kind="unknown">
+    <title>Bridging The Gap</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-bring-me-my-shotgun" kind="unknown">
+    <title>Bring Me My Shotgun</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-brokedown-palace" kind="unknown">
+    <title>Brokedown Palace</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-broken-arrow" kind="unknown">
+    <title>Broken Arrow</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-brown-eyed-women" kind="unknown">
+    <title>Brown Eyed Women</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-built-to-last" kind="unknown">
+    <title>Built To Last</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-c-c-rider" kind="unknown">
+    <title>C.C. Rider</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-california-earthquake" kind="unknown">
+    <title>California Earthquake</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-cassidy" kind="unknown">
+    <title>Cassidy</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-cathy-s-clown" kind="unknown">
+    <title>Cathy's Clown</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-caution" kind="unknown">
+    <title>Caution</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-childhood-s-end" kind="unknown">
+    <title>Childhood's End</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-china-cat-sunflower" kind="unknown">
+    <title>China Cat Sunflower</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-china-doll" kind="unknown">
+    <title>China Doll</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-chinatown-shuffle" kind="unknown">
+    <title>Chinatown Shuffle</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-chinese-bones" kind="unknown">
+    <title>Chinese Bones</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-clementine" kind="unknown">
+    <title>Clementine</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-come-back-baby" kind="unknown">
+    <title>Come Back Baby</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-comes-a-time" kind="unknown">
+    <title>Comes A Time</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-corrina" kind="unknown">
+    <title>Corrina</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-cowboy-song" kind="unknown">
+    <title>Cowboy Song</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-crazy-fingers" kind="unknown">
+    <title>Crazy Fingers</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-cream-puff-war" kind="unknown">
+    <title>Cream Puff War</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-dark-hollow" kind="unknown">
+    <title>Dark Hollow</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-dark-star" kind="unknown">
+    <title>Dark Star</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-darkness-darkness-jam" kind="unknown">
+    <title>Darkness Darkness Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-darlin-corey" kind="unknown">
+    <title>Darlin' Corey</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-day-job" kind="unknown">
+    <title>Day Job</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-day-tripper" kind="unknown">
+    <title>Day Tripper</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-day-o" kind="unknown">
+    <title>Day-O</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-deal" kind="unknown">
+    <title>Deal</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-dear-mr-fantasy" kind="unknown">
+    <title>Dear Mr. Fantasy</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-death-don-t-have-no-mercy" kind="unknown">
+    <title>Death Don't Have No Mercy</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-desolation-row" kind="unknown">
+    <title>Desolation Row</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-devil-with-the-blue-dress" kind="unknown">
+    <title>Devil With The Blue Dress</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-do-you-wanna-dance" kind="unknown">
+    <title>Do You Wanna Dance?</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-doin-that-rag" kind="unknown">
+    <title>Doin' That Rag</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-don-t-need-love" kind="unknown">
+    <title>Don't Need Love</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-don-t-think-twice-it-s-alright" kind="unknown">
+    <title>Don't Think Twice It's Alright</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-down-in-the-bottom" kind="unknown">
+    <title>Down In The Bottom</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-drink-up-and-go-home" kind="unknown">
+    <title>Drink Up And Go Home</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-dupree-s-diamond-blues" kind="unknown">
+    <title>Dupree's Diamond Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-easy-answers" kind="unknown">
+    <title>Easy Answers</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-easy-to-love-you" kind="unknown">
+    <title>Easy To Love You</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-easy-wind" kind="unknown">
+    <title>Easy Wind</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-el-paso" kind="unknown">
+    <title>El Paso</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-electricity-blues" kind="unknown">
+    <title>Electricity Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-empty-pages" kind="unknown">
+    <title>Empty Pages</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-estimated-prophet" kind="unknown">
+    <title>Estimated Prophet</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-eternity" kind="unknown">
+    <title>Eternity</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-every-time-you-go-away" kind="unknown">
+    <title>Every Time You Go Away</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-eyes-of-the-world" kind="unknown">
+    <title>Eyes Of The World</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-far-from-me" kind="unknown">
+    <title>Far From Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-feel-like-a-stranger" kind="unknown">
+    <title>Feel Like A Stranger</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-fever" kind="unknown">
+    <title>Fever</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-fire-on-the-mountain" kind="unknown">
+    <title>Fire On The Mountain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-foolish-heart" kind="unknown">
+    <title>Foolish Heart</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-forever-young" kind="unknown">
+    <title>Forever Young</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-foxy-lady-jam" kind="unknown">
+    <title>Foxy Lady Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-franklin-s-tower" kind="unknown">
+    <title>Franklin's Tower</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-from-the-heart-of-me" kind="unknown">
+    <title>From The Heart Of Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-frozen-logger" kind="unknown">
+    <title>Frozen Logger</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-gathering-flowers-for-the-master-s-bouquet" kind="unknown">
+    <title>Gathering Flowers For The Master's Bouquet</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-gentlemen-start-your-engines" kind="unknown">
+    <title>Gentlemen Start Your Engines</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-get-back" kind="unknown">
+    <title>Get Back</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-gimme-some-lovin" kind="unknown">
+    <title>Gimme Some Lovin'</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-gloria" kind="unknown">
+    <title>Gloria</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-goin-down-the-road-feelin-bad" kind="unknown">
+    <title>Goin' Down The Road Feelin' Bad</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-golden-road-to-unlimited-devotion" kind="unknown">
+    <title>Golden Road To Unlimited Devotion</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-good-golly-miss-molly" kind="unknown">
+    <title>Good Golly Miss Molly</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-good-morning-little-schoolgirl" kind="unknown">
+    <title>Good Morning Little Schoolgirl</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-good-time-blues" kind="unknown">
+    <title>Good Time Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-goodnight-irene" kind="unknown">
+    <title>Goodnight Irene</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-greatest-story-ever-told" kind="unknown">
+    <title>Greatest Story Ever Told</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-green-green-grass-of-home" kind="unknown">
+    <title>Green Green Grass Of Home</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-green-onions" kind="unknown">
+    <title>Green Onions</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-green-river" kind="unknown">
+    <title>Green River</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-handsome-cabin-boy-jam" kind="unknown">
+    <title>Handsome Cabin Boy Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-happiness-is-drumming" kind="unknown">
+    <title>Happiness Is Drumming</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hard-to-handle" kind="unknown">
+    <title>Hard To Handle</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-he-was-a-friend-of-mine" kind="unknown">
+    <title>He Was A Friend Of Mine</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-he-s-gone" kind="unknown">
+    <title>He's Gone</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-heaven-help-the-fool" kind="unknown">
+    <title>Heaven Help The Fool</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hell-in-a-bucket" kind="unknown">
+    <title>Hell In A Bucket</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-help-me-rhonda" kind="unknown">
+    <title>Help Me Rhonda</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-help-on-the-way" kind="unknown">
+    <title>Help On The Way</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-here-comes-sunshine" kind="unknown">
+    <title>Here Comes Sunshine</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hey-bo-diddley" kind="unknown">
+    <title>Hey Bo Diddley</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hey-jude" kind="unknown">
+    <title>Hey Jude</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hey-jude-reprise" kind="unknown">
+    <title>Hey Jude Reprise</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hey-pocky-way" kind="unknown">
+    <title>Hey Pocky Way</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hi-heel-sneakers" kind="unknown">
+    <title>Hi-Heel Sneakers</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hideaway" kind="unknown">
+    <title>Hideaway</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-high-time" kind="unknown">
+    <title>High Time</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hog-for-you-baby" kind="unknown">
+    <title>Hog For You Baby</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hoochie-coochie-man" kind="unknown">
+    <title>Hoochie Coochie Man</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-how-long-blues" kind="unknown">
+    <title>How Long Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-how-sweet-it-is-to-be-loved-by-you" kind="unknown">
+    <title>How Sweet It Is (To Be Loved By You)</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hully-gully" kind="unknown">
+    <title>Hully Gully</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-hurts-me-too" kind="unknown">
+    <title>Hurts Me Too</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-ain-t-superstitious" kind="unknown">
+    <title>I Ain't Superstitious</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-fought-the-law" kind="unknown">
+    <title>I Fought The Law</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-got-my-mojo-workin" kind="unknown">
+    <title>I Got My Mojo Workin'</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-heard-it-through-the-grapevine" kind="unknown">
+    <title>I Heard It Through The Grapevine</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-just-want-to-make-love-to-you" kind="unknown">
+    <title>I Just Want To Make Love To You</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-know-it-s-a-sin" kind="unknown">
+    <title>I Know It's A Sin</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-need-a-miracle" kind="unknown">
+    <title>I Need A Miracle</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-second-that-emotion" kind="unknown">
+    <title>I Second That Emotion</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-want-to-tell-you" kind="unknown">
+    <title>I Want To Tell You</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-will-take-you-home" kind="unknown">
+    <title>I Will Take You Home</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-m-a-king-bee" kind="unknown">
+    <title>I'm A King Bee</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-m-a-man" kind="unknown">
+    <title>I'm A Man</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-i-ve-been-all-around-this-world" kind="unknown">
+    <title>I've Been All Around This World</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-if-i-had-the-world-to-give" kind="unknown">
+    <title>If I Had The World To Give</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-if-the-shoe-fits" kind="unknown">
+    <title>If The Shoe Fits</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-iko-iko" kind="unknown">
+    <title>Iko Iko</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-into-the-mystic" kind="unknown">
+    <title>Into The Mystic</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-it-must-have-been-the-roses" kind="unknown">
+    <title>It Must Have Been The Roses</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-it-takes-a-lot-to-laugh-it-takes-a-train-to-cry" kind="unknown">
+    <title>It Takes A Lot To Laugh It Takes A Train To Cry</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-it-s-all-over-now" kind="unknown">
+    <title>It's All Over Now</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-it-s-all-over-now-baby-blue" kind="unknown">
+    <title>It's All Over Now Baby Blue</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-it-s-all-too-much" kind="unknown">
+    <title>It's All Too Much</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-jack-straw" kind="unknown">
+    <title>Jack Straw</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-jack-a-roe" kind="unknown">
+    <title>Jack-A-Roe</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-jam" kind="unknown">
+    <title>Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-john-s-other" kind="unknown">
+    <title>John's Other</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-johnny-b-goode" kind="unknown">
+    <title>Johnny B. Goode</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-jordan" kind="unknown">
+    <title>Jordan</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-just-a-little-light" kind="unknown">
+    <title>Just A Little Light</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-just-like-tom-thumb-s-blues" kind="unknown">
+    <title>Just Like Tom Thumb's Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-kansas-city" kind="unknown">
+    <title>Kansas City</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-katie-mae" kind="unknown">
+    <title>Katie Mae</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-keep-on-growing" kind="unknown">
+    <title>Keep On Growing</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-knockin-on-heaven-s-door" kind="unknown">
+    <title>Knockin' On Heaven's Door</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-la-bamba" kind="unknown">
+    <title>La Bamba</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-lazy-lightning" kind="unknown">
+    <title>Lazy Lightning</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-lazy-river-road" kind="unknown">
+    <title>Lazy River Road</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-let-it-grow" kind="unknown">
+    <title>Let It Grow</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-let-it-rock" kind="unknown">
+    <title>Let It Rock</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-let-me-in" kind="unknown">
+    <title>Let Me In</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-let-me-sing-your-blues-away" kind="unknown">
+    <title>Let Me Sing Your Blues Away</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-let-the-good-times-roll" kind="unknown">
+    <title>Let The Good Times Roll</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-liberty" kind="unknown">
+    <title>Liberty</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-like-a-rolling-stone" kind="unknown">
+    <title>Like A Rolling Stone</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-little-red-rooster" kind="unknown">
+    <title>Little Red Rooster</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-little-sadie" kind="unknown">
+    <title>Little Sadie</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-little-star" kind="unknown">
+    <title>Little Star</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-long-black-limousine" kind="unknown">
+    <title>Long Black Limousine</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-looks-like-rain" kind="unknown">
+    <title>Looks Like Rain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-loose-lucy" kind="unknown">
+    <title>Loose Lucy</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-loser" kind="unknown">
+    <title>Loser</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-lost-sailor" kind="unknown">
+    <title>Lost Sailor</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-louie-louie" kind="unknown">
+    <title>Louie Louie</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-love-the-one-you-re-with" kind="unknown">
+    <title>Love The One You're With</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-lucy-in-the-sky-with-diamonds" kind="unknown">
+    <title>Lucy In The Sky With Diamonds</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mack-the-knife-tease" kind="unknown">
+    <title>Mack The Knife Tease</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-maggie-s-farm" kind="unknown">
+    <title>Maggie's Farm</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mama-tried" kind="unknown">
+    <title>Mama Tried</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-man-smart-woman-smarter" kind="unknown">
+    <title>Man Smart (Woman Smarter)</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mannish-boy-i-m-a-man" kind="unknown">
+    <title>Mannish Boy (I'm A Man)</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mason-s-children" kind="unknown">
+    <title>Mason's Children</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-matilda" kind="unknown">
+    <title>Matilda</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-maybe-you-know" kind="unknown">
+    <title>Maybe You Know</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-me-and-bobby-mcgee" kind="unknown">
+    <title>Me And Bobby McGee</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-me-and-my-uncle" kind="unknown">
+    <title>Me And My Uncle</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mean-woman-blues" kind="unknown">
+    <title>Mean Woman Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mexicali-blues" kind="unknown">
+    <title>Mexicali Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-midnight-hour" kind="unknown">
+    <title>Midnight Hour</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-might-as-well" kind="unknown">
+    <title>Might As Well</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mind-left-body-jam" kind="unknown">
+    <title>Mind Left Body Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-minglewood-blues" kind="unknown">
+    <title>Minglewood Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mission-in-the-rain" kind="unknown">
+    <title>Mission In The Rain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mississippi-half-step" kind="unknown">
+    <title>Mississippi Half Step</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mona" kind="unknown">
+    <title>Mona</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-money-money" kind="unknown">
+    <title>Money Money</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-monkey-and-the-engineer" kind="unknown">
+    <title>Monkey And The Engineer</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mountain-jam" kind="unknown">
+    <title>Mountain Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mountains-of-the-moon" kind="unknown">
+    <title>Mountains Of The Moon</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mr-charlie" kind="unknown">
+    <title>Mr. Charlie</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-muddy-water" kind="unknown">
+    <title>Muddy Water</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-my-babe" kind="unknown">
+    <title>My Babe</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-my-baby-left-me" kind="unknown">
+    <title>My Baby Left Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-my-brother-esau" kind="unknown">
+    <title>My Brother Esau</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-mystery-train" kind="unknown">
+    <title>Mystery Train</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-neighborhood-girls" kind="unknown">
+    <title>Neighborhood Girls</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-new-orleans" kind="unknown">
+    <title>New Orleans</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-new-potato-caboose" kind="unknown">
+    <title>New Potato Caboose</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-new-speedway-boogie" kind="unknown">
+    <title>New Speedway Boogie</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-next-time-you-see-me" kind="unknown">
+    <title>Next Time You See Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-nobody-s-fault-but-mine" kind="unknown">
+    <title>Nobody's Fault But Mine</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-non-improvisation" kind="unknown">
+    <title>Non-Improvisation</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-not-fade-away" kind="unknown">
+    <title>Not Fade Away</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-not-fade-away-reprise" kind="unknown">
+    <title>Not Fade Away Reprise</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ode-for-billie-dean" kind="unknown">
+    <title>Ode For Billie Dean</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-oh-babe-it-ain-t-no-lie" kind="unknown">
+    <title>Oh Babe It Ain't No Lie</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-oh-boy" kind="unknown">
+    <title>Oh Boy</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-okie-from-muskogee" kind="unknown">
+    <title>Okie From Muskogee</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-old-old-house" kind="unknown">
+    <title>Old Old House</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ollin-arageed" kind="unknown">
+    <title>Ollin Arageed</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-on-the-road-again" kind="unknown">
+    <title>On The Road Again</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-one-more-saturday-night" kind="unknown">
+    <title>One More Saturday Night</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-only-a-fool" kind="unknown">
+    <title>Only A Fool</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-operator" kind="unknown">
+    <title>Operator</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-overseas-stomp" kind="unknown">
+    <title>Overseas Stomp</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-passenger" kind="unknown">
+    <title>Passenger</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-peggy-o" kind="unknown">
+    <title>Peggy-O</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-picasso-moon" kind="unknown">
+    <title>Picasso Moon</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-playing-in-the-band" kind="unknown">
+    <title>Playing In The Band</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-playing-in-the-band-reprise" kind="unknown">
+    <title>Playing In The Band Reprise</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-promised-land" kind="unknown">
+    <title>Promised Land</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-proud-mary" kind="unknown">
+    <title>Proud Mary</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-queen-jane-approximately" kind="unknown">
+    <title>Queen Jane Approximately</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-quinn-the-eskimo" kind="unknown">
+    <title>Quinn The Eskimo</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-rain" kind="unknown">
+    <title>Rain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-rainy-day-women-12-and-35" kind="unknown">
+    <title>Rainy Day Women #12 and 35</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ramble-on-rose" kind="unknown">
+    <title>Ramble On Rose</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-reuben-and-cherise" kind="unknown">
+    <title>Reuben And Cherise</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-revolution" kind="unknown">
+    <title>Revolution</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-revolutionary-hamstrung-blues" kind="unknown">
+    <title>Revolutionary Hamstrung Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-riot-in-cell-block-9" kind="unknown">
+    <title>Riot In Cell Block #9</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-rip-it-up" kind="unknown">
+    <title>Rip It Up</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ripple" kind="unknown">
+    <title>Ripple</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-river-deep-mountain-high" kind="unknown">
+    <title>River Deep Mountain High</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-roberta" kind="unknown">
+    <title>Roberta</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-rockin-pneumonia" kind="unknown">
+    <title>Rockin' Pneumonia</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-rollin-and-tumblin" kind="unknown">
+    <title>Rollin' And Tumblin'</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-rosa-lee-mcfall" kind="unknown">
+    <title>Rosa Lee McFall</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-rosemary" kind="unknown">
+    <title>Rosemary</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-row-jimmy" kind="unknown">
+    <title>Row Jimmy</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-run-rudolph-run" kind="unknown">
+    <title>Run Rudolph Run</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sage-and-spirit" kind="unknown">
+    <title>Sage And Spirit</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-saint-of-circumstance" kind="unknown">
+    <title>Saint Of Circumstance</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-salt-lake-city" kind="unknown">
+    <title>Salt Lake City</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-samba-in-the-rain" kind="unknown">
+    <title>Samba In The Rain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-samson-and-delilah" kind="unknown">
+    <title>Samson And Delilah</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-satisfaction" kind="unknown">
+    <title>Satisfaction</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sawmill" kind="unknown">
+    <title>Sawmill</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-scarlet-begonias" kind="unknown">
+    <title>Scarlet Begonias</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-searchin" kind="unknown">
+    <title>Searchin'</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-seasons-of-my-heart" kind="unknown">
+    <title>Seasons Of My Heart</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-seastones" kind="unknown">
+    <title>Seastones</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-shakedown-street" kind="unknown">
+    <title>Shakedown Street</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-she-belongs-to-me" kind="unknown">
+    <title>She Belongs To Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-she-s-mine" kind="unknown">
+    <title>She's Mine</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-ship-of-fools" kind="unknown">
+    <title>Ship Of Fools</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sidewalks-of-new-york" kind="unknown">
+    <title>Sidewalks Of New York</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-silver-threads-and-golden-needles" kind="unknown">
+    <title>Silver Threads And Golden Needles</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sing-me-back-home" kind="unknown">
+    <title>Sing Me Back Home</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sitting-on-top-of-the-world" kind="unknown">
+    <title>Sitting On Top Of The World</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sleigh-ride" kind="unknown">
+    <title>Sleigh Ride</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-slewfoot" kind="unknown">
+    <title>Slewfoot</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-slipknot" kind="unknown">
+    <title>Slipknot!</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-smokestack-lightning" kind="unknown">
+    <title>Smokestack Lightning</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-so-many-roads" kind="unknown">
+    <title>So Many Roads</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-so-sad-to-see-good-love-go-bad" kind="unknown">
+    <title>So Sad (To See Good Love Go Bad)</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-so-what" kind="unknown">
+    <title>So What?</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-space" kind="unknown">
+    <title>Space</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-spanish-jam" kind="unknown">
+    <title>Spanish Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-spoonful" kind="unknown">
+    <title>Spoonful</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-stagger-lee" kind="unknown">
+    <title>Stagger Lee</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-stander-on-the-mountain" kind="unknown">
+    <title>Stander On The Mountain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-standing-on-the-moon" kind="unknown">
+    <title>Standing On The Moon</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-start-me-up" kind="unknown">
+    <title>Start Me Up</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-stayin-alive-jam" kind="unknown">
+    <title>Stayin' Alive Jam</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-stella-blue" kind="unknown">
+    <title>Stella Blue</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-stir-it-up" kind="unknown">
+    <title>Stir It Up</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-stronger-than-dirt" kind="unknown">
+    <title>Stronger Than Dirt</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-stuck-inside-of-mobile-with-the-memphis-blues-again" kind="unknown">
+    <title>Stuck Inside Of Mobile With The Memphis Blues Again</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sugar-magnolia" kind="unknown">
+    <title>Sugar Magnolia</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sugaree" kind="unknown">
+    <title>Sugaree</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sunrise" kind="unknown">
+    <title>Sunrise</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-sunshine-daydream" kind="unknown">
+    <title>Sunshine Daydream</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-supplication" kind="unknown">
+    <title>Supplication</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-swing-low-sweet-chariot" kind="unknown">
+    <title>Swing Low Sweet Chariot</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-take-me-to-the-river" kind="unknown">
+    <title>Take Me To The River</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-teddy-bear-s-picnic" kind="unknown">
+    <title>Teddy Bear's Picnic</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-tell-it-to-me" kind="unknown">
+    <title>Tell It To Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-tell-mama" kind="unknown">
+    <title>Tell Mama</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-tennessee-jed" kind="unknown">
+    <title>Tennessee Jed</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-terrapin-flyer" kind="unknown">
+    <title>Terrapin Flyer</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-terrapin-station" kind="unknown">
+    <title>Terrapin Station</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-terrapin-transit" kind="unknown">
+    <title>Terrapin Transit</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-that-would-be-something" kind="unknown">
+    <title>That Would Be Something</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-that-s-alright-mama" kind="unknown">
+    <title>That's Alright Mama</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-days-between" kind="unknown">
+    <title>The Days Between</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-eleven" kind="unknown">
+    <title>The Eleven</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-last-time" kind="unknown">
+    <title>The Last Time</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-main-ten" kind="unknown">
+    <title>The Main Ten</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-music-never-stopped" kind="unknown">
+    <title>The Music Never Stopped</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-race-is-on" kind="unknown">
+    <title>The Race Is On</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-rub" kind="unknown">
+    <title>The Rub</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-same-thing" kind="unknown">
+    <title>The Same Thing</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-seven" kind="unknown">
+    <title>The Seven</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-weight" kind="unknown">
+    <title>The Weight</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-the-wheel" kind="unknown">
+    <title>The Wheel</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-they-love-each-other" kind="unknown">
+    <title>They Love Each Other</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-thirty-days-to-come-back-home" kind="unknown">
+    <title>Thirty Days (To Come Back Home)</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-throwing-stones" kind="unknown">
+    <title>Throwing Stones</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-till-the-morning-comes" kind="unknown">
+    <title>Till The Morning Comes</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-to-lay-me-down" kind="unknown">
+    <title>To Lay Me Down</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-tomorrow-is-forever" kind="unknown">
+    <title>Tomorrow Is Forever</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-tomorrow-never-knows" kind="unknown">
+    <title>Tomorrow Never Knows</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-tons-of-steel" kind="unknown">
+    <title>Tons Of Steel</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-touch-of-grey" kind="unknown">
+    <title>Touch Of Grey</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-tough-mama" kind="unknown">
+    <title>Tough Mama</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-truckin" kind="unknown">
+    <title>Truckin'</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-turn-on-your-lovelight" kind="unknown">
+    <title>Turn On Your Lovelight</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-two-souls-in-communion" kind="unknown">
+    <title>Two Souls In Communion</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-u-s-blues" kind="unknown">
+    <title>U.S. Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-unbroken-chain" kind="unknown">
+    <title>Unbroken Chain</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-uncle-sam-blues" kind="unknown">
+    <title>Uncle Sam Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-valley-road" kind="unknown">
+    <title>Valley Road</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-victim-or-the-crime" kind="unknown">
+    <title>Victim Or The Crime</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-visions-of-johanna" kind="unknown">
+    <title>Visions Of Johanna</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-wake-up-little-susie" kind="unknown">
+    <title>Wake Up Little Susie</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-walkin-blues" kind="unknown">
+    <title>Walkin' Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-walking-the-dog" kind="unknown">
+    <title>Walking The Dog</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-wang-dang-doodle" kind="unknown">
+    <title>Wang Dang Doodle</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-watchin-the-wheels" kind="unknown">
+    <title>Watchin' The Wheels</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-wave-that-flag" kind="unknown">
+    <title>Wave That Flag</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-wave-to-the-wind" kind="unknown">
+    <title>Wave To The Wind</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-way-to-go-home" kind="unknown">
+    <title>Way To Go Home</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-we-can-run" kind="unknown">
+    <title>We Can Run</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-weather-report-suite-part-1" kind="unknown">
+    <title>Weather Report Suite Part 1</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-weather-report-suite-prelude" kind="unknown">
+    <title>Weather Report Suite Prelude</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-werewolves-of-london" kind="unknown">
+    <title>Werewolves Of London</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-west-l-a-fadeaway" kind="unknown">
+    <title>West L.A. Fadeaway</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-wharf-rat" kind="unknown">
+    <title>Wharf Rat</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-what-s-become-of-the-baby" kind="unknown">
+    <title>What's Become Of The Baby</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-what-s-going-on" kind="unknown">
+    <title>What's Going On</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-when-i-paint-my-masterpiece" kind="unknown">
+    <title>When I Paint My Masterpiece</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-when-push-comes-to-shove" kind="unknown">
+    <title>When Push Comes To Shove</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-whiskey-in-the-jar" kind="unknown">
+    <title>Whiskey In The Jar</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-who-do-you-love" kind="unknown">
+    <title>Who Do You Love</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-why-don-t-we-do-it-in-the-road" kind="unknown">
+    <title>Why Don't We Do It In The Road</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-will-the-circle-be-unbroken" kind="unknown">
+    <title>Will The Circle Be Unbroken</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-willie-and-the-hand-jive" kind="unknown">
+    <title>Willie And The Hand Jive</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-workin-man-blues" kind="unknown">
+    <title>Workin' Man Blues</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-yellow-moon" kind="unknown">
+    <title>Yellow Moon</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-you-ain-t-woman-enough" kind="unknown">
+    <title>You Ain't Woman Enough</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-you-don-t-love-me" kind="unknown">
+    <title>You Don't Love Me</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-you-win-again" kind="unknown">
+    <title>You Win Again</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-young-blood" kind="unknown">
+    <title>Young Blood</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-unidentified-19670409-01-blues" kind="unknown">
+    <title>unidentified-19670409-01 (blues)</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-unidentified-19690507-01" kind="unknown">
+    <title>unidentified-19690507-01</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+  <song id="s-unidentified-19701120-01" kind="unknown">
+    <title>unidentified-19701120-01</title>
+    <note>Title attested in the locked Jerrybase setlist facts. Authorship, work identity, vocal defaults and classification require review.</note>
+  </song>
+</songs>

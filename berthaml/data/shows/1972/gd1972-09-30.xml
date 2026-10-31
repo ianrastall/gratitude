@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-09-30" date="1972-09-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720930-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-472" nameAsBilled="Soccer Field, American University"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-deal" transition="unknown"/>
+      <performance id="p01-03" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-05" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-06" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-07" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-08" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-09" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-10" song="s-big-river" transition="unknown"/>
+      <performance id="p01-11" song="s-loser" transition="unknown"/>
+      <performance id="p01-12" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-13" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p02-02" song="s-he-s-gone" transition="unknown"/>
+      <performance id="p02-03" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-04" song="s-brokedown-palace" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-07" song="s-sing-me-back-home" transition="unknown"/>
+      <performance id="p02-08" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-09" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p02-10" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-b99f78961543de59fee9" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-09-30.sbd.clugston.8184.sbeok.shnf</identifier>
+      <lineage>SBD &gt;Master 7" Reels @ 7 1/2 ips | Master 7" Soundboard Reels @ 7 1/2 ips &gt; Cassette &gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at American University on 1972-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-01ddbd7ad2bda3177e0a" kind="soundboard">
+      <identifier scheme="archive-org">gd72-09-30.sbd.unknown.5681.sbeok.shnf</identifier>
+      <lineage>Soundboard | SB&gt; MR&gt; Cassette&gt; DAT&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at American University on 1972-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

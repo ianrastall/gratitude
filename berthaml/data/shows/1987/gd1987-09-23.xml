@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-09-23" date="1987-09-23">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870923-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-187" nameAsBilled="Spectrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-05" song="s-tons-of-steel" transition="unknown"/>
+      <performance id="p01-06" song="s-desolation-row" transition="unknown"/>
+      <performance id="p01-07" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-bertha" transition="segue"/>
+      <performance id="p02-02" song="s-cumberland-blues" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-09" song="s-dear-mr-fantasy" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-11" song="s-good-lovin" transition="segue"/>
+      <performance id="p02-12" song="s-la-bamba" transition="segue"/>
+      <performance id="p02-13" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-71dcf045b541317cd5d4" kind="unknown">
+      <identifier scheme="archive-org">gd1987-09-23.133606.NakCM100-Spectrum.pasternak.flac16</identifier>
+      <credit role="recordist">Jon Pasternak</credit>
+      <lineage>Source / Lineage : Taper section nakamichi CM 100 / CP-4s &gt; Marantz PMD 420, Master Cassette &gt; CD, Transfered on a Nakamichi DR-2 &gt; Tascom CDRW 2000 &gt; me &gt;EAC &gt; TLH level 8 &gt; flac 16 &gt; you &gt; enjoyTape and Transfer By Jon Pasternak</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jon Pasternak</note>
+    </recording>
+    <recording id="r-1a582e9a2a15eaa9fffb" kind="unknown">
+      <identifier scheme="archive-org">gd1987-09-23.137225.upg-aud.tobin.flac16</identifier>
+      <lineage>(original shnid = 90559) taper: Joe D'Amico nak 300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f4f03081709c39a1b67e" kind="matrix">
+      <identifier scheme="archive-org">gd1987-09-23.137226.upg-sbd.tobin.flac16</identifier>
+      <lineage>(original shnid = 30887) Source: Healy SBD Matrix Patch &gt; Sony D5 &gt; Maxell MX90 Type IV Cassettes. | MSC playback on Nakamichi DR2 &gt; gold connector shielded 3ft RCA monster cable &gt; Audiophile 2496 soundcard /P4 2 GHz &gt; recorded as 24 bit/48 KHz WAV using Wavelab 5. Mastering: Wavelab 5.0 (24/48 files rendered to 16 bit/44.1 KHz using Waves L3 Multimaximizer with hi resolution CD rendering settings (threshold -2 dB / ceiling -0.1 dB / type I dither / ultra shaping) &gt; tracking with CDWAV 1.9 &gt; 16 bit FLAC. No noise reduction or selective frequency augmentation/attenuation was performed. Transfer and encoding by Chris Ladner. - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d0b00d0e721f3af52686" kind="matrix">
+      <identifier scheme="archive-org">gd1987-09-23.137228.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid = 30887)Source: Healy SBD Matrix Patch &gt; Sony D5 &gt; Maxell MX90 Type IV Cassettes. | MSC playback on Nakamichi DR2 &gt; gold connector shielded 3ft RCA monster cable &gt; Audiophile 2496 soundcard /P4 2 GHz &gt; recorded as 24 bit/48 KHz WAV using Wavelab 5. Mastering: Wavelab 5.0 (24/48 files rendered to 16 bit/44.1 KHz using Waves L3 Multimaximizer with hi resolution CD rendering settings (threshold -2 dB / ceiling -0.1 dB / type I dither / ultra shaping) &gt; tracking with CDWAV 1.9 &gt; 16 bit FLAC. No noise reduction or selective frequency augmentation/attenuation was performed. Transfer and encoding by Chris Ladner. + AUD (shnid = 90559) taper: Joe D'Amico nak 300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a023dcd54d4f8aba1951" kind="matrix">
+      <identifier scheme="archive-org">gd1987-09-23.137230.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid = 30887) Source: Healy SBD Matrix Patch &gt; Sony D5 &gt; Maxell MX90 Type IV Cassettes. | MSC playback on Nakamichi DR2 &gt; gold connector shielded 3ft RCA monster cable &gt; Audiophile 2496 soundcard /P4 2 GHz &gt; recorded as 24 bit/48 KHz WAV using Wavelab 5. Mastering: Wavelab 5.0 (24/48 files rendered to 16 bit/44.1 KHz using Waves L3 Multimaximizer with hi resolution CD rendering settings (threshold -2 dB / ceiling -0.1 dB / type I dither / ultra shaping) &gt; tracking with CDWAV 1.9 &gt; 16 bit FLAC. No noise reduction or selective frequency augmentation/attenuation was performed. Transfer and encoding by Chris Ladner. + AUD (shnid = 90559) taper: Joe D'Amico nak 300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a322caafacebcf3ee4e4" kind="matrix">
+      <identifier scheme="archive-org">gd1987-09-23.137231.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 30887) Source: Healy SBD Matrix Patch &gt; Sony D5 &gt; Maxell MX90 Type IV Cassettes. | MSC playback on Nakamichi DR2 &gt; gold connector shielded 3ft RCA monster cable &gt; Audiophile 2496 soundcard /P4 2 GHz &gt; recorded as 24 bit/48 KHz WAV using Wavelab 5. Mastering: Wavelab 5.0 (24/48 files rendered to 16 bit/44.1 KHz using Waves L3 Multimaximizer with hi resolution CD rendering settings (threshold -2 dB / ceiling -0.1 dB / type I dither / ultra shaping) &gt; tracking with CDWAV 1.9 &gt; 16 bit FLAC. No noise reduction or selective frequency augmentation/attenuation was performed. Transfer and encoding by Chris Ladner. + AUD (shnid = 90559) taper: Joe D'Amico nak 300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d0d0da3e071d301af654" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-09-23.137412.fixed.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-55dc7abe7757107ebfd3" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-09-23.137420.sbd.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9a54d96f62c02caeae48" kind="audience">
+      <identifier scheme="archive-org">gd1987-09-23.154371.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4aa9760a851171705fa2" kind="audience">
+      <identifier scheme="archive-org">gd1987-09-23.154372.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-16deeb36586c0abadecf" kind="unknown">
+      <identifier scheme="archive-org">gd1987-09-23.nak300.damico.90559.sbeok.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-7cfb154bc508c41f6446" kind="soundboard">
+      <identifier scheme="archive-org">gd87-09-23.sbd.ladner.30887.sbeok.flacf</identifier>
+      <lineage>Soundboard | Healy SBD Matrix Patch &gt; Sony D5 &gt; Maxell MX90 Type IV &gt; Nakamichi DR2 (MSC) &gt; Audiophile 2496 &gt; Wavelab 5 (24/48) &gt; Waves L3 Multimaximizer (resample/dither) &gt; CD Wave &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Ladner</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+    <recording id="r-6cf2d9563ee996cee843" kind="soundboard">
+      <identifier scheme="archive-org">gd87-09-23.sbd.willy.15207.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MC &gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-75594aee3ab53f52249e" kind="unknown">
+      <identifier scheme="other">etree-603558</identifier>
+      <note>Supplied catalogue listing: etree; gd87-09-23.137228.mtx.tobin.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

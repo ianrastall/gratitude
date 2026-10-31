@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-10-30" date="1980-10-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19801030-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-801" nameAsBilled="Radio City Music Hall"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="acoustic">
+      <performance id="p01-01" song="s-deep-elem-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-dark-hollow" transition="unknown"/>
+      <performance id="p01-03" song="s-i-ve-been-all-around-this-world" transition="unknown"/>
+      <performance id="p01-04" song="s-on-the-road-again" transition="unknown"/>
+      <performance id="p01-05" song="s-to-lay-me-down" transition="unknown"/>
+      <performance id="p01-06" song="s-heaven-help-the-fool" transition="unknown"/>
+      <performance id="p01-07" song="s-ripple" transition="unknown"/>
+      <note>Source section label: Acoustic Set</note>
+    </set>
+    <set kind="set" n="2" mode="electric">
+      <performance id="p02-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p02-02" song="s-promised-land" transition="unknown"/>
+      <performance id="p02-03" song="s-peggy-o" transition="unknown"/>
+      <performance id="p02-04" song="s-mama-tried" transition="segue"/>
+      <performance id="p02-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-06" song="s-loser" transition="unknown"/>
+      <performance id="p02-07" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p02-08" song="s-althea" transition="segue"/>
+      <performance id="p02-09" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-10" song="s-saint-of-circumstance" transition="unknown"/>
+      <note>Source section label: Electric Set 1</note>
+    </set>
+    <set kind="set" n="3" mode="electric">
+      <performance id="p03-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p03-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p03-03" song="s-he-s-gone" transition="segue"/>
+      <performance id="p03-04" song="s-truckin" transition="segue"/>
+      <performance id="p03-05" song="s-drums" transition="segue"/>
+      <performance id="p03-06" song="s-the-other-one" transition="segue"/>
+      <performance id="p03-07" song="s-wharf-rat" transition="segue"/>
+      <performance id="p03-08" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Electric Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="electric">
+      <performance id="p04-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Electric Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-95fcecf86f45b3ae945f" kind="audience">
+      <identifier scheme="archive-org">gd1980-10-30.120537.nak70.gatto-jaeger.dusborne.flac16</identifier>
+      <credit role="recordist">Keith Gatto &amp; Pete Jaeger</credit>
+      <lineage>Loge Dead front center; Nak 700 &gt; sony D-5&gt; AMC&gt; DAT&gt; CDR&gt; EAC&gt; TLH&gt; Flac; Recorded by Keith Gatto &amp; Pete Jaeger; Extracted &amp; flac encoded by Michael Turi; Patched and Edited in Sound Forge Pro. 10.0; Tracked in Audacity 2.0 by dusborne 06-06-2012</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-30. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Michael Turi and dusborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/30/10-30-80-ny-ny-radio-city-music-hall/</note>
+    </recording>
+    <recording id="r-f0e2dc182ede8c260432" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-10-30.139599.sbd.bershaw.flac16</identifier>
+      <lineage>Source: 10Ó 1/4 track SBD Feed Master Reels @ 7.5ips; | 10Ó 1/4 track Reels (Revox A-77 playback) -&gt; Lexicon Lambda (24/96) -&gt; Logic (mastering: speed correction, track indexing, dithering to 16/44.1) -&gt; AIFF -&gt; Xact (sbe correction) -&gt; wav -&gt; flac; Transfer (November 2009) and mastering (October 2017) by Alan Bershaw</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-30. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alan Bershaw</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/30/10-30-80-ny-ny-radio-city-music-hall/</note>
+    </recording>
+    <recording id="r-3119dca652121ac89958" kind="audience">
+      <identifier scheme="archive-org">gd1980-10-30.fob.sonyecm280.wise.miller.101427.flac16</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>(FOB) Sony ECM-280 -&gt; Cassette Master (Sony TC-D5M/Maxell UDXLII-C90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.21 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-30. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/30/10-30-80-ny-ny-radio-city-music-hall/</note>
+    </recording>
+    <recording id="r-bf33289c8a4a68254ecc" kind="audience">
+      <identifier scheme="archive-org">gd80-10-30.wise.larson.1954.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Audience Recording: Sony ECM-280/D-5 | Master AUD (Sony EMC-280/D-5) Cass&gt; PCM&gt; ZA2&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-30. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/30/10-30-80-ny-ny-radio-city-music-hall/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

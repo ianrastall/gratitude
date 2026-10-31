@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-06-04" date="1976-06-04">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760604-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-460" nameAsBilled="Paramount Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="unknown"/>
+      <performance id="p01-04" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-05" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-06" song="s-candyman" transition="unknown"/>
+      <performance id="p01-07" song="s-big-river" transition="unknown"/>
+      <performance id="p01-08" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-09" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-10" song="s-supplication" transition="unknown"/>
+      <performance id="p01-11" song="s-mission-in-the-rain" transition="unknown"/>
+      <performance id="p01-12" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-13" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p01-14" song="s-slipknot" transition="segue"/>
+      <performance id="p01-15" song="s-franklin-s-tower" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-02" song="s-drums" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p02-04" song="s-might-as-well" transition="unknown"/>
+      <performance id="p02-05" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-06" song="s-cosmic-charlie" transition="segue"/>
+      <performance id="p02-07" song="s-let-it-grow" transition="segue"/>
+      <performance id="p02-08" song="s-drums" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="unknown"/>
+      <performance id="p02-10" song="s-dancing-in-the-street" transition="unknown" titleVariant="Dancin' In The Streets"/>
+      <performance id="p02-11" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a369ffc12685b0fee860" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-06-04.143064.set1-pset2.sbd.miller.flac2496</identifier>
+      <lineage>SBD &gt; Cassette Master (Sony TC-152SD/Maxell UD) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theatre on 1976-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-93b0ea3b6630c9525d54" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-06-04.143136.partial.cm.sbd.miller.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master (Sony TC-152SD/Maxell UD) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theatre on 1976-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cb2133f3d9d6bf504452" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-06-04.153709.sbd.martin.smith.clugston.flac1648</identifier>
+      <credit role="recordist">Steve Martin</credit>
+      <lineage>Mickey Hart's Master Soundboard Cassettes w/dolby B (Sony TC-152SD) &gt; Steve Martin's 1st generation reels @ 3 3/4 ips | Master Cassettes (Sony TC-D5M) &gt; 1st generation reels (Pioneer RT707 @ 3 3/4 ips); 1st generation reels (Revox A77) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theatre on 1976-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston</note>
+    </recording>
+    <recording id="r-3d7f8e481663f31e2493" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-06-04.153710.sbd.martin.smith.clugston.flac2496</identifier>
+      <credit role="recordist">Steve Martin</credit>
+      <lineage>Mickey Hart's Master Soundboard Cassettes w/dolby B (Sony TC-152SD) &gt; Steve Martin's 1st generation reels @ 3 3/4 ips | Master Cassettes (Sony TC-D5M) &gt; 1st generation reels (Pioneer RT707 @ 3 3/4 ips); 1st generation reels (Revox A77) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theatre on 1976-06-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston</note>
+    </recording>
+    <recording id="r-40c92bda645e786c4782" kind="audience">
+      <identifier scheme="archive-org">gd1976-06-04.157429.aud.motb.0189.flac16</identifier>
+      <credit role="recordist">Reinhard Hohlwein</credit>
+      <lineage>Analog Audience Source: ECM 280 mics Front row Loge on 152SD Medium Stock Brands: MAC = Maxell UD c 120's | Analog Sound Preservation: MAC &gt; Nak Dragon -&gt; Audio Techica ATM 400 Line Amp/ Mixer-&gt; Korg at 5.6 mhz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theatre on 1976-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer By: Bob Menke Mastering By: Derek McCabe</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-298756c2522b384dc68e" kind="audience">
+      <identifier scheme="archive-org">gd1976-06-04.aud.berger.99872.flac16</identifier>
+      <lineage>aud &gt; mac - unknown equipment/taper | mac&gt;10.5" reel @ 7.5 ips, dolby b technics rs-1506&gt;teac an-180&gt;hd-p2 24/96&gt;hd&gt;cd wave&gt;adobe 2.0 16/44&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theatre on 1976-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-a0d5544f35efda8f5268" kind="audience">
+      <identifier scheme="archive-org">gd76-06-04.aud.vernon.8034.sbeok.shnf</identifier>
+      <lineage>unknown aud &gt; ? &gt; DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at on 1976-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-0ae9757a7bceaf0d15d9" kind="soundboard">
+      <identifier scheme="archive-org">gd76-06-04.sbd.cotsman.9797.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MR&gt; ?&gt; D&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theatre on 1976-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -38,6 +38,8 @@ The local Shows pane displays colored source/modifier badges and credits. Clicki
 
 ## Offline reference
 
+The separate [BerthaML dataset](berthaml/README.md) develops cited canonical show records and edition-specific TXT/JSON/M3U8 playlists for both official releases and circulating recordings. Its draft data and finite curation queue live under `berthaml/`; it does not replace the installed runtime catalogue automatically. See [coverage](berthaml/reports/coverage.md).
+
 `data/gd-shows.xml` contains attributed GD show facts, setlists, historical recording references and separately marked credit-tier policy. It is not a current availability index or download service. Unknown and metadata-only dates remain labelled. See `docs/catalogue.md` for coverage, sources and the separate developer rebuild workflow.
 
 ## Build and delivery

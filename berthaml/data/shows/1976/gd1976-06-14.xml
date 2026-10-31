@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-06-14" date="1976-06-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760614-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-626" nameAsBilled="Beacon Theatre"/>
+  <program coverage="partial">
+    <set kind="soundcheck" n="1" mode="unknown">
+      <performance id="p01-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-not-fade-away" transition="unknown"/>
+      <performance id="p01-03" song="s-cold-rain-and-snow" transition="unknown"/>
+      <note>Source section label: Partial Soundcheck</note>
+    </set>
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p02-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p02-02" song="s-mama-tried" transition="unknown"/>
+      <performance id="p02-03" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p02-04" song="s-cassidy" transition="unknown"/>
+      <performance id="p02-05" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-06" song="s-big-river" transition="unknown"/>
+      <performance id="p02-07" song="s-might-as-well" transition="unknown"/>
+      <performance id="p02-08" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p02-09" song="s-supplication" transition="unknown"/>
+      <performance id="p02-10" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p02-11" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p03-01" song="s-the-wheel" transition="unknown"/>
+      <performance id="p03-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p03-03" song="s-high-time" transition="unknown"/>
+      <performance id="p03-04" song="s-the-music-never-stopped" transition="unknown"/>
+      <performance id="p03-05" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p03-06" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
+      <performance id="p03-07" song="s-cosmic-charlie" transition="unknown"/>
+      <performance id="p03-08" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p03-09" song="s-slipknot" transition="segue"/>
+      <performance id="p03-10" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p03-11" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c90bca300b71453b9867" kind="matrix">
+      <identifier scheme="archive-org">gd1976-06-14.128772.mtx.dusborne.flac16</identifier>
+      <lineage>2 Source Matrix by Dusborne; Soundboard (shnid:82308)Betty Board MR &gt; PCM &gt; DAT; | SBD DAT &gt; TASCAM DA-20 (spdif out) -&gt; Apogee Wide Eye spdif innterconnect and Audience (shnid:10917) Source: Sony TC 153 Sony SCM 99A Mikes &gt; Cassette x 2 &gt; DAT &gt; Tascam Da-p1 dat @48khz &gt; Sek'd Prodif+ card (48&gt;44.1khz) &gt; Sek'd Red Roaster (fades, edits*) &gt; Cdwav (splits) &gt; Mkw</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cf223b7d7945c2a13dd1" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-06-14.143026.sbd.betty.composite.dalton.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Betty Cantor and Tim Dalton</credit>
+      <lineage>Source Info: Primary Source: Betty's 7" two track Master Soundboard Reels @ 7 1/2 ips &gt; PCM &gt; Dat (16-bit/44.1k); Secondary Source: Betty's 7" two track Master Soundboard Reel @ 7 1/2 ips &gt; PCM (16-bit/44.1k); Transfer Info: Primary Source: Dat (Sony PCM-R500)&gt; Apogee aes/ebu cable &gt; Tascam DA-3000 (.wav 16-bit/44.1k) &gt; Adobe Audition 3.01 &gt; TLH flac16; Secondary Source: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (.wav 16-bit/44.1k)&gt; Adobe Audition 3.01 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c9f96c4122b8465d536d" kind="unknown">
+      <identifier scheme="archive-org">gd1976-06-14.sbd.bettycantor.gems.82308.flac16</identifier>
+      <credit role="recordist">SBD DAT from the collection of Todd Evans</credit>
+      <lineage>Betty Board &gt; PCM &gt; DAT | DAT &gt; TASCAM DA-20 (spdif out) -&gt; Apogee Wide Eye spdif innterconnect -&gt; Lynx Two Soundcard (spdif in) -&gt; Wavelab 6.0</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-019f8cd2cec903a6137d" kind="unknown">
+      <identifier scheme="archive-org">gd1976-06-14.sbd.hollister.13966.sbeok.shnf</identifier>
+      <lineage>S:MR&gt;PCM&gt;DAT&gt;CD&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): David Hollister</note>
+    </recording>
+    <recording id="r-5bbb616204a3f3b7c3b3" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-06-14.sbd.orf.240.shnf</identifier>
+      <lineage>SBD Reels&gt;D&gt;CD-R</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Leigh Orf</note>
+    </recording>
+    <recording id="r-0a3b7b03309bdc5d3007" kind="unknown">
+      <identifier scheme="archive-org">gd1976-06-14.set-2.sbd.sirmick.78433.sbeok.flac16</identifier>
+      <lineage>betty &gt; pcm x 2 &gt; dat | M-1 &gt; 7-pin optical &gt; Co2 &gt; SB Live &gt;CDwav Record and Index &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-96b1f4c3db0c27ff6585" kind="soundboard">
+      <identifier scheme="archive-org">gd76-06-14.sbd.hollister.22804.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD: MR&gt; PCM&gt; DAT&gt; CD&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-70663ec5a97e73c523b4" kind="audience">
+      <identifier scheme="archive-org">gd76-06-14.sony.vernon.10917.sbeok.shnf</identifier>
+      <lineage>Audience Recording | Sony TC 153 Sony SCM 99A Mikes &gt; Cassette x 2</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beacon Theatre on 1976-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-50c0482c22a5aaf57f34" kind="unknown">
+      <identifier scheme="other">etree-572473</identifier>
+      <note>Supplied catalogue listing: etree; gd76-06-14.128772.mtx.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

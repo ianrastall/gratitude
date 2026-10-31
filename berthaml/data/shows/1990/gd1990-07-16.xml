@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-07-16" date="1990-07-16">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900716-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-938" nameAsBilled="Rich Stadium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p01-03" song="s-blow-away" transition="unknown"/>
+      <performance id="p01-04" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-07" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-08" song="s-high-time" transition="unknown"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="segue"/>
+      <performance id="p01-10" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-sugar-magnolia" transition="segue"/>
+      <performance id="p02-02" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-jam" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-10" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p02-11" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-12" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-13" song="s-sunshine-daydream" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-10888bfa2a9d70016aad" kind="matrix">
+      <identifier scheme="archive-org">gd1990-07-16.128387.mtx.nicksmix.flac16</identifier>
+      <lineage>3 source matrix mix of AUD shnid 95580, SBD shnid 95782 and AUD shnid 116444; Mixed by Nick Crump</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Nick Crump</note>
+    </recording>
+    <recording id="r-a778401df5b586f800c5" kind="unknown">
+      <identifier scheme="archive-org">gd1990-07-16.133997.akg414btl-fob-dantepper.flac16</identifier>
+      <credit role="recordist">Dan Tepper</credit>
+      <lineage>Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Dan Tepper</note>
+    </recording>
+    <recording id="r-640a90617447e3f130c8" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.142695.Schoeps.Brotman.Fanari.Katzeff.Mattes.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Rick Katzeff and Dave Brotman and Marco Fanari and Ted Mattes</credit>
+      <lineage>flac16/48kHz ; Rick Katzeff, Marco Fanari &amp; Dave Brotman FOB Recording: Set I: Spaced Schoeps CMC5 MK21 &gt; Jensen PS &gt; DAT (Panasonic SV250); Mics spaced @ 8'5" on stands @ 6'; Set II: Spaced Schoeps CMC3 MK2 &gt; Jensen PS &gt; DAT (Panasonic SV250). Mics spaced @ 8'5" on stands @ 6'5"; Charlie Miller | Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-4ca4e134564390b51e6a" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.143604.FOB.s1.Schoeps.Brotman.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Dave Brotman</credit>
+      <lineage>Dave Brotman Master DAT Recording: (FOB/DFC) Schoeps CMC3/MK2S (spaced 8'3" stands 6'4") &gt; JE13 &gt; Dat (Panasonic SV-255/48k) | Charlie Miller Transfer: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a3f2ee2bc527a4050e07" kind="unknown">
+      <identifier scheme="archive-org">gd1990-07-16.145658.ultramatrix.gaswirt.miller.sirmicck.flac1648</identifier>
+      <credit role="recordist">Rich Gastwirt</credit>
+      <lineage>Utramatrix &gt; Dat (48k) - Provided by Rich Gastwirt | Transfer: Transfer: Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/48 - Transfer by Charlie Miller Lineage: wav 16/48 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; Flac 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2587856ceab96fee0763" kind="unknown">
+      <identifier scheme="archive-org">gd1990-07-16.149401.DAK.boedicker.flac1644</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source:Dak Shotgun Mics&gt;Sony WM-D6C Cassette Deck&gt;2 Maxell XL-II 90 And 100 Minute Cassette Master Tapes&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper.Taped By Dave Boedicker,Official Taper Section.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-d88f1e808f2ba408e89b" kind="matrix">
+      <identifier scheme="archive-org">gd1990-07-16.157718.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 28, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-7be53d659e2eef268690" kind="matrix">
+      <identifier scheme="archive-org">gd1990-07-16.158164.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 28, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-54b05217103c8e97eb72" kind="matrix">
+      <identifier scheme="archive-org">gd1990-07-16.162747.mtx.tobin.flac16</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-80a1292ef4fe7332240d" kind="unknown">
+      <identifier scheme="archive-org">gd1990-07-16.162759.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-87546618f6b0cf6c5130" kind="unknown">
+      <identifier scheme="archive-org">gd1990-07-16.162769.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3b4c4bc2eac8ea4e322b" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.AKG451.Currier.Keo.121580.Flac2496</identifier>
+      <credit role="recordist">Mr. Currier</credit>
+      <lineage>Master Audience Recorded By Mr. Currier, Transfer By Keo; AKGC451EB/CK1's&gt;AKG 9V Phantom Power&gt;Marantz PDM 430&gt; Probaly Dolby (Not Marked)&gt;Tapes Maxell MX-100's; Transfer With Nakamichi MR-1&gt;No Dolby&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-af78e1691afc5c4948db" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.AKG451.Currier.Keo.121581.Flac1644</identifier>
+      <credit role="recordist">Mr. Currier</credit>
+      <lineage>Master Audience Recorded By Mr. Currier, Transfer By Keo; AKGC451EB/CK1's&gt;AKG 9V Phantom Power&gt;Marantz PDM 430&gt; Probaly Dolby (Not Marked)&gt;Tapes Maxell MX-100's; Transfer With Nakamichi MR-1&gt;No Dolby&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Traders Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-e4158154ed3865477781" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.fob.alabamabob.andrewf.95580.flac16</identifier>
+      <credit role="recordist">Alabama Bob</credit>
+      <lineage>FOB AUD: Sennheiser MD-441's &gt; Sony TC-D5M &gt; TDK SA 90's with no Dolby. Mics on stand, 18th row FOB. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1644</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-7a76755661a14c06ab0a" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-07-16.fob.nak100.holtz.lmpp.98919.sbeok.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Nakamichi CM-100s with CP-4 shotgun caps &gt; D-5 &gt; mac; at the soundboard, a bit right of center if memory serves me correctly | mac &gt; Nakamichi ZX-7 &gt; Tascam HD-P2 &gt; wav 24/96 &gt; Adobe Audition &gt; Wavelab with iZotope Ozone 4 &gt; iZotope RX Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; TLH &gt; flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Brion Green and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-232e47a872c65be692ce" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.Nak100sSenn421.Hill.Keo.131228.Flac1644</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; 2 Nakamichi CM100/CP4 Shotguns + 1 Sennheiser 421 &gt; Unknown Mixer (Either A Radio Shack Or Boss) 1/4 Inch In/RCA Out &gt; Sony TC-D5m, Tapes:Maxell MX 90 + 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-4d1d0cfe2b8803bc7d11" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.Nak100sSenn421.Hill.Keo.131229.Flac2496</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; 2 Nakamichi CM100/CP4 Shotguns + 1 Sennheiser 421 &gt; Unknown Mixer (Either A Radio Shack Or Boss) 1/4 Inch In/RCA Out &gt; Sony TC-D5m, Tapes:Maxell MX 90 + 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-5705f2ca49704191994b" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.Nak300.Senn441.JB.Keo.116444.Flac1644</identifier>
+      <credit role="recordist">jb</credit>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns + Sennheiser 441's&gt; Radio Shack Mixer&gt;Sony D5&gt;Sony D5 Unknown Number Of Patch In Line; Taper JB,Transfer By Keo; Tapes Maxell MX 90,100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Metadata Tagging With AudioGate Software To 32 Bit Float/96 kHz; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-6cb07401d3fabaceeb1e" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-16.Nak300.Senn441.JB.Keo.116445.Flac2496</identifier>
+      <credit role="recordist">JB</credit>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns + Sennheiser 441's&gt; Radio Shack Mixer&gt;Sony D5&gt;Sony D5 Unknown Number Of Patch In Line; Taper JB,Transfer By Keo; Tapes Maxell MX 90,100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked/Metadata Tagging With AudioGate Software To 24 Bit/96 kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/16/7-16-90-orchard-park-ny-rich-stadium/</note>
+    </recording>
+    <recording id="r-4741b699593351404ee9" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-07-16.sbd.lynn.32018.sbeok.flac16</identifier>
+      <lineage>1st Set:Soundboard-&gt;DAT@48 kHz-&gt;DAT.Conversion:Sony R500 -&gt;M Audio Audiophile 2496 -&gt;Soundforge (record/resample-&gt;CDWAV (track) -&gt;FLAC. 2nd Set:Soundboard-&gt;DAT@44.1 kHz-&gt;DAT.Conversion:Sony R500 -&gt;M Audio Audiophile 2496 -&gt;Soundforge (record)-&gt;CDWAV (track) -&gt;FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mark Lynn</note>
+    </recording>
+    <recording id="r-cac99e90b62d0e55b388" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-07-16.sbd.miller.95782.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Dat Master (48k) | Dat Master (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/16/7-16-90-orchard-park-ny-rich-stadium/</note>
+    </recording>
+    <recording id="r-6df26b356a5b2573218a" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-07-16.sbd.unknown.84980.shnf</identifier>
+      <lineage>Soundboard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Unknown</note>
+    </recording>
+    <recording id="r-388e88ce780b1d6574ff" kind="soundboard">
+      <identifier scheme="archive-org">gd90-07-16.sbd.knapp.1316.sbeok.shnf</identifier>
+      <lineage>SBD -&gt; DAT -&gt; CD's -&gt; EAC -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1990-07-16. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/16/7-16-90-orchard-park-ny-rich-stadium/</note>
+    </recording>
+    <recording id="r-d6f9b76993620349cb20" kind="unknown">
+      <identifier scheme="other">etree-554707</identifier>
+      <note>Supplied catalogue listing: etree; gd90-07-16.sbd.walker.scotton.miller.95782.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

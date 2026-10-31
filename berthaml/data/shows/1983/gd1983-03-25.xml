@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-03-25" date="1983-03-25">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830325-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1983-03-25.148801.sbd.clugston.flac16" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 55467c3c11d18a5ca4fd20ec3f0c3108df06fb01312479359aa313a0f5180b01</cite>
+  </record>
+  <venue ref="v-jb-1147" nameAsBilled="Compton Terrace"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-04" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-05" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-07" song="s-big-river" transition="unknown"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="segue"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p02-02" song="s-slipknot" transition="segue"/>
+      <performance id="p02-03" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-8134d827c369667e7db9" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.134370.nak300.schley.flac2448</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Maxell XLII (S1) and Hitachi ME-Metal (S2). Set up FOB, recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 09/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-6f683a59f7adcadeaf2a" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.134371.nak300.schley.flac1644</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Maxell XLII (S1) and Hitachi ME-Metal (S2). Set up FOB, recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 09/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-5b8c0c770b49face976f" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.139596.fob.senn421.pcm.miller.clugston.flac16</identifier>
+      <credit role="recordist">Keith Kreider</credit>
+      <lineage>Source Info: Master FOB Audience PCM; (3)Sennheiser 421 mics; Transfer Info: PCM (Sony SL-HF66)&gt; Sony PCM-601ESD&gt; Behringer Ultramatch Pro&gt; Tascam DA-3000&gt; Adobe Audition 3.0&gt; TLH flac16; Transfer by Charlie Miller; Mastered by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-26770042552a3de71915" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.141355.nak300.holbrook.flac1644</identifier>
+      <credit role="recordist">Kyle Holbrook</credit>
+      <lineage>flac16/44.1 Recording InformationMaster AUD Cassette: Nakamichi 300's &gt;Sony TCD5&gt; 3rd in line Sony TCD5M|TDK MA-C90 Location: 75 ft from stacks DFC | Nakimichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SDRecorded by: Kyle HolbrookTransferred: Kyle Holbrook</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-8460dbeece4c816b8689" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.141356.nak300.holbrook.flac2448</identifier>
+      <credit role="recordist">Kyle Holbrook</credit>
+      <lineage>flac24/48 Recording InformationMaster AUD Cassette: Nakamichi 300's &gt;Sony TCD5&gt; 3rd in line Sony TCD5M|TDK MA-C90 Location: 75 ft from stacks DFC | Nakimichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SDRecorded by: Kyle HolbrookTransferred: Kyle Holbrook</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-90d08c450e51dbadc567" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-03-25.148801.sbd.clugston.flac16</identifier>
+      <lineage>Master Soundboard Cassette &gt; Cassette &gt; PCM | PCM (unknown equipment) &gt; .wav (16/44.1) &gt; Adobe Audition 2019 &gt; TLH flac16</lineage>
+      <playlist id="pl-b83c038f59bd232ad160" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1983-03-25.148801.sbd.clugston.flac16">
+        <track n="1" title="Cold Rain &amp; Snow" file="gd83-03-25 s1t01 CR &amp; S.flac" mappingStatus="unreviewed" sourceNumber="101" duration="PT387.48S"/>
+        <track n="2" title="New Minglewood Blues" file="gd83-03-25 s1t02 Minglewood Blues.flac" mappingStatus="unreviewed" sourceNumber="102" duration="PT505.25S"/>
+        <track n="3" title="Dire Wolf" file="gd83-03-25 s1t03 Dire Wolf.flac" mappingStatus="candidate" sourceNumber="103" duration="PT218.36S" covers="p01-03" certainty="probable"/>
+        <track n="4" title="My Brother Esau" file="gd83-03-25 s1t04 Brother Esau.flac" mappingStatus="candidate" sourceNumber="104" duration="PT281.72S" covers="p01-04" certainty="probable"/>
+        <track n="5" title="Big Railroad Blues" file="gd83-03-25 s1t05 Big Railroad Blues.flac" mappingStatus="candidate" sourceNumber="105" duration="PT311.09S" covers="p01-05" certainty="probable"/>
+        <track n="6" title="Me &amp; My Uncle &gt;" file="gd83-03-25 s1t06 Me &amp; My Uncle.flac" mappingStatus="unreviewed" sourceNumber="106" duration="PT183.21S"/>
+        <track n="7" title="Big River" file="gd83-03-25 s1t07 Big River.flac" mappingStatus="candidate" sourceNumber="107" duration="PT366.67S" covers="p01-07" certainty="probable"/>
+        <track n="8" title="Tennessee Jed" file="gd83-03-25 s1t08 Tennessee Jed.flac" mappingStatus="candidate" sourceNumber="108" duration="PT484.45S" covers="p01-08" certainty="probable"/>
+        <track n="9" title="Let It Grow" file="gd83-03-25 s1t09 Let It Grow.flac" mappingStatus="candidate" sourceNumber="109" duration="PT664.96S" covers="p01-09" certainty="probable"/>
+        <track n="10" title="Help On The Way &gt;" file="gd83-03-25 s2t01 Help On The Way.flac" mappingStatus="candidate" sourceNumber="201" duration="PT205.72S" covers="p02-01" certainty="probable"/>
+        <track n="11" title="Slipknot! &gt;" file="gd83-03-25 s2t02 Slipknot!.flac" mappingStatus="candidate" sourceNumber="202" duration="PT260.04S" covers="p02-02" certainty="probable"/>
+        <track n="12" title="Franklin's Tower &gt;" file="gd83-03-25 s2t03 Franklin's Tower.flac" mappingStatus="candidate" sourceNumber="203" duration="PT591.21S" covers="p02-03" certainty="probable"/>
+        <track n="13" title="Playin' In The Band &gt;" file="gd83-03-25 s2t04 Playin'.flac" mappingStatus="unreviewed" sourceNumber="204" duration="PT672.4S"/>
+        <track n="14" title="Drums &gt;" file="gd83-03-25 s2t05 Drums.flac" mappingStatus="candidate" sourceNumber="205" duration="PT379.27S" covers="p02-05" certainty="probable"/>
+        <track n="15" title="Space &gt;" file="gd83-03-25 s2t06 Space.flac" mappingStatus="candidate" sourceNumber="206" duration="PT204.04S" covers="p02-06" certainty="probable"/>
+        <track n="16" title="Throwing Stones &gt;" file="gd83-03-25 s2t07 Throwing Stones.flac" mappingStatus="candidate" sourceNumber="207" duration="PT461.88S" covers="p02-07" certainty="probable"/>
+        <track n="17" title="Not Fade Away &gt;" file="gd83-03-25 s2t08 Not Fade Away.flac" mappingStatus="candidate" sourceNumber="208" duration="PT348.44S" covers="p02-08" certainty="probable"/>
+        <track n="18" title="Black Peter &gt;" file="gd83-03-25 s2t09 Black Peter.flac" mappingStatus="candidate" sourceNumber="209" duration="PT530.51S" covers="p02-09" certainty="probable"/>
+        <track n="19" title="Sugar Magnolia" file="gd83-03-25 s2t10 Sugar Mag.flac" mappingStatus="candidate" sourceNumber="210" duration="PT558.13S" covers="p02-10" certainty="probable"/>
+        <track n="20" title="E: Don't Ease Me In" file="gd83-03-25 s2t11 Don't Ease.flac" mappingStatus="unreviewed" sourceNumber="211" duration="PT189.55S"/>
+        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+      </playlist>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+      <note>Archive source metadata (lineage): PCM (unknown equipment) &gt; .wav (16/44.1) &gt; Adobe Audition 2019 &gt; TLH flac16</note>
+      <note>Archive source metadata (source): Master Soundboard Cassette &gt; Cassette &gt; PCM</note>
+      <note>Archive source metadata (transferer): Scott Clugston</note>
+    </recording>
+    <recording id="r-4a8fe11dc7957056707a" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.157655.senn421.blend.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; 3 x Sennheiser 421 mics &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-770a09026570f36d1849" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.157656.senn421.blend.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; 3 x Sennheiser 421 mics &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a13231c3e31be8747be5" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.167106.nak700.kelley.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Ken Kelley</credit>
+      <lineage>Ken Kelley's Master Audience Cassettes; Nakamichi 700 mics &gt; JVC KD-2 w/Super ANRS (Maxell XLII-S90) | Master Cassettes (JVC KD-A55 w/Super ANRS) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2023 &gt; TLH 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c93a4685a3b55a3b6396" kind="audience">
+      <identifier scheme="archive-org">gd1983-03-25.167107.nak700.kelley.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Ken Kelley</credit>
+      <lineage>Ken Kelley's Master Audience Cassettes; Nakamichi 700 mics &gt; JVC KD-2 w/Super ANRS (Maxell XLII-S90) | Master Cassettes (JVC KD-A55 w/Super ANRS) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2023 &gt; TLH 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5ffe01e6db951e3eefa4" kind="audience">
+      <identifier scheme="archive-org">gd83-03-25.fob-senn.willy.7350.sbeok.shnf</identifier>
+      <lineage>FOB&gt;3 Senn. 421's&gt;MC&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-6a44eb8d64704325a07f" kind="soundboard">
+      <identifier scheme="archive-org">gd83-03-25.sbd.miller.23572.sbeok.shnf</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Cass -&gt; Dat -&gt; CD -&gt; EAC -&gt; Samplitude v7.02 Professional -&gt; Cool Edit Pro v2.0 -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1983-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-30d21864e9ad23543576" kind="unknown">
+      <identifier scheme="other">etree-609241</identifier>
+      <note>Supplied catalogue listing: etree; gd83-03-25.Compton.Terrace.Tempe.AZ.sbd.clugston.148801.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

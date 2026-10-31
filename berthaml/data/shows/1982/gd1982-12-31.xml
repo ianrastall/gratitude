@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-12-31" date="1982-12-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19821231-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-93" nameAsBilled="Oakland Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-03" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-far-from-me" transition="segue"/>
+      <performance id="p01-05" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-06" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-07" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-08" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-sugar-magnolia" transition="segue"/>
+      <performance id="p02-02" song="s-sugaree" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-deal" transition="segue"/>
+      <performance id="p02-10" song="s-sunshine-daydream" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="set" n="3" mode="unknown">
+      <performance id="p03-01" song="s-turn-on-your-lovelight" transition="segue"/>
+      <performance id="p03-02" song="s-tell-mama" transition="unknown"/>
+      <performance id="p03-03" song="s-baby-what-you-want-me-to-do" transition="unknown"/>
+      <performance id="p03-04" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p03-05" song="s-midnight-hour" transition="unknown"/>
+      <note>Source section label: Set 3</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p04-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6d551a7ca61d02b0c4c0" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-12-31.118487.set3.sbd.chasingwilma.flac16</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>Set 3 Only, source: sbd&gt; d-5; conversion: sony tc we435&gt; soundcard&gt; cdwave 48000/stereo/16 bit&gt; traders little helper encoding option 8; conversion rate: 48000/stereo/16 bit; | sbd&gt; d-5&gt; sony tc we435&gt; soundcard&gt; cdwave 48000/stereo/16 bit&gt; traders little helper encoding option 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-bc78ebfa8b97c406f7da" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-12-31.134485.aud.fulton.flac2448</identifier>
+      <credit role="recordist">Mark Fulton</credit>
+      <lineage>AUD: Unknown mics &gt; lead deck &gt; Sony TC-D5 &gt; Maxell XLII for 1st &amp; 3rd sets, and Maxell XLIIS for 2nd set. Set up FOB near the SBD, recording by Mark Fulton. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 10/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-d6743d5d080990dab934" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-12-31.134486.aud.fulton.flac1644</identifier>
+      <credit role="recordist">Mark Fulton</credit>
+      <lineage>AUD: Unknown mics &gt; lead deck &gt; Sony TC-D5 &gt; Maxell XLII for 1st &amp; 3rd sets, and Maxell XLIIS for 2nd set. Set up FOB near the SBD, recording by Mark Fulton. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 10/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-effe59839054e03a0510" kind="audience">
+      <identifier scheme="archive-org">gd1982-12-31.134487.s3.nak300.schley.flac2448</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>3rd Set AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Hitachi ME Metal tape. Set up FOB, recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 10/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-c4339e5884af38c79bc3" kind="audience">
+      <identifier scheme="archive-org">gd1982-12-31.134488.s3.nak300.schley.flac1644</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>3rd Set AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Hitachi ME Metal tape. Set up FOB, recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 10/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-a1eb6aa4683e03d5250b" kind="audience">
+      <identifier scheme="archive-org">gd1982-12-31.148498.PandP-aud.tobin.flac16</identifier>
+      <lineage>Patched and pitch corrected audience (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Patched and pitch corrected audience (44/16) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bce766cf8f921bf3b305" kind="matrix">
+      <identifier scheme="archive-org">gd1982-12-31.148505.mat.tobin.flac16</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-218512fdd37a935f7fbd" kind="unknown">
+      <identifier scheme="archive-org">gd1982-12-31.148506.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-645df80dd142f2815f30" kind="unknown">
+      <identifier scheme="archive-org">gd1982-12-31.148507.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4ccc9f64a0fb0f31eb40" kind="fm">
+      <identifier scheme="archive-org">gd1982-12-31.FM.azjones.113090.flac16</identifier>
+      <lineage>FM Radio Broadcast &gt; Cassete &gt; Wave &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+    </recording>
+    <recording id="r-7c3d3e024ba312ee9fda" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-12-31.sbd.miller.77301.sbeok.flac16</identifier>
+      <credit role="recordist">Cassettes provided by Joani Walker and Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master (Nakamichi 550/Maxell XLIIS-90) | Cassette Master (Sony TC-WE475) -&gt; Sony R500 (Pass Through) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-18ad9970689ba1a90556" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-12-31.sbd.walker-scotton.miller.105820.flac16</identifier>
+      <credit role="recordist">Paul Scotton and Joani Walker</credit>
+      <lineage>SBD -&gt; Cassette Master (Nakamichi 550/Maxell XLIIS-90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-7491eedc97b5dd536b9d" kind="soundboard">
+      <identifier scheme="archive-org">gd82-12-31.sbd.bode.5958.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MR &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Keith Bode</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b5339407e0d44abf135a" kind="unknown">
+      <identifier scheme="other">etree-532213</identifier>
+      <note>Supplied catalogue listing: etree; gd82-12-31.sbd.walker.scotton.miller.105820.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

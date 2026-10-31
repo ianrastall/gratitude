@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-06-12" date="1991-06-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910612-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-984" nameAsBilled="Charlotte Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-02" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-04" song="s-althea" transition="unknown"/>
+      <performance id="p01-05" song="s-desolation-row" transition="unknown"/>
+      <performance id="p01-06" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-07" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-08" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-touch-of-grey" transition="unknown"/>
+      <performance id="p02-02" song="s-saint-of-circumstance" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="segue"/>
+      <performance id="p02-04" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-08" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3f3db23430b47205ffbf" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-12.132803.at835a.cdipietro.flac</identifier>
+      <credit role="recordist">cdipietro</credit>
+      <lineage>record: Audio Technica at835b's &gt; Sony D5 pro II &gt; cassette master; | Aiwa ad-f810&gt;Tascam DA MK30II(a-d) &gt; coax &gt; M-Audio 24/96 Audiophile &gt; SoundForge 10 &gt; CDwav(track split); record and transfer by c dipietro</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): cdipietro</note>
+    </recording>
+    <recording id="r-67885733b0b190af2741" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-12.138334.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-907579f086d2c786fcae" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-12.138341.sbd.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-feee51d1aa38a5eb07f2" kind="audience">
+      <identifier scheme="archive-org">gd1991-06-12.150369.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
+      <lineage>Recording: FOB Schoeps CMC3 MK4’s (ortf) &gt; Oade PS &gt; MIT cables &gt; Master DAT (Panasonic SV-255mod) (16/48) Location: Set I; Center Orchestra Row R, Seat 7 (hand held) Location: Set II; Center Orchestra Row R, Seat 7 (on stand) | Transfer: Master DAT &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer by Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel May 02, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-1a631379434e265dbb29" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-12.fob.brennecke-young.GEMS.95643.flac16</identifier>
+      <credit role="recordist">James Young and Clay Brennecke</credit>
+      <lineage>B&amp;K 4011 110º ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro Recording Location: DFC Front Row Taper Section | 16 bit – 48kHz DAT Master &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0. Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither Tracked in CDwave, FLAC’d Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-31436a65c6757f3320f6" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-12.sbd.eD.9403.shnf</identifier>
+      <lineage>SBD&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): eD</note>
+    </recording>
+    <recording id="r-726a71c8fd474fae4ae4" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-12.sennME80.wklitz.94310.flac16</identifier>
+      <credit role="recordist">Keith Litzenberger</credit>
+      <lineage>Sennheiser ME-80's &gt; Technics SVM-D1 | DAT Master &gt; Sony TCD-D0PROII &gt; Edirol R-4 &gt; Wavelab 5 (Fades and Sample Rate Conversion) &gt; CDWAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-9a76c226792e37647208" kind="soundboard">
+      <identifier scheme="archive-org">gd91-06-12.sbd.oconnor-wier.13266.sbeok.shnf</identifier>
+      <lineage>SBD&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

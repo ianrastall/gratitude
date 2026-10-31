@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1968-06-14-g3930385822cd" date="1968-06-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19680614-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 2d25718265bbf93e911ca094cd440c5bfa14493f4b08447a90a094af9c2bd20c. Imported, not independently verified.</cite>
+  </record>
+  <slot>late</slot>
+  <venue ref="v-jb-155" nameAsBilled="Fillmore East"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-dark-star" transition="unknown"/>
+      <performance id="p01-02" song="s-feedback" transition="segue"/>
+      <performance id="p01-03" song="s-the-eleven" transition="segue"/>
+      <performance id="p01-04" song="s-st-stephen" transition="unknown" titleVariant="Saint Stephen"/>
+      <performance id="p01-05" song="s-alligator" transition="segue"/>
+      <performance id="p01-06" song="s-drums" transition="segue"/>
+      <performance id="p01-07" song="s-turn-on-your-lovelight" transition="segue"/>
+      <performance id="p01-08" song="s-caution" transition="segue"/>
+      <performance id="p01-09" song="s-drums" transition="segue"/>
+      <performance id="p01-10" song="s-caution" transition="segue"/>
+      <performance id="p01-11" song="s-feedback" transition="unknown"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

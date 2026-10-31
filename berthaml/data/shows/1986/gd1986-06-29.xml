@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1986-06-29" date="1986-06-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19860629-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 859e0118134444b5e15767a698508f39e1975f3652750caf5f073ddf4d7b68d8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-795" nameAsBilled="Alpine Valley Music Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p01-03" song="s-dancing-in-the-street" transition="unknown" titleVariant="Dancin' In The Streets"/>
+      <performance id="p01-04" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-05" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-just-like-tom-thumb-s-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-08" song="s-samson-and-delilah" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p02-02" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-03" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-07" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-08" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-09" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-not-fade-away-reprise" transition="segue"/>
+      <performance id="p03-02" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-b2d149869e19eff882fc" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-06-29.138161.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (Tascam Deck/TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-03783d468172a001ad4e" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-06-29.138165.sbd.miller.sbeok.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (Tascam Deck/TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3d3415fefa75e79b34df" kind="audience">
+      <identifier scheme="archive-org">gd1986-06-29.140313.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Jim Wise, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-df7af03c429395dbd047" kind="audience">
+      <identifier scheme="archive-org">gd1986-06-29.144610.FOB.AT-AKG-Blend.Ackerman.Noel.t-flac2496</identifier>
+      <credit role="recordist">Ray Ackerman</credit>
+      <lineage>Audio-Technica AT8035 + AKG D-12E blend &gt; Sony D5 &gt; Master Audience Cassettes (FOB) | Master Cassettes (Nakamichi 700 MKii) &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Ray Ackerman and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-972e0f2435c8c425a5a6" kind="audience">
+      <identifier scheme="archive-org">gd1986-06-29.164034.nak304.thomas.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8fc14def9277b7462388" kind="audience">
+      <identifier scheme="archive-org">gd1986-06-29.164035.nak304.thomas.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a4a13049b2615d5040e1" kind="audience">
+      <identifier scheme="archive-org">gd1986-06-29.beyerM88.connor.76557.flac16</identifier>
+      <credit role="recordist">Charlie Connor</credit>
+      <lineage>FOB&gt;Beyer Dynamic M88's&gt;Sony TCD5M (CM - TDK MA90's) | Nak DR-10&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to 16/44.1&gt;CDWav beta1.57(tracking only)&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Connor</note>
+    </recording>
+    <recording id="r-64d04a0193589c14ec77" kind="unknown">
+      <identifier scheme="archive-org">gd1986-06-29.nak100.cohen.104996.flac16</identifier>
+      <credit role="recordist">Dave Cohen</credit>
+      <lineage>2 Nakamichi CM100s/ CP4&gt;Sony WMD6 w/Teac MDX90 cassette masters. No Dolby was used on the Master Cassettes. Sec 2 Row KK Seat 44 Stand head height | The Master Cassettes were played back with Azimuth adjustment on a Nakamichi CD1 into a Korg MR1000 at DSF 1 bit 5.6MHz. Subsequent conversion to 24/96 AIFF done via Korg Audiogate software. Redbook CDR standard 16/44.1 files were created using Bias Peak, Izotope Ozone's MBIT+ (for all dithering), and Weiss Saracon SRC (all sample rate conversions)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Cohen</note>
+    </recording>
+    <recording id="r-50341496652a180132cd" kind="audience">
+      <identifier scheme="archive-org">gd1986-06-29.set2.sennME88.andrewf.96558.flac16</identifier>
+      <lineage>OTS AUD: (Set Two only) Sennheiser ME-88 shotguns &gt; patched thru one Sony D5 &gt; Sony TC-D5M &gt; Sony UCX-S 90, with no Dolby. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-98d7d30a10b42b9223fd" kind="audience">
+      <identifier scheme="archive-org">gd86-06-29.aud.eD.12969.sbeok.shnf</identifier>
+      <lineage>AUD&gt; MC&gt; ??&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1986-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-4197c19d58a8c18e2caa" kind="unknown">
+      <identifier scheme="other">etree-592575</identifier>
+      <note>Supplied catalogue listing: etree; gd1986-06-29.138165.sbd.miller.sbeok.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

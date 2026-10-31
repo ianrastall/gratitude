@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-09-20" date="1988-09-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880920-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-althea" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-big-river" transition="unknown"/>
+      <performance id="p01-05" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-06" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-07" song="s-louie-louie" transition="unknown"/>
+      <performance id="p01-08" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-bertha" transition="segue"/>
+      <performance id="p02-02" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p02-03" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a361ef1078368a19d4aa" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.116442.NeumannKMF4.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Neumann KMF4 microphones &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-f15dfcf85ddcb2c1ffa2" kind="soundboard">
+      <identifier scheme="archive-org">gd1988-09-20.133538.upg-sbd.tobin.flac16</identifier>
+      <lineage>Recording Info: SBD &gt; DAT &gt; C &gt; DAT; Transfer Info:; DAT &gt; Sony D8 &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC (original shnid 130698) - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f320a6105f2d1fdc099b" kind="matrix">
+      <identifier scheme="archive-org">gd1988-09-20.133539.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid=130698) Recording Info: SBD &gt; DAT &gt; C &gt; DAT; Transfer Info:; DAT &gt; Sony D8 &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC + AUD (shn id 90977) taper : Joe D'Amico nak 300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt;sony sbm1 &gt; creative extigy soundcard&gt; cool edit pro &gt; flac frontend - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c1c8885267e42a564dde" kind="soundboard">
+      <identifier scheme="archive-org">gd1988-09-20.133540.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=130698) Recording Info: SBD &gt; DAT &gt; C &gt; DAT; Transfer Info:; DAT &gt; Sony D8 &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC + AUD (shn id 90977) taper : Joe D'Amico nak 300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt;sony sbm1 &gt; creative extigy soundcard&gt; cool edit pro &gt; flac frontend - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c9727b353d6758a87848" kind="audience">
+      <identifier scheme="archive-org">gd1988-09-20.138359.aud.gastwirt.miller.sirmick.sbeok.flac16</identifier>
+      <credit role="recordist">Rich Gastwirt</credit>
+      <lineage>Source: Unknown audience recording &gt; dat (44.1k); Provided by Rich Gastwirt; Transfer: Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/44.1; Transfered by Charlie Miller; Lineage: wav &gt; iZotope RX 6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick May 2017</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f3716f9c88b053d92cc4" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.139647.OTS.Schoeps.Oade.Bryant.Gastwirt.Miller.Noel.t-flac16</identifier>
+      <credit role="recordist">Robert Bryant patched out of Oade Brothers - from the Gastwirt collection</credit>
+      <lineage>Robert Bryant recording (patched out of Oade Brothers): Schoeps CMC4 MK41 &gt; PCM &gt; DAT; Charlie Miller | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Flac 16/44; Edited &amp; Mastered in Audacity by Joe Noel: Flac 16/44; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-6b678bd1825d8be1514f" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.142131.OTS.Schoeps.PCM.Mattes.Miller.Noel.t-flac1644</identifier>
+      <credit role="recordist">Ted Mattes and Don Crandall &amp; Chris Huron</credit>
+      <lineage>Don Crandall &amp; Chris Huron Recording (OTS): Schoeps CMC3/MK4 &gt; PCM (Nakamichi DMP-100) (Sony ESX-HiFi/L-750 Beta tape); Charlie Miller | Sony SL-HF66 &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (WAV 16-bit/44.1k) &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-6b5d40c38766dafe23f5" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.150341.sennme-80.porter.carbonetta.sirmick.flac16</identifier>
+      <credit role="recordist">Stephen Porter</credit>
+      <lineage>Sennheiser ME-80s &gt; Sony D-5 &gt; Master Cassette - taped by Stephen Porter | Transfer: Master Cassette &gt; Nakamichi CR-7A &gt; Korg MR-1000 &gt; (DSF 1-bit/5.6MHz) &gt; DBPoweramp &gt; wav 24/96 - Transferred by Nick Carbonetta Lineage: wav 24/96&gt; Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; flac 16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Nick Carbonetta and SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9ee286576fd68ab2cd03" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.150342.sennme-80.porter.carbonetta.sirmick.flac24</identifier>
+      <credit role="recordist">Stephen Porter</credit>
+      <lineage>Sennheiser ME-80s &gt; Sony D-5 &gt; Master Cassette - taped by Stephen Porter | Transfer: Master Cassette &gt; Nakamichi CR-7A &gt; Korg MR-1000 &gt; (DSF 1-bit/5.6MHz) &gt; DBPoweramp &gt; wav 24/96 - Transferred by Nick Carbonetta Lineage: wav 24/96&gt; Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; CD Wave &gt; flac 24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Nick Carbonetta and SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-383537e0189ae03b6963" kind="matrix">
+      <identifier scheme="archive-org">gd1988-09-20.152253.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Izotope RX8 Advanced &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 14, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-e24ca9172dc027bd9ff6" kind="matrix">
+      <identifier scheme="archive-org">gd1988-09-20.152581.UltraMatrix.sbd.cm.miller.t.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Izotope RX8 Advanced &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 14, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-b4b0247e24a3c453c10a" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.akg.mow.31991.sbeok.flac16</identifier>
+      <credit role="recordist">Doug Mow</credit>
+      <lineage>AKG 224E &gt; Sony D5 &gt; Maxell MX Master | Cassette Master &gt; Nak ZX7 &gt; Edirol UA5 custom Oade Mod &gt; USB &gt; IBM R40/Windows XP Pro &gt; Sound Forge 5.0 &gt; WAV &gt; CDR &gt; EAC &gt; Flac Frontend &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Doug Mow and Alex Ford</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-369594c7db20c966356b" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.nak300.damico.90977.sbeok.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-05a189709099288136b5" kind="audience">
+      <identifier scheme="archive-org">gd1988-09-20.Nak300CP4.Fitzy.Keo.124882.Flac2496</identifier>
+      <credit role="recordist">fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-90d46b9c38b2fde54dd1" kind="audience">
+      <identifier scheme="archive-org">gd1988-09-20.Nak300CP4.Fitzy.Keo.124883.Flac1644</identifier>
+      <credit role="recordist">fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-f859324c72451a196db0" kind="unknown">
+      <identifier scheme="archive-org">gd1988-09-20.nak304.andrewf.89256.sbeok.flac16</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>Nakamichi CM300's w/CP4 shotguns &gt; patched thru one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX90's, no Dolby. Mics on 7-foot stand, set up next to the lighting board, just in front of the OTS area. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 analog &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-d4749e18d00cd2a2cb51" kind="soundboard">
+      <identifier scheme="archive-org">gd1988-09-20.sbd.130698.MrBill.flac16</identifier>
+      <lineage>Recording Info: SBD &gt; DAT &gt; C &gt; DAT; Transfer Info:; DAT &gt; Sony D8 &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Guarneri</note>
+    </recording>
+    <recording id="r-c13a8c6b87ce87d52aa3" kind="soundboard">
+      <identifier scheme="archive-org">gd88-09-20.sbd.jeff.2422.sbeok.shnf</identifier>
+      <lineage>SBD&gt; DAT&gt; Casette Master&gt; DAT&gt; Montego II&gt; CDR&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-144893e324cdd042a3e0" kind="soundboard">
+      <identifier scheme="archive-org">gd88-09-20.set1.sbd.gans-samaritano.28450.sbeok.flacf</identifier>
+      <lineage>Soundboard (Set 1 Only) | SBD-&gt;DAT Master(48k)-&gt;DAT Clone-&gt;Sonic Solutions-&gt;CD-&gt;CD-&gt;EAC-&gt;FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe Samaritano</note>
+    </recording>
+    <recording id="r-4a6de435872a27257294" kind="unknown">
+      <identifier scheme="other">etree-612849</identifier>
+      <note>Supplied catalogue listing: etree; gd1988-09-20.152581.UltraMatrix.sbd.cm.miller.t.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

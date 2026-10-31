@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-03-27" date="1994-03-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19940327-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-498" nameAsBilled="Nassau Veterans Memorial Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="segue"/>
+      <performance id="p01-02" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-03" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-04" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-05" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-06" song="s-candyman" transition="unknown"/>
+      <performance id="p01-07" song="s-easy-answers" transition="segue"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c7b18d1628eac00015ee" kind="unknown">
+      <identifier scheme="archive-org">gd1994-03-27.daud.unLDed.4851.shnf</identifier>
+      <lineage>DAUD from bootleg CD "Headin' East". Unknown equipment or location in venue.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1994-03-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-53118e60a355a3ea9db8" kind="audience">
+      <identifier scheme="archive-org">gd94-03-27.naks.ladner.14260.sbeok.shnf</identifier>
+      <lineage>Audience: Unk Nakamichi's | Nakamichi's &gt; DAT &gt; CM &gt; Denon DRM-540 &gt; HHB 830 CDR &gt; EAC 0.9 beta 4 (secure) &gt; Soundforge 5 &gt; shntool &gt; SHN v3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1994-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): JABUZZ420</note>
+    </recording>
+    <recording id="r-cd88c4023073c26e6228" kind="soundboard">
+      <identifier scheme="archive-org">gd94-03-27.sbd.miller.20926.sbeok.shnf</identifier>
+      <lineage>Recording Info:SBD -&gt; Dat (Vault Master) -&gt; Sonic Solutions -&gt; CD -&gt; Eac -&gt; SHNPatched With: Naks -&gt; Dat -&gt; Cassette Master -&gt; CD -&gt; EAC -&gt; SHNPatch Info:Patch provides from :42 of d2t02 through 5:06 of d2t05Patch was done with Samplitude v7.02 profession</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1994-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

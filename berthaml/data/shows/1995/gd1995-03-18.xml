@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1995-03-18" date="1995-03-18">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950318-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-187" nameAsBilled="Spectrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-03" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-04" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-05" song="s-just-like-tom-thumb-s-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-07" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-it-s-all-too-much" transition="segue"/>
+      <performance id="p02-02" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-last-time" transition="segue"/>
+      <performance id="p02-08" song="s-visions-of-johanna" transition="segue"/>
+      <performance id="p02-09" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-rain" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-eaff9a03e4d788e1ec3c" kind="unknown">
+      <identifier scheme="archive-org">gd1995-03-18.123337.crupi.flac16</identifier>
+      <credit role="recordist">Bob Crupi</credit>
+      <lineage>Source: Audix shotguns &gt; Sony WM-D6 (TDK SA-X type II/NR: on); | Nak BX300 (Analog master/NR: off) &gt; Audio Quest Sidewinder cables (attenuated) &gt; V3 (16/44.1) &gt; Edirol UA25 &gt; Sonar LE &gt; Sound Forge 10.0 (tracking and normalize) &gt; TLH (flac@8); Recorded by B Crupi; Transfer by B Crupi</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Crupi</note>
+    </recording>
+    <recording id="r-e7a53fb6de279600bf4f" kind="audience">
+      <identifier scheme="archive-org">gd1995-03-18.141182.FOB-cmc5-mk4.ebel.flac1644</identifier>
+      <credit role="recordist">Adam Gross and Pete Ebel</credit>
+      <lineage>flac16/44.1 Source Info:FOB Schoeps CMC 5 Mk 4-&gt; Aerco P/S-&gt; Apogee AD1000-&gt; DATTransfer Info:Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Taped by Adam Gross and Pete EbelTransfers by Pete Ebel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-766035c2fa6d713ea1fd" kind="audience">
+      <identifier scheme="archive-org">gd1995-03-18.141506.OTS.AKG.Ackerman.Miller.Noel.t-flac.1648</identifier>
+      <credit role="recordist">Ray Ackerman</credit>
+      <lineage>flac16/48kHz ; Master Audience Recording &amp; Transfer by Ray Ackerman: AKG 460B/CK63 ULS &gt; AKG B18 phantom power unit &gt; Panasonic SV250 &gt; DAT (OTS); Transfer info: Tascam DA 30 mkii &gt; Microtrack ii &gt; wavelab 5 &gt; WAV 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9826679b2d22dff79aa4" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-03-18.142354.s2.sbd.miller.flac1644</identifier>
+      <lineage>SBD &gt; Vault Master Dat &gt; Dat Clone (44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d8bb82006686073fcc3c" kind="unknown">
+      <identifier scheme="archive-org">gd1995-03-18.142981.Boedicker.flac1644</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source:Nakamichi 300 Mics W/CP4 Shotguns&gt;Marantz PMD 430 Cassette Deck&gt;Maxell XL-II-S Cassette Masters(1 90 Minute; Tape,1 100 Minute Tape)&gt;Dolby "B" On&gt;Sony TC-D5M Cassette Deck(Playback,Dolby Off)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt; CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper; Taped By Dave Boedicker,Official Taper Section</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-d87a6f214ed230448955" kind="unknown">
+      <identifier scheme="archive-org">gd1995-03-18.nak300.bleich.92018.flac16</identifier>
+      <credit role="recordist">John Bleich</credit>
+      <lineage>Nak 300's &gt; D6 &gt; master Cassette | master Cassette &gt; DR-3 &gt; EMU 1212M &gt; 24/96 Wave &gt; Wavelab 5 &gt; plugins &gt; r8brain &gt; 32/44.1 wave &gt; wavelab 5 (tracking) &gt; L3 &gt; 16/44.1 wave &gt; Flac 16 (TLH lvl 8 )</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brian Green</note>
+    </recording>
+    <recording id="r-bcce05e6fd7f7184a91c" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-03-18.sbd.burke.95677.flac16</identifier>
+      <lineage>SBD &gt; ? | Conversion : DAT[x] &gt; Tascam DA-45HR [digital coaxial output] &gt; Oade ACM Marantz PMD671 [digital coaxial input] &gt; CF card &gt; IBM ThinkPad T41 Editing : Voxengo r8brain free v1.9 [resample at "very high" quality setting]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tim Burke</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-b3e69e347c2fea3f1c47" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-03-18.sbd.ladner.32055.sbeok.flac16</identifier>
+      <lineage>SHN Set ID 1362 (source: "liberated" sbd cd &gt; EAC &gt; wav &gt; shn) | SHN &gt; WAV &gt; Addawav &gt; Wavelab 5.0 (see below) &gt; CDWAV 1.9 &gt; FLAC (level 5)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Ladner</note>
+    </recording>
+    <recording id="r-4c03af5fe4e6424933bc" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-03-18.sbd.miller.97659.flac16</identifier>
+      <lineage>SBD -&gt; Dat -&gt; Cassette Master -&gt; Dat | Dat-&gt; Samplitude Professional v10.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-776d2faf8e4dd7271ecf" kind="soundboard">
+      <identifier scheme="archive-org">gd95-03-18.sbd.1362.sbeok.shnf</identifier>
+      <lineage>"liberated" bootleg sbd cd &gt; EAC &gt; wav &gt; shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1995-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

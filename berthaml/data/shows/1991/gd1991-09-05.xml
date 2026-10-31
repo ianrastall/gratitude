@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-09-05" date="1991-09-05">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910905-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-999" nameAsBilled="Richfield Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p01-02" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-03" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-04" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-06" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-07" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-smokestack-lightning" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-10" song="s-black-peter" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-aaa068bf4424661c5262" kind="unknown">
+      <identifier scheme="archive-org">gd1991-09-05.132811.at835b.cdipietro.flac</identifier>
+      <credit role="recordist">Chris Dipietro</credit>
+      <lineage>record: Audio Technica at835b's &gt; Sony D5 pro II &gt; cassette master; | Aiwa ad-f810&gt;Tascam DA MK30II(a-d) &gt; coax &gt; M-Audio 24/96 Audiophile &gt; SoundForge 10 &gt; CDwav(track split); record and transfer by c dipietro</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Dipietro</note>
+    </recording>
+    <recording id="r-17a12634eb4360da22ec" kind="matrix">
+      <identifier scheme="archive-org">gd1991-09-05.132961.mtx.dusborne.flac16</identifier>
+      <lineage>2 Source Matrix by Dusborne Soundboard (shnid:005559) sbd&gt;dat&gt;c&gt;dat&gt;cdr and Audience (shnid:091803) Schoeps CMC34 (ORTF Cardiod) -&gt; Oade Mic Preamp -&gt; Monster M1000 Jumper -&gt; Panasonic sv255. 16 bit 48kHz DAT Master &gt; TASCAM DA-20 (S/PDIF out) -&gt; LynxTWO-B Audio Reference Interface (S/PDIF in) -&gt; Wavelab 6.0</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-34e10fe94ed24aac4f34" kind="audience">
+      <identifier scheme="archive-org">gd1991-09-05.138373.akg414.flac1644</identifier>
+      <credit role="recordist">Dave D.</credit>
+      <lineage>Lineage: AKG 414B-ULS&gt;OADE M148&gt;Panasonic SV255&gt;DAT; Playback: Sony PCM-R300&gt;SPDIF&gt;Tascam PMD671 CF 24 48&gt;HD&gt;CDWAV Splits&gt;16.441&gt;TLH FLAC8; Location: FOB TaperSection DFC; Recorded, Transferred and uploaded By Dave D</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Dave D.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-9ecea52dbdac96541a75" kind="matrix">
+      <identifier scheme="archive-org">gd1991-09-05.147491.mtx.tobin.flac16</identifier>
+      <lineage>BD + AUD Matrix 2 Source Mix (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-63631e819a421cd607c9" kind="unknown">
+      <identifier scheme="archive-org">gd1991-09-05.147492.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5380a3ffcb19418624fb" kind="unknown">
+      <identifier scheme="archive-org">gd1991-09-05.147493.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-32203e062a5ff9e999dc" kind="unknown">
+      <identifier scheme="archive-org">gd1991-09-05.147569.beyerCM101.ebel.flac2448</identifier>
+      <lineage>TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Set #1:Maxell XL-II's 90's &amp; Set #2:Maxell XL-II's 100's) | Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analog-&gt; Digital Converter) (SPDIF out) 24/48-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfers by Pete Ebel January 29, 2018</note>
+    </recording>
+    <recording id="r-676ada4c2b087fa2c330" kind="audience">
+      <identifier scheme="archive-org">gd1991-09-05.149460.fob.BK4011.brennecke.varnum.ebel.flac1648</identifier>
+      <credit role="recordist">Must be Clay Brennecke &amp; Jamie Young Recording</credit>
+      <lineage>FOB B&amp;K 4011-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-fa1c9067dbc7f05ae013" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-09-05.150030.sbd.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 31, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-bc73178348d7b8bfb40c" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-09-05.150285.sbd.cm.miller.flac1644</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 31, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-92f1393585f25180038d" kind="audience">
+      <identifier scheme="archive-org">gd1991-09-05.151812.FOB.Schoeps.Master.DAT.ONeill.Mahoney.Noel.t-flac1648</identifier>
+      <credit role="recordist">Recording by JC Mahoney &amp; Dan O'Neill</credit>
+      <lineage>Source: Schoeps CMC34 (ORTF) &gt; M1000 cables &gt; Tao Research / Oade supply &gt; Panasonic SV255 (48k) Location: FOB/DFC; Set 1 Row R, Seat 10 (handheld); Set 2 Row R Seat 10 (stand) | Transfer: Master DAT &gt; Tascam DA-20mk2 &gt; coax &gt; Tascam DA-3000 &gt; WAV 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer by JC Mahoney Edited &amp; Mastered (Adobe Audition) by Joe Noel January 28, 2021</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-c4b4f3ecd25d280e59d7" kind="unknown">
+      <identifier scheme="archive-org">gd1991-09-05.fob.GEMS.91803.flac16</identifier>
+      <credit role="recordist">Dan O'Neil</credit>
+      <lineage>Schoeps CMC34 (ORTF Cardiod) -&gt; Oade Mic Preamp -&gt; Monster M1000 Jumper -&gt; Panasonic sv255. | 16 bit 48kHz DAT Master &gt; TASCAM DA-20 (S/PDIF out) -&gt; LynxTWO-B Audio Reference Interface (S/PDIF in) -&gt; Wavelab 6.0</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-a4d0f2cc9c602794bac3" kind="matrix">
+      <identifier scheme="archive-org">gd1991-09-05.mtx.sirmick.92785.sbeok.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dbda5565fecb3eb29be4" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-09-05.sbd.gardner.barberi-fix.121620.sbefixed.flac16</identifier>
+      <lineage>sbd &gt; dat &gt; cassette &gt; dat &gt; cdr; Levels Ran Throughout(to my fine tuned ears) way Too HOT!!; Decoded To Wave w/Traders Little Helper v2.7.1; Normalized to -7 dB w/Audacity v2.0.1(64 bit), DC Offsets Removed. Channels Independently Changed. Clipped Excess Blank/Silent Space at end of 1st &amp; 2nd sets. Fixed Gap Between d1t01 &amp; d1t02. Encoded to Flac Level 8 w/TLH. Tagged w/Foobar2000 v.1.1.13/tradersfriend addon. Checksums Rehashed &amp; Verified w/TLH v2.7.1; Additional Editing &amp; Coding By Joe "Terrapin" Barberi</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe "Terrapin" Barberi</note>
+    </recording>
+    <recording id="r-7228efb5656a2bd895f2" kind="unknown">
+      <identifier scheme="archive-org">gd1991-09-05.sennME80.wklitz.94300.flac16</identifier>
+      <credit role="recordist">Keith Litzenberger</credit>
+      <lineage>Sennheiser ME-80's &gt; Technics SVM-D1 from front of OTS | DAT Master &gt; Sony TCD-D0PROII &gt; Edirol R-4 &gt; Wavelab 5 (Fades and Sample Rate Conversion) &gt; CDWAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-f510ba1a435e714981fe" kind="soundboard">
+      <identifier scheme="archive-org">gd91-09-05.sbd.gardner.5559.sbeok.shnf</identifier>
+      <lineage>sbd&gt; dat&gt; c&gt; dat&gt; cdr</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richfield Coliseum on 1991-09-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-8a04a580a102623c383b" kind="unknown">
+      <identifier scheme="other">etree-609976</identifier>
+      <note>Supplied catalogue listing: etree; gd1991-09-05.150285.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-b99af5fd1463b27ce139" kind="unknown">
+      <identifier scheme="other">etree-579746</identifier>
+      <note>Supplied catalogue listing: etree; gd91-09-05-132961.mtx.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

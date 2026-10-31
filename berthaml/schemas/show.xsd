@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  BerthaML show module. One file per performance (show).
+
+  Personnel inheritance, outermost to innermost:
+    show <lineup>
+      -> set <personnel> (replaces) or <personnelChanges> (delta)
+        -> performance <personnel> (replaces) or <personnelChanges> (delta)
+  Each level starts from the effective result of the level above.
+
+  Durations do not live on performances. A duration is a property of a
+  track on a specific recording or release, and one track can span several
+  performances (e.g. Good Lovin' > Drums > Good Lovin' on one CD track).
+  Tracks reference performance IDs.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:b="urn:berthaml:1"
+           targetNamespace="urn:berthaml:1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+
+  <xs:include schemaLocation="common.xsd"/>
+
+  <!-- ============================================================
+       Root
+       ============================================================ -->
+
+  <xs:element name="show" type="b:Show">
+    <!-- Recording IDs referenced by tracks must exist in this file. -->
+    <xs:key name="recordingKey">
+      <xs:selector xpath="b:sources/b:recording"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+    <!-- Performance IDs referenced by @continues must exist in this file. -->
+    <xs:key name="performanceKey">
+      <xs:selector xpath="b:program/b:set/b:performance"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:keyref name="continuesRef" refer="b:performanceKey">
+      <xs:selector xpath="b:program/b:set/b:performance"/>
+      <xs:field xpath="@continues"/>
+    </xs:keyref>
+    <!-- Set numbers are unique within each kind (set 1, set 2, encore 1 ...). -->
+    <xs:unique name="setNumberUnique">
+      <xs:selector xpath="b:program/b:set"/>
+      <xs:field xpath="@kind"/>
+      <xs:field xpath="@n"/>
+    </xs:unique>
+  </xs:element>
+
+  <xs:complexType name="Show">
+    <xs:sequence>
+      <xs:element name="record" type="b:Record"/>
+      <!-- Only needed when the act was not billed as Grateful Dead, e.g. "The Warlocks". -->
+      <xs:element name="billedAs" type="xs:string" minOccurs="0"/>
+      <!-- Required by validate.py when more than one show shares a date. -->
+      <xs:element name="slot" type="b:Slot" minOccurs="0"/>
+      <xs:element name="venue" type="b:VenueUse"/>
+      <xs:element name="tour" type="xs:string" minOccurs="0"/>
+      <xs:element name="bill" type="b:Bill" minOccurs="0"/>
+      <!-- Absent means unresearched, not an empty stage or a membership-derived claim. -->
+      <xs:element name="lineup" type="b:Personnel" minOccurs="0"/>
+      <xs:element name="program" type="b:Program"/>
+      <xs:element name="sources" type="b:Sources" minOccurs="0"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="b:ShowId" use="required"/>
+    <xs:attribute name="date" type="b:EraDate" use="required"/>
+    <xs:attribute name="dateCertainty" type="b:Certainty"/>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+  </xs:complexType>
+
+  <xs:simpleType name="Slot">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="unknown"/>
+      <xs:enumeration value="afternoon"/>
+      <xs:enumeration value="early"/>
+      <xs:enumeration value="evening"/>
+      <xs:enumeration value="late"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Venue details live in the venue registry. -->
+  <xs:complexType name="VenueUse">
+    <xs:attribute name="ref" type="b:VenueRef" use="required"/>
+    <!-- The venue's name as printed for this show, if it differs from the registry. -->
+    <xs:attribute name="nameAsBilled" type="xs:string"/>
+    <!-- Where in the venue, e.g. "Men's Gymnasium". -->
+    <xs:attribute name="room" type="xs:string"/>
+    <xs:attribute name="setting" type="b:Setting"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <xs:simpleType name="Setting">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="indoor"/>
+      <xs:enumeration value="outdoor"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- ============================================================
+       Bill (all acts, including the Dead)
+       ============================================================ -->
+
+  <xs:complexType name="Bill">
+    <xs:sequence>
+      <xs:element name="act" type="b:Act" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Act">
+    <xs:sequence>
+      <!-- Dead members who played in another act's set (e.g. Garcia on pedal steel with NRPS). -->
+      <xs:element name="participant" type="b:Player" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <!-- Order of appearance, 1 = first on stage. -->
+    <xs:attribute name="order" type="xs:positiveInteger"/>
+    <xs:attribute name="role" type="b:ActRole"/>
+    <xs:attribute name="self" type="xs:boolean" default="false"/>
+  </xs:complexType>
+
+  <xs:simpleType name="ActRole">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="headliner"/>
+      <xs:enumeration value="co-headliner"/>
+      <xs:enumeration value="support"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- ============================================================
+       Personnel
+       ============================================================ -->
+
+  <xs:complexType name="Player">
+    <xs:sequence>
+      <xs:element name="instrument" type="b:Instrument" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="person" type="b:PersonRef" use="required"/>
+    <xs:attribute name="role" type="b:PlayerRole" default="member"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <xs:simpleType name="PlayerRole">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="member"/>
+      <xs:enumeration value="touring-member"/>
+      <xs:enumeration value="guest"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- A complete personnel list. Replaces whatever was inherited. -->
+  <xs:complexType name="Personnel">
+    <xs:sequence>
+      <xs:element name="player" type="b:Player" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Changes relative to the inherited personnel. -->
+  <xs:complexType name="PersonnelChanges">
+    <xs:choice maxOccurs="unbounded">
+      <!-- person leaves the stage -->
+      <xs:element name="remove" type="b:PersonOnly"/>
+      <!-- person joins (guest or member returning) -->
+      <xs:element name="add" type="b:Player"/>
+      <!-- person stays but plays a different set of instruments (full replacement list) -->
+      <xs:element name="change" type="b:Player"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:group name="PersonnelOverride">
+    <xs:choice>
+      <xs:element name="personnel" type="b:Personnel"/>
+      <xs:element name="personnelChanges" type="b:PersonnelChanges"/>
+    </xs:choice>
+  </xs:group>
+
+  <!-- ============================================================
+       Program: sets, performances, events
+       ============================================================ -->
+
+  <xs:complexType name="Program">
+    <xs:sequence>
+      <xs:element name="set" type="b:Set" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <!-- How much of the setlist is known. "none" means no sets are listed. -->
+    <xs:attribute name="coverage" type="b:Coverage" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="Coverage">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="complete"/>
+      <xs:enumeration value="partial"/>
+      <xs:enumeration value="none"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="Set">
+    <xs:sequence>
+      <xs:group ref="b:PersonnelOverride" minOccurs="0"/>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="performance" type="b:Performance"/>
+        <xs:element name="event" type="b:Event"/>
+      </xs:choice>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="kind" type="b:SetKind" use="required"/>
+    <!-- 1-based, counted within kind: set 1, set 2, encore 1, encore 2 -->
+    <xs:attribute name="n" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="mode" type="b:SetMode" use="required"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <!--
+    One performance of one catalog song (including improvisations such as
+    Drums, Space, Feedback, Jam, which are catalog entries of kind
+    "improvisation"). Document order is performance order.
+  -->
+  <xs:complexType name="Performance">
+    <xs:sequence>
+      <!-- Lead vocalists for this performance. Absent: catalog default applies. -->
+      <xs:element name="lead" type="b:PersonOnly" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:group ref="b:PersonnelOverride" minOccurs="0"/>
+      <xs:element name="tease" type="b:Tease" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <!-- Stable within the file; referenced by tracks and @continues.
+         Convention: s1-01, s2-07, e1-01, sc1-01. Treat as opaque. -->
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="song" type="b:SongRef" use="required"/>
+    <xs:attribute name="mode" type="b:PerformanceMode"/>
+    <!-- How this performance ends relative to the next item in the show. -->
+    <xs:attribute name="transition" type="b:Transition" use="required"/>
+    <!-- Absent means complete (or not known to be otherwise). -->
+    <xs:attribute name="completeness" type="b:Completeness"/>
+    <!-- This performance resumes an earlier, interrupted performance of the
+         same song in this show (sandwiches, reprises). -->
+    <xs:attribute name="continues" type="xs:IDREF"/>
+    <!-- A title variant as announced or as listed, if it matters. -->
+    <xs:attribute name="titleVariant" type="xs:string"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <xs:complexType name="Tease">
+    <xs:attribute name="song" type="b:SongRef" use="required"/>
+    <xs:attribute name="by" type="b:PersonRef"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <!-- Non-musical items that occupy stage time and may appear on tape. -->
+  <xs:complexType name="Event">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="kind" type="b:EventKind" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="EventKind">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="tuning"/>
+      <xs:enumeration value="banter"/>
+      <xs:enumeration value="announcement"/>
+      <xs:enumeration value="technical-problem"/>
+      <xs:enumeration value="intermission"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- ============================================================
+       Sources: circulating recordings (owned by this show) and
+       references to official releases (owned by the release registry).
+       ============================================================ -->
+
+  <xs:complexType name="Sources">
+    <xs:sequence>
+      <xs:element name="recording" type="b:Recording" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="release" type="b:ReleaseUse" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Recording">
+    <xs:sequence>
+      <xs:element name="identifier" type="b:Identifier" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="credit" type="b:RecordingCredit" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="lineage" type="xs:string" minOccurs="0"/>
+      <xs:element name="track" type="b:Track" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- Different original-file formats or source editions may have different boundaries. -->
+      <xs:element name="playlist" type="b:RecordingPlaylist" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="kind" type="b:RecordingKind" use="required"/>
+    <xs:attribute name="coverage" type="b:Coverage"/>
+  </xs:complexType>
+
+  <xs:simpleType name="RecordingKind">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="soundboard"/>
+      <xs:enumeration value="audience"/>
+      <xs:enumeration value="matrix"/>
+      <xs:enumeration value="fm"/>
+      <xs:enumeration value="video"/>
+      <xs:enumeration value="unknown"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="Identifier">
+    <xs:simpleContent>
+      <xs:extension base="xs:token">
+        <xs:attribute name="scheme" type="b:IdentifierScheme" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="IdentifierScheme">
+    <xs:restriction base="xs:token">
+      <!-- archive.org item identifier -->
+      <xs:enumeration value="archive-org"/>
+      <!-- etree.org SHN database ID -->
+      <xs:enumeration value="shnid"/>
+      <xs:enumeration value="other"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tapers and transferrers are usually not in the people registry, so names are text. -->
+  <xs:complexType name="RecordingCredit">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="role" type="b:RecordingRole" use="required"/>
+        <xs:attribute name="certainty" type="b:Certainty"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="RecordingRole">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="recordist"/>
+      <xs:enumeration value="taper"/>
+      <xs:enumeration value="transfer"/>
+      <xs:enumeration value="mastering"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- A track on a recording. @covers lists performance and event IDs in this file. -->
+  <xs:complexType name="Track">
+    <xs:attribute name="n" type="xs:positiveInteger" use="required"/>
+    <!-- Omit covers until the actual source track has been mapped; do not invent a song. -->
+    <xs:attribute name="covers" type="xs:IDREFS"/>
+    <xs:attribute name="duration" type="b:Duration"/>
+    <xs:attribute name="disc" type="xs:positiveInteger"/>
+    <xs:attribute name="sourceNumber" type="xs:positiveInteger"/>
+    <xs:attribute name="title" type="xs:string"/>
+    <xs:attribute name="file" type="xs:string"/>
+    <xs:attribute name="mappingStatus" type="b:MappingStatus"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+    <!-- Recording starts or ends inside this track's material. -->
+    <xs:attribute name="cut" type="b:Cut"/>
+  </xs:complexType>
+
+  <xs:complexType name="RecordingPlaylist">
+    <xs:sequence>
+      <xs:element name="track" type="b:Track" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <xs:attribute name="label" type="xs:string"/>
+    <xs:attribute name="format" type="xs:token"/>
+    <xs:attribute name="sourceHref" type="xs:anyURI"/>
+  </xs:complexType>
+
+  <xs:simpleType name="Cut">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="cut-in"/>
+      <xs:enumeration value="cut-out"/>
+      <xs:enumeration value="both"/>
+      <xs:enumeration value="gap"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ReleaseUse">
+    <xs:attribute name="ref" type="b:ReleaseRef" use="required"/>
+    <!-- How much of this show the release contains. -->
+    <xs:attribute name="coverage" type="b:Coverage" use="required"/>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-03-29" date="1993-03-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930329-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-986" nameAsBilled="Knickerbocker Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-let-the-good-times-roll" transition="unknown"/>
+      <performance id="p01-02" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-06" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-07" song="s-lazy-river-road" transition="unknown"/>
+      <performance id="p01-08" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-here-comes-sunshine" transition="unknown"/>
+      <performance id="p02-02" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-03" song="s-box-of-rain" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-last-time" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-liberty" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a027248f6c1fe8214898" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-29.119472.nak300.Boedicker.flac16</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source:Sony D6 Cassette Master&gt;Nakamichi 300 Mics W/CP4 Shotguns(Maxell MX-s Metal Tapes,Dolby "B" ON)&gt;Sony TC-D5M Cassette Deck(Playback,Dolby Off)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders little Helper.Taped By Dave Boedicker,Official Taper Section</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-9943cf540536f5e8ad98" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-29.134819.fob.jbraveman.flac1648</identifier>
+      <credit role="recordist">unknown</credit>
+      <lineage>flac16/48kHz ; Source: FOB &gt; DAT; unknown taper and equipment; | DAT (x) &gt; 60ES &gt; Microtrack 24/96 &gt; WAV 16/48 &gt; Flac 16/48; Patch source: DAUD/OTS Schoeps mk4(ORTF); taped by Eliot Byron; transfer&gt;upload by Jim Raras SHNID 8376</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): jbraveman</note>
+    </recording>
+    <recording id="r-fb62fddb6f461ebbdea2" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-29.136708.Nak300CP4.Baker.Keo.Flac2496</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes:Maxell MX-S 100 + 90; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.0.4 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+    </recording>
+    <recording id="r-f3b0d0e5fc6c50cc9b5a" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-29.136710.Nak300CP4.Baker.Keo.Flac1644</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes:Maxell MX-S 100 + 90; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.0.4 To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+    </recording>
+    <recording id="r-09c38b117703508fac6d" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-29.139668.fob.schoeps.wise.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16/48kHz ; Source Info: Jim Wise's FOB Audience DAT &gt; Schoeps CMC6/MK4 (hand-held ORTF) &gt; Sonosax SX-M2 &gt; Dat (Sony D10 Pro/48k); Transfer Info: DAT Master (Sony PCM-R500)&gt; Tascam DA-3000&gt; WAV (16-bit/48k)&gt; Adobe Audition 3.0&gt; TLH flac1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jim Wise and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-ed93e642bfee8b4e07b3" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-29.140019.aud.lamarre.berger.flac1648</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>flac16/48kHz ; aud dat master, sennheiser 441's&gt;denon dtr-80, taped by Doug Lamarre, transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-12ce6f9775a9bf79bf92" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-29.144225.akg460b.ck63.flac1648</identifier>
+      <credit role="recordist">Dave Flaschner</credit>
+      <lineage>AKG CK63 &gt; AKG 460B &gt; Custom Pre &gt; Teac DAP-20 | DAT(m) @48kHz &gt; Sony PCM-R500 &gt; Korg MR-2000S &gt; Adobe Audition CS6 &gt; dBpoweramp Music Converter &gt; Foobar2000 (Live Show Tagger)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Mitchell</note>
+    </recording>
+    <recording id="r-3e2ab2b9c41463362bf4" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-29.151342.sbd.miller.flac2448</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite (24-bit/48k) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller January 1, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-5ec2d619b349f9e64307" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-29.151665.sbd.cm.miller.t.flac16</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite (24-bit/48k) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller January 1, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-0b02d9e14b54879ccb48" kind="matrix">
+      <identifier scheme="archive-org">gd1993-03-29.154852.mtx.seamons.ht137.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro | FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+    </recording>
+    <recording id="r-98ffdc4b721c640a253e" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-29.173618.me88.rogosa.flac1648</identifier>
+      <credit role="recordist">Dan Rogosa</credit>
+      <lineage>2x Sennheiser ME 88's (stand) &gt; Sony TCD-D7 taped by Dan Rogosa | Transfer: MDAT &gt; Fostex D-15 &gt; Tascam DA-3000 &gt; WAV @ 16/48 Master: Wavelab 12 (tracking, fades) &gt; FLAC 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mark Goldey</note>
+    </recording>
+    <recording id="r-0e8ce9e4f4222c86e092" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-29.akg.andrewf.96025.flac1648</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>KG C460B/CK8 shotguns &gt; unknown lead dat decks &gt; Coax SPDIF &gt; Casio DA-7 &gt; Maxell DM-120's, front of OTS. | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-f0afdd3b44c636ea83e3" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-29.akg.andrewf.96026.flac16</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>AKG C460B/CK8 shotguns &gt; unknown lead dat decks &gt; Coax SPDIF &gt; Casio DA-7 &gt; Maxell DM-120's, front of OTS. | Transfer: MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; R8Brain (to 44.1kHz) &gt; TLH &gt; FLAC 1644</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-abc9537854e5ee30fb40" kind="soundboard">
+      <identifier scheme="archive-org">gd93-03-29.sbd.wiley.13512.sbeok.shnf</identifier>
+      <lineage>SBD&gt;DAT&gt;Cass&gt;DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-ae89ba07925db629256c" kind="audience">
+      <identifier scheme="archive-org">gd93-03-29.schoeps.raras.8376.sbeok.shnf</identifier>
+      <credit role="recordist">Eliot Byron</credit>
+      <lineage>Audience: Schoeps mk4's | Schoeps mk4 (ORTF/OTS) &gt; KC5 actives &gt; CMC5 &gt; Sonosax SX-M2 &gt; Sony D10 (48kHz) &gt; Sony R500 (master DAT) &gt; Canare Coax &gt; Sek'd Prodif Plus &gt; Soundforge 5.0 (resample) &gt; &gt; CD Wave &gt; SHN v3 (seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1993-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Raras</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

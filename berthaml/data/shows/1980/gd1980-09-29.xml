@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-09-29" date="1980-09-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19800929-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-799" nameAsBilled="Warfield Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="acoustic">
+      <performance id="p01-01" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-02" song="s-on-the-road-again" transition="unknown"/>
+      <performance id="p01-03" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-04" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-05" song="s-i-ve-been-all-around-this-world" transition="unknown"/>
+      <performance id="p01-06" song="s-heaven-help-the-fool" transition="unknown"/>
+      <performance id="p01-07" song="s-to-lay-me-down" transition="unknown"/>
+      <performance id="p01-08" song="s-dark-hollow" transition="unknown"/>
+      <performance id="p01-09" song="s-oh-babe-it-ain-t-no-lie" transition="segue"/>
+      <performance id="p01-10" song="s-ripple" transition="unknown"/>
+      <note>Source section label: Acoustic Set</note>
+    </set>
+    <set kind="set" n="2" mode="electric">
+      <performance id="p02-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p02-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p02-03" song="s-el-paso" transition="unknown"/>
+      <performance id="p02-04" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-05" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p02-06" song="s-candyman" transition="unknown"/>
+      <performance id="p02-07" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p02-08" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-09" song="s-i-know-you-rider" transition="unknown"/>
+      <note>Source section label: Electric Set 1</note>
+    </set>
+    <set kind="set" n="3" mode="electric">
+      <performance id="p03-01" song="s-althea" transition="unknown"/>
+      <performance id="p03-02" song="s-lost-sailor" transition="segue"/>
+      <performance id="p03-03" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p03-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p03-05" song="s-space" transition="segue"/>
+      <performance id="p03-06" song="s-drums" transition="segue"/>
+      <performance id="p03-07" song="s-space" transition="segue"/>
+      <performance id="p03-08" song="s-truckin" transition="segue"/>
+      <performance id="p03-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p03-10" song="s-around-and-around" transition="segue"/>
+      <performance id="p03-11" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Electric Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="electric">
+      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Electric Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-afe959e980eaa03e21a8" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-29.144654.nak700.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; (3) x Nakamichi 700 mics (left/right cardioids, omni center - handheld shoulder high)&gt; Custom mixer by Jamie Poris &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-94e0ca3f962c4e4a0e8b" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-29.144655.nak700.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; (3) x Nakamichi 700 mics (left/right cardioids, omni center - handheld shoulder high)&gt; Custom mixer by Jamie Poris &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ef7d7f4dc60f0d404e15" kind="unknown">
+      <identifier scheme="archive-org">gd1980-09-29.nak300.walker-scotton.miller.106783.flac16</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>Nakamichi 300/CP1 -&gt; Cassette Master (Sony D5M/Maxell UDXL-II90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-046546e57435a45baadc" kind="unknown">
+      <identifier scheme="archive-org">gd1980-09-29.nak700.ellner.koucky.89075.flac16</identifier>
+      <credit role="recordist">Ron Elner</credit>
+      <lineage>Nakamichi 700s &gt; Sony TC D-5 &gt; Master Cassette &gt; Teac Reel &gt; CD | CD &gt; EAC &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+    </recording>
+    <recording id="r-da70402355b0e3737514" kind="audience">
+      <identifier scheme="archive-org">gd80-09-29.menke.vernon.12886.sbeok.shnf</identifier>
+      <credit role="recordist">Bob Menke</credit>
+      <lineage>Audience Recording: Nak CM700's | Nakamichi CM700 Mics (3)&gt; Mixer&gt; Sony D-5 from center balcony; Cassette&gt;JVC TD-W309 (w/pitch correction)&gt;Tascam DA-20mkII&gt;Tascam CD-RW700; CDR &gt; EAC (secure) &gt; Cool Edit (minor clean up) &gt; cdwav (retracking) &gt; mkwact &gt; shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
+    </recording>
+    <recording id="r-4e48489738194d712991" kind="soundboard">
+      <identifier scheme="archive-org">gd80-09-29.sbd.hinko.21926.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MC &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

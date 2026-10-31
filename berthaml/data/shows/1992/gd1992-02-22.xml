@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1992-02-22" date="1992-02-22">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19920222-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 44d1b39e1ad19cb4216f350210d1af46c8065421deaeaa31d0befdf75ae0aba8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1992-02-22.149848.sbd.miller.flac2496" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 7f51c5e7791ac0dfeca0cfc3e6dbd85c979fac8227d9db39e6f1b67b561a7b5e</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-03" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-04" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-05" song="s-so-many-roads" transition="unknown"/>
+      <performance id="p01-06" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-07" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-08" song="s-wave-to-the-wind" transition="segue"/>
+      <performance id="p01-09" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <performance id="p02-02" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-08" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-b8b5934ab17674f4179c" kind="unknown">
+      <identifier scheme="archive-org">gd1992-02-22.117851.BeyerM160.d5scott.flac16</identifier>
+      <credit role="recordist">D5scott</credit>
+      <lineage>Source: 2 Beyer M160 microphones - up front/center &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-4af3be3940e4d0b81c33" kind="audience">
+      <identifier scheme="archive-org">gd1992-02-22.138245.schoeps-cmc4-mk21.gastwirt.miller.sirmick.sbeok.flac16</identifier>
+      <credit role="recordist">Rick Gastwirk</credit>
+      <lineage>flac16/48kHz ; Source: Audience recording &gt; Schoeps cmc4 mk21 &gt; Oade modified Panasonic SV-255 &gt; Dat (48k); Fob recording by Rick Gastwirt; | Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/48; Transfer by Charlie Miller; Lineage: wav 16/48 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16/48; edited and mastered SIRMick May 2017</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): SIRMick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-fd204f07e7c2e48995a0" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-02-22.149848.sbd.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <playlist id="pl-9deaef01e0ac9417b50f" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1992-02-22.149848.sbd.miller.flac2496">
+        <track n="1" title="Bertha &gt;" file="01 Bertha.flac" mappingStatus="candidate" sourceNumber="1" duration="PT421.66S" covers="p01-01" certainty="probable"/>
+        <track n="2" title="Promised Land" file="02 Promised Land.flac" mappingStatus="candidate" sourceNumber="2" duration="PT349.92S" covers="p01-02" certainty="probable"/>
+        <track n="3" title="Stagger Lee" file="03 Stagger Lee.flac" mappingStatus="candidate" sourceNumber="3" duration="PT392.44S" covers="p01-03" certainty="probable"/>
+        <track n="4" title="Wang Dang Doodle" file="04 Wang Dang Doodle.flac" mappingStatus="candidate" sourceNumber="4" duration="PT633.52S" covers="p01-04" certainty="probable"/>
+        <track n="5" title="So Many Roads" file="05 So Many Roads.flac" mappingStatus="candidate" sourceNumber="5" duration="PT431.66S" covers="p01-05" certainty="probable"/>
+        <track n="6" title="Queen Jane Approximately" file="06 Queen Jane Approximately.flac" mappingStatus="candidate" sourceNumber="6" duration="PT356.48S" covers="p01-06" certainty="probable"/>
+        <track n="7" title="Loose Lucy" file="07 Loose Lucy.flac" mappingStatus="candidate" sourceNumber="7" duration="PT538.9S" covers="p01-07" certainty="probable"/>
+        <track n="8" title="Wave To The Wind &gt;" file="08 Wave To The Wind.flac" mappingStatus="candidate" sourceNumber="8" duration="PT549.37S" covers="p01-08" certainty="probable"/>
+        <track n="9" title="Don't Ease Me In" file="09 Don't Ease Me In.flac" mappingStatus="candidate" sourceNumber="9" duration="PT215.2S" covers="p01-09" certainty="probable"/>
+        <track n="10" title="Tuning" file="10 Tuning.flac" mappingStatus="unreviewed" sourceNumber="10" duration="PT51.57S"/>
+        <track n="11" title="One More Saturday Night" file="11 One More Saturday Night.flac" mappingStatus="candidate" sourceNumber="11" duration="PT295.34S" covers="p02-01" certainty="probable"/>
+        <track n="12" title="Mississippi Half-Step Uptown Toodeloo &gt;" file="12 Mississippi Half-Step Uptown Toodeloo.flac" mappingStatus="unreviewed" sourceNumber="12" duration="PT452.07S"/>
+        <track n="13" title="Estimated Prophet &gt;" file="13 Estimated Prophet.flac" mappingStatus="candidate" sourceNumber="13" duration="PT633.26S" covers="p02-03" certainty="probable"/>
+        <track n="14" title="He's Gone &gt;" file="14 He's Gone.flac" mappingStatus="candidate" sourceNumber="14" duration="PT577.33S" covers="p02-04" certainty="probable"/>
+        <track n="15" title="Drums &gt;" file="15 Drums.flac" mappingStatus="candidate" sourceNumber="15" duration="PT1054.51S" covers="p02-05" certainty="probable"/>
+        <track n="16" title="Space &gt;" file="16 Space.flac" mappingStatus="candidate" sourceNumber="16" duration="PT617.95S" covers="p02-06" certainty="probable"/>
+        <track n="17" title="The Wheel &gt;" file="17 The Wheel.flac" mappingStatus="candidate" sourceNumber="17" duration="PT278.43S" covers="p02-07" certainty="probable"/>
+        <track n="18" title="All Along The Watchtower &gt;" file="18 All Along The Watchtower.flac" mappingStatus="candidate" sourceNumber="18" duration="PT367.16S" covers="p02-08" certainty="probable"/>
+        <track n="19" title="Black Peter &gt;" file="19 Black Peter.flac" mappingStatus="candidate" sourceNumber="19" duration="PT668.28S" covers="p02-09" certainty="probable"/>
+        <track n="20" title="Sugar Magnolia" file="20 Sugar Magnolia.flac" mappingStatus="candidate" sourceNumber="20" duration="PT483.5S" covers="p02-10" certainty="probable"/>
+        <track n="21" title="Encore Break" file="21 Encore Break.flac" mappingStatus="unreviewed" sourceNumber="21" duration="PT102.42S"/>
+        <track n="22" title="U.S. Blues" file="22 US Blues.flac" mappingStatus="candidate" sourceNumber="22" duration="PT319.66S" covers="p03-01" certainty="probable"/>
+        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+      </playlist>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 8, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+      <note>Archive source metadata (lineage): Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</note>
+      <note>Archive source metadata (source): SBD &gt; Cassette Master (TDK SA-X100)</note>
+      <note>Archive source metadata (taper): Don Pearson and Dan Healy</note>
+      <note>Archive source metadata (transferer): All Transfers and Mastering By Charlie Miller charliemiller87@earthlink.net May 8, 2020</note>
+    </recording>
+    <recording id="r-5692c6cff2c6a28a0664" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-02-22.150007.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 8, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-8ff1d88964d5420c46a5" kind="audience">
+      <identifier scheme="archive-org">gd1992-02-22.150344.FOB.Schoeps.Buick.Noel.t-1648</identifier>
+      <credit role="recordist">Master Digital FOB Recording &amp; Transfer by Marcus Buick</credit>
+      <lineage>Schoeps MK4 CMC3mod (ORTF, FOB)&gt; MIT shotgun XLR &gt; TAO/Oadie &gt; MIT shotgun XLR &gt; Panasonic SV250mod &gt; Master DAT (16bit48kHz) on-stand (6Õ2Ó) | Transfer: Master DAT &gt; Panasonic SV3800 &gt; S/PDIF(16bit48kHz) &gt; Edirol-R4 &gt; WAV 48/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Edited &amp; Mastered using Adobe Audition by Joe Noel June 28, 2020</note>
+    </recording>
+    <recording id="r-4c98cda025f4302f3a18" kind="unknown">
+      <identifier scheme="archive-org">gd1992-02-22.fob.young-marcus.gems.77722.sbeok.flac16</identifier>
+      <credit role="recordist">Jamie Young and Marcus</credit>
+      <lineage>Set 1: B&amp;K 4011 (ORTF) Hand Held -&gt; Canare Cable -&gt; Neumann Supply -&gt; Modified Sony D10 Pro, Set 2: Schoeps CMC34 -&gt; Panasonic sv250 | DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav &gt; Adobe Audition (48K to 44.1K resample, 1-bit, w/dither) &gt; CDwav (tracking only) &gt; FLAC frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-02-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Michael Hughey</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-579b86f08a262bab1eaa" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-02-22.sbd.walker-scotton.miller.96395.sbeok.flac16</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; r8brain PRO v1.5 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-7f1ee2078f21db7b8eda" kind="soundboard">
+      <identifier scheme="archive-org">gd92-02-22.sbd.gardner.9981.sbeok.shnf</identifier>
+      <lineage>SBD&gt;MC&gt;C&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-f563da286f9d083cf51b" kind="unknown">
+      <identifier scheme="other">etree-609798</identifier>
+      <note>Supplied catalogue listing: etree; gd1992-02-22.149848.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

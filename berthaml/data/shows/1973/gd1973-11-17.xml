@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-11-17" date="1973-11-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731117-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-416" nameAsBilled="Pauley Pavilion, UCLA"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-02" song="s-here-comes-sunshine" transition="unknown"/>
+      <performance id="p01-03" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-04" song="s-deal" transition="unknown"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-07" song="s-the-race-is-on" transition="unknown"/>
+      <performance id="p01-08" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-09" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-10" song="s-big-river" transition="unknown"/>
+      <performance id="p01-11" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-12" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p02-02" song="s-jack-straw" transition="unknown"/>
+      <performance id="p02-03" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-06" song="s-morning-dew" transition="segue"/>
+      <performance id="p02-07" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-08" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p02-09" song="s-stella-blue" transition="unknown"/>
+      <performance id="p02-10" song="s-el-paso" transition="unknown"/>
+      <performance id="p02-11" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-12" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-43eea976e38785687dbf" kind="unknown">
+      <identifier scheme="archive-org">gd1973-11-17.166357.aud.Conner.gems.flac2496</identifier>
+      <credit role="recordist">Recorded by Charles Conner from floor level seats on the right side</credit>
+      <lineage>Sony ECM-22P mic (mono) &gt; Sony TC-55 &gt; BASF C90 master cassettes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1973-11-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer of re-shelled master cassettes on November 15, 2023 using a Nakamichi CR-7A &gt; Tascam DA-3000 @ 24 bit 96 kHz and mastering on November 16, 2023 by Jim Blackwood Speed/pitch adjusted by Jason Chastain</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-088b96eb7ea48f321ca5" kind="unknown">
+      <identifier scheme="archive-org">gd1973-11-17.166358.aud.Conner.gems.flac1648</identifier>
+      <credit role="recordist">Recorded by Charles Conner from floor level seats on the right side</credit>
+      <lineage>Sony ECM-22P mic (mono) &gt; Sony TC-55 &gt; BASF C90 master cassettes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1973-11-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer of re-shelled master cassettes on November 15, 2023 using a Nakamichi CR-7A &gt; Tascam DA-3000 @ 24 bit 96 kHz and mastering on November 16, 2023 by Jim Blackwood Speed/pitch adjusted by Jason Chastain</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-86d65ba984de5968d9ea" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-11-17.sbd.ashley.23472.sbefail.shnf</identifier>
+      <lineage>SBD&gt;&gt;MR&gt;&gt;CASS&gt;&gt;DAT&gt;&gt;CDA&gt;&gt;WAV(EAC)&gt;&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1973-11-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jay Ashley</note>
+    </recording>
+    <recording id="r-51960ced9d929fb919fb" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-11-17.sbd.ashley.fixed.23731.sbeok.shnf</identifier>
+      <lineage>SBD&gt;&gt;MR&gt;&gt;CASS&gt;&gt;DAT&gt;&gt;CDA&gt;&gt;WAV(EAC)&gt;&gt;SHN &gt;&gt;DAW(Bertha)&gt;&gt;CDA/SHN&gt;&gt;shntool</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1973-11-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jay Ashley</note>
+    </recording>
+    <recording id="r-bd6ab960906d7707d6e1" kind="unknown">
+      <identifier scheme="archive-org">gd1973-11-17.sbd.patched.bec.22799.flac16</identifier>
+      <lineage>SHNID 19896 and 4762</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1973-11-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-4273068a8d8814ba8359" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-11-17.sbd.sirmick.79548.sbeok.flac16</identifier>
+      <lineage>unknown sbd &gt; ??? &gt; shn &gt; wav &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1973-11-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c1e91f8f7ac8a0c5f4d3" kind="soundboard">
+      <identifier scheme="archive-org">gd73-11-17.sbd.gardner.4749.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MR&gt; C&gt; DAT&gt; CDR&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1973-11-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

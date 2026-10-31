@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-05-14" date="1978-05-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780514-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p01-02" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-05" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p01-06" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-07" song="s-big-river" transition="unknown"/>
+      <performance id="p01-08" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-07" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-08" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-24e9d9d651cc4364ec26" kind="matrix">
+      <identifier scheme="archive-org">gd1978-05-14.124932.mtx.dusborne.flac16</identifier>
+      <lineage>2 source matrix by dusborne; Soundboard (shinid:108996) SBD -&gt; Cassette Master -&gt; Dat -&gt; CD; CD -&gt; Samplitude Professional v10.1 -&gt; FLAC; All Transfers and Mastering By Charlie Miller and Audience (shnid:7639) Sony ECM33P7 + AKGD1000e&gt; Teac PC-10 &gt; Master Audience Cass &gt; DAT's; Tascam DA-P1 dat @48 &gt; Sek'd Prodif+ Card (resampled to 44.1) &gt; Sek'd Red Roaster (edits*) &gt; Cdwav &gt; Mkw; Boundaries verified with Shntool; No dae, no normalizing, no eq or processing of any kind; Source tapes from Matt Vernon; Dat &gt; shn transfer by Dale Shepherd</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1978-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by dusborne</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b2356153e7dee2f4b43d" kind="unknown">
+      <identifier scheme="archive-org">gd1978-05-14.152506.aud.petrunis.flac2448</identifier>
+      <credit role="recordist">Recording by Rich Petrunis.</credit>
+      <lineage>ono Sony hand-held recorder (model unknown) &gt; TDK-AD (normal bias) cassettes. | Transfer: MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1978-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transferred by Andrew F. 05/2021</note>
+    </recording>
+    <recording id="r-9b89f5a146b5f0154cd7" kind="audience">
+      <identifier scheme="archive-org">gd1978-05-14.akg-mono.friend.108840.flac1644</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>flac16 ;AUD: 1x AKG D200E (mono recording) &gt; Sony TC-153SD &gt; Maxell UD-XLII 90's. Recorded from lower arena riser, first section to left of stage, Section 110 Row G. Taped by Tim Friend. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 Tagged. Transfer by Andrew F. 07/2010</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1978-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-899fda8e6a7107f3509a" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-05-14.sbd.miller.108996.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1978-05-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5b066fa95f5e2d213ce8" kind="audience">
+      <identifier scheme="archive-org">gd78-05-14.sony.vernon.7639.sbeok.shnf</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Audience Recording | Sony ECM33P7 + AKGD1000e&gt; Teac PC-10 &gt; Master Audience Cass &gt; DAT's</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1978-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dale Shepherd</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

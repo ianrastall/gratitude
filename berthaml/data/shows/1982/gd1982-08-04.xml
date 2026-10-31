@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-08-04" date="1982-08-04">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820804-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-198" nameAsBilled="Kiel Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-02" song="s-friend-of-the-devil" transition="segue"/>
+      <performance id="p01-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-04" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-05" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-row-jimmy" transition="segue"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-09" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-10" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-good-time-blues" transition="segue"/>
+      <performance id="p02-02" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-03" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-04" song="s-jam" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-08" song="s-black-peter" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-d79e61a924c81a67dc16" kind="audience">
+      <identifier scheme="archive-org">gd1982-08-04.136573.aud.bernstein.flac1644</identifier>
+      <credit role="recordist">Jon Bernstein</credit>
+      <lineage>AUD: Unknown mics &gt; lead deck &gt; Sony TC-D5 &gt; Maxell UDXLII 90s. Recording by Jon Bernstein. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. July 2016</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1982-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-0a25077c20ed48c4b774" kind="audience">
+      <identifier scheme="archive-org">gd1982-08-04.138620.beyerm201.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew: Kyle Holbrook &amp; Olvy Johnson</credit>
+      <lineage>flac16 44.1khz Source Audience Master Recording: Beyer M 201c Location: 25 feet from RT stacks (on axis with RT stack)|side section about 15 rows off floor | Beyer M201's (hyper cardiod)in brim of straw cowboy hat &gt;&gt; Sony TCD5 w Maxell XL-II Dolby B ONPlayback: Nakamichi LX-5 -&gt; Tascam DR680 @ 24/48Processing:SD-&gt;Audacity (Windows 7)-&gt; CDWav editor -&gt;TLH (flac) set 1 equalized with overall bass boost below 400Hz, &amp; some mid cut. set 2 equalized with less bass boost.Taped by: Executive Crew: Kyle Holbrook &amp; Olvy JohnsonTransferred by Kyle Holbrook</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1982-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-15b261759a1ec1bde0a6" kind="audience">
+      <identifier scheme="archive-org">gd1982-08-04.138621.beyerm201.holbrook.flac2448</identifier>
+      <lineage>flac24 48khz Source Audience Master Recording: Beyer M 201c Location: 25 feet from RT stacks (on axis with RT stack)|side section about 15 rows off floor | Beyer M201's (hyper cardiod)in brim of straw cowboy hat &gt;&gt; Sony TCD5 w Maxell XL-II Dolby B ONPlayback: Nakamichi LX-5 -&gt; Tascam DR680 @ 24/48Processing:SD-&gt;Audacity (Windows 7)-&gt; CDWav editor -&gt;TLH (flac) set 1 equalized with overall bass boost below 400Hz, &amp; some mid cut. set 2 equalized with less bass boost.Taped by: Executive Crew: Kyle Holbrook &amp; Olvy JohnsonTransferred by Kyle Holbrook</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1982-08-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-db4ca0556d16aa376739" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-08-04.141652.sbd.pcm.streeter.dalton.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Frank Streeter and Tim Dalton</credit>
+      <lineage>Source Info: Dan Healy's Master Soundboard Cassettes (Sony TC-D5M/TDK MA-R90/Dolby B)&gt; Frank Streeter's 1st generation 1/4 track Reels @ 3.75 ips (Sony TC770/Maxell UD35-90B)&gt; Tim Dalton's PCM (Sony SLHF400/Sony HG betamax tape); Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1982-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+    <recording id="r-8673721e5cac690af533" kind="audience">
+      <identifier scheme="archive-org">gd1982-08-04.153018.beyer.tompkins.flac2448</identifier>
+      <credit role="recordist">Concert recording by Rip Tompkins, &amp; with thanks to Richie Stankiewicz!</credit>
+      <lineage>FOB Beyers mics &gt; Sony TC-D5M &gt; TDK MA-90's. | Transfer: MAC &gt; Nakamichi CR-5A (Dolby-B in) &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1982-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transferred by Andrew F. 08/2021</note>
+    </recording>
+    <recording id="r-63360ac73c42ca1279b4" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-08-04.sbd.morst.93839.flac16</identifier>
+      <lineage>SBD &gt; ? | ? &gt; PCM &gt; played through HHb CDR800 for digital signal lock &gt; DAT (probably Panasonic SV3500 or SV3700). DAT &gt; PCM-M1 &gt; S/Pdif &gt; Protools 4.1.1 &gt; Audiomedia III PCI card &gt; Powermac G3/266 &gt; Protools 4.1.1 &gt; AIFF &gt; Powermac G4 MDD/ Dual 1.42 &gt; Audacity 1.2.6 (tracking in 1/75 second increments) &gt; AIFF\'s &gt; xACT 1.64 &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1982-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): morst</note>
+    </recording>
+    <recording id="r-efef6a3268540d10f8d0" kind="soundboard">
+      <identifier scheme="archive-org">gd82-08-04.sbd.willy.7388.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;MasterCass&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1982-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  BerthaML venue registry. One entry per physical venue; name changes over
+  time are recorded as dated <name> elements on the same entry.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:b="urn:berthaml:1"
+           targetNamespace="urn:berthaml:1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+
+  <xs:include schemaLocation="common.xsd"/>
+
+  <xs:element name="venues" type="b:VenueRegistry"/>
+
+  <xs:complexType name="VenueRegistry">
+    <xs:sequence>
+      <xs:element name="record" type="b:Record"/>
+      <xs:element name="venue" type="b:Venue" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+  </xs:complexType>
+
+  <xs:complexType name="Venue">
+    <xs:sequence>
+      <!-- At least one name. Dated names cover renamings. -->
+      <xs:element name="name" type="b:VenueName" maxOccurs="unbounded"/>
+      <xs:element name="altName" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="locality" type="b:Locality"/>
+      <xs:element name="coordinates" type="b:Coordinates" minOccurs="0"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="b:VenueId" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="VenueName">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="from" type="b:FuzzyDate"/>
+        <xs:attribute name="to" type="b:FuzzyDate"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="Locality">
+    <!-- City as conventionally used in setlists (may differ from the legal municipality). -->
+    <!-- Missing locality fields mean unresearched; never manufacture a country. -->
+    <xs:attribute name="city" type="xs:string"/>
+    <!-- State or province code where applicable, e.g. NY, ON. -->
+    <xs:attribute name="region" type="xs:token"/>
+    <xs:attribute name="country" type="b:CountryCode"/>
+  </xs:complexType>
+
+  <xs:complexType name="Coordinates">
+    <xs:attribute name="lat" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:decimal">
+          <xs:minInclusive value="-90"/>
+          <xs:maxInclusive value="90"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="lon" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:decimal">
+          <xs:minInclusive value="-180"/>
+          <xs:maxInclusive value="180"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+</xs:schema>

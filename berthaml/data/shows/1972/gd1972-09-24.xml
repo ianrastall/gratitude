@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-09-24" date="1972-09-24">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720924-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-469" nameAsBilled="Palace Theater"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-05" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-07" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-09" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-10" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-11" song="s-big-river" transition="unknown"/>
+      <performance id="p01-12" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-13" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-greatest-story-ever-told" transition="segue"/>
+      <performance id="p02-02" song="s-bertha" transition="segue"/>
+      <performance id="p02-03" song="s-promised-land" transition="unknown"/>
+      <performance id="p02-04" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p02-05" song="s-jack-straw" transition="unknown"/>
+      <performance id="p02-06" song="s-tomorrow-is-forever" transition="unknown"/>
+      <performance id="p02-07" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-08" song="s-dark-star" transition="segue"/>
+      <performance id="p02-09" song="s-drums" transition="segue"/>
+      <performance id="p02-10" song="s-dark-star" transition="segue"/>
+      <performance id="p02-11" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-12" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-13" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-35ade28162db6f8c6ed0" kind="audience">
+      <identifier scheme="archive-org">gd1972-09-24.aud.berger.99860.flac16</identifier>
+      <lineage>aud&gt;? | ?&gt;7" reel @ 3.75 ips, no nr technics rs-1506&gt;hd-p2 24/96&gt; hd&gt;cd wave&gt;adobe 2.0 16/44&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Palace Theatre on 1972-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-abc27811a4a999ccb9fc" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-09-24.sbd.130758.MrBill.flac16</identifier>
+      <lineage>Recording Info: SBD &gt; MR &gt; ? &gt; C &gt; DAT &gt; SHN; Transfer Info: SHN &gt; TLH &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC; Tracked, patched and mastered by Bill Guarneri, July 28, 2014</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Palace Theater on 1972-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Guarneri</note>
+    </recording>
+    <recording id="r-9609387c5d665429cff6" kind="soundboard">
+      <identifier scheme="archive-org">gd72-09-24.sbd.cribbs.25282.sbeok.shnf</identifier>
+      <lineage>Soundboard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Palace Theater on 1972-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-1b111b70b31b2b3706e3" kind="soundboard">
+      <identifier scheme="archive-org">gd72-09-24.sbd.jeffm.2202.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MR&gt; CASS&gt; DAT&gt; CDR&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Palace Theater on 1972-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-12-31" date="1972-12-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19721231-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-69" nameAsBilled="Winterland"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-around-and-around" transition="unknown"/>
+      <performance id="p01-02" song="s-deal" transition="unknown"/>
+      <performance id="p01-03" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-05" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p01-06" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-07" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-08" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-09" song="s-candyman" transition="unknown"/>
+      <performance id="p01-10" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-11" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-12" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-13" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p02-02" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p02-03" song="s-big-river" transition="unknown"/>
+      <performance id="p02-04" song="s-sugaree" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="unknown"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-11" song="s-sing-me-back-home" transition="unknown"/>
+      <performance id="p02-12" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-uncle-johns-band" transition="unknown"/>
+      <performance id="p03-02" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4b6f987ebe51e7cf0b8a" kind="fm">
+      <identifier scheme="archive-org">gd1972-12-31.137465.fm.GEMS.flac16</identifier>
+      <credit role="recordist">Stuccoholmes</credit>
+      <lineage>Recording of FM Broadcast on KSAN &gt; ? &gt; DAT provided and transferred by Stuccoholmes; Mastering &amp; Editing by Jason Chastain in Audition CC 2015; Final Mastering by Jamie Waddell in Wavelab 7.1; Track, FLAC and Pack by Norm</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Jamie Waddell and Jason Chastain</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-f8972ff0af643d18ac89" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-12-31.141135.sbd.gans.miller.clugston.fixed.flac1648</identifier>
+      <lineage>flac16/48kHz ; Source Info: Vault Master Soundboard Reels &gt; Dat (16/48k); Transfer Info: Dat (Sony PCM-R500) 16/48k &gt; Tascam DA-3000 (16-bit/48k) &gt; Adobe Audition 3.0 (16/48k)&gt; TLH flac1648; the original source had errors in track 6</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bb408e6224efb12c6c8b" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-12-31.sbd.bertha-ashley.26559.sbeok.shnf</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>SBD (Pre-FM) &gt; Master Reel | MR &gt; DAT &gt; SHN &gt; DAW(Bertha) &gt; CDA/SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): J. Ashely</note>
+    </recording>
+    <recording id="r-221ab0c146f389fbfc56" kind="fm">
+      <identifier scheme="archive-org">gd1972-12-31.sbd.prefm.wier.6340.sbeok.shnf</identifier>
+      <lineage>Pre-FM KSAN Reel &gt; DAT &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): Charles Wier</note>
+    </recording>
+    <recording id="r-9d00d90c10bf9faa1182" kind="fm">
+      <identifier scheme="archive-org">gd1972-12-31.sbd.unknown.1563.sbefail.shnf</identifier>
+      <lineage>Pre-FM KSAN Reel &gt; DAT &gt; .SHN.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): unknown</note>
+    </recording>
+    <recording id="r-cfdf6f928d89402c2978" kind="soundboard">
+      <identifier scheme="archive-org">gd72-12-31.prefm.vernon.20559.sbeok.shnf</identifier>
+      <lineage>Soundboard | Vault pre-FM reels &gt; DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

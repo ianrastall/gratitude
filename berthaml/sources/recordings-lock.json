@@ -1,0 +1,45 @@
+{
+  "source": "../../data/gd-shows.xml",
+  "source_sha256": "616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089",
+  "captured": "2026-10-29",
+  "records": 19297,
+  "facts_sha256": "41219d0d160a19ab3ac4c9c3f0d1f5f05fb58118a87bd346525ee11c16813b7f",
+  "provenance": [
+    {
+      "id": "gdshowsdb",
+      "url": "https://github.com/jefmsmit/gdshowsdb",
+      "sha256": "ed6c3f68a555e6a0b4ceb9c8fbc3485d72b18c14f201395ad5ca0267da435823",
+      "scope": "MIT-licensed show/setlist snapshot; revision 2ccd86c1f0db284ed1f3967df17f8defc80a387e"
+    },
+    {
+      "id": "archive-index",
+      "url": "https://archive.org/details/GratefulDead",
+      "sha256": "ceb56f548d95f8c0072a61571f16b2a7a96091d9aded68cfd41522bef74b5db5",
+      "scope": "Public metadata snapshot, not a download permission assertion"
+    },
+    {
+      "id": "etree-snapshot",
+      "url": "user-supplied:gd_torrents.json",
+      "sha256": "faccf6f226b5e20ac76137ccc8356717e6c2f4da43cad1c94ecf5c5b75b089bc",
+      "scope": "User-supplied historical listing"
+    },
+    {
+      "id": "archive-url-snapshot",
+      "url": "user-supplied:grateful_dead_torrent_urls.txt",
+      "sha256": "f07abee95b5cb794a80d54202edf652a76cbe53aad6a5e1ecbb272dfa507db2a",
+      "scope": "User-supplied historical listing"
+    },
+    {
+      "id": "infinite-dead",
+      "url": "https://infinitedead.net/",
+      "sha256": "4c21afae0292ce13387cbe4a03f73ec0e5418028df10c52c8d3efb8ab949f960",
+      "scope": "359 public posts; July and October source links/classifications only; editorial prose not included"
+    },
+    {
+      "id": "live-dead-reference",
+      "url": "urn:isbn:9781478027614",
+      "sha256": "",
+      "scope": "John Brackett, Live Dead (Duke University Press): contextual reference supplied as PDF; no catalogue facts or book text extracted"
+    }
+  ]
+}

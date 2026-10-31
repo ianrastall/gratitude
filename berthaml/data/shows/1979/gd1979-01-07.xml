@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-01-07" date="1979-01-07">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19790107-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-04" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-05" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-06" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-07" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-08" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-09" song="s-passenger" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-02" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p02-03" song="s-from-the-heart-of-me" transition="unknown"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-51f1f49e0a72c4251a35" kind="unknown">
+      <identifier scheme="archive-org">gd1979-01-07.nak300-wagner.miller.87739.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Nakamichi 300/CP1 -&gt; Cassette Master (Maxell UDXL-II/Sony TC-158) (Set 2 has a Sennheiser 441 mixed in) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Samplitude Professional v9.11 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-01-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-e565c4a1ebe9828ba818" kind="audience">
+      <identifier scheme="archive-org">gd79-01-07.aud.vernon.16467.sbeok.shnf</identifier>
+      <lineage>Audience Recording | AUD&gt; MC&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-01-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

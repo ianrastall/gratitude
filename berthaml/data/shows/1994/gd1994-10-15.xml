@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-10-15" date="1994-10-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19941015-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p01-02" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-03" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-04" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-05" song="s-just-like-tom-thumb-s-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-candyman" transition="unknown"/>
+      <performance id="p01-07" song="s-easy-answers" transition="segue"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-here-comes-sunshine" transition="unknown"/>
+      <performance id="p02-02" song="s-victim-or-the-crime" transition="unknown"/>
+      <performance id="p02-03" song="s-way-to-go-home" transition="unknown"/>
+      <performance id="p02-04" song="s-new-speedway-boogie" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-last-time" transition="segue"/>
+      <performance id="p02-08" song="s-standing-on-the-moon" transition="segue"/>
+      <performance id="p02-09" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-i-want-to-tell-you" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-d7b6189225a6f784b9da" kind="matrix">
+      <identifier scheme="archive-org">gd1994-10-15.130737.mtx.flac16</identifier>
+      <lineage>SBD/AUD matrix: Source 1: (OTS) AKG460s/CK8s(PAS)&gt;B-18s&gt;FP-11s&gt;DAP20(16/48); DAT&gt;WAV: (TCD-D8&gt;PMD670&gt;CF&gt;HDD); Recording and transfer by DATBRAD and Source 2: SBD (source ID 76894) SBD -&gt; Dat -&gt; Sonic Solutions -&gt; CD -&gt; EAC -&gt; FLAC -&gt; WAV; Converted By Charlie Miller; Matrix: AddaWav(rejoin sbd tracks)&gt;Audacity(60/40 sbd/aud mix)&gt;CDWave(splits)&gt;Flac Frontend(Level 6)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-73dbf9f536069fd35755" kind="unknown">
+      <identifier scheme="archive-org">gd1994-10-15.139074.FOB.BK4011.Ammons.Noel.t-flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>flac16/48kHz ; Set 1 B&amp;K 4011 at 110° ORTF front of board. Unknown taper; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Edited &amp; Tracked in Audacity by Joe Noel &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
+    </recording>
+    <recording id="r-781bafd8275f63722e03" kind="unknown">
+      <identifier scheme="archive-org">gd1994-10-15.139698.akg414.wise.sirmick.flac1648</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16 48khz Source: AKG 414’s &gt; Oade custom preamp &gt; Sony TCD-D10 Pro &gt; Dat (48k). | DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000&gt; WAV 16/48. Recorded and transferred by Jim Wise. edited and mastered SIRMick.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick and Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3714fc4b6f9a04768166" kind="soundboard">
+      <identifier scheme="archive-org">gd1994-10-15.163536.sbd.miller.flac1644</identifier>
+      <lineage>SBD &gt; DAT (44.1k) | DAT (Panasonic SV-3900) &gt; Tascam DA-3000 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 1, 2023</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7ba6ca81b268bd5f969f" kind="soundboard">
+      <identifier scheme="archive-org">gd1994-10-15.165789.dsbd.miller.flac1644</identifier>
+      <lineage>SBD &gt; DAT (44.1k) | DAT (Panasonic SV-3900) &gt; Tascam DA-3000 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 16, 2023</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-fb3de56c6f3097a4d811" kind="audience">
+      <identifier scheme="archive-org">gd1994-10-15.fob.schoeps.byron.wklitz.96333.flac16</identifier>
+      <credit role="recordist">Eliot Byron</credit>
+      <lineage>(FOB) Schoeps CMC54's&gt;Sonosax SX-M2&gt;Apogee AD1000&gt;Sony TCD-D10PROII | DAT Clone &gt; Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades, Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-620308b45b51b68feb72" kind="unknown">
+      <identifier scheme="archive-org">gd1994-10-15.nak300.bleich.LMPP.96457.sbeok.flac16</identifier>
+      <credit role="recordist">John Bleich</credit>
+      <lineage>Nak 300 shotguns &gt; WMD-6 &gt; mac | mac &gt; Nakamichi CR-5A &gt; EMU 1212M &gt; 24/96 Wave &gt; Adobe Audition &gt; Wavelab with iZotope Ozone &gt; iZotope RX Advanced &gt; 16/44.1 Wave &gt; CD Wave &gt; TLH &gt; flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b955107e5536b41f51b9" kind="unknown">
+      <identifier scheme="archive-org">gd1994-10-15.sbd.hinko-fixed.76894.flac16</identifier>
+      <lineage>Cleaned up copy of SHNid=27249 by Darryl Hinko</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-4e4713a01c726fa5233c" kind="unknown">
+      <identifier scheme="archive-org">gd1994-10-15.scheops.bryon.dauria.98063.flac16</identifier>
+      <credit role="recordist">Eliot Byron</credit>
+      <lineage>Schoeps CMC5 MK4-&gt;Aerco preamp-&gt;Sony D10 F.O.B D.F.C. | Sony D8-&gt;Sony SBM1-&gt;Edirol R44-&gt;usb/pc-&gt;Cd Wave-&gt;Flac Frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Frank D'Auria</note>
+    </recording>
+    <recording id="r-8f1c735ada444d5dc4bf" kind="audience">
+      <identifier scheme="archive-org">gd94-10-15.nak300.wiley.8043.sbeok.shnf</identifier>
+      <lineage>Audience: Nakamichi 300 Shotguns | Nakamichi 300 Shotguns &gt; Awia DAT &gt; CDR &gt; EAC (secure) &gt; mkwACT &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tim Wiley</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/15/10-15-94-ny-ny-madison-square-garden/</note>
+    </recording>
+    <recording id="r-0642a73ebd9f6ca4c9d4" kind="soundboard">
+      <identifier scheme="archive-org">gd94-10-15.sbd.miller.27249.sbeok.flacf</identifier>
+      <lineage>Soundboard | SBD &gt; DAT &gt; Sonic Solutions &gt; CD &gt; EAC &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/15/10-15-94-ny-ny-madison-square-garden/</note>
+    </recording>
+    <recording id="r-dcd730ad729a8f3aa7e3" kind="soundboard">
+      <identifier scheme="archive-org">gd94-10-15.set1-sbd.wiley.16466.sbeok.shnf</identifier>
+      <lineage>SBD (FM GDH)&gt; DAT&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

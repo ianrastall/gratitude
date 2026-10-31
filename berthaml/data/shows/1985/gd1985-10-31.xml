@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-10-31" date="1985-10-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19851031-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-931" nameAsBilled="Carolina Coliseum Arena, Univ. of S. Carolina"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-space" transition="segue"/>
+      <performance id="p01-02" song="s-werewolves-of-london" transition="segue"/>
+      <performance id="p01-03" song="s-the-music-never-stopped" transition="unknown"/>
+      <performance id="p01-04" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-05" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-09" song="s-might-as-well" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="segue"/>
+      <performance id="p02-02" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="segue"/>
+      <performance id="p02-04" song="s-jam" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-dear-mr-fantasy" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3c8a732532d3374d65ec" kind="unknown">
+      <identifier scheme="archive-org">gd1985-10-31.122146.senn.roberts.flac16</identifier>
+      <credit role="recordist">Stan Roberts</credit>
+      <lineage>Source: Senn ME-80 &gt; TCD5M; Conversion: Playback HK TD302 &gt; PMD661; Processing: Audacity Pitch correction &gt; Cdwave &gt; Flac Frontend &gt; Foobar2000 &gt; TLH; Recorded by Stan Roberts</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, U of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Stan Roberts</note>
+    </recording>
+    <recording id="r-303039673de47bc032f4" kind="unknown">
+      <identifier scheme="archive-org">gd1985-10-31.126314.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (2) sennheiser 441&gt; tcd-d5&gt;mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, U of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-0cb4a2f15de882b7981d" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.151885.senn441.lamarre.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Recorded by Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Section G, Row A, Seat 8); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d6a3ace61c43006d6a43" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.151886.senn441.lamarre.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Recorded by Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Section G, Row A, Seat 8); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-85-columbia-sc-university-of-south-carolina-coliseum-arena/</note>
+    </recording>
+    <recording id="r-6f9b7de395cdfd74629f" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.164117.akg451.ck8.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master Audience Cassettes; AKG 451's w/ CK8 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-309c61ec61f0d54be6e9" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.164118.akg451.ck8.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master Audience Cassettes; AKG 451's w/ CK8 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-75eae3b1c3789568c869" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.168184.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bfcf391b21a9a79489e9" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.168185.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6497ff29b26dfd200532" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-10-31.177847.senn.md241.strizak.flac2448</identifier>
+      <credit role="recordist">Tom Strizak</credit>
+      <lineage>Tom Strizak MAC (2) Senn. MD421 standard stereo configuration (mic stand at approx. 7’) &gt; Sony TC-D5M (2 Fugi -FR90 Metal/Dolby-B). Location: Taper section behind SBD just R of center. | Lineage: Analog Master Cassette (*Set 1 and encore tape played back on Harmon Kardon TD-262 Ultra Wideband Linear Phase) (*Set 2 playback on Nakamichi CR-1A) &gt; Behringer XR-18 audio mixer &gt; Reaper *DAW (master digitize recording @ 24 bit 48Khz WAV / export FLAC) &gt; Audacity *DAW (for track labeling, audio edits, and conversion to Tracked and Labeled FLAC fileset. (*DAW = Digital Audio Workstation)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tom Strizak</note>
+    </recording>
+    <recording id="r-7e32423910e46fae7668" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.178336.nak304.thomas.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 capsules &gt; Sony D5M | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (24-bit/96k .wav)&gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8a7c5ca0216e3fe06535" kind="audience">
+      <identifier scheme="archive-org">gd1985-10-31.178337.nak304.thomas.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 capsules &gt; Sony D5M | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (24-bit/96k .wav)&gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-070703ec1d52bf627825" kind="unknown">
+      <identifier scheme="archive-org">gd1985-10-31.cpb-redo2.32864.sbeok.flac16</identifier>
+      <credit role="recordist">Charles Bandrofcheck</credit>
+      <lineage>Unknown shotgun mikes -&gt; Sony D6 -&gt; Maxell MX 90s (MC) located first row of taping section seats. Well above the crowd in the gym. | MC -&gt; Playback on Marantz SD 4050 -&gt; Marantz Intergrated Stereo Amp MP-68 -&gt; SBLive! -&gt; CDWave -&gt; WAV -&gt; mkwAC -&gt; SHN.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum - University of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charles Bandrofcheck</note>
+    </recording>
+    <recording id="r-e0166990972032a76f86" kind="matrix">
+      <identifier scheme="archive-org">gd1985-10-31.mtx.loy.30829.sbeok.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum - University of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Loy</note>
+    </recording>
+    <recording id="r-8c26e82fff5a41355abc" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-10-31.sbd.miller.023590.sbeok.shnf</identifier>
+      <lineage>SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat (48k) | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, University Of South Carolina on 1985-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred and Patched By Charlie Miller 4/8/04</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ab82c417f081f4e40e67" kind="unknown">
+      <identifier scheme="archive-org">gd1985-10-31.sbd.zei.2028.shnf</identifier>
+      <lineage>S:C? &gt; DAT &gt; CDR | CDR &gt; SHN &gt; CDR &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum - University of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): John Zeiei</note>
+    </recording>
+    <recording id="r-9c48522f3f6dc518c656" kind="audience">
+      <identifier scheme="archive-org">gd85-10-31.aud-fob.sacks.2249.sbeok.shnf</identifier>
+      <lineage>FOB PCM AUD -- ??? Mics -&gt; PCM -&gt; DATs -&gt; CDR (x1) -&gt; EAC -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, U of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-58b938cab85ec9089241" kind="unknown">
+      <identifier scheme="archive-org">gd85-10-31.aud-oade.remaster.20282.sbeok.shnf</identifier>
+      <lineage>Field: Schoeps CMC441 (from TS, 17cm @ 90deg) &gt; Oade M118 &gt; Oade modSony PCM-F1 Transfer: master PCM &gt; DAW (via SEKD card) &gt; DSP* &gt; CD (mkw) &gt; HD &gt; mkwACT0.97b (SHN) | master PCM &gt; DAW (via SEKD card) &gt; DSP* &gt; CD (mkw) &gt; HD &gt; mkwACT0.97b (SHN)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, U of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-2296d2fe2c17213613b4" kind="soundboard">
+      <identifier scheme="archive-org">gd85-10-31.matrix.loy.31189.sbeok.flacf</identifier>
+      <lineage>Soundboard patched with Audience | SBD &gt; Master Cassette &gt; Reel &gt; DAT (48khz) &gt; Sony R500 &gt; SEK'D Prodif Plus &gt; Samplitude v7.02 Professional &gt; SHN &gt; Mitsui CDR &gt; EAC &gt; WAV &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Stadium - University of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-700ce3f7784951751f6c" kind="unknown">
+      <identifier scheme="archive-org">gd85-10-31.oade.connor.8793.sbeok.shnf</identifier>
+      <lineage>Oade DFOB -- Schoeps CMC441 (spaced 17cm@90deg) + CMC42 (Spread 8')&gt; Oade M118 &gt; Sony PCM-F1 &gt; DAT (@44.1k)DAT&gt;SHN -- Sony PCM-M1&gt;Coax 7 pin&gt;Zoltrix Nightingale (coax mod)&gt; Soundforge 5.0 (No Processing)&gt;CDWAV (track splitting)&gt;SHN(Seekable) Seeded by Dar</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, U of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-85-columbia-sc-university-of-south-carolina-coliseum-arena/</note>
+    </recording>
+    <recording id="r-6c8beb10e9d8e7887db5" kind="unknown">
+      <identifier scheme="archive-org">gd85-10-31.sbd.19209.sbeok.shnf</identifier>
+      <lineage>S:D&gt;C&gt;D&gt;C&gt;D&gt;CDR [Note: See info file for further details]Lineage: Cassette &gt; D8 &gt; Sony R500&gt;HHB CDR800Toast 1.1 for Wav via Seanb@isoc.net | Cassette &gt; D8 &gt; Sony R500&gt;HHB CDR800</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carolina Coliseum, U of South Carolina on 1985-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-7472181f41f01315b443" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-10-31.sbd.miller.23590.sbeok.shnf</identifier>
+      <note>Supplied catalogue listing: Archive.org; gd1985-10-31.sbd.miller.23590.sbeok.shnf. Source references: infinite-dead. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-85-columbia-sc-university-of-south-carolina-coliseum-arena/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

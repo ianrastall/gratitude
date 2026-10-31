@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  BerthaML driver schema. Validates any BerthaML file:
+    show      one show            data/shows/YYYY/<id>.xml
+    people    people registry     data/people.xml
+    songs     song catalog        data/songs.xml
+    venues    venue registry      data/venues.xml
+    releases  release registry    data/releases.xml
+
+  XSD 1.0 only, so it works with .NET System.Xml.Schema, libxml2/lxml,
+  and Xerces. Checks that XSD 1.0 cannot express (references between
+  files, ordering rules, lineup logic) are in tools/validate.py.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:b="urn:berthaml:1"
+           targetNamespace="urn:berthaml:1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+
+  <xs:include schemaLocation="common.xsd"/>
+  <xs:include schemaLocation="show.xsd"/>
+  <xs:include schemaLocation="people.xsd"/>
+  <xs:include schemaLocation="songs.xsd"/>
+  <xs:include schemaLocation="venues.xsd"/>
+  <xs:include schemaLocation="releases.xsd"/>
+
+</xs:schema>

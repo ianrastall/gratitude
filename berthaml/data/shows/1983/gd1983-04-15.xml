@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-04-15" date="1983-04-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830415-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-500" nameAsBilled="Rochester Community War Memorial"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p01-02" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-03" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-04" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-05" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-06" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-07" song="s-supplication" transition="segue"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-maybe-you-know" transition="unknown"/>
+      <performance id="p02-05" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-06" song="s-little-star" transition="segue"/>
+      <performance id="p02-07" song="s-jam" transition="segue"/>
+      <performance id="p02-08" song="s-drums" transition="segue"/>
+      <performance id="p02-09" song="s-space" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-12" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-13" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-14" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-8f1ff91f8c573733aa62" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.135460.nak300.schley.flac1644</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell XLII (Set 1 + JBG &amp; Baby Blue), Hitachi ME-Metal (Set 2 thru A&amp;A), FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain SRC &gt; Wavelab (adding 16-bit patches) &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 04/2016</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-f348a4809a05fa6f7586" kind="matrix">
+      <identifier scheme="archive-org">gd1983-04-15.138067.mtx.dusborne.flac16</identifier>
+      <lineage>2 source matrix by Dusborne; Soundboard (shnid:32780), Recording Info: set 1: SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k)Set 2: SBD -&gt; PCM -&gt; Dat (44.1k)Transfer Info:Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC and Audience (shnid:94282), Recording Info: (FOB) Audio Technica Mics -&gt; Cassette Master (Sony D6/Maxell UDXL-II/Dolby B); Transfer Info: Cassette Master (Namamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt;Samplitude Professional v10.1 -&gt; FLAC/16, Recorded and Transfered By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4de30d2e65a84cfc8c1a" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-04-15.140059.set2.sbd.pcm.gans.miller.clugston.flac1644</identifier>
+      <credit role="recordist">David Gans</credit>
+      <lineage>Master Soundboard PCM &gt; PCM</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-27f65feb8108745a8799" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.140094.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>aud cassette master; nak 300 guns&gt;sony d5; taped by Doug Lamarre; transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-6ef08bd439455cd5059e" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.140095.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>aud cassette master, nak 300 guns&gt;sony d5; taped by Doug Lamarre; transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-5922aa3d810bd38a709c" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-04-15.140687.nak300.flac2496</identifier>
+      <credit role="recordist">david barfield + david lane</credit>
+      <lineage>source: nak-300 (12’ near sbd) &gt; tcd5m &gt; udxliis +dolby &gt; tascam 122mkii &gt; apogee rosetta 200 (24/96) &gt; audacity (normalize, fades, tracks) &gt; flac2496 &gt; xact (tags, checksums); recorded: david barfield + david lane; transferred seeded: barfield</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): david barfield</note>
+    </recording>
+    <recording id="r-0b379f0c7617a55792c0" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.141638.beyerm201.executive-crew.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew;Kyle Holbrook;Olvy Johnson;Mike Yacavone;assist to Tom Pinney</credit>
+      <lineage>flac16/44.1 Recording InformationMaster AUD: Beyer M201 hypercardiod XY 65ft from stacks -&gt;Sony TCD5M|TDK MA 90 No Dolby | Nakamichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-d6d7dba275379417e6d9" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.141639.beyerm201.executive-crew.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew;Kyle Holbrook;Olvy Johnson;Mike Yacavone;assist to Tom Pinney</credit>
+      <lineage>flac24/48 Recording InformationMaster AUD: Beyer M201 hypercardiod XY 65ft from stacks -&gt;Sony TCD5M|TDK MA 90 No Dolby | Nakamichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-8b50c0f781c9fe99c2f1" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.141640.senn421.executive-crew.holbrook.flac1644</identifier>
+      <credit role="recordist">Tom Pinney assist to Executive Crew</credit>
+      <lineage>flac24/48; First Gen AUD: Master was: Sennheiser MD421's XY 60ft from stacks -&gt;Sony TCD5M -&gt; Marantz Superscope PMD430 (3rd in line)|TDK MA no Dolby | JVC -&gt; Sony TCD5MTransfer: Nakamichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-866ac3f4b1588e80cf23" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.141641.senn421.executive-crew.holbrook.flac2448</identifier>
+      <credit role="recordist">Tom Pinney assist to Executive Crew</credit>
+      <lineage>flac24/48; First Gen AUD: Master was: Sennheiser MD421's XY 60ft from stacks -&gt;Sony TCD5M -&gt; Marantz Superscope PMD430 (3rd in line)|TDK MA no Dolby | JVC -&gt; Sony TCD5MTransfer: Nakamichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-d2f474de496833b5844e" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.143055.at.miller.flac2496</identifier>
+      <lineage>(FOB) Audio Technica ATM11 &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3189732af5bbad7a210b" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.143504.fob.atm11.cm.miller.flac1644</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>(FOB) Audio Technica ATM11 &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-1042f446fdf039e8e574" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.163648.senn441.neumann.u87.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) Sennheiser 441's (left + right) + (1) Neumann U87 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-44fe9a278d53a952476a" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.163649.senn441.neumann.u87.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) Sennheiser 441's (left + right) + (1) Neumann U87 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-1c3b92fd981c3540686c" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.fob.at.miller.87725.sbeok.flac16</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>(FOB) Audio Technica Mics -&gt; Cassette Master (Sony D6/Maxell UDXL-II) | Cassette Master (Namamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.11 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-c65027a684408fd55e61" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.fob.miller.87753.flac24</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>(FOB) Audio Technica Mics -&gt; Cassette Master (Sony D6/Maxell UDXL-II) | Cassette Master (Namamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.11 -&gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-39cff5c2fa82ad734503" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.fob.miller.94282.sbeok.flac16</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>(FOB) Audio Technica Mics -&gt; Cassette Master (Sony D6/Maxell UDXL-II/Dolby B) | Cassette Master (Namamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-b965fc11e03c9063df68" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.fob.miller.94283.sbeok.flac24</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>(FOB) Audio Technica Mics -&gt; Cassette Master (Sony D6/Maxell UDXL-II/Dolby B) | Cassette Master (Namamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-c9f6ab76bcf8aff3efdd" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-04-15.sbd.miller.32780.sbeok.flac16</identifier>
+      <lineage>Set 1: SBD -&gt; Cassette, Set 2: SBD -&gt; PCM | Set 1: Cassette Master -&gt; Reel -&gt; Dat (48k), Set 2: PCM -&gt; Dat (44.1k), both sets: Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-47ae07c82da27882093d" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-15.senn421.coyotte.muletaper.88659.sbeok.flac16</identifier>
+      <credit role="recordist">Rick "Coyotte" Colyard</credit>
+      <lineage>Sennheiser MD421's&gt;Sony D5 (two maxell UD-XL2-S-Cassettes), Location: FOB-11th row DFC @6 ft high on stand (head high) | Cassette Masters &gt; Sony TC-W21 &gt; Edirol Digi-Mod UA5@44.1khz &gt; Optical out &gt; Nomad JB3 &gt; WAV &gt; Poulderbits Sound Editor for (fades/cuts) &gt; FlacFrontend (level-8) &gt; flac-16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rochester War Memorial on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Muletaper</note>
+    </recording>
+    <recording id="r-1d014f2f5603e205715b" kind="audience">
+      <identifier scheme="archive-org">gd83-04-15.fob-miller.23850.sbeok.shnf</identifier>
+      <lineage>(FOB) Audio Technica Mics -&gt; Sony D5 (Lead Deck) -&gt; Cassette Master (Patched Off Of Lead Deck With Sony D6, Maxell XL-II)Transfer Info: Cassette Master (Sony TC-WE475/Azimuth Adjusted) -&gt; Apogee MiniMe (24bit/96k) -&gt; RME Hammerfall Digiface -&gt;Sony V505 -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-9ab94cba9daa99293a73" kind="unknown">
+      <identifier scheme="archive-org">gd83-04-15.sennheiser.dodd.9974.sbeok.shnf</identifier>
+      <lineage>Senn. 421Âs &gt; MC&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-f4a09590b8c5a6e500b5" kind="soundboard">
+      <identifier scheme="archive-org">gd83-04-15s2.sbd.dodd.9975.sbeok.shnf</identifier>
+      <lineage>SBD&gt;PCM&gt;DAT&gt;Sonic Solutions&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1983-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-dfc2bce0b44db5653b3b" kind="unknown">
+      <identifier scheme="other">etree-598958</identifier>
+      <note>Supplied catalogue listing: etree; gd1983-04-15.141641.senn421.executive-crew.holbrook.flac2448. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-40e04de2f559e9a865ca" kind="unknown">
+      <identifier scheme="other">etree-598957</identifier>
+      <note>Supplied catalogue listing: etree; gd1983-04-15.141640.senn421.executive-crew.holbrook.flac1644. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

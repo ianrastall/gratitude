@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-10-20" date="1990-10-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19901020-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-1001" nameAsBilled="Internationales Congress Centrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-03" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-05" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-06" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-07" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-08" song="s-let-it-grow" transition="segue"/>
+      <performance id="p01-09" song="s-jam" transition="segue"/>
+      <performance id="p01-10" song="s-box-of-rain" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-eyes-of-the-world" transition="unknown"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-dark-star" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-dark-star" transition="segue"/>
+      <performance id="p02-08" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-09" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-not-fade-away-reprise" transition="unknown"/>
+      <performance id="p03-02" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-f4b0fa4cf9773e36abbc" kind="unknown">
+      <identifier scheme="archive-org">gd1990-10-20.131473.cmc521.deal.flac16</identifier>
+      <credit role="recordist">Lance Deal</credit>
+      <lineage>Source info: Schoeps CMC 521's&gt; Schoeps VMS 52 UB&gt; Technics SVMD1 by Lance Deal; Master DAT's provided by Lance Deal; Transfer Info: Fostex D-5 (AES/BU)&gt; Luminuous Monarch&gt; (s/pdif) M-Audio Audiophile 2496&gt; Audacity @ 16/48&gt; 16/44&gt; CD Wav (tracking)&gt; TLH (SBE's/Flac16/md5)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Will Petty</note>
+    </recording>
+    <recording id="r-ca01e507ddf4188706c5" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.138476.BK4011.fob.Teitelbaum.Ammons.Noel.t-flac16</identifier>
+      <credit role="recordist">Mark Teitelbaum</credit>
+      <lineage>flac16/48kHz ; Mark Teitelbaum Recording: B&amp;K 4011 (ORTF) &gt; Neumann power supply &gt; Panasonic SV255; FOB w/ stand; John Ammons | Tascam DA-20 MKII &gt; Roland SRC-2 &gt; Mac Mini optical input &gt; Audacity 2.1 &gt; WAV @ 48kHz; Joe Noel Edits: (re)Track &amp; Pack: Flac &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT; Set 1 is 48kHz, Set 2 is 44.1kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
+    </recording>
+    <recording id="r-4b98ac64280051c10c78" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.139112.aud.liff.lamarre.berger.flac1648</identifier>
+      <credit role="recordist">Jeff Silberman</credit>
+      <lineage>flac16/48kHz ; source: aud dat master &gt; dat&gt; dat; Doug Lamarre’s clone via Dan Liff r.i.p; taped by Jeff Silberman; neumann U89 &gt; sonosax 5000 &gt; sony tcd-d10 pro; transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger and Doug Lamarre and Dan Liff</note>
+    </recording>
+    <recording id="r-824d10e944433355c57a" kind="unknown">
+      <identifier scheme="archive-org">gd1990-10-20.144552.cmc4.flac1648</identifier>
+      <credit role="recordist">Dave Flaschner</credit>
+      <lineage>Schoeps MK4 &gt; Schoeps CMC4 &gt; VMS52UB &gt; Sony SBM-1 &gt; Panasonic SV-255 | DAT(c) @48kHz &gt; Tascam DA-P1 &gt; Tascam SS-R1 &gt; Samplitude Pro X3 &gt; dBpoweramp Music Converter &gt; Foobar2000 (Live Show Tagger)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Mitchell</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-90-berlin-germany-icc-berlin/</note>
+    </recording>
+    <recording id="r-e385a323e68d5131410f" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.144900.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell mx-90/100's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transfer - Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-5efcf369cb7fa9419315" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.144901.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell mx-90/100's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transfer - Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-414047245e78d6c53a33" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-10-20.150273.sbd.ANON.blackwood.flac1644</identifier>
+      <credit role="recordist">ANON</credit>
+      <lineage>Soundboard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mastering by Jim Blackwood, gsarchivist at LL; with help from Jason Chastain and Jamie Waddell</note>
+    </recording>
+    <recording id="r-8c647f075ad56b4c27e8" kind="unknown">
+      <identifier scheme="archive-org">gd1990-10-20.153737.sonyECM.G.willer.flac1644</identifier>
+      <credit role="recordist">G</credit>
+      <lineage>Sony ECM-150 -&gt; Sony TCD-D5 | Master Casette -&gt; B&amp;O Beocord 9000 -&gt; Sony pcm-a1 (96/24) -&gt; audition -&gt; cdwav -&gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Willer</note>
+    </recording>
+    <recording id="r-bee60cbff9d4d20ade82" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-20.165742.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller charliemiller87@ear</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-c964d5e5aef178a9a923" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-20.165833.UltraMatrix.sbd.cm.miller.t-flac1644</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 9, 2023</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-54126dd6504d0ec22e47" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.167631.nak700.blend.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 700 mics x3 &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-401716f96abe20b1187a" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.167632.nak700.blend.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 700 mics x3 &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a3bab2a48c72fe0f5ecf" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.175704.bk4011.master.bradt.miller.flac1644</identifier>
+      <lineage>(FOB) B&amp;K 4011 &gt; Neumann Power Supply &gt; DAT Master (48k) | Transfer Info: DAT Master (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 19, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4b901a2507c69f15dd8b" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-20.mtx.hansokolow.98728.flac16</identifier>
+      <lineage>matrix of SBD: shnid=12931 and DAUD: shnid=90641 using ProTools</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): hansokolow</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-90-berlin-germany-icc-berlin/</note>
+    </recording>
+    <recording id="r-72cd164937ff8bd26f74" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.nak300.houck-wright.gmb.90641.sbeok.flac16</identifier>
+      <credit role="recordist">Alf Houck and Robert Wright</credit>
+      <lineage>Audience Master Cassette Nakamichi 300's Cardioids &gt; Marantz | Nakamichi DR-1 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0 @ [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+    </recording>
+    <recording id="r-65d5beb2607e1b25783b" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.Nak300CP4.Floater.Keo.115551.Flac1644</identifier>
+      <credit role="recordist">Floater</credit>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D7&gt;Sony D6 (Patched Out Of D7); Tapes:Maxell XLII 90,XLII-S 100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Metadata Tagging; With AudioGate Software To 32 Bit Float/96 kHz; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-0d62e00040a44ae01497" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-20.Nak300CP4.Floater.Keo.115552.Flac2496</identifier>
+      <credit role="recordist">Floater</credit>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D7&gt;Sony D6 (Patched Out Of D7); Tapes:Maxell XLII 90,XLII-S 100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked/Metadata Tagging; With AudioGate Software To 24 Bit/96 kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-969f40d4b64ab8a3ba55" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-10-20.sbd.rogers-vernon.8245.shnf</identifier>
+      <lineage>SBD &gt; ? &gt; CDR &gt; EAC(secure) &gt; Cool Edit &gt; CDWAV &gt; mkwact &gt; shn (seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Terry Rogers and Matt Vernon</note>
+    </recording>
+    <recording id="r-3c4b3d40f8e01367ae0c" kind="soundboard">
+      <identifier scheme="archive-org">gd90-10-20.dsbd-matrix.dieter.12931.sbefail.shnf</identifier>
+      <lineage>DSBD: Healy mix&gt;MD&gt;D&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Internationales Congress Centrum on 1990-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-90-berlin-germany-icc-berlin/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

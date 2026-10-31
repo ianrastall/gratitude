@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-06-30" date="1987-06-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870630-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-906" nameAsBilled="Kingswood Music Theatre"/>
+  <program coverage="partial">
+    <set kind="soundcheck" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <note>Source section label: Partial Soundcheck</note>
+    </set>
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p02-01" song="s-touch-of-grey" transition="unknown"/>
+      <performance id="p02-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p02-03" song="s-loser" transition="unknown"/>
+      <performance id="p02-04" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p02-05" song="s-candyman" transition="unknown"/>
+      <performance id="p02-06" song="s-far-from-me" transition="unknown"/>
+      <performance id="p02-07" song="s-mama-tried" transition="segue"/>
+      <performance id="p02-08" song="s-big-river" transition="unknown"/>
+      <performance id="p02-09" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p02-10" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p02-11" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p03-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p03-02" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p03-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p03-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p03-05" song="s-jam" transition="segue"/>
+      <performance id="p03-06" song="s-drums" transition="segue"/>
+      <performance id="p03-07" song="s-space" transition="segue"/>
+      <performance id="p03-08" song="s-spanish-jam" transition="segue"/>
+      <performance id="p03-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p03-10" song="s-china-doll" transition="segue"/>
+      <performance id="p03-11" song="s-dear-mr-fantasy" transition="segue"/>
+      <performance id="p03-12" song="s-around-and-around" transition="segue"/>
+      <performance id="p03-13" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p04-01" song="s-box-of-rain" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-525e7994df75eddf5645" kind="audience">
+      <identifier scheme="archive-org">gd1987-06-30.136770.aud.jc.flac16</identifier>
+      <credit role="recordist">unknown</credit>
+      <lineage>Set 2 only - Audience &gt; unknown &gt; cassette (John) &gt; Sony TC-R303 &gt; Zoom h4n &gt; Audition CC 2015 &gt; shntool &gt; TLH</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): jchastain</note>
+    </recording>
+    <recording id="r-9e838b3b1a234c8c9927" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-06-30.136800.sbd.GEMS.flac16</identifier>
+      <credit role="recordist">PO and Stucco TINA Holmes</credit>
+      <lineage>Sbd &gt; ? &gt; PCM; Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jason Chastain</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-13fc29c58bc6ad587cc2" kind="matrix">
+      <identifier scheme="archive-org">gd1987-06-30.141750.sbd.miller.flac2496</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6380ed311358aa30ec87" kind="matrix">
+      <identifier scheme="archive-org">gd1987-06-30.141896.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6aad529acbff93ba3afb" kind="audience">
+      <identifier scheme="archive-org">gd1987-06-30.148701.fob.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master (FOB) Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-76110fee8a53fe36bc2c" kind="audience">
+      <identifier scheme="archive-org">gd1987-06-30.148702.fob.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master (FOB) Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-291fe22c33f2c2dfdb77" kind="matrix">
+      <identifier scheme="archive-org">gd1987-06-30.sbd-mtx.hinko.tetzeli.34404.sbeok.shnf</identifier>
+      <lineage>Ultra Matrix MSC&gt;DAT&gt;CDR&gt;EAC&gt;SHN (Seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theatre on 1987-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Darryl Hinko and Bill Tetzeli</note>
+    </recording>
+    <recording id="r-a81209646fab54e2e954" kind="matrix">
+      <identifier scheme="archive-org">gd87-06-30.matrix.hinko.13442.sbeok.shnf</identifier>
+      <lineage>Ultra Matrix MSC&gt;DAT&gt;CDR&gt;EAC&gt;SHN (Seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+    </recording>
+    <recording id="r-8ebccb30986a4f348b34" kind="audience">
+      <identifier scheme="archive-org">gd87-06-30.schoeps.ladner.8577.sbeok.shnf</identifier>
+      <lineage>AUD (mic. unk) &gt; DAT &gt; CDR &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kingswood Music Theater on 1987-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-0778a2777bcba62138c6" kind="unknown">
+      <identifier scheme="other">etree-602740</identifier>
+      <note>Supplied catalogue listing: etree; gd87-06-30.141896.sbd-UltraMatrix.cm.miller.t-falc16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-e934ccb8353538ef2b51" kind="unknown">
+      <identifier scheme="other">etree-599365</identifier>
+      <note>Supplied catalogue listing: etree; gd1987-06-30.141896.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

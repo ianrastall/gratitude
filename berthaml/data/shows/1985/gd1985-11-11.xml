@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-11-11" date="1985-11-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19851111-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-876" nameAsBilled="Meadowlands Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-walking-the-dog" transition="segue"/>
+      <performance id="p01-02" song="s-deal" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-althea" transition="unknown"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-06" song="s-big-river" transition="unknown"/>
+      <performance id="p01-07" song="s-bird-song" transition="segue"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-09" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-dear-mr-fantasy" transition="segue"/>
+      <performance id="p02-08" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-09" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-e56578f53c94b3dbc8c3" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.126730.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (2) audio technica atm 11/ (2) nakamichi 300&gt; tcd-d5&gt; mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-37bb3514d908b6065a71" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-11.143073.sbd.cole.miller.tobin.pp.flac1644</identifier>
+      <lineage>Remastered &amp; Patched &amp; Pitch Corrected Soundboard - SBD:(original shnid = 14862) Lineage: SBD&gt;CM&gt;DAT&gt;DAT&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;CE2K&gt;shntool&gt;mkwACT(seekable) Editing: SHN&gt;WAV&gt;CE2K&gt; shntool&gt;mkwACT Transfer by Ken Doughty. Editing by Matt Cole Seeded by JBGoode4 - remastered by Charlie Miller with pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Kevin Tobin and Matt Cole</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e6cb8c6cc8d7ede97d83" kind="matrix">
+      <identifier scheme="archive-org">gd1985-11-11.143074.mtx.tobin.flac1644</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid = 14862) | SBD&gt;CM&gt;DAT&gt;DAT&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;CE2K&gt;shntool&gt;mkwACT(seekable) Editing: SHN&gt;WAV&gt;CE2K&gt; shntool&gt;mkwACT Transfer by Ken Doughty. Editing by Matt Cole Seeded by JBGoode4 + AUD (shnid = 19303) Schoeps CMC441 (FOB, 90deg, 17cm) &gt; Oade M118 &gt; Oade modSONY PCM-F1; Transfer: PCM &gt; DAT &gt; DAW &gt; DSP (see notes) &gt; DataCD (mkw) &gt; HD &gt; SFXP4.5 &gt; CDWave v1.6 &gt; mkwACT0.97b (SHN); taped and transferred by Doug Oade; Fades, track cuts, WAV &gt; SHN conversion &amp; verification done by dwonk; seeded by macdaddy via BT - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3825fd23d7f6627ff658" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-11.143075.dts.tobin.flac1644</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix; - SBD (shnid = 14862) | SBD&gt;CM&gt;DAT&gt;DAT&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;CE2K&gt;shntool&gt;mkwACT (seekable) Editing: SHN&gt;WAV&gt;CE2K&gt; shntool&gt;mkwACT Transfer by Ken Doughty. Editing by Matt Cole Seeded by JBGoode4 + AUD (shnid = 19303) Schoeps CMC441 (FOB, 90deg, 17cm) &gt; Oade M118 &gt; Oade modSONY PCM-F1; Transfer: PCM &gt; DAT &gt; DAW &gt; DSP (see notes) &gt; DataCD (mkw) &gt; HD &gt; SFXP4.5 &gt; CDWave v1.6 &gt; mkwACT0.97b (SHN); taped and transferred by Doug Oade; Fades, track cuts, WAV &gt; SHN conversion &amp; verification done by dwonk; seeded by macdaddy via BT - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a81209c5295a876e4437" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-11.143076.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 14862) | SBD&gt;CM&gt;DAT&gt;DAT&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;CE2K&gt;shntool&gt;mkwACT (seekable) Editing: SHN&gt;WAV&gt;CE2K&gt; shntool&gt;mkwACT Transfer by Ken Doughty. Editing by Matt Cole. Seeded by JBGoode4 + AUD (shnid = 19303) Schoeps CMC441 (FOB, 90deg, 17cm) &gt; Oade M118 &gt; Oade modSONY PCM-F1; Transfer: PCM &gt; DAT &gt; DAW &gt; DSP (see notes) &gt; DataCD (mkw) &gt; HD &gt; SFXP4.5 &gt; CDWave v1.6 &gt; mkwACT0.97b (SHN); taped and transferred by Doug Oade; Fades, track cuts, WAV &gt; SHN conversion &amp; verification done by dwonk; seeded by macdaddy via BT - surround mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-19b7cc13e13ee17023cd" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-11.152047.senn441.lamarre.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Recorded by Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Floor, Section B, Row 1, Seat 9); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-85a8b5ad52b75a2a5dc3" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-11.152048.senn441.lamarre.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Recorded by Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Floor, Section B, Row 1, Seat 9); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-16b8388b0e86a27b6736" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.165377.sbd.patched.pc.shnid14862.clugston.flac16</identifier>
+      <lineage>This is a patched, pitch corrected and remastered version of shnid14862</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Aren on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Remastered by Scott Clugston June 2023</note>
+    </recording>
+    <recording id="r-770363018317ac1e88ac" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-11.165384.beyer.m160.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-106cb5d054e326304224" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-11.165385.beyer.m160.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8fb30d7722073b36ff43" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.178993.senn.441.strizak.flac2448</identifier>
+      <credit role="recordist">Tom Strizak</credit>
+      <lineage>Tom Strizak’s Master Analog Cassettes: (2) Senn. 441’s @ approx. 7’ high standard stereo configuration &gt; Sony TC-D5M (2 Fugi -FR90 Metal/Dolby-B). Location: Tapers Section at back of Arena bleachers 5th or 6th row up from floor, just R of FOH center. | Analog Master Cassette &gt; playback on Harmon Kardon TD-262 Ultra Wideband Linear Phase) &gt; Behringer XR-18 digital audio mixer &gt; Reaper *DAW (master digitization @ 24 bit 48Khz Exported@ -14LUFS &gt; WAV file &gt; Imported to Audacity *DAW (for track labeling, audio edits, and file conversion to Tracked and Labeled FLAC fileset) (*DAW = Digital Audio Workstation)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tom Strizak</note>
+    </recording>
+    <recording id="r-d5cc97f5b7a57592bbe7" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.aud.morris.106809.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell MX 90) Taper Section 5, Row O, Seat 14 | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-8ef4df6f4c766830f935" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.cpb.retransfer.32639.sbeok.flac16</identifier>
+      <credit role="recordist">Charles Bandrofcheck</credit>
+      <lineage>Do not remember the mics exception that they had shotgun characteristics &gt; Sony D6 &gt; Maxell MX 90's, located first right hand seat of taper section 12" stand. | Playback on Marantz SD 4050 &gt; Marantz Intergrated Stereo Amp MP-68 &gt; SBLive! &gt; CDWave &gt; WAV &gt; mkwAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charles Bandrofcheck</note>
+    </recording>
+    <recording id="r-bd15921faed6399e62a5" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-11.fob.senn441.mccue.LMPP.94621.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue</credit>
+      <lineage>(FOB) 2 x Sennheiser 441 &gt; Sony D5 &gt; Maxell XLII-S 90(Set I) and TDK MA-R90(Set II). Mic Config: forehead level, PAS. Location: FOB, 26th row, ROC | Master Audience Cassettes&gt; Nakamichi Dragon&gt; Kind Kables RCA/XLR&gt; Lunatec V3(@ 24/96)&gt; coax&gt; Audiophile 2496&gt; WaveLab 5.0&gt; .wav @ 24/96&gt; Waves L3 UltraMaximizer&gt; .wav @ 16/44.1&gt; CD Wave Editor&gt; Trader's Little Helper&gt; FLAC16.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1985-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-49afeabc63c739aae465" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-11.fob.senn441.mccue.tetzeli-pitch.95245.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue</credit>
+      <lineage>(FOB) 2 x Sennheiser 441 &gt; Sony D5 &gt; Maxell XLII-S 90(Set I) and TDK MA-R90(Set II) | Master Audience Cassettes&gt; Nakamichi Dragon&gt; Kind Kables RCA/XLR&gt; Lunatec V3(@ 24/96)&gt; coax&gt; Audiophile 2496&gt; WaveLab 5.0&gt; .wav @ 24/96&gt; Waves L3 UltraMaximizer&gt; .wav @ 16/44.1&gt; CD Wave Editor&gt; Trader's Little Helper&gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1985-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-bf06413e43544aaaf35a" kind="matrix">
+      <identifier scheme="archive-org">gd1985-11-11.mtx.seamons.95966.sbeok.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-51c899076a283d850cac" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.nak-cm304-beyerM101.79719.sbeok.flac16</identifier>
+      <credit role="recordist">Tony Suraci</credit>
+      <lineage>Nakamichi CM304's + Beyer M101&gt;Sony Mixer&gt;Sony D5M *OTS Floor Section 5, Stand at 9 Feet | Nak CR5A&gt;Lunatec V3(analog out)&gt;722@24/96 &gt; Adobe Audition 2.0 dither and resample 16Bit&gt;Cdwav/tracking&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1985-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-ec1f431f3039ff004ba9" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.nak300.damico.87540.sbeok.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>nak 300 mics &gt; sony d-6 &gt; mac | mac &gt; nak dragon tape deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-af6b93cd02caa4089581" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.nak300.mandel.33584.sbeok.shnf</identifier>
+      <credit role="recordist">Brian Mandel</credit>
+      <lineage>Nakamichi 300 Shotguns CP4's &amp; Sony TCD5M | Master Casssette Transfer: Nakamichi BX300-&gt; Macintosh -&gt;Peak Bias-&gt;JAM-&gt;cdr-&gt;EAC-&gt;MKW-&gt;shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brian Mandel</note>
+    </recording>
+    <recording id="r-ea2eaac34d3eec8a4fa1" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-11.nak300.morris.114679.flac24</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell MX 90) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits) &gt; flac24; Recorded from Taper Section 5, Row O, Seat 14 by Bob Morris</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-bfd81597501c7e3d2897" kind="audience">
+      <identifier scheme="archive-org">gd85-11-11.aud.oade.19303.sbeok.shnf</identifier>
+      <lineage>Schoeps CMC441 (FOB, 90deg, 17cm) &gt; Oade M118 &gt; Oade modSONY PCM-F1 | PCM &gt; DAT &gt; DAW &gt; DSP (see notes) &gt; DataCD (mkw) &gt; HD &gt; SFXP4.5 &gt; CDWave v1.6 &gt; mkwACT0.97b (SHN); taped and transferred by Doug Oade; Fades, track cuts, WAV &gt; SHN conversion &amp; verification done by dwonk; seeded by macdaddy via BT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-e915551ef2942a302ffe" kind="audience">
+      <identifier scheme="archive-org">gd85-11-11.naks.cohen.17960.sbeok.shnf</identifier>
+      <credit role="recordist">Mark Cohen</credit>
+      <lineage>Audience analog cassette master 2 Nakamichi cm-700's &gt; Sony tc-d5M(dolby b) | MAC &gt; CDR &gt; WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Anne Cohen.</note>
+    </recording>
+    <recording id="r-505d9bf2344cc771a26f" kind="soundboard">
+      <identifier scheme="archive-org">gd85-11-11.sbd.doughty.14862.sbeok.shnf</identifier>
+      <lineage>Lineage:SBD&gt;CM&gt;DAT&gt;DAT&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;CE2K&gt;shntool&gt;mkwACT(seekable)Editing: SHN&gt;WAV&gt;CE2K&gt; shntool&gt;mkwACT Transfer by Ken Doughty. Editing by Matt Cole. Seeded by JBGoode4 | SBD&gt;CM&gt;DAT&gt;DAT&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;CE2K&gt;shntool&gt;mkwACT(seekable)Editing: SHN&gt;WAV&gt;CE2K&gt; shntool&gt;mkwACT Transfer by Ken Doughty. Editing by Matt Cole. Seeded by JBGoode4</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-61eb38098c7068c6f508" kind="unknown">
+      <identifier scheme="archive-org">gd85-11-11.schoeps-set2.barbella.12083.sbeok.shnf</identifier>
+      <lineage>Schoeps CMC 341's&gt; Master Cassette &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1985-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

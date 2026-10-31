@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-12-30" date="1983-12-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19831230-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-617" nameAsBilled="San Francisco Civic Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-05" song="s-big-river" transition="unknown"/>
+      <performance id="p01-06" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-07" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-08" song="s-brown-eyed-women" transition="segue"/>
+      <performance id="p01-09" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-10" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p02-02" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-03" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-mind-left-body-jam" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-705effe228e5c239ae85" kind="unknown">
+      <identifier scheme="archive-org">gd1983-12-30.112281.Sennheiser421.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Sennheiser 421 microphones (up front-center) &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-1582e13ab46576409d35" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.134895.Nak300CP4.Hill.Keo.Flac1644</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Unknown Number Of Decks Patched Out Of &gt; Sony TC-D5M, Tapes:Maxell UDXLII 90's, Tapes Labelled: Nak 300's With Gun's Pointed High; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.0.4 To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-200e22756e13e718d081" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.134896.Nak300CP4.Hill.Keo.Flac2496</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Unknown Number Of Decks Patched Out Of &gt; Sony TC-D5M, Tapes:Maxell UDXLII 90's, Tapes Labelled: Nak 300's With Gun's Pointed High; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.0.4 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-901e7e7e931fb8eafc57" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.137665.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; sennheiser 441’s &gt; sony d5; maxell xl-IIS90’s, dolby b; nakamichi dragon/b &gt; benchmark adc1 @ 24/96; transferred - Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-94cc5ab4ef9abd068027" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.137666.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; sennheiser 441’s &gt; sony d5; maxell xl-IIS90’s, dolby b; nakamichi dragon/b &gt; benchmark adc1 @ 24/96; transferred - Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-ddae9d2cb08790c27eb0" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.151042.fob.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Recorded by Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Cassettes; Nakamichi 700 mics &gt; Sony D5M | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-e6f2abbcdcd05d09f7f0" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.151043.fob.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Recorded by Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Cassettes; Nakamichi 700 mics &gt; Sony D5M | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-7e1c148ece5ba9555c6a" kind="matrix">
+      <identifier scheme="archive-org">gd1983-12-30.158729.mtx.tobin.flac16</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6924b18fd38ea8430497" kind="unknown">
+      <identifier scheme="archive-org">gd1983-12-30.158730.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-deccd029197e0e875186" kind="unknown">
+      <identifier scheme="archive-org">gd1983-12-30.158731.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c3d492ce1d03c4947a79" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-12-30.169107.sbd.marcus.menke.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Steve Marcus</credit>
+      <lineage>Steve Marcus' Master Soundboard Cassettes &gt; Sony WM-D6C (Maxell MX-90) | Master Cassettes (Nakamichi CR-7A)&gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (24-bit/96k .wav) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
+    </recording>
+    <recording id="r-851f1161742bf7b73c9a" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-12-30.169108.sbd.marcus.menke.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Steve Marcus</credit>
+      <lineage>Steve Marcus' Master Soundboard Cassettes &gt; Sony WM-D6C (Maxell MX-90) | Master Cassettes (Nakamichi CR-7A)&gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (24-bit/96k .wav) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
+    </recording>
+    <recording id="r-6a772bcdef9c6036157c" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.176297.nak700.bradt.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bill Bradt</credit>
+      <lineage>Bill Bradt's Master Audience Cassettes: Nakamichi 700 mics &gt; dbx223 &gt; Sony D5M (TDK MA-90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2026 (DDi codec) &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dd0258311179bffe7882" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.176298.nak700.bradt.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bill Bradt</credit>
+      <lineage>Bill Bradt's Master Audience Cassettes: Nakamichi 700 mics &gt; dbx223 &gt; Sony D5M (TDK MA-90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2026 (DDi codec) &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-72829a481bc33caa45da" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.176813.akg.se5.wiseman.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassettes (Nakamichi BX-150) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-909baef82ac23c4bae33" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.176814.akg.se5.wiseman.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassettes (Nakamichi BX-150) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3cd7b19530b03005a27f" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.nak304.mikeg-suraci.77321.sbeok.flac16</identifier>
+      <credit role="recordist">Mike G. and Tony Suraci</credit>
+      <lineage>Nakamichi CM304's(pointed at stacks)&gt;Sony D5M(Maxell UDXLII's) Location: FOB/Right of Center/Stand at 8 Feet | Sony D5Pro&gt;Lunatec V3(analog out)&gt;722@24/96 Editing: Adobe Audition 2.0 dither and resample 16Bit&gt;Cdwav/tracking&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-3bba86e8b85b503b5527" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-12-30.sbd.walker-scotton.miller.32513.sbeok.flac16</identifier>
+      <credit role="recordist">Joani Walker</credit>
+      <lineage>SBD -&gt; Cassette Master (Nakamichi 550/Maxell XLIIS-90) | Cassette Master (Sony TC-WE475) -&gt; Sony R500 (Pass Through) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-b5cf1f70e935ae93f31c" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-12-30.sbd.walker-scotton.miller.96181.sbek.flac16</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master (Nakamichi 550/Maxell XLII-S90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Center on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-dc16034ff16df0545bce" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.sen441.andrewf.109129.flac2496</identifier>
+      <lineage>AUD: Sennheiser MD-441's &gt; patched out of Nak 550 &gt; Marantz PMD-340 &gt; Sony UCX-S 90's. FOB 25 feet from stage in center. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab 2496 &gt; CD-Wave &gt; TLH &gt; FLAC 2496 Tagged. Taped and transferred by Andrew F. 07/2010</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-79a923189bbf0e636e42" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.sen441.andrewf.109130.flac1644</identifier>
+      <lineage>AUD: Sennheiser MD-441's &gt; patched out of Nak 550 &gt; Marantz PMD-340 &gt; Sony UCX-S 90's. FOB 25 feet from stage in center. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab 2496 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 Tagged. Taped &amp; transferred by Andrew F. 07/2010</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-1a6dc1aec8077250cf97" kind="audience">
+      <identifier scheme="archive-org">gd1983-12-30.senn441.andrewf.30072.sbeok.flac16</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>MD-441 mics &gt; Marantz PMD-340 cassette deck Taped onto Sony UC-XS 90 cassette tape with Dolby On Set up FOB aprx 25 feet from stage, mics on 8-foot stand | Master Cassette &gt; Sony TC-D5M &gt; Marantz CDR-500 &gt; CDR &gt; EAC &gt; WavMerge &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Auditorium on 1983-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-9a848075b04b25b0a6e7" kind="soundboard">
+      <identifier scheme="archive-org">gd83-12-30.sbd.dodd.10280.sbeok.shnf</identifier>
+      <lineage>SBD&gt;MC&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1983-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

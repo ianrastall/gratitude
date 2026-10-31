@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-12-31" date="1988-12-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19881231-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-let-the-good-times-roll" transition="unknown"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-04" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-05" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-06" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-07" song="s-cassidy" transition="segue"/>
+      <performance id="p01-08" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-sugar-magnolia" transition="segue"/>
+      <performance id="p02-02" song="s-touch-of-grey" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-08" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p02-09" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-10" song="s-morning-dew" transition="segue"/>
+      <performance id="p02-11" song="s-sunshine-daydream" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-wharf-rat" transition="segue"/>
+      <performance id="p03-02" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p03-03" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-85a6b244ec95d555c7ab" kind="matrix">
+      <identifier scheme="archive-org">gd1988-12-31.136731.pre-fm.GEMS.flac16</identifier>
+      <credit role="recordist">PO and Stucco TINA Holmes</credit>
+      <lineage>Healy Matrix pre-fm -&gt; Beta; Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; Audition CC 2015 Mastering by Jason Chastain; tracking with Audacity-&gt; flac level 8-&gt;tagged with Tag&amp;Rename and checksums with TLH by Norm; 16 bit 44.1kHz a project **GEMS**</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): Jason Chastain;Norm</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-f573fb0f0cfd1db452a0" kind="audience">
+      <identifier scheme="archive-org">gd1988-12-31.138904.s1.schoeps-cmc4-mk4.gastwirt.miller.sirmick.sbeok.flac16</identifier>
+      <credit role="recordist">Rich Gastwirk</credit>
+      <lineage>Set 1 Source: Audience recording &gt; Schoeps cmc4 mk4 &gt; Oade modified Panasonic SV-255 &gt; Dat (44.1k); Recorded by Rich Gastwirt; Transfer: Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/44.1; Transfered by Charlie Miller; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick July 2017</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-340ace2ca52b6052ea71" kind="matrix">
+      <identifier scheme="archive-org">gd1988-12-31.140702.ultramatrix.sbd.pcm.miller.flac1644</identifier>
+      <lineage>UltraMatrix SBD &gt; PCM Master (Sony F1/Sony PRO-XL500) | PCM Master (Sony SL-10) &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt;Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e81e250a8be5ecbcb0a6" kind="unknown">
+      <identifier scheme="archive-org">gd1988-12-31.149469.nak300-cp4.boedicker.flac1644</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source:Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony WM-D6C Cassette Deck&gt;3 TDK SA-X 90 Minute Master Cassette Tapes&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper.Taped By Dave Boedicker,Official Taper Section.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-c74fb24f20f2ba48ee6f" kind="matrix">
+      <identifier scheme="archive-org">gd1988-12-31.152286.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD (Broadcast Mix) &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 19, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-acba8a2f8446b7557241" kind="matrix">
+      <identifier scheme="archive-org">gd1988-12-31.152583.UltraMatrix.sbd.cm.miller.t.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD (Broadcast Mix) &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 19, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-d54b462121f4ef5ff71b" kind="fm">
+      <identifier scheme="archive-org">gd1988-12-31.168751.FM.KFOG.ont.flac1644</identifier>
+      <credit role="recordist">OldNeumanntapr</credit>
+      <lineage>KFOG FM Broadcast; Marantz Receiver &gt;Sony WM-D6C [XLIIS / MX 90s] | Cassette Masters Transferred Via Denon DR-M12HR &gt;Tascam DR100mkII (24bit/48kHz) WAV &gt;Audacity (Amplify, Track Splits, Down Sample To 16bit/44.1kHz, Minor Edits [Tape Flips] &amp; Fades) &gt;Fix SBEs &gt;FLAC (Level 8) + Tags Via xACT 2.53 Tape 1 - Maxell XLIIS 90 Tape 2 - Maxell MX 90</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
+    </recording>
+    <recording id="r-7842487c5d5aef94d4f7" kind="fm">
+      <identifier scheme="archive-org">gd1988-12-31.sbd-fm.holtz.lmpp.97786.sbeok.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>fm &gt; Sony Walkman Fm stereo receiver &gt; Marantz PMD-431 (probably) &gt; mac | mac &gt; Nakamichi ZX-7 &gt; Tascam HD-P2 &gt; wav 24/96 &gt; Adobe Audition &gt; Wavelab with iZotope Ozone 4 &gt; iZotope RX Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; TLH &gt; Flac 16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Brian Green and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c62b320b7e42ccc2b313" kind="soundboard">
+      <identifier scheme="archive-org">gd1988-12-31.sbd.walker-scotton.miller.85966.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MAX-G90) D | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-ef82179babaa6577dc4f" kind="soundboard">
+      <identifier scheme="archive-org">gd88-12-31.matrix.ashley-bertha.9396.sbeok.shnf</identifier>
+      <lineage>Jay Ashley (Bertha) Remaster of Healy SBD Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+    <recording id="r-6bc6afa92d9f404a06b5" kind="soundboard">
+      <identifier scheme="archive-org">gd88-12-31.matrix.unknown.3189.sbeok.shnf</identifier>
+      <lineage>Healy Mix (SBD+AKG C 424b mic)&gt; PCM&gt; DAT&gt; DALCardDeluxe&gt; WAV&gt; CD&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1988-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+    <recording id="r-765d365aa2489e1d3bb1" kind="unknown">
+      <identifier scheme="other">etree-612851</identifier>
+      <note>Supplied catalogue listing: etree; gd1988-12-31.152583.UltraMatrix.sbd.cm.miller.t.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-e7fda3d5ddbfce9d0744" kind="unknown">
+      <identifier scheme="other">etree-597428</identifier>
+      <note>Supplied catalogue listing: etree; gd1988-12-31.140702.UltraMatrixSBD.PCM-Master.miller.flac16 (NEW). Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

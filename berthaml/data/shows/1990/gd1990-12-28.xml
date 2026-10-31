@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-12-28" date="1990-12-28">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19901228-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-04" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-05" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-06" song="s-victim-or-the-crime" transition="segue"/>
+      <performance id="p01-07" song="s-foolish-heart" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-black-muddy-river" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-d9d0caae385198028656" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-28.116114.NeumannKMF4.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>source: 2 Neumann KMF4 microphones &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-90960e44dab125d7b815" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-28.136762.dusio.flac16</identifier>
+      <credit role="recordist">Chris Dusio</credit>
+      <lineage>flac16: Recorded by Chris DusioAT835's&gt;SonyD6&gt;That's Metal Cassette&gt;ZoomF8&gt;Audacity</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Dusio</note>
+    </recording>
+    <recording id="r-5ffcfad908c79fc14eb6" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-28.138057.BK4011.Schoeps.Darroch.Katzeff.Ammons.flac1648</identifier>
+      <credit role="recordist">Rob Darroch;Rick Katzeff;John Ammons</credit>
+      <lineage>flac16/48kHz ; Set I: B&amp;K 4011 &gt; Schoeps T-bar @ 100 degrees ORTF &gt; ProLink Cables &gt; Mod Neumann PS &gt; Panasonic SV255; hand held by Rob Darroch; Set 2: Schoeps CMC 34 &gt; Schoeps T-bar @ 100 degrees ORTF &gt; MIT Cables &gt;Oade PS &gt; Panasonic SV250; with stand through drums; hand held by Rick Katzeff from Space; | Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optcal) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave by John Ammons; Wave &gt; Audacity &gt; labeled &gt; patched &gt; export multiple &gt; flac 16/48 (level 8); Checksum &amp; tags created in xACT; Tracking, patch, checksum &amp; tags by Joe Noel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-0894a0b2d63f3bef6963" kind="matrix">
+      <identifier scheme="archive-org">gd1990-12-28.140147.sbd.miller.flac2496</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; Adobe Audition CC2015 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7af46a61545804ac918c" kind="matrix">
+      <identifier scheme="archive-org">gd1990-12-28.140247.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; Adobe Audition CC2015 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-32dd378e2a79e64f3189" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-28.168850.nakcm300.cp4.ont.flac1644</identifier>
+      <credit role="recordist">OldNeumanntapr</credit>
+      <lineage>Set 1: Nakamichi CM 300x3; Two CP 4 Shotguns + 1 CP 1 Cardioid &gt;Boss BX4 Mixer &gt;Sony WM-D6C [MX 90] Set 2: Nakamichi CM 300 CP4 Shotguns &gt;Sony TC-153SD [XLIIS 100] | Cassette Masters Transferred Via Denon DR-M12HR &gt;Tascam DR100mkII (24bit/48kHz) WAV &gt;Audacity (Amplify, Track Splits, Down Sample To 16bit/44.1kHz, Minor Edits [Tape Flips] &amp; Fades) &gt;Fix SBEs &gt;FLAC (Level 8) + Tags Via xACT 2.53</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
+    </recording>
+    <recording id="r-bcf0fdda43730dc6f3c5" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-28.s1.127432.nak300.bowen.flac16</identifier>
+      <credit role="recordist">Jeff Bowen</credit>
+      <lineage>Source: Nakamichi CM-300x3; Two CP-4 Shotguns + One CP-1 Cardioid &gt; Boss BX-4 Mixer &gt; Sony WM-D6C (MX-S 90) | MX-S 90 Master Transferred: Sony TC-D5M &gt; HHb CDR 800 PRO &gt; CD Master &gt; FLAC (Level 8) Via xACT 2.25</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1990-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Bowen</note>
+    </recording>
+    <recording id="r-4177e4c737ec4c637750" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-12-28.sbd.miller.114440.flac16</identifier>
+      <lineage>SBD -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5d7010de428b15966fab" kind="soundboard">
+      <identifier scheme="archive-org">gd90-12-28.sbd-matrix.wiley.11498.sbeok.shnf</identifier>
+      <lineage>(Healy Mix)SBD&gt;??&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Coliseum Arena on 1990-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

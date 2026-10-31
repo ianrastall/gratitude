@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-05-11" date="1981-05-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810511-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-671" nameAsBilled="New Haven Coliseum Veterans Memorial Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-minglewood-blues" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="segue"/>
+      <performance id="p01-03" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-04" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-05" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-06" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-07" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-08" song="s-althea" transition="unknown"/>
+      <performance id="p01-09" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-10" song="s-supplication" transition="segue"/>
+      <performance id="p01-11" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p02-04" song="s-to-lay-me-down" transition="unknown"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-10" song="s-china-doll" transition="segue"/>
+      <performance id="p02-11" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-12" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-satisfaction" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-cc92cac037aef11a30f9" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.136746.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; arista mics &gt; sony d5; maxell xl-II90’s, dolby b; behind the stage speakers; nakamichi dragon/b &gt; benchmark adc1 24/96; transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-831188caa74af7bc7786" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.136747.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; arista mics &gt; sony d5; maxell xl-II90’s, dolby b; behind the stage speakers; nakamichi dragon/b &gt; benchmark adc1 24/96; transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-ac04456e4ae5e6374e80" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.139881.fob.nak700.streeter.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source Info: Frank Streeter's Master FOB Audience Cassette; Nakamichi CM700 mics &gt; Sony TC-D5M (TDK MA90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0&gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-56499697cb176e77ffa3" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.139882.fob.nak700.streeter.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source Info: Frank Streeter's Master FOB Audience Cassette; Nakamichi CM700 mics &gt; Sony TC-D5M (TDK MA90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0&gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-95ff5344fe95c4d530a0" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.149196.fob.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Audience Cassette; Nakamichi CM700 mics &gt; Sony TC-D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-c61e4407aa10c3ac9855" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.149197.fob.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Audience Cassette; Nakamichi CM700 mics &gt; Sony TC-D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-2713ce4047b6cc9d9c13" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-05-11.175164.sbd.miller.remaster.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; Reel &gt; DAT | Transfer Info: DAT (Sony PCM-R500) &gt; SEK'D Prodif Plus &gt; Samplitude Pro v7.02 &gt; FLAC/16 Patch Info: Dead.net Tapers Section supplies: To Lay Me Down (complete track) Remastering Info: FLAC &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1981-05-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 18, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4e17a442c66e96977c05" kind="matrix">
+      <identifier scheme="archive-org">gd1981-05-11.mtx.seamons.107252.flac16</identifier>
+      <lineage>Matrix using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cb4f1df882018426cd26" kind="unknown">
+      <identifier scheme="archive-org">gd1981-05-11.nak300.chasingwilma.118959.sbeok.flac16</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>(2) Nakamichi 300&gt; D-5 | Sony Tc We435&gt; Soundcard&gt; Cdwave 44100/Stereo/16 Bit&gt; Traders Little Helper Encoding Option 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-70958bd692f6cbf6326d" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.nak300.friend.andrewf.102085.flac24</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>AUD: 3x Nakamichi CM-300 w/CP-1 cardioids &gt; Nakamichi 550 &gt; Maxell XL-II 90's. Mics handheld, recorded from left side stage right) first-level riser, about half way back. Taped by Tim Friend. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave &gt; TLH &gt; FLAC 2448 Tagged. Transfer by Andrew F. 10/09</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-271b32abc02d5524ef74" kind="audience">
+      <identifier scheme="archive-org">gd1981-05-11.nak300.friend.andrewf.102086.flac16</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>AUD: 3x Nakamichi CM-300 w/CP-1 cardioids &gt; Nakamichi 550 &gt; Maxell XL-II 90's. Mics handheld, recorded from left side (stage right) first-level riser, about half way back. Taped by Tim Friend. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave &gt; R8Brain &gt; TLH &gt; FLAC 1644 Tagged. Transfer by Andrew F. 10/09</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-bbd85996b911b27423cc" kind="audience">
+      <identifier scheme="archive-org">gd81-05-11.aud.unknown.4142.sbefail.shnf</identifier>
+      <lineage>Audience Recording | FOB master audience cassette &gt; 48k dats &gt; delta dio 2496 &gt; cooledit2000 &gt; wav &gt; shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-d5301d7e7ca54f9be7ec" kind="audience">
+      <identifier scheme="archive-org">gd81-05-11.nak300-mow.ford.28355.sbeof.flac</identifier>
+      <credit role="recordist">Doug Mow</credit>
+      <lineage>Audience Recording: 2 Nak 300 shotguns &gt; Sony TC-D5M &gt; Maxell XLIIS tape (Jeff Silberman's guns on Howard Shame's bodies) | Sony D5 &gt; UA5 &gt; IBM R40/Win XP Pro/Sound Forge 5.0/CDR &gt; EAC &gt; WinXP Pro &gt; FLAC Frontend &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-47f9f535ff31375efad5" kind="soundboard">
+      <identifier scheme="archive-org">gd81-05-11.sbd.miller.30646.sbeok.flacf</identifier>
+      <lineage>Soundboard | SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1981-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

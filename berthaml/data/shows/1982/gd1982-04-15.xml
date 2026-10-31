@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-04-15" date="1982-04-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820415-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-candyman" transition="unknown"/>
+      <performance id="p01-04" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-06" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-07" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-08" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-09" song="s-althea" transition="unknown"/>
+      <performance id="p01-10" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-11" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-truckin" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4f975b16d9a2e14267a6" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.144633.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-II90's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-f50b5e45b0af3e53515b" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.144634.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-II90's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-c06e9a1d3f5d0a672455" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.155618.senn421.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b97bedc93bf4d3f2bb78" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.155619.senn421.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-639266e4bcfe0f4be40b" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.170751.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-6c2e597332922f3e14b0" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.170752.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-d2bb04e5ea890dcfd3bb" kind="unknown">
+      <identifier scheme="archive-org">gd1982-04-15.171541.5-1SS.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a39ff93ed57cdcccb635" kind="matrix">
+      <identifier scheme="archive-org">gd1982-04-15.171550.mtx.tobin.flac1648</identifier>
+      <lineage>AUD + AUD Matrix 3 Source Mix (48/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-99af0a6680c904251bd1" kind="unknown">
+      <identifier scheme="archive-org">gd1982-04-15.171662.dts.tobin.flac1648</identifier>
+      <lineage>DTS Audio 5.1 Mix (16/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3d31cbb949b31f5d63f8" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.nak300.friend.andrewf.106526.flac24</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>3x Nakamichi CM300/CP1's &gt; Nakamichi 550 &gt; Maxell XLII-S. Mics on stand, FOB floor, right center. F | MAC &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave &gt; TLH &gt; FLAC 2448 Tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-7eef0cb3749e01a8b276" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.nak300.friend.andrewf.106527.flac16</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>3x Nakamichi CM300/CP1's &gt; Nakamichi 550 &gt; Maxell XLII-S. Mics on stand, FOB floor, right center. | MAC &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave &gt; R8Brain &gt; TLH &gt; FLAC 1644 Tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-ca3afcd6660ebe9d2b83" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.set2.sonyECM220t.kirschner.miller.95434.sbeok.flac16</identifier>
+      <credit role="recordist">Michael Kirschner</credit>
+      <lineage>(FOB/13th Row) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Sony FeCr90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6bcf90fbe1ead6d31094" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-15.set2.sonyECM220t.kirschner.miller.95435.sbeok.flac24</identifier>
+      <credit role="recordist">Michael Kirschner</credit>
+      <lineage>(FOB/13th Row) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Sony FeCr90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.1 -&gt; FLAC/24 (1 DVD FLAC)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-de1b9db245b5d70839d5" kind="audience">
+      <identifier scheme="archive-org">gd82-04-15.nak700.glyde.11930.sbeok.shnf</identifier>
+      <lineage>Audience Recording: Nak 700's | AUD(NAK 700's)&gt;MC&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1982-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

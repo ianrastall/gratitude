@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-10-19" date="1981-10-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19811019-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-827" nameAsBilled="Palau dels Esports de Barcelona"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-loser" transition="unknown"/>
+      <performance id="p01-06" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-passenger" transition="unknown"/>
+      <performance id="p01-09" song="s-althea" transition="segue"/>
+      <performance id="p01-10" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-04" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-spanish-jam" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-660c6d0290293a157c1d" kind="audience">
+      <identifier scheme="archive-org">gd1981-10-19.119976.aud.Zappa.carbobueno.flac16</identifier>
+      <credit role="recordist">Zappa</credit>
+      <lineage>flac16: recording: aud master recording | master analog tape SONY low noise 90 x 2 &gt; aiwa wx 220 &gt; audacity&gt; cd wave ed.&gt;TLH&gt; flacequipment: unknownrecorded : by Zappa edited by carbobueno</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Palace on 1981-10-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): carbobueno</note>
+    </recording>
+    <recording id="r-018b09de03cb06b6066e" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-10-19.131465.stankiewicz.flac2496</identifier>
+      <credit role="recordist">Richie Stankiewicz</credit>
+      <lineage>Beyer M-160&gt;Sony TC-D5m; Transfer 1st set MAC&gt;Sony TC-K3es&gt;USBPre2; Transfer 2nd set 1st Gen&gt;Sony TC-K3es&gt;USBPre2; Recorded center directly in back of soundboard; Recorded and transfered By Richie stankiewicz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Palace on 1981-10-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Richie Stankiewicz</note>
+    </recording>
+    <recording id="r-d0666dc0782474eb132b" kind="matrix">
+      <identifier scheme="archive-org">gd1981-10-19.131801.mtx-fix.dusborne.flac16</identifier>
+      <lineage>2 source matrix by Dusborne; Soundboard (shnid:095781) Recording Info: SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat -&gt; CD -&gt; EAC -&gt; SHN; Transfer Info: SHN -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.1 -&gt; FLAC; and Audience (shnid:131465) Beyer M-160&gt;Sony TC-D5m; Transfer 1st set MAC&gt;Sony TC-K3es&gt;USBPre2; Transfer 2nd set 1st Gen&gt;Sony TC-K3es&gt;USBPre2; Recorded center directly in back of soundboard; Recorded and transferred By Richie stankiewicz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Palace on 1981-10-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/19/10-19-81-barcelona-spain-sports-palace/</note>
+    </recording>
+    <recording id="r-6dc06b819f3d86f1a5cc" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-10-19.sbd.miller.95781.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat -&gt; CD -&gt; EAC -&gt;SHN | SHN -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.1 -&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Palace on 1981-10-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/19/10-19-81-barcelona-spain-sports-palace/</note>
+    </recording>
+    <recording id="r-df3cfbca6e55da1b4378" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-10-19.stankiewicz.patched.131522.flac1644</identifier>
+      <credit role="recordist">Richie Stankiewicz</credit>
+      <lineage>Source: Beyer M-160&gt;Sony TC-D5M. Transfer 1st set: MAC &gt; Sony TC-K3es &gt; USBPre2. Transfer 2nd set: 1st Gen &gt; Sony TC-K3es &gt; USBPre2. Recorded center directly in back of soundboard. Recorded and transferred to 24bit/96kHz by Richie Stankiewicz. 16bit: ID-131465 &gt; TLH &gt; R8Brain &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Palace on 1981-10-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Richie Stankiewicz</note>
+    </recording>
+    <recording id="r-486dfd0bbfb2d20ed75e" kind="soundboard">
+      <identifier scheme="archive-org">gd81-10-19.sbd.macdonald.7914.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD: CM &gt; CASS &gt; DAT &gt; Pro CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Palace on 1981-10-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/19/10-19-81-barcelona-spain-sports-palace/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1992-03-16" date="1992-03-16">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19920316-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 44d1b39e1ad19cb4216f350210d1af46c8065421deaeaa31d0befdf75ae0aba8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-187" nameAsBilled="Spectrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-let-the-good-times-roll" transition="unknown"/>
+      <performance id="p01-02" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-03" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-04" song="s-c-c-rider" transition="segue"/>
+      <performance id="p01-05" song="s-it-takes-a-lot-to-laugh-it-takes-a-train-to-cry" transition="unknown"/>
+      <performance id="p01-06" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-07" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-08" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-corrina" transition="segue"/>
+      <performance id="p02-02" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-03" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-08" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-9e250e0426131a42dbf6" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-03-16.138163.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1967c9709f2aafbc4bfa" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-03-16.138167.sbd.miller.sbeok.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4b693c31a3f920b881e9" kind="audience">
+      <identifier scheme="archive-org">gd1992-03-16.139653.fob.akg.414.wise.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16/48kHz ; Source Info: Jim Wise's FOB Audience DAT&gt; AKG 414 &gt; Sony D10 Pro II; Transfer Info: DAT Master (Sony PCM-R500)&gt; Tascam DA-3000&gt; WAV (16-bit/48k)&gt; Adobe Audition 3.0&gt; TLH flac1648; Transfer by Charlie Miller; Mastered by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-c49eac6f53dce09b530a" kind="unknown">
+      <identifier scheme="archive-org">gd1992-03-16.147757.nak300.Boedicker.flac1644</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Nakamichi 300 Mics W/CP1 Cardioids&gt;Sony WM-D6C Cassette Master&gt;2 Maxell Metal Cassette Master Tapes(Sony MX-90 Minute 1st Set,MX-S 100 Minute Tape 2nd Set)&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt; Cd Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector BoundariesAligned Using Traders Little Helper.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-72a6c4e9c02659c0c7c9" kind="audience">
+      <identifier scheme="archive-org">gd1992-03-16.148408.fob.BK4011.ebel.flac16</identifier>
+      <lineage>FOB B&amp;K 4011-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-98e70c4cd1a68b2c829b" kind="audience">
+      <identifier scheme="archive-org">gd1992-03-16.148530.fob.BK4011.ebel.fixed.flac16</identifier>
+      <lineage>FOB B&amp;K 4011-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-07072614879f8d8aa041" kind="audience">
+      <identifier scheme="archive-org">gd1992-03-16.149240.fob.bk4011.ebel.fixed.flac16</identifier>
+      <lineage>FOB B&amp;K 4011-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-cc1e25b43e6435302a07" kind="audience">
+      <identifier scheme="archive-org">gd1992-03-16.155832.FOBSchoepsMasterDAT.BrotmanMetchickAnonNoel.t-flac1648</identifier>
+      <credit role="recordist">Recording by Dave Brotman &amp; Jeff Metchick</credit>
+      <lineage>Recording info (Set I): FOB Schoeps CMC34 (ORTF) &gt; Tao Research &gt; M1000 cables &gt; Panasonic SV-255mod (16/48) &gt; Master DAT &gt; clone Recording info (Set II): FOB Schoeps CMC34 (ORTF) &gt; Tao Research &gt; M1000 cables &gt; Panasonic SV-255mod (16/48) &gt; Master DAT Location: 18th Row Center | Transfer: Master DAT &gt; Panasonic SV-3800 (spdif out) &gt; Digigram VX Pocket sound card &gt; Panasonic Toughbook (spdif in) &gt; Steinberg Nuendo &gt; WAV 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 17, 2022</note>
+    </recording>
+    <recording id="r-bdaadef2d8be09d52eb8" kind="unknown">
+      <identifier scheme="archive-org">gd1992-03-16.156985.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound (48k) mixed in Adobe Audition CC 2014</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-138a7d4666bb98879471" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-03-16.dts.tobin.122040.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix SBD (shn id 13571)SBD-&gt;DAT-&gt;?-&gt;Cas-&gt;CD-&gt;EAC-&gt;SHN via Dan + AUD1 (shn id 85338)Source: Schoeps CMC3/MK4 (ORTF) &gt; Oade mic power supply &gt; Casio DA-7 (lead deck) &gt; Coax SPDIF &gt; Casio DA-7 (first deck out) &gt; Sony DT-Dat tape. Mics on 7-foot stand in front row of OTS: | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC. Taped and transferred by Andrew F. + AUD2 (no shn id) Audience recording from Video soundtrack - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dbd2d63dce2e8a66bb84" kind="matrix">
+      <identifier scheme="archive-org">gd1992-03-16.mtx.tobin.122020.flac16</identifier>
+      <lineage>Matrix 3 Source Mix - SBD (shn id 13571)SBD-&gt;DAT-&gt;?-&gt;Cas-&gt;CD-&gt;EAC-&gt;SHN via Dan + AUD1 (shn id 85338)Source: Schoeps CMC3/MK4 (ORTF) &gt; Oade mic power supply &gt; Casio DA-7 (lead deck) &gt; Coax SPDIF &gt; Casio DA-7 (first deck out) &gt; Sony DT-Dat tape. Mics on 7-foot stand in front row of OTS: | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC. Taped and transferred by Andrew F. + AUD2 (no shn id) Audience recording from Video soundtrack - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1f86bb127485264c9cc6" kind="unknown">
+      <identifier scheme="archive-org">gd1992-03-16.schoeps.andrewf.85338.flac1648</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>Schoeps CMC3/MK4 (ORTF) &gt; Oade mic power supply &gt; Casio DA-7 (lead deck) &gt; Coax SPDIF &gt; Casio DA-7 (first deck out) &gt; Sony DT-Dat tape | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-58fc3440f2dbbc9b2e55" kind="unknown">
+      <identifier scheme="archive-org">gd1992-03-16.schoeps.andrewf.85423.sbeok.flac16</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>Schoeps CMC3/MK4 (ORTF) &gt; Oade mic power supply &gt; Casio DA-7 (lead deck) &gt; Coax SPDIF &gt; Casio DA-7 (first deck out) &gt; Sony DT-Dat tape. Mics on 7-foot stand in front row of OTS. | Master DAT &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; R8Brain v1.9 (downsample to 44.1kHz) &gt; TLH &gt; FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-0aeeb6cd62e4101a513c" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-03-16.upg-sbd.tobin.122021.flac16</identifier>
+      <lineage>SBD-&gt;DAT-&gt;?-&gt;Cas-&gt;CD-&gt;EAC-&gt;SHN via Dan - patched and speed corrected version of shnid 13571 by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8a0d0e4f280ce4048507" kind="soundboard">
+      <identifier scheme="archive-org">gd92-03-16.sbd.13571.sbefail.shnf</identifier>
+      <lineage>SBD-&gt;DAT-&gt;?-&gt;Cas-&gt;CD-&gt;EAC-&gt;SHN via Dan</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1992-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

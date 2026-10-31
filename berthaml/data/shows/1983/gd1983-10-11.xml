@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-10-11" date="1983-10-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19831011-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-02" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-07" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-08" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-04" song="s-bertha" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-china-doll" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-touch-of-grey" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-7a9790ee4ed6c3facb28" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.118673.atm11.chasingwilma.flac16</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (3)audio technica atm11 fob&gt; optimus&gt; d-5; conversion: sony tc we435&gt; soundcard&gt; cdwave 48000/stereo/16 bit&gt; traders little helper encoding option 8; conversion rate: 48000/stereo/16 bit; | (3)audio technica atm11 fob&gt; optimus&gt; d-5&gt; optimus&gt; d-5&gt; sony tc we435&gt; soundcard&gt; cdwave 48000/stereo/16 bit&gt; traders little helper encoding option 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-24af27561a02499166ee" kind="matrix">
+      <identifier scheme="archive-org">gd1983-10-11.120001.mtx.dusborne.flac16</identifier>
+      <lineage>2 source matrix: Soundboard Source(shnid=07372): SBD &gt; Cassette Master &gt; Dat x 2 &gt; CDR &gt; SHN and Audience Source (shnid=344): FOB Sennheiser 441's &gt; Technics PCM master &gt; DAT; | DAT &gt; ZA2 &gt; SoundForge</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): matrix by dusborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d79b9dea3d0d3b06d16a" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.122215.audio-technia.chaisingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (3)audio technica atm11 fob&gt; optimus&gt; d-5; conversion: sony tc we435&gt; sbm-1&gt;d-8&gt;sony pcm m-10 96khz/24bit&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit; Note : Filesets from this seeder have been flagged as suspect because they are thought to have mislabeled lineage and/or re-sampled at a high bitrate</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-8d3be1353ebae5ce217d" kind="matrix">
+      <identifier scheme="archive-org">gd1983-10-11.135250.mtx.v2.dusborne.flac16</identifier>
+      <lineage>2 Source Matrix by Dusborne; Soundboard(shnid:07372)SBD &gt; Cassette Master &gt; Dat x 2 &gt; CDR &gt; SHN; Audience (shnid:91124) Recording Info:(FOB) Sennheiser 441 + (1) Neumann U87 -&gt; Cassette Master (Nakamichi 550) -&gt; Dat (48k); Transfer Info: Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.02 -&gt; FLAC; Recorded By Rob Eaton,Transfers and Mastering By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
+    </recording>
+    <recording id="r-309e96af098385cf565f" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.135285.Unk-Hill.Keo.Flac1644</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; Unknown Mics &gt; Unknown Number Of Decks Patched Out Of &gt; Sony TC-D5M, Tapes:TDK MA 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.0.4 To 32/96 kHz Wave; Dithered/Flacked with Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-76f44147f52bd2c92fb4" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.135286.Unk-Hill.Keo.Flac2496</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; Unknown Mics &gt; Unknown Number Of Decks Patched Out Of &gt; Sony TC-D5M, Tapes:TDK MA 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.0.4 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-1d6fd675e3d69bdb40ae" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.137301.senn421.miller.flac24</identifier>
+      <lineage>(FOB) Sennheiser 421 &gt; Sony TC-D5M &gt; Cassette Master (Sony WM-D6 Patched) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-088d457dc058ac6bb161" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.137322.senn421.miller.flac16</identifier>
+      <lineage>(FOB) Sennheiser 421 &gt; Sony TC-D5M &gt; Cassette Master (Sony WM-D6 Patched) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3fc725a65cc6720ccaea" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-10-11.143046.beyer.m160.wise.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16/48kHz ; Jim Wise's Master Audience Cassettes; Beyer M160 mics &gt; Sony TC-D5 (Maxell UDXLII C90)(located at the soundboard)Transfer Info:Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496; 24-bit &gt; 16-bit via dBpoweramp</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-8a43904c2fe9e1d6709a" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-10-11.143047.beyer.m160.wise.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Jim Wise's Master Audience Cassettes; Beyer M160 mics &gt; Sony TC-D5 (Maxell UDXLII C90)(located at the soundboard) Transfer Info:Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-c432cd12a681a0f2895d" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-10-11.143258.senn421-beyer-m201.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew Kyle Holbrook Tom Pinney</credit>
+      <lineage>Master set 1: AUD MC Sennheiser 421's ORTF 10'up &gt; Sony TCD5M no dolby Maxell Metal90 (Third deck in line) Location set 1: 160 feet from stage, DFC (first row behind SBD) Master set 2: AUD MC Beyer M201's X-Y 9'up &gt; Sony TCD5M no dolby Konica Metal90 Location set 2: 165 feet from stage, 5 ft. ROC (2 rows behind SBD) | Nakamichi CR-5A (24/96) &gt; Tascam DR680|SD &gt; i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-6bef4a6cc5e6920496eb" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-10-11.143259.senn421-beyer-m201.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew Kyle Holbrook Tom Pinney</credit>
+      <lineage>Master set 1: AUD MC Sennheiser 421's ORTF 10'up &gt; Sony TCD5M no dolby Maxell Metal90 (Third deck in line) Location set 1: 160 feet from stage, DFC (first row behind SBD) Master set 2: AUD MC Beyer M201's X-Y 9'up &gt; Sony TCD5M no dolby Konica Metal90 Location set 2: 165 feet from stage, 5 ft. ROC (2 rows behind SBD) | Nakamichi CR-5A (24/96) &gt; Tascam DR680|SD &gt; i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-602c2b1e8a6410230936" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.143610.fob.nak700.cohen.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Cohen</credit>
+      <lineage>Mark Cohen's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 &gt; Sony D5 (patched out of Barry Glassberg) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition 3.01 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role unspecified.</note>
+    </recording>
+    <recording id="r-5fbba9c444dc2a621f5e" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.143611.fob.nak700.cohen.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Cohen</credit>
+      <lineage>Mark Cohen's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 &gt; Sony D5 (patched out of Barry Glassberg) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition 3.01 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role unspecified.</note>
+    </recording>
+    <recording id="r-de4e9a2beee193877846" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.148171.2nd.set.fob.akg.d330bt.senn421.hecht.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9d28dff730a51fad93aa" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.148172.2nd.set.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3270b0dd0e2087fa459a" kind="unknown">
+      <identifier scheme="archive-org">gd1983-10-11.152504.Beyer-M160-unknown-onemoreshot.shnf</identifier>
+      <lineage>2 Beyer M160&gt; Sony TCD5M Master Cassette&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-20f07e8dc02cad0368e8" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.163828.beyer.m88.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M88 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b9bebe4e5af359d75685" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.163829.beyer.m88.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M88 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c1788d2f61bc6958d73b" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-10-11.167345.senn441.neumann.u87.blend.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 mics + (1) Neumann U87 mic blend (mounted on soundboard) &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; ProTools 12 &gt; .wav 24/96 &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob, Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-755d52f9e3b5854b830d" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-10-11.167346.senn441.neumann.u87.blend.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 mics + (1) Neumann U87 mic blend (mounted on soundboard) &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; ProTools 12 &gt; .wav 24/96 &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-9f2abf1b71490e4cd542" kind="matrix">
+      <identifier scheme="archive-org">gd1983-10-11.168941.mtx.seamons.ht170.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (SHN &amp; FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) October 11, 2024</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+    </recording>
+    <recording id="r-ebfb897c86a8e08dfeb3" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.beyerM160.wise.miller.32644.sbeok.flac16</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Beyer M160 -&gt; Cassette Master (Sony D5) -&gt; CD | CD -&gt; EAC -&gt; Samplitude Professional v7.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/11/10-11-83-ny-ny-madison-square-garden/</note>
+    </recording>
+    <recording id="r-ba92c6df866b2df4132c" kind="unknown">
+      <identifier scheme="archive-org">gd1983-10-11.beyerm201.pinney.russjcan.103298.flac16</identifier>
+      <credit role="recordist">Tom Pinney</credit>
+      <lineage>Beyerdynamic M-201's xy 90 w/ Marantz CD-320 No nr Maxell XL II S 90 Recorded from directly in front of the board ,center | Master&gt;Nak CR-3A Audacity&gt;CDWave&gt;TLH</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Russ Cansler</note>
+    </recording>
+    <recording id="r-383d4e2429b9e34b506f" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.fob.atm11.chasingwilma.101949.sbeok.flac16</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>3 audio technica atm 11 &gt; sony d-5, FOB dead center | master cassette &gt; cd &gt; eac &gt; flac; sony tc-we435 &gt; philips cdr870 Tracked in CDwave, FLACd traders little helper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-85ac788e9c3ef3ad90b5" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.fob.atm11.chasingwilma.fix.102106.sbeok.flac16</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>Lineage: master cassette &gt; cd &gt; eac &gt; flac Recording Equipment : 3 audio technica atm 11 &gt; sony d-5; Recording Location: FOB dead center; Recorded By: chasingwilma; | sony tc-we435 &gt; philips cdr870; Tracked in CDwave, FLACd traders little helper; presumably a fix of source ID 101949</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-30e9be1eb0a5c5bb2b14" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-10-11.sbd.harrell.14525.shnf</identifier>
+      <lineage>SBD &gt; Cassette Master | Cassette Master &gt; Dat x 2 &gt; CDR &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dr. Goodseeds</note>
+    </recording>
+    <recording id="r-24b1f1eb2669d4317901" kind="audience">
+      <identifier scheme="archive-org">gd1983-10-11.senn441-u87.eaton.miller.91124.sbeok.flac16</identifier>
+      <lineage>(FOB) Sennheiser 441 + (1) Neumann U87 -&gt; Cassette Master (Nakamichi 550) -&gt; Dat (48k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
+    </recording>
+    <recording id="r-98381288fb1b1c9422f5" kind="soundboard">
+      <identifier scheme="archive-org">gd83-10-11.sbd.bertha-ashley.26459.sbeok.flacf</identifier>
+      <lineage>Soundboard (Bertha remaster) | SBD &gt; MC &gt; DAT x2 &gt; CDA &gt; SHN &gt; DAW (Bertha) &gt; CDA/SHN/FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jay Ashley</note>
+    </recording>
+    <recording id="r-76043a3f7d1786bb5126" kind="soundboard">
+      <identifier scheme="archive-org">gd83-10-11.sbd.braverman.7372.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; Cassette Master &gt; Dat x 2 &gt; CDR &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/11/10-11-83-ny-ny-madison-square-garden/</note>
+    </recording>
+    <recording id="r-a978247e0e9eb176ccca" kind="soundboard">
+      <identifier scheme="archive-org">gd83-10-11.sbd.harrell.7339.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; Cassette Master &gt; Dat x 2 &gt; CDR &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-061634bae279a3542f7f" kind="audience">
+      <identifier scheme="archive-org">gd83-10-11.silberman.gustin.344.sbeok.shnf</identifier>
+      <credit role="recordist">Jeff Silberman</credit>
+      <lineage>Audience: Sennheiser 441's | Sennheiser 441's (FOB) &gt; Technics PCM master &gt; DAT &gt; ZA2 &gt; Soundforge &gt; SHN/FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1983-10-11. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/11/10-11-83-ny-ny-madison-square-garden/</note>
+    </recording>
+    <recording id="r-af1cc53c2006a9ad496a" kind="unknown">
+      <identifier scheme="other">etree-590116</identifier>
+      <note>Supplied catalogue listing: etree; gd1983-10-11.137322.senn421.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

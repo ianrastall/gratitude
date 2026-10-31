@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-09-18" date="1990-09-18">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900918-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p01-02" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p01-05" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-06" song="s-desolation-row" transition="unknown"/>
+      <performance id="p01-07" song="s-to-lay-me-down" transition="segue"/>
+      <performance id="p01-08" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-02" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-03" song="s-foolish-heart" transition="segue"/>
+      <performance id="p02-04" song="s-jam" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-9b6d85d9198cba2d43a9" kind="unknown">
+      <identifier scheme="archive-org">gd1990-09-18.124767.AT835.Fix.laurentis.flac16</identifier>
+      <credit role="recordist">M.Laurentus</credit>
+      <lineage>Taper: M. Laurentus; Loge/Taper Section Sec 56D,Row A,Seat 12; AT835B's- AT 8202’s-SONY TCD-5M-Cassette-Tascam DR-5 Line In-CD Wave- Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): M.Laurentus</note>
+    </recording>
+    <recording id="r-abecb215baf1b534966c" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-18.138069.mtx.photoleon.t-flac16</identifier>
+      <lineage>Matrix by photoleon; Ambient Recording by Tom Darian; B&amp;K 4011's ORTF -&gt; ProLnk Cables -&gt; Neumann p48v -&gt; Sony TCD-D10 line-in wide-open; From Section A Row 19, seat 2 FOB - near center; transfer and edit notes: Tascam DA20mkII 48k DAT master -&gt; Tascam CDRW700 with Marigo Audio Labs coaxial spdif cable, with dither to 44.1khz, on-the-fly, by the Tascam 700; and SBD -&gt; Dat (44.1k); Transfer Info: Dat (Sony R500) -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Matrix by Joe Noel</note>
+    </recording>
+    <recording id="r-d63aac1fcc36615f0c50" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-18.139520.FOB.Schoeps.Katzeff.Gastwirt.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Rick Katzeff via the Rich Gastwirt Collection</credit>
+      <lineage>flac16/48kHz ; Rick Katzeff FOB Recording: Schoeps CMC 34's (ortf)&gt; M-1000&gt; Oade p/s&gt; SV-255; Charlie Miller | Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 &gt; wav 16/48; Edited &amp; Mastered in Audacity by Joe Noel &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-0956322628e0861d2e3e" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-18.141167.OTS.AKG.Ackerman.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Ron Ackerman</credit>
+      <lineage>flac16/48kHz ; Master Audience Recording &amp; Transfer by Ray Ackerman: AKG 460B/CK63 ULS -&gt; AKG B18 phantom power unit -&gt; Panasonic SV250 -&gt; DAT (OTS); Transfer info: Tascam DA 30 mkii -&gt; Microtrack ii -&gt; wavelab 5 -&gt; WAV 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-28902f8c3642633f3dd6" kind="unknown">
+      <identifier scheme="archive-org">gd1990-09-18.144893.nak300.cp4.dalton.miller.sirmick.flac1648</identifier>
+      <credit role="recordist">Tim Dalton</credit>
+      <lineage>Nakamichi 300s (cp4) &gt; Oade p/s &gt; Panasonic SV250 &gt; DAT (48K) - Taped by Tim Dalton | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-536bb29a5ba7c476937b" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-18.147622.ultramatrix.sbd.miller.flac24</identifier>
+      <credit role="recordist">Don Pearson</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-92f875f87117b29ab990" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-18.147781.UltraMatrix.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-6fdf0b5b80bcfaea1b5f" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-18.150544.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t.flac1648</identifier>
+      <credit role="recordist">Master Digital Audience Recording by Dave Brotman &amp; Jeff Metchick</credit>
+      <lineage>(FOB) Schoeps CMC3/MK4 (ORTF) &gt; M1000 Cables &gt; Oade PS &gt; Master Dat (Panasonic SV-250/48k). Location: Sec A Row 19 Seat 01 (FOB, mics on stand @ 6'5") | Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer by Charlie Miller Edited &amp; Mastered by Joe Noel (Adobe Audition 2020) August 22, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-f964f618a78155698084" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-18.152738.mtx.seamons.ht130.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Soundtrack Pro (FLAC &gt; AIFF &gt; Soundtrack &gt; Final Cut Pro for EQ &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) July 4, 2021</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+    </recording>
+    <recording id="r-2feac3ef385eb7fe255a" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-18.AKG451.Currier.Keo.131908.Flac1644</identifier>
+      <credit role="recordist">Mr. Currier</credit>
+      <lineage>Master Audience Recorded By Mr. Currier, Transfer By Keo; AKGC451 With Shotguns (Rob Berger's) &gt; AKG 9V Phantom Power &gt; Marantz PDM 430 &gt; Tapes: Maxell MX 100's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.02 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-b2b23e05fc13fd8ea2a8" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-18.AKG451.Currier.Keo.131909.Flac2496</identifier>
+      <credit role="recordist">Mr. Currier</credit>
+      <lineage>Master Audience Recorded By Mr. Currier, Transfer By Keo; AKGC451 With Shotguns (Rob Berger's) &gt; AKG 9V Phantom Power &gt; Marantz PDM 430 &gt; Tapes: Maxell MX 100's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.02 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-626e475076991de66926" kind="unknown">
+      <identifier scheme="archive-org">gd1990-09-18.at835b.laurentus.96934.flac16</identifier>
+      <credit role="recordist">M Laurentus</credit>
+      <lineage>AT835B's &gt; AT 8202â?Ts &gt; SONY TCD-5M &gt; MAC | MAC &gt; SoundBlaster Extreme Hi-Fi Line In &gt; Creative Recorder &gt; CD Wave &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-55b58890877ea58771ef" kind="unknown">
+      <identifier scheme="archive-org">gd1990-09-18.at835b.laurentus.fix-96934.97021.flac16</identifier>
+      <credit role="recordist">M Laurentus</credit>
+      <lineage>AT835B's &gt; AT 8202's &gt; SONY TCD-5M-Cassette | MAC &gt; SoundBlaster Extreme Hi-Fi Line In &gt; Creative Recorder &gt; CD Wave &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-1c6c455e97bf2ff014b8" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-18.bk4011.tdarian.french.88968.sbeok.flac16</identifier>
+      <credit role="recordist">tdarian</credit>
+      <lineage>B&amp;K 4011's ORTF -&gt; ProLnk Cables -&gt; Neumann p48v -&gt; Sony TCD-D10 line-in wide-open From Section A Row 19, seat 2 FOB - near center | Tascam DA20mkII 48k DAT master -&gt; Tascam CDRW700 with Marigo Audio Labs coaxial spdif cable, with dither to 44.1khz, on-the-fly, by the Tascam 700 +2dB digital gain added in the transfer from DAT to CDR master</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Mike French</note>
+    </recording>
+    <recording id="r-38b1010c3df070392893" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-18.mtx.hansokolow.96156.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): hansokolow</note>
+    </recording>
+    <recording id="r-c602e78f717ddcd15021" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-09-18.sbd.miller.79022.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-71ccbec8cbc25ada5e25" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-09-18.sbd.miller.fix-79022.86952.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-34945004aa5f7f3ef156" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-09-18.sbd.miller.tetzeli.fix-12885.35162.reflac.flac16</identifier>
+      <lineage>SBD-&gt;Cm-&gt;Dat-&gt;CD-&gt;Cool Edit Pro-&gt;CD&gt;EAC&gt;SHN | unknown</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Bill Tetzeli</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-26c488e10d9fdc74aa4b" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-09-18.sbd.richey.11811.sbeok.shnf</identifier>
+      <lineage>SBD&gt;DAT MASTER&gt;DATX2&gt;CDR | CDR&gt;EAC&gt;MKW&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-11e5f8f4b7c46c2f50a7" kind="soundboard">
+      <identifier scheme="archive-org">gd90-09-18.sbd.miller.12885.sbeok.shnf</identifier>
+      <lineage>SBD&gt;Cm&gt;Dat&gt;CD&gt;WAV&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-48c3948aec9024238bf8" kind="audience">
+      <identifier scheme="archive-org">gd90-09-18.schoeps-fob.sacks.9772.sbeok.shnf</identifier>
+      <lineage>MAD(FOB Schoeps)&gt;D&gt;CD &gt;WAV&gt;SHN.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1990-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-cf65145f1b2c9e883965" kind="unknown">
+      <identifier scheme="other">etree-607391</identifier>
+      <note>Supplied catalogue listing: etree; gd1990-09-18.147781.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

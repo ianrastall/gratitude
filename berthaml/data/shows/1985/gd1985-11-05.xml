@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-11-05" date="1985-11-05">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19851105-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-897" nameAsBilled="Centrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-kansas-city" transition="unknown"/>
+      <performance id="p01-04" song="s-tennessee-jed" transition="segue"/>
+      <performance id="p01-05" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-06" song="s-bird-song" transition="segue"/>
+      <performance id="p01-07" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-08" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p02-02" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-supplication" transition="segue"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-don-t-need-love" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-just-like-tom-thumb-s-blues" transition="segue"/>
+      <performance id="p02-10" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-11" song="s-black-peter" transition="segue"/>
+      <performance id="p02-12" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-13" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-16ffbe54f9907f91b244" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-05.126366.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (2) audio technica atm 11/ (2) nakamichi 300&gt; tcd-d5&gt; mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-375526db246a48a62c71" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-05.143430.sbd.gastwirt.miller.sirmick.flac1648</identifier>
+      <credit role="recordist">Rich Gastwirt</credit>
+      <lineage>sbd &gt; cassette master &gt; reel &gt; dat (48k) - Provided by Rich Gastwirt | Transfer: Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; Flac 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-de3beaef4a8964406c60" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-05.150100.sbd.anon.gems.flac1644</identifier>
+      <credit role="recordist">Anon</credit>
+      <lineage>SBD Cassette &gt; DAT | Speed Correction by Jason Chastain Audio Mastering by Jamie Waddell</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-e346ad60db4da5c1ee9c" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-05.151996.senn441.lamarre.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Recorded by Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Floor, Section 5, Row 1, Seat 9); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c5c26103c946c0c08bd3" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-05.151997.senn441.lamarre.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Recorded by Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Floor, Section 5, Row 1, Seat 9); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-77a74abbf130726cdeef" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-05.167575.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-540f3eebd6c4cc27ed70" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-05.167576.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a4e52eb32569074714ad" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-05.nak-beyer.tonys.79669.sbeok.flac16</identifier>
+      <credit role="recordist">Tony Suraci</credit>
+      <lineage>Nakamichi CM304's + Beyer M101&gt;Sony Mixer&gt;Sony D5M | Nak CR5A&gt;Lunatec V3(analog out)&gt;722@24/96 Adobe Audition 2.0 dither and resample 16Bit&gt;Cdwav/tracking&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-24c31119a5ebd5caa4b8" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-05.nak300.damico.87482.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>nak 300 mics &gt; sony d-6 &gt; mac | mac &gt; nak dragon tape deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-7ceec6b2b85062a74c7b" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-05.nak300.morris.106581.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell XLII-S C-90) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-316b6ac7fe70086f1716" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-05.nak300.morris.114675.flac24</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell XLII-S C-90) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits) &gt; flac24; Recorded from Taper Section 101, Row DD, Seat 2 by Bob Morris</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-fd1fd0400be1e64a7968" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-05.set2.beyerM88.connor.77163.sbeok.flac16</identifier>
+      <credit role="recordist">Charlie Connor</credit>
+      <lineage>Beyer Dynamic M88's&gt;Sony TCD5M (CM - Maxell Mx90) | Nak DR-10&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to 16/44.1&gt;CDWav beta1.57 (tracking only)&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Connor</note>
+    </recording>
+    <recording id="r-0b2447ddeb37e0d004ca" kind="audience">
+      <identifier scheme="archive-org">gd85-11-05.aud-oade.21246.sbeok.shnf</identifier>
+      <credit role="recordist">Oades</credit>
+      <lineage>Audience (Schoeps CMC441) | Schoeps (2 x CMC441) &gt; Sony PCM-F1 &gt; Sony Portable BetaMax</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Oades and Conrad</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-1f3dc9eb6ee356ee7346" kind="soundboard">
+      <identifier scheme="archive-org">gd85-11-05.sbd.lai.1188.sbefail.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; reel master &gt; cassette &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Centrum on 1985-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mike Lai</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

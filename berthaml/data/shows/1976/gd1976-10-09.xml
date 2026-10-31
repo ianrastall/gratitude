@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-10-09" date="1976-10-09">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19761009-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-977" nameAsBilled="Oakland-Alameda County Coliseum Stadium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p01-03" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-04" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-05" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-06" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-07" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-scarlet-begonias" transition="unknown"/>
+      <performance id="p01-09" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-10" song="s-supplication" transition="unknown"/>
+      <performance id="p01-11" song="s-sugaree" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-02" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-03" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-04" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p02-05" song="s-slipknot" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-samson-and-delilah" transition="segue"/>
+      <performance id="p02-08" song="s-slipknot" transition="segue"/>
+      <performance id="p02-09" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-10" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-32eb1cd43f7089365726" kind="unknown">
+      <identifier scheme="archive-org">gd1976-10-09.aud.falanga.berger.99002.flac24</identifier>
+      <credit role="recordist">Louis Falanga</credit>
+      <lineage>master taped on a sony tc-152sd | MAC&gt;10.5" reel @ 7.5 ips, dolby b technics rs-1506&gt;sony nr-335&gt;hd-p2 24/48&gt;cd wave&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1976-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+      <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
+    </recording>
+    <recording id="r-5a3247149b45167c2492" kind="unknown">
+      <identifier scheme="archive-org">gd1976-10-09.aud.falanga.berger.99003.flac16</identifier>
+      <credit role="recordist">Louis Falanga</credit>
+      <lineage>master taped on a sony tc-152sd | MAC&gt;10.5" reel @ 7.5 ips, dolby b technics rs-1506&gt;sony nr-335&gt;hd-p2 24/48&gt;cd wave&gt;adobe 16/44&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1976-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+      <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
+    </recording>
+    <recording id="r-0aaec52c4d846b7ce442" kind="audience">
+      <identifier scheme="archive-org">gd1976-10-09.aud.fix-10179.tetzeli.sbeok.83819.flac16</identifier>
+      <lineage>Unknown aud &gt; ? &gt; DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1976-10-09. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Pitch correction and other fixes by Bill Tetzeli</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-76-oakland-ca-oakland-coliseum/</note>
+    </recording>
+    <recording id="r-bad22451f7a9bfd27492" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-10-09.sbd.unknown.249.sbeok.shnf</identifier>
+      <lineage>Soundboard | S:GDH PreFM DAT&gt; ZA2&gt; DartPro32 de-hiss w/ 2.7 gain&gt; CD&gt; EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1976-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-76-oakland-ca-oakland-coliseum/</note>
+    </recording>
+    <recording id="r-751c0f6a33f80a501599" kind="matrix">
+      <identifier scheme="archive-org">gd1976-10-09.set-2.mtx.dan.89544.flac16</identifier>
+      <credit role="recordist">See info file</credit>
+      <lineage>SBD + AUD Matrix Mix (60%-SBD/40%-AUD) | See info file</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1976-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrixing by Dan Haugh</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-76-oakland-ca-oakland-coliseum/</note>
+    </recording>
+    <recording id="r-1fe23e0c3eed635365be" kind="matrix">
+      <identifier scheme="archive-org">gd1976-10-09.set-2.mtx.dts.dan.86437.flac16</identifier>
+      <credit role="recordist">See info file</credit>
+      <lineage>Matrix mix of Set 2 SBD by Dan Haugh | See info file</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1976-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Matrixing by Dan Haugh</note>
+    </recording>
+    <recording id="r-4c627378f1e187436f64" kind="audience">
+      <identifier scheme="archive-org">gd76-10-09.aud.vernon.10179.sbeok.shnf</identifier>
+      <lineage>Audience Recording | Unknown aud &gt; ? &gt; DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1976-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Marc Pujol</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-76-oakland-ca-oakland-coliseum/</note>
+    </recording>
+    <recording id="r-e6edb50a71a283a61e17" kind="soundboard">
+      <identifier scheme="archive-org">gd76-10-09.set2-sbd.miller.12519.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;Rm&gt;Dat&gt;Sonic Solutions&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1976-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-76-oakland-ca-oakland-coliseum/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

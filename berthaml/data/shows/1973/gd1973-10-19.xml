@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-10-19" date="1973-10-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731019-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-540" nameAsBilled="Oklahoma City Fairgrounds Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-05" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-06" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-07" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-08" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-09" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-10" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-11" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-04" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p02-05" song="s-big-river" transition="unknown"/>
+      <performance id="p02-06" song="s-dark-star" transition="segue"/>
+      <performance id="p02-07" song="s-mind-left-body-jam" transition="segue"/>
+      <performance id="p02-08" song="s-morning-dew" transition="unknown"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p03-02" song="s-stella-blue" transition="unknown"/>
+      <performance id="p03-03" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-ceaf89cdf37341eec40d" kind="audience">
+      <identifier scheme="archive-org">gd1973-10-19.170233.pset2.aud.lamarre.vernon.andrewF.flac2496</identifier>
+      <credit role="recordist">Unknown from the collection of Doug Lamarre</credit>
+      <lineage>Unknown audience cassettes from the collection of by Doug Lamarre. | cassettes &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96 - Transferred by Matt Vernon. Mastering: Wavelab (at 24/96) was used for reconstituting original mono, gain &amp; speed adjustments, and added small fades by AndrewF.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oklahoma City Fairgrounds Arena on 1973-10-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Vernon, Andrew F</note>
+    </recording>
+    <recording id="r-86a8a78333ee548bd8d7" kind="soundboard">
+      <identifier scheme="archive-org">gd73-10-19.sbd.nayfield.187.sbeok.shnf</identifier>
+      <lineage>Soundboard | MR&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oklahoma City Fairgrounds Arena on 1973-10-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/19/10-19-73-oklahoma-city-ok-fairgrounds-arena/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

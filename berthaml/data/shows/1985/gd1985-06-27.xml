@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-06-27" date="1985-06-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850627-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-467" nameAsBilled="Saratoga Performing Arts Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-midnight-hour" transition="segue"/>
+      <performance id="p01-02" song="s-bertha" transition="segue"/>
+      <performance id="p01-03" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-04" song="s-stagger-lee" transition="segue"/>
+      <performance id="p01-05" song="s-el-paso" transition="segue"/>
+      <performance id="p01-06" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p01-07" song="s-supplication" transition="segue"/>
+      <performance id="p01-08" song="s-high-time" transition="unknown"/>
+      <performance id="p01-09" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-10" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-feel-like-a-stranger" transition="segue"/>
+      <performance id="p02-02" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-03" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-04" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-spoonful" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="segue"/>
+      <performance id="p03-02" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a90aa1ccb0f1ba9f660e" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.121563.BeyerM160.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Beyer M160 microphones &gt; Sony TCD5M - master analog cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-2c81e672c40411ca68ed" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.126238.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (2) audio technica atm 11/ (2) nakamichi 300 + cp4&gt; d-5; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-f69289bd4ca9f9329a42" kind="audience">
+      <identifier scheme="archive-org">gd1985-06-27.135268.senn441.mccue.ford.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue</credit>
+      <lineage>MAC Sennheiser 441s &gt; Sony TCM-D5 &gt; TDK MA 90s; Mic info: 2 rows behind board on Jerry side, mics @ 10ft; Transfer/Lineage: Master Audience Cassettes&gt; Nakamichi Dragon&gt; Lunatic V3 (@24/88.2)&gt; WaveLab 7.2.1&gt; .wav @24/88.2&gt; UAD-2(editing/mastering)&gt; .wav @24/88.2&gt; UV22HR/Crystal Resampler&gt; .wav @16/44.1&gt; xAct&gt; flac16; Taper: Mark McCue; Transfer, editing and mastering: Alex Ford</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-0c822e737186afd6401a" kind="audience">
+      <identifier scheme="archive-org">gd1985-06-27.135270.senn441.mccue.ford.flac24</identifier>
+      <credit role="recordist">Mark McCue</credit>
+      <lineage>MAC; Sennheiser 441s &gt; Sony TCM-D5 &gt; TDK MA 90s; Mic info: 2 rows behind board on Jerry side, mics @ 10ft; Transfer/Lineage: Master Audience Cassettes&gt; Nakamichi Dragon&gt; Lunatic V3 (@24/88.2)&gt; WaveLab 7.2.1&gt; .wav @24/88.2&gt; UAD-2(editing/mastering)&gt; .wav @24/88.2&gt; xAct&gt; flac24; Taper: Mark McCue; Transfer, editing and mastering: Alex Ford</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-0657756f6ba098f77d61" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.141598.aud.bryant.miller.sirmick.flac2496</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Source: Unknown mics &gt; Sony TC-D5M &gt; cassette master - Taped By Robert Bryant; Transfer: Cassette Master &gt; Nakamichi CR-7A &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; wav 24/96 - Transferred by Charlie Miller; Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24; eited and mastered SIRMick April 2018</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c2872743b1de941867a4" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.145345.aud.bryant.miller.sirmick.flac16</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Source: Unknown mics &gt; Sony TC-D5M &gt; cassette master - Taped By Robert Bryant | Transfer: Cassette Master &gt; Nakamichi CR-7A &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; wav 24/96 - Transferred by Charlie Miller Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d670321d2147cc928a8a" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.152626.akgc422-davis-murtha.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew; Kenny Davis, Sean Murtha, Tom Pinney</credit>
+      <lineage>Microphones: AKG C422|AKG S42 XY s1:60º cardioid s2: 90º cardioid [-10dB pad on] Recorder: Sony TC-D5M [mic master] Location: Lawn ~175' from stage DFC This Source: Master AUDCA Maxell MX90 No NR [SM] | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-7dd092b043875cc0ef86" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.152627.akgc422-davis-murtha.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew; Kenny Davis, Sean Murtha, Tom Pinney</credit>
+      <lineage>Microphones: AKG C422|AKG S42 XY s1:60º cardioid s2: 90º cardioid [-10dB pad on] Recorder: Sony TC-D5M [mic master] Location: Lawn ~175' from stage DFC This Source: Master AUDCA Maxell MX90 No NR [SM] | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-43629daecb7aaf28f46d" kind="audience">
+      <identifier scheme="archive-org">gd1985-06-27.154535.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-57b7a7406fa8ce179f59" kind="audience">
+      <identifier scheme="archive-org">gd1985-06-27.154536.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-335143b2c0bb51b580fe" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.158249.NAK300.Anon-Noel.t-flac16</identifier>
+      <credit role="recordist">Recorded &amp; Transferred by Anon Edited &amp; Mastered (Adobe Audition) by Joe Noel April 22, 2022</credit>
+      <lineage>Nakamichi 300 shotguns &gt; Sony TC-D5M &gt; Master Cassette (Dolby B On) Location: Mics on Shure s15 stands (up high), approx. 25' from repeaters, front of lawn. | Master Cassette &gt; Nakamichi CR7a playback with no dolby&gt; Korg mr2000 (1 bit, 5.6 Mhz). Render from 1 bit to 24 48 wave file using AudioGate. Pre dolby nr decode eq &amp; software dolby B decode using Nuendo &amp; DDICodec.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-87c14eb4505e4b61be76" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.158250.NAK300.Anon-Noel.t-flac2448</identifier>
+      <credit role="recordist">Recorded &amp; Transferred by Anon Edited &amp; Mastered (Adobe Audition) by Joe Noel April 22, 2022</credit>
+      <lineage>Nakamichi 300 shotguns &gt; Sony TC-D5M &gt; Master Cassette (Dolby B On) Location: Mics on Shure s15 stands (up high), approx. 25' from repeaters, front of lawn. | Master Cassette &gt; Nakamichi CR7a playback with no dolby&gt; Korg mr2000 (1 bit, 5.6 Mhz). Render from 1 bit to 24 48 wave file using AudioGate. Pre dolby nr decode eq &amp; software dolby B decode using Nuendo &amp; DDICodec.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-69512070ff7f213501ad" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-06-27.169092.sbd1.pearson.marcus.miller.flac24</identifier>
+      <credit role="recordist">Steve Marcus copied Don Pearson's masters</credit>
+      <lineage>SBD &gt; Cassette Master (Sony TC-D5M/TDK MA-R) &gt; Cassette (TDK MA-R/Dolby B) | Cassette (Nakamichi CR-7A/Dolby B) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2023 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 13, 2024</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-914ba62c9f09ca7069cd" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-06-27.169156.SPAC.SaratogaSprings.NY.sbd.pearson.marcus.miller.t-flac1648</identifier>
+      <credit role="recordist">Steve Marcus copied Don Pearson's masters</credit>
+      <lineage>SBD &gt; Cassette Master (Sony TC-D5M/TDK MA-R) &gt; Cassette (TDK MA-R/Dolby B) | Cassette (Nakamichi CR-7A/Dolby B) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2023 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 13, 2024</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-1ba7e34f866372f58afb" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.176765.AT835-AKG12E..Ackerman.noel.t-flac2448</identifier>
+      <credit role="recordist">Recorded, Transferred &amp; Mastered by Ray Ackerman</credit>
+      <lineage>Two x Audio Technica 835b + One x AKG D12e center fill &gt; Realistic 32-1105A, 4 channel stereo mixer &gt; Sony D5 &gt; Master Cassettes Location: From the lawn, underneath the overhang. | Master Cassettes &gt; Kyocera D811 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/48 &gt; Adobe Audition &gt; xACT &gt; FLAC 24/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Edited &amp; Processed by Joe Noel March 23, 2026</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-0b565532ebd9cf32b1d6" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.aud.Holtz.Nak100s.112499.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Field Gear: Nakamichi CM-100's w/CP-4 Shotgun Capsules &gt; Sony D-5 &gt; MAC; | MAC &gt; Tascam 112 MKII &gt; Edirol R-09 &gt; WAV &gt; Audacity &gt; Trader's Little Helper &gt; FLAC Level 8; Recorded, transferred, tracked &amp; FLAC'd by Greg Holtz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Greg Holtz</note>
+    </recording>
+    <recording id="r-567e275017e2790081cd" kind="matrix">
+      <identifier scheme="archive-org">gd1985-06-27.mtx.seamons.92645.sbeok.flac16</identifier>
+      <credit role="recordist">See Notes</credit>
+      <lineage>Matrix (See Notes) | See Notes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cc3c0d11561279274ee4" kind="matrix">
+      <identifier scheme="archive-org">gd1985-06-27.mtx.seamons.fix.92963.sbeok.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c39194f91fa4add7aefc" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.nak-beyer.tonys.79597.sbeok.flac16</identifier>
+      <credit role="recordist">Tony Suraci</credit>
+      <lineage>Nakamichi CM304's + Beyer M101&gt;Sony Mixer&gt;Sony D5M | Nak CR5A&gt;Lunatec V3(analog out)&gt;722@24/96 Adobe Audition 2.0 dither and resample 16Bit&gt;Cdwav/tracking&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at SPAC on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-0bea9aac42b925e6c9a1" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.nak300.morris.106788.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 (CP-4) x2 &gt; Cassette Master (Sony TCD5M/Maxell UDII C-90) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-6b6fba49909281061f27" kind="unknown">
+      <identifier scheme="archive-org">gd1985-06-27.nak300.morris.114489.flac24</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 (CP-4) x2 &gt; Cassette Master (Sony TCD5M/Maxell UDII C-90) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits) &gt; flac24</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-92fa3d9b7a7db6468ceb" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-06-27.sbd.gmb.79382.flac16</identifier>
+      <credit role="recordist">DAT kindly provided for transfer by M.Townshend</credit>
+      <lineage>SBD &gt; MC &gt; DAT(48KHz) | DAT playback on Sony PCM-R500 &gt; unbalanced XLR analog outputs &gt; Neutrik inputs, Presonus Firebox (pre-amplification and analog-to-digital) &gt; firewire &gt; PC/WinXP Pro &gt; recorded to 24 bit/96 KHz WAV using Wavelab 5 &gt; mastered with Waves L3 Multimaximizer &gt; rendered to 16/44.1 using Waves IDR (type I dither/ultra shaping) &gt; tracked with CDWAV 1.9 &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): C.Ladner</note>
+    </recording>
+    <recording id="r-b2c4efa009e74384b74f" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-06-27.sbd.gmb.79558.flac24</identifier>
+      <credit role="recordist">DAT kindly provided for transfer by M.Townshend</credit>
+      <lineage>SBD &gt; MC &gt; DAT(48KHz) | Playback on Sony PCM-R500 &gt; XLR analog outputs &gt; Neutrik inputs, Presonus Firebox (pre-amplification and digitization &gt; firewire &gt; PC/WinXP Pro &gt; recorded to 24 bit/96 KHz WAV using Wavelab 5 &gt; mastered with Waves L3 Multimaximizer &gt; tracked with CDWAV 1.9 &gt; FLAC. 24/96 Stereo DVD-A rendering was also generated using Discwelder Chrome II.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Ladner</note>
+    </recording>
+    <recording id="r-d43069f3ef901fe420b4" kind="audience">
+      <identifier scheme="archive-org">gd85-06-27.aud.connor.7006.sbeok.shnf</identifier>
+      <lineage>FOB AUD&gt; CM (unknown mics)&gt; Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz A/D&gt; RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt; CDWav beta1.6 (tracking only)&gt; SHNv3 (MKW ACT)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-4e4beec21efa7b0366c2" kind="unknown">
+      <identifier scheme="archive-org">gd85-06-27.oade-schoeps.sacks.25000.sbeok.flacf</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Schoeps cmc441 (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1 | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav &gt; cdwav &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Doug Oade - Darren Sacks</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-50d9a57e453787ccbe3b" kind="soundboard">
+      <identifier scheme="archive-org">gd85-06-27.sbd.clugston.6104.sbeok.shnf</identifier>
+      <lineage>Amy's Soundboard VHS &gt; Cassette &gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-d26f1d572b1c1859029e" kind="soundboard">
+      <identifier scheme="archive-org">gd85-06-27.sbd.miller.27863.sbeok.flacf</identifier>
+      <lineage>flac16 SBD&gt; Master Cassette&gt; PCM&gt; Dat (unconfirmed- could be SBD&gt; VHS&gt; Cass&gt; Dat&gt; CD); | Dat (Sony R500)&gt; SEK'D Prodif Plus&gt; Samplitude v7.02 Professional&gt; FLAC; Transferred and Edited By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saratoga Performing Arts Center on 1985-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

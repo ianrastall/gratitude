@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-07-02" date="1981-07-02">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810702-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-749" nameAsBilled="The Summit"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-friend-of-the-devil" transition="segue"/>
+      <performance id="p01-04" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-05" song="s-althea" transition="unknown"/>
+      <performance id="p01-06" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-07" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-09" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-10" song="s-lost-sailor" transition="segue"/>
+      <performance id="p01-11" song="s-saint-of-circumstance" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p02-05" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-06" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-10" song="s-truckin" transition="segue"/>
+      <performance id="p02-11" song="s-black-peter" transition="segue"/>
+      <performance id="p02-12" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-13" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a52a0d2ae59494ac5a7c" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-02.134520.s1.aud.bernstein.flac1644</identifier>
+      <credit role="recordist">Jon Bernstein</credit>
+      <lineage>Source: 1st Set AUD tape kindly provided by Jon Bernstein. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 10/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Summit on 1981-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-e0007a4a4eb737f7b004" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-02.134521.s2.aud.schley.flac1644</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>2nd Set AUD: Unknown Mics &gt; lead deck &gt; Sony TC-D5 &gt; Hitachi ME Metal tape, FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 10/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Summit on 1981-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-b4d2f72a075311b2b38f" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-02.134522.s2.aud.schley.flac2448</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>2nd Set AUD: Unknown Mics &gt; lead deck &gt; Sony TC-D5 &gt; Hitachi ME Metal tape, FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 10/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Summit on 1981-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-74f9d7112b950114777d" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-02.152646.nak300.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 300 mics &gt; Sony TC-D5M (Maxell XLII) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Summit on 1981-07-02. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/02/7-2-81-houston-tx-the-summit/</note>
+    </recording>
+    <recording id="r-08dc0ee372dcc27ef73e" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-02.152647.nak300.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 300 mics &gt; Sony TC-D5M (Maxell XLII) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Summit on 1981-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f62b16a7da9bb486992b" kind="unknown">
+      <identifier scheme="archive-org">gd1981-07-02.175898.aud.bernstein.ackerman.noel.flac2496</identifier>
+      <credit role="recordist">Master Cassettes Recorded by Jon Bernstein</credit>
+      <lineage>?? mics &gt; ?? lead deck &gt; ?? deck &gt; Master Cassettes | Master Cassettes &gt; Nakamichi Cassette Deck 1 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96 &gt; Adobe Audition &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Summit on 1981-07-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer, Mastering by Ray Ackerman Edited, Processed w/ add'l Mastering by Joe Noel December 13, 2025</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-72281f086b2b7a0acfaf" kind="audience">
+      <identifier scheme="archive-org">gd81-07-02.senn421.munder.9828.sbeok.shnf</identifier>
+      <lineage>Audience Recording: Sennheiser 421's | Senn 421's&gt;MC&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Summit on 1981-07-02. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/02/7-2-81-houston-tx-the-summit/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

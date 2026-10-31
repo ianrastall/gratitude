@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-06-17" date="1976-06-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760617-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-517" nameAsBilled="Capitol Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-big-river" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-05" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-06" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-08" song="s-the-music-never-stopped" transition="unknown"/>
+      <performance id="p01-09" song="s-scarlet-begonias" transition="unknown"/>
+      <performance id="p01-10" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p02-02" song="s-slipknot" transition="segue"/>
+      <performance id="p02-03" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-04" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
+      <performance id="p02-05" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-06" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-07" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p02-08" song="s-supplication" transition="unknown"/>
+      <performance id="p02-09" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p02-10" song="s-let-it-grow" transition="segue"/>
+      <performance id="p02-11" song="s-drums" transition="segue"/>
+      <performance id="p02-12" song="s-let-it-grow" transition="segue"/>
+      <performance id="p02-13" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-14" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-579d37767952d3917abb" kind="audience">
+      <identifier scheme="archive-org">gd1976-06-17.163392.aud.unknown.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Master Audience Cassettes (unknown mics/deck); Bob Wagner's 1st generation cassettes | 1st generation cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1976-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-ad7f071afd8d262cbe43" kind="audience">
+      <identifier scheme="archive-org">gd1976-06-17.163393.aud.unknown.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Master Audience Cassettes (unknown mics/deck); Bob Wagner's 1st generation cassettes | 1st generation cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1976-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-c6ef671585c7047383d8" kind="matrix">
+      <identifier scheme="archive-org">gd1976-06-17.helpslipfranks.mtx.seamons.123027.flac16</identifier>
+      <lineage>Partial 3 song Matrix by Hunter Seamons; Soundboard recording by Betty Cantor-Jackson; Audience recording transferred by Dale Shepherd; note: The seeder's comments indicate that this is a different transfer than his previous matrix source</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1976-06-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b952d6a27155adbbc896" kind="matrix">
+      <identifier scheme="archive-org">gd1976-06-17.mtx.seamons.91861.sbeok.shnf</identifier>
+      <lineage>MATRIX MIX: SBD/AUD (About 60%/40%)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1976-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8afdb1aeec12d838318f" kind="soundboard">
+      <identifier scheme="archive-org">gd1976-06-17.sbd.miller.80739.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Dat (48k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1976-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f31188c8b2592b430045" kind="audience">
+      <identifier scheme="archive-org">gd76-06-17.sony.vernon.10178.sbeok.shnf</identifier>
+      <lineage>Audience Recording | Sony TC 153 Sony ECM 99A Mikes Master Cassette &gt; Reel &gt; DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1976-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

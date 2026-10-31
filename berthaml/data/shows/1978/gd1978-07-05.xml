@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-07-05" date="1978-07-05">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780705-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-541" nameAsBilled="Omaha Civic Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-02" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-05" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-07" song="s-candyman" transition="unknown"/>
+      <performance id="p01-08" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-09" song="s-supplication" transition="unknown"/>
+      <performance id="p01-10" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-truckin" transition="segue"/>
+      <performance id="p02-10" song="s-iko-iko" transition="segue"/>
+      <performance id="p02-11" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-29b4e08965fb3dc36a5d" kind="audience">
+      <identifier scheme="archive-org">gd1978-07-05.fob.knight.motb-0070.91785.flac16</identifier>
+      <credit role="recordist">Timothy Knight</credit>
+      <lineage>Unknown Mircophones =&gt; Unknown Sony Tape Deck [Patch] =&gt; Nakamichi 550 [Dolby Encode] &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3 [Pre-Only] =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Omaha Civic Auditorium on 1978-07-05. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Adam Egert and Derek McCabe</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/05/7-5-78-omaha-ne-omaha-auditorium/</note>
+    </recording>
+    <recording id="r-de0098a4679a68d842cc" kind="unknown">
+      <identifier scheme="archive-org">gd1978-07-05.fob.knight.motb-0070.91786.flac24</identifier>
+      <credit role="recordist">Timothy Knight</credit>
+      <lineage>Unknown Mircophones =&gt; Unknown Sony Tape Deck [Patch] =&gt; Nakamichi 550 [Dolby Encode] &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3 [Pre-Only] =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Omaha Civic Auditorium on 1978-07-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Adam Egert and Derek McCabe</note>
+    </recording>
+    <recording id="r-1dc79eb75443fa7c6114" kind="audience">
+      <identifier scheme="archive-org">gd1978-07-05.sonyecm54p.wagner.97299.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>2 Sony ECM-54 Ps &gt;Sony 158 | 1st Generation: Master played back on Sony 158&gt; Nak 550 Transfer and FLAC encoding by David Minches: 1st Generation cassette played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Omaha Civic Auditorium on 1978-07-05. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/05/7-5-78-omaha-ne-omaha-auditorium/</note>
+    </recording>
+    <recording id="r-fe0819df6a127618e24b" kind="audience">
+      <identifier scheme="archive-org">gd78-07-05.sony.wiley.11481.sbeok.shnf</identifier>
+      <lineage>Audience Recording: Sony 54P's | AUD(Sony 54P's&gt; Sony TC-158)&gt; MC&gt; C&gt; DAT&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Omaha Civic Auditorium on 1978-07-05. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/05/7-5-78-omaha-ne-omaha-auditorium/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

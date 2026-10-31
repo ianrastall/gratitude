@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-09-10" date="1990-09-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900910-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-187" nameAsBilled="Spectrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p01-02" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-03" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-04" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-07" song="s-stuck-inside-of-mobile-with-the-memphis-blues-again" transition="unknown"/>
+      <performance id="p01-08" song="s-foolish-heart" transition="segue"/>
+      <performance id="p01-09" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-victim-or-the-crime" transition="segue"/>
+      <performance id="p02-02" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-03" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-04" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-8864b540e55ede9bd804" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-10.137115.mtx.dusborne.flac16</identifier>
+      <lineage>2 Source Matrix by Dusborne; Soundboard (Shnid:80955)Recording Info: SBD -&gt; Cassette Master (TDK SA-X100) Transfer Info: Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16; Audience (Shnid:11807) Source: AUD(Nak. 300's&gt;D-5)&gt;CM&gt;??&gt;CDR&gt;There maybe another Cass. gen in the lineage. Conversion: EAC(secure)&gt;CD WAV&gt;Cool Edit Pro&gt;SHN(seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-44faf7889007f3792b30" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-10.142361.FOB.Schoeps.BK.Katzeff.Berner.Ammons.Noel.t-flac1648</identifier>
+      <credit role="recordist">Rick Katzeff and Rich Berner</credit>
+      <lineage>flac16/48kHz ; Set I - Rick Katzeff Recording; Schoeps CMC44 (110ยบ ORT F) &gt; M100 &gt; DAT (Panasonic SV250). Location; FOB, Sect 102; Row 14; Seat 13; Set II - Rich Berner; B&amp;K 4011's (110ยบ ORTF) &gt; Neumann P.S. &gt; DAT (Sony D10 Pro); Location; Row 16; John Ammons | from his DAT clone of the master; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; WAV</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel and John Ammons</note>
+    </recording>
+    <recording id="r-185d63d74baa3036fb19" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-10.146062.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Dave Brotman &amp; Jeff Metchick Master Digital Recording</credit>
+      <lineage>Recording info: Schoeps CMC4/MK4 (110°) &gt; M1000 Cables &gt; Oade Preamp &gt; Master DAT (Panasonic SV-250/48k). Location: FOB; Sec, 102 Row 14, Seat 13 (mics hand held) | Transfer info: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller Transfer Edited &amp; Mastered by Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-5500ecf6a00a11e95d1e" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-10.158745.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 22, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-44385a7fcc7b3d52b372" kind="matrix">
+      <identifier scheme="archive-org">gd1990-09-10.159858.ultramatrix.miller.flac1644</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 22, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-7f1bdd9345188d614395" kind="audience">
+      <identifier scheme="archive-org">gd1990-09-10.aud.wiley.8702.sbeok.shnf</identifier>
+      <lineage>AUD&gt;DAT&gt;CDR&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Shn conversion by Tim Wiley</note>
+    </recording>
+    <recording id="r-a5d0d08a19a1cffc338c" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-09-10.sbd.miller.80955.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (TDK SA-X100) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c0efbf44ccc551ac70f8" kind="audience">
+      <identifier scheme="archive-org">gd90-09-10.aud.wiley.11807.sbeok.shnf</identifier>
+      <lineage>AUD(Nak300's&gt;D-5)&gt;CM&gt;??&gt;CDR&gt;WAV&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

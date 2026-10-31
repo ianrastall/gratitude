@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-04-19" date="1982-04-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820419-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-468" nameAsBilled="Baltimore Civic Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-on-the-road-again" transition="unknown"/>
+      <performance id="p01-04" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-05" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-06" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p01-07" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-08" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p01-10" song="s-might-as-well" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-feel-like-a-stranger" transition="segue"/>
+      <performance id="p02-02" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-08" song="s-truckin" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-11" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-5e9bd6ac6686c6dc3b2d" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-04-19.144567.sbd.healy.streeter.smith.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Dan Healy &amp; Frank Streeter</credit>
+      <lineage>Dan Healy's Master Soundboard Cassettes (Sony TC-D5M/TDK MA-R90/dolby B)&gt; Frank Streeter's 1st generation 1/4 track Reels @ 3.75 ips (Sony TC770/Maxell UD35-90B) | 1st generation Reels (Akai GX-625)&gt; Tascam DA-3000 (DSF 1bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+    </recording>
+    <recording id="r-c6f670ec3f779cb5459d" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-04-19.144568.sbd.healy.streeter.smith.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Dan Healy &amp; Frank Streeter</credit>
+      <lineage>Dan Healy's Master Soundboard Cassettes (Sony TC-D5M/TDK MA-R90/dolby B)&gt; Frank Streeter's 1st generation 1/4 track Reels @ 3.75 ips (Sony TC770/Maxell UD35-90B) | 1st generation Reels (Akai GX-625)&gt; Tascam DA-3000 (DSF 1bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+    </recording>
+    <recording id="r-0059258958aad3b45001" kind="audience">
+      <identifier scheme="archive-org">gd1982-04-19.155354.ohr-ecm23f-tcd5m.flac16</identifier>
+      <credit role="recordist">Ohr Weinberg</credit>
+      <lineage>Master Audience Cassettes - recorded by Ohr Weinberg: 2 Sony ECM-23F microphones &gt; Sony TC-D5M Cassette Deck (1st &amp; 2nd Sets: Maxell XLII-S 90 Cassettes), Dolby B | Anne Cohen : AD Transfer - Master Cassettes played on Nakamichi Dragon &gt; HHB CDR830Plus &gt; CD Ohr : CD &gt; EAC &gt; WAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Anne Cohen</note>
+      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+    </recording>
+    <recording id="r-32f9fb67da2f446c8fe7" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-04-19.dts.tobin.89354.sbeok.flac16</identifier>
+      <lineage>SBD (shn id 89313) MAC &gt; R1 7.5ips 1/4 track &gt; Technics RS-1506 &gt; Grace designs Lunatec V3 (pre only) &gt; Korg MR-1000 &gt; DSD-DFF 1bit 5.64 Mhz &gt; Audio Gate SW &gt; 24/96 WAV + AUD (shn id 19420) MAC (Taped by Steven Martin, modified Nakamichi CM-700 mics &gt; Sony TC-D5M) &gt; Nak Dragon playback &gt; Cardas audiophile cables &gt; HHB CDR 800 master CD | SHNs were decoded to wave and Audition 3.0 was used to reassemble the tracks back to 1 long wave. Audition 3.0 was used to align &amp; synch the SBD &amp; AUD sources. Audition 3.0 used to adjust the volume for AUDs, matrix/CTR and LFE channels. Surcode CD Pro DTS was used to encode to DTS.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d2cc8efc48d52a14a50b" kind="matrix">
+      <identifier scheme="archive-org">gd1982-04-19.mtx.tobin.89314.sbeok.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shn id 89313) MAC &gt; R1 7.5ips 1/4 track &gt; Technics RS-1506 &gt; Grace designs Lunatec V3 (pre only) &gt; Korg MR-1000 &gt; DSD-DFF 1bit 5.64 Mhz &gt; Audio Gate SW &gt; 24/96 WAV + AUD (shn id 19420) MAC (Taped by Steven Martin, modified Nakamichi CM-700 mics &gt; Sony TC-D5M) &gt; Nak Dragon playback &gt; Cardas audiophile cables &gt; HHB CDR 800 master CD | SHNs were decoded to wave and Audition 3.0 was used to reassemble the tracks back to 1 long wave. Audition 3.0 was used to align &amp; synch the SBD &amp; AUD sources. Audition 3.0 used to adjust the volume for AUDs, matrix/CTR and LFE channels.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2f60fa862890cdc7a0fe" kind="matrix">
+      <identifier scheme="archive-org">gd1982-04-19.mtx.tobin.89389.flac24</identifier>
+      <lineage>SBD (89313) + AUD(19420) Matrix 2 Source Mix (60%-SBD/40%-AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e05bd71fb783f75fd53f" kind="unknown">
+      <identifier scheme="archive-org">gd1982-04-19.nak700.martin.patched.89371.sbeok.flac16</identifier>
+      <credit role="recordist">Steven Martin</credit>
+      <lineage>MAC (Taped by Steven Martin, modified Nakamichi CM-700 mics &gt; Sony TC-D5M) &gt; Nak Dragon playback | Cardas audiophile cables &gt; HHB CDR 800 master CD &gt; Samsung SW-232B extraction (EAC v0.9 beta 4) &gt; tracking (CD Wave) &gt; sector boundary verification (shntool v1.01) &gt; .shn encoding (mkwACT v0.97 beta 1)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b7c841fa7d5b5016da79" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-04-19.sbd.clugston.2316.shnf</identifier>
+      <lineage>Master Soundboard Cassette &gt; Cassette &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-a29a552708a20afb614b" kind="unknown">
+      <identifier scheme="archive-org">gd1982-04-19.sbd.clugston.28291.sbeok.shnf</identifier>
+      <lineage>Master Soundboard Cassette &gt; Cassette &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-d6b155805a98377a9c2c" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-04-19.sbd.tobin.89313.sbeok.flac16</identifier>
+      <lineage>SBD Master Cassette &gt; R1 7.5ips 1/4 track | Technics RS-1506 &gt; Grace designs Lunatec V3 (pre only) &gt; Korg MR-1000 &gt; DSD-DFF 1bit 5.64 Mhz &gt; Audio Gate SW &gt; 24/96 WAV</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5cf4a1508719847333ac" kind="unknown">
+      <identifier scheme="archive-org">gd1982-04-19.sbd.tobin.89384.flac24</identifier>
+      <lineage>SBD Master Cassette &gt; R1 7.5ips 1/4 track &gt; Technics RS-1506 &gt; Grace designs Lunatec V3 (pre only) &gt; Korg MR-1000 &gt; DSD-DFF 1bit 5.64 Mhz &gt; Audio Gate SW &gt; 24/96 WAV</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cb4163a7522ae4e147fd" kind="audience">
+      <identifier scheme="archive-org">gd82-04-19.aud-martin.warner.19420.sbeok.shnf</identifier>
+      <credit role="recordist">Steven Martin</credit>
+      <lineage>Audience Recording: Nak CM700's | MAC (modified Nakamichi CM-700 mics &gt; Sony TC-D5M) &gt; Nak Dragon playback &gt; Cardas audiophile cables &gt; HHB CDR 800 master CD &gt; Samsung SW-232B extraction (EAC v0.9 beta 4) &gt; tracking (CD Wave) &gt; sector boundary verification (shntool</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1982-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

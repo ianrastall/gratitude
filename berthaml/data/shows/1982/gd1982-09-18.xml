@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-09-18" date="1982-09-18">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820918-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-502" nameAsBilled="Boston Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-west-l-a-fadeaway" transition="segue"/>
+      <performance id="p01-06" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-07" song="s-dupree-s-diamond-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-09" song="s-far-from-me" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-07" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-08" song="s-truckin" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-11" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-df0cb9febebc6395395a" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-09-18.123051.sbd.miller.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette (Dolby B) -&gt; FLAC | FLAC -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e1fa5e0a3e04c9d15703" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-18.144662.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-d629bed93759cddf5ca7" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-18.144663.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-b7971ce44cb2d02aecd7" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-18.150624.eBay.miller.flac2496</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>AUD &gt; Cassette Master | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller September 26, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0db2514e49a121f295fd" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-18.150660.aud.cm.miller.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>AUD &gt; Cassette Master | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller September 26, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-302573a4b9707cf77744" kind="matrix">
+      <identifier scheme="archive-org">gd1982-09-18.150788.mtx.seamons.ht124.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-796a5c06990e49dab2a1" kind="unknown">
+      <identifier scheme="archive-org">gd1982-09-18.nak300.friend.andrewf.97590.flac16</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>2x Nakamichi CM300's with CP4 shotguns (L R), plus 1x Nakamichi CM300 with CP1 cardioid (blend mic) &gt; Nakamichi 550 &gt; Maxell XLII-S 90's. Mics on stand, set up in center right section riser, just off the floor. | MAC &gt; Nakamichi DR-8 (w/no Dolby) &gt; Edirol FA-66 &gt; Wavelab &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-b41793cbd8c1bfd0d260" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-18.nak300.morris.miller.98059.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>(FOB) Nakamichi 300/CP4 -&gt; Cassette Master (SonyTC-D5M/Maxell UDXLII) | Cassette Master (Nakamichi DR-1) -&gt; SoundDevices 744T (24bit/96k) -&gt; Samplitude Professional v8.0 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6e250a18136e0fa071b7" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-18.nak300.morris.miller.98061.flac24</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>(FOB) Nakamichi 300/CP4 -&gt; Cassette Master (Sony TC-D5M/Maxell UDXLII) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v8.0 -&gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b526626262ee78a448f5" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-09-18.sbd.chasingwilma.119221.flac16</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>lineage: sbd&gt; d-5sony&gt; mc&gt; tc we435&gt; soundcard&gt; cdwave 44100/stereo/16 bit&gt; traders little helper encoding option 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-884571b4d99dbcf54227" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-09-18.sbd.fishman.fix-3153.107429.flac16</identifier>
+      <lineage>SBD-&gt;Cassette Master(Dolby) | Cassette Master(Dolby)&gt;Cassette&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;CE Processing&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): JR Fishman</note>
+    </recording>
+    <recording id="r-a727ef9433ae7071851b" kind="unknown">
+      <identifier scheme="archive-org">gd1982-09-18.sbd.lai.2335.shnf</identifier>
+      <lineage>sdb&gt;&gt;cassette master&gt;&gt;cassette&gt;&gt;cdr</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Bruce Fried and Mike Lai</note>
+    </recording>
+    <recording id="r-f11da5e114972e6c41e2" kind="soundboard">
+      <identifier scheme="archive-org">gd82-09-18.sbd.weise.3153.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; CAS/1 (Dolby)&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1982-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

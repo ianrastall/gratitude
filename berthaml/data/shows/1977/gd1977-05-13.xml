@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-05-13" date="1977-05-13">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770513-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-400" nameAsBilled="Auditorium Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-the-music-never-stopped" transition="unknown"/>
+      <performance id="p01-02" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-03" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-04" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-05" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-07" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-08" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-09" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-10" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p01-11" song="s-fire-on-the-mountain" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="segue"/>
+      <performance id="p02-02" song="s-bertha" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-06" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-07" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-08" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a36f49522885d3ee0c89" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-05-13.sbd.ashley.14942.shnf</identifier>
+      <lineage>SBD&gt;&gt;MR&gt;&gt;Dat&gt;&gt;CDA&gt;&gt;SS&gt;&gt;CDA&gt;&gt;SHN&gt;&gt;DAW(Bertha)&gt;&gt;CDA</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1977-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jay Ashley</note>
+    </recording>
+    <recording id="r-ab26eac17ebad8027cd5" kind="fm">
+      <identifier scheme="archive-org">gd1977-05-13.sbd.unknown.6690.sbeok.shnf</identifier>
+      <lineage>Pre-FM &gt; Master Reel &gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1977-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): unknown</note>
+    </recording>
+    <recording id="r-97dfed0da9b8795e09a7" kind="soundboard">
+      <identifier scheme="archive-org">gd77-05-13.sbd.miller.9393.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD -&gt; Rm -&gt; Dat -&gt; CD -&gt; Sonic Solutions -&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1977-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

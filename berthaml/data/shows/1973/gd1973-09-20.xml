@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-09-20" date="1973-09-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19730920-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-187" nameAsBilled="Spectrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-03" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-05" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-06" song="s-loser" transition="unknown"/>
+      <performance id="p01-07" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-08" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-09" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-10" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-11" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-12" song="s-greatest-story-ever-told" transition="segue"/>
+      <performance id="p01-13" song="s-deal" transition="unknown"/>
+      <performance id="p01-14" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-truckin" transition="segue"/>
+      <performance id="p02-02" song="s-nobody-s-fault-but-mine" transition="segue"/>
+      <performance id="p02-03" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-04" song="s-stella-blue" transition="unknown"/>
+      <performance id="p02-05" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4d3d00fac6f813f50753" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-09-20.sbd.clugston.9845.sbeok.shnf</identifier>
+      <lineage>Master Soundboard Reel &gt; Reel to Reel &gt; PCM &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1973-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Re-Mastering by Scott Clugston</note>
+    </recording>
+    <recording id="r-e7a7538433e2a8885615" kind="soundboard">
+      <identifier scheme="archive-org">gd73-09-20.aud-sbd.cotsman.11618.sbeok.shnf</identifier>
+      <lineage>Soundboard and Audience Composite | Source 1: AUD&gt;MR&gt;?&gt;CD&gt;EAC&gt;SHN; Source 2: SBD&gt;MR&gt;R&gt;PCM&gt;D&gt;CD&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1973-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-07-18" date="1982-07-18">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820718-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-852" nameAsBilled="Ventura County Fairgrounds"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-loser" transition="unknown"/>
+      <performance id="p01-06" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-07" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-09" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="segue"/>
+      <performance id="p02-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-satisfaction" transition="segue"/>
+      <performance id="p03-02" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4117d895d05040798fde" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.146889.FOB.NAK.Anon.Weber-Small.Donaldson.Ammons.Reutlehuber.Noel.t-flac16</identifier>
+      <credit role="recordist">Anon</credit>
+      <lineage>Anonymous Recording (FOB): (3) Nakamichi 700s (DBX II) &gt; Master Cassette &gt; PCM (2) | Bill Reutelhuber transfer: PCM &gt; Sony PCM601esd (spdif out) &gt; VX Pocket/Laptop &gt; Nuendo &gt; Wav 16/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Bill Reutelhuber;Dougal Donaldson;Sean Weber Small;Joe Noel</note>
+    </recording>
+    <recording id="r-6708c4049a125a036c8d" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.156184.senn421.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M (TDK MA-R 90) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d61514edea7c61730fd1" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.156185.senn421.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M (TDK MA-R 90) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-203b8185e865df75c42f" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.169901.senn441.clugston.flac1648</identifier>
+      <credit role="recordist">Anon</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M (Fuji FR Metal 90) | Master Cassettes (Nakamichi CR-7A) &gt; Apogee Ensemble &gt; Peak Pro 6 &gt; Aiff (24-bit/96kHz) &gt; .wav (24-bit/96kHz) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-7eaace3e54901364ffea" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.169902.senn441.clugston.flac2496</identifier>
+      <credit role="recordist">Anon</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M (Fuji FR Metal 90) | Master Cassettes (Nakamichi CR-7A) &gt; Apogee Ensemble &gt; Peak Pro 6 &gt; Aiff (24-bit/96kHz) &gt; .wav (24-bit/96kHz) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-894a965072b777f4787c" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.fob.nak300.ho.bowen-foster.102176.flac</identifier>
+      <credit role="recordist">Jim Ho</credit>
+      <lineage>(FOB) Nakamichi CM-300s w/CP-4 Shotguns -&gt; Sony WM-D6 -&gt; WM-D6(M-Cass) | Cass/1 -&gt; HHb CDR 800 PRO via analog i/o</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jeff Bowen and Brad Foster</note>
+    </recording>
+    <recording id="r-5c4f5fc5493fec00f83e" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.fob.senn421-m160.wise.miller.102501.flac16</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>(FOB) (2) Sennheiser 421 + (1) Beyer M160 -&gt; Cassette Master (Sony TC-D5M/Maxell UDXLII-C90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/18/7-18-82-ventura-ca-ventura-county-fairgrounds/</note>
+    </recording>
+    <recording id="r-c36ec672a19bec5a1611" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.fob.unknown.vansant.100203.flac16</identifier>
+      <lineage>FOB audience recording, taper and equipment unknown - may have been Dan Healy | Master cassette -&gt; metal cassette x 2 -&gt; CD-R (Sony K717ES -&gt; Marantz CDR500) -&gt; Audacity -&gt; FLAC; Pitch adjusted - 1% to match patch source.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Tom Van Sant</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/18/7-18-82-ventura-ca-ventura-county-fairgrounds/</note>
+    </recording>
+    <recording id="r-7753ec54f76e9885083c" kind="audience">
+      <identifier scheme="archive-org">gd1982-07-18.fob.unknown.vansant.fixed-100203.100727.flac16</identifier>
+      <lineage>FOB audience recording, taper and equipment unknown | Master cassette -&gt; metal cassette x 2 -&gt; CD-R (Sony TC-K717ES -&gt; Marantz CDR500) -&gt; Audacity -&gt; AIFF -&gt; FLAC Pitch adjusted - 1% to match patch source</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Tom Van Sant</note>
+    </recording>
+    <recording id="r-64416c60b35de62ee336" kind="unknown">
+      <identifier scheme="archive-org">gd1982-07-18.nak700.Anon-Poris-Severson.98604.flac16</identifier>
+      <credit role="recordist">anonymous taper, Jamie Poris and Mark Severson</credit>
+      <lineage>3 Nak 700's (L &amp; R Cardiods, Center Omni - 3 DB Low Pass filter) &gt; -15 db pads &gt; 3 mic mixer Preamp &gt; Patchbay &gt; Sony D5 &gt; MAC (Dolby B) taping position: 25 foot back, Dead Center | mac &gt; Nak DR-1 &gt; HD-P2 &gt; 24/96 Wave &gt; Adobe Audition &gt; Wavelab (with Izotope Ozone 4 and Algorithmix Pro) &gt; iZotope RX Advanced &gt; 16/44.1 wave &gt; CD Wave &gt; TLH &gt; flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brion Green, Edited and mastered by SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4ad95c9f00d41d5c443a" kind="audience">
+      <identifier scheme="archive-org">gd82-07-18.fob-senn441-weinberg.unknown.17030.sbeok.shnf</identifier>
+      <credit role="recordist">Ohr Weinberg</credit>
+      <lineage>Audience Recording: Sennheiser MD-441's | MC &gt; CD &gt; EAC &gt; WAV &gt; SHN, FOB w/ two Sennheiser MD-441's (8 1/2' Stand) &gt; Sony TC-D5M (Maxell MX-90 Cassettes w/ Dolby B). A-&gt;D (Ohr): Master Cassette &gt; Nakamichi Dragon &gt; HHB CDR 830 Plus &gt; EAC -&gt; CD Wave&gt; flip splice</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/18/7-18-82-ventura-ca-ventura-county-fairgrounds/</note>
+    </recording>
+    <recording id="r-6e385e7357b77a12c864" kind="audience">
+      <identifier scheme="archive-org">gd82-07-18.sennheiser.willy.8484.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise?</credit>
+      <lineage>Audience Recording: Sennheiser 421's | Senn 421's&gt;MC&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1982-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

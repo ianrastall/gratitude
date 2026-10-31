@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-06-25" date="1993-06-25">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930625-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-519" nameAsBilled="Robert F. Kennedy Stadium"/>
+  <program coverage="partial">
+    <set kind="soundcheck" n="1" mode="unknown">
+      <performance id="p01-01" song="s-ain-t-that-peculiar" transition="unknown"/>
+      <performance id="p01-02" song="s-new-speedway-boogie" transition="unknown"/>
+      <performance id="p01-03" song="s-lucy-in-the-sky-with-diamonds" transition="unknown"/>
+      <note>Source section label: Soundcheck</note>
+    </set>
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p02-01" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p02-02" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p02-03" song="s-just-like-tom-thumb-s-blues" transition="unknown"/>
+      <performance id="p02-04" song="s-althea" transition="unknown"/>
+      <performance id="p02-05" song="s-cassidy" transition="unknown"/>
+      <performance id="p02-06" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p02-07" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p03-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p03-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p03-03" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p03-04" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p03-05" song="s-corrina" transition="segue"/>
+      <performance id="p03-06" song="s-drums" transition="segue"/>
+      <performance id="p03-07" song="s-space" transition="segue"/>
+      <performance id="p03-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p03-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p03-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p04-01" song="s-the-weight" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-70987788ba9ac7bc8d8c" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-25.127453.Boedicker.flac16</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source: Sony D6 Cassette master&gt;Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony TC-D5M Cassette Deck(Playback)&gt; Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8. Sector Boundaries Aligned Using Traders Little Helper. Taped By Dave Boedicker,Sect 12, Row 10, Seat 17. Taper Section.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-a5204e415f8427beba2b" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-25.127502.mtx.flac16</identifier>
+      <lineage>Matrixed &amp; retracked in Adobe Audition 3 | Recording Info SBD -&gt; Master Dat (48k) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.1 -&gt; Flac by Charlie Miller and AUD Sony D6 Cassette master &gt; Nakamichi 300 Mics W/CP4 Shotguns &gt; Sony TC-D5M &gt; Edirol R-09 HR (24/44.1 KHZ) &gt; CD Wav Editor &gt; Traders Little Helper &gt; Flac Level 8.Sector Boundaries Aligned By Dave Boedicker, Sect 12, Row 10, Seat 17.Taper section</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-eba9fda12afea9e848c9" kind="matrix">
+      <identifier scheme="archive-org">gd1993-06-25.133306.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid=110519) Recording Info: SBD -&gt; Master Dat (48k); Transfer Info: Master Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.1 -&gt; FLAC; Transfers and Mastering By Charlie Miller + AUD (shn id 91996) Sennheiser ME-80's&gt;Technics SV-MD1 | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades &amp; Sample Rate Conversion)&gt;CDWAV&gt;FLAC Recorded &amp; Transferred By Keith Litzenberger - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d82c5bff24611912ecd7" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-06-25.133307.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=110519) Recording Info: SBD -&gt; Master Dat (48k); Transfer Info: Master Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.1 -&gt; FLAC; Transfers and Mastering By Charlie Miller + AUD (shn id 91996) Sennheiser ME-80's&gt;Technics SV-MD1 | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades &amp; Sample Rate Conversion)&gt;CDWAV&gt;FLAC Recorded &amp; Transferred By Keith Litzenberger - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-73c8dd3a97f683245974" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-25.147796.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ea43c5cefba3c8ade7b7" kind="audience">
+      <identifier scheme="archive-org">gd1993-06-25.149336.fob.nak300.ebel.flac1648</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>FOB Nakamichi CM300-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coaxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-aebc45f7e86cb067313e" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-25.ams-young.mtownshend-evans.34893.flac16</identifier>
+      <credit role="recordist">Jamie Young</credit>
+      <lineage>Soundfield AMS ST250 Microphone Cardiod -&gt; Modified Sony D10 Pro DAT | DAT &gt; TASCAM DA-20 &gt; M-Audio FireWire solo &gt; Soundforge 8.0 waV &gt; sf7.0 removed glitches/pops @1:17, 3:22, 56:27 &gt; sf7.0 bit depth conversion w/ dither from 96kHz to 48kHz &gt; FLACFrontend conversion to FLAC &amp; ffp</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1993-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Michael Townshend</note>
+    </recording>
+    <recording id="r-7242d02bee0a75cd1ac6" kind="fm">
+      <identifier scheme="archive-org">gd1993-06-25.fm-monitor.koucky.91249.flac16</identifier>
+      <lineage>FM SB Monitor &gt; Sony D-6 Cassette &gt; 1st gen &gt; DAT | Panasonic SV-3700 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Transfer and Mastering: Bill Koucky Green Mountain Bros.</note>
+    </recording>
+    <recording id="r-1129f2e78f4b2d80a872" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-06-25.sbd.miller.110519.flac16</identifier>
+      <lineage>SBD -&gt; Master Dat (48k) | Master Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e2c40e279374703eccb2" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-25.senn-me80.wklitz.91996.flac16</identifier>
+      <credit role="recordist">Keith Litzenberger</credit>
+      <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 (DAT) | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades &amp; Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1993-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-6ed1d8609ea3173bf92a" kind="audience">
+      <identifier scheme="archive-org">gd93-06-25.ams.keyser.26124.sbefail.flac16</identifier>
+      <credit role="recordist">James Young &amp; Ron Keyser</credit>
+      <lineage>Audience: AMS ST-250 | AMS ST-250 (FOB,DFC,ORTF) &gt; Modified Sony D10 Pro &gt; Sony D10 Pro via Sony AES/EBU digital &gt; Sony D8 &gt; M-Audio Auiophile USB &gt; Soundforge v 7.0 &gt; CD Wave &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Ron Keyser</note>
+    </recording>
+    <recording id="r-0b32e9347598a0efaa69" kind="soundboard">
+      <identifier scheme="archive-org">gd93-06-25.sbd.nawrocki.19270.sbeok.shnf</identifier>
+      <lineage>SBD/Monitor Mix &gt; Beta &gt; VHS &gt; SB Audigy Platinum &gt; CDWave &gt; MKWact</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-a167747f8afacb0e0507" kind="audience">
+      <identifier scheme="archive-org">gd93-06-25.ST250s.georges.1061.sbeok.shnf</identifier>
+      <lineage>Audience: AMS ST-250 | AMS ST-250 (FOB, blumlein) &gt; Sony D-10 Pro II &gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1993-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Nick Georges</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

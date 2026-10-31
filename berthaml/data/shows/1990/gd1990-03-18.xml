@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-03-18" date="1990-03-18">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900318-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-677" nameAsBilled="Hartford Civic Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="segue"/>
+      <performance id="p01-02" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-03" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-07" song="s-just-a-little-light" transition="unknown"/>
+      <performance id="p01-08" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-09" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-10" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-02" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-03" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-04" song="s-truckin" transition="segue"/>
+      <performance id="p02-05" song="s-spoonful" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-10" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-11" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-34d91f1cadebe4981b7e" kind="audience">
+      <identifier scheme="archive-org">gd1990-03-18.125607.Nak300s-Senn441s.Fitzy.Keo.Flac2496</identifier>
+      <credit role="recordist">fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns And Sennheiser 441's &gt; Radioshack Mixer &gt; Sony TC-D5M, Tapes: Maxell MX 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-2e0adeac62bc93ec5af8" kind="audience">
+      <identifier scheme="archive-org">gd1990-03-18.125608.Nak300s-Senn441s.Fitzy.Keo.Flac1644</identifier>
+      <credit role="recordist">fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns And Sennheiser 441's &gt; Radioshack Mixer &gt; Sony TC-D5M, Tapes: Maxell MX 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-863e5914245aa3fdf17f" kind="unknown">
+      <identifier scheme="archive-org">gd1990-03-18.132671.cmc521.deal-petty.flac16</identifier>
+      <credit role="recordist">Lance Deal</credit>
+      <lineage>Recording info: 2nd row OTS/Schoeps cmc 521's&gt; Schoeps VMS 52 UB p/s&gt; SV-MD1 by Lance Deal; Master DAT's provided by Lance Deal; | Fostex D-5 (optical)&gt; M-Audio USB Transit&gt; Audacity @ 16/48&gt; 16/44&gt; CD Wave (tracking)&gt; TLH (SBE's/Flac/md5); Transferred and liberated to etree by Will Petty</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Willl Petty</note>
+    </recording>
+    <recording id="r-70864514269ee9acbe07" kind="audience">
+      <identifier scheme="archive-org">gd1990-03-18.138118.Katzeff.Mattes.Ammons.SchoepsCMC34.fob.t-flac16</identifier>
+      <credit role="recordist">Ted Mattes;Rick Katzeff</credit>
+      <lineage>Ted Mattes/Rick Katzeff FOB recording: Schoeps CMC34 at 110 degrees ORTF on Schoeps t-bar &gt; Panasonic SV250 (phase corrected); John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 44K &gt; Wave; Joe Noel Edits, T,F &amp; P: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joel Noel</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-17c2ac4f60c615aeb29c" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-03-18.139225.sbd.miller.truck-mix.flac</identifier>
+      <lineage>SBD (Recording Mix) &gt; Dat Master &gt; PCM (Sony Beta L-750) | PCM (Sony SL-10) &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt;Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dbdec22d031f14186193" kind="matrix">
+      <identifier scheme="archive-org">gd1990-03-18.139667.mtx.photoLeon.LL.t-flac16</identifier>
+      <lineage>Three source matrix created in Audacity</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Three source matrix created in Audacity by photoLeon.</note>
+    </recording>
+    <recording id="r-a13bcbcc1e3ff4518b0d" kind="audience">
+      <identifier scheme="archive-org">gd1990-03-18.141913.FOB.Schoeps.Mattes.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Ted Mattes</credit>
+      <lineage>flac16/48kHz ; Ted Mattes Recording (FOB): Schoeps CMC4 MK4 &gt; DAT (Panasonic SV250); Location: Sec 2 Row t Seat 8; Charlie Miller | Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-351731d0614446563e87" kind="audience">
+      <identifier scheme="archive-org">gd1990-03-18.149332.FOB.Schoeps.Mattes.Miller.Noel.reMaster.t-flac1648</identifier>
+      <credit role="recordist">Master Digital Audience Recording by Ted Mattes</credit>
+      <lineage>From the Teddy Ballgame Archive - a reMaster of shnid 141913 Source: (FOB) Schoeps CMC4 MK4 &gt; DAT (Panasonic SV250) Location: Sec 2 Row t Seat 8 | Transfer: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer by Charlie Miller Edited &amp; reMastered using Adobe Audition by Joe Noel March 25, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-a9224ca7a2dac7eb927b" kind="matrix">
+      <identifier scheme="archive-org">gd1990-03-18.149480.ultramatrix.sbd.pearson-healy.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-000e7d1d6625c9d623dc" kind="matrix">
+      <identifier scheme="archive-org">gd1990-03-18.149785.UltraMatrix.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 7, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-4b37f682066e28a0e858" kind="matrix">
+      <identifier scheme="archive-org">gd1990-03-18.171768.mtx.tobin.flac1648</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (48/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-90d43752bf5a65955942" kind="unknown">
+      <identifier scheme="archive-org">gd1990-03-18.171772.dts.tobin.flac1648</identifier>
+      <lineage>DTS Audio 5.1 Mix (16/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-55cf5635d8c5170ed0cd" kind="unknown">
+      <identifier scheme="archive-org">gd1990-03-18.171784.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c422d8e2c4d8343a3533" kind="matrix">
+      <identifier scheme="archive-org">gd1990-03-18.mtx.hansokolow.96568.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): hansokolow</note>
+    </recording>
+    <recording id="r-55ebe1863084e84a3476" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-03-18.naks.andrewf.35401.flac16</identifier>
+      <credit role="recordist">Andrew F</credit>
+      <lineage>Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell MX-90 cassettes, with no Dolby. Mics on stand 7-feet high, set up near the back of the floor, aprx five rows behind the soundboard area. (Note: There was no taping area at this show.) | MAC &gt; Sony TC-D5M (no Dolby) &gt; Marantz CDR-500 burner &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72. (for SBE-OK, FLAC compression, and checksums) &gt; FLAC &gt; bt.etree July 2006.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-3cef89b395d201575aac" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-03-18.sbd.miller.90486.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (TDK SA-X90) D | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8cb7faa82706ee24e653" kind="unknown">
+      <identifier scheme="archive-org">gd1990-03-18.senn-me80.litzenberger.91358.sbeok.flac16</identifier>
+      <credit role="recordist">Keith Litzenberger</credit>
+      <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 (1st row OTS) | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades &amp; Sample Rate Conversion)&gt;CDWAV&gt;FLAC)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1990-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-30df5557c043f656838a" kind="soundboard">
+      <identifier scheme="archive-org">gd90-03-18.sbd.huck.9364.sbeok.shnf</identifier>
+      <lineage>Hartford Civic Center SBD feed to HCN studios via ISDN &gt; HCN Master Reel &gt; DAT(Sony ES)recorded/(Tascam DA20mkII) playback&gt;Pioneer PDR 555&gt;CDR&gt;WAV&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1990-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

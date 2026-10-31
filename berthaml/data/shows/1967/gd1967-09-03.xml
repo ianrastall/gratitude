@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1967-09-03" date="1967-09-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19670903-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 8eb0ce19c7a9e5471cf3e3b8d7b0aa5cca2765e660ec8b79f0be03b846627d4c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-111" nameAsBilled="Dance Hall"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-dancing-in-the-street" transition="unknown" titleVariant="Dancin' In The Streets"/>
+      <performance id="p01-02" song="s-hurts-me-too" transition="unknown"/>
+      <performance id="p01-03" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-04" song="s-good-morning-little-schoolgirl" transition="unknown"/>
+      <performance id="p01-05" song="s-viola-lee-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-big-boss-man" transition="unknown"/>
+      <performance id="p01-07" song="s-alligator" transition="segue"/>
+      <performance id="p01-08" song="s-feedback" transition="unknown"/>
+      <performance id="p01-09" song="s-midnight-hour" transition="unknown"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-33d6dea00df8f205ac33" kind="unknown">
+      <identifier scheme="archive-org">gd1967-09-03.sbd.miller.43.sbeok.shnf</identifier>
+      <lineage>RM &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dance Hall on 1967-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Jon Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-5d9a388e61793665dffb" kind="soundboard">
+      <identifier scheme="archive-org">gd1967-09-03.sbd.oconnell-clevenger.6180.sbeok.shnf</identifier>
+      <lineage>Sbd | Unknown</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dance Hall on 1967-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-83e2c7b0e6237aca0427" kind="soundboard">
+      <identifier scheme="archive-org">gd67-09-03.sbd.backus.17272.sbeok.shnf</identifier>
+      <lineage>Soundboard | RM &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dance Hall on 1967-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jon Miller</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

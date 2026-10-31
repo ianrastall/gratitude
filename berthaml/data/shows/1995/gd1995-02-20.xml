@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1995-02-20" date="1995-02-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950220-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1995-02-20.138045.set2.sbd.shnf" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 e603a4af98dc3652c687bdeea9ddb705e805ece24f3c508ef9138b178da1dc34</cite>
+  </record>
+  <venue ref="v-jb-1034" nameAsBilled="Delta Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-06" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-07" song="s-lazy-river-road" transition="unknown"/>
+      <performance id="p01-08" song="s-cassidy" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-box-of-rain" transition="segue"/>
+      <performance id="p02-02" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-last-time" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-rain" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-fa88fde45fc6e8d7494f" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-02-20.138045.set2.sbd.shnf</identifier>
+      <credit role="recordist">unknown</credit>
+      <lineage>Set 2 Source: SBD &gt; ? &gt;SHN</lineage>
+      <playlist id="pl-87f0976dcc3f75996dea" label="Archive original SHN files" format="shn" sourceHref="https://archive.org/metadata/gd1995-02-20.138045.set2.sbd.shnf">
+        <track n="1" title="95-02-20 201 Box Of Rain" file="95-02-20201BoxOfRain.shn" mappingStatus="unreviewed" sourceNumber="1" duration="PT290.4S"/>
+        <track n="2" title="95-02-20 202 Eyes Of The World" file="95-02-20202EyesOfTheWorld.shn" mappingStatus="unreviewed" sourceNumber="2" duration="PT656.1S"/>
+        <track n="3" title="95-02-20 203 Playin In The Band" file="95-02-20203PlayinInTheBand.shn" mappingStatus="unreviewed" sourceNumber="3" duration="PT355.1S"/>
+        <track n="4" title="95-02-20 204 Uncle Johns Band" file="95-02-20204UncleJohnsBand.shn" mappingStatus="unreviewed" sourceNumber="4" duration="PT898.1S"/>
+        <track n="5" title="95-02-20 205 Drums" file="95-02-20205Drums.shn" mappingStatus="unreviewed" sourceNumber="5" duration="PT551.6S"/>
+        <track n="6" title="95-02-20 206 Space" file="95-02-20206Space.shn" mappingStatus="unreviewed" sourceNumber="6" duration="PT177.5S"/>
+        <track n="7" title="95-02-20 207 Last Time" file="95-02-20207LastTime.shn" mappingStatus="unreviewed" sourceNumber="7" duration="PT357.1S"/>
+        <track n="8" title="95-02-20 208 Stella Blue" file="95-02-20208StellaBlue.shn" mappingStatus="unreviewed" sourceNumber="8" duration="PT471.1S"/>
+        <track n="9" title="95-02-20 209 Throwin Stones" file="95-02-20209ThrowinStones.shn" mappingStatus="unreviewed" sourceNumber="9" duration="PT550.6S"/>
+        <track n="10" title="95-02-20 210 Not Fade Away" file="95-02-20210NotFadeAway.shn" mappingStatus="unreviewed" sourceNumber="10" duration="PT327.1S"/>
+        <track n="11" title="95-02-20 211 Crowd" file="95-02-20211Crowd.shn" mappingStatus="unreviewed" sourceNumber="11" duration="PT25.7S"/>
+        <track n="12" title="95-02-20 212 Rain" file="95-02-20212Rain.shn" mappingStatus="unreviewed" sourceNumber="12" duration="PT299.5S"/>
+        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+      </playlist>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Unknown</note>
+      <note>Archive source metadata (source): Set 2 Source: SBD &gt; ? &gt;SHN</note>
+      <note>Archive source metadata (taper): unknown</note>
+      <note>Archive source metadata (transferer): Unknown</note>
+    </recording>
+    <recording id="r-4be2846057791173a563" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-02-20.144300.sbd.miller.clugston.flac1644</identifier>
+      <lineage>Master Soundboard Dat &gt; 1st generation cassettes &gt; Dat &gt; HDD (.wav 16/44.1) | HDD (.wav)&gt; Adobe Audition CC 2019 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-94ada24ac47773e8415f" kind="unknown">
+      <identifier scheme="archive-org">gd1995-02-20.145491.akg460b.lerond.t-flac1648</identifier>
+      <credit role="recordist">Jean Lerond</credit>
+      <lineage>AKGC60B+CK8x shotgun in OTS, ~34’ to St.L of C (inline w/hanging PA; aimed at the PA) &gt; Panasonic SV-255 (Paul Tumolo’s rig) Analog or Digi out, possibly via custom patchbay built by Neil Sturtevant (detail not noted) &gt; Sony TCD-D3 DAT @ 48 kHz | Fostex D5 DAT (playback of DAT Master record) @ 16-bits, 48 kHz (S/PDIF optical out) &gt; M-Audio Firewire Audiophile external soundcard &gt; Magix Sound Forge Pro Suite 12.1 build 170 x64 Audacity used for tracking, tagging, flac8 conversion</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jean Lerond</note>
+    </recording>
+    <recording id="r-148f7fb129124f91af6d" kind="soundboard">
+      <identifier scheme="archive-org">gd95-02-20.sbd.1297.sbeok.shnf</identifier>
+      <lineage>SBD &gt; D &gt; CD-R &gt; EAC &gt;SHN (note no cass gen)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

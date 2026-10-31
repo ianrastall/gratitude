@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-03-06" date="1981-03-06">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810306-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-199" nameAsBilled="Stanley Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-03" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-04" song="s-they-love-each-other" transition="segue"/>
+      <performance id="p01-05" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-06" song="s-row-jimmy" transition="segue"/>
+      <performance id="p01-07" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-08" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="segue"/>
+      <performance id="p01-10" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-7bdf9d468c2cd8cf2aa5" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-06.128579.senn421.wise.minches.flac16</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Recording by Jim Wise: Master Audience Cassette; 2 Sennheiser 421s&gt; Sony D-5 Center Loge; Transfer and FLAC encoding by David Minches: April 2014; Dolby B decoded Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-ab09faa638b4f21a1a18" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-06.128664.senn421.wise.minches.flac2496</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Recording by Jim Wise: Master Audience Cassette; 2 Sennheiser 421s&gt; Sony D-5 Center Loge; Transfer and FLAC encoding by David Minches: April 2014; Dolby B decoded Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]); Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding (24/96 version)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-cf7d587e34610aea7103" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-06.139741.fob.beyer.m160.streeter.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source Info: Frank Streeter's Master FOB Audience Cassette; Beyer M160 &gt; Sony TC-D5M (Maxell MX90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0&gt; TLH flac2496; Transfer by Charlie Miller; Mastered by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0c3ef9314913cd7c4130" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-06.139742.fob.beyer.m160.streeter.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source Info: Frank Streeter's Master FOB Audience Cassette; Beyer M160 &gt; Sony TC-D5M (Maxell MX90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0&gt; TLH flac2496; Transfer by Charlie Miller; Mastered by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-fd1ba1228a201295b11a" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-06.166099.s2.sbd.seaweed.flac2448</identifier>
+      <credit role="recordist">seaweed</credit>
+      <lineage>SBD &gt; ? &gt; Cassette | Maxell XLIIS &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-2814e4b715fa666346bc" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-06.168633.set2.sbd.miller.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; Cassette &gt; DAT &gt; CD &gt; SHN | SHN &gt; dBpoweramp (WAV) &gt; Adobe Audition 2023 &gt; DDi Codec &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller October 26, 2023</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9aa8ebabf589c932ab23" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-06.169228.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-5d6602114fb38ff697e7" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-06.169229.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-bd2b39460a20cfd57e2e" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-06.169387.nak300.cm.ismokeweed.flac2448</identifier>
+      <credit role="recordist">ismokeweed</credit>
+      <lineage>this is a digital copy of a master stereo audience recording made with 2xnak300 mics into a sony tcd5m.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): ismokeweed</note>
+    </recording>
+    <recording id="r-7f06e14ccbdeaf8c6d6c" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-06.174922.Bernstein.MasterCassettes.t-flac2496</identifier>
+      <credit role="recordist">Master Cassettes Recorded by Jon Bernstein</credit>
+      <lineage>?? mics &gt; ?? lead deck &gt; ?? Deck &gt; Master Cassettes | Master Cassettes &gt; Nakamichi Cassette Deck 1 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96 &gt; Adobe Audition &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer &amp; Mastered by Ray Ackerman Edited w/ add'l Mastering by Joe Noel September 26, 2025</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-9d334dd81b34e82099e7" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-06.175137.set2.sbd.miller.phase-repair.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; Cassette &gt; DAT &gt; CD &gt; SHN | Transfer Info: SHN &gt; dBpoweramp (WAV) &gt; Adobe Audition 2023 &gt; DDi Codec &gt; Samplitude Pro X6 Suite &gt; FLAC/16 Patch Info: Nakamichi CM-300 &gt; Cassette Master (shnid=129552) supplies: Drums (1:28 - 2:08) Remastering Info: FLAC &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 15, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d9a1b9d5d86470e1d88d" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-06.nak700.taylor-radnor.gross.gems.83827.flac16</identifier>
+      <credit role="recordist">Mason Taylor and Mark Radnor</credit>
+      <lineage>NAK 700 (shotgun capsules) &gt; Nak 550 Cassette Recorder &gt; Maxell Metal &gt; HHB Porta-a-DAT | DAT &gt; TASCAM DA-20 (S/PDIF out) -&gt; Apogee Wide Eye S/PDIF interconnect -&gt; LynxTWO-A Audio -&gt; (S/PDIF in) -&gt; Wavelab 6.0 (Ozone &amp; L2)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-57ce34a7c5d5a34acca9" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-06.naks.mason.129552.flac16</identifier>
+      <credit role="recordist">Mason B. Taylor</credit>
+      <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on crome tapes, with Nakamichi microphones; mics spread 15' on lip of lower balcony onto Maxell Metal tapes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-d6c0a49846cf67dd5c4d" kind="soundboard">
+      <identifier scheme="archive-org">gd81-03-06.set2-sbd.fink.14019.sbeok.shnf</identifier>
+      <lineage>Soundboard | S : MC &gt; C &gt; D &gt; CDR &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e1f9161d44ca6d1bfa36" kind="audience">
+      <identifier scheme="archive-org">gd81-03-06.wise.lutch.3921.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Audience Recording: Sennheiser 421&gt;D5 set up loge center | Master Cassette (playback on Nakamichi Dragon) &gt; A/D Conversion via Sony R700 (no DAT gen) &gt; COAX to ZA2 &gt; Soundforge &gt; Master CDR &gt; CDR(1) Via Tascam cd-d4000mkII &gt; EAC &gt; Soundforge &gt; CD WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1981-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

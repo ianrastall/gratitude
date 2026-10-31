@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-05-15" date="1983-05-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830515-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-118" nameAsBilled="William Randolph Hearst Greek Theatre, UC Berkeley"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-touch-of-grey" transition="unknown"/>
+      <performance id="p01-02" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-04" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-05" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-06" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-07" song="s-althea" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-09" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p02-02" song="s-slipknot" transition="segue"/>
+      <performance id="p02-03" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-04" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-05" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-jam" transition="segue"/>
+      <performance id="p02-09" song="s-truckin" transition="segue"/>
+      <performance id="p02-10" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-11" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-12" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a3e60c5b6941da09a01f" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.147898.fob.akg.d330bt.senn421.hecht.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-eaa58928160fcca02c69" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.147899.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d7c9986c74a269f02a5e" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.158151.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1983-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-2c15de14bf7ed9d135ab" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.158152.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-aae25aec4a4c7e7bdc47" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.163385.nak304.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Nakamichi 300 mics + CP4 capsules &gt; Jim Vita's 1st Generation Cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1983-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7c38e41e789f75582fda" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.163386.nak304.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Nakamichi 300 mics + CP4 capsules &gt; Jim Vita's 1st Generation Cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-271373cae24f6959acec" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.176406.senn421.blend.wiseman.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; Sennheiser 421 mics (x3) &gt; Sony PCM F-1 &gt; Sony D5 (patched out of Dave Kramer &amp; Matt Field) | Master Cassettes (Nakamichi BX-150)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1983-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0b25dea6957bc631cebf" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.176407.senn421.blend.wiseman.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; Sennheiser 421 mics (x3) &gt; Sony PCM F-1 &gt; Sony D5 (patched out of Dave Kramer &amp; Matt Field) | Master Cassettes (Nakamichi BX-150)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1983-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-30e82b635bbbb56825ee" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.fob.sonyecm220t.keshavan.miller.94397.sbeok.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>(FOB) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji Metal Tape/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-882ad432ee435f8dc586" kind="audience">
+      <identifier scheme="archive-org">gd1983-05-15.fob.sonyecm220t.keshavan.miller.fix.94516.sbeok.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>(FOB) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji Metal Tape/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1983-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-3e1b60038d8da021cc26" kind="unknown">
+      <identifier scheme="archive-org">gd1983-05-15.nak700.anon-severson-poris.LMPP.96565.flac16</identifier>
+      <credit role="recordist">anonymous taper, Jamie Poris, Mark Severson</credit>
+      <lineage>3 Nak 700's (L &amp; R Cardiods, Center Omni - 3 DB Low Pass filter)&gt; -15 db pads &gt; 3 mic mixer Preamp &gt; Patchbay&gt; Sony D6 &gt; MAC (Dolby B ) | MAC (Dolby B ) &gt; CR-5A &gt; HD-P2 &gt; 24/96 Wave &gt; Adobe Audition &gt; Wavelab with iZotope Ozone and Waves RBass &gt; iZotope RX Advanced &gt; 16/44.1 wave &gt; CD Wave &gt; TLH &gt; flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brian Green and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6565a21a4cab03b9113c" kind="unknown">
+      <identifier scheme="archive-org">gd1983-05-15.set2.nak700.mccue.34167.sbeok.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>2 Nak 700's &gt; Bass Box EQ &gt; Sony D5 &gt; Sony D5 &gt; Maxell MX 90's | 1st gen Cassette&gt;Sony D5&gt;Tascam Stand Alone burner(tracked on the fly)&gt;EAC&gt; HD&gt;CDR&gt;EAC&gt;.wav files joined, patched(CEP 2.0) &amp; retracked (CD Wave Editor)&gt;TLH&gt;FLAC16. Files encoded @ level 6. Sector boundaries verified with TLH.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mark McCue and Alex Ford</note>
+    </recording>
+    <recording id="r-9467fde8f98e58cbb718" kind="audience">
+      <identifier scheme="archive-org">gd83-05-15.sony.keshavan.2217.sbeok.shnf</identifier>
+      <lineage>FOB Aud Sony ECM 220T &gt; Sony D5 using Fuji Metals no dolby&gt; Played back on a Nak DR1 with Azimuth adjustment &gt; Sony PCMR500 DAT 48KHz SBM ON &gt; PC transfer via Turtle Beach Montego II Digital I/O &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1983-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

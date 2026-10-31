@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-03-13" date="1981-03-13">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810313-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-499" nameAsBilled="Utica Memorial Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="segue"/>
+      <performance id="p01-02" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="segue"/>
+      <performance id="p01-04" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-05" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-06" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-07" song="s-high-time" transition="unknown"/>
+      <performance id="p01-08" song="s-cassidy" transition="segue"/>
+      <performance id="p01-09" song="s-althea" transition="unknown"/>
+      <performance id="p01-10" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-cold-rain-and-snow" transition="segue"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-03" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-09" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-b694381d77f7decbb19f" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-13.132620.aud.sennheiser421.flac16</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16/48kHz ; Cassette Audience Master recorded by Jim Wise; Sennheiser MD 421 mic's mounted on a stand-Sony TC D-5 Cassette Recorder; Location @ Soundboard; Analog to Digital: Dolby B Decoded Maxell XL-11 High-Bias(CrO2)Cassette Masters played back on Nakamichi Dragon-Korg MR-1000(DSF[1-bit 5.6448 MHz Stereo]) Korg AudioGate-WAV[24/96]; Transfer by David Minches; Editing(Adobe Audition CC)-FLAC encoding(dBpoweramp); Tagging(Tag &amp; Re-name)-Sample Rate Conversion(r8brain) by Jim Wise</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-ee2d546736ec269b02b8" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-13.132621.aud.sennheiser421.flac24</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Cassette Audience Master recorded by Jim Wise; Sennheiser MD 421 mic's mounted on a stand- Sony TC D-5 Cassette Recorder; Location @ Soundboard; Analog to Digital: Dolby B Decoded Maxell XL-11 High-Bias(CrO2)Cassette Masters played back on Nakamichi Dragon-Korg MR-1000(DSF[1-bit 5.6448 MHz Stereo]) Korg AudioGate-WAV[24/96] Transfer by David Minches; Editing(Adobe Audition CC)-FLAC encoding(dBpoweramp); Tagging(Tag &amp; Re-name) Jim Wise</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-11c7b5ee773fa4def3a0" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-13.140010.FOB-akg-d330bt.streeter.miller.sirmick.flac2496</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source: AKG D330BT's &gt;Sony TC-D5M &gt; Cassette Master (TDK MA90) - Taped by Frank Streeter; Transfer : Cassette Master &gt; Nakamichi CR-7A &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition 3.0 &gt; TLH &gt; flac 2496 - Transferred by Charlie Miller; Lineage: Wav &gt; Adobe Audition 3 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac24; edited and mastered SIRMick November 2017</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f9ad08477b948bb22845" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-13.147851.fob.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Audience Cassettes; Nakamichi 700 mics (with bass EQ)&gt; Sony D5M (dolby B)(Maxell XLIIS) | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-5b59777490f6bc2a1a96" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-13.147852.fob.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Audience Cassettes; Nakamichi 700 mics (with bass EQ)&gt; Sony D5M (dolby B)(Maxell XLIIS) | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-313a55beedaefb3f6a76" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-13.174927.aud.Bernstein.ackerman.noel.flac2496</identifier>
+      <credit role="recordist">Master Cassettes Recorded by Jon Bernstein</credit>
+      <lineage>?? mics &gt; ?? lead deck &gt; ?? Deck &gt; Master Cassettes | Master Cassettes &gt; Nakamichi Cassette Deck 1 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96 &gt; Adobe Audition &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer by Ray Ackerman Edited &amp; Mastered by Joe Noel September 30, 2025</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-5eeebc478ba60eaa747d" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-13.175256.sbd.miller.remaster.flac1644</identifier>
+      <lineage>Set 1: SBD &gt; Cassette Master &gt; Reel &gt; DAT (shnid=113101) Set 2: SBD &gt; Old Mono Cassette (shnid=33336) | Remastering Info: FLAC &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Remastered by Charlie Miller November 22, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9f601d648ca059c57cc0" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-13.175257.sbd.set1p.miller.phase-repair.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; Reel &gt; DAT (48k) | Transfer Info: DAT (Sony PCM-R500) &gt; Apogee Ensemble &gt; Peak &gt; AIFF Mastering Info: AIFF &gt; Samplitude Pro v11.2 &gt; Adobe Auditon v1.5 &gt; FLAC Remastering Info: FLAC &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Remastered By Charlie Miller November 22, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-92bb6744e7ac29a8271d" kind="matrix">
+      <identifier scheme="archive-org">gd1981-03-13.179055.mtx.chapin.flac2496</identifier>
+      <lineage>Matrix by Chapin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-6faca50f5921d4a46266" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-13.nak700.rolfe.minches.99104.flac16</identifier>
+      <credit role="recordist">Steve Rolfe</credit>
+      <lineage>2 Nak 700s&gt; Sony TC-D5 | Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
+    </recording>
+    <recording id="r-5275a8204f0027eac258" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-13.nak700.wagner.miller.90455.sbeok.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>(FOB) Nakamichi 700 (With Bass EQ) -&gt; Cassette Master (Sony D5M/Maxell DXLIIS/Dolby B) D | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Coliseum on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-f08f4bb877d3005b0586" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-13.pset1.sbd.digitalrbb.miller.113101.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Sony R500) -&gt; Apogee Ensemble -&gt; Peak -&gt; AIFF Mastering Info: AIFF -&gt; Samplitude Professional v11.2 -&gt; Adobe Auditon v1.5 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c1f364615c94dae4d4bc" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-13.sbd.unknown.33336.sbeok.flac16</identifier>
+      <lineage>oundboard of unknown lineage | Old cassette &gt; Sony TC-D5M &gt; Soundblaster &gt; WAV &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Coliseum on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-bdbdf5ea8040be9c7f8c" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-13.senn421.zimmerman.minches.81392.sbeok.flac16</identifier>
+      <credit role="recordist">Alan Zimmerman</credit>
+      <lineage>2 Sennheiser 421s (Alan thinks)&gt; Sony TC-158 (Fuji FX-I 90s) &gt; MAC | MAC &gt; Nakamichi Dragon &gt; ART DI/O &gt; Digital Audio Labs Card Deluxe soundcard &gt; Cool Edit 2000 &gt; flac encoding &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Coliseum on 1981-03-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+    </recording>
+    <recording id="r-bf25909824511a5940ba" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-13.set1.sbd.digitalrbb.miller.112659.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Sony R500) -&gt; Apogee Ensemble -&gt; Peak -&gt; AIFF Mastering Info: AIFF -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e7d24b049c723bac05e3" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-13.wise.lutch.4167.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Senn 421 &gt; D5 &gt; MAC &gt; Nakamichi Dragon &gt; A/D Conversion via Sony R700 (no DAT gen) &gt; COAX to ZA2 &gt; Soundforge &gt; Master CDR | Master CDR &gt; CDR &gt; EAC &gt; Soundforge &gt; CD WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Utica Memorial Auditorium on 1981-03-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Wise and Jamie Lutch</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

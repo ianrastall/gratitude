@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-06-09" date="1991-06-09">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910609-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-962" nameAsBilled="Buckeye Lake Music Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-05" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-06" song="s-reuben-and-cherise" transition="unknown"/>
+      <performance id="p01-07" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-47010001117ebf43f6c6" kind="matrix">
+      <identifier scheme="archive-org">gd1991-06-09.128299.mtx.dusborne.flac16</identifier>
+      <lineage>3 Source Matrix by Dusborne; Soundboard (shnid:012756) SBD&gt;DAT&gt;CD&gt;SHN; Audience (shnid:095641) B&amp;K 4011 110 degrees ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro; DFC Front Row Taper Section; Recorded By: James Young &amp; Clay Brennecke and Audience (shnid:118811) Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M; Tapes Sony Metal-ES</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1f88f89ca51a16ecee70" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-09.134008.akg414btl-fob-dantepper.flac16</identifier>
+      <credit role="recordist">Dan Tepper</credit>
+      <lineage>Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rich Stadium on 1991-06-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Dan Tepper</note>
+    </recording>
+    <recording id="r-7f7e9f8c43ad15201d37" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-09.138321.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (Tascam Deck/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-77843877fe98f482f130" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-06-09.138333.sbd.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (Tascam Deck/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0800217eabfd0381b02f" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-09.140238.TS.beyercm101.ebel.flac1644</identifier>
+      <credit role="recordist">Pete Ebel</credit>
+      <lineage>flac16/44 Source Info: TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's). Transfer Info: Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analong-&gt; Digital Converter) (SPDIF out) 24/48-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/48).This is 24 bit -&gt; 16 bit. Transfers by Pete Ebel.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-4538a08342bc673f8d31" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-09.140469.TSBeyerCM101.ebel.flac2496</identifier>
+      <credit role="recordist">Pete Ebel</credit>
+      <lineage>flac24/96 Source Info: TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's). Transfer Info: Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analong-&gt; Digital Converter) (SPDIF out) 24/96-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/96). Transfers by Pete Ebel.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-80f52262bef940bdc815" kind="audience">
+      <identifier scheme="archive-org">gd1991-06-09.140670.FOB.Schoeps.unknown.Ammons.Noel.t-flac1648</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>flac16/48 ; taper unknown: FOB Schoeps CMC32s spaced 8 ft &gt; Tao Research PS &gt; M1000 cables &gt; Panasonic SV255 with 6'3" stands; John Ammons | Tascam DA-20 MKII &gt; Roland SRC-2 &gt; Mac Mini optical input &gt; Audacity 2.1 &gt; WAV @ 48kHz; Edited &amp; mastered in Audacity by Joe Noel: WAV &gt; Flac48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
+    </recording>
+    <recording id="r-508dee2a10a6382e6875" kind="audience">
+      <identifier scheme="archive-org">gd1991-06-09.150368.FOB.Spaced.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
+      <lineage>Recording: FOB Schoeps CMC32's spaced 8' &gt; Tao Research PS &gt; M1000 cables &gt; Panasonic SV255mod&gt; Master DAT Location: FOB on stand @ 6'3" | Transfer: Dat &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer By Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel May 01, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8eb475584637a418a998" kind="audience">
+      <identifier scheme="archive-org">gd1991-06-09.AKG451.Darby.118810.Flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-85c7340ca8206c8e469b" kind="audience">
+      <identifier scheme="archive-org">gd1991-06-09.AKG451.Darby.118811.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-12bdc8167a1f7220dddd" kind="unknown">
+      <identifier scheme="archive-org">gd1991-06-09.fob.brennecke-young.GEMS.95641.flac16</identifier>
+      <credit role="recordist">James Young and Clay Brennecke</credit>
+      <lineage>B&amp;K 4011 110 degrees ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro , Recording Location: DFC Front Row Taper Section | 16 bit - 48kHz DAT Clone &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0, Weiss Saracon for 16 BIT - 44.1kHz SRC and POWR-3 Dither Tracked in CDwave, FLAC'd Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-28a4a86793c8f619190e" kind="soundboard">
+      <identifier scheme="archive-org">gd91-06-09.sbd.unknown.12756.sbeok.shnf</identifier>
+      <lineage>SBD&gt; DAT&gt; CD&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buckeye Lake Music Center on 1991-06-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-c8ba7f752d44c4079098" kind="unknown">
+      <identifier scheme="other">etree-593226</identifier>
+      <note>Supplied catalogue listing: etree; gd1991-06-09.138333.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

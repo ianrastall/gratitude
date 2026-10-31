@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-06-22" date="1993-06-22">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930622-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-979" nameAsBilled="Deer Creek Music Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p01-02" song="s-slipknot" transition="segue"/>
+      <performance id="p01-03" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-04" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-05" song="s-high-time" transition="unknown"/>
+      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-07" song="s-just-like-tom-thumb-s-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-09" song="s-picasso-moon" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-victim-or-the-crime" transition="segue"/>
+      <performance id="p02-02" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-03" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-08" song="s-the-days-between" transition="segue"/>
+      <performance id="p02-09" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-liberty" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-22a4a3e3c3067b2f72c3" kind="audience">
+      <identifier scheme="archive-org">gd1993-06-22.154313.senn441.greenberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jason Greenberg</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 441 mics &gt; Marantz PMD430 | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6d59076ca407860a423b" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-22.154314.senn441.greenberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jason Greenberg</credit>
+      <lineage>Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d5e27c584a54154f9df8" kind="matrix">
+      <identifier scheme="archive-org">gd1993-06-22.176292.mtx.miller.young.evans.miksis.flac1648</identifier>
+      <lineage>SBD/AUD Matrix: Final Cut Pro -&gt; Izotope RX Advanced -&gt; XAct -&gt; FLAC16 created by Brian Miksis February 2026</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-f713b02ef9e82d740e08" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-22.176956.nak100.kirk.maddex.flac2496</identifier>
+      <credit role="recordist">Master by Jim Kirk and Lee Maddex</credit>
+      <lineage>Nak 100 w/ CP4 &gt; Sony D-6 &gt; Marantz PMD420 &gt; MC Location: Middle of OTS | Transfer: Cassette &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) Audacity used for trim, gain and minor cleanup</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-92ebd2a948df72b32fdd" kind="audience">
+      <identifier scheme="archive-org">gd1993-06-22.AKG451.Darby.118167.Flac1648</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>flac16/48kHz ; Master Audience Recorded By Mr. Darby; AKG451EB/CK1's (DIN/DFC/First 1/4 Of OTS/9 Feet High)&gt; Whirlwind Phantoms&gt;Teac DA-P20 @ 16/48; Transfer Information:Sony R500&gt;Tascam HD-P2 @ 16/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-29acc7909d3adf9fca18" kind="audience">
+      <identifier scheme="archive-org">gd1993-06-22.AKG451.Darby.118168.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKG451EB/CK1's (DIN/DFC/First 1/4 Of OTS/9 Feet High)&gt; Whirlwind Phantoms&gt;Teac DA-P20 @ 16/48; Transfer Information:Sony R500&gt;Tascam HD-P2 @ 16/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-3970184d3761d27ce99f" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-22.ams-young.evans-hughey.34718.flac16</identifier>
+      <credit role="recordist">Jamie Young</credit>
+      <lineage>Soundfield AMS Mic -&gt; Sony D10 Pro Modified | DAT &gt; TASCAM DA-20 &gt; M-Audio 192 &gt; Soundforge 8.0 wav</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Todd Evans and Mike Hughey</note>
+    </recording>
+    <recording id="r-ca1743451f286e7fdf5f" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-22.ams-young.evans-hughey.34752.flac1648</identifier>
+      <credit role="recordist">Jamie Young</credit>
+      <lineage>Soundfield AMS Mic -&gt; Sony D10 Pro Modified | DAT &gt; TASCAM DA-20 &gt; M-Audio 192 &gt; Soundforge 8.0 wav</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Todd Evans and Mike Hughey</note>
+    </recording>
+    <recording id="r-f0aa93e1e4f4fce2cd57" kind="audience">
+      <identifier scheme="archive-org">gd1993-06-22.amsst250.unknown.3467.shnf</identifier>
+      <lineage>FOB AMS ST-250 &gt; Modified D10 pro &gt; CDR &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Doug Nawrocki</note>
+    </recording>
+    <recording id="r-fc9f65c46c7e60e0a260" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-22.daud.77360.flac16</identifier>
+      <lineage>Unknown daud</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-84e063ca7a1d6d0f5f55" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-06-22.sbd.miller.108983.flac16</identifier>
+      <lineage>SBD -&gt; Dat (48k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d03e1d433b5a924d6533" kind="unknown">
+      <identifier scheme="archive-org">gd1993-06-22.sennme80.wklitz.97725.flac16</identifier>
+      <credit role="recordist">Keith Litzenberger</credit>
+      <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9&gt;CDWAV&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-4c4a373fb1f1b3faec84" kind="soundboard">
+      <identifier scheme="archive-org">gd93-06-22.sbd.braverman.14122.sbeok.shnf</identifier>
+      <lineage>SBD: DAT&gt; CD&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1993-06-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

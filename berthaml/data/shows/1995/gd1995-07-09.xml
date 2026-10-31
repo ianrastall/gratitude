@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1995-07-09" date="1995-07-09">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950709-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-1008" nameAsBilled="Soldier Field"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-touch-of-grey" transition="unknown"/>
+      <performance id="p01-02" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-03" song="s-lazy-river-road" transition="unknown"/>
+      <performance id="p01-04" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-05" song="s-childhood-s-end" transition="unknown"/>
+      <performance id="p01-06" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-03" song="s-so-many-roads" transition="unknown"/>
+      <performance id="p02-04" song="s-samba-in-the-rain" transition="unknown"/>
+      <performance id="p02-05" song="s-corrina" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-unbroken-chain" transition="segue"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-black-muddy-river" transition="segue"/>
+      <performance id="p03-02" song="s-box-of-rain" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c797cec2562862d3be22" kind="matrix">
+      <identifier scheme="archive-org">gd1995-07-09.127735.nick.flac16</identifier>
+      <lineage>3 source matrix from mix of audience source id 95445, soundboard source id 114369, and audience source id 86405</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Nick</note>
+    </recording>
+    <recording id="r-15ee66f68cddc1d43eac" kind="unknown">
+      <identifier scheme="archive-org">gd1995-07-09.134130.oade-micro-mics.flac1648</identifier>
+      <lineage>flac16/48kHz ; recording info: Oade Micro Mics &gt; DAT Master @ 16bit/48kHz -23rd Row; pedigree: DAT Master &gt; DAT &gt; DAT; processing: DAT &gt; Tascam DA45-HR &gt; SD Usbpre2 &gt; Adobe Audition &gt; CDWAV &gt; TLH Flac 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-791ca897cef8281a4336" kind="unknown">
+      <identifier scheme="archive-org">gd1995-07-09.147057.walsh.suraci.at835.flac16</identifier>
+      <credit role="recordist">Pat Walsh</credit>
+      <lineage>Source: Audio Technica 835b&gt;Sony D5 Location: OTS, Stand at 9 feet | Transfer: Nakamichi Cassette Deck 1&gt;Sound Devices 722&gt; Adobe Aud 3.0&gt;Cdwav&gt;flac 16(TLH) Release date: 07/04/2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-67acaf06027d9a26b880" kind="unknown">
+      <identifier scheme="archive-org">gd1995-07-09.147058.walsh.suraci.at835.flac24</identifier>
+      <credit role="recordist">Pat Walsh</credit>
+      <lineage>Source: Audio Technica 835b&gt;Sony D5 Location: OTS, Stand at 9 feet | Transfer: Nakamichi Cassette Deck 1&gt;Sound Devices 722&gt; Adobe Aud 3.0&gt;Cdwav&gt;flac 24(TLH) Release date: 07/04/2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-455c67131665626541a7" kind="audience">
+      <identifier scheme="archive-org">gd1995-07-09.aud.liberated-bootleg.larson.27977.flac16</identifier>
+      <lineage>Bootleg "To The Sky: Jerry's Last Show" (probably AUD FOB) | Bootleg discs &gt; EAC &gt; Flac (8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Chris Larsen</note>
+    </recording>
+    <recording id="r-e9a7f5c5f4ee15120a7e" kind="unknown">
+      <identifier scheme="archive-org">gd1995-07-09.aud.mahoney.86405.flac16</identifier>
+      <credit role="recordist">Mike Mahoney</credit>
+      <lineage>? &gt; Patch &gt; Sony D6 &gt; Master Cassette | Master Cassette &gt; Denon Deck &gt; Soundforge &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Mike Mahoney</note>
+    </recording>
+    <recording id="r-c06030c255e12c9065d7" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-07-09.sbd.gardner.4091.shnf</identifier>
+      <lineage>dsbd(pre-FM)&gt;dat | dat&gt;spdif&gt;cdr&gt;eac&gt;shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM DSBD</note>
+      <note>Source credit (transfer-mastering): Tony Gardner</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/09/7-9-95-chicago-il-soldier-field/</note>
+    </recording>
+    <recording id="r-f7c03c5c9730f431602e" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-07-09.sbd.miller.114369.flac16</identifier>
+      <lineage>SBD -&gt; Dat (44.1k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/09/7-9-95-chicago-il-soldier-field/</note>
+    </recording>
+    <recording id="r-ca4bfdace1e7e5e93a4d" kind="audience">
+      <identifier scheme="archive-org">gd1995-07-09.schoeps.wklitz.95444.flac1648</identifier>
+      <credit role="recordist">Ace Cubby</credit>
+      <lineage>Schoeps MK4's&gt;Rbox&gt;Casio DAR-100 FOB/DFC | DAT MASTER&gt;Sony TCD-D10PROII&gt;Tascam DA-30MKII, DAT Clone&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9 (Fades)&gt;CDWAV&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-98e1f81b2cf9d590808b" kind="audience">
+      <identifier scheme="archive-org">gd1995-07-09.schoeps.wklitz.95445.flac16</identifier>
+      <credit role="recordist">Ace Cubby</credit>
+      <lineage>Schoeps MK4's&gt;Rbox&gt;Casio DAR-100 FOB/DFC | DAT MASTER&gt;Sony TCD-D10PROII&gt;Tascam DA-30MKII, DAT Clone&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9 (Fades, Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-e826e5b2bbbea5302990" kind="soundboard">
+      <identifier scheme="archive-org">gd95-07-09.sbd.7233.sbeok.shnf</identifier>
+      <lineage>Soundboard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1995-07-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/09/7-9-95-chicago-il-soldier-field/</note>
+    </recording>
+    <recording id="r-735bf5864ff78f553bc4" kind="unknown">
+      <identifier scheme="other">etree-606104</identifier>
+      <note>Supplied catalogue listing: etree; Grateful Dead 1995-07-09 Soldier Field  Chicago, Ill AT835 *New Source* 24 Bit. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-1eacb321b5fc3e4c7b6a" kind="unknown">
+      <identifier scheme="other">etree-546166</identifier>
+      <note>Supplied catalogue listing: etree; gd95-07-09.sbd.miller.114369.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

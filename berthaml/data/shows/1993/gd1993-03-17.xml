@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-03-17" date="1993-03-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930317-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-553" nameAsBilled="Capital Centre"/>
+  <program coverage="partial">
+    <set kind="soundcheck" n="1" mode="unknown">
+      <performance id="p01-01" song="s-the-days-between" transition="unknown"/>
+      <performance id="p01-02" song="s-wave-to-the-wind" transition="unknown"/>
+      <performance id="p01-03" song="s-lucy-in-the-sky-with-diamonds" transition="unknown"/>
+      <performance id="p01-04" song="s-i-fought-the-law" transition="unknown"/>
+      <note>Source section label: Soundcheck</note>
+    </set>
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p02-02" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p02-03" song="s-lazy-river-road" transition="unknown"/>
+      <performance id="p02-04" song="s-desolation-row" transition="unknown"/>
+      <performance id="p02-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p02-06" song="s-eternity" transition="unknown"/>
+      <performance id="p02-07" song="s-liberty" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p03-01" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p03-02" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p03-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p03-04" song="s-dark-star" transition="segue"/>
+      <performance id="p03-05" song="s-jam" transition="segue"/>
+      <performance id="p03-06" song="s-drums" transition="segue"/>
+      <performance id="p03-07" song="s-space" transition="segue"/>
+      <performance id="p03-08" song="s-handsome-cabin-boy-jam" transition="segue"/>
+      <performance id="p03-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p03-10" song="s-the-days-between" transition="segue"/>
+      <performance id="p03-11" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p04-01" song="s-lucy-in-the-sky-with-diamonds" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-1971fcdb69c7ad4364ae" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-17.117743.naks.boedicker.flac16</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source: Sony D6 Cassette master(Dolby B On)&gt;Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony TC-D5M Cassette Deck(Playback,Dolby Off)&gt; Edirol R-09 HR(24/44.1 KHZ)&gt;Cd Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders little Helper. Taped By Dave Boedicker,Official Taper Section</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-1fb78b6fd578bfd3367c" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-17.138877.AMS.ST-250.S2.Ammons.Noel.t-flac16</identifier>
+      <credit role="recordist">Ron Keyser</credit>
+      <lineage>flac16/48kHz ; Set 2, Taped by Ron Keyser: AMS ST-250 Soundfield mic &gt; Modified Sony D10Pro&gt; DAT - FOB; John Ammons Transfer from his DAT clone of the master; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Edited &amp; Mastered in Audacity by Joe Noel &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
+    </recording>
+    <recording id="r-17c6e25dee2096a8ebcf" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-17.akg451.cdipietro.31957.flac16</identifier>
+      <credit role="recordist">cdipietro</credit>
+      <lineage>akg 451's&gt;b18's&gt;D5proII ots | Cassette Master&gt;Aiwa F810&gt;MAudio audiophile 24/96 @44.1&gt;Wavelab 5&gt;cdwav&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): cdipietro</note>
+    </recording>
+    <recording id="r-20f4f7da1009cd3259fd" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-17.akg460.swayne-jones-joe.sbeok.85163.flac16</identifier>
+      <credit role="recordist">Scott Swayne, Roger Jones, and Joe</credit>
+      <lineage>AKG 460/CK8's -&gt; Panasonic SV-255 -&gt; (clone) TEAC DA-P20 FR-DC OTS | Tascam DA-30 (48k) --[coaxial S/PDIF]--&gt; Diamond xTreme Sound Card (48k) 48k-&gt;44.1 in Cool Edit Pro, tracked with CDWave, FLAC level 8 encoded</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-6de24a39fb67d50b9d37" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-17.aud-schk.unknown.86711.flac16</identifier>
+      <credit role="recordist">Tape supplied by Joey Browning</credit>
+      <lineage>Unknown AUD &gt; ? &gt; Cassette. | Cassette &gt; Sony TC-D5M (no Dolby) &gt; Audiophile 2496 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-5dd66ffaa4dae3b02295" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-17.dsbd.miller.79050.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Dat (44.1k) D | Dat (Sony D8) -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-baecb36e4e8c3089ab8b" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-17.nak300.mchugh.77788.sbeok.flac16</identifier>
+      <credit role="recordist">Boyd McHugh</credit>
+      <lineage>NAK-300s &gt; Sony D-5, using Dolby B. Two Maxwell MXS tapes | MC &gt; standalone Philips 880 CD recorder, via Nak BX-300 cassette deck, as long multi-song tracks &gt; EAC to extract to hard drive, CD Wave for splitting resulting .wav files, flac Frontend to encode to flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): bzl</note>
+    </recording>
+    <recording id="r-eb828a83b026fff2d285" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-17.snchk.miller.34421.sbeok.flac16</identifier>
+      <credit role="recordist">Thanks to Gary Field for the cassette</credit>
+      <lineage>Unknown Mics -&gt; ? -&gt; Cassette | Cassette (Nakamichi DR-1) -&gt; Sony R500 (Pass Through) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f503d9850b864f560056" kind="soundboard">
+      <identifier scheme="archive-org">gd93-03-17.sbd.ladner.4979.sbeok.shnf</identifier>
+      <lineage>SBD &gt; MC &gt; DAT &gt; CDR &gt; WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1993-03-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

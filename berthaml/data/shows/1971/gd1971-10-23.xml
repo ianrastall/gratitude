@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-10-23" date="1971-10-23">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19711023-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-406" nameAsBilled="Eastown Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-06" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-07" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-09" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-10" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p01-11" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-12" song="s-brokedown-palace" transition="unknown"/>
+      <performance id="p01-13" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-casey-jones" transition="unknown"/>
+      <performance id="p02-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-03" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p02-04" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-05" song="s-comes-a-time" transition="unknown"/>
+      <performance id="p02-06" song="s-truckin" transition="unknown"/>
+      <performance id="p02-07" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-e14f1af891e03db52129" kind="soundboard">
+      <identifier scheme="archive-org">gd1971-10-23.fm.cotsman.10359.sbeok.shnf</identifier>
+      <credit role="recordist">Walter Schnell</credit>
+      <lineage>SBD&gt;FM&gt;?&gt;C&gt;Sound Forge&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Easttown Theatre on 1971-10-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Jeff Cotsman</note>
+    </recording>
+    <recording id="r-197da02cb082bf1d81ff" kind="soundboard">
+      <identifier scheme="archive-org">gd1971-10-23.sbd.miller.111673.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel (7 Inch - 1/2 Track) -&gt; Sound Devices 744T (24bit/96k) -&gt; FLAC/24 | FLAC/24 -&gt; Samplitude Professional v11.2 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Eastown Theater on 1971-10-23. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/23/10-23-71-detroit-mi-eastown-theatre/</note>
+    </recording>
+    <recording id="r-0162de51b4b682400c3d" kind="soundboard">
+      <identifier scheme="archive-org">gd71-10-23.fm.sbd.wizard.18666.sbeok.shnf</identifier>
+      <lineage>SBD&gt;FM&gt;?&gt;CASS&gt;CD&gt;EAC&gt;DC5&gt;CDThanks to the Wizard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Easttown Theatre on 1971-10-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+    </recording>
+    <recording id="r-bd14cead67a81f0445d8" kind="fm">
+      <identifier scheme="archive-org">gd71-10-23.fmsbd.hanno.19862.sbeok.shnf</identifier>
+      <lineage>FM</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Easttown Theatre on 1971-10-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-07-25" date="1972-07-25">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720725-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-460" nameAsBilled="Paramount Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-04" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-05" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-06" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-08" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-10" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-11" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-12" song="s-loser" transition="unknown"/>
+      <performance id="p01-13" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-14" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-he-s-gone" transition="unknown"/>
+      <performance id="p02-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p02-03" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-04" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-06" song="s-truckin" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="unknown"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-11" song="s-sing-me-back-home" transition="unknown"/>
+      <performance id="p02-12" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-13" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-14" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-0d93b74440d53a5c0bc7" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-07-25.sbd.miller.124017.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theater on 1972-07-25. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/25/7-25-72-portland-or-paramount-theatre/</note>
+    </recording>
+    <recording id="r-8a6dce54084dc384ad5b" kind="soundboard">
+      <identifier scheme="archive-org">gd72-07-25.sbd.cotsman.7046.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MR&gt; C&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Paramount Theater on 1972-07-25. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/25/7-25-72-portland-or-paramount-theatre/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

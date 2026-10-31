@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-10-29" date="1973-10-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731029-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-198" nameAsBilled="Kiel Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-03" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-06" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-the-race-is-on" transition="unknown"/>
+      <performance id="p01-09" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-10" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-11" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p01-12" song="s-china-doll" transition="unknown"/>
+      <performance id="p01-13" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-promised-land" transition="segue"/>
+      <performance id="p02-02" song="s-bertha" transition="segue"/>
+      <performance id="p02-03" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p02-04" song="s-loser" transition="unknown"/>
+      <performance id="p02-05" song="s-big-river" transition="unknown"/>
+      <performance id="p02-06" song="s-brokedown-palace" transition="unknown"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-drums" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="unknown"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-f53774acadffe9c77f94" kind="audience">
+      <identifier scheme="archive-org">gd1973-10-29.116118.aud.cousinit.flac16</identifier>
+      <lineage>Taper: Unknown; Source: Unknown Mics and Deck&gt;??&gt;C&gt;WAV&gt;FLAC; Transferred and Encoded by Cousinit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): CousinIt</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/29/10-29-73-st-louis-mo-kiel-auditorium/</note>
+    </recording>
+    <recording id="r-21b9b6bf45168e9d15a8" kind="matrix">
+      <identifier scheme="archive-org">gd1973-10-29.131409.mtx.nicksmix.flac16</identifier>
+      <lineage>Matrix mix of Shnid 32352(sbd) and Shnid 116118(aud)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Nick Crump</note>
+    </recording>
+    <recording id="r-cc2591dbc1cc47bb03b9" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-10-29.150875.sbd.miller.flac1644</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; WAV | WAV -&gt; Samplitude Professional v10.2.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 18, 2009</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e7042dc52b72b0029fc0" kind="unknown">
+      <identifier scheme="archive-org">gd1973-10-29.sbd.kaplan.1070.shnf</identifier>
+      <lineage>Reel master &gt; 1 cassette gen &gt; DAT &gt; CD &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Thanks to Seth Kaplan for providing this show! Extraction and SHN encoding of the source discs was done by S. Kaplan. Info file and notes by G.S. Hamilton</note>
+    </recording>
+    <recording id="r-9967d0c54852064a9796" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-10-29.sbd.miller.32352.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel (7inch Master Reels @ 7.5ips 1/2trk) -&gt; DCassette (Tascam 122mkIII) -&gt; Dat (Panasonic 3700/44.1k) D | Dat (Sony D8) -&gt; RME Hammerfall Digiface -&gt; Sony Vaio C1VP -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/29/10-29-73-st-louis-mo-kiel-auditorium/</note>
+    </recording>
+    <recording id="r-789faf4abea4080e96dd" kind="unknown">
+      <identifier scheme="archive-org">gd1973-10-29.set2.131458.McIlhenny.flac16</identifier>
+      <credit role="recordist">Chaffe McIlhenny</credit>
+      <lineage>Set 2, Handheld Sony 1 point stereo mic from the 5th and 4th row sometimes standing on chair; Recorderd and transferred by Chaffe McIlhenny; Master cassette&gt;Revox cassette deck to DAT in 1998&gt; to Tascam P2 Flash Card in Oct 2014&gt;Audacity&gt;Traders Little Helper for FLAC Fingerprint creation</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chaffe McIlhenny</note>
+    </recording>
+    <recording id="r-a6a723662b7e74eb5a61" kind="audience">
+      <identifier scheme="archive-org">gd73-10-29.sbd.powell-mollman.16817.sbeok.shnf</identifier>
+      <lineage>MSR &gt; C &gt; D &gt; CD patched with AUD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-da43eeae7fafdad12a52" kind="unknown">
+      <identifier scheme="archive-org">gd73-10-29.sbd.sacks.1014.sbefail.shnf</identifier>
+      <lineage>MSR&gt; C&gt; DAT&gt; Circulation&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-069363dc7a46a22b8b52" kind="unknown">
+      <identifier scheme="other">etree-575342</identifier>
+      <note>Supplied catalogue listing: etree; Grateful Dead 1973-10-29 Kiel Auditorium Matrix. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

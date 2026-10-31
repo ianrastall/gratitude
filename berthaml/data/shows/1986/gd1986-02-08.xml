@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1986-02-08" date="1986-02-08">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19860208-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 859e0118134444b5e15767a698508f39e1975f3652750caf5f073ddf4d7b68d8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1986-02-08.142381.dts.tobin.flac1644" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 a9c94a9968b59eeb6547c57452412deb130f4b53355bbb4800fc21ff9acb5709</cite>
+  </record>
+  <venue ref="v-jb-922" nameAsBilled="Henry J. Kaiser Convention Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-iko-iko" transition="unknown"/>
+      <performance id="p01-02" song="s-little-red-rooster" transition="segue"/>
+      <performance id="p01-03" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-04" song="s-beat-it-on-down-the-line" transition="segue"/>
+      <performance id="p01-05" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-07" song="s-bertha" transition="segue"/>
+      <performance id="p01-08" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p02-02" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-china-doll" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-e086213d5ae8a5d87e10" kind="audience">
+      <identifier scheme="archive-org">gd1986-02-08.140205.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Jim Wise, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b91e6abf37eacd3db09d" kind="matrix">
+      <identifier scheme="archive-org">gd1986-02-08.142380.mtx.tobin.flac1644</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid = 106033) Recording Info: SBD -&gt; Cassette Master (Sony D5/Dolby B/TDK MA-R90); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 140205) Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16 - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4a62d17dc4b94ccbc0df" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-02-08.142381.dts.tobin.flac1644</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix; - SBD (shnid = 106033) Recording Info: SBD -&gt; Cassette Master (Sony D5/Dolby B/TDK MA-R90); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 140205) Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16 - dts mixing by Kevin Tobin</lineage>
+      <playlist id="pl-93f628aea8d5cf46f622" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1986-02-08.142381.dts.tobin.flac1644">
+        <track n="1" title="Tuning" file="gd1986-02-08d1t01.flac" mappingStatus="unreviewed" disc="1" sourceNumber="1" duration="PT58.09S"/>
+        <track n="2" title="Iko Iko" file="gd1986-02-08d1t02.flac" mappingStatus="candidate" disc="1" sourceNumber="2" duration="PT376.11S" covers="p01-01" certainty="probable"/>
+        <track n="3" title="Little Red Rooster -&gt;" file="gd1986-02-08d1t03.flac" mappingStatus="candidate" disc="1" sourceNumber="3" duration="PT438.97S" covers="p01-02" certainty="probable"/>
+        <track n="4" title="Peggy-O" file="gd1986-02-08d1t04.flac" mappingStatus="candidate" disc="1" sourceNumber="4" duration="PT552.35S" covers="p01-03" certainty="probable"/>
+        <track n="5" title="Beat It on Down the Line" file="gd1986-02-08d1t05.flac" mappingStatus="candidate" disc="1" sourceNumber="5" duration="PT206.25S" covers="p01-04" certainty="probable"/>
+        <track n="6" title="Stagger Lee" file="gd1986-02-08d1t06.flac" mappingStatus="candidate" disc="1" sourceNumber="6" duration="PT387.79S" covers="p01-05" certainty="probable"/>
+        <track n="7" title="It's All Over Now" file="gd1986-02-08d1t07.flac" mappingStatus="candidate" disc="1" sourceNumber="7" duration="PT464.49S" covers="p01-06" certainty="probable"/>
+        <track n="8" title="Bertha -&gt;" file="gd1986-02-08d1t08.flac" mappingStatus="candidate" disc="1" sourceNumber="8" duration="PT353.41S" covers="p01-07" certainty="probable"/>
+        <track n="9" title="One More Saturday Night" file="gd1986-02-08d1t09.flac" mappingStatus="candidate" disc="1" sourceNumber="9" duration="PT249.31S" covers="p01-08" certainty="probable"/>
+        <track n="10" title="Mississippi Half-Step Uptown Toodeloo -&gt;" file="gd1986-02-08d2t01.flac" mappingStatus="unreviewed" disc="2" sourceNumber="1" duration="PT395.31S"/>
+        <track n="11" title="Franklin's Tower -&gt;" file="gd1986-02-08d2t02.flac" mappingStatus="candidate" disc="2" sourceNumber="2" duration="PT491.47S" covers="p02-02" certainty="probable"/>
+        <track n="12" title="Playing in the Band -&gt;" file="gd1986-02-08d2t03.flac" mappingStatus="candidate" disc="2" sourceNumber="3" duration="PT556.35S" covers="p02-03" certainty="probable"/>
+        <track n="13" title="China Doll -&gt;" file="gd1986-02-08d2t04.flac" mappingStatus="candidate" disc="2" sourceNumber="4" duration="PT389.89S" covers="p02-04" certainty="probable"/>
+        <track n="14" title="Playing Jam -&gt;" file="gd1986-02-08d2t05.flac" mappingStatus="unreviewed" disc="2" sourceNumber="5" duration="PT273.95S"/>
+        <track n="15" title="Drums -&gt;" file="gd1986-02-08d2t06.flac" mappingStatus="candidate" disc="2" sourceNumber="6" duration="PT400.76S" covers="p02-06" certainty="probable"/>
+        <track n="16" title="Space -&gt;" file="gd1986-02-08d2t07.flac" mappingStatus="candidate" disc="2" sourceNumber="7" duration="PT545S" covers="p02-07" certainty="probable"/>
+        <track n="17" title="Gimme Some Lovin' -&gt;" file="gd1986-02-08d2t08.flac" mappingStatus="candidate" disc="2" sourceNumber="8" duration="PT283.63S" covers="p02-08" certainty="probable"/>
+        <track n="18" title="Black Peter -&gt;" file="gd1986-02-08d2t09.flac" mappingStatus="candidate" disc="2" sourceNumber="9" duration="PT454.37S" covers="p02-09" certainty="probable"/>
+        <track n="19" title="Sugar Magnolia" file="gd1986-02-08d2t10.flac" mappingStatus="candidate" disc="2" sourceNumber="10" duration="PT553.27S" covers="p02-10" certainty="probable"/>
+        <track n="20" title="Keep Your Day Job" file="gd1986-02-08d2t11.flac" mappingStatus="unreviewed" disc="2" sourceNumber="11" duration="PT241.8S"/>
+        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+      </playlist>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+      <note>Archive source metadata (source): DTS-Audio-CD 5.1 Mix; - SBD (shnid = 106033) Recording Info: SBD -&gt; Cassette Master (Sony D5/Dolby B/TDK MA-R90); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 140205) Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16 - dts mixing by Kevin Tobin</note>
+      <note>Archive source metadata (transferer): Kevin Tobin</note>
+    </recording>
+    <recording id="r-1b239df6caf64edb1829" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-02-08.142388.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 106033) Recording Info: SBD -&gt; Cassette Master (Sony D5/Dolby B/TDK MA-R90); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 140205) Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16 - surround mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8bba52cfbc593b6a0bc7" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-02-08.sbd.miller.32541.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (TDK MA-R90) D | Cassette Master (Sony TC-WE475) -&gt; Sony R500 (Pass Through) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC (2 Discs Audio / 2 Discs FLAC)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-25a82508733db5ea0699" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-02-08.sbd.walker.scotton.miller.106033.flac16</identifier>
+      <credit role="recordist">Paul Scotton and Joani Walker</credit>
+      <lineage>SBD -&gt; Cassette Master (Sony D5/Dolby B/TDK MA-R90) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-29acd2a733c8da65bcc4" kind="unknown">
+      <identifier scheme="archive-org">gd1986-02-08.senn441.padelimike.83804.flac16</identifier>
+      <credit role="recordist">PA Deli Mike</credit>
+      <lineage>2x Sennheiser 441's OTS with 30 foot spread &gt; Sony TCD5-M &gt; Maxell MX | Nakamichi CR-7A &gt; DAT (Sony DTC-60ES with SBM) &gt; CD &gt; EAC &gt; WAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-a1bd893e59834729becd" kind="audience">
+      <identifier scheme="archive-org">gd86-02-08.beyer.connor.2987.sbeok.shnf</identifier>
+      <lineage>AUD&gt; Beyer Dynamic M88's&gt; Sony TCD5M (CM)&gt; Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz A/D&gt; RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt; CDWav beta1.57 (tracking only)&gt; SHNv3 (MKW ACT)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-7c030c11d140d485adfa" kind="soundboard">
+      <identifier scheme="archive-org">gd86-02-08.sbd.ladner.20724.sbeok.shnf</identifier>
+      <lineage>SBD&gt;MC&gt;PCM&gt;CDR&gt;WAV&gt;SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-ae6b3bc12cff9de8a2a1" kind="unknown">
+      <identifier scheme="other">etree-600627</identifier>
+      <note>Supplied catalogue listing: etree; gd86-02-08.142380.mtx.tobin.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

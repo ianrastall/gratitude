@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-01-26" date="1993-01-26">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930126-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p01-02" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-03" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-04" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-05" song="s-desolation-row" transition="unknown"/>
+      <performance id="p01-06" song="s-ramble-on-rose" transition="segue"/>
+      <performance id="p01-07" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-02" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-gloria" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-078f046e6858fb5d8f58" kind="audience">
+      <identifier scheme="archive-org">gd1993-01-26.134781.fob.jbraveman.flac1648</identifier>
+      <credit role="recordist">unknown</credit>
+      <lineage>flac16/48kHz ; Source: Unknown FOB AUD &gt; DAT; | DATx &gt; Microtrack 24/96 16/48 &gt; WAV &gt; Flac (TLH)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): jbraveman</note>
+    </recording>
+    <recording id="r-c49db9c3f2f70602b752" kind="audience">
+      <identifier scheme="archive-org">gd1993-01-26.141068.fob.cmc3-mk4.ebel.flac1644</identifier>
+      <lineage>flac16/44.1 Source Info:FOB Schoeps CMC3 Mk4-&gt; DAT (Traded to me as so, but not so sure)Transfer Info:Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Transfers by Pete Ebel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-076bfc1a7d9e52d3e226" kind="audience">
+      <identifier scheme="archive-org">gd1993-01-26.141744.FOB.s2.Schoeps.Darroch.Ammons.Noel.t-flac1648</identifier>
+      <credit role="recordist">Rob Darroch</credit>
+      <lineage>flac16/48kHz ; Set 2 Rob Darroch recording [FOB DFC]: Schoeps MK4 Capsules in hat &gt; Bill Reutelhuber PS &gt; Panasonic SV250. Mics worn in hat by Rob Darroch; John Ammons Transfer; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel and John Ammons</note>
+    </recording>
+    <recording id="r-4095d3de8e1c4223ce78" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-01-26.143161.sbd.miller.flac2496</identifier>
+      <lineage>SBD &gt; Dat Master &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-87f227573eb629ba14c8" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-01-26.143219.sbd.cm.miller.flac1644</identifier>
+      <lineage>SBD &gt; Dat Master &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-068abc1e63d8638b4bf7" kind="unknown">
+      <identifier scheme="archive-org">gd1993-01-26.akg.swayne-carls.85933.flac16</identifier>
+      <credit role="recordist">Scott Swayne and Carl S.</credit>
+      <lineage>AKG 460/CK8's (2' spacing on custom T-Bar) &gt; Marantz PMD-700 &gt; (clone) DA-P20 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro (44.1kHz) &gt; CDWave &gt; FLAC (L8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-01-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Swayne</note>
+    </recording>
+    <recording id="r-54547d8acf3b39cdbe89" kind="unknown">
+      <identifier scheme="archive-org">gd1993-01-26.akg.swayne-carls.85934.flac1648</identifier>
+      <credit role="recordist">Scott Swayne and Carl S.</credit>
+      <lineage>AKG 460/CK8's (2' spacing on custom T-Bar) &gt; Marantz PMD-700 &gt; (clone) DA-P20 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Swayne</note>
+    </recording>
+    <recording id="r-ff24d3a53452e8b8b445" kind="audience">
+      <identifier scheme="archive-org">gd1993-01-26.aud.seff.4083.shnf</identifier>
+      <lineage>AUD &gt; DAT @48k | DA-20mkII &gt; Hosa S/PDIF &gt; Delta DiO 2496 &gt; Peak &gt; WAV @44.1k &gt; SHN (no extraction)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jon Seff</note>
+    </recording>
+    <recording id="r-611ce262c2b41fe127ba" kind="audience">
+      <identifier scheme="archive-org">gd93-01-26.aud.ladner.21493.sbeok.shnf</identifier>
+      <lineage>Audience: Unknown Mics | Unknown Mics &gt; DAT (48khz) &gt; Tascam DA-20mkII &gt; Hosa S/PDIF &gt; Delta DiO 2496 &gt; Peak &gt; WAV (44.1) &gt; SHN (No DAE)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jon Seff</note>
+    </recording>
+    <recording id="r-faf76e596c76d0b08b5f" kind="soundboard">
+      <identifier scheme="archive-org">gd93-01-26.sbd.miller.26346.sbeok.shnf</identifier>
+      <lineage>SBD&gt; Dat&gt; Cassette Master&gt; Dat&gt; CD&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-10-24" date="1990-10-24">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19901024-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-1003" nameAsBilled="Sporthalle"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-02" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-03" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-04" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-06" song="s-big-river" transition="unknown"/>
+      <performance id="p01-07" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-08" song="s-queen-jane-approximately" transition="segue"/>
+      <performance id="p01-09" song="s-iko-iko" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p02-02" song="s-slipknot" transition="segue"/>
+      <performance id="p02-03" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p02-04" song="s-truckin" transition="segue"/>
+      <performance id="p02-05" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-09" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-10" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-11" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-e9b7514436e029a4a578" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-24.131010.cmc521.fob.deal.jwpetty.flac16</identifier>
+      <credit role="recordist">Lance Deal</credit>
+      <lineage>Digital FOB (20') Recording by Lance Deal using Schoeps CMC 521's (110°)&gt; Schoeps VMS 52UB p/s&gt; Technics SVMD1; Master DAT provided by Lance Deal; | Fostex D-5 (optical)&gt; Luminous Monarch cable&gt; M-Audio Audiophile 2496 @ 16/48&gt; 16/44&gt; CDWave(tracking)&gt; TLH (SBE/Flac16/md5); Liberated on August 21, 2014 by jwpetty</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sportsahalle on 1990-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): jwpetty</note>
+    </recording>
+    <recording id="r-6a1cf417c385d6aa4417" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-24.139115.aud.liff.lamarre.berger.flac1648</identifier>
+      <credit role="recordist">Dan Liff</credit>
+      <lineage>flac16/48kHz ; source: aud dat master &gt; dat; Doug Lamarre’s clone; taped by Dan Liff r.i.p; neumann rsm 190iS &gt; sony tcd-d10 pro; transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sportsahalle on 1990-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger and Doug Lamarre</note>
+    </recording>
+    <recording id="r-c4759de798fede6efe83" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-24.141756.ultramatrix.dalton.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Tim Dalton</credit>
+      <lineage>Source Info: Master UltraMatrix Soundboard Dat &gt; PCM; Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sportsahalle on 1990-10-24. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/24/10-24-90-hamburg-germany-sporthalle-hamburg/</note>
+    </recording>
+    <recording id="r-0465d6930d9a7c2dff83" kind="unknown">
+      <identifier scheme="archive-org">gd1990-10-24.143962.nak300-cp4.dalton.miller.sirmick.flac1648</identifier>
+      <credit role="recordist">Tim Dalton</credit>
+      <lineage>Nakamichi 300s (cp4) &gt; Oade p/s &gt; Panasonic SV255 &gt; DAT (48K) - Taped by Tim Dalton | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sportsahalle on 1990-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c5c68ffe0464407ee123" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-24.163716.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sportsahalle on 1990-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 14, 2023</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-6005c54b63d078ccc880" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-24.164130.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sportsahalle on 1990-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 14, 2023</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-1dafeef743ae82299066" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-24.nak300.houck-wright.gmb.90754.sbeok.flac16</identifier>
+      <credit role="recordist">Alf Houck and Robert Wright</credit>
+      <lineage>Audience Master Cassette Nakamichi 300�s Cardioids &gt; Marantz PMD-430 &gt; Dolby B | Nakamichi DR-1 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0 @ [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sporthalle on 1990-10-24. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/24/10-24-90-hamburg-germany-sporthalle-hamburg/</note>
+    </recording>
+    <recording id="r-ae96714c32e007c9f2ff" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-10-24.sbd.unknown.84961.sbeok.flac16</identifier>
+      <lineage>SBD-&gt;DAT-&gt;CDR-&gt;EAC-&gt;WAV-&gt;FLAC | DAT clone &gt; HHb CDR830 &gt; EAC(secure) &gt; wavlab &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sporthalle on 1990-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-81078f52e9f54f6c9c0a" kind="soundboard">
+      <identifier scheme="archive-org">gd90-10-24.sbd.wiley.11612.sbeok.shnf</identifier>
+      <lineage>SBD&gt;DAT&gt;C&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sportsahalle on 1990-10-24. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/24/10-24-90-hamburg-germany-sporthalle-hamburg/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

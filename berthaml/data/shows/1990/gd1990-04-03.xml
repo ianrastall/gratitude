@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-04-03" date="1990-04-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900403-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-555" nameAsBilled="The Omni"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p01-02" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-03" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-04" song="s-we-can-run" transition="unknown"/>
+      <performance id="p01-05" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-06" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-07" song="s-picasso-moon" transition="segue"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="segue"/>
+      <performance id="p01-09" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-02" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-03" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-i-will-take-you-home" transition="segue"/>
+      <performance id="p02-08" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-09" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-we-bid-you-goodnight" transition="unknown" titleVariant="And We Bid You Good Night"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-afeee6b3021bc5b41acf" kind="audience">
+      <identifier scheme="archive-org">gd1990-04-03.131206.cmc44.fob.katzeff.jwpetty.flac16</identifier>
+      <credit role="recordist">R. Katzeff</credit>
+      <lineage>Source: FOB by Rick Katzeff using Schoeps CMC 44's&gt; Oade p/s&gt; SV 255&gt; 1:1 clone; DAT's provided by Lance Deal; Transfer Info: Fostex D-5 (AES/BU)&gt; Luminuous Monarch&gt; (s/pdif) M-Audio Audiophile 2496&gt; Audacity @ 16/48&gt; 16/44&gt; CD Wav (tracking)&gt; TLH (SBE's/Flac16/md5); Transferred and liberated to etree on September 3, 2014 by Will Petty</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): jwpetty</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-9a2b8b93478b4d0209aa" kind="audience">
+      <identifier scheme="archive-org">gd1990-04-03.133277.131206-fix.deal-katzeff.flac16</identifier>
+      <credit role="recordist">Lance Deal, Ray Katzeff</credit>
+      <lineage>Source: FOB by Rick Katzeff using Schoeps CMC 44's&gt; Oade p/s&gt; SV 255&gt; 1:1 clone; DAT's provided by Lance Deal; Transfer Info: Fostex D-5 (AES/BU)&gt; Luminuous Monarch&gt; (s/pdif) M-Audio Audiophile 2496&gt; Audacity @ 16/48&gt; 16/44&gt; CD Wav (tracking)&gt; TLH (SBE's/Flac16/md5); fix of SHNID 131206 due to an inverted left channel likely due to a faulty xlr cable in the recording gear chain. Craig Hillwig used xACT 2.35 and Audacity to decode, join files and invert the left channel in a 32 bit float. Lenny Stubbe used Sound Studio 3.6 and xACT 2.35 to add gain, track, tag, encode/align to FLAC and seed</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Craig Hillwig;Lenny Stubbe</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-00ea56a425cd9b840e0d" kind="unknown">
+      <identifier scheme="archive-org">gd1990-04-03.135201.bltz.flac24</identifier>
+      <lineage>Source: Nakamichi CM-300s/CP4 Shotguns -&gt; Sony Walkman Pro/TDK MX-S 90 (Set II TDK SA100) -&gt; JVC TD-W354 -&gt; Zoom H6 -&gt; WAV 96/24 -&gt; Audacity -&gt; FLAC 96/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-da1ccc036ff549bb6fe3" kind="audience">
+      <identifier scheme="archive-org">gd1990-04-03.142003.FOB.Schoeps.Brotman.Mattes.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Dave Brotman and Ted Mattes</credit>
+      <lineage>flac16/48kHz ; Dave Brotman FOB Recording using Ted Mattes' rig: Schoeps CMC4 MK21 &gt; Oade Modified Grace Preamp &gt; Pro Link &gt; DAT 48k (Panasonic SV-250); Location: Sec 5 Row J Seat 7; Charlie Miller | Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-000741d5e80324ada176" kind="audience">
+      <identifier scheme="archive-org">gd1990-04-03.142216.FOB.Schoeps.Katzeff.Ammons.Noel.fix.t-flac1648</identifier>
+      <credit role="recordist">Rick Katzeff</credit>
+      <lineage>flac16/48kHz ; Rick Katzeff FOB Recording: Schoeps CMC5 MK21 (@ 100ยบ spaced array) &gt; DAT 48k (Panasonic SV-250). Mics were hand held; John Ammons Transfer from clone of DAT master: Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; the original version was missing Promised Land</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel and John Ammons</note>
+    </recording>
+    <recording id="r-a2db7ba1628d6d3f74b1" kind="unknown">
+      <identifier scheme="archive-org">gd1990-04-03.145220.OTS.Senn.Hessberg.Miller.Noel.t-flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>(OTS) Sennheiser ME80 &gt; Cassette Master (Sony TC-D5M/Maxell XLII-S100) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit/96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-604fd0727f4290680075" kind="unknown">
+      <identifier scheme="archive-org">gd1990-04-03.145750.ots.senn.me80.hessberg.miller.noel.t-flac16</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>(OTS) Sennheiser ME80 &gt; Cassette Master (Sony TC-D5M/Maxell XLII-S100) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit/96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe Noel and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-74d7652d235ce973cd74" kind="unknown">
+      <identifier scheme="archive-org">gd1990-04-03.149447.FOB.Schoeps.Brotman.Mattes.Miller.Noel.reMaster.t-flac1648</identifier>
+      <credit role="recordist">Master Digital Audience Recording by Dave Brotman</credit>
+      <lineage>From the Teddy Ballgame Archive - a reMaster of shnid 142003 Source: Schoeps CMC4 MK21 &gt; Oade Modified Grace Preamp &gt; Pro Link &gt; DAT 48k (Panasonic SV-250) Location: Sec 5 Row J Seat 7 | Transfer: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer by Charlie Miller Edited &amp; reMastered using Adobe Audition by Joe Noel March 31, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
+    </recording>
+    <recording id="r-69547b43bff9bd10d66f" kind="unknown">
+      <identifier scheme="archive-org">gd1990-04-03.152511.at815a.tom-roger-larson.flac1644</identifier>
+      <credit role="recordist">Tapes provided by Tom and Roger</credit>
+      <lineage>A: Audio Technica 815A Shotguns&gt;Panasonicsv250 | DAT(48kHz)&gt;ZA2(S/PDIF)&gt;WaveLab 3.03&gt;CD-r</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer by Chris Larson ()</note>
+    </recording>
+    <recording id="r-8605cdb1a05b204f0fa4" kind="matrix">
+      <identifier scheme="archive-org">gd1990-04-03.158650.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 14, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-e3e8ecffed6c31b65a6b" kind="matrix">
+      <identifier scheme="archive-org">gd1990-04-03.158672.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 14, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-219cfa8ec4a31ac83f74" kind="audience">
+      <identifier scheme="archive-org">gd1990-04-03.fob.unknown.3732.sbeok.shnf</identifier>
+      <lineage>FOB Nak 300/CP4's (Pair) + Sennheiser 441's (Pair) &gt; Sony Mixer &gt; Sony D10 Pro</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-e4a727927ab179e0a7e6" kind="matrix">
+      <identifier scheme="archive-org">gd1990-04-03.mtx.hansokolow.97566.flac16</identifier>
+      <lineage>matrix of SBD: shnid=17811 and AUD: shnid=3732 by hansokolow using ProTools</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): hansokolow</note>
+    </recording>
+    <recording id="r-316cd80e899fa2418749" kind="unknown">
+      <identifier scheme="archive-org">gd1990-04-03.nak.cohen.106904.flac16</identifier>
+      <credit role="recordist">Dave Cohen</credit>
+      <lineage>2 Nakamichi CM300s/ CP4's w/1 Nakamichi CM300/CP2&gt; Nakamichi 550 w/Maxell XLIIS90 cassette masters. Dolby B was used on the Master Cassettes. OTS 8 foot stand (sec. 128 Row CC Seat 12) | The Master Cassettes were played back with Azimuth adjustment and Dolby B decoding on a Nakamichi CD1 into a Korg MR1000 at DSF 1 bit 5.6MHz. Subsequent conversion to 24/96 AIFF done via Korg Audiogate software. Redbook CDR standard 16/44.1 files were created using Bias Peak, Izotope Ozone's MBIT+ (for all dithering), and Weiss Saracon SRC (all sample rate conversions).</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Cohen</note>
+    </recording>
+    <recording id="r-3beb1cdf8889b6905eb6" kind="unknown">
+      <identifier scheme="archive-org">gd90-04-03.nak.gardner.3577.sbeok.shnf</identifier>
+      <lineage>Nak 300/CP4's &gt; PMD 420 by Alan Wallace, tapers section</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-b23271181bcbf6c405e9" kind="soundboard">
+      <identifier scheme="archive-org">gd90-04-03.sbd.hinko.17811.sbeok.shnf</identifier>
+      <lineage>Soundboard Master Cassette &gt; Sonic Solutions @ 24 bits &gt; CD (Sony Super Bit Mapping 2) &gt; EAC &gt; SHN (seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1990-04-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

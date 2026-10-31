@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-12-12" date="1973-12-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731212-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-555" nameAsBilled="The Omni"/>
+  <program coverage="partial">
+    <set kind="soundcheck" n="1" mode="unknown">
+      <performance id="p01-01" song="s-sleigh-ride" transition="unknown"/>
+      <performance id="p01-02" song="s-rip-it-up" transition="unknown"/>
+      <performance id="p01-03" song="s-blue-suede-shoes" transition="unknown"/>
+      <performance id="p01-04" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-05" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-06" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-thirty-days-to-come-back-home" transition="unknown"/>
+      <note>Source section label: Soundcheck</note>
+    </set>
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p02-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p02-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p02-03" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-04" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p02-05" song="s-jack-straw" transition="unknown"/>
+      <performance id="p02-06" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p02-07" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-08" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p02-09" song="s-el-paso" transition="unknown"/>
+      <performance id="p02-10" song="s-peggy-o" transition="unknown"/>
+      <performance id="p02-11" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p02-12" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-13" song="s-big-river" transition="unknown"/>
+      <performance id="p02-14" song="s-deal" transition="unknown"/>
+      <performance id="p02-15" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p03-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p03-02" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p03-03" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p03-04" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p03-05" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p03-06" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p03-07" song="s-weather-report-suite-prelude" transition="segue"/>
+      <performance id="p03-08" song="s-weather-report-suite-part-1" transition="segue"/>
+      <performance id="p03-09" song="s-let-it-grow" transition="unknown"/>
+      <performance id="p03-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p03-11" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p03-12" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p03-13" song="s-morning-dew" transition="unknown"/>
+      <performance id="p03-14" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p04-01" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-d58a4b239ef7c2d5fe68" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-12-12.sbd.miller.105561.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1973-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4d2ec0e5c08e370e0362" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-12-12.sbd.miller.124585.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1973-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4734ad1024b83426441b" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-12-12.sbd.remaster.102910.flac16</identifier>
+      <lineage>Sbd &gt; MR &gt; C &gt; CDR | CDR &gt; Soundforge 8 for many adjustments &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1973-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-0fb625ea2bf6a32b1a3e" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-12-12.sbd.soundcheck-from-2595.3401.shnf</identifier>
+      <lineage>Soundboard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Omni Coliseum on 1973-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): unknown</note>
+    </recording>
+    <recording id="r-7352495452279778ece2" kind="soundboard">
+      <identifier scheme="archive-org">gd73-12-12.sbd.hobbs.6023.sbeok.shnf</identifier>
+      <lineage>Soundboard | MR &gt; C &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1973-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

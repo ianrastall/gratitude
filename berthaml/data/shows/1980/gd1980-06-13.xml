@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-06-13" date="1980-06-13">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19800613-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-204" nameAsBilled="Seattle Center Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-candyman" transition="unknown"/>
+      <performance id="p01-06" song="s-passenger" transition="unknown"/>
+      <performance id="p01-07" song="s-althea" transition="segue"/>
+      <performance id="p01-08" song="s-lost-sailor" transition="segue"/>
+      <performance id="p01-09" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p01-10" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p02-02" song="s-let-it-grow" transition="segue"/>
+      <performance id="p02-03" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-04" song="s-i-know-you-rider" transition="segue"/>
+      <performance id="p02-05" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p02-06" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-alabama-getaway" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-8bba5d2a7d0f85046eeb" kind="audience">
+      <identifier scheme="archive-org">gd1980-06-13.141725.aud.motb.0218.flac2496</identifier>
+      <credit role="recordist">Bob Menke</credit>
+      <lineage>Nak CM700 on 10' stand &gt; Sony TC D5 &gt; DFC FOB | MAC &gt; CR7A -&gt; Audio Technica AM 400 Line Amp/mixer -&gt; Korg at 5.6 mhz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Arena on 1980-06-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Bob Menke, Derek McCabe</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
+    </recording>
+    <recording id="r-c6cbafb8944bb3719011" kind="audience">
+      <identifier scheme="archive-org">gd1980-06-13.144767.fob.nak700.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; Nakamichi 700 mics (DFC, mounted on pole 35' from stage) &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Arena on 1980-06-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-efe9da8a923e00dcb401" kind="audience">
+      <identifier scheme="archive-org">gd1980-06-13.144768.fob.nak700.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; Nakamichi 700 mics (DFC, mounted on pole 35' from stage) &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Arena on 1980-06-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cc4d484191fc0c87af27" kind="audience">
+      <identifier scheme="archive-org">gd1980-06-13.155743.akg.se5.wiseman.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Scott Wiseman's Master Audience Cassettes</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (TDK SA 90, except Sugar Magnolia and Alabama Getaway-Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Arena on 1980-06-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Wiseman and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-39ed61e247e839242e3b" kind="audience">
+      <identifier scheme="archive-org">gd1980-06-13.155744.akg.se5.wiseman.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Scott Wiseman's Master Audience Cassettes</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (TDK SA 90, except Sugar Magnolia and Alabama Getaway-Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Arena on 1980-06-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Wiseman and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-7444af01df504f917182" kind="unknown">
+      <identifier scheme="archive-org">gd1980-06-13.aud.severson.minches.91220.flac1644</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>2 Nak 700s with bass eq mounted on pole&gt; Sony TC-D5 (2 Maxell UD XL-IIs) | Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Coliseum on 1980-06-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+    </recording>
+    <recording id="r-0a7e1bed98fc3ddf393b" kind="audience">
+      <identifier scheme="archive-org">gd1980-06-13.fob.sonyecm990.morris.100259.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>(FOB) Sony ECM-990 stereo mic &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII except: d3t03-d3t08 UDXLI) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Coliseum on 1980-06-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-0749c3dccfd72356b224" kind="audience">
+      <identifier scheme="archive-org">gd80-06-13.akg.clugston.7196.sbeok.shnf</identifier>
+      <lineage>Audience Recording: AKG SE-5 mics w/CE-1 cardioid capsules | AKG SE-5 mics w/CE-1 cardioid capsules&gt; Sony TC-D5&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Seattle Center Coliseum on 1980-06-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

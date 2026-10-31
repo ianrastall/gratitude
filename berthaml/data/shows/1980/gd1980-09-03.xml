@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-09-03" date="1980-09-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19800903-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-470" nameAsBilled="Springfield Civic Center Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-althea" transition="segue"/>
+      <performance id="p01-06" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-07" song="s-candyman" transition="unknown"/>
+      <performance id="p01-08" song="s-easy-to-love-you" transition="unknown"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="segue"/>
+      <performance id="p01-10" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p02-02" song="s-high-time" transition="unknown"/>
+      <performance id="p02-03" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-04" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-09" song="s-truckin" transition="segue"/>
+      <performance id="p02-10" song="s-black-peter" transition="segue"/>
+      <performance id="p02-11" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-12" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-77947fd21c7a4ba01a05" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-03.126722.fob-sonyECM280.wise-claridge.minches.flac2496</identifier>
+      <credit role="recordist">Jim Wise and Eddie Claridge</credit>
+      <lineage>Recording by Jim Wise &amp; Eddie Claridge; Master Audience Cassette; Sony ecm 280's &gt; Sony D-5 FOB; Transfer and FLAC encoding by David Minches: 1-10-14; Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-d124bb566c1995c279cc" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-03.143030.aud.sterry.beckwith.miller.clugston.flac2496</identifier>
+      <credit role="recordist">George Sterry</credit>
+      <lineage>Source Info: Primary: George Sterry's Master Audience Cassettes; Unknown mics &gt; Sony TC-158SD &gt; 1st generation cassette (TDK D90); Secondary: George Sterry's Master Audience Cassette; Unknown mics &gt; Sony TC-158SD (Maxell UDXLII C90); Transfer Info: Primary: 1st generation cassettes(Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; KORG AudioGate 4 (.wav 24-bit/96k)&gt; Adobe Audition 3.01 (24-bit/96k) &gt; TLH flac2496; Secondary: Cassette Master (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; KORG AudioGate 4 (.wav 24-bit/96k)&gt; Adobe Audition 3.01 (24-bit/96k) &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and David Beckwith</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c40a6b2406527f3d430b" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-03.143031.aud.sterry.beckwith.miller.clugston.flac1648</identifier>
+      <credit role="recordist">George Sterry</credit>
+      <lineage>flac16/48kHz ; Source Info: Primary: George Sterry's Master Audience Cassettes; Unknown mics &gt; Sony TC-158SD &gt; 1st generation cassette (TDK D90); Secondary: George Sterry's Master Audience Cassette; Unknown mics &gt; Sony TC-158SD (Maxell UDXLII C90); Transfer Info: Primary: 1st generation cassettes(Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; KORG AudioGate 4 (.wav 24-bit/96k)&gt; Adobe Audition 3.01 (24-bit/96k) &gt; TLH flac2496; Secondary: Cassette Master (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; KORG AudioGate 4 (.wav 24-bit/96k)&gt; Adobe Audition 3.01 (24-bit/96k) &gt; TLH flac2496; 24-bit &gt; 16-bit via dBpoweramp</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and David Beckwith</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b7b5fd341daf9cc792b5" kind="unknown">
+      <identifier scheme="archive-org">gd1980-09-03.aud.cribbs.12576.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise and Eddie Claridge</credit>
+      <lineage>Sony ECM-280 mics &gt; Sony TC-D5 | MAC &gt; CD-R &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Sean Cribbs</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-24b2e17089cb0823e0d2" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-03.aud.morris.106618.flac24</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>(FOB) Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits) Tape flip in drums at 5:35 spliced using Soundforge 9.0. Recorded FOB from Section 63, Row J, Seat 12 by Bob Morris.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-5a5169a149055d1b42d1" kind="unknown">
+      <identifier scheme="archive-org">gd1980-09-03.fob.nak300.friend.andrewf.103168.flac24</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>2x Nakamichi CM300/CP4 shotguns &gt; Nakamichi 550 &gt; Maxell XLII 90's, mics on stand, set up in the arena riser center, end of floor facing the stage. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 2448 Tagged</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-3927daae90c0f11eeb67" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-03.fob.nak300.friend.andrewf.103169.flac16</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>FOB AUD: 2x Nakamichi CM300/CP4 shotguns &gt; Nakamichi 550 &gt; Maxell XLII 90's, mics on stand, set up in the arena riser center, end of floor facing the stage | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; R8Brain &gt; TLH &gt; FLAC 1644 Tagged</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-a11fdb24b479728080e0" kind="audience">
+      <identifier scheme="archive-org">gd1980-09-03.fob.nak300.morris.102016.sbeok.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>(FOB) Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII) Recorded FOB from Section 63, Row J, Seat 12 | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-4a6c000f6c85ab33ac15" kind="audience">
+      <identifier scheme="archive-org">gd80-09-03.aud.bass.16925.sbeok.shnf</identifier>
+      <lineage>Audience Recording | MAC &gt; ? &gt; CD &gt; EAC &gt; SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1980-09-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

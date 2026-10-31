@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-04-12" date="1971-04-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710412-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-378" nameAsBilled="Pittsburgh Civic Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-bertha" transition="unknown"/>
+      <performance id="p01-04" song="s-next-time-you-see-me" transition="unknown"/>
+      <performance id="p01-05" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-06" song="s-loser" transition="unknown"/>
+      <performance id="p01-07" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p01-09" song="s-greatest-story-ever-told" transition="segue"/>
+      <performance id="p01-10" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-truckin" transition="segue"/>
+      <performance id="p02-02" song="s-drums" transition="segue"/>
+      <performance id="p02-03" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-04" song="s-wharf-rat" transition="unknown"/>
+      <performance id="p02-05" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p02-06" song="s-casey-jones" transition="unknown"/>
+      <performance id="p02-07" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-08" song="s-deal" transition="segue"/>
+      <performance id="p02-09" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-10" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-11" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6bc03cea9d2eef4b4ffb" kind="soundboard">
+      <identifier scheme="archive-org">gd71-04-12.sbd.miller.31960.sbeok.flacf</identifier>
+      <lineage>Soundboard | SBD &gt; Reel Master &gt; DAT &gt; Sound Forge &gt; CD &gt; EAC &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Arena on 1971-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-09-09" date="1982-09-09">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820909-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-800" nameAsBilled="Saenger Performing Arts Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p01-03" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-04" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-05" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-althea" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="segue"/>
+      <performance id="p02-03" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-11" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-day-job" transition="segue"/>
+      <performance id="p03-02" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c387df0cbd5d86469c9d" kind="unknown">
+      <identifier scheme="archive-org">gd1982-09-09.123191.beyerm160.streeter-miller.flac16</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Recording Info: Beyer M160 -&gt; Cassette Master (Sony TC-D5M/TDK MA-C90); Transfer Info: Cassette Master (Sony TC-K677ES) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16; Recorded by Frank Streeter; All Transfers and Mastering By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1982-09-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-320334746934f9fb8f44" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-09-09.134287.sbd.deemph.flac16</identifier>
+      <lineage>SBD&gt;MC&gt;PCM&gt;DAT&gt;CD; source ID 11735 with pre-emphasis removed, FLAC, tags using xAct 2.36</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1982-09-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-3aa522195f94eab65895" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-09.140051.beyer-m160.streeter.miller.sirmick.flac24</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source: (FOB) Beyer M160's &gt; Sony TC-D5M &gt; Cassette Master (TDK MA90) - Taped by Frank Streeter; Transfer: Cassette Master &gt;Nakamichi CR-7A &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; wav 2496 - Transferred by Charlie Miller; Lineage: wav &gt; Adobe Audition 1.5 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24; edited and mastered SIRMick</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1982-09-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bb73797def09dca39f39" kind="soundboard">
+      <identifier scheme="archive-org">gd1982-09-09.142762.sbd.healy.streeter.dalton.miller.clugston.fixed.flac1648</identifier>
+      <credit role="recordist">Frank Streeter and Tim Dalton</credit>
+      <lineage>flac16/48kHz ; Source Info: Dan Healy's Master Soundboard Cassettes (Sony TC-D5M/TDK MA-R90/Dolby B)&gt; Frank Streeter's 1st generation 1/4 track Reels @ 3.75 ips (Sony TC770/Maxell UD35-90B) &gt; Dat (16-bit/48k); Transfer Info: Dat (Sony PCM-R500)&gt; Tascam DA-3000 (wav 16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH flac1648; the original version had a duplicate "Space" ("Drums &gt; Space" were 1 track, followed by "Space" again)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1982-09-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+    <recording id="r-024a6d929e9bc78342d2" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-09.145246.fob.beyer-m160.streeter.miller.sirmick.flac1644</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>(FOB) Beyer M160's &gt; Sony TC-D5M &gt; Cassette Master (TDK MA90) - Taped by Frank Streeter | Transfer: Cassette Master &gt;Nakamichi CR-7A &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; wav 2496 - Transferred by Charlie Miller Lineage: wav &gt; Adobe Audition 1.5 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1982-09-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a83c7c46780408d92cff" kind="audience">
+      <identifier scheme="archive-org">gd1982-09-09.149747.beyer.tompkins.flac2448</identifier>
+      <credit role="recordist">Recording by Rip Tompkins &amp; with thanks to Richie Stankiewicz!</credit>
+      <lineage>Source: Set One &amp; Encore, Unknown AUD &gt; MAC &gt; 1st Gen copy (see note) and; Set Two, Beyers-Dynamic M160's &gt; Sony TC-D5 &gt; MAC. | Transfer: TDK MA-90's &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1982-09-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer by Andrew F. 04/2020</note>
+    </recording>
+    <recording id="r-6e9cfb3209c5dcd7c7d4" kind="soundboard">
+      <identifier scheme="archive-org">gd82-09-09.sbd.willy.11735.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MC&gt; PCM&gt; DAT&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Saenger Performing Arts Center on 1982-09-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-12-27" date="1979-12-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19791227-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-93" nameAsBilled="Oakland Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-04" song="s-peggy-o" transition="segue"/>
+      <performance id="p01-05" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-06" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-07" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-06" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-07" song="s-jam" transition="segue"/>
+      <performance id="p02-08" song="s-drums" transition="segue"/>
+      <performance id="p02-09" song="s-space" transition="segue"/>
+      <performance id="p02-10" song="s-black-peter" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-02" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-25d83549511494ec192c" kind="unknown">
+      <identifier scheme="archive-org">gd1979-12-27.128618.naks.mason.flac16</identifier>
+      <credit role="recordist">Mason B. Taylor</credit>
+      <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-fd6c2ca72a2255f525c7" kind="audience">
+      <identifier scheme="archive-org">gd1979-12-27.144775.fob.akg.d1000e.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; AKG D1000E mics (pole mounted, DFC, 35' from stage at the free throw circle)&gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c6834acf8b6167f2bc31" kind="audience">
+      <identifier scheme="archive-org">gd1979-12-27.144776.fob.akg.d1000e.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; AKG D1000E mics (pole mounted, DFC, 35' from stage at the free throw circle)&gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d937e44035d4682288da" kind="audience">
+      <identifier scheme="archive-org">gd1979-12-27.154875.akg.se5.wiseman.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (1st Set + Encore -Maxell UDXLII 90, 2nd set Scotch Chrome Type II 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-27be90b8f53381f0b140" kind="audience">
+      <identifier scheme="archive-org">gd1979-12-27.154876.akg.se5.wiseman.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (1st Set + Encore -Maxell UDXLII 90, 2nd set Scotch Chrome Type II 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-69a19a14e569ec9650f3" kind="audience">
+      <identifier scheme="archive-org">gd1979-12-27.167335.nak700.smith.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Matt Smith for the 1st generation reel source</credit>
+      <lineage>Master 1/2 Track Audience Reels; Nakamichi 700 mics (mounted on a 30' pole) &gt; Technics RS-1500 Reel to Reel @ 7 1/2 ips (DBX encoded) &gt; DBX224 &gt; 1st generation Reels (Technics RS-1506) | 1st Generation Reels (Technics RS-1506)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Charlie Miller, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c3ab45eed153ad3e6fa4" kind="audience">
+      <identifier scheme="archive-org">gd1979-12-27.167336.nak700.smith.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Matt Smith for the 1st generation reel source</credit>
+      <lineage>Master 1/2 Track Audience Reels; Nakamichi 700 mics (mounted on a 30' pole) &gt; Technics RS-1500 Reel to Reel @ 7 1/2 ips (DBX encoded) &gt; DBX224 &gt; 1st generation Reels (Technics RS-1506) | 1st Generation Reels (Technics RS-1506)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith, Charlie Miller, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-50858337c5949ee05bc2" kind="audience">
+      <identifier scheme="archive-org">gd1979-12-27.aud.clugston.5593.shnf</identifier>
+      <lineage>Master Audience Cassette; Nakamichi CM700 mics &gt; Sony TC-158 cassette deck &gt; DBX encoded Reel to Reel &gt; DBX decoded &gt; Panasonic SV3700 DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1979-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-57ff55d0420918b732db" kind="unknown">
+      <identifier scheme="archive-org">gd1979-12-27.senn421.frisch.minches.83944.sbeok.flac16</identifier>
+      <credit role="recordist">Ira Frisch</credit>
+      <lineage>2 Sennheiser 421s + Sennheiser 441&gt; Nakamichi 550 &gt; MAC | MAC &gt; Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+    </recording>
+    <recording id="r-e3876d2606d737b3bdc9" kind="unknown">
+      <identifier scheme="archive-org">gd1979-12-27.senn421.walker-scotton.miller.89199.flac16</identifier>
+      <credit role="recordist">Joani Walker</credit>
+      <lineage>Sennheiser 421 -&gt; Cassette Master (Sony TC-158/Maxell UDXL-II90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-0dc89501838ee2eca1bc" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-12-27.set1.sbd.miller.81601.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8675d855112b26b2c77a" kind="audience">
+      <identifier scheme="archive-org">gd79-12-27.rolfe.vernon.15081.sbeok.shnf</identifier>
+      <credit role="recordist">Steve Rolfe</credit>
+      <lineage>Audience Recording | nak 700's &gt; d5 &gt; DAT &gt; cdr</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1979-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

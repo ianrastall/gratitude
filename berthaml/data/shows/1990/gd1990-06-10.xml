@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-06-10" date="1990-06-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900610-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-905" nameAsBilled="Cal Expo Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-03" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-04" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-05" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-06" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p02-02" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p02-09" song="s-standing-on-the-moon" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-the-last-time" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-e3d302725b7e225034b4" kind="matrix">
+      <identifier scheme="archive-org">gd1990-06-10..mtx.haugh.30361.sbeok.flac16</identifier>
+      <lineage>SBD + AUD Matrix Mix (50%-SBD/50%-AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1990-06-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dan Haugh</note>
+    </recording>
+    <recording id="r-394aa338a723b1325dc3" kind="unknown">
+      <identifier scheme="archive-org">gd1990-06-10.111344.NeumannKMF4.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Neumann KMF4 microphones (up front) &gt; Sony TC-D5M - analog master cassettes | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-19d1a83cf31ae3e77db4" kind="audience">
+      <identifier scheme="archive-org">gd1990-06-10.142579.FOB.Schoeps.Weber-Small.Mattes.Miler.Noel.t-flac1648</identifier>
+      <credit role="recordist">Sean Weber-Small</credit>
+      <lineage>flac16/48kHz ;Sean Weber-Small (FOB) Recording: Schoeps CMC4 MK2 &gt; Oade Power Supply &gt; DAT 48k (Panasonic SV-250). Mics spaced 8' w/ mic stands @ 5' 11"; Charlie Miller | DAT Master &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel and Ted Mattes and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c10ed95a033afb8ae9b4" kind="audience">
+      <identifier scheme="archive-org">gd1990-06-10.143345.FOB.Schoeps.Brotman.Miler.Noel.t-flac1648</identifier>
+      <credit role="recordist">Dave Brotman</credit>
+      <lineage>Dave Brotman (FOB) Recording: Schoeps CMC4/MK2S (Spaced) &gt; M1000 Cables &gt; Oade Pre-Amp &gt; Dat (Panasonic SV-250/48k) | DAT Master &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-6eb98204573fe9ec2aba" kind="matrix">
+      <identifier scheme="archive-org">gd1990-06-10.147940.sbd.ladner-braverman.flac1644</identifier>
+      <lineage>SBD/Matrix &gt; DAT &gt; CDR &gt; WAV &gt; SHN &gt; FLAC (See additional notes.)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Ladner, Peter Braverman</note>
+    </recording>
+    <recording id="r-b8c1eda0d1c7faa5d9e1" kind="matrix">
+      <identifier scheme="archive-org">gd1990-06-10.149621.ultramatrix.sbd.pearson-healy.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 20, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-58ee402a9f99c188be08" kind="matrix">
+      <identifier scheme="archive-org">gd1990-06-10.149727.UltraMatrix.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 20, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-6d429d96095fc1f4d72d" kind="audience">
+      <identifier scheme="archive-org">gd1990-06-10.150585.FOB.Nak.700.dsd.Mow.Miller.Noel.t.flac2496</identifier>
+      <credit role="recordist">FOB Recording by Jonathan Mow</credit>
+      <lineage>(FOB) Nakamichi 700 &gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit-96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition) by Joe Noel September 14, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-baae7d5508476387c18e" kind="audience">
+      <identifier scheme="archive-org">gd1990-06-10.150620.FOB.Nak.700.dsd.Mow.Miller.Noel.t.flac1644</identifier>
+      <credit role="recordist">FOB Recording by Jonathan Mow</credit>
+      <lineage>(FOB) Nakamichi 700 &gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit-96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition) by Joe Noel September 14, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8cf7c255551f46596cff" kind="audience">
+      <identifier scheme="archive-org">gd1990-06-10.152180.nakcp702.flac2496</identifier>
+      <lineage>FOB Nakamichi CP-702 omni capsules, 12' spread &gt; custom pre-amp/power supply &gt; Dbx Type II noise reduction encoder &gt; Sony TC-D5 cassette | Master cassette playback on Nakamichi Dragon &gt; Dbx 224X-DS Type II noise reduction decoder &gt; RME Fireface 800, 24-bit 96kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-83252f4f92fbb21e9839" kind="unknown">
+      <identifier scheme="archive-org">gd1990-06-10.168425.3xnakcm300.ont.flac1644</identifier>
+      <credit role="recordist">OldNeumanntapr</credit>
+      <lineage>OTS; Nakamichi CM-300s x3; Two CP-4 Shotgun Capsules + One CP-3 Super Omni Mixed With Radio Shack Mixer &gt;Aiwa HD-X1 DAT &gt;Sony WM-D6C (Patch) [TDK MA110s] | MA110 Masters Transferred Via Denon DR-M12HR Cassette Deck &gt;Tascam DR100mkII (24bit/48kHz) WAV &gt;Audacity (Track Splits, Balance Channel Levels, Minor Edits [Tape Flips], Fades, Downsample To 16bit/44.1kHz) &gt;FLAC (Level 8) + Tags Via xACT 2.53 [August 2024]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
+    </recording>
+    <recording id="r-993ba9d7cb21f6f16b9c" kind="unknown">
+      <identifier scheme="archive-org">gd1990-06-10.dts.haugh.29669.sbeok.shnf</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1990-06-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Dan Haugh</note>
+    </recording>
+    <recording id="r-a4a0edfd8a187129db90" kind="unknown">
+      <identifier scheme="archive-org">gd1990-06-10.dts.haugh.30373.sbeok.flacf</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Dan Haugh</note>
+    </recording>
+    <recording id="r-3e0038da343c0d2bbc6b" kind="audience">
+      <identifier scheme="archive-org">gd1990-06-10.fob.alabamabob.andrewf.95449.flac16</identifier>
+      <credit role="recordist">Alabama Bob</credit>
+      <lineage>FOB AUD: 2x Sennheiser MD421's plus 1x Nakamichi CM300 with CP1 cardioid capsule blend mic &gt; Nakamichi 550 &gt; Maxell XL-IIS 90's with no Dolby. Set up 30 feet from the stage, FOB center. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-9f45b3532293a42e5245" kind="matrix">
+      <identifier scheme="archive-org">gd1990-06-10.mtx.dan.30369.sbeok.flac16</identifier>
+      <lineage>SBD + AUD Matrix Mix (50%-SBD/50%-AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dan Haugh</note>
+    </recording>
+    <recording id="r-39fec09103350cf3606e" kind="unknown">
+      <identifier scheme="archive-org">gd1990-06-10.schoeps.unknown.457.sbefail.shnf</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>daud&gt;&gt;sch mk4&gt;&gt;D&gt;&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1990-06-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): unknown</note>
+    </recording>
+    <recording id="r-ae4318f8534c42dc9695" kind="unknown">
+      <identifier scheme="archive-org">gd1990-06-10.schoeps.wklitz.97059.sbeok.flac16</identifier>
+      <credit role="recordist">Keith Litzenberger</credit>
+      <lineage>Schoeps Omni Spaced 27'&gt;Oade?&gt;Technics SV-MD1 in Taper's Section DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9&gt;CDWAV&gt;FLAC (It's likely that my DAT was patched via analog output of lead deck as the mics were not mine and the Technics has no Digital in.) Processed By Keith Litzenberger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-12049055258594bf6e18" kind="matrix">
+      <identifier scheme="archive-org">gd90-06-10.sbd-matrix.miller-ladner.6937.sbeok.shnf</identifier>
+      <lineage>SBD/Matrix &gt; DAT &gt; CDR &gt; WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1990-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-f49cb1ae3adc004af2c4" kind="unknown">
+      <identifier scheme="other">etree-609524</identifier>
+      <note>Supplied catalogue listing: etree; gd1990-06-10.149727.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-0edbe400ba93b0acdb12" kind="unknown">
+      <identifier scheme="other">etree-609523</identifier>
+      <note>Supplied catalogue listing: etree; gd1990-06-10.149621.UltraMatrix.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

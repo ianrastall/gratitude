@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1989-12-10" date="1989-12-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19891210-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-972" nameAsBilled="Great Western Forum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-we-can-run" transition="unknown"/>
+      <performance id="p01-04" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-05" song="s-loser" transition="unknown"/>
+      <performance id="p01-06" song="s-victim-or-the-crime" transition="unknown"/>
+      <performance id="p01-07" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-08" song="s-i-m-a-man" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-jack-straw" transition="segue"/>
+      <performance id="p02-02" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-03" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-04" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-71dde37cf6bf9a6f8be0" kind="unknown">
+      <identifier scheme="archive-org">gd1989-12-10.137973.dbx.hale.flac16</identifier>
+      <credit role="recordist">Gris</credit>
+      <lineage>Source: (2) Nak CP-100s w/CP-4 shotgun capsules &gt; Tascam PortaOne 4-track cassette w/dbx type II on &gt; Maxell XLII-S; recorded by Gris w/ my gear; Maxell XLII-S &gt; Onkyo TA-2027 &gt; dbx-224X decoder &gt; Carver HR-722 &gt; M-10 (16-bit WAVE/tracking) &gt; Soundforge 9.0 (fades at tape flipps/start/end) &gt; encoded to FLAC (level 8)w/TLH</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hale</note>
+    </recording>
+    <recording id="r-5cb310f3db5d3b6a01b0" kind="matrix">
+      <identifier scheme="archive-org">gd1989-12-10.140202.sbd.miller.flac2496</identifier>
+      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8a38413208250a0de139" kind="matrix">
+      <identifier scheme="archive-org">gd1989-12-10.140276.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f28334186ad66d795862" kind="audience">
+      <identifier scheme="archive-org">gd1989-12-10.141797.FOB.Schoeps.Mattes.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Ted Mattes</credit>
+      <lineage>flac16/48kHz ; Recording info: Schoeps cardioid CMC4/MK4 at 110 degrees on stand (FOB) &gt; Oade capacitor supply &gt; Panasonic SV-250 &gt; DAT (48k); Transfer info: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48; Recorded by Ted Mattes</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-a78c48130b181191897f" kind="audience">
+      <identifier scheme="archive-org">gd1989-12-10.146096.Senn-MKE2002.french.flac1644</identifier>
+      <credit role="recordist">Mike French</credit>
+      <lineage>Sennheiser MKE2002 omni's HRTF -&gt; Sony TC-D5M. Mics at 6'5" FOB/DFC (same spot as 2/89 run, and all 12/89 run) Also covering an ortf pair of Neumann km84's -&gt; Sony TC-D5M rig, on a stand. | to 24/96 pcm: Sony TC-D5M master deck and master cassette, no n.r. -&gt; Tascam DVRA1000 DSD recorder in pcm mode, 24/96 to flac: Tascam DVRA1000 in USB2.0 mode -&gt; Mac OS-X Tiger import -&gt; xACT by Scott Brown 6/8 level compression.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Mike French, Scott Brown</note>
+    </recording>
+    <recording id="r-1148bbe604fe86d92733" kind="audience">
+      <identifier scheme="archive-org">gd1989-12-10.158257.PandP-aud.bowen.flac16</identifier>
+      <lineage>Patched and pitch corrected audience (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5bf311360e965ec60afa" kind="matrix">
+      <identifier scheme="archive-org">gd1989-12-10.158258.mtx.tobin.flac16</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c8632f89fd057e2d0311" kind="unknown">
+      <identifier scheme="archive-org">gd1989-12-10.158260.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a0cdbc142b649511cf98" kind="unknown">
+      <identifier scheme="archive-org">gd1989-12-10.158261.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b3e4e0724f1dec5224e4" kind="unknown">
+      <identifier scheme="archive-org">gd1989-12-10.fob.french.brown.83792.sbeok.flac24</identifier>
+      <credit role="recordist">Mike French</credit>
+      <lineage>Sennheiser MKE2002 omni's HRTF -&gt; Sony TC-D5M. Mics at 6'5". Also covering an ortf pair of Neumann km84's -&gt; Sony TC-D5M rig, on a stand. | Sony TC-D5M master deck and master cassette, no n.r. -&gt; Tascam DVRA1000 DSD recorder in pcm mode, 24/96</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Scott Brown conversion to flac</note>
+    </recording>
+    <recording id="r-981f197efe12874be9f0" kind="matrix">
+      <identifier scheme="archive-org">gd1989-12-10.mtx.dts.tobin.102513.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD) in DTS format</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e778f7dee25fb57e4269" kind="matrix">
+      <identifier scheme="archive-org">gd1989-12-10.mtx.tobin.102402.flac16</identifier>
+      <lineage>Matrix 3 Source Mix - SBD (shn id 5451) SBD &gt; DAT &gt; CDR &gt; WAV &gt; SHNv3; DAE via C. Ladner (EAC &gt; CDWave &gt; SHNTOOL &gt; MKWACT), from Charlie Miller seed + AUD1 (shn id 83792) Sennheiser MKE2002 omni's HRTF -&gt; Sony TC-D5M. Mics at 6'5" Also covering an ortf pair of Neumann km84's -&gt; Sony TC-D5M rig, on a stand. to 24/96 pcm: Sony TC-D5M master deck and master cassette, no n.r. -&gt; Tascam DVRA1000 DSD recorder in pcm mode, 24/96 to flac: Tascam DVRA1000 in USB2.0 mode -&gt; Mac OS-X Tiger import -&gt; xACT by Scott Brown 6/8 level compression. + AUD2 (no shn id) low generation video supplied in dvd format by Dave Minor for video project</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-52d7ac52a541201fc953" kind="unknown">
+      <identifier scheme="archive-org">gd1989-12-10.nak300.bowen.foster.102175.flac16</identifier>
+      <credit role="recordist">Jeff Bowen</credit>
+      <lineage>Nakamichi CM-300s w/CP-4's -&gt; Sony TCD-D10; Location: 2nd row OTS | M-DAT -&gt; DAT/1 -&gt; Tascam DA-30 -&gt; HHb CDR 800 PRO via analog i/o; CDR&gt;EAC&gt;TLH(6)&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Bowen and Brad Foster</note>
+    </recording>
+    <recording id="r-4e9c8e1e13337247c0ac" kind="soundboard">
+      <identifier scheme="archive-org">gd1989-12-10.sbd.ladner.16669.sbeok.shnf</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>SBD &gt; DAT &gt; CDR &gt; WAV &gt; SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Ladner</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-78db92e8c00a80affe9c" kind="matrix">
+      <identifier scheme="archive-org">gd1989-12-10.sbd.miller.119728.flac16</identifier>
+      <lineage>SBD (Dan Healy's UltraMatrix Mix) -&gt; Dat (48k) | Dat (Tascam DA20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+    <recording id="r-525ccb02a94d13d4e1ae" kind="soundboard">
+      <identifier scheme="archive-org">gd1989-12-10.sbd.tobin.patched.102510.flac16</identifier>
+      <lineage>SBD &gt; DAT | DAT &gt; CDR &gt; WAV &gt; SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bf420ac83994d8fb04be" kind="soundboard">
+      <identifier scheme="archive-org">gd89-12-10.sbd.ladner.5451.sbeok.shnf</identifier>
+      <lineage>SBD &gt; DAT &gt; CDR &gt; WAV &gt; SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

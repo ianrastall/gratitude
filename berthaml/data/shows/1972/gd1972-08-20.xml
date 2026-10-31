@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-08-20" date="1972-08-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720820-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-453" nameAsBilled="San Jose Civic Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-04" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-05" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-06" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-07" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-08" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-09" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-10" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-11" song="s-loser" transition="unknown"/>
+      <performance id="p01-12" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p02-02" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-03" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-stella-blue" transition="unknown"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-10" song="s-casey-jones" transition="segue"/>
+      <performance id="p02-11" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-7f8f88c4a0fe14e4837c" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-08-20.pset1.sbd.jim.14988.shnf</identifier>
+      <lineage>SBD&gt;?&gt;CDR&gt;WAV&gt;CE2k (*Serious* cleanup)&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Jose Civic Auditorium on 1972-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Bennett</note>
+    </recording>
+    <recording id="r-1bbb80dd52cb0c8611f0" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-08-20.sbd.miller.32789.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Jose Civic Auditorium on 1972-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-786cdd15373adcdd6f08" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-08-20.sbd.miller.83733.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Jose Civic Auditorium on 1972-08-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4443ecc1808e99c2af6e" kind="unknown">
+      <identifier scheme="archive-org">gd1972-08-20.sony-schiappacasse.minches.82716.flac16</identifier>
+      <credit role="recordist">Olaf Schiappacasse (using Gene Taback's equipment)</credit>
+      <lineage>Sony TC-124 with Sony Stereo Mic (Pacific Stereo Cassettes) | Master cassettes played back on Nakamichi Dragon &gt; Digital Audio Labs Card Deluxe soundcard (96Mhz/24 bit)&gt; HD &gt; Adobe Audition; L3 Multimaximizer&gt;Waves Z-Noise; Dithered and downsampled to 44.1 MHz / 16 bit; Flac Encoded</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Jose Civic Auditorium on 1972-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+    </recording>
+    <recording id="r-e121fdd7f1a651362630" kind="soundboard">
+      <identifier scheme="archive-org">gd72-08-20.sbd.cotsman.16335.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;MC&gt;R&gt;C&gt;C&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN (?)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Jose Civic Auditorium on 1972-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

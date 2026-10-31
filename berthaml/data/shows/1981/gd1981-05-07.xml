@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-05-07" date="1981-05-07">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810507-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-742" nameAsBilled="NBC Studios"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="acoustic">
+      <performance id="p01-01" song="s-on-the-road-again" transition="unknown"/>
+      <performance id="p01-02" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-03" song="s-deep-elem-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-cassidy" transition="unknown"/>
+      <note>Source section label: Acoustic Show</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-16b019ceafd764731245" kind="fm">
+      <identifier scheme="archive-org">gd1981-05-07.147903.tv.vhs.flac</identifier>
+      <lineage>Cable Broadcast &gt; VHS(M) &gt; standalone DVD recorder &gt; DVD(0) | DVD(0) &gt; TMPGEnc [demux] &gt; DVD Architect [chapters/author] &gt; DVD Audio Specs: PCM 1.54Mbps</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tommorow With Tom Snyder, NBC Studios on 1981-05-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

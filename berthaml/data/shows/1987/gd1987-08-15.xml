@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-08-15" date="1987-08-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870815-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-955" nameAsBilled="Town Park"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-candyman" transition="unknown"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-06" song="s-big-river" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-desolation-row" transition="segue"/>
+      <performance id="p01-09" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-08" song="s-bertha" transition="unknown"/>
+      <performance id="p02-09" song="s-morning-dew" transition="unknown"/>
+      <performance id="p02-10" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-2801c27ce53ea1c672a9" kind="audience">
+      <identifier scheme="archive-org">gd1987-08-15.142153.fob.schoeps.cmc3.mk41.oade.jacobs.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Source Info: Oade's Master (FOB) Audience PCM; Schoeps CMC3/MK41 mics &gt; Oade M118 &gt; Oade modified Sony PCM-F1; Transfer Info: Master Oade PCM &gt; Sek'd Prodif &gt; Samplitude (.wav 16-bit/44.1k)&gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Blake Jacobs</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-94171a16fd3fad1bbe2c" kind="unknown">
+      <identifier scheme="archive-org">gd1987-08-15.160470.beyerm201.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew;Tom Pinney;Eric Britt;Phil Schuman;Kyle Holbrook;John Goode</credit>
+      <lineage>microphones: Beyer M201's XY &gt; recorder: Sony TCD5M|Maxell MX 90 x 2 No Dolby Location: 120 feet from stage, 15 feet up | Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2K @24|48 &gt; Marantz PMD 661|SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-525c4f217bb6ad0dce46" kind="unknown">
+      <identifier scheme="archive-org">gd1987-08-15.160472.beyerm201.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew;Tom Pinney;Eric Britt;Phil Schuman;Kyle Holbrook;John Goode</credit>
+      <lineage>microphones: Beyer M201's XY &gt; recorder: Sony TCD5M|Maxell MX 90 x 2 No Dolby Location: 120 feet from stage, 15 feet up | Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2K @24|48 &gt; Marantz PMD 661|SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-885ef29032046996e0c2" kind="audience">
+      <identifier scheme="archive-org">gd1987-08-15.163855.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e9d164ce3d8f4babcc5f" kind="audience">
+      <identifier scheme="archive-org">gd1987-08-15.163856.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dfc1b86d146868157f80" kind="unknown">
+      <identifier scheme="archive-org">gd1987-08-15.nak300.pasternak.112718.flac2448</identifier>
+      <credit role="recordist">Jon Pasternak</credit>
+      <lineage>Source: Nakamichi CM-300/CP-4 shotguns &gt; Marantz PMD-420 &gt; Maxell XLII-S 90's, taped from the OTS by Jon Pasternak. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 2448. Transfer by Andrew F. 04/2011</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-2c6c154b926f8020e371" kind="unknown">
+      <identifier scheme="archive-org">gd1987-08-15.nakcm304.beckham.suraci.82167.sbeok.flac16</identifier>
+      <credit role="recordist">Don Beckham - Tony Suraci</credit>
+      <lineage>Nak CM304's&gt;SonyD5M | Nak CR5A&gt;Lunatec V3&gt;SD722</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-e43bb9ecb521557452eb" kind="unknown">
+      <identifier scheme="archive-org">gd1987-08-15.prefm.leeds.tetzeli.fix-17010.74165.flac16</identifier>
+      <lineage>Patch fix of shnid 17010</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note certainty="uncertain">Legacy inferred type: FM</note>
+      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+    </recording>
+    <recording id="r-0279922f3f688257c2af" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-08-15.sbd.walker-scotton-miller.83904.sbeok.flac16</identifier>
+      <credit role="recordist">Thanks to Paul Scotton and Joani Walker for the tapes</credit>
+      <lineage>SBD -&gt; Cassette Master (Maxell MX90) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.02 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller March 27, 2007</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-b1e9947408090bd56733" kind="audience">
+      <identifier scheme="archive-org">gd87-08-15.aud.ladner.8324.sbeok.shnf</identifier>
+      <lineage>FOB &gt; PCM &gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-1c438853b2ae9f85b233" kind="soundboard">
+      <identifier scheme="archive-org">gd87-08-15.prefm.leeds.17010.sbeok.shnf</identifier>
+      <lineage>PreFM SBD(Healy Mix)&gt;MC&gt;DAT&gt;CDR&gt;EAC&gt;WAVE LAB&gt;CD WAVE&gt;MKW&gt;SHN (Seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Town Park on 1987-08-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

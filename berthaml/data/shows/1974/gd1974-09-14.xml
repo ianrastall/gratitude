@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1974-09-14" date="1974-09-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19740914-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3e1446bc543eee5edf4d38a234e0f587367494973cc03334af1abedbe8950463. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-585" nameAsBilled="Olympiahalle"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-deal" transition="unknown"/>
+      <performance id="p01-04" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-05" song="s-scarlet-begonias" transition="unknown"/>
+      <performance id="p01-06" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-07" song="s-loser" transition="unknown"/>
+      <performance id="p01-08" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-09" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-10" song="s-weather-report-suite-prelude" transition="segue"/>
+      <performance id="p01-11" song="s-weather-report-suite-part-1" transition="segue"/>
+      <performance id="p01-12" song="s-let-it-grow" transition="unknown"/>
+      <performance id="p01-13" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-14" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-seastones" transition="unknown"/>
+      <performance id="p02-02" song="s-big-river" transition="unknown"/>
+      <performance id="p02-03" song="s-sugaree" transition="unknown"/>
+      <performance id="p02-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-05" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p02-06" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-mind-left-body-jam" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-11" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-12" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-2aeec82c2d5e37cba583" kind="matrix">
+      <identifier scheme="archive-org">gd1974-09-14.131395.mtx.dusborne.flac16</identifier>
+      <lineage>2 Source Matrix by Dusborne; Soundboard (shnid:30653) Recording Info: SBD -&gt; Master Reel -&gt; Dat; Transfer Info: Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC; Transferred and Edited By Charlie Miller and Audience (shnid:9890) MAR &gt; CD. This audience tape was mastered by Gerhard Schinzel from mid-floor using a Philips mic and a Telefunken reel deck. The reel masters were transferred to CD by Uli Teute and were re-mastered by Dave Greenberg</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a9efd0fe00c11805c534" kind="unknown">
+      <identifier scheme="archive-org">gd1974-09-14.177131.sbd.patched.flegel.flac1644</identifier>
+      <lineage>Remaster by Brian Flegel of shnid 30653</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-cc48de7b3f4502dfd8cc" kind="soundboard">
+      <identifier scheme="archive-org">gd1974-09-14.177305.sbd.NEW.patched.flegel.flac1644</identifier>
+      <lineage>Patched soundboard by Brian Flegel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-ba76930e84c87cadd100" kind="soundboard">
+      <identifier scheme="archive-org">gd1974-09-14.28353.sbeok.flac16</identifier>
+      <lineage>Soundboard - Set 2, plus Phil/Ned | SBD&gt; Master Reel (7in @ 7.5ips 1/2tr)&gt; Dat (3700/44.1k)&gt; Dat (3800/44.1k); Dat (Sony R500)&gt; SEK'D Prodif Plus&gt; Samplitude v7.02 Professional&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-248ccd86464358ea5b8b" kind="unknown">
+      <identifier scheme="archive-org">gd1974-09-14.aud.sirmick.32641.sbeok.flac16</identifier>
+      <lineage>This a remaster of shnid 6162 | aud mr &gt; dat &gt; cdr &gt; wav &gt; shn &gt; wav &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4568ea5f73dfa9e30da6" kind="unknown">
+      <identifier scheme="archive-org">gd1974-09-14.philips-Schinzel.teute-greenberg.9890.shnf</identifier>
+      <credit role="recordist">Gerhard Schinzel</credit>
+      <lineage>MAR &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Uli Teute and David Greenberg</note>
+    </recording>
+    <recording id="r-ae8117b26efd11ff336e" kind="audience">
+      <identifier scheme="archive-org">gd74-09-14.aud.hanno.6162.sbeok.shnf</identifier>
+      <lineage>Audience Recording | AUD MR&gt; D&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hanno Bunjes</note>
+    </recording>
+    <recording id="r-5d3876a46d92ffe1d42c" kind="soundboard">
+      <identifier scheme="archive-org">gd74-09-14.sbd.miller.30653.sbeok.flacf</identifier>
+      <lineage>Soundboard | SBD -&gt; Master Reel -&gt; Dat</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

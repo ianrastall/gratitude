@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-09-27" date="1981-09-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810927-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-553" nameAsBilled="Capital Centre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-03" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-04" song="s-candyman" transition="segue"/>
+      <performance id="p01-05" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-06" song="s-althea" transition="unknown"/>
+      <performance id="p01-07" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-08" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-it-must-have-been-the-roses" transition="segue"/>
+      <performance id="p01-10" song="s-lost-sailor" transition="segue"/>
+      <performance id="p01-11" song="s-saint-of-circumstance" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-spanish-jam" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-11" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-0c5e09f5a1cd0afd014b" kind="unknown">
+      <identifier scheme="archive-org">gd1981-09-27.110722.set2.nak300.grabski.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>2 Nakamichi 300's (taped to railing split approx 10 ft. behind stage) &gt; Sony D5 &gt; MAC (dolby B) | 1st Gen. cassette (dolby B) &gt; Nakamichi CR-2A (Dolby B) &gt; Tascam HD-P2 &gt; 24/88.2 Wave &gt; Wavelab 5 (UV22HR) &gt; 16/44.1 wave &gt; CD wave &gt; FLAC Taped by: Unknown Transferred by: Dean Grabski</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1981-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dean Grabski</note>
+    </recording>
+    <recording id="r-5060b075e513dae950b9" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-27.s1.aud.112343.flac1644</identifier>
+      <lineage>Set 1 Source: AUD (unknown equipment) MAC &gt; 2nd Gen cassette. | Maxell UDXLII &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 Tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1981-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): AndrewF</note>
+    </recording>
+    <recording id="r-477e8cd5f4086f598482" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-27.s2.aud.unknown.andrewf.110054.flac1644</identifier>
+      <lineage>Set 2 Source: Unknown AUD (cassette circa 1982) | Maxell UD90 &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC Tagged.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1981-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-dc6171ef9528a68cbf38" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-09-27.sbd.miller.remastered.122188.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; PCM -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1981-09-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-333d7058a1464dc088b9" kind="soundboard">
+      <identifier scheme="archive-org">gd81-09-27.sbd.munder.8910.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;Cm&gt;PCM&gt;Dat&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1981-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

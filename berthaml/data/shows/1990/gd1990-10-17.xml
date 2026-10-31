@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-10-17" date="1990-10-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19901017-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-807" nameAsBilled="Grugahalle"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-06" song="s-maggie-s-farm" transition="unknown"/>
+      <performance id="p01-07" song="s-high-time" transition="unknown"/>
+      <performance id="p01-08" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-09" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-10" song="s-picasso-moon" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-truckin" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-fd57e81babc53642f9af" kind="unknown">
+      <identifier scheme="archive-org">gd1990-10-17.143495.nuemannu89.silberman.dalton.miller.sirmick.flac1648</identifier>
+      <credit role="recordist">Jeff Silberman</credit>
+      <lineage>(probably) Neumann U89 &gt; Sonosax SX-M2 &gt; Sony TCD-D10 pro &gt; Dat x 3 (48k) - Taped by Jeff Silberman and provided by Tim Dalton | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tim Dalton and Charlie Miller and Sirmick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-12863e0f11e10a3a02fe" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-17.143496.mtx.sirmick.flac1644</identifier>
+      <lineage>Two source matrix 70% sbd/30% aud</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Sirmick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-df2eb70a59bfe6c9c139" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.144816.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell mx-90/100's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transfer - Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-31b5eeae62504aab34b8" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.144817.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell mx-90/100's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transfer - Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-a0f6065a1f54444a763e" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-17.157679.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 24, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-b922262f8ece01b0ca3a" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-17.157680.dsbd.miller.clugston.flac16</identifier>
+      <lineage>Ultramatrix Soundboard DAT &gt; probable PCM &gt; DAT | DAT (Sony R-500) &gt; Tascam DA-3000 (16/44.1) &gt; Adobe Audition 2022 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Mastered by Scott Clugston September 2022, Transferred by Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-caa856da96718d9217d6" kind="matrix">
+      <identifier scheme="archive-org">gd1990-10-17.157865.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 24, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-ab6fae12ef1527bf9f26" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.167629.nak700.blend.2nd.set.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 700 mics x3 &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3fe51f2cbcbed8acdea3" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.167630.nak700.blend.2nd.set.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 700 mics x3 &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at GrugaHalle on 1990-10-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bc5c8ceea7fd46d32737" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.aud.holtz.GEMS.92977.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Unknown Mics &gt; Sony D-5 &gt; MAC | MAC &gt; NAK DR-3 &gt; Emu 1212M &gt; 24/96 wave &gt; Wavelab 5 &gt; plugins &gt; r8brain pro &gt; 16/44.1 wave &gt; cd wave &gt; flac lvl8 (tlh)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Grugahalle on 1990-10-17. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brian Green; Evan K.</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/17/10-17-90-essen-germany-grugahalle/</note>
+    </recording>
+    <recording id="r-ccc1dcd8d7908c44485b" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.nak300.houck-wright.gmb.89987.sbeok.flac16</identifier>
+      <credit role="recordist">Alf Houck and Robert Wright</credit>
+      <lineage>Audience Master Cassette Nakamichi 300�s &gt; Marantz PMD-430 | Nakamichi DR-1 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0 @ [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Grugahalle on 1990-10-17. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/17/10-17-90-essen-germany-grugahalle/</note>
+    </recording>
+    <recording id="r-dd33a32ad51467e442e3" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.Nak300CP4.Floater.Keo.112818.Flac1644</identifier>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D7&gt;Sony D6 (Patched Out Of D7); Tapes:Maxell XL II 90,100 Taper:Friend Of Floater Tapes From Floater,Transfer By Keo Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz Tracking/Sample Rate Conversion/Metadata Tagging With AudioGate Software To 32 Bit Float/96 kHz Dithered/Flacked With Korg Aqua To 16/44 SBE's Checked/Fixed With Trader's Little Helper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gruga Halle on 1990-10-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-e1ab0acac6b18a4ab48f" kind="audience">
+      <identifier scheme="archive-org">gd1990-10-17.Nak300CP4.Floater.Keo.112819.Flac2496</identifier>
+      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D7&gt;Sony D6 (Patched Out Of D7) Tapes:Maxell XL II 90,100 Taper:Friend Of Floater Tapes From Floater,Transfer By Keo; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz Tracking/Sample Rate Conversion/Flacked Metadata Tagging With AudioGate Software To 24 Bit/96 kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gruga Halle on 1990-10-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-bcb04aa361ab79ba0855" kind="soundboard">
+      <identifier scheme="archive-org">gd90-10-17.dsbd.wiley.11613.sbeok.shnf</identifier>
+      <lineage>DSBD&gt;DAT&gt;CDR&gt;WAV&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gruga Halle on 1990-10-17. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/17/10-17-90-essen-germany-grugahalle/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

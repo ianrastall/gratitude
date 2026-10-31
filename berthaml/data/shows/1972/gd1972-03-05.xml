@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-03-05" date="1972-03-05">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720305-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-69" nameAsBilled="Winterland"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-03" song="s-mr-charlie" transition="unknown"/>
+      <performance id="p01-04" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-05" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-06" song="s-next-time-you-see-me" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-09" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-10" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-11" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-12" song="s-you-win-again" transition="unknown"/>
+      <performance id="p01-13" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-14" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-good-lovin" transition="segue"/>
+      <performance id="p02-02" song="s-mind-left-body-jam" transition="segue"/>
+      <performance id="p02-03" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-04" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-05" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-06" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6e97a0c8c0998a49c7ca" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-03-05.sbd.jools.12152.sbeok.shnf</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>SBD &gt; Master Cassette | Master Cassette &gt; Cassette &gt; Cassette&gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Unknown</note>
+    </recording>
+    <recording id="r-fc3266dae97c67ece046" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-03-05.sbd.miller.103282.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Cool Edit Pro v2.0 -&gt; Samplitude Professional v10.22 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-62a671981cdb875b9970" kind="audience">
+      <identifier scheme="archive-org">gd72-03-05.aud.miller.20704.sbeok.shnf</identifier>
+      <lineage>Audience Recording | AUD -&gt; ? -&gt; Reel (Mono) -&gt; DAT -&gt; WAV -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-4c37d2f3fb991bc73091" kind="soundboard">
+      <identifier scheme="archive-org">gd72-03-05.sbd.miller.20739.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD -&gt; ?m -&gt; Cass -&gt; Cass -&gt; Cass -&gt; Cass -&gt; Dat -&gt; SHN Patched w/AUD -&gt; ? -&gt; Reel (Mono) -&gt; Dat -&gt; Samplitude -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-3eabbf5e9490b66618ed" kind="unknown">
+      <identifier scheme="other">etree-559301</identifier>
+      <note>Supplied catalogue listing: etree; gd72-03-05.103282.sbd.miller.pitch-corrected.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

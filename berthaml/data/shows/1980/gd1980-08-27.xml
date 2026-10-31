@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-08-27" date="1980-08-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19800827-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-797" nameAsBilled="Pine Knob Music Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-06" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-althea" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-09" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-10" song="s-feel-like-a-stranger" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p02-04" song="s-high-time" transition="unknown"/>
+      <performance id="p02-05" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-06" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-11" song="s-bertha" transition="segue"/>
+      <performance id="p02-12" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-b9bda1914bad53dfba73" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-27.175135.sbd.miller.phase-repair.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; DAT | Transfer Info: DAT &gt; Adobe Audition v3.0 &gt; Samplitude Pro v11.1 -&gt; FLAC/16 Patch Info: Audience recording (shnid=12160) supplies: Eyes Of The World (4:00 - 6:09) Remastering Info: FLAC/16 &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1980-08-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 15, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5e8708b39237ab885573" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-27.sbd.miller.123988.flac16</identifier>
+      <lineage>SBD -&gt; Master Cassette -&gt; Dat | Dat -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1980-08-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2448235f09c7ff5ec2da" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-08-27.sbd.miller.92385.sbeok.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>SBD -&gt; Master Cassette -&gt; Cassete -&gt; Dat (48k) -&gt; Pro Tools -&gt; AIFF | AIFF -&gt; Samplitude Professional v10.02 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theatre on 1980-08-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d694a80587697877c914" kind="audience">
+      <identifier scheme="archive-org">gd80-08-27.aud.munder.12160.sbeok.shnf</identifier>
+      <lineage>Audience Recording | AUD&gt;MC&gt;??&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1980-08-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

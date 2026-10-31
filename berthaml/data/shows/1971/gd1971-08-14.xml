@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-08-14" date="1971-08-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710814-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-64" nameAsBilled="Berkeley Community Theater"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-mr-charlie" transition="unknown"/>
+      <performance id="p01-04" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-05" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-06" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-big-boss-man" transition="unknown"/>
+      <performance id="p01-08" song="s-brokedown-palace" transition="unknown"/>
+      <performance id="p01-09" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-10" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p01-11" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-12" song="s-loser" transition="unknown"/>
+      <performance id="p01-13" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-14" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-15" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-truckin" transition="segue"/>
+      <performance id="p02-02" song="s-drums" transition="segue"/>
+      <performance id="p02-03" song="s-the-other-one" transition="unknown"/>
+      <performance id="p02-04" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p02-05" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-06" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-07" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <performance id="p03-02" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-54ced55ce31d092344a8" kind="soundboard">
+      <identifier scheme="archive-org">gd1971-08-14.sbd.130871.MrBill.flac16</identifier>
+      <lineage>Recording Info: SBD &gt; MR &gt; C &gt; DAT; Transfer Info: DAT &gt; Sony D8 &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC; Transferred, tracked and mastered by Bill Guarneri, August 5, 2014</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Guarneri</note>
+    </recording>
+    <recording id="r-693985ee6ed427931de3" kind="soundboard">
+      <identifier scheme="archive-org">gd1971-08-14.sbd.trip.1451.sbeok.shnf</identifier>
+      <lineage>SBD MR-&gt;DAT-&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Trip Bates</note>
+    </recording>
+    <recording id="r-c4fecc1a3b6fc557d6bf" kind="soundboard">
+      <identifier scheme="archive-org">gd71-08-14.sbd.ladner.21268.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MR &gt; Cass1 &gt; DAT &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): M. Woyczynski</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

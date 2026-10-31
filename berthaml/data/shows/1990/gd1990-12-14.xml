@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-12-14" date="1990-12-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19901214-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-686" nameAsBilled="McNichols Sports Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p01-02" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p01-03" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-04" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-05" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-06" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-07" song="s-to-lay-me-down" transition="segue"/>
+      <performance id="p01-08" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-victim-or-the-crime" transition="segue"/>
+      <performance id="p02-02" song="s-foolish-heart" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-dark-star" transition="segue"/>
+      <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-82c20253b9af881afd83" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-14.127361.josephsonC640.chuckm.flac16</identifier>
+      <credit role="recordist">Chuck Miller</credit>
+      <lineage>Source: Josephson C-640 w/ KA-20 (cardioid) capsules (NOS, OTS, 8' up) &gt; 5532 differential pre-amp (+21db) &gt; Panasonic AG6400 (Hi-Fi audio, VHS master) &gt; JVC HR-D725U (Hi-Fi audio, VHS Gen 1) | Transfer: JVC HR-D725U (Hi-Fi audio, VHS Gen 1) &gt; Tascam DR-680 &gt; SDHC card &gt; PC Digital editing: Steinberg CuBase SX (pre and post set fades, channel balancing, iZotope RX DeClick, WAVES Q10 Paragraphic EQ (high-pass only), WAVES L2 Ultramaximizer) Tracking &amp; processing: CD Wave Editor &gt; Trader's Little Helper/ FLAC, SBE check &amp; FLAC fingerprint &gt; AudioShell tag editor</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chuck Miller</note>
+    </recording>
+    <recording id="r-af37e92a0f0a34ba0760" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-14.138732.FOB.OTS.Schoeps.Katzeff.Ammons.Noel.t-flac16</identifier>
+      <credit role="recordist">Rick Katzeff</credit>
+      <lineage>flac16/48kHz ; Set 1: Schoeps CMC321 at 110 degrees "RED" &gt; Panasonic SV250; Section AAA, Row 15, Seat 17; mics hand held recorded by Rick Katzeff; Set 2: Schoeps CMC54 at 110 degrees ORTF &gt; Panasonic SV255; front row and center of taper section; John Ammons | from his DAT clone of the master; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel Edits: Wave &gt; Audacity &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joel Noel</note>
+    </recording>
+    <recording id="r-1641cd5473f66859eb90" kind="matrix">
+      <identifier scheme="archive-org">gd1990-12-14.140291.MTX.PhotoLeon.t-flac1648</identifier>
+      <lineage>flac16/48kHz ; Two Source Matrix: Source #1 (shnid: 89127) Recording Info: SBD -&gt; Dat -&gt; Cassette Master (TDK SA-X100) and Source #2 (shnid 138732) Set 1: Schoeps CMC321 at 110 degrees "RED" &gt; Panasonic SV250; Section AAA, Row 15, Seat 17; mics hand held recorded by Rick Katzeff; Set 2: Schoeps CMC54 at 110 degrees ORTF &gt; Panasonic SV255; front row and center of taper section; Joe Noel Edits: Wave &gt; Audacity &gt; flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by photoleon</note>
+    </recording>
+    <recording id="r-ced07f91a9b86dd9cd46" kind="matrix">
+      <identifier scheme="archive-org">gd1990-12-14.149608.ultramatrix.sbd.pearson-healy.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 18, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-e7d5a31a2a235182b171" kind="matrix">
+      <identifier scheme="archive-org">gd1990-12-14.149757.UltraMatrix.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 18, 2020D</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-52d717728abefb49c219" kind="audience">
+      <identifier scheme="archive-org">gd1990-12-14.AKG451.Darby.120164.Flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/Section FFF Row 3 Seat 6/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M, Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-ef56953930339ed6b110" kind="audience">
+      <identifier scheme="archive-org">gd1990-12-14.AKG451.Darby.120165.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/Section FFF Row 3 Seat 6/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M, Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-261ad7b116f9795c0295" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-14.josephsonC-640.chuckm.127361</identifier>
+      <credit role="recordist">Chuck Miller</credit>
+      <lineage>Josephson C-640 w/ KA-20 (cardioid) capsules (NOS, OTS, 8' up) &gt; 5532 differential pre-amp (+21db) &gt; Panasonic AG6400 (Hi-Fi audio, VHS master) &gt; JVC HR-D725U (Hi-Fi audio, VHS Gen 1) | JVC HR-D725U (Hi-Fi audio, VHS Gen 1) &gt; Tascam DR-680 &gt; SDHC card &gt; PC Digital editing: Steinberg CuBase SX (pre and post set fades, channel balancing, iZotope RX DeClick, WAVES Q10 Paragraphic EQ (high-pass only), WAVES L2 Ultramaximizer) Tracking &amp; processing: CD Wave Editor &gt; Trader's Little Helper/ FLAC, SBE check &amp; FLAC fingerprint &gt; AudioShell tag editor Distribution format: 44.1 kHz, 16 bit, stereo (.FLAC)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-785bf1e8d27b46a66d49" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-12-14.sbd.miller.89127.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Dat -&gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Samplitude Professional v9.12 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Arena on 1990-12-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2b9fa12f0a1726a90a1a" kind="unknown">
+      <identifier scheme="archive-org">gd1990-12-14.senn.grabski.32022.sbefail.flac16</identifier>
+      <credit role="recordist">Dean Grabski</credit>
+      <lineage>Sennheiser K3U/ME-80 Mics &gt; Sony TCD-5M &gt; TDK-MAXG Cassette Master | Cassette Master &gt; Nakamichi DR-3 Cassette Deck &gt; Apogee Mini-Me (16/44.1) &gt; EGO-SYS WT2496 &gt; SF6 &gt; CDWAVE &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dean Grabski</note>
+    </recording>
+    <recording id="r-064245c1d58d4d57bee8" kind="soundboard">
+      <identifier scheme="archive-org">gd90-12-14.dsbd.conner.13165.sbeok.shnf</identifier>
+      <lineage>DSBD&gt; DAT&gt; Cass&gt; Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz. A/D&gt; RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt; CDWav beta1.6 (tracking only)&gt; SHNv3 (MKW ACT). Digital Conversion by Charlie Connor via</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1990-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+    </recording>
+    <recording id="r-990a944f45132e9b6b93" kind="unknown">
+      <identifier scheme="other">etree-609540</identifier>
+      <note>Supplied catalogue listing: etree; gd1990-12-14.149608.UltraMatrix.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

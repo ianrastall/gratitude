@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-10-19" date="1972-10-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19721019-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-275" nameAsBilled="Fox Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-03" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-04" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-05" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-06" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-07" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-bertha" transition="unknown"/>
+      <performance id="p01-09" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-10" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-11" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-12" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-13" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-14" song="s-around-and-around" transition="unknown"/>
+      <performance id="p01-15" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-big-river" transition="unknown"/>
+      <performance id="p02-02" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p02-03" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-04" song="s-bird-song" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="unknown"/>
+      <performance id="p02-10" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p02-11" song="s-comes-a-time" transition="unknown"/>
+      <performance id="p02-12" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-13" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-14" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-727da2e8b02bd68d8b44" kind="soundboard">
+      <identifier scheme="archive-org">gd72-10-19.sbd.des.4506.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MR &gt; Cass &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theatre on 1972-10-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/19/10-19-72-st-louis-mo-fox-theater/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

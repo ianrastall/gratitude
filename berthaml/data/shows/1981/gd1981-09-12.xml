@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-09-12" date="1981-09-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810912-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-118" nameAsBilled="William Randolph Hearst Greek Theatre, UC Berkeley"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-friend-of-the-devil" transition="segue"/>
+      <performance id="p01-04" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-05" song="s-bird-song" transition="segue"/>
+      <performance id="p01-06" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="segue"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-09" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-10" song="s-i-know-you-rider" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-jam" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-drums" transition="segue"/>
+      <performance id="p02-09" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-11" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-12" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p03-02" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-507ddac08add811f54b9" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.142835.fob.senn421.wise.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Source Info: Jim Wise's Master (FOB) Audience Cassettes; Sennheiser 421 mics &gt; Sony TC-D5 (Maxell UD-XLII); Transfer Info: Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-8ff375d45265de8848df" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.142836.fob.senn421.wise.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16/48kHz ; Source Info: Jim Wise's Master (FOB) Audience Cassettes; Sennheiser 421 mics &gt; Sony TC-D5 (Maxell UD-XLII); Transfer Info: Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496; 24-bit &gt; 16-bit via dBpoweramp</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-efa083581dc82f8e37ac" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.148625.fob.nak700.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; 3 x Nakamichi 700 mics (cardioid left &amp; right - X pattern; 75 degree angle; 6db bass EQ, omni center pointed straight at stage, 40' from stage, DFC) &gt; Jamie Poris' custom made mixer &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f44627adde40bc808ed6" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.148626.fob.nak700.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; 3 x Nakamichi 700 mics (cardioid left &amp; right - X pattern; 75 degree angle; 6db bass EQ, omni center pointed straight at stage, 40' from stage, DFC) &gt; Jamie Poris' custom made mixer &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-826e5485f6bced902727" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.158147.akg.se5.wiseman.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1981-09-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Wiseman and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-0b7f7c3f382e0db8125e" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.158148.akg.se5.wiseman.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Wiseman and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-29c843d85c9bf3c65748" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.169768.nak700.glassberg.menke.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Barry Glassberg</credit>
+      <lineage>Barry Glassberg's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; KORG MR-2000 (DSF 1-bit/5.6 MHz)&gt; AudioGate (24-bit/96k .wav) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, University Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3ed24eaccaa2c7d91f76" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.fob.nak300.walker-scotton.miller.95671.sbeok.flac16</identifier>
+      <credit role="recordist">Joani Walkerand Paul Scotton</credit>
+      <lineage>(FOB) Nakamichi 300/CP1 -&gt; Cassette Master (Sony TC-D5M/Maxell UDXLII) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-9f6c23864360972e64a0" kind="unknown">
+      <identifier scheme="archive-org">gd1981-09-12.nak300.101497.flac16</identifier>
+      <lineage>2 Nakamichi 300 mics &gt; Sony TC D-5m (Dolby B)(TDK SA-X 90, Maxell UDXL-II 90 'Estimated thru Baby Bloe') | Nakamichi Dragon (Dolby B decoded) &gt; Panasonic SV 3700 DAT (A/D conversion)(HP data cartridge) &gt; Apple G4 (RME interface)(Peak 5 editing) &gt; Xact</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theater on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-18d5dba4f9c85ca65981" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.nak300.hoey.123788.flac24</identifier>
+      <credit role="recordist">n hoey</credit>
+      <lineage>Recorded, Transferred and Mastered by N. Hoey (shnid 123665)(tagged version); 2 Nakamichi CM 300's &gt; Sony TC D-5m (Dolby B)(tracks 01-13, 22 TDK SA-X C 90 ~ tracks 14-21, 23,24 Maxell UDXL II C 90)(FOB center); Nakamichi Dragon (Dolby B decoded) &gt; A/D Apogee Mini Me (firewire)(96/24) &gt; (Peak 7 OS X editing) &gt; xACT (flac-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1981-09-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): n hoey</note>
+    </recording>
+    <recording id="r-259747c6ff0ee94ed7ae" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.nak300.hoey.125697.flac16</identifier>
+      <credit role="recordist">N. Hoey</credit>
+      <lineage>flac16 ;Recorded, Transferred and Mastered by N. Hoey (shnid 123788)(tagged version) 2 Nakamichi CM 300's &gt; Sony TC D-5m (Dolby B)(tracks 01-13, 22 TDK SA-X C 90 ~ tracks 14-21, 23,24 Maxell UDXL II C 90)(FOB center) Nakamichi Dragon (Dolby B decoded) &gt; A/D Apogee Mini Me (firewire)(96/24) &gt; (Peak 7 OS X editing, sample rate conversion, dithering) &gt; xACT (flac-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): N. Hoey</note>
+    </recording>
+    <recording id="r-1a8e1d239d69746ca672" kind="unknown">
+      <identifier scheme="archive-org">gd1981-09-12.nak700.anon-poris-severson.LMPP.95391.flac16</identifier>
+      <credit role="recordist">anonymous taper, Jamie Poris, Mark Severson</credit>
+      <lineage>3 Nakamichi 700's (l &amp; R-Cross Cardiod, 6db Bass EQ, 75 Deg angle, center-omni straight at stage, 40 deg up) 40 feet from stage, dead center &gt; 3 mic mixer(made by Jamie Poris) &gt; Sony D5 &gt; MAC (dolby B) | MAC (dolby B) &gt; Nakamichi CR-5A (Dolby B) &gt; Tascam HD-P2 &gt; 24/96 Wave &gt; Wavelab 5 &gt; plugins &gt; r8brain pro &gt; 16/44.1 wave &gt; CD wave &gt; flac lvl 8 (TLH)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brian Green and Evan K.</note>
+    </recording>
+    <recording id="r-6e0a4a238015ba164cd7" kind="unknown">
+      <identifier scheme="archive-org">gd1981-09-12.nak700.martin.warner.23729.sbeok.flac16</identifier>
+      <credit role="recordist">Steven Martin</credit>
+      <lineage>modified Nakamichi CM-700 mics &gt; Sony TC-D5M &gt; MAC (Maxell metal tape) | MAC &gt; Nak Dragon playback &gt; Cardas audiophile cables &gt; HHB CDR 800 master CD &gt; Samsung SW-232B extraction (EAC v0.9 beta 4) &gt; tracking (CD Wave) &gt; sector boundary verification (shntool v1.01) &gt; .flac encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theater on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): (EAC &gt; SHN by Jack Warner)</note>
+    </recording>
+    <recording id="r-be72721dc4ab12d786c0" kind="unknown">
+      <identifier scheme="archive-org">gd1981-09-12.nak700.wagner.miller.105584.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Nakamichi 700 -&gt; Cassette Master (Sony TC-D5M/Maxell UDXLII-S90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v3 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-7eecd1826ce6b709ea75" kind="audience">
+      <identifier scheme="archive-org">gd1981-09-12.senn421.unknown.sirmick.23658.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Sennheiser 421 mics &gt; Sony TC D-5; and then aud (unknown mics, probably Sony ECM-33P x2) &gt;Sony D5 &gt; unknown reel generations (no more than 2) &gt; Sony R500 DAT &gt;CD (via HHb-850) | Adobe Audition, iZoptope Ozone, CD Wave, shorten used</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ff137a670474005d8e19" kind="audience">
+      <identifier scheme="archive-org">gd81-09-12.aud.wise.25317.shnf</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Audience Recording: Sennheiser 421's | FOB Senn 421s &gt; Sony TC-D5 &gt; MAC (Maxell XL II 90, Dolby B encoded) &gt; playback on Nakamichi Dragon (Dolby B decoded) &gt; Sony PCM R-700 (A&gt;D passthrough) &gt; Zefiro ZA2 &gt; WAV (no processing) &gt; CD &gt; EAC &gt; WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-b5f1f96af8ad4c71999c" kind="audience">
+      <identifier scheme="archive-org">gd81-09-12.wise.munder.7091.sbeok.shnf</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Audience Recording: Sennheiser 421's | Sennheiser 421 mics &gt; Sony TC D-5</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1981-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

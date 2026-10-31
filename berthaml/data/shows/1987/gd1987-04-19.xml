@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-04-19" date="1987-04-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870419-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-874" nameAsBilled="Irvine Meadows Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-05" song="s-tons-of-steel" transition="unknown"/>
+      <performance id="p01-06" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-08" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-09" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-black-muddy-river" transition="unknown"/>
+      <performance id="p02-05" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-06" song="s-cumberland-blues" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-not-fade-away-reprise" transition="segue"/>
+      <performance id="p03-02" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-593e815a511bad347460" kind="matrix">
+      <identifier scheme="archive-org">gd1987-04-19.135967.dsbd.GEMS.flac16</identifier>
+      <credit role="recordist">PO and Stucco TINA Holmes</credit>
+      <lineage>Digital Soundboard/MTX &gt; PCM copy; Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; tracked with Audacity-&gt; flac level 8-&gt; tagged with Tag&amp;Rename and checksums with TLH by Norm; Wavelab 7.1 for Minor Edits by Jamie Waddell</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-dbfbc9f3a60116e615a6" kind="matrix">
+      <identifier scheme="archive-org">gd1987-04-19.142119.sbd.miller.flac2496</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e1bcfa9cfe426d93e1ff" kind="matrix">
+      <identifier scheme="archive-org">gd1987-04-19.142134.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-64ea0138bac0180a95c1" kind="unknown">
+      <identifier scheme="archive-org">gd1987-04-19.151129.aud.lohr.vernon.flac1648</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Unspecified mics (Nak 100?) &gt; unspecified deck (D6?) &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-a361b0177d12e58eda6f" kind="unknown">
+      <identifier scheme="archive-org">gd1987-04-19.151130.aud.lohr.vernon.flac2496</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Unspecified mics (Nak 100?) &gt; unspecified deck (D6?) &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-b78e0d5f463099b66003" kind="audience">
+      <identifier scheme="archive-org">gd1987-04-19.aud.corso.ford.lmpp.98052.flac16</identifier>
+      <credit role="recordist">Johnny Corso</credit>
+      <lineage>(Set I): 1st Gen Audience Cassette; 2 x Sennheiser 441&gt;Sony D5&gt;D5&gt;D5&gt;Standalone burner&gt;CDR&gt;EAC&gt;.wav; (Set II): Master Audience Cassette; 2 x Sennheiser 441&gt;Sony D5&gt;D5&gt;D5&gt;Maxell MA-R 90&gt;Nakamichi Dragon&gt;Kind Kables RCA/XLR&gt;Lunatec V3 @ 24/96&gt;coax&gt;Audiophile 2496&gt;WaveLab 6.10&gt;.wav | Editing and Mastering in WaveLab 6.10 with UAD in 16/44.1. CD Wave Editor&gt;Trader's Little Helper&gt;FLAC16(level eight).</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows Amphitheatre on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Johnny Kelly and Alex Ford</note>
+    </recording>
+    <recording id="r-34c94a318f7674162cc6" kind="unknown">
+      <identifier scheme="archive-org">gd1987-04-19.beyer.connor.34964.sbeok.flac16</identifier>
+      <credit role="recordist">Charlie Connor</credit>
+      <lineage>Beyer Dynamic M88's&gt;Sony TCD5M(CM) | Nak DR-10 (Playback)&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav beta1.57 (tracking only)&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows Amphitheatre on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Connor</note>
+    </recording>
+    <recording id="r-69c0cf04984eeb08747d" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-04-19.sbd-mtx.lemon2.3893.sbeok.shnf</identifier>
+      <lineage>Healy Ultramix SBD/AUD&gt;CM&gt;DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows Amphitheatre on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): lemon2</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+    </recording>
+    <recording id="r-7d179203ee1db3b4b6ca" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-04-19.sbd.walker-scotton.miller.83734.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (Maxell MX90/Sony D5) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows Amphitheatre on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-720de8253304782d7a31" kind="matrix">
+      <identifier scheme="archive-org">gd87-04-19.matrix.ladner.3822.sbeok.shnf</identifier>
+      <lineage>SBD (Matrix) &gt; PCM &gt; DAT &gt; Behringer UltraMatch 2000 &gt; CD &gt; EAC &gt; SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-02b0035001a0a28c5273" kind="soundboard">
+      <identifier scheme="archive-org">gd87-04-19.sbd.clugston.11883.sbeok.shnf</identifier>
+      <lineage>Master Soundboard Casette &gt; PCM&gt; DAT&gt; CDR EAC'ed,SHN'ed and Seeded to Etree by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-6475c326222d4364e009" kind="unknown">
+      <identifier scheme="other">etree-599689</identifier>
+      <note>Supplied catalogue listing: etree; gd1987-04-19.142134.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-01-10" date="1978-01-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780110-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-657" nameAsBilled="Shrine Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-good-lovin" transition="unknown"/>
+      <performance id="p01-03" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="segue"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-06" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-07" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-08" song="s-candyman" transition="unknown"/>
+      <performance id="p01-09" song="s-passenger" transition="unknown"/>
+      <performance id="p01-10" song="s-sunrise" transition="unknown"/>
+      <performance id="p01-11" song="s-deal" transition="segue"/>
+      <performance id="p01-12" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p02-02" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-07" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-08" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-75f3b49d398464c7ab48" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-01-10.133618.sbd.miller.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (Dolby B) -&gt; FLAC (24bit/44.1k) | FLAC -&gt; Samplitude Professional v11.1.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3d13ed03e4437c1a200b" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-01-10.133619.sbd.miller.flac24</identifier>
+      <lineage>SBD -&gt; Cassette Master (Dolby B) -&gt; FLAC (24bit/44.1k) | FLAC -&gt; Samplitude Professional v11.1.1 -&gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-751ab610ecd64fbf1838" kind="unknown">
+      <identifier scheme="archive-org">gd1978-01-10.aud.Rhinotrocity7.motb-0026.95068.flac16</identifier>
+      <credit role="recordist">Reinhart Hohlwein</credit>
+      <lineage>2 x AKG D224E's =&gt; Sony TC 158 &gt;&gt; MAC (3 x Maxell UDXL II) | MAC &gt;&gt; Nakamichi CR7a =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Bob Menke and Derek McCabe and Adam Egert</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cba9cc8482f0b4635b18" kind="unknown">
+      <identifier scheme="archive-org">gd1978-01-10.aud.Rhinotrocity7.motb-0026.95069.flac24</identifier>
+      <credit role="recordist">Reinhart Hohlwein</credit>
+      <lineage>2 x AKG D224E's =&gt; Sony TC 158 &gt;&gt; MAC (3 x Maxell UDXL II) | MAC &gt;&gt; Nakamichi CR7a =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Bob Menke and Derek McCabe and Adam Egert</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7f6ffb4e4f9bbd8f22f1" kind="matrix">
+      <identifier scheme="archive-org">gd1978-01-10.mtx.Rhinotrocity7.motb.95134.flac16</identifier>
+      <credit role="recordist">Reinhart Hohlwein</credit>
+      <lineage>Matrix (See Notes)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Menke and Derek McCabe and Adam Egert</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5e6cdb61f922dd5c7800" kind="soundboard">
+      <identifier scheme="archive-org">gd78-01-10.sbd.cotsman.14523.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;MC&gt;?&gt;CD&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

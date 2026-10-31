@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-10-30" date="1971-10-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19711030-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-409" nameAsBilled="Taft Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-04" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-05" song="s-loser" transition="unknown"/>
+      <performance id="p01-06" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-09" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-10" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p01-11" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-12" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-casey-jones" transition="unknown"/>
+      <performance id="p02-02" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-03" song="s-comes-a-time" transition="unknown"/>
+      <performance id="p02-04" song="s-el-paso" transition="unknown"/>
+      <performance id="p02-05" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p02-06" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-07" song="s-truckin" transition="unknown"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-48c6f74ee61bc20383c4" kind="fm">
+      <identifier scheme="archive-org">gd1971-10-30.137408.fm.GEMS.flac16</identifier>
+      <credit role="recordist">Stuccoholmes</credit>
+      <lineage>Recording of the FM Broadcast on WEBN Cincinnati, DAT provided and transferred by Stuccoholmes, Editing and Mastering by Jamie Waddell in Wavelab 7.1, Critical Listening assitance by John Wenzel. Track, FLAC and Pack by Norm</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Taft Auditorium on 1971-10-30. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/30/10-30-71-cincinnati-oh-taft-theater/</note>
+    </recording>
+    <recording id="r-cf1e4a12ff3cdf8db96d" kind="soundboard">
+      <identifier scheme="archive-org">gd1971-10-30.sbd.130823.MrBill.flac16</identifier>
+      <lineage>Updated Recording Info: Pre FM SBD &gt; MR &gt; RR @ 7 1/2 IPS; Transfer Info: RR &gt; 1978 Teac 3440 &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC; Transfered, tracked and mastered by Bill Guarneri, August 1, 2014</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Taft Auditorium on 1971-10-30. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): Bill Guarneri</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/30/10-30-71-cincinnati-oh-taft-theater/</note>
+    </recording>
+    <recording id="r-6c0d7c0e278825768021" kind="fm">
+      <identifier scheme="archive-org">gd71-10-30.fm.cole.2664.sbeok.shnf</identifier>
+      <lineage>FM&gt; Pioneer RT-707 (7" reel @ 19 ips)&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Taft Auditorium on 1971-10-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+    </recording>
+    <recording id="r-a132acdf89e093ee9070" kind="fm">
+      <identifier scheme="archive-org">gd71-10-30.prefm.nawrocki.26608.sbeok.shnf</identifier>
+      <lineage>primary: Pre-FM MR (1/2 track, 7.5 ips), Transfer: Revox PR99-MKIII &gt; Panasonic SV3800 (48)/Sony 60ES &gt; M-Audio Audiophile USB &gt; CDWave &gt; Goldwave (resample to 44.1 and edits) &gt; CDwave &gt; mkwACT, Primary source supplied by Josh Braveman | Revox PR99-MKIII &gt; Panasonic SV3800 (48)/Sony 60ES &gt; M-Audio Audiophile USB &gt; CDWave &gt; Goldwave (resample to 44.1 and edits) &gt; CDwave &gt; mkwACT, Primary source supplied by Josh Braveman; Secondary: FM &gt; Pioneer RT-707 (7" reel @ 19 ips) &gt; CD, Conversion: K</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Taft Auditorium on 1971-10-30. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/30/10-30-71-cincinnati-oh-taft-theater/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

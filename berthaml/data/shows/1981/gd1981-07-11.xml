@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-07-11" date="1981-07-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810711-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-795" nameAsBilled="Alpine Valley Music Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-peggy-o" transition="segue"/>
+      <performance id="p01-04" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-05" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-06" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-07" song="s-big-river" transition="unknown"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="segue"/>
+      <performance id="p01-09" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-10" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-11" song="s-i-know-you-rider" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-02" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-jam" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-11" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-12" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-13" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c7d012834837390f67e8" kind="matrix">
+      <identifier scheme="archive-org">gd1981-07-11.122830.sailorsaint.mtx.seamons.flac16</identifier>
+      <lineage>Partial 2 song Matrix by Hunter Seamons; Soundboard recording by Dan Healy; Audience recording transferred by Rick Martin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1981-07-11. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/11/7-11-81-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+    <recording id="r-7cc66554ee743623f3bf" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-11.152769.senn421.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 421 mics &gt; unknown deck; Jim Vita's 1st generation cassettes | 1st generation cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1981-07-11. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/11/7-11-81-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+    <recording id="r-33cfa4a1e745b2c0314b" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-11.152770.senn421.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 421 mics &gt; unknown deck; Jim Vita's 1st generation cassettes | 1st generation cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1981-07-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-03ef6bb044dcff89a852" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-07-11.175192.sbd.tape2.miller.remaster.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; Cassette &gt; DAT &gt; CD | Remastering Info: CD &gt; iZotope RX 11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1981-07-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Remastered by Charlie Miller November 20, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ca9090ab05d88dc3c535" kind="unknown">
+      <identifier scheme="archive-org">gd1981-07-11.176353.aud.bernstein.ackerman.noel.flac2496</identifier>
+      <credit role="recordist">Jon Bernstein</credit>
+      <lineage>?? mics &gt; ?? lead deck &gt; Sony TC-D5 &gt; Master Cassettes (Maxell XLIIS-90's) | Master Cassettes &gt; Nakamichi Cassette Deck 1 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96 &gt; Adobe Audition &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1981-07-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer &amp; Mastering by Ray Ackerman Edited &amp; Processed w/ add'l Mastering by Joe Noel January 28, 2026</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-083a30b3dee93edd093d" kind="audience">
+      <identifier scheme="archive-org">gd81-07-11.senn441.munder.7370.sbeok.shnf</identifier>
+      <lineage>Audience Recording: Sennheiser 421 | Senn 421&gt;CM&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1981-07-11. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/11/7-11-81-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+    <recording id="r-9fa4bf18d173cf888e4e" kind="soundboard">
+      <identifier scheme="archive-org">gd81-07-11.set2-sbd.fink.14020.sbeok.shnf</identifier>
+      <lineage>Soundboard | S : MC &gt; C &gt; D &gt; CDR &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1981-07-11. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/11/7-11-81-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

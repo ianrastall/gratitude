@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  BerthaML official release registry. A release can draw on many shows
+  (compilations, box sets), so releases are a registry and each track
+  points at a show file and the performance IDs inside it.
+  Track durations here are the release's timings, not facts about the show.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:b="urn:berthaml:1"
+           targetNamespace="urn:berthaml:1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+
+  <xs:include schemaLocation="common.xsd"/>
+
+  <xs:element name="releases" type="b:ReleaseRegistry"/>
+
+  <xs:complexType name="ReleaseRegistry">
+    <xs:sequence>
+      <xs:element name="record" type="b:Record"/>
+      <xs:element name="release" type="b:Release" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+  </xs:complexType>
+
+  <xs:complexType name="Release">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="series" type="b:Series" minOccurs="0"/>
+      <!-- First issue first; reissues after. -->
+      <xs:element name="edition" type="b:Edition" maxOccurs="unbounded"/>
+      <xs:element name="track" type="b:ReleaseTrack" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="b:ReleaseId" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Series">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="number" type="xs:positiveInteger"/>
+  </xs:complexType>
+
+  <xs:complexType name="Edition">
+    <xs:sequence>
+      <!-- Edition-specific tracks; release-level tracks are an unassigned reference list. -->
+      <xs:element name="track" type="b:ReleaseTrack" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:attribute name="date" type="b:FuzzyDate" use="required"/>
+    <xs:attribute name="label" type="xs:string"/>
+    <xs:attribute name="catalogNumber" type="xs:token"/>
+    <xs:attribute name="format" type="b:ReleaseFormat" use="required"/>
+    <xs:attribute name="units" type="xs:positiveInteger"/>
+  </xs:complexType>
+
+  <xs:simpleType name="ReleaseFormat">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="cd"/>
+      <xs:enumeration value="lp"/>
+      <xs:enumeration value="cassette"/>
+      <xs:enumeration value="digital"/>
+      <xs:enumeration value="dvd"/>
+      <xs:enumeration value="blu-ray"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="ReleaseTrack">
+    <!-- Disc or side number; omit for single-unit releases. -->
+    <xs:attribute name="disc" type="xs:positiveInteger"/>
+    <xs:attribute name="n" type="xs:positiveInteger" use="required"/>
+    <!-- A release may contain studio, unknown-date or not-yet-mapped material. -->
+    <xs:attribute name="show" type="b:ShowRef"/>
+    <!-- Performance and event IDs in that show file. -->
+    <xs:attribute name="covers" type="b:LocalIdList"/>
+    <xs:attribute name="title" type="xs:string"/>
+    <xs:attribute name="duration" type="b:Duration"/>
+    <xs:attribute name="file" type="xs:string"/>
+    <xs:attribute name="mappingStatus" type="b:MappingStatus"/>
+    <!-- Certainty of the track-to-performance mapping. -->
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <xs:simpleType name="LocalIdList">
+    <xs:restriction>
+      <xs:simpleType>
+        <xs:list itemType="xs:NCName"/>
+      </xs:simpleType>
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

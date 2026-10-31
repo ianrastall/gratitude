@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-04-28" date="1985-04-28">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850428-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-404" nameAsBilled="Frost Amphitheatre, Stanford University"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p01-02" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-05" song="s-tons-of-steel" transition="unknown"/>
+      <performance id="p01-06" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-07" song="s-i-know-you-rider" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p02-02" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-china-doll" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-02" song="s-she-belongs-to-me" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c45ff45eca7b2f656ce0" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-04-28.028439.sbd.miller.sbeok.flacf</identifier>
+      <credit role="recordist">Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; CD (Marantz CDR 500 Pro) | CD -&gt; EAC -&gt; Samplitude Professional v8.0 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred and Edited By Charlie Miller 3/4/05</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-a1faeff0770305ddd06f" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.124404.nak700.wagner.miller.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>(FOB) Nakamichi 700 -&gt; Cassette Master (Sony TC-D5M/Maxell XLII-S90) | Cassette Master (Sony TC-K677ES) -&gt; Sound Devices 744T (24bit/48k) -&gt;Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-9bfb2b7f697868531675" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.125010.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>lineage: sennheiser 421 (fob)&gt; d-5&gt; d-5&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-cf81df8f16ff684313ea" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.140825.fob.nak700.wagner.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master FOB Audience Cassettes; Nakamichi CM700 mics &gt; Sony TC-D5M (Maxell XLII-S90)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-abb964dac1af754120cd" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.140826.fob.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master FOB Audience Cassettes; Nakamichi CM700 mics &gt; Sony TC-D5M (Maxell XLII-S90)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-8b215f43a7dccf962b11" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.143492.FOB.ECM150.Keeler.Miller.Noel.t-flac2496</identifier>
+      <credit role="recordist">Walt Keeler</credit>
+      <lineage>Walt Keeler (FOB) Recording: Sony ECM-150 &gt; Sony WM-D6C &gt; Master Audience Cassette (Maxell XLII-S 90) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; WAV (24-bit/96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-73e9c1e0b8d32d82e7c1" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.145342.fob.sony.ecm150.keeler.miller.noel.t-flac16</identifier>
+      <credit role="recordist">Walt Keeler</credit>
+      <lineage>Walt Keeler (FOB) Recording: Sony ECM-150 &gt; Sony WM-D6C &gt; Master Audience Cassette (Maxell XLII-S 90) | Charlie Miller DSD Transfer: Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; WAV (24-bit/96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-869b9cdef322ee4944e6" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.148417.fob.neumann.km84i.hecht.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; Neumann KM84i mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b65e29afe3f87b1fbb98" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.148418.fob.neumann.km84i.hecht.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; Neumann KM84i mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-23fd14b365d861850b29" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-28.151704.Mouth.AKG.Master.Cassette.Rogers.Noel.t-flac2496</identifier>
+      <lineage>Source: AKG CE1s &gt; Uher CR240 &gt; Master Cassettes Location: Mouth, ten heads back from stage lip (Phil's side) | Transfer: Master Cassettes &gt; Uher CR240 &gt; Sound Devices 722 &gt; WAV 24/96</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Recording by KM &amp; Craig Rogers Transfer by Craig Rogers Edited &amp; Mastered (Adobe Audition) by Joe Noel January 21, 2021</note>
+    </recording>
+    <recording id="r-03d344e6dba628d2003f" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-28.151948.Mouth.AKG.Master.Cassette.Rogers.Noel.t-flac16</identifier>
+      <credit role="recordist">Recording by KM &amp; Craig Rogers</credit>
+      <lineage>Source: AKG CE1s &gt; Uher CR240 &gt; Master Cassettes Location: Mouth, ten heads back from stage lip (Phil's side) | Transfer: Master Cassettes &gt; Uher CR240 &gt; Sound Devices 722 &gt; WAV 24/96</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer by Craig Rogers Edited &amp; Mastered (Adobe Audition) by Joe Noel January 21, 2021</note>
+    </recording>
+    <recording id="r-a1af874b4b1719abc6b9" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-28.151971.Mouth.AKG.Rogers.Noel.fixed.151704.t-flac2496</identifier>
+      <credit role="recordist">Recording by KM &amp; Craig Rogers</credit>
+      <lineage>Source: AKG CE1s &gt; Uher CR240 &gt; Master Cassettes Location: Mouth, ten heads back from stage lip (Phil's side) | Transfer: Master Cassettes &gt; Uher CR240 &gt; Sound Devices 722 &gt; WAV 24/96</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer by Craig Rogers Edited &amp; Mastered (Adobe Audition) by Joe Noel January 21, 2021</note>
+    </recording>
+    <recording id="r-c39c30255201928ff5cf" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-04-28.152302.sbd.walker.scotton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>Dan Healy's Master Soundboard Cassettes &gt; Joani Walker's 1st generation cassettes | 1st Generation Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-39413f05f730a64b283d" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-04-28.152303.sbd.walker.scotton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>Dan Healy's Master Soundboard Cassettes &gt; Joani Walker's 1st generation cassettes | 1st Generation Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-420ea74ada0c95df99f2" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-28.166752.akgC-33e.fob.Hoey.flac2496</identifier>
+      <credit role="recordist">Hoey</credit>
+      <lineage>AKG C-33e stereo mic &gt; akg 48v phantom power supply &gt; Marantz PMD 430 (dbx nr Maxell MX90) | Nakamichi Dragon &gt; dbx model 224 processor (decode) &gt; Audio Antiquary mastering preamp (Telefunken C3g tube) &gt; QES Labs PAD-2 mkII LE (a &gt; d @ 24bit 96kHz) &gt; Peak Pro 7 &gt; xACT (flac tags)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Hoey</note>
+    </recording>
+    <recording id="r-f36d1f1cc696da71cfca" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-28.nak100.holtz.jaz.102036.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Nakamichi CM-100's with CP-4 shotgun caps &gt; Sony TC-D5 | Cassette Master, TDK MA-R90 Alluminum Core -&gt; Tascam 112 -&gt; RCA/XLR -&gt; Edirol m10dx 24bit 96kHz -&gt; SPDIF -&gt; M-Audio MicrotrackII compact flash -&gt; USB -&gt; Wave Lab 5.0 w/UAD-&gt; R8brain for sample rate conversion to 16bit 44.1kHz -&gt; Traders Little Helper flac8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): JAZ</note>
+    </recording>
+    <recording id="r-b5e4701c1e77e5b7962d" kind="unknown">
+      <identifier scheme="archive-org">gd1985-04-28.nak700.anon.lmpp.105549.flac16</identifier>
+      <credit role="recordist">Anonymous</credit>
+      <lineage>Nakamichi 700's &gt; Sony WM-D6 &gt; mac | mac &gt; Nakamichi DR-1 &gt; Tascam HD-P2 &gt; 24/96 wave &gt; Adobe Audition 1.5 &gt; Wavelab 6 (with iZotope Ozone 4) &gt; iZotope RX Advanced &gt; 16/44.1 Wave &gt; CD Wave &gt; Flac 16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brion Green and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-888c53946d77cb1f4677" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-04-28.sbd.sirmick.77406.flac16</identifier>
+      <credit role="recordist">Thanks to "S" Productions for this source.</credit>
+      <lineage>Soundboard &gt; DAT &gt; DAT &gt; CD &gt; wav &gt; shn &gt; wav &gt; flac | SBD -&gt; Cassette Master -&gt; Cassette -&gt; CD (Tascam CDRW5000)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-15c1425445b6946ba80a" kind="audience">
+      <identifier scheme="archive-org">gd1985-04-28.senn421.mccue.ford.33505.sbeok.flac16</identifier>
+      <credit role="recordist">Adam, Justin &amp; Monica</credit>
+      <lineage>MAC: (FOB) Sennheiser 421's &gt; Sony D5 &gt; Maxell XLII-S 90 (Set I) &amp; TDK MA-R [aluminum core (Set II)] | MAC&gt;Nakamichi Cassette Deck 2(azimuth adjusted)&gt;RCA&gt;Edirol UA-5&gt;USB&gt; WinXP Pro&gt;CEP 2.0&gt;CD Wave Editor&gt;Flac Frontend&gt;FLAC16.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-a545bb0bb6883a0721ed" kind="soundboard">
+      <identifier scheme="archive-org">gd85-04-28.sbd.barbella.14192.sbeok.shnf</identifier>
+      <lineage>Master Soundboard Reel &gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-7cd2a42b3147e6cdfd23" kind="soundboard">
+      <identifier scheme="archive-org">gd85-04-28.sbd.new.miller.28357.sbeok.flacf</identifier>
+      <lineage>flac16 SBD&gt; Cassette Master&gt; Dat (48k)?; | Dat (Sony R500)&gt; SEK'D Prodif Plus&gt; Samplitude v7.02 Professional&gt; FLAC; Transferred and Edited By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8000010ffdae47d364a3" kind="soundboard">
+      <identifier scheme="archive-org">gd85-04-28.sbd.new.miller.28439.sbeok.flacf</identifier>
+      <lineage>flac16 **NEW UPGRADE** Source Updated CD Burner changedRecording Info: SBD -&gt; Cassette Master -&gt; Cassette -&gt; CD (Marantz CDR 500 Pro)Transfer Info: CD -&gt; EAC -&gt; Samplitude Professional v8.0 -&gt; FLACTransferred and Edited By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1985-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-1ce9cd57b42fdddcafb7" kind="unknown">
+      <identifier scheme="other">etree-597691</identifier>
+      <note>Supplied catalogue listing: etree; gd1985-04-28.140826.fob.nak700.wagner.miller.clugston.flac2496. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

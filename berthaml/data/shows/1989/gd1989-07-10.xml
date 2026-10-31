@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1989-07-10" date="1989-07-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19890710-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-729" nameAsBilled="Giants Stadium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-05" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-06" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-07" song="s-the-music-never-stopped" transition="segue"/>
+      <performance id="p01-08" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-foolish-heart" transition="unknown"/>
+      <performance id="p02-02" song="s-just-a-little-light" transition="unknown"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-iko-iko" transition="segue"/>
+      <performance id="p02-08" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-930c6fe1094ce846857e" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.124499.mtx.dusborne.flac16</identifier>
+      <lineage>2 Source Matrix using Soundboard (shinid:016071) Source: Unknown SBD &gt; EAC &gt; SHN and Audience (shnid:79608) FOB (AKG 414s &gt; Sony D5 (Dolby B) &gt; MAC) taped by Tim Alexander Playback on Nak DR-1 (Dolby B) &gt; Tascam HD-P2 (24 bit/48 khz) &gt; WAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Matrix by dusborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-89-east-rutherford-nj-giants-stadium/</note>
+    </recording>
+    <recording id="r-292c531eacdb550752af" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.132698.cmc42S.fob.mattes.deal.petty.flac16</identifier>
+      <credit role="recordist">Ted Mattes</credit>
+      <lineage>Recording info: FOB/Schoeps cmc 42 S (spaced omni's)&gt; Oade p/s&gt; SV-250 by Ted Mattes; DAT clones provided by Lance Deal; | Fostex D-5 (AES/BU)&gt; M-Audio USB transit&gt; Audacity @ 16/48&gt; 16/44&gt; CDWAve(tracking)&gt; TLH (SBE's/Flac/md5); Tranferred and liberated to etree on March 22, 2015 by Will Petty</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Willl Petty and Lance Deal</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-56ef16add05e2ac1d1b1" kind="unknown">
+      <identifier scheme="archive-org">gd1989-07-10.133774.akg414btl-fob-dantepper.flac16</identifier>
+      <credit role="recordist">Dan Tepper</credit>
+      <lineage>Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Dan Tepper</note>
+    </recording>
+    <recording id="r-f60db1e1cbe8327c112c" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.138761.upg-sbd.tobin.flac16</identifier>
+      <credit role="recordist">Patched and pitch corrected soundboard</credit>
+      <lineage>Patched/Pitch Corrected Soundboard (original shnid = 16071) Unknown SBD (Matrix); EAC/SHN by Darryl Hinko - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-45165ff14340f378b5cd" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.138762.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid = 16071) Unknown SBD (Matrix); EAC/SHN by Darryl Hinko + AUD (shnid = 76249) AUD: Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell UDXL-IIS 90's, with Dolby off. Mics on stand aprx eight feet high, with foam windscreens on mics, and umbrella secured aprx six inches above the mics. Set up even with the front of the soundboard, to the left (stage right) on Phil's side. | MAC &gt; Sony TC-D5M (no Dolby) &gt; Marantz CDR-500 &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-OK, FLAC compression, and checksums) &gt; FLAC. Taped and transfered by Andrew F. - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c4b39441147214de7c1e" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.138770.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid = 16071) Unknown SBD (Matrix); EAC/SHN by Darryl Hinko + AUD (shnid = 76249) AUD: Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell UDXL-IIS 90's, with Dolby off. Mics on stand aprx eight feet high, with foam windscreens on mics, and umbrella secured aprx six inches above the mics. Set up even with the front of the soundboard, to the left (stage right) on Phil's side. | MAC &gt; Sony TC-D5M (no Dolby) &gt; Marantz CDR-500 &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-OK, FLAC compression, and checksums) &gt; FLAC. Taped and transfered by Andrew F. - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8b381a1f6a9ea42d9bb3" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.138781.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 16071) Unknown SBD (Matrix); EAC/SHN by Darryl Hinko + AUD (shnid = 76249) AUD: Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell UDXL-IIS 90's, with Dolby off. Mics on stand aprx eight feet high, with foam windscreens on mics, and umbrella secured aprx six inches above the mics. Set up even with the front of the soundboard, to the left (stage right) on Phil's side. | MAC &gt; Sony TC-D5M (no Dolby) &gt; Marantz CDR-500 &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-OK, FLAC compression, and checksums) &gt; FLAC. Taped and transfered by Andrew F. - surround mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-89-east-rutherford-nj-giants-stadium/</note>
+    </recording>
+    <recording id="r-b2d447fc6407eaad5dbc" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.138789.sbd.miller.flac24</identifier>
+      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-89-east-rutherford-nj-giants-stadium/</note>
+    </recording>
+    <recording id="r-9c2a4f5546667473ca74" kind="soundboard">
+      <identifier scheme="archive-org">gd1989-07-10.138791.set1.sbd.miller.flac1644</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Sony R500 (A&gt;D) -&gt; Sound Forge -&gt; CD | CD -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9b63bd32c1038cec776b" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.138792.UltraMatrixSBD.miller.flac16</identifier>
+      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d5766979ac0551655483" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.142467.schoeps.cmc4.mk2s.mattes.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Ted Mattes</credit>
+      <lineage>flac16/48kHz ; Source Info: Ted Mattes' Master Audience Dat; Schoeps CMC4/MK2S mics spaced on stands, OTS &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-707f9a0765eee3e4148c" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-10.153414.MTX.photoLeon.t-flac16</identifier>
+      <lineage>A photoLeon Matrix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-2185fce861d81683d054" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.akg414s.alexander.79598.flac16</identifier>
+      <credit role="recordist">Tim Alexander</credit>
+      <lineage>FOB (AKG 414s &gt; Sony D5 (Dolby B) &gt; MAC | Playback on Nak DR-1 (Dolby B) &gt; Tascam HD-P2 (16 bit/44.1 khz) &gt; WAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+    </recording>
+    <recording id="r-70c547c37c3c3183b1dc" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.akg414s.alexander.79608.flac24</identifier>
+      <credit role="recordist">Tim Alexander</credit>
+      <lineage>FOB (AKG 414s &gt; Sony D5 (Dolby B) &gt; MAC) | Playback on Nak DR-1 (Dolby B) &gt; Tascam HD-P2 (24 bit/48 khz) &gt; WAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+    </recording>
+    <recording id="r-41dba850413521264247" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.aud-set2.white.13053.sbeok.shnf</identifier>
+      <lineage>unknown audience source (possibly Schoeps FOB)&gt;DAT&gt;Cassette&gt;HD&gt;CDWAVE&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Patrick White</note>
+    </recording>
+    <recording id="r-493a12cdd692aa139ed5" kind="soundboard">
+      <identifier scheme="archive-org">gd1989-07-10.aud.andrewf.76249.sbeok.flac16</identifier>
+      <credit role="recordist">Andrew F</credit>
+      <lineage>Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell UDXL-IIS 90's, with Dolby off. Mics on stand aprx eight feet high, with foam windscreens on mics, and umbrella secured aprx six inches above the mics. Set up even with the front of the soundboard, to the left (stage right) on Phil's side. | MAC &gt; Sony TC-D5M (no Dolby) &gt; Marantz CDR-500 &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-OK, FLAC compression, and checksums) &gt; FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-3c2aefa8cff13ac57f81" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.nak300.bleich-sirmick.109588.sbeok.flac16</identifier>
+      <credit role="recordist">John Bleich</credit>
+      <lineage>Source: Audience recording &gt; Nakamichi 300s (with cp1 caps) &gt; Sony WM-D6 &gt; mac | mac &gt; Yamaha K-98 &gt; Edirol R09 HR &gt; 24/48 wav &gt; Adobe Audition &gt; Wavelab 6 (with iZotope Ozone 4) &gt; iZotope RX Advanced &gt; 16/44.1 wav &gt; CD Wave &gt; TLH &gt; Flac 16 taped from OTS, and transferred by John Bleich</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-30a49b7bb4cb84e8cdad" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.Nak300CP4.Fitzy.Keo.125291.Flac2496</identifier>
+      <credit role="recordist">fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-5bcb74d2c151fa40251c" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-10.Nak300CP4.Fitzy.Keo.125292.Flac1644</identifier>
+      <credit role="recordist">fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-ab43ee656441461780ee" kind="matrix">
+      <identifier scheme="archive-org">gd89-07-10.sbd.16071.sbeok.shnf</identifier>
+      <lineage>Unknown SBD (Matrix)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1989-07-10. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Darryl Hinko</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-89-east-rutherford-nj-giants-stadium/</note>
+    </recording>
+    <recording id="r-a3d8442cc3d4e414b251" kind="unknown">
+      <identifier scheme="other">etree-563880</identifier>
+      <note>Supplied catalogue listing: etree; gd89-07-10.124499.mtx.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

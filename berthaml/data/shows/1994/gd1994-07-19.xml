@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-07-19" date="1994-07-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19940719-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-979" nameAsBilled="Deer Creek Music Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p01-02" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-jack-a-roe" transition="unknown"/>
+      <performance id="p01-04" song="s-big-river" transition="segue"/>
+      <performance id="p01-05" song="s-maggie-s-farm" transition="unknown"/>
+      <performance id="p01-06" song="s-broken-arrow" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-easy-answers" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-foolish-heart" transition="segue"/>
+      <performance id="p02-02" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-03" song="s-i-want-to-tell-you" transition="segue"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-08" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-09" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-rain" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3999f7f1b33bfb0a7c13" kind="audience">
+      <identifier scheme="archive-org">gd1994-07-19.147695.fob.schoepsMK4.ebel.flac16</identifier>
+      <credit role="recordist">Pete Ebel</credit>
+      <lineage>FOB Schoeps NK 4-&gt; Reutelhuber P/S-&gt; DAT | Dat (Panasonic SV-3700) -&gt; Marantz CDR-615 -&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-aa6ab347d559bba67e6e" kind="unknown">
+      <identifier scheme="archive-org">gd1994-07-19.AT815A.unknown.larson.28163.shnf</identifier>
+      <lineage>AudioTechnica 815A Shotguns&gt;Panasonic SV250(48kHz) | DAT&gt;ZA2(S/PDIF)&gt;samplitude2496&gt;CD-r</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Larson</note>
+    </recording>
+    <recording id="r-4d0995a76586e6fb32d0" kind="audience">
+      <identifier scheme="archive-org">gd1994-07-19.nak300.bleich.GEMS.92433.flac16</identifier>
+      <credit role="recordist">John Bleich</credit>
+      <lineage>Nak 300's &gt; D6 | MAC &gt; DR-3 &gt; EMU 1212M &gt; 24/96 wave &gt; wavelab 5 &gt; plugins &gt; r8brain &gt; 32/44.1 wave &gt; wavelab 5 (tracked) &gt; L3 &gt; 16/44.1 wave &gt; flac16 (TLH lvl 8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): BGreen</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-94-noblesville-in-deer-creek-amphitheater/</note>
+    </recording>
+    <recording id="r-c35e389a2c5ae6c1e337" kind="unknown">
+      <identifier scheme="archive-org">gd1994-07-19.nak300.holtz.jaz.91836.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Nakamichi Cm300's with Cp-4 guns/PZM 30D's mix-&gt; D3 DAT | DAT Master-&gt; PCM-R300-&gt; Coax-&gt; M-Audio Delta 1010Lt-&gt; Wave Lab 5.0, Mastering Software-&gt; Traders Little Helper flac8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): JAZ</note>
+    </recording>
+    <recording id="r-f8ce1b10daccc431e771" kind="soundboard">
+      <identifier scheme="archive-org">gd1994-07-19.sbd.carr.tetzeli.fix-8476.35164.reflac.flac16</identifier>
+      <lineage>DSBD&gt;?&gt;CDR&gt;EAC&gt;WAV&gt;SHNv3&gt;WAV&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): Dan Carr and Bill Tetzeli</note>
+    </recording>
+    <recording id="r-0f4a142013017b33c3fa" kind="unknown">
+      <identifier scheme="archive-org">gd1994-07-19.se2.akg460.flaschner.davis.91140.flac16</identifier>
+      <credit role="recordist">Dave Flaschner</credit>
+      <lineage>(OTS) AKG 460b/ck61 -&gt; custom pre-amp -&gt; D-7 | dat (master) -&gt; DA-20mkII -&gt; AR coax -&gt; Audiophile 24/96 -&gt; Wavelab 5.0 -&gt; CD Wave -&gt; FLAC(6)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Davis</note>
+    </recording>
+    <recording id="r-635f0599d3e95a8cc874" kind="soundboard">
+      <identifier scheme="archive-org">gd94-07-19.sbd.carr.8476.sbeok.shnf</identifier>
+      <lineage>DSBd&gt;?&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-19. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-94-noblesville-in-deer-creek-amphitheater/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

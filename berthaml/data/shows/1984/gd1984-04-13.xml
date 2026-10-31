@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1984-04-13" date="1984-04-13">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19840413-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-764" nameAsBilled="Hampton Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-day-job" transition="unknown"/>
+      <performance id="p01-02" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-04" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-05" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-07" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-08" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-09" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-006e807d3fc28993cf9d" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.109288.beyer-senn.daweez.D5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>source: 3 Beyer M160's (up front) &gt; custom made blend box&gt; Sony TC-D5M (Dolby on) - analog master cassettes; | Sony TC-D5M (original record deck - Dolby on) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-9259377cfc4654d53928" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.122974.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (3) audio technica atm 11 fob&gt;tcm-d-5; conversion: sony tc we435&gt; sony pcm m-10 96khz/24bit&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96khz/24bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-323d43dedf9ea191ee1f" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.126039.beyer_m160.scarletdog.flac16</identifier>
+      <lineage>Master: 2 Beter M-160s and Sony TC-D5m; 2nd deck in line after another D5; | Playback Sony UCX-S cassette masters on Sony TC-D5m to Marantz PMD-670</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-082de978923bd7bb6aa2" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.132771.Sennheiser-holbrook.flac16</identifier>
+      <credit role="recordist">executive crew</credit>
+      <lineage>Source:Sennheiser MKE2002 Binaurals mounted on fake head 60 feet from stage &gt;Sony TCD5M &gt;Maxell Metal 100s No Dolby - Master copy from lead deck run by CK. | Nakamichi LX-5 &gt;ESI Juli@ at 24/48&gt; Wavelab &gt;FLAC; Recorded by executive crew (SM,CK (owner of MKE2002s),TP,KH); Transferred by Kyle Holbrook</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-fb20f5cebd38492c7609" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.132772.Sennheiser-holbrook.flac24</identifier>
+      <credit role="recordist">executive crew</credit>
+      <lineage>Source:Sennheiser MKE2002 Binaurals mounted on fake head 60 feet from stage &gt;Sony TCD5M &gt;Maxell Metal 100s No Dolby - Master copy from lead deck run by CK. | Nakamichi LX-5 &gt;ESI Juli@ at 24/48&gt; Wavelab &gt;FLAC; Recorded by executive crew (SM,CK (owner of MKE2002s),TP,KH); Transferred by Kyle Holbrook</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-379ca9118106a0cd29fe" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.137367.set2.mk41.miller.flac24</identifier>
+      <lineage>(FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-ea9cff110b8fa922ca8c" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.137369.set2.mk41.oade.bryant.miller.flac16</identifier>
+      <lineage>(FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-55b4657a4c8241b152f3" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.149109.mke2002.kidwell.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew (Chris Kidwell, Sean Murtha, Tom Pinney, Kyle Holbrook)</credit>
+      <lineage>MAUD CA: Sennheiser MKE2002 Binaurals mounted on dummy head 60 feet from stage &gt;Sony TCD5M &gt;Maxell Metal 100s No Dolby - Master copy from lead deck run by CK. | Transfer: Nakamichi MR-2 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-a52f15a7ba8e35064439" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.149110.mke2002.kidwell.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew (Chris Kidwell, Sean Murtha, Tom Pinney, Kyle Holbrook)</credit>
+      <lineage>MAUD CA: Sennheiser MKE2002 Binaurals mounted on dummy head 60 feet from stage &gt;Sony TCD5M &gt;Maxell Metal 100s No Dolby - Master copy from lead deck run by CK. | Transfer: Nakamichi MR-2 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-904df889f92953816c33" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.154377.fob.senn441.lamarre.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master (FOB) Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9133c9e481ab761884c7" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.154378.fob.senn441.lamarre.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master (FOB) Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-48852c44de303272de4e" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.155212.u87.eaton.miller.flac24</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>(FOB) Neumann U87 &gt; Cassette Master (Nakamichi 550) | Master Cassettes (Nakamichi Dragon) &gt; Avid Mbox Pro &gt; Pro Tools 12 (WAV 24-bit/96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-dafdd4326c8206ba6b98" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.155699.fob.neumann.U87.cm.eaton.miller.t.flac16</identifier>
+      <credit role="recordist">Recorded and Transferred by Rob Eaton</credit>
+      <lineage>(FOB) Neumann U87 &gt; Cassette Master (Nakamichi 550) | Master Cassettes (Nakamichi Dragon) &gt; Avid Mbox Pro &gt; Pro Tools 12 (WAV 24-bit/96k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Mastered by Charlie Miller January 6, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-66ded2d96941c564b3ee" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.157541.aud.carpenter.flac2448</identifier>
+      <credit role="recordist">Ted Carpenter</credit>
+      <lineage>unknown mics -&gt; Marantz pdm360 - no dolby Maxell XL-IIS 90s | Nakamichi CR3a -&gt; M-Audio 192-&gt; Wavelab Elements 11 -&gt; Wav 24bit 48khz -&gt; CD Wave -&gt; TLH -&gt; analysis, flac, checksums.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Ted Carpenter</note>
+    </recording>
+    <recording id="r-e36bc88b49ac0a5a0524" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.164044.senn421.blends.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>1st Set: Jim Vita's Master Audience Cassettes; (2) Sennheiser 421 mics + (1) Nakamichi 300 mic blend &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) 2nd Set: Jim Vita's Master Audience Cassettes; (2) Sennheiser 421 mics + (1) Beyer M160 mic blend &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-48d72a3c5ecd64f1605d" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.164045.senn421.blends.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>1st Set: Jim Vita's Master Audience Cassettes; (2) Sennheiser 421 mics + (1) Nakamichi 300 mic blend &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) 2nd Set: Jim Vita's Master Audience Cassettes; (2) Sennheiser 421 mics + (1) Beyer M160 mic blend &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1bc10cd585ce56372bc8" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.164368.neumann.u87.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB)(DFC) Audience Cassettes; Neumann U87 mics &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-807738f5fc740787f4b4" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.164369.neumann.u87.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB)(DFC) Audience Cassettes; Neumann U87 mics &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-e1f7160b52e19cbb2bd6" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.176744.beyer.3ch.strizak.vita.flac2448</identifier>
+      <credit role="recordist">Tom Strizak</credit>
+      <lineage>Tom Strizak Master Audience Cassettes (TDK-MA90 / Dolby OFF). Sony TC-D5M stereo recorder patched 2nd in line to Jim Vita’s (RIP &amp; Many Thanks Always!) TC-D5M recorder. 1st Set Microphones: (2) Sennheiser MD421 standard stereo configuration with (1) Nakamichi CM300 center blend mic (mic stand at approx. 6’) to unknown mixer to D5 recorder. 2nd Set Microphones: Same (2) Sennheiser MD421 mics with (1) Beyer M160 center blend mic. Location: Approx. 40’ from stage at center of audience FOB. | Lineage: Analog Master cassette played back on Nakamichi CR-1A &gt; Behringer XR-18 audio mixer &gt; ZOOM H-5 digital recorder 24bit/48Khz WAV &gt; Reaper v7.61 *DAW (for final audio editing and mastering (-14LUFS) &gt; Audacity *DAW (for track labeling and conversion from 16bit/48khz single WAV file to FLAC 16bit/48khz multiple file set = 1 file for each track/song. TOTAL tracks= 19) (*DAW = Digital Audio Workstation)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Tom Strizak</note>
+    </recording>
+    <recording id="r-23c0c4bf9add0b4cd56e" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-13.fob.bandrofcheck.34469.sbeok.shnf</identifier>
+      <lineage>unknown shotgun mics &gt; Sony D6 &gt; Maxell MX 90s (MC) &gt; Marantz PRD505 (azimuth adjusted) &gt; Marantz Intergrated Stereo Amp MP-68 &gt; SBLive! &gt; Audacity Normalization &gt; WAV &gt; CDWave &gt; WAVs &gt; mkwAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+    </recording>
+    <recording id="r-e5c2569f518acf391dc3" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-04-13.nak300.mccue.casey.ford.123178.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue</credit>
+      <lineage>MAC; Nakamichi 300's(w/shotguns) &gt; Sony D5 &gt; Sony D6 (master) &gt; 2 x Maxell XLII 90; Location/Info: center, directly behind SBD, 10-12 feet high; Transfer/Lineage: Master Audience Cassettes&gt; Nakamichi Dragon&gt; Lunatec V3 (@ 24/88.2)&gt; Lynx AES16e&gt; WaveLab 7.2.1&gt; .wav @ 24/88.2&gt; Crystal Resampler&gt; Apogee UV22HR&gt; .wav @16/44.1&gt; xACT(encoding/tracking/meta tagging)&gt; flac16 (level eight); Tapers: Mark McCue and Kurt Casey; Transfer, editing and mastering: Alex Ford</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-86d552c7d4932e8057b2" kind="audience">
+      <identifier scheme="archive-org">gd1984-04-13.neumann-u87.eaton.miller.90470.sbeok.flac16</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>(FOB) Neumann U87 -&gt; Cassette Master (Sony D5) -&gt; Dat (48k) D | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-d9a50180917a41d86831" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-04-13.sbd.miller.102499.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat (Panasonic SV3800/48k) | Dat (Sony D8) -&gt; RME Hammerfall Digiface -&gt; Sony Vaio C1VP -&gt; Samplitude Professional v7.02 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-04d6880788c15de79685" kind="unknown">
+      <identifier scheme="archive-org">gd84-04-13.aud-neumann.pj.1521.sbeok.shnf</identifier>
+      <lineage>Neumann U-87 mics &gt; Sony D6 cass &gt; Dat &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+    </recording>
+    <recording id="r-a9ac9b516dac0a18a6ab" kind="audience">
+      <identifier scheme="archive-org">gd84-04-13.fob-eaton.21130.sbeok.shnf</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton FOB Center (Neumann U89)&gt;Sony TC-D5&gt;DAT&gt;CDR&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-ea19e71c19af4de4c5cc" kind="soundboard">
+      <identifier scheme="archive-org">gd84-04-13.sbd.miller.27733.sbeok.flacf</identifier>
+      <lineage>flac16 SBD&gt; Cassette Master&gt; Cassette&gt; Dat (Panasonic SV3800/48k), plus patches from Eaton FOB Neumann U87&gt; Cass source; | Dat (Sony D8)&gt; RME Hammerfall Digiface&gt; Sony Vaio C1VP&gt; Samplitude v7.02 Professional&gt; FLAC; Transferred and Edited By Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1984-04-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

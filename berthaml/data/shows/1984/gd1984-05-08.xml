@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1984-05-08" date="1984-05-08">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19840508-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-891" nameAsBilled="Silva Concert Hall, Hult Center For The Performing Arts"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-candyman" transition="unknown"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-09" song="s-might-as-well" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-touch-of-grey" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-10" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-sugar-magnolia" transition="segue"/>
+      <performance id="p03-02" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-830ac114ccb980d494b6" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-05-08.134517.sbd.miller.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; CD | CD -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-12294d4e07237b2747e7" kind="matrix">
+      <identifier scheme="archive-org">gd1984-05-08.134627.mtx.seamons.ht109.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dca596d0ea64a547706f" kind="audience">
+      <identifier scheme="archive-org">gd1984-05-08.152058.nak700.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-208ce356ae82fe57e940" kind="audience">
+      <identifier scheme="archive-org">gd1984-05-08.152059.nak700.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f5247a35085bd647cb67" kind="matrix">
+      <identifier scheme="archive-org">gd1984-05-08.172103.mtx.tobin.flac1648</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (48/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-859a0c63fa04dbfa8a68" kind="unknown">
+      <identifier scheme="archive-org">gd1984-05-08.172138.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8ef19e6ccdcb38128ef7" kind="unknown">
+      <identifier scheme="archive-org">gd1984-05-08.gd1984-05-08.172063.dts.tobin.flac1648</identifier>
+      <lineage>DTS Audio 5.1 Mix (16/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2d79801cc894456bb977" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-05-08.sbd.walker-scotton.miller.77312.sbeok.flac16</identifier>
+      <credit role="recordist">Transferred/Edited by Charlie Miller</credit>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette (Nakamichi 550/Maxell XLIIS-90) &gt; Cassette (Sony TC-WE475) -&gt; Sony R500 (Pass Through) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall at the Hult Center on 1984-05-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-0591bb0ea1833fb1dff1" kind="audience">
+      <identifier scheme="archive-org">gd1984-05-08.set2.aud-morris.bennett-bontempo.12521.shnf</identifier>
+      <credit role="recordist">Dave Morris</credit>
+      <lineage>Audience: Unknown Mics | (Mics?)&gt;Sony D5&gt;Master AUD Cassette&gt;Cassette&gt;WAV (CDWav)&gt;SHN (MKWAct)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center for the Performing Arts on 1984-05-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Bennett and Brian Bontempo</note>
+    </recording>
+    <recording id="r-dac5836dc9e2d39c2faa" kind="unknown">
+      <identifier scheme="archive-org">gd1984-05-08.sonyecm.andrewf.29304.sbefail.flac16</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>Sony ECM-939LT stereo mic &gt; Marantz PMD-340 cassette deck. Sony UCX-S 90 cassettes, with Dolby B On &gt; MAC &gt; Sony TC-D5M &gt; Marantz CDR-500 &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall at the Hult Center on 1984-05-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e019ffcd6581fc0470b3" kind="soundboard">
+      <identifier scheme="archive-org">gd84-05-08.sbd.lai.2573.sbefail.shnf</identifier>
+      <lineage>SBD&gt; MR&gt; C&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

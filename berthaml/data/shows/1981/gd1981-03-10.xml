@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-03-10" date="1981-03-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810310-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-04" song="s-it-must-have-been-the-roses" transition="segue"/>
+      <performance id="p01-05" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-06" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-07" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-08" song="s-supplication" transition="unknown"/>
+      <performance id="p01-09" song="s-brown-eyed-women" transition="segue"/>
+      <performance id="p01-10" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-11" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-04" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="unknown"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-china-doll" transition="segue"/>
+      <performance id="p02-10" song="s-truckin" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-satisfaction" transition="segue"/>
+      <performance id="p03-02" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-f7908d378838de7c2201" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-10.131563.senn421.wise.minches.flac16</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Recording by Jim Wise: Master Audience Cassette; 2 Sennheiser 421s&gt; Sony D-5; Transfer and FLAC encoding by David Minches: September 2014; Dolby B decoded Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-243d1c7f7d3db18148da" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-10.131564.senn421.wise.minches.flac24</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Recording by Jim Wise: Master Audience Cassette; 2 Sennheiser 421s&gt; Sony D-5; Transfer and FLAC encoding by David Minches: September 2014; Dolby B decoded Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-717e7bb5d91c9df68da1" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-10.152636.nak500.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi DM-500 mics &gt; Sony D5M (Maxell UDXLII-S) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bca1591f70e2eea91e7e" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-10.152637.nak500.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassettes; Nakamichi DM-500 mics &gt; Sony D5M (Maxell UDXLII-S) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2373c9f9552218ed8464" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-10.157520.aud.flac2448</identifier>
+      <credit role="recordist">Rip Tompkins and Richie Stankiewicz</credit>
+      <lineage>AUD of unknown lineage &gt; Lo-gen cassette via Richie &amp; Rip. | SA-90's &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged,</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-d87cf9b12590413c2579" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-10.174925.aud.Bernstein.ackerman.noel.flac2496</identifier>
+      <credit role="recordist">Master Cassettes Recorded by Jon Bernstein</credit>
+      <lineage>?? mics &gt; ?? lead deck &gt; ?? Deck &gt; Master Cassettes | Master Cassettes &gt; Nakamichi Cassette Deck 1 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96 &gt; Adobe Audition &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer &amp; Mastered by Ray Ackerman Edited w/ add'l Mastering by Joe Noel October 08, 2025</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-aee86dbc4930e06b5a1d" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-10.175117.sbd.miller.phase-repair.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; DAT (44.1k) | Transfer Info: DAT (Sony PCM-R500) &gt; Tascam SS-R05 &gt; Samplitude Pro v11.2 &gt; FLAC/16 (3 Discs Audio / 1 DVD FLAC) Remastering Info: FLAC/16 &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 13, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-be5a20913830d6bfb4a6" kind="matrix">
+      <identifier scheme="archive-org">gd1981-03-10.mtx.seamons.131701.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-50bfa73330804d0f6a4c" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-10.nak700.glassberg.motb.82374.sbeok.flac16</identifier>
+      <credit role="recordist">Barry Glassberg</credit>
+      <lineage>Nakamichi CM700's &gt; Sony TC-D5M &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; Grace Design Lunatec V3 &gt; S/pdif &gt; WaveLAB 5.0 &gt; wav</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): A. Egert and C. Ladner</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
+    </recording>
+    <recording id="r-06fdb1a2fdd480b51c7f" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-10.nak700.glassberg.motb.82375.sbeok.flac24</identifier>
+      <credit role="recordist">Barry Glassberg</credit>
+      <lineage>Nakamichi CM700's &gt; Sony TC-D5M &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; Grace Design Lunatec V3 &gt; S/pdif &gt; WaveLAB 5.0 &gt; wav</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): A. Egert and C. Ladner</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
+    </recording>
+    <recording id="r-6f67db417d41b6478c62" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-10.nak700.rolfe.miller.95275.sbeok.flac16</identifier>
+      <credit role="recordist">Steve Rolfe</credit>
+      <lineage>(FOB) Nakamichi 700 -&gt; Cassette Master (Sony D5/Maxell UDXL-IIS) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
+    </recording>
+    <recording id="r-dbf29a0f39f5b90f7370" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-10.nak700.rolfe.miller.95276.flac24</identifier>
+      <credit role="recordist">Steve Rolfe</credit>
+      <lineage>(FOB) Nakamichi 700 -&gt; Cassette Master (Sony D5/Maxell UDXL-IIS) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/24 (1 DVD FLAC)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
+    </recording>
+    <recording id="r-4315631dbf318f131014" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-10.sbd-set2.miller.91764.flac16</identifier>
+      <lineage>SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat (48k) D | Dat -&gt; Pro Tools -&gt; Samplitude Professional v10.02 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-77e855502bd4a9adb8d2" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-10.sbd.miller.115598.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2a116ec98ec5654224b8" kind="audience">
+      <identifier scheme="archive-org">gd81-03-10.glassberg.wise.7630.sbeok.shnf</identifier>
+      <credit role="recordist">Barry Glassberg</credit>
+      <lineage>Audience Recording: Nak CM700's | Nak cm700's &gt; sony tc d-5m 12'th row center xl11 dolby b cassette master . analog to digital &gt; tascam 112 mk11 cassette playback &gt; sony pcm r-500 dat, @ 44.1 kHz , then dat &gt; cd via hhb cdr-850</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1981-03-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-11-01" date="1985-11-01">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19851101-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-834" nameAsBilled="Richmond Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
+      <performance id="p01-02" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-03" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-04" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-06" song="s-big-river" transition="unknown"/>
+      <performance id="p01-07" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-08" song="s-jack-straw" transition="segue"/>
+      <performance id="p01-09" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-high-time" transition="unknown"/>
+      <performance id="p02-03" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-04" song="s-spoonful" transition="segue"/>
+      <performance id="p02-05" song="s-comes-a-time" transition="segue"/>
+      <performance id="p02-06" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-10" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p02-11" song="s-she-belongs-to-me" transition="segue"/>
+      <performance id="p02-12" song="s-gloria" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6d10c9764abcf3d5de17" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-01.126321.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>source: (3) audio technica atm 11 (fob)&gt; optimus&gt; tcd-d5&gt; mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-abfa77bb65ec620742ad" kind="matrix">
+      <identifier scheme="archive-org">gd1985-11-01.134977.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid=no shnid) SBD &gt; ??? &gt; CD &gt; EAC &gt; Wav. obtained from Lisa Biasi for video project in 2004 + AUD (shn id 91179) MAC; 2 x Sennheiser 441 &gt; D5 &gt; D5 &gt; Maxell XLII-S 90 (Set I) Maxell MX 90 (Set II). Taper: Lucien Zaleski. Transfer and Mastering: Alex Ford. Master audience cassettes provided by Mark McCue. - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f3b531856cf577d8587d" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-01.134978.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=no shnid) SBD &gt; ??? &gt; CD &gt; EAC &gt; Wav. obtained from Lisa Biasi for video project in 2004 + AUD (shn id 91179) MAC; 2 x Sennheiser 441 &gt; D5 &gt; D5 &gt; Maxell XLII-S 90 (Set I) Maxell MX 90 (Set II). Taper: Lucien Zaleski. Transfer and Mastering: Alex Ford. Master audience cassettes provided by Mark McCue. - DTS mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d8e65871ea5b37dbeeae" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-01.134979.sur5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k): SBD (shnid=no shnid) SBD &gt; ??? &gt; CD &gt; EAC &gt; Wav. obtained from Lisa Biasi for video project in 2004 + AUD (shn id 91179) MAC; 2 x Sennheiser 441 &gt; D5 &gt; D5 &gt; Maxell XLII-S 90 (Set I) Maxell MX 90 (Set II). Taper: Lucien Zaleski. Transfer and Mastering: Alex Ford. Master audience cassettes provided by Mark McCue. - mixing by Kevin Tobin Source Inform</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c8b7167858466b802044" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-01.151915.senn441.lamarre.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Taper's Section); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a8a4d2ce63a10f54bac2" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-01.151916.senn441.lamarre.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes (Taper's Section); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-87806a4ca0c7b4abd69c" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-01.168186.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7fb6cfc9201534f9d34b" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-01.168187.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a5c3070ef185dd9e10d1" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-01.177938.Senn.MD421.strizak.flac2448</identifier>
+      <credit role="recordist">Tom Strizak</credit>
+      <lineage>Tom Strizak Master Cassettes (2) Senn. MD421 stereo configuration (mic stand at approx. 7’) &gt; Sony TC-D5M (2 Fugi -FR90 Metal/Dolby-B). Location: Taper section behind SBD just R of center. | Analog Master Cassette &gt; playback on Harmon Kardon TD-262 Ultra Wideband Linear Phase) &gt; Behringer XR-18 digital audio mixer &gt; Reaper *DAW (master digitization @ 24 bit 48Khz WAV / export &gt; Audacity *DAW (for track labeling, audio edits, and file conversion to Tracked and Labeled FLAC fileset) (*DAW = Digital Audio Workstation)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tom Strizak</note>
+    </recording>
+    <recording id="r-cafd7b59af5534db67a5" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-01.beyerM88.berger.97646.flac24</identifier>
+      <credit role="recordist">Rob Berger</credit>
+      <lineage>beyer m88's&gt;sony d5, tdk ma-r90's | nak dragon&gt;hd-p2 24/48&gt;adobe&gt;cd wave&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-760c01b0cdba03291781" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-11-01.cpb.retransfer.32709.sbeok.flac16</identifier>
+      <credit role="recordist">Charles Bandrofcheck</credit>
+      <lineage>Can't remember shotgun mics -&gt; Sony D6 -&gt; Maxel MX 90s. As close as they'd let you get to the left of SBD | Playback on Marantz SD 4050 -&gt; Marantz Intergrated Stereo Amp MP-68 -&gt; SBLive! -&gt; CDWave -&gt; WAV -&gt; mkwAC -&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charles Bandrofcheck</note>
+    </recording>
+    <recording id="r-737e94acc0c5295fcb45" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-01.dts.haugh.34558.sbeok.flac16</identifier>
+      <credit role="recordist">See info file</credit>
+      <lineage>DTS-Audio-CD 5.1 Mix | See info file</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Dan Haugh</note>
+    </recording>
+    <recording id="r-1e3823406aa3e7b2a1b7" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-01.fob.senn421.koucky.gmb.96194.flac16</identifier>
+      <credit role="recordist">Bill Koucky</credit>
+      <lineage>2x Sennheiser 421 &gt; Sony TC-D5 &gt; Sony TC-D5 Master Cassettes Maxell MX-90's Location: FOB, 20' from stage. | Nakamichi DR-1 &gt; Korg MR-1 &gt; DSF [1-bit 2.8 MHz Stereo] Rate Conversion: Korg AudioGate to WAV [24/96] Mastering in WaveLab with iZotope Ozone 3 (eq) and Waves L3 Multimaximizer Rate Conversion to WAV [16/44.1] with r8brain &gt; CD WAVE &gt; TLH &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+    </recording>
+    <recording id="r-e8ca5e484a8f17b81673" kind="audience">
+      <identifier scheme="archive-org">gd1985-11-01.fob.senn421.koucky.gmb.96195.flac24</identifier>
+      <lineage>2x Sennheiser 421 &gt; Sony TC-D5 &gt; Sony TC-D5 Master Cassettes Maxell MX-90's Location: FOB, 20' from stage. Center patched out of Steve Adleman. | Nakamichi DR-1 &gt; Korg MR-1 &gt; DSF [1-bit 2.8 MHz Stereo] Rate Conversion: Korg AudioGate to WAV [24/96] Mastering in WaveLab with iZotope Ozone 3 (eq) and Waves L3 Multimaximizer &gt; CD WAVE &gt; TLH &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+    </recording>
+    <recording id="r-e2f271473b2da62e6cdf" kind="unknown">
+      <identifier scheme="archive-org">gd1985-11-01.senn441.zaleski.ford.91179.sbeok.flac16</identifier>
+      <credit role="recordist">Lucien Zaleski</credit>
+      <lineage>MAC; 2 x Sennheiser 441 &gt; D5 &gt; D5 &gt; Maxell XLII-S 90 (Set I) Maxell MX 90 (Set II) | MAC &gt; Nakamichi Dragon &gt; Kind Kables RCA/XLR &gt; Lunatec V3 (@ 24/96) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; .wav @ 24/96 &gt; Waves L3 UltraMaximizer &gt; .wav @ 16/44.1 &gt; CD Wave Editor &gt; TLH &gt; flac16.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-e75a557d6447c929b9fd" kind="unknown">
+      <identifier scheme="archive-org">gd85-11-01.aud-oade.remaster.20416.sbeok.shnf</identifier>
+      <lineage>Schoeps CMC441s (90deg, 17cm) with single Omni center channel mic (CMC42 offset ~ 8' - mixed into main pair of CMC 441s) &gt; custom mixer made by Doug Oade (M118 circuit in a 3 channel package) &gt; Oade mod SONY PCM-F1</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-76e5e6a84aaa5a7112d8" kind="unknown">
+      <identifier scheme="archive-org">gd85-11-01.oade.connor.9217.sbeok.shnf</identifier>
+      <lineage>Oade DFOB -- Schoeps CMC441 (spaced 17cm@90deg) + CMC42 (Spread 8')&gt; Oade M118 &gt; Sony PCM-F1 &gt; DAT (@44.1k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-edfd1289aee2b94db2bd" kind="soundboard">
+      <identifier scheme="archive-org">gd85-11-01.sbd.mccloskey.379.sbeok.shnf</identifier>
+      <lineage>Soundboard&gt; ?&gt; DAT&gt; CDr</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

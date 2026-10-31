@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-03-31" date="1993-03-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930331-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-498" nameAsBilled="Nassau Veterans Memorial Coliseum"/>
+  <program coverage="partial">
+    <set kind="soundcheck" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-lazy-river-road" transition="unknown"/>
+      <performance id="p01-03" song="s-i-fought-the-law" transition="unknown"/>
+      <note>Source section label: Soundcheck</note>
+    </set>
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p02-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p02-02" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p02-03" song="s-althea" transition="unknown"/>
+      <performance id="p02-04" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p02-05" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p02-06" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p03-01" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p03-02" song="s-truckin" transition="unknown"/>
+      <performance id="p03-03" song="s-lazy-river-road" transition="unknown"/>
+      <performance id="p03-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p03-05" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p03-06" song="s-drums" transition="segue"/>
+      <performance id="p03-07" song="s-space" transition="segue"/>
+      <performance id="p03-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p03-09" song="s-standing-on-the-moon" transition="segue"/>
+      <performance id="p03-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p04-01" song="s-i-fought-the-law" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-24610472914499f4b244" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-31.124440.crupi.flac16</identifier>
+      <credit role="recordist">Bob Crupi</credit>
+      <lineage>Source: OTS/Audix shotguns &gt; Sony WM-D6 (Sony ES-IV analog master/NR: On); | Nakamichi BX300 (analog master/NR: off) &gt; AudioQuest Sidewinder Cables (attenuated) &gt; V3 (24/48) &gt; Edirol UA25 &gt; Sonar LE &gt; Sound Forge 9.0 (convert 16/44.1, tracking, fades and normalize) &gt; TLH (flac@8/ffp); Recorded by Bob Crupi; Transferred and seeded by Bob Crupi</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Crupi</note>
+    </recording>
+    <recording id="r-5b0b4051781ce9115db2" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-31.139689.fob.schoeps.wise.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>flac16/48kHz ; Source Info: Jim Wise's FOB Audience DAT &gt; Schoeps CMC6/MK4 (hand-held ORTF) &gt; Sonosax SX-M2 &gt; Dat (Sony D10 Pro/48k); Transfer Info: DAT Master (Sony PCM-R500)&gt; Tascam DA-3000&gt; WAV (16-bit/48k)&gt; Adobe Audition 3.0&gt; TLH flac1648; Recorded &amp; Transferred by Jim Wise; Mastered by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jim Wise and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-d5f3a61101a4f834e23a" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-31.139964.aud.lamarre.berger.flac1648</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>flac16/48kHz ; source: aud dat master; taped by Doug Lamarre; sennheiser 441’s &gt; denon dtr-80; taper section; transferred &amp; seeded - Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-b26b48e1c034ccb32a0f" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-31.149967.sbd.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; DAT Master (48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller May 25, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-af278ba3be38ad406f15" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-31.150156.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; DAT Master (48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller May 25, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-081077e37adb3766d571" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-31.akg.andrewf.96099.flac1648</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>AKG C460B/CK8 shotguns &gt; unknown lead dat decks &gt; Coax SPDIF &gt; Casio DA-7 &gt; Maxell DM-120's, front of OTS. | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-fbd01a8dc058b80fdd5b" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-31.akg.andrewf.96100.flac16</identifier>
+      <credit role="recordist">Andrew F.</credit>
+      <lineage>AKG C460B/CK8 shotguns &gt; unknown lead dat decks &gt; Coax SPDIF &gt; Casio DA-7 &gt; Maxell DM-120's, front of OTS. | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; R8Brain (to 44.1kHz) &gt; TLH &gt; FLAC 1644</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1993-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-2b254b76ead0b5d08f5c" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-31.sbd.miller.114456.flac16</identifier>
+      <lineage>SBD -&gt; Master Dat (44.1k) | Master Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f2d3b1fe6ab81f018043" kind="soundboard">
+      <identifier scheme="archive-org">gd93-03-31.sbd.miller.18750.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; Dat &gt; Cm &gt; Dat &gt; Sony R500 &gt; Prodif Plus &gt; Samplitude v6.0 &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4bfe7a4e4c697668f95a" kind="audience">
+      <identifier scheme="archive-org">gd93-03-31.schoeps.wiley.8756.sbeok.shnf</identifier>
+      <lineage>Audience: Schoeps MK41's | Schoeps MK41's &gt; CMC5 &gt; DAT &gt; CDR &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-5bd78c1234da58746715" kind="unknown">
+      <identifier scheme="archive-org">gd93-03-31.soundcheck.kenk-tmnsp.31000.sbeok.flacf</identifier>
+      <lineage>Soundcheck - Unknown Source | Unknown Generation cassette &gt; Tascam 103 &gt; Tascam CD-RW700 &gt; CD-RW &gt; EAC &gt; .wav &gt; Cool Edit Pro 2.0 (to delete silence) &gt; CD Wave &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1993-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Ken K</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

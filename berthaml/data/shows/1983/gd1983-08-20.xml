@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-08-20" date="1983-08-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830820-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-404" nameAsBilled="Frost Amphitheatre, Stanford University"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-06" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-09" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p02-02" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="segue"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-5d003127a1122fffa61e" kind="unknown">
+      <identifier scheme="archive-org">gd1983-08-20.111528.Sennheisser.daweez.d5scott.flac</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Sennheiser 421 microphones (25 feet from stage-center) &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-be5bb5f7190f40e3febb" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-20.148066.fob.akg.d330bt.senn421.hecht.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-45c5bd370084507e354a" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-20.148067.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e3cb834c55190ad09532" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-20.150892.fob.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Recorded by Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Cassettes; Nakamichi 700 mics &gt; Sony D5M | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-2ca4ad65ab0687d78b4d" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-20.150893.fob.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Recorded by Bob Wagner</credit>
+      <lineage>Bob Wagner's Master (FOB) Cassettes; Nakamichi 700 mics &gt; Sony D5M | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-9aa194d0c9665c3fde04" kind="unknown">
+      <identifier scheme="archive-org">gd1983-08-20.151139.aud.lohr.vernon.flac1648</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Nakamichi mics &gt; Nakamichi deck &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification) &gt; dbpoweramp &gt; 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-3d27ecf4ec094a2f04d1" kind="unknown">
+      <identifier scheme="archive-org">gd1983-08-20.151140.aud.lohr.vernon.flac2496</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Nakamichi mics &gt; Nakamichi deck &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-8ed5fbd114c2d6b4c9e4" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-20.155967.set2.fob.senn441.neumann.u87.blend.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) Sennheiser 441's (Left + Right) + (1) Neumann U87 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-3de1f0c90ba7d9de399c" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-20.155968.set2.fob.senn441.neumann.u87.blend.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) Sennheiser 441's (Left + Right) + (1) Neumann U87 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-b51d4929e14c13532fca" kind="unknown">
+      <identifier scheme="archive-org">gd1983-08-20.163429.nak300-cp4.shields-hughes.flac2496</identifier>
+      <credit role="recordist">Recorded by Les Shields and Kevin T. Hughes</credit>
+      <lineage>Taper Location: Front Of Boards, approximately 6 to 8 feet left of dead center, closer to Jerry Garcia position on left side off Stage. recorded by a pair of Nak CM300 Mics w CP4 Shotgun Caps &gt; Sony D5 Recorder &gt; (Master) TDX MA-R90 Cassettes | Denon DRM-555 Player &gt; Hp PC portal &gt; Audacity 3.2.2 (Wave Editor) &gt; FLAC Conversion</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin T. Hughes</note>
+    </recording>
+    <recording id="r-17f52182b6def241cc26" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-20.fob.sony220t.keshavan.miller.96387.sbeok.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>(FOB) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji Metal Tape/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.2 -&gt; r8brain PRO v1.5 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre - Stanford University on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-9d2fbff5950c231169d9" kind="audience">
+      <identifier scheme="archive-org">gd83-08-20.neumann.dodd.12081.sbeok.shnf</identifier>
+      <lineage>AUD(Neumann KM 84Âs)&gt;MC&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Frost Amphitheatre on 1983-08-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-03-25" date="1993-03-25">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930325-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-1020" nameAsBilled="Dean E. Smith Center, University of North Carolina"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-touch-of-grey" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-so-many-roads" transition="unknown"/>
+      <performance id="p01-04" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-lazy-river-road" transition="unknown"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="segue"/>
+      <performance id="p01-07" song="s-big-river" transition="unknown"/>
+      <performance id="p01-08" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-09" song="s-eternity" transition="unknown"/>
+      <performance id="p01-10" song="s-liberty" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-wave-to-the-wind" transition="segue"/>
+      <performance id="p02-05" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-06" song="s-jam" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-way-to-go-home" transition="segue"/>
+      <performance id="p02-10" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-11" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-the-weight" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a5154eb7b28f532b6186" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-25.139204.sbd.liff.lamarre.berger.flac1648</identifier>
+      <credit role="recordist">Dan Liff</credit>
+      <lineage>flac16/48kHz ; source: sbd dat master &gt; dat; Doug Lamarre’s clone; taped by Dan Liff r.i.p; sony tcd-d10 pro; transferred &amp; seeded by Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger and Doug Lamarre</note>
+    </recording>
+    <recording id="r-5db9c86a05b00f4707db" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-25.akg460.swayne.85829.flac16</identifier>
+      <credit role="recordist">Scott Swayne</credit>
+      <lineage>AKG 460/CK8's &gt; Marantz PMD-700 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro (44.1k) &gt; CDWave &gt; FLAC (L8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center - University of North Carolina on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Swayne</note>
+    </recording>
+    <recording id="r-4019ea429ae8f2019e9a" kind="unknown">
+      <identifier scheme="archive-org">gd1993-03-25.akg460.swayne.85830.flac1648</identifier>
+      <credit role="recordist">Scott Swayne</credit>
+      <lineage>AKG 460/CK8's &gt; Marantz PMD-700 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center - University of North Carolina on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Swayne</note>
+    </recording>
+    <recording id="r-fd8764a18703cfc6a716" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-25.sbd.delgado-nawrocki.3191.shnf</identifier>
+      <lineage>*SBD&gt;DAT | DA-P1&gt;Montego II&gt;CE2k&gt;CDWav&gt;MKWAct</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center - University of North Carolina on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Doug Nawrocki</note>
+    </recording>
+    <recording id="r-a6817de22c3728fcc598" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-03-25.sbd.miller.103176.flac16</identifier>
+      <lineage>SBD -&gt; Dat | Dat (Sony R500) -&gt; Samplitude Professional v10.22 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center on 1993-03-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-02deea21e6f0af19c783" kind="audience">
+      <identifier scheme="archive-org">gd1993-03-25.set1-AMS.keyser.25805.sbeok.shnf</identifier>
+      <credit role="recordist">James Young</credit>
+      <lineage>Audience: AMS ST250 (set 1 only) | AMS ST250 (FOB/DFC) &gt; AMS Control Box (Blumlein Technique) &gt; Modified Sony D10 Pro (48khz) &gt; Sony D8 &gt; M-AUDIO Audiophile USB via SPDIF &gt; Soundforge 7.0 (resample) &gt; CD Wave &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Ron Keyser</note>
+    </recording>
+    <recording id="r-8f45059f8ccb52a3ef96" kind="audience">
+      <identifier scheme="archive-org">gd93-03-25.aud.stine.14831.sbeok.shnf</identifier>
+      <credit role="recordist">Wally Stine</credit>
+      <lineage>Audience: Nakamichi 300's | Nak 300's (OTS) &gt; Sony D3 &gt; Soundblaster Live &gt; CD Wave &gt; mkwACT &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Wally Stine</note>
+    </recording>
+    <recording id="r-edb32241d94ae4995eeb" kind="soundboard">
+      <identifier scheme="archive-org">gd93-03-25.msbd.keyser.25820.sbefail.flacf</identifier>
+      <credit role="recordist">James Young</credit>
+      <lineage>Soundboard | SBD &gt; Panasonic SV255 &gt; Modified Sony D10 Pro (48khz) &gt; Sony D8 (master DAT playback) &gt; M-AUDIO Audiophile USB via SPDIF &gt; Soundforge 7 &gt; CD Wave &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Ron Keyser</note>
+    </recording>
+    <recording id="r-ce39ab53ab35fcd8ab2b" kind="soundboard">
+      <identifier scheme="archive-org">gd93-03-25.sbd.braverman.10078.sbeok.shnf</identifier>
+      <lineage>SBD&gt;DAT&gt;CD (This lineage is probable but not confirmed.)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-deced452afde095aeb3a" kind="soundboard">
+      <identifier scheme="archive-org">gd93-03-25.sbd.nawrocki.16433.sbeok.shnf</identifier>
+      <lineage>SBD &gt; D10proII | DA-P1 &gt; Montego II &gt; CE2000 &gt; CDWave &gt; shn &gt; CEP 2.0 (Slightly smoothed audience patch and boosted levels 3db on entire show) &gt; shn; presumably an edit of previous shn set, by unIDed person</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dean Smith Center on 1993-03-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1992-03-03" date="1992-03-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19920303-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 44d1b39e1ad19cb4216f350210d1af46c8065421deaeaa31d0befdf75ae0aba8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-555" nameAsBilled="The Omni"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-walkin-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-candyman" transition="unknown"/>
+      <performance id="p01-05" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-06" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-07" song="s-corrina" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-02" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-03" song="s-uncle-johns-band" transition="unknown"/>
+      <performance id="p02-04" song="s-wave-to-the-wind" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-china-doll" transition="segue"/>
+      <performance id="p02-08" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-09" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-b0fd30c1b3ee245fa1f0" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-03-03.140251.sbd.miller.flac2496</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4066850a528b10e319ef" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-03-03.140298.sbd.cm.miller.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0e5c16e94cc2fc624713" kind="audience">
+      <identifier scheme="archive-org">gd1992-03-03.155825.FOB.SchoepsMasterDAT.Brotman.Metchick.Anon.Noel.t-flac1648</identifier>
+      <credit role="recordist">Recording by Dave Brotman &amp; Jeff Metchick</credit>
+      <lineage>Source: FOB Schoeps CMC3 MK4’s (ORTF) &gt; Tao Research &gt; M1000 cables &gt; Panasonic SV-255mod (16/48) &gt; Master DAT Location: Row J Seat 8 | Transfer: Master DAT &gt; Panasonic SV-3800 &gt; VX Pocket sound card &gt; Panasonic Toughbook &gt; Steinberg Nuendo &gt; WAV 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 07, 2022</note>
+    </recording>
+    <recording id="r-e8fea9b789a37519721f" kind="audience">
+      <identifier scheme="archive-org">gd1992-03-03.nak300.carpenter.andrewf.92897.flac16</identifier>
+      <credit role="recordist">Ted Carpenter</credit>
+      <lineage>OTS AUD: Nakamichi CM-300's with CP-4 shotguns &gt; Sony TC-D5M &gt; Maxell MX-S 90/100, with no Dolby | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-7f9bd0c14403e7dbe3cf" kind="audience">
+      <identifier scheme="archive-org">gd92-03-03.schoeps.gardner.9471.sbeok.shnf</identifier>
+      <lineage>AUD&gt;DAT&gt;CDR (Schoeps CMC 34Âs)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

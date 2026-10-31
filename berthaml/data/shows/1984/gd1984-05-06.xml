@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1984-05-06" date="1984-05-06">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19840506-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-891" nameAsBilled="Silva Concert Hall, Hult Center For The Performing Arts"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-03" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-04" song="s-dupree-s-diamond-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-06" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-07" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-08" song="s-touch-of-grey" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-china-doll" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-truckin" transition="segue"/>
+      <performance id="p02-09" song="s-spoonful" transition="segue"/>
+      <performance id="p02-10" song="s-black-peter" transition="segue"/>
+      <performance id="p02-11" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-12" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-488f1fa9e4ae139efda6" kind="audience">
+      <identifier scheme="archive-org">gd1984-05-06.152043.nak700.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4be53d4853e9ac315bf5" kind="audience">
+      <identifier scheme="archive-org">gd1984-05-06.152044.nak700.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7107bc413709780824ee" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-05-06.sbd.walker-scotton.miller.107138.flac16</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette (Nakamichi 550/Maxell XLIIS-90) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-b3401a93221d388b9fbf" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-05-06.sbd.walker-scotton.miller.77302.sbeok.flac16</identifier>
+      <credit role="recordist">Transferred/Edited by Charlie Miller</credit>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette (Nakamichi 550/Maxell XLIIS-90) &gt; Cassette (Sony TC-WE475) -&gt; Sony R500 (Pass Through) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hult Center in Silva Hall on 1984-05-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-3e5cb24e4f6688acfc92" kind="unknown">
+      <identifier scheme="archive-org">gd1984-05-06.senn421-set2.unknown.29302.sbefail.flac16</identifier>
+      <lineage>Sen 421's &gt; patched thru 3(?) decks &gt; Toshiba KT-R2 Walkman &gt; MAC (Sony UCX-S) &gt; Sony TC-D5M &gt; Soundblaster &gt; Soundforge &gt; CD-Wave &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall at the Hult Center on 1984-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-00ee8eafbcc1ef798371" kind="soundboard">
+      <identifier scheme="archive-org">gd84-05-06.sbd.hinko.18638.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MC &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silva Hall, Hult Center on 1984-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Darryl Hinko</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

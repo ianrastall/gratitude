@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-06-23" date="1976-06-23">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760623-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-596" nameAsBilled="Tower Theater"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-the-music-never-stopped" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="unknown"/>
+      <performance id="p01-04" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-05" song="s-big-river" transition="unknown"/>
+      <performance id="p01-06" song="s-high-time" transition="unknown"/>
+      <performance id="p01-07" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-08" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-09" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-10" song="s-supplication" transition="unknown"/>
+      <performance id="p01-11" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-12" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-might-as-well" transition="unknown"/>
+      <performance id="p02-03" song="s-let-it-grow" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-let-it-grow" transition="segue"/>
+      <performance id="p02-06" song="s-cosmic-charlie" transition="unknown"/>
+      <performance id="p02-07" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-st-stephen" transition="unknown" titleVariant="Saint Stephen"/>
+      <performance id="p02-10" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
+      <performance id="p02-11" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-12" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-e46422c0ef56e189acb8" kind="unknown">
+      <identifier scheme="archive-org">gd1976-06-23.aud.miller.95321.sbeok.flac16</identifier>
+      <lineage>Unknown Mics -&gt; Master Cassette -&gt; Apogee Ensemble -&gt; Peak -&gt; AIFF | AIFF -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3c9a6e960191dec16d79" kind="unknown">
+      <identifier scheme="archive-org">gd1976-06-23.aud.vernon.6681.sbeok.shnf</identifier>
+      <credit role="recordist">Jerry Moore?</credit>
+      <lineage>Shure mics&gt; Sony TC-152 master cassette &gt; other cassette? &gt; dat's | dat's &gt; cdr's &gt; EAC &gt; Cool Edit 2K &gt; CDwav &gt; mkwact (seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theater on 1976-06-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
+    </recording>
+    <recording id="r-387f8f2dda72b56f8a22" kind="audience">
+      <identifier scheme="archive-org">gd76-06-23.moore.vernon.15534.sbeok.shnf</identifier>
+      <credit role="recordist">Jerry Moore</credit>
+      <lineage>Audience Recording: Sony ECM-33Ps | AudMC &gt; HD &gt; WAV &gt; SHN; from 1st row loge, w/ a pretty good spread on mikes with 2 hand held Sony ECM-33Ps &gt; Sony TC-152 deck with Dolby B ON</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

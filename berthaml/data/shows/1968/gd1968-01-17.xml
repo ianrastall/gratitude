@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1968-01-17" date="1968-01-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19680117-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 2d25718265bbf93e911ca094cd440c5bfa14493f4b08447a90a094af9c2bd20c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1968-01-17.sbd.cotsman.11795.shnf" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 f4e27fd0cb5911c96a3e189de2e6552a0e70ffd5da16915357323f01d099d737</cite>
+  </record>
+  <venue ref="v-jb-127" nameAsBilled="Carousel Ballroom"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <performance id="p01-02" song="s-dark-star" transition="segue"/>
+      <performance id="p01-03" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-04" song="s-the-eleven" transition="segue"/>
+      <performance id="p01-05" song="s-feedback" transition="unknown"/>
+      <performance id="p01-06" song="s-new-potato-caboose" transition="segue"/>
+      <performance id="p01-07" song="s-born-cross-eyed" transition="segue"/>
+      <performance id="p01-08" song="s-spanish-jam" transition="segue"/>
+      <performance id="p01-09" song="s-feedback" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p02-02" song="s-morning-dew" transition="unknown"/>
+      <performance id="p02-03" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p02-04" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-05" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p02-06" song="s-good-morning-little-schoolgirl" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c57b0deeca5130342bb5" kind="soundboard">
+      <identifier scheme="archive-org">gd1968-01-17.sbd.cotsman.11795.shnf</identifier>
+      <lineage>SBD&gt;MR&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</lineage>
+      <playlist id="pl-8d8bf25af8857ff8fe6d" label="Archive original SHN files" format="shn" sourceHref="https://archive.org/metadata/gd1968-01-17.sbd.cotsman.11795.shnf">
+        <track n="1" title="Turn On Your Lovelight" file="gd68-01-17d1t01.shn" mappingStatus="candidate" disc="1" sourceNumber="1" duration="PT431.54S" covers="p01-01" certainty="probable"/>
+        <track n="2" title="stag ebanter" file="gd68-01-17d1t02.shn" mappingStatus="unreviewed" disc="1" sourceNumber="2" duration="PT105.89S"/>
+        <track n="3" title="Dark Star -&gt;" file="gd68-01-17d1t03.shn" mappingStatus="candidate" disc="1" sourceNumber="3" duration="PT160.59S" covers="p01-02" certainty="probable"/>
+        <track n="4" title="China Cat Sunflower -&gt;" file="gd68-01-17d1t04.shn" mappingStatus="candidate" disc="1" sourceNumber="4" duration="PT119.23S" covers="p01-03" certainty="probable"/>
+        <track n="5" title="The Eleven -&gt;" file="gd68-01-17d1t05.shn" mappingStatus="candidate" disc="1" sourceNumber="5" duration="PT340.56S" covers="p01-04" certainty="probable"/>
+        <track n="6" title="Feedback" file="gd68-01-17d1t06.shn" mappingStatus="unreviewed" disc="1" sourceNumber="6" duration="PT30.74S"/>
+        <track n="7" title="New Potato Caboose -&gt;" file="gd68-01-17d1t07.shn" mappingStatus="candidate" disc="1" sourceNumber="7" duration="PT290.6S" covers="p01-06" certainty="probable"/>
+        <track n="8" title="Born Cross Eyed -&gt;" file="gd68-01-17d1t08.shn" mappingStatus="candidate" disc="1" sourceNumber="8" duration="PT86.65S" covers="p01-07" certainty="probable"/>
+        <track n="9" title="Spanish Jam" file="gd68-01-17d1t09.shn" mappingStatus="candidate" disc="1" sourceNumber="9" duration="PT545.38S" covers="p01-08" certainty="probable"/>
+        <track n="10" title="Beat It On Down The Line -&gt;" file="gd68-01-17d2t01.shn" mappingStatus="candidate" disc="2" sourceNumber="1" duration="PT105.8S" covers="p02-01" certainty="probable"/>
+        <track n="11" title="Morning Dew" file="gd68-01-17d2t02.shn" mappingStatus="candidate" disc="2" sourceNumber="2" duration="PT278.52S" covers="p02-02" certainty="probable"/>
+        <track n="12" title="Cryptical Envelopment -&gt;" file="gd68-01-17d2t03.shn" mappingStatus="unreviewed" disc="2" sourceNumber="3" duration="PT62.26S"/>
+        <track n="13" title="The Other One -&gt;" file="gd68-01-17d2t04.shn" mappingStatus="candidate" disc="2" sourceNumber="4" duration="PT120.01S" covers="p02-04" certainty="probable"/>
+        <track n="14" title="Cryptical Envelopment -&gt;" file="gd68-01-17d2t05.shn" mappingStatus="unreviewed" disc="2" sourceNumber="5" duration="PT188.19S"/>
+        <track n="15" title="Good Morning Little Schoolgirl" file="gd68-01-17d2t06.shn" mappingStatus="candidate" disc="2" sourceNumber="6" duration="PT493.17S" covers="p02-06" certainty="probable"/>
+        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+      </playlist>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Cotsman, Matt Vernon and Raoul Duke</note>
+      <note>Archive source metadata (source): SBD&gt;MR&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</note>
+      <note>Archive source metadata (transferer): Jeff Cotsman, Matt Vernon and Raoul Duke</note>
+    </recording>
+    <recording id="r-2e55c063bcaedecf024a" kind="unknown">
+      <identifier scheme="archive-org">gd1968-01-17.sbd.jeff.3927.shnf</identifier>
+      <lineage>MSR&gt;cass&gt;dat&gt;cdrs | cdrs&gt;eac&gt;wav&gt;cooledit2000&gt;wav&gt;shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-979a60c61ab7cb66c0ff" kind="unknown">
+      <identifier scheme="archive-org">gd1968-01-17.sbd.jeff.fixed-3927.7995.sbeok.shnf</identifier>
+      <lineage>MSR&gt; cass&gt; dat&gt; cdrs | cdrs&gt;eac&gt;wav&gt;cooledit2000&gt;wav&gt;shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

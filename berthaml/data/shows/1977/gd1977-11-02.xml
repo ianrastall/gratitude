@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-11-02" date="1977-11-02">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19771102-04" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-693" nameAsBilled="Field House, Seneca College"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-big-river" transition="unknown"/>
+      <performance id="p01-05" song="s-candyman" transition="unknown"/>
+      <performance id="p01-06" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-08" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-09" song="s-supplication" transition="unknown"/>
+      <performance id="p01-10" song="s-might-as-well" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-03" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-04" song="s-sunrise" transition="unknown"/>
+      <performance id="p02-05" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-06" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-07" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-08" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-09" song="s-truckin" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-terrapin-station" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-22b4cd2beafffabe2c6c" kind="unknown">
+      <identifier scheme="archive-org">gd1977-11-02.167734.ShureSM57.Sublette.noel.goldey.t-flac2496</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Shure SM57 mics &gt; Sony-TC158 (Dolby on) | Master Cassettes (2x UDXLI 90) &gt; Nak CR-7A &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition &gt; Flac @ 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Seneca College on 1977-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): DSF Transfer by Mark Goldey Edited &amp; Mastered by Joe Noel November 20, 2023</note>
+    </recording>
+    <recording id="r-dd45859f8439021c6f3e" kind="audience">
+      <identifier scheme="archive-org">gd1977-11-02.aud.zimmerman.minches.81012.sbeok.flac16</identifier>
+      <credit role="recordist">Alan Zimmerman</credit>
+      <lineage>Master Audience Cassette; Sony Stereo Mic&gt; Sony TC-158 (Maxell UD XLII-90s) | Master played back on Nakamichi Dragon &gt; ART DI/O &gt; Digital Audio Labs Card Deluxe soundcard &gt; Cool Edit 2000 &gt; flac encoding &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House - Seneca College on 1977-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+    </recording>
+    <recording id="r-7748fc158fd16254b21a" kind="unknown">
+      <identifier scheme="archive-org">gd1977-11-02.mtx.chappell.sb23.86233.sbeok.flac16</identifier>
+      <lineage>SBD (14743) + AUD (81012)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House - Seneca College on 1977-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note>Source credit (transfer-mastering): Chris Chappell</note>
+      <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-36d795cbf4cb61d14286" kind="unknown">
+      <identifier scheme="archive-org">gd1977-11-02.mtx.sirmick.86546.sbeok.flac16</identifier>
+      <lineage>SBD (14743) + AUD (81012)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House - Seneca College on 1977-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a464978ef9f36ae894cc" kind="soundboard">
+      <identifier scheme="archive-org">gd77-11-02.sbd.samaritano.14743.sbeok.shnf</identifier>
+      <lineage>Soundboard Reel&gt; CD&gt; TC2000 EQ&gt; Sonic Solutions (David Gans)&gt; CD&gt; EAC&gt; SHN TC2000</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Seneca College on 1977-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

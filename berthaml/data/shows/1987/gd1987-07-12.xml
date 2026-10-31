@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-07-12" date="1987-07-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870712-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-729" nameAsBilled="Giants Stadium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-02" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-03" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-04" song="s-loser" transition="unknown"/>
+      <performance id="p01-05" song="s-tons-of-steel" transition="unknown"/>
+      <performance id="p01-06" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-07" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-08" song="s-when-push-comes-to-shove" transition="unknown"/>
+      <performance id="p01-09" song="s-promised-land" transition="segue"/>
+      <performance id="p01-10" song="s-bertha" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-morning-dew" transition="unknown"/>
+      <performance id="p02-02" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-03" song="s-drums" transition="segue"/>
+      <performance id="p02-04" song="s-space" transition="segue"/>
+      <performance id="p02-05" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-06" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-07" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-608dba82f24bdae068a8" kind="matrix">
+      <identifier scheme="archive-org">gd1987-07-12.137179.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid=84266) Recording Info: Sets 1 &amp; 2: SBD -&gt; PCM -&gt; Dat -&gt; CD Set 3: (FOB) Schoeps -&gt; PCM -&gt; Dat -&gt; CD Transfer Info: CD -&gt; Samplitude Professional v9.02 -&gt; FLAC All Transfers and Mastering By Charlie Miller + AUD (shnid=406819) Master: Nakamichi CM100's/CP4's&gt;Sony D6&gt;Cass(m), Nak DR-2&gt;Tascam CDRW2000&gt;CD by Jon Pasternak, recorded FOB Extraction: CD&gt;xACT 1.69 (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors by Dave Mallick - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3a66ea41c119318ca362" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-12.137180.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=84266) SRecording Info: Sets 1 &amp; 2: SBD -&gt; PCM -&gt; Dat -&gt; CD Set 3: (FOB) Schoeps -&gt; PCM -&gt; Dat -&gt; CD Transfer Info: CD -&gt; Samplitude Professional v9.02 -&gt; FLAC All Transfers and Mastering By Charlie Miller + AUD (shnid=406819) Master: Nakamichi CM100's/CP4's&gt;Sony D6&gt;Cass(m), Nak DR-2&gt;Tascam CDRW2000&gt;CD by Jon Pasternak, recorded FOB Extraction: CD&gt;xACT 1.69 (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors by Dave Mallick - DTS mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a3b8c528ace141b0b075" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-12.137181.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid=84266) SRecording Info: Sets 1 &amp; 2: SBD -&gt; PCM -&gt; Dat -&gt; CD Set 3: (FOB) Schoeps -&gt; PCM -&gt; Dat -&gt; CD Transfer Info: CD -&gt; Samplitude Professional v9.02 -&gt; FLAC All Transfers and Mastering By Charlie Miller + AUD (shnid=406819) Master: Nakamichi CM100's/CP4's&gt;Sony D6&gt;Cass(m), Nak DR-2&gt;Tascam CDRW2000&gt;CD by Jon Pasternak, recorded FOB Extraction: CD&gt;xACT 1.69 (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors by Dave Mallick - mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-660e0d87165b280726b9" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.137298.set3.aud.GEMS.flac16</identifier>
+      <credit role="recordist">PO and Stucco TINA Holmes</credit>
+      <lineage>Set 3 Audience Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt;Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt;SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt;Lenovo K450e Desktop PC-&gt; WaveLab 6.11; Audition CC 2015 Mastering by Jason Chastain; Track, FLAC and Pack by Drew Frazer 16 bit 44.1kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jason Chastain</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-f19d4639926301229af3" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.137381.akg460.flac1644</identifier>
+      <credit role="recordist">Dave Flaschner</credit>
+      <lineage>Set 1 &amp; 2: FOB AKG460 Omni (no other info given); Set 3: Unknown (likely the same source as #106804); DAT(c) @ 44.1 kHz &gt; Tascam DA-20MKII &gt; Canare Coax &gt; Korg MR-2000S &gt; Kimber USB 2.0 &gt; Samplitude Pro X2 (Build 256) &gt; TLH v2.7.0 (align on sector boundaries, flac 8, ffp) &gt; Foobar2000 v1.3.10 Live Show Tagger; Transfer &amp; edits by Jeff Mitchell</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jeff Mitchell</note>
+    </recording>
+    <recording id="r-2a83fc2480d8e65e2ba1" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.142137.fob.schoeps.dalton.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Tim Dalton</credit>
+      <lineage>Source Info: 1st &amp; 2nd Set: (FOB) Schoeps &gt; PCM &gt; PCM; 3rd Set: (FOB) Schoeps &gt; PCM &gt; Dat &gt; CD (shnid 84266); Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9e5903eaf6fc2a31bcc8" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-12.144301.set3.sbd.tobin.flac1644</identifier>
+      <lineage>SBD &gt; Sony CCD-V90 (Patched out of screen feed) &gt; 8mm Master (Maxell P6 120) Transfer: Master 8mm &gt; Sony DCR-TRV230 &gt; Datvideo TBC100 &gt; ATI Wonder HD 600 &gt; USB &gt; HD &gt; VirtualDub (.avi) &gt; TMPGEnc Video Mastering 6 &gt; WaveLab 6.0 &gt; RBrain Pro &gt; Flac 16/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mixed by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ba1fe5ae060369bb809d" kind="matrix">
+      <identifier scheme="archive-org">gd1987-07-12.144319.set3.mtx.tobin.flac1644</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mixed by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a1c803b5facbb660bac5" kind="unknown">
+      <identifier scheme="archive-org">gd1987-07-12.144320.set3.dts.tobin.flac1644</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6979d73445679d81208d" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-12.144321.set3.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/12/7-12-87-east-rutherford-nj-giants-stadium/</note>
+    </recording>
+    <recording id="r-3f3468814123ec1d9795" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.149437.fob.senn421.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master (FOB) Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-fdb3fd25d4e1b0745f22" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.149438.fob.senn421.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master (FOB) Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7e3df28dc82871cd8f87" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.176875.senn441.lamarre.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5f4da7b82a48ee9ad81b" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.176876.senn441.lamarre.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-070ee2183ae8f3f11de6" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.aud.unknown.rumrunners.106804.flac16</identifier>
+      <lineage>(AUD PCM&gt;DAT) | 48k dat &gt; midiman delta dio 2496 &gt; cooledit &gt; wav &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): RumRunners</note>
+    </recording>
+    <recording id="r-fb646cff47209b18ec2e" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-12.fob-aud.unknown.paino-connor.3422.sbeok.shnf</identifier>
+      <credit role="recordist">Aud source supplied by PainoMan</credit>
+      <lineage>AUD FOB CM&gt;C&gt;Nak DR-10 (Playback)&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav beta1.57 (tracking only)&gt; SHNv3 (MKW ACT)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Connor</note>
+    </recording>
+    <recording id="r-6de0ad692e7fb457afbd" kind="unknown">
+      <identifier scheme="archive-org">gd1987-07-12.nakcm100-cp4.pasternak.106819.flac16</identifier>
+      <credit role="recordist">Jon Pasternak</credit>
+      <lineage>Nakamichi CM100's/CP4's&gt;Sony D6&gt;Cass(m), Nak DR-2&gt;Tascam CDRW2000&gt;CD | CD&gt;xACT 1.69 (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Mallick</note>
+    </recording>
+    <recording id="r-d871514df52572bd683d" kind="unknown">
+      <identifier scheme="archive-org">gd1987-07-12.sbd-aud.lai.tetzeli.fix-3860.84935.sbeok.flac16</identifier>
+      <lineage>SHNID 3860 | SHNs &gt; WAV &gt; time/pitch stretching in CE Pro (see below) &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Mike Lai and Bill Tetzeli</note>
+    </recording>
+    <recording id="r-a60c2061c2ee50355943" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-12.sbd-aud.miller.84266.sbeok.flac16</identifier>
+      <lineage>Sets 1 &amp; 2: SBD -&gt; PCM -&gt; Dat -&gt; CD ; Set 3: (FOB) Schoeps -&gt; PCM -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/12/7-12-87-east-rutherford-nj-giants-stadium/</note>
+    </recording>
+    <recording id="r-7bc4aa43e9bbf3182f2c" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-12.sbd-set3.unknown.97491.shnf</identifier>
+      <lineage>Soundboard (except AUD PCM&gt;DAT 1st 3 tracks)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-b43be6d129b947ca9833" kind="audience">
+      <identifier scheme="archive-org">gd87-07-12.sbd.agan.3860.sbefail.shnf</identifier>
+      <lineage>AUD FOB CM&gt; C&gt; Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1987-07-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/12/7-12-87-east-rutherford-nj-giants-stadium/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

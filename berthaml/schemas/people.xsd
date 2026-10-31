@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  BerthaML people registry. Everyone a show or song file refers to:
+  band members, touring members, guests, and songwriters.
+
+  <membership> periods are used to pre-fill show lineups and to warn when
+  a show lists a member outside their membership dates. They are defaults,
+  not facts about any particular show: the show's own <lineup> is
+  authoritative (members missed shows, e.g. through illness).
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:b="urn:berthaml:1"
+           targetNamespace="urn:berthaml:1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0">
+
+  <xs:include schemaLocation="common.xsd"/>
+
+  <xs:element name="people" type="b:PeopleRegistry"/>
+
+  <xs:complexType name="PeopleRegistry">
+    <xs:sequence>
+      <xs:element name="record" type="b:Record"/>
+      <xs:element name="person" type="b:Person" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+  </xs:complexType>
+
+  <xs:complexType name="Person">
+    <xs:sequence>
+      <!-- Display name, e.g. "Ron McKernan" -->
+      <xs:element name="name" type="xs:string"/>
+      <!-- Sort key, e.g. "McKernan, Ron" -->
+      <xs:element name="sortName" type="xs:string" minOccurs="0"/>
+      <!-- Nicknames and variants, e.g. "Pigpen" -->
+      <xs:element name="altName" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="membership" type="b:Membership" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="b:PersonId" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Membership">
+    <xs:sequence>
+      <!-- Default instruments for lineup pre-fill during this period. -->
+      <xs:element name="instrument" type="b:Instrument" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <!-- First show of the period, inclusive. -->
+    <xs:attribute name="from" type="b:FuzzyDate" use="required"/>
+    <!-- Last show of the period, inclusive. -->
+    <xs:attribute name="to" type="b:FuzzyDate" use="required"/>
+    <xs:attribute name="role" type="b:MemberRole" use="required"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <xs:simpleType name="MemberRole">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="member"/>
+      <xs:enumeration value="touring-member"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

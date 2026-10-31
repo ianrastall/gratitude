@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-03-21" date="1972-03-21">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720321-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-423" nameAsBilled="Academy of Music"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-03" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-04" song="s-chinatown-shuffle" transition="unknown"/>
+      <performance id="p01-05" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-06" song="s-loser" transition="unknown"/>
+      <performance id="p01-07" song="s-mr-charlie" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-09" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-10" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-11" song="s-you-win-again" transition="unknown"/>
+      <performance id="p01-12" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-13" song="s-next-time-you-see-me" transition="unknown"/>
+      <performance id="p01-14" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-15" song="s-good-lovin" transition="segue"/>
+      <performance id="p01-16" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-truckin" transition="segue"/>
+      <performance id="p02-02" song="s-drums" transition="segue"/>
+      <performance id="p02-03" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-04" song="s-wharf-rat" transition="unknown"/>
+      <performance id="p02-05" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-06" song="s-two-souls-in-communion" transition="unknown"/>
+      <performance id="p02-07" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p02-08" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-09" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-11" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-12" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6334dc81e44b34fa2103" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-03-21.136670.sbd.sirmick.flac16</identifier>
+      <credit role="recordist">Anonomous</credit>
+      <lineage>Source: sbd &gt; cassette master &gt; dat(48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy Of Music on 1972-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-01ff1d279b161138831c" kind="soundboard">
+      <identifier scheme="archive-org">gd1972-03-21.sbd.miller.92395.sbeok.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>SBD -&gt; Master Reel | Master Reel -&gt; Apogee AD500 -&gt; Dat/0 (48k) -&gt; Dat (Sony D8) -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d67934f405de74819d9f" kind="unknown">
+      <identifier scheme="archive-org">gd1972-03-21.set2-sbd.Samaritano.32370.sbeok.flac16</identifier>
+      <lineage>MSR&gt;Dat&gt;Dat&gt;Sonic Solutions&gt;CD | CD&gt;EAC&gt;Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Joe Samaritano</note>
+    </recording>
+    <recording id="r-b5f8118b071db31123b1" kind="soundboard">
+      <identifier scheme="archive-org">gd72-03-21.sbd-disk1.samaritano.15041.sbeok.shnf</identifier>
+      <lineage>Soundboard | Master Soundboard Reel (2 track)-&gt; Dat-&gt; Dat-&gt; Sonic Solutions-&gt; CD-&gt; EAC-&gt; SHN CD-&gt; EAC-&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-4694d0e2e1317d424372" kind="soundboard">
+      <identifier scheme="archive-org">gd72-03-21.sbd.vernon.9331.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;MR&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

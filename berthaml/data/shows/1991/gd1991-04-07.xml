@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-04-07" date="1991-04-07">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910407-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-1006" nameAsBilled="Orlando Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-04" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-05" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-06" song="s-reuben-and-cherise" transition="unknown"/>
+      <performance id="p01-07" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-crazy-fingers" transition="segue"/>
+      <performance id="p02-02" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-03" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-box-of-rain" transition="segue"/>
+      <performance id="p02-08" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-09" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c51d30b74bccdb777d36" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-04-07.137080.set1.sbd.miller.flac24</identifier>
+      <lineage>SBD -&gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt;KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-25744318bb50bb86fc41" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-04-07.137081.sbd.miller.flac16</identifier>
+      <lineage>Set 1: SBD -&gt; Cassette Master (TDK SA-X100)Set 2: SBD -&gt; Dat (44.1k)Set 1 | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt;KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d1cfb5bef2c1f4e3be27" kind="audience">
+      <identifier scheme="archive-org">gd1991-04-07.138128.SchoepsCMC34.Neumann.KM54.Vasseur.Ammons.t-flac16</identifier>
+      <credit role="recordist">Dan and Chuck Vasseur</credit>
+      <lineage>flac16/48kHz ; Dan (?) running Bob Melomed's rig (Set I) FOB Schoeps CMC34 110 degrees ORTF on Scheops t-bar &gt; M1000 Cable &gt; Tao Research Power Supply &gt; SV255; 5 Rows FOB; Chuck Vasseur recording (Set II) Neumann KM54 tube mics &gt; Technics SVMD1; 14th Row center; John Ammons | from his DAT clones of the masters. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel Patched, Track'd, Flac'd &amp; Pack'd: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-753a512d1f0b1bbe27ad" kind="unknown">
+      <identifier scheme="archive-org">gd1991-04-07.143388.km86.dalton.miller.sirmick.flac1648</identifier>
+      <credit role="recordist">Tim Dalton</credit>
+      <lineage>Neuman KM86 Custom 60° X-Y * &gt; Oade p/s &gt; Panasonic SV255 &gt; DAT (48K) - Taped by Tim Dalton | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0ee1693778af0c1828fe" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-04-07.149563.sbd.miller.flac2496</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 17, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e8f969cb6ce900144b79" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-04-07.149622.sbd.cm.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 17, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-79ae774b5db54ab132bd" kind="audience">
+      <identifier scheme="archive-org">gd1991-04-07.149826.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
+      <lineage>Schoeps CMC3 MK4's (ortf) &gt; Panasonic SV-255 (16/48).Location: FOB mics hand held, section F5, row B, seat 5 | DAT (Tascam DA-40) &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer By Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel February 28, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ea08ef75a14cda2128ea" kind="matrix">
+      <identifier scheme="archive-org">gd1991-04-07.150455.s2.mtx.seamons.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+    </recording>
+    <recording id="r-2327d28cad4bd66f5dd0" kind="matrix">
+      <identifier scheme="archive-org">gd1991-04-07.150456.mtx.seamons.ht121.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+    </recording>
+    <recording id="r-60341d5ccc5abc5f3dd5" kind="unknown">
+      <identifier scheme="archive-org">gd1991-04-07.aud.Holtz.Naks.115109.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Source: Nakamichi CM-100 mics w/ CP-4 Shotgun Caps &gt; Sony D-5 (Maxell MX-S analog cassette tapes) - Front Row OTS; | MAC &gt; Tascam 112 &gt; Edirol UA-5 &gt; PC &gt; Audacity &gt; TLH &gt; flac level 8; Recorded by Greg Holtz; Transfers, edits, track/FLAC by Greg Holtz</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Greg Holtz</note>
+    </recording>
+    <recording id="r-31df53c130f5c60555c1" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-04-07.sbd.31953.sbeok.shnf</identifier>
+      <lineage>SBD DAT master &gt; DAT &gt; CD-R</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): unknown</note>
+    </recording>
+    <recording id="r-e815ab2422b7aa9efff0" kind="unknown">
+      <identifier scheme="archive-org">gd1991-04-07.sbd.zei.2022.shnf</identifier>
+      <lineage>S:D-&gt;cdr-&gt;(eac'd)wav-&gt;shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): John Zei</note>
+    </recording>
+    <recording id="r-2685236bc0978ce58d75" kind="unknown">
+      <identifier scheme="archive-org">gd1991-04-07.senn.unknown.33337.sbeok.flac1648</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Sen. ME-80's/KU-3's &gt; Casio DA-7 | Wavelab &gt; CD Wave &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): unknown</note>
+    </recording>
+    <recording id="r-48a047e0f7a8efacb59f" kind="soundboard">
+      <identifier scheme="archive-org">gd91-04-07.sbd.neo_levo-ferguson.476.sbeok.shnf</identifier>
+      <lineage>SBD &gt; ? &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orlando Arena on 1991-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-292a96a43c244b2f9153" kind="unknown">
+      <identifier scheme="other">etree-609364</identifier>
+      <note>Supplied catalogue listing: etree; gd1991-04-07.149622.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-740be62a33c3edcdd92c" kind="unknown">
+      <identifier scheme="other">etree-609362</identifier>
+      <note>Supplied catalogue listing: etree; gd1991-04-07.149563.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

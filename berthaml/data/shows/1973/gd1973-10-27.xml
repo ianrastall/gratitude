@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-10-27" date="1973-10-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731027-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-543" nameAsBilled="State Fair Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-loser" transition="unknown"/>
+      <performance id="p01-05" song="s-black-throated-wind" transition="unknown"/>
+      <performance id="p01-06" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-07" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-08" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-09" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-10" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-11" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-12" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-13" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-14" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-15" song="s-i-know-you-rider" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p02-02" song="s-bertha" transition="unknown"/>
+      <performance id="p02-03" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p02-04" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p02-07" song="s-big-river" transition="segue"/>
+      <performance id="p02-08" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p02-09" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-10" song="s-truckin" transition="segue"/>
+      <performance id="p02-11" song="s-nobody-s-fault-but-mine" transition="segue"/>
+      <performance id="p02-12" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-13" song="s-stella-blue" transition="unknown"/>
+      <performance id="p02-14" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4e72cde08e56e9b46bb0" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-10-27.142772.set2p.sbd.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>flac16/48kHz ; Source Info: Master Soundboard Reels &gt; 2 cassette generations &gt; Dat (16/48k)&gt; Dat (16/48k); Transfer Info: Dat (Sony PCM-R500)&gt; Apogee aes/ebu cable &gt; Tascam DA-3000 (16/48k)&gt; Adobe Audition 3.01 &gt; TLH flac1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
+    </recording>
+    <recording id="r-fa13358d85e2f58083ad" kind="audience">
+      <identifier scheme="archive-org">gd1973-10-27.aud.boswell.motb-0141.107323.flac16</identifier>
+      <credit role="recordist">David Boswell</credit>
+      <lineage>Unknown Mics &gt;&gt; Unknown Deck &gt;&gt; MAC | MAC &gt;&gt; Reel 7.5 ips Revox A77 Reel @ 7.5 ips &gt;&gt; Revox A77 &gt;&gt; Akai GX636&gt;Apogee Mini Me(24/96)&gt;Apogee Mini Dac(monitoring/mastering)&gt;Lynx One soundcard&gt;Wavelab 5.0&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith and Derek McCabe</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
+    </recording>
+    <recording id="r-a86780ded0717c434015" kind="soundboard">
+      <identifier scheme="archive-org">gd73-10-27.sbd.wier.16583.sbeok.shnf</identifier>
+      <lineage>Soundboard with aud patches | MSR &gt; R &gt; C &gt; D &gt; CD patched with MAC &gt; ? &gt; D</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

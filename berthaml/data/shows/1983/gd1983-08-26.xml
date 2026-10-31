@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-08-26" date="1983-08-26">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830826-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-505" nameAsBilled="Portland Memorial Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-03" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-05" song="s-big-river" transition="unknown"/>
+      <performance id="p01-06" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-07" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-loser" transition="segue"/>
+      <performance id="p01-09" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-wang-dang-doodle" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-c24e2ef4911571bbf34c" kind="unknown">
+      <identifier scheme="archive-org">gd1983-08-26.110903.Sennheiser421-daweez.D5scott.flac16</identifier>
+      <credit role="recordist">Daweez</credit>
+      <lineage>2 Sennheiser 421 microphones &gt; Sony TC-D5M - analog master cassettes | Sony TC-D5M (original record deck)&gt;Pre Sonus Inspire GT&gt;Sound Forge&gt;.wav files&gt;Trader's Little Helper&gt;flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Coliseum on 1983-08-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-6a615ecd53c9c9cc0d7f" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-26.142900.beyerm201.holbrook.flac1644</identifier>
+      <credit role="recordist">Kyle Holbrook &amp; Chris Kidwell</credit>
+      <lineage>flac16/44.1khz ource Audience Recording: Beyer M 201c;1st gen TDK MA metal 90Location: set 1: 100 feet from stage|DFC set 2: 70 feet from stage|DFC | Master was: Beyer M201's (hyper cardiod)X-Y &gt;&gt; Sony TCD5M w Maxell MX 90| Dolby B ON 1st Gen copied to TDK MA metal 90 Sony TCD5M -&gt; Sony TCD5MPlayback: Nakamichi CR-5A -&gt;Tascam DR-680 24/48Processing: i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1983-08-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-ea4e2aecfcd75cb24f12" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-26.142901.beyerm201.holbrook.flac2448</identifier>
+      <credit role="recordist">Kyle Holbrook &amp; Chris Kidwell</credit>
+      <lineage>flac24/48khz ource Audience Recording: Beyer M 201c;1st gen TDK MA metal 90Location: set 1: 100 feet from stage|DFC set 2: 70 feet from stage|DFC | Master was: Beyer M201's (hyper cardiod)X-Y &gt;&gt; Sony TCD5M w Maxell MX 90| Dolby B ON 1st Gen copied to TDK MA metal 90 Sony TCD5M -&gt; Sony TCD5MPlayback: Nakamichi CR-5A -&gt;Tascam DR-680 24/48Processing: i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1983-08-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-50ace438daa4c3ce3715" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-26.148832.fob.nak700.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; Nakamichi 700 mini mics (mounted in hat, left side, 40' from stage)(Row A, Section 15, seats 4 &amp; 5) &gt; Sony D5M (TDK-MA90) | Master Cassettes (Nakamchi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1983-08-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-71762c361f63016182c5" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-26.148833.fob.nak700.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master (FOB) Audience Cassettes; Nakamichi 700 mini mics (mounted in hat, left side, 40' from stage)(Row A, Section 15, seats 4 &amp; 5) &gt; Sony D5M (TDK-MA90) | Master Cassettes (Nakamchi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1983-08-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5a3bf6843b5d398f590d" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-26.177542.2nd.set.unknown.bradt.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bill Bradt</credit>
+      <lineage>Audience Cassette; Unknown Equipment - from the Bill Bradt collection (Maxell MX-90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1983-08-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a4d7381eb9c86effdf91" kind="audience">
+      <identifier scheme="archive-org">gd1983-08-26.177543.2nd.set.unknown.bradt.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bill Bradt</credit>
+      <lineage>Audience Cassette; Unknown Equipment - from the Bill Bradt collection (Maxell MX-90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1983-08-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4264c6a1882d3e200127" kind="audience">
+      <identifier scheme="archive-org">gd83-08-26.sennheiser.dodd.12258.sbeok.shnf</identifier>
+      <lineage>AUD (Senn. 421Âs)&gt; MC &gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1983-08-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

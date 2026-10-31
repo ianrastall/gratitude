@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1974-05-17" date="1974-05-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19740517-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3e1446bc543eee5edf4d38a234e0f587367494973cc03334af1abedbe8950463. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-181" nameAsBilled="P.N.E. Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-deal" transition="unknown"/>
+      <performance id="p01-03" song="s-the-race-is-on" transition="unknown"/>
+      <performance id="p01-04" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-05" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-06" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-07" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-08" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-09" song="s-big-river" transition="unknown"/>
+      <performance id="p01-10" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p01-11" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-12" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-13" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p02-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-money-money" transition="unknown"/>
+      <performance id="p02-05" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-06" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-07" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p02-08" song="s-sugaree" transition="unknown"/>
+      <performance id="p02-09" song="s-truckin" transition="segue"/>
+      <performance id="p02-10" song="s-nobody-s-fault-but-mine" transition="segue"/>
+      <performance id="p02-11" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-12" song="s-china-doll" transition="unknown"/>
+      <performance id="p02-13" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-e2ee2ccc5eb42a1e3b50" kind="soundboard">
+      <identifier scheme="archive-org">gd1974-05-17.sbd.miller.89972.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v10.02 -&gt; Cool Edit Pro v2.0 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at P.N.E. Coliseum on 1974-05-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f04488ccc5f785d9b738" kind="unknown">
+      <identifier scheme="archive-org">gd74-05-17.partial.aud.28041.sbeok.flacf</identifier>
+      <credit role="recordist">Mike Kent</credit>
+      <lineage>flac16 set 1,2p; hand-held external stereo mic&gt; portable Sony cassette deck&gt; BASF LH C120 MC&gt; [1 cass gen for Promised only] &gt; HD&gt; CDWave &gt; flac frontend &gt; flac; | master cassette &gt; HD (except for "Promised Land," from the 1st gen safety copy)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at P.N.E. Coliseum on 1974-05-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Pantagruel</note>
+    </recording>
+    <recording id="r-4fec093be644f1e2f087" kind="soundboard">
+      <identifier scheme="archive-org">gd74-05-17.sbd.gustin.202.sbeok.shnf</identifier>
+      <lineage>Soundboard | possible SBD cass master&gt;1 cass&gt; DAT&gt; 1 cass gen&gt; DAT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at P.N.E. Coliseum on 1974-05-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

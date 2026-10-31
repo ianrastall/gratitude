@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-03-26" date="1973-03-26">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19730326-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-468" nameAsBilled="Baltimore Civic Center"/>
+  <program coverage="partial">
+    <set kind="soundcheck" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-yellow-moon" transition="unknown"/>
+      <note>Source section label: Soundcheck</note>
+    </set>
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p02-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p02-02" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p02-03" song="s-the-race-is-on" transition="unknown"/>
+      <performance id="p02-04" song="s-wave-that-flag" transition="unknown"/>
+      <performance id="p02-05" song="s-jack-straw" transition="unknown"/>
+      <performance id="p02-06" song="s-sugaree" transition="unknown"/>
+      <performance id="p02-07" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-08" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p02-09" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p02-10" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p02-11" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-12" song="s-el-paso" transition="unknown"/>
+      <performance id="p02-13" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-14" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-15" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-16" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p02-17" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p03-01" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p03-02" song="s-big-river" transition="unknown"/>
+      <performance id="p03-03" song="s-here-comes-sunshine" transition="unknown"/>
+      <performance id="p03-04" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p03-05" song="s-candyman" transition="unknown"/>
+      <performance id="p03-06" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p03-07" song="s-he-s-gone" transition="segue"/>
+      <performance id="p03-08" song="s-truckin" transition="segue"/>
+      <performance id="p03-09" song="s-weather-report-suite-prelude" transition="segue"/>
+      <performance id="p03-10" song="s-jam" transition="segue"/>
+      <performance id="p03-11" song="s-wharf-rat" transition="segue"/>
+      <performance id="p03-12" song="s-me-and-bobby-mcgee" transition="segue"/>
+      <performance id="p03-13" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p03-14" song="s-morning-dew" transition="unknown"/>
+      <performance id="p03-15" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-25dd025a6f36a032d1e2" kind="audience">
+      <identifier scheme="archive-org">gd1973-03-26.170347.aud.lamarre.vernon.AndrewF.flac1648</identifier>
+      <lineage>Analog Audience Source: Unknown mic/deck/generation/taper Medium Stock Brands: Maxell Epitaxial XLII-90 (70 uS EQ) Dolby Not specified Tape provided by Doug Lamarre | Analog Sound Preservation: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) Transfer By: Matt Vernon Mastering by Andrew F. (pitch correction, patching, miscellaneous improvements)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1973-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-0bf0629b9a0c32d78deb" kind="audience">
+      <identifier scheme="archive-org">gd1973-03-26.170348.aud.lamarre.vernon.AndrewF.flac2496</identifier>
+      <lineage>Analog Audience Source: Unknown mic/deck/generation/taper Medium Stock Brands: Maxell Epitaxial XLII-90 (70 uS EQ) Dolby Not specified Tape provided by Doug Lamarre | Analog Sound Preservation: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) Transfer By: Matt Vernon Mastering by Andrew F. (pitch correction, patching, miscellaneous improvements)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1973-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-c80432bf22a0600abb83" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-03-26.170436.sbd-set2patched.miller.lamarre.andrewf.vernon.flegel.flac1644</identifier>
+      <lineage>Patched set 2 soundboard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1973-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-99ee9d457d221f8dc6eb" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-03-26.sbd.miller.34787.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Profesional v8.01 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1973-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-40429def9ed30d1c9bb3" kind="soundboard">
+      <identifier scheme="archive-org">gd73-03-26.sbd.miller-ashley.1373.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MR&gt; DAT&gt; CDA&gt; CDA&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1973-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

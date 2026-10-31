@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1984-04-07" date="1984-04-07">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19840407-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-874" nameAsBilled="Irvine Meadows Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-02" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-althea" transition="unknown"/>
+      <performance id="p01-06" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-07" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-09" song="s-touch-of-grey" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-02" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-03" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-spanish-jam" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-0171b56a879ada0284bf" kind="unknown">
+      <identifier scheme="archive-org">gd1984-04-07.108618.Beyer-DaWeez.D5scott.flac16</identifier>
+      <credit role="recordist">DaWeez</credit>
+      <lineage>source: 3 Beyer M160's &gt; Nak100 &gt; Sony TC-D5M - 17th Row Center - analog master cassettes - TDK MA-R90's | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1984-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-1281b03d195d68b1e0bb" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-04-07.135528.sbd-pc.miller.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Dat -&gt; CD (shnid=13816) | CD -&gt; Adobe Audition CC 2015 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1984-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b33de6fd45fb070d9c54" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-04-07.146012.sbd.GEMS.flac1648</identifier>
+      <credit role="recordist">Jeff Knudson</credit>
+      <lineage>Soundboard Master from The Knudsen Collection at Lossless Legs The cassettes were donated to www.shnflac.net by Jeff Knudsen in 2018. | Nakamichi CR-7A -&gt; Sound Devices MixPre-3M</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1984-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jay Haines, Jason Chastain, Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-679842f85e81525ee2c8" kind="soundboard">
+      <identifier scheme="archive-org">gd84-04-07.sbd.dodd.13816.sbeok.shnf</identifier>
+      <lineage>sbd&gt;MC&gt;Dat&gt;cdEac &gt;cool edit &gt; shntool &gt; cdwav &gt;shnv3Eac &gt;shn (secure with proper offsets) by Ernie Dodd</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1984-04-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-09-10" date="1983-09-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830910-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-860" nameAsBilled="Downs of Santa Fe"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-the-music-never-stopped" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-04" song="s-big-railroad-blues" transition="segue"/>
+      <performance id="p01-05" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-06" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-07" song="s-minglewood-blues" transition="segue"/>
+      <performance id="p01-08" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-09" song="s-i-know-you-rider" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-02" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-china-doll" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-09" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-10" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4b3c4613ceaf8b26b678" kind="unknown">
+      <identifier scheme="archive-org">gd1983-09-10.110915.Sennheiser421s.daweez.D5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>source: 2 Sennheiser 421 microphones (25 feet from stage) ~ Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) ~Pre Sonus Inspire GT~Sound Forge~.wav files~Trader's Little Helper~flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-6e0305b79218f318bb5c" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.139020.FOB.Beyer.billydee.Sellars.Noel.t.flac24</identifier>
+      <credit role="recordist">billydee</credit>
+      <lineage>billydee recording (patched out of): Beyerdynamics 180's &gt; Sony TC-D5M &gt; master audio cassette (FOB); Larry Sellers &amp; the Philly Crew Direct Stream Digital (DSD) | MAC &gt; Nak CR7A w/ azimuth adjusted &gt; Korg MR-1000 @ 5.8mhz &gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel, Flac 24/96; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Larry Sellers &amp; the Philly Crew; Joe Noel</note>
+    </recording>
+    <recording id="r-1409a20234ae43e782a9" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-09-10.139299.sbd.eaton.miller.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>SBD &gt; Cassette Master &gt; Reel &gt; Dat (48k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-14b51de769d0d9d14647" kind="matrix">
+      <identifier scheme="archive-org">gd1983-09-10.139379.mtx.seamons.ht112.flac16</identifier>
+      <lineage>Matrix by Hunter Seamons</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1cde501b7640c01973e3" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.141023.FOB.Beyer.billydee.Sellars.Noel.t.flac1644</identifier>
+      <credit role="recordist">billydee</credit>
+      <lineage>billydee recording (patched out of): Beyerdynamics 180's &gt; Sony TC-D5M &gt; master audio cassette (FOB); Larry Sellers &amp; the Philly Crew Direct Stream Digital (DSD) | MAC &gt; Nak CR7A w/ azimuth adjusted &gt; Korg MR-1000 @ 5.8mhz &gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel, Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel, Larry Sellers</note>
+    </recording>
+    <recording id="r-a8ccec955a4e4b64d6f6" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.143079.beyerm201.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew, Chris Kidwell, Tom Pinney, Sean Murtha</credit>
+      <lineage>flac16/44.1 Master: AUD MC Beyer M201's X-Y 6'up &gt; Sony TCD5M no dolby Maxell MX90 x 2 Location: 100 feet from stage, 2 ft. LOC | Nakamichi CR-5A (24/96) &gt; Tascam DR680|SD &gt; i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-879431d921a91ecacf18" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.143080.beyerm201.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew, Kyle Holbrook, Chris Kidwell, Tom Pinney, Sean Murtha</credit>
+      <lineage>flac24/48 Master: AUD MC Beyer M201's X-Y 6'up &gt; Sony TCD5M no dolby Maxell MX90 x 2 Location: 100 feet from stage, 2 ft. LOC | Nakamichi CR-5A (24/96) &gt; Tascam DR680|SD &gt; i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-43d0dc7cac9f99fac1c7" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.151507.fob.unknown.bryant.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Robert Bryant's Master (FOB) Audience Cassettes; unknown mics &gt; Sony D6 | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b9c4d57bccd40bbeb9da" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.151508.fob.unknown.bryant.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Robert Bryant's Master (FOB) Audience Cassettes; unknown mics &gt; Sony D6 | Cassette Master (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1248a57bb375be7fd4ba" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.162895.nak300-cp4.shields-hughes.flac2496</identifier>
+      <credit role="recordist">Recording by Les Shields (Recording Guru) and Kevin T. Hughes, AICP, CEP (San Luis Obispo, CA 1981-1985).</credit>
+      <lineage>FOB location – Master Audience Recording produced by a pair of Nak CM300 Microphones w/ CP4 Shotgun Caps &gt; Sony D5 &gt; Sony D6 Recorders &gt; (Master) Maxell MX 90 Cassette(s) | Denon DRM-555 Player &gt; Acer Aspire AX 3910 PC via In Line 3.5 cm portal &gt; Audacity 3.2.2 (Wave Editor for 24/96 FLAC Conversion).</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfer and mastering by Kevin T. Hughes</note>
+    </recording>
+    <recording id="r-0a13e3d8ccb6107be7a5" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.fob.nak700.wagner.motb-0079.94508.sbeok.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>(FOB) 2 x Nakamichi CM700 =&gt; Sony TC-D5m &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-1 =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Downs of Santa Fe on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Adam Egert</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-0d24fe4386a79365670e" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.fob.nak700.wagner.motb-0079.94509.sbeok.flac24</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>(FOB) 2 x Nakamichi CM700 =&gt; Sony TC-D5m &gt;&gt; MAC (3 x Maxell UDXLII C90's) | MAC &gt;&gt; Nakamichi DR-1 =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Downs of Santa Fe on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Adam Egert</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-1470346c848ef48d0221" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.fob.senn441.silberman.miller.84487.sbeok.flac16</identifier>
+      <credit role="recordist">Jeff Silberman</credit>
+      <lineage>(FOB) Sennheiser 441 -&gt; PCM (Technics SV100) -&gt; Dat | Dat (Sony R500) -&gt; VX Pocket v2 -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Downs of Santa Fe on 1983-09-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Ron Keyser</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-db984081159f69e8d32d" kind="unknown">
+      <identifier scheme="archive-org">gd1983-09-10.nak300.deadjohn-or-bonner.96920.flac16</identifier>
+      <credit role="recordist">Dead John or Bonner</credit>
+      <lineage>Nak 300 &gt; Nak 550 &gt; MAC | MAC &gt; Nak BX3-&gt;Mac-&gt;CD-&gt;EAC extract-&gt;cd wave to split China Rider -&gt;TLH convert to Flac6</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Downs of Santa Fe on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-8072dbb2a7587d4a4cbd" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-10.nak304.mikeg-suraci.79068.sbeok.flac16</identifier>
+      <credit role="recordist">Mike G. and Tony Suraci</credit>
+      <lineage>Nakamichi CM304's&gt;Sony D5&gt;Sony D6 Location: FOB, stand at 7 feet | Sony D5Pro&gt;Lunatec V3&gt;722@24/96 Editing: 722&gt;Adobe Aud.&gt;16Bit&gt;Cdwav&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Downs of Santa Fe on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-51c4c1faf7b65d5a85c5" kind="unknown">
+      <identifier scheme="archive-org">gd83-09-10.sennheiser.clugston.4860.shnf</identifier>
+      <lineage>Sennheiser 441 mics &gt; Technics SV100 PCM&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Fe Downs on 1983-09-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

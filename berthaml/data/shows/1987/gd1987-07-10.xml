@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-07-10" date="1987-07-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870710-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-151" nameAsBilled="John F. Kennedy Stadium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-iko-iko" transition="unknown"/>
+      <performance id="p01-02" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-03" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-04" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-althea" transition="unknown"/>
+      <performance id="p01-06" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-07" song="s-when-push-comes-to-shove" transition="unknown"/>
+      <performance id="p01-08" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-09" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-10" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-11" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-12" song="s-terrapin-station" transition="segue"/>
+      <performance id="p01-13" song="s-drums" transition="segue"/>
+      <performance id="p01-14" song="s-space" transition="segue"/>
+      <performance id="p01-15" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p01-16" song="s-black-peter" transition="segue"/>
+      <performance id="p01-17" song="s-around-and-around" transition="segue"/>
+      <performance id="p01-18" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6dc2c5b993e309358340" kind="matrix">
+      <identifier scheme="archive-org">gd1987-07-10.135276.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid=101651) Recording Info: SBD -&gt; Cassette Master -&gt; CD; Transfer Info: CD -&gt; Samplitude Professional v10.02 -&gt; FLAC; All Transfers and Mastering By Charlie Miller + AUD (shnid 87266) AUD: Nakamichi CM-700's &gt; patched from one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX-90's (no Dolby), set up FOB. Taped by Ted Carpenter. | MAC &gt; Nakamichi BX-125 (no Dolby) &gt; Audiophile 2496 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC. Transferred by Andrew F. - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7a2c488d04ae0a819cfe" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-10.135281.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=101651) Recording Info: SBD -&gt; Cassette Master -&gt; CD; Transfer Info: CD -&gt; Samplitude Professional v10.02 -&gt; FLAC; All Transfers and Mastering By Charlie Miller + AUD (shnid 87266) AUD: Nakamichi CM-700's &gt; patched from one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX-90's (no Dolby), set up FOB. Taped by Ted Carpenter. | MAC &gt; Nakamichi BX-125 (no Dolby) &gt; Audiophile 2496 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC. Transferred by Andrew F. - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5711ada6e7ecf2c88696" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-10.135282.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD -&gt; Cassette Master -&gt; CD; Transfer Info: CD -&gt; Samplitude Professional v10.02 -&gt; FLAC; All Transfers and Mastering By Charlie Miller + AUD (shnid 87266) AUD: Nakamichi CM-700's &gt; patched from one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX-90's (no Dolby), set up FOB. Taped by Ted Carpenter. | MAC &gt; Nakamichi BX-125 (no Dolby) &gt; Audiophile 2496 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC. Transferred by Andrew F. - mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-81b4673d7e3cc3ab5a4c" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-10.149827.ultra.sbd.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD (Mono) &gt; Beta HiFi Master (TDK HS) | Beta HiFi Master (Sony SL-HF66) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 6, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-79008354f5b525f0ea05" kind="matrix">
+      <identifier scheme="archive-org">gd1987-07-10.149828.sbd.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 6, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-af8157486fab236b6095" kind="matrix">
+      <identifier scheme="archive-org">gd1987-07-10.149955.UltraMatrix.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 6, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-1da54ad0e58e3d50a4fc" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-10.149959.sbd.beta.HiFi.master-mono.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD (Mono) &gt; Beta HiFi Master (TDK HS) | Beta HiFi Master (Sony SL-HF66) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 6, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-2f8adf0aefd4da7bbe3c" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-10.aud.carpenter.87266.sbeok.flac16</identifier>
+      <credit role="recordist">Ted Carpenter</credit>
+      <lineage>Nakamichi CM-700's &gt; patched from one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX-90's (no Dolby), set up FOB | MAC &gt; Nakamichi BX-125 (no Dolby) &gt; Audiophile 2496 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at JFK Stadium on 1987-07-10. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-87-philadelphia-pa-jfk-stadium/</note>
+    </recording>
+    <recording id="r-1965c8c7c843c72d980f" kind="audience">
+      <identifier scheme="archive-org">gd1987-07-10.fob.nak300.rob.damico.102170.flac16</identifier>
+      <credit role="recordist">Rob</credit>
+      <lineage>Nak 300 Mics &gt; Sony D-5; FOB | Master Cassette &gt; 1st Gen Cassette &gt; Nak Dragon Tape Deck &gt; Sony Sbm 1 &gt; Creative Extigy Soundcard &gt; Cool Edit Pro &gt; Flac Frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-b4255d47efba903db111" kind="unknown">
+      <identifier scheme="archive-org">gd1987-07-10.nak300.s1.rob.bowen.116336.flac</identifier>
+      <credit role="recordist">Rob</credit>
+      <lineage>Set 1 Only Source: Nakamichi cm300/cp4's &gt; Sony D5; | Cass/2 &gt; D5 &gt; HHb 800 &gt; EAC &gt; CDWav &gt; FLAC; Recorded: Rob ?; Transferred: Jeff Bowen; Extraction: Brad Foster</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Bowen;Brad Foster</note>
+    </recording>
+    <recording id="r-1bfabf81e0cca0072042" kind="unknown">
+      <identifier scheme="archive-org">gd1987-07-10.sbd-set2.unknown.93077.shnf</identifier>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at JFK Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-e9d94b3836473f6d7533" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-10.sbd-set2.unknown.97490.shnf</identifier>
+      <lineage>Soundboard (except Queen Jane Approximately)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at JFK Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-41ededccce4c7a95cfbb" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-07-10.sbd.miller.101651.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; CD | CD -&gt; Samplitude Professional v10.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-87-philadelphia-pa-jfk-stadium/</note>
+    </recording>
+    <recording id="r-e7db97f6f3784b27351a" kind="audience">
+      <identifier scheme="archive-org">gd87-07-10.senn.lai.3859.sbeok.shnf</identifier>
+      <lineage>FOB&gt; aud&gt; senn me80&gt; cassette master&gt; cdr</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at John F Kennedy Stadium on 1987-07-10. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-87-philadelphia-pa-jfk-stadium/</note>
+    </recording>
+    <recording id="r-117162583de9055ab46f" kind="unknown">
+      <identifier scheme="other">etree-609744</identifier>
+      <note>Supplied catalogue listing: etree; gd1987-07-10.149955.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-68bc6b6125c0f53e837c" kind="unknown">
+      <identifier scheme="other">etree-609640</identifier>
+      <note>Supplied catalogue listing: etree; gd1987-07-10.149828.UltraMatrix.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

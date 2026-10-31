@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-11-04" date="1979-11-04">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19791104-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-big-river" transition="unknown"/>
+      <performance id="p01-05" song="s-althea" transition="unknown"/>
+      <performance id="p01-06" song="s-easy-to-love-you" transition="unknown"/>
+      <performance id="p01-07" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-08" song="s-lost-sailor" transition="segue"/>
+      <performance id="p01-09" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p01-10" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p02-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-06" song="s-jam" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-11" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-d0e34dfb9f4f0db0030a" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-11-04.142917.sbd.miller.flac1648</identifier>
+      <lineage>SBD &gt; Cassette Master (Sony TC-D5/Maxell UDXL-II) &gt; Dat (48k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-11-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e60fb2f33d304960aafb" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-11-04.akgd200.friend.andrewf.101485.flac24</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>AUD: AKG D200's &gt; Technics RS-646DS (lead deck) &gt; Sony TC-153SD (Tim's deck) &gt; Maxell XL-II 90's. Mics on stand, set up behind the soundboard. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-11-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-2a1e7389bddb0586a800" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-11-04.akgd200.friend.andrewf.101486.flac16</identifier>
+      <credit role="recordist">Tim Friend</credit>
+      <lineage>AUD: AKG D200's &gt; Technics RS-646DS (lead deck) &gt; Sony TC-153SD (Tim's deck) &gt; Maxell XL-II 90's. Mics on stand, set up behind the soundboard. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; R8Brain TLH &gt; FLAC 1644</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-11-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-1f6b482b7f3835426038" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-11-04.sbd.128814.MrBill.flac16</identifier>
+      <lineage>Recording Info: SBD &gt; MC &gt; C &gt; DAT &gt; CDR. Transfer Info: CDR &gt; wav &gt; Sound Forge 10 &gt;TLH &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-11-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Guarneri</note>
+    </recording>
+    <recording id="r-a35c2847a39612069940" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-11-04.sbd.clugston.6947.shnf</identifier>
+      <lineage>Master Soundboard Cassette &gt; Cassette &gt; DAT&gt; CDR | CDR &gt; EAC &gt; WAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1979-11-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-75868b30912c282ce890" kind="unknown">
+      <identifier scheme="archive-org">gd1979-11-04.sbd.macdonald.7919.shnf</identifier>
+      <lineage>SB&gt;MR&gt;Dick Latvala's cass&gt;DAT&gt;CD&gt;EAC&gt;minor editing&gt;.shn &amp; CD-R.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1979-11-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Alasdair Macdonald</note>
+      <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    </recording>
+    <recording id="r-2469e5482f9edd9df76e" kind="unknown">
+      <identifier scheme="archive-org">gd1979-11-04.senn-unknown.minches.84210.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Master recorded with 2 Sennheiser 421s + Sennheiser 441&gt; Nakamichi 550 | Master played back on unknown deck to unknown deck to record 1st Generation Cassette 1st Generation Cassette played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1979-11-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-08-22" date="1993-08-22">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930822-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-724" nameAsBilled="Autzen Stadium, University of Oregon"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-bertha" transition="unknown"/>
+      <performance id="p01-03" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p01-04" song="s-broken-arrow" transition="unknown"/>
+      <performance id="p01-05" song="s-althea" transition="unknown"/>
+      <performance id="p01-06" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p02-02" song="s-slipknot" transition="segue"/>
+      <performance id="p02-03" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p02-04" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-05" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-06" song="s-corrina" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-10" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-11" song="s-the-days-between" transition="segue"/>
+      <performance id="p02-12" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-liberty" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-f603e6f58644244e1b31" kind="unknown">
+      <identifier scheme="archive-org">gd1993-08-22.119062.neumannKMF4.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">De Weez</credit>
+      <lineage>2 Neumann KMF4 microphones &gt; Sony TC-D5M | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium on 1993-08-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5Scott</note>
+    </recording>
+    <recording id="r-b6fc7f1629e845932933" kind="audience">
+      <identifier scheme="archive-org">gd1993-08-22.140173.fob.Schoeps-MK41.miller.sirmick.140173.flac.1648</identifier>
+      <lineage>flac16/48kHz ; Source: (FOB) Schoeps MK41 &gt; Panasonic SV-255 &gt; dat(48k); Transfer: dat &gt; Sony PCM-R500 &gt; Tascam DA-3000&gt; wav 16/48; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; Cd Wave &gt; TLH &gt; Flac 1648; edited and mastered SIRMick December 2017</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, University of Oregon on 1993-08-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-13452f475e268695d4dc" kind="audience">
+      <identifier scheme="archive-org">gd1993-08-22.141062.cmc3-mk2.ebel.flac1644</identifier>
+      <lineage>flac16/44.1 Source Info:FOB Schoeps CMC 3 MK2(Omni) (Spaced)-&gt; Oade P/S-&gt; Panasonic SV255-&gt; DATTransfer Info:Dat (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Transfers by Pete Ebel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, University of Oregon on 1993-08-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-4f5eb9338eb33bb7553d" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-08-22.150590.sbd.miller.flac1648</identifier>
+      <lineage>SBD &gt; DAT Master (48k) | DAT Master (Tascam DA-40) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 Suite &gt; FLAC/48k</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, University Of Oregon on 1993-08-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 20, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-25d6eb9378faa60a044b" kind="unknown">
+      <identifier scheme="archive-org">gd1993-08-22.akgC61.fink.litzenberger.97076.flac16</identifier>
+      <credit role="recordist">Steve L. Fink</credit>
+      <lineage>AKG C61's&gt;Teac DA-P20 @ 25th Row Center | DAT&gt;Digital Reels&gt;DAT Clone Of Reels&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades, De-emphasis,Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium - University of Oregon on 1993-08-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+    </recording>
+    <recording id="r-166537f6f7503226724f" kind="matrix">
+      <identifier scheme="archive-org">gd1993-08-22.mtx.hansokolow.98235.flac16</identifier>
+      <lineage>matrix of DSBD: shnid=562 and DAUD: shnid=97076</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium - University of Oregon on 1993-08-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): matrix by hansokolow</note>
+    </recording>
+    <recording id="r-957ce3c889788fca7fc2" kind="audience">
+      <identifier scheme="archive-org">gd1993-08-22.schoeps.evans-Leutbecher-townshend.82529.flac16</identifier>
+      <credit role="recordist">Todd Evans</credit>
+      <lineage>FOB Schoeps Mk2 Omni Capsule spaced omnis (10 ft spread) in hat -&gt; Schoeps Active Cables -&gt; Schoeps CMC 3 Mic Body -&gt; Monster M1000 Jumper -&gt; Oade Supply -&gt; Canare Cable -&gt; Panasonic sv255 | DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav (16bit, 48kHz)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium - University of Oregon on 1993-08-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Minor editing done by Garret Leutbecher (Audition 1.5) &amp; Michael Townshend</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-e72eccf4b3f6b3ab708c" kind="audience">
+      <identifier scheme="archive-org">gd1993-08-22.schoeps.evans-Leutbecher-townshend.82637.flac16</identifier>
+      <credit role="recordist">Todd Evans</credit>
+      <lineage>FOB Schoeps Mk2 Omni Capsule spaced omnis (10 ft spread) in hat -&gt; Schoeps Active Cables -&gt; Schoeps CMC 3 Mic Body -&gt; Monster M1000 Jumper -&gt; Oade Supply -&gt; Canare Cable -&gt; Panasonic sv255 | DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav (16bit, 48kHz)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium - University of Oregon on 1993-08-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Minor editing done by Garret Leutbecher (Audition 1.5) &amp; Michael Townshend (Wavelab)</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-c3fedfb2c3ec4582bc83" kind="soundboard">
+      <identifier scheme="archive-org">gd93-08-22.sbd.nawrocki.562.sbefail.shnf</identifier>
+      <lineage>SBD&gt; DAT&gt; CD&gt; EAC&gt; Cool Edit '96 (removed digipops prior to music inbeginning of d2t1 &amp; d3t1)&gt; CDWAV&gt; Shorten32</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, U. of Oregon on 1993-08-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

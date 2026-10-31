@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-09-24" date="1983-09-24">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830924-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-894" nameAsBilled="Santa Cruz County Fairgrounds"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-07" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-08" song="s-deep-elem-blues" transition="segue"/>
+      <performance id="p01-09" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-10" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-jam" transition="unknown"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-12" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-9d81ff1d4b6e2dfde543" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.138952.FOB.NAK300.S1.billydee.Sellers.Noel.t-flac24</identifier>
+      <credit role="recordist">billydee</credit>
+      <lineage>Set 1 billydee recording (patched out of unknown): Nakamichi 300 shotguns &gt; unknown deck &gt; master audio cassette (FOB); Larry Sellers &amp; the Philly Crew Direct Stream Digital (DSD) | master audio cassette &gt; Nak CR7A w/ azimuth adjusted &gt; Korg MR-1000 @ 5.8mhz &gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel &gt; Flac 24/96; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Larry Sellers &amp; the Philly Crew; Joe Noel</note>
+    </recording>
+    <recording id="r-97c54f9fbfd74bf555d7" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.141027.FOB.NAK300.S1.billydee.Sellers.Noel.t-flac1644</identifier>
+      <credit role="recordist">billydee</credit>
+      <lineage>Set 1 billydee recording (patched out of unknown): Nakamichi 300 shotguns &gt; unknown deck &gt; master audio cassette (FOB); Larry Sellers &amp; the Philly Crew Direct Stream Digital (DSD) | master audio cassette &gt; Nak CR7A w/ azimuth adjusted &gt; Korg MR-1000 @ 5.8mhz &gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel &gt; Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel, Larry Sellers</note>
+    </recording>
+    <recording id="r-4fa78ac69a6649a1e045" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.146137.nak300.gardner.suraci.flac16</identifier>
+      <credit role="recordist">Michael Gardner</credit>
+      <lineage>Source: Nakamichi CM300 (with CP4 caps)&gt;Sony TCD-5M Location: FOB, Stand at 7.5 feet | Transfer: Nakamichi CR-5A&gt;Lunatec V3 (digital out)&gt;Sound Device 722&gt;Adobe Aud. 3.0.&gt;CD Wav&gt;TLH&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-714a6ff8d5ef23c2329f" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.146138.nak300.gardner.suraci.flac24</identifier>
+      <credit role="recordist">Michael Gardner</credit>
+      <lineage>Source: Nakamichi CM300 (with CP4 caps)&gt;Sony TCD-5M Location: FOB, Stand at 7.5 feet | Transfer: Nakamichi CR-5A&gt;Lunatec V3 (digital out)&gt;Sound Device 722&gt;Adobe Aud. 3.0.&gt;CD Wav&gt;TLH&gt;flac24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-932ba1486873b858a400" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.146701.fob.unknown.davies.joeb.sirmick.fixed.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Source: (FOB) Unknown recording &gt; cassette (low gen) | Transfer: Cassette &gt; Nakamichi CD1 &gt; Tascam DR100-MKIII &gt; wav 24/96 Lineage: wav 24/96 &gt; Adobe Auditon 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Adavanced &gt; CD Wave &gt; Flac24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Davies and Sirmick and Joe B. Jones</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4033301496786dc425bb" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.146701.fob.unknown.davies.joeb.sirmick.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Source: (FOB) Unknown recording &gt; cassette (low gen) | Transfer: Cassette &gt; Nakamichi CD1 &gt; Tascam DR100-MKIII &gt; wav 24/96 Lineage: wav 24/96 &gt; Adobe Auditon 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Adavanced &gt; iZotope RX7 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Davies and Sirmick and Joe B. Jones</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d0814383e8fef4450f70" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.146702.fob.unknown.davies.joeb.sirmick.flac24</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Source: (FOB) Unknown recording &gt; cassette (low gen) | Transfer: Cassette &gt; Nakamichi CD1 &gt; Tascam DR100-MKIII &gt; wav 24/96 Lineage: wav 24/96 &gt; Adobe Auditon 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Adavanced &gt; CD Wave &gt; Flac24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Davies and Sirmick and Joe B. Jones</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2bd887886d58160db2ff" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.163639.senn421.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 421 mics &gt; Jim Vita's 1st Generation Cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0508699901136c2fe85f" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.163640.senn421.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 421 mics &gt; Jim Vita's 1st Generation Cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-52e6e2c578e23663b5bb" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.167750.akg.se5.wiseman.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ab986b52305324b8cf24" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-24.167751.akg.se5.wiseman.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Scott Wiseman</credit>
+      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c38b39ef3f86c5cc939b" kind="unknown">
+      <identifier scheme="archive-org">gd1983-09-24.nak700.guch.poris.russjcan.98308.flac16</identifier>
+      <credit role="recordist">Tazuo Yamaguchi and Jamie Poris</credit>
+      <lineage>Nak 700's with Sony TC-D5 &gt; TDK MA 90 nr dbx II | Master&gt;NakCR-3A&gt;dbx224&gt;hd&gt;Audacity&gt;CDWave&gt;TLH</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Russ Cansler</note>
+    </recording>
+    <recording id="r-e7f487455f77a77ed6a7" kind="audience">
+      <identifier scheme="archive-org">gd83-09-24.neumann.wiley.9200.sbeok.shnf</identifier>
+      <lineage>FOB-AUD(Neuman KM-84Âs&gt;Sony TC-D5)&gt;MC&gt;C&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-326e4de2172df3f59dc7" kind="soundboard">
+      <identifier scheme="archive-org">gd83-09-24.set1-sbd.wiley.9201.sbeok.shnf</identifier>
+      <lineage>SBD&gt;MC&gt;C&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Santa Cruz County Fairgrounds on 1983-09-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

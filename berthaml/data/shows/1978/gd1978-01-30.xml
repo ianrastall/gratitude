@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-01-30" date="1978-01-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780130-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-706" nameAsBilled="Uptown Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-03" song="s-mexicali-blues" transition="segue"/>
+      <performance id="p01-04" song="s-big-river" transition="unknown"/>
+      <performance id="p01-05" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-06" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-08" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-09" song="s-deal" transition="unknown"/>
+      <performance id="p01-10" song="s-lazy-lightning" transition="segue"/>
+      <performance id="p01-11" song="s-supplication" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-bertha" transition="segue"/>
+      <performance id="p02-02" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-07" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-08" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-4d4ea25e3fa3c4f9cc63" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-01-30.148564.sbd.latvala.wise.miller.clugston.flac16</identifier>
+      <credit role="recordist">Dick Latvala</credit>
+      <lineage>Master Soundboard Reel &gt; Dick Latvala's Dat (16/44.1) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; 16/44.1 .wav &gt; Adobe Audition CC 2019 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1978-01-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Wise, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ed7897c8f88defd7940b" kind="audience">
+      <identifier scheme="archive-org">gd1978-01-30.164894.akg.gale.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Unknown from the collection of Dan Gale</credit>
+      <lineage>Low Gen audience recording; AKG mics, from the Dan Gale collection | Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 &gt; .wav 24-bit/96k) &gt; Adobe Audition 2023 &gt; TLH 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theatre on 1978-01-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d4ba9fca626dad89ab14" kind="audience">
+      <identifier scheme="archive-org">gd1978-01-30.164895.akg.gale.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Unknown from the collection of Dan Gale</credit>
+      <lineage>Low Gen audience recording; AKG mics, from the Dan Gale collection | Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 &gt; .wav 24-bit/96k) &gt; Adobe Audition 2023 &gt; TLH 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theatre on 1978-01-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f53acdb5536b4f4f49a2" kind="audience">
+      <identifier scheme="archive-org">gd1978-01-30.164896.sony.ecm99.powell.mckenzie.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Tim Powell;Tim McKenzie</credit>
+      <lineage>Tim Powell's Master Audience Cassettes; Sony ECM 99 mics &gt; Sony TC-152 cassette deck &gt; 1st Generation Reels &gt; DAT (16/48) | DAT (Sony PCM-R500)(16/48) &gt; Tascam DA-3000 &gt; 16/48 .wav &gt; Adobe Audition CC 2023 &gt; TLH flac1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theatre on 1978-01-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-18113a30373eb2cf37b2" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-01-30.sbd.miller.32255.sbeok.flac16</identifier>
+      <credit role="recordist">Audio disks from Jim Wise</credit>
+      <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; CD -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1978-01-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-c14409c548562243c91d" kind="audience">
+      <identifier scheme="archive-org">gd78-01-30.powell.vernon.12437.sbeok.shnf</identifier>
+      <credit role="recordist">Tim Powell</credit>
+      <lineage>Audience Recording | (Sony ECM-99/Sony TC-152) AUD&gt;MC&gt;R&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1978-01-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

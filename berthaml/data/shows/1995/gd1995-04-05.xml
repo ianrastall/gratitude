@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1995-04-05" date="1995-04-05">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950405-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-1036" nameAsBilled="Birmingham Jefferson Convention Complex Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-touch-of-grey" transition="segue"/>
+      <performance id="p01-02" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-03" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-05" song="s-maggie-s-farm" transition="unknown"/>
+      <performance id="p01-06" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-07" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-here-comes-sunshine" transition="unknown"/>
+      <performance id="p02-02" song="s-way-to-go-home" transition="unknown"/>
+      <performance id="p02-03" song="s-truckin" transition="segue"/>
+      <performance id="p02-04" song="s-that-would-be-something" transition="segue"/>
+      <performance id="p02-05" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-06" song="s-matilda" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-10" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-dd880fbed8d5e5b4afa1" kind="audience">
+      <identifier scheme="archive-org">gd1995-04-05.141432.s2.FOB.Neumann.Vasseur.Ammons.Noel.t-flac1648</identifier>
+      <credit role="recordist">Chuck Vasseur</credit>
+      <lineage>flac16/48kHz ; Set 2 Chuck Vasseur FOB Recording: Neumann KM54 modified tube mics, hand held on t-bar &gt; Custom PS &gt; TEAC Deck &gt; DAT; John Ammons | DAT master &gt; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jefferson Civic Center Coliseum on 1995-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel and John Ammons</note>
+    </recording>
+    <recording id="r-9f9ae1beff298d2f7af4" kind="unknown">
+      <identifier scheme="archive-org">gd1995-04-05.143121.nak300-cp4.andy-Boedicker.flac1644</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony TC-D5M Cassette Deck(Lead Deck)&gt;Sony WM-D6C Cassette Deck&gt; Master Tape(Maxell XL-II S 90 And TDK MA-X 100 Minute Tapes)&gt;Sony TC-D5M Cassette Deck(Playback)&gt; Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jefferson Civic Center Coliseum on 1995-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-273d2a5e3de527139a88" kind="soundboard">
+      <identifier scheme="archive-org">gd1995-04-05.sbd.hinko.tetzeli.fix-18097.35258.reflac.flac16</identifier>
+      <lineage>SBD &gt; ? &gt; Cassette &gt; CDr with AUD patches | unknown</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Birmingham-Jefferson Civic Center Coliseum on 1995-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Darryl Hinko and Bill Tetzeli</note>
+    </recording>
+    <recording id="r-64a0bc38fb607c12629a" kind="soundboard">
+      <identifier scheme="archive-org">gd95-04-05.sbd.18097.sbeok.shnf</identifier>
+      <lineage>SBD &gt; ? &gt; Cassette &gt; CDr with AUD patches via Darryl Hinko</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jefferson Civic Center Coliseum on 1995-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-75d7daa886162e8e5af8" kind="audience">
+      <identifier scheme="archive-org">gd95-04-05.schoeps.10385.sbeok.shnf</identifier>
+      <lineage>Audience: Schoeps MK4's | Schoeps MK4's &gt; DAT &gt; CDR &gt; EAC 0.9 beta4 &gt; CD Wave &gt; SHN v3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jefferson Civic Center Coliseum on 1995-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Paul B. and Chris Larson</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

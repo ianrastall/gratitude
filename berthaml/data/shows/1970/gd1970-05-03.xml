@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1970-05-03" date="1970-05-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19700503-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-291" nameAsBilled="Foss Hill, Wesleyan University"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="acoustic">
+      <performance id="p01-01" song="s-deep-elem-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-03" song="s-silver-threads-and-golden-needles" transition="unknown"/>
+      <performance id="p01-04" song="s-black-peter" transition="unknown"/>
+      <note>Source section label: Acoustic Set</note>
+    </set>
+    <set kind="set" n="2" mode="electric">
+      <performance id="p02-01" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p02-02" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-03" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-04" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-05" song="s-new-speedway-boogie" transition="unknown"/>
+      <performance id="p02-06" song="s-good-lovin" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-09" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p02-10" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p02-11" song="s-turn-on-your-lovelight" transition="segue"/>
+      <performance id="p02-12" song="s-the-main-ten" transition="segue"/>
+      <performance id="p02-13" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-14" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Electric Set</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-25aa8b0baa2450cabd57" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-05-03.130844.aud.dimetravel-remaster.flac16</identifier>
+      <lineage>Recording Information: unknown stereo(?) recording equipment -&gt; master AUD cassette (NOT a SBD as noted in shnid 9770) -&gt; ? -&gt; unknown generation tape used for shnid 9770 -&gt; CDr &gt; EAC &gt; Soundforge (normalize &amp; pitch correction -&gt; shn -&gt; aiff (xACT) -&gt; flacs; flacs -&gt; TLH -&gt; wavs -&gt; Audacity using right channel for mono signal [fades, manual one-at-a-time glitch, bump, pop, click, dropout &amp; dullspot repairs, volume adjustments, NO equalisation] -&gt; CD Wave (track splits) -&gt; flacs (Trader's Little Helper)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): dimtravel</note>
+    </recording>
+    <recording id="r-dd0d18d6f94a5a4bae7a" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-05-03.aud.cotsman.hoey.130667.flac16</identifier>
+      <lineage>Audience cassette master (not sbd as previously thought) &gt; ? &gt; CDr &gt; EAC &gt; Soundforge - editing &gt; shn &gt; aiff (xACT) &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Cotsman and N. Hoey</note>
+    </recording>
+    <recording id="r-4d9842ecbfc66a0e8568" kind="audience">
+      <identifier scheme="archive-org">gd70-05-03.aud.cotsman.9378.sbeok.shnf</identifier>
+      <lineage>Audience | AUD &gt; MC &gt; ? &gt; Cass &gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Cook and JCotsman</note>
+    </recording>
+    <recording id="r-9b67082c77d61fdb26c3" kind="audience">
+      <identifier scheme="archive-org">gd70-05-03.aud.goldman-sirmick.20852.sbeok.shnf</identifier>
+      <credit role="recordist">Warren White</credit>
+      <lineage>Audience (remastered) | AUD &gt; MR &gt; ? &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jim Goldman and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

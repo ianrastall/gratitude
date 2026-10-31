@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-11-11" date="1971-11-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19711111-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-411" nameAsBilled="Atlanta Municipal Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-04" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-05" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-06" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-07" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p02-02" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p02-03" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-04" song="s-one-more-saturday-night" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="unknown"/>
+      <performance id="p02-06" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-07" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-08" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-09" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-01b7d1d35e61c1d82bd4" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-11.155920.FM.Flegel.flac16</identifier>
+      <lineage>(Bootleg Tape - from FM broadcast) FM-Cassx?&gt;CD&gt;.wav&gt;flac | --Burned direct to CD from Cassette using a ~1989 TC-WE475 Stereo Cassette Deck to a ~2001 Sony CD Burner. Converted raw wav files to 14Hkbps / 44khz using Roxio import Cd function of Roxio Music Creator suite (2009). Pitch Corrected somewhat using Adobe Audtion CC 2018. Tracking, editing and patching using Roxio Sound Editor (2009).</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Atlanta Municipal Auditorium on 1971-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Brian Flegel</note>
+    </recording>
+    <recording id="r-a9e825a1c2d63375a6ff" kind="soundboard">
+      <identifier scheme="archive-org">gd71-11-11.sbd.yubah-dodd.8326.sbeok.shnf</identifier>
+      <lineage>Soundboard | Sbd&gt;MR&gt;?&gt;Dat&gt;cd</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Atlanta Municipal Auditorium on 1971-11-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

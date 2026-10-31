@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-10-13" date="1981-10-13">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19811013-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-823" nameAsBilled="Walter Köbel Halle"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-05" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-06" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-07" song="s-to-lay-me-down" transition="unknown"/>
+      <performance id="p01-08" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-bird-song" transition="segue"/>
+      <performance id="p01-10" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-11" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p02-02" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-03" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-04" song="s-jam" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-spanish-jam" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="segue"/>
+      <performance id="p02-10" song="s-black-peter" transition="segue"/>
+      <performance id="p02-11" song="s-sunshine-daydream" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-satisfaction" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-07ec5da0b85d0553d143" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-10-13.139556.sbd.miller.flac1644</identifier>
+      <lineage>Set 1: SBD -&gt; Cassette Master -&gt; ? -&gt; Dat -&gt; CD (shnid=13143)Set 2: SBD -&gt; Cassette Master (Sony TC-D5M/TDK SA-C90) | Set 1: CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Walter Koebel Halle on 1981-10-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/13/10-13-81-russelheim-germany-walter-kobel-halle/</note>
+    </recording>
+    <recording id="r-50f7a85035232aa9b578" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-10-13.sbd.128542.MrBill.flac16</identifier>
+      <lineage>Recording and transfer info: SBD &gt; MC &gt; C &gt; C (Maxell XL II) C &gt; Pioneer deck &gt; wav &gt; Sound Forge 10 &gt; TLH &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Walter Koebel Halle on 1981-10-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Guarneri</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/13/10-13-81-russelheim-germany-walter-kobel-halle/</note>
+    </recording>
+    <recording id="r-7af7a7e423a5c498f5a6" kind="audience">
+      <identifier scheme="archive-org">gd81-10-13.aud.weiskircher-vernon.7496.sbeok.shnf</identifier>
+      <lineage>Audience Recording | AUD &gt; MR &gt; DAT &gt; CD no mic info</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Walter Koebel Halle on 1981-10-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/13/10-13-81-russelheim-germany-walter-kobel-halle/</note>
+    </recording>
+    <recording id="r-8f499c2d51eff0f77b49" kind="soundboard">
+      <identifier scheme="archive-org">gd81-10-13.sbd.jim.13143.sbefail.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; ?&gt; C&gt; C&gt; WAV&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Walter Koebel Halle on 1981-10-13. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/13/10-13-81-russelheim-germany-walter-kobel-halle/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

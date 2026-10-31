@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-08-30" date="1978-08-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780830-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-727" nameAsBilled="Red Rocks Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-mexicali-blues" transition="segue"/>
+      <performance id="p01-04" song="s-mama-tried" transition="unknown"/>
+      <performance id="p01-05" song="s-stagger-lee" transition="unknown"/>
+      <performance id="p01-06" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-i-need-a-miracle" transition="unknown"/>
+      <performance id="p02-02" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-05" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-if-i-had-the-world-to-give" transition="segue"/>
+      <performance id="p02-09" song="s-iko-iko" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-644bcdc804d96ecce8fb" kind="audience">
+      <identifier scheme="archive-org">gd1978-08-30.145135.sony.ecm270.nak301.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Source Info: 1st Set: Mark Severson's Master Audience Cassettes; Sony ECM-270 mics (row 20, seats 73-75)&gt; Sony TC-158SD (Maxell UDXLII) 2nd Set: Mark Severson's Master Audience Cassettes; Nakamichi 301 mics (row 20, seats 73-75)(patched out of Barry Glassberg) &gt; Sony TC-158SD (Maxell UDXLII) | Transfer Info: Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1978-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role unspecified.</note>
+    </recording>
+    <recording id="r-55ab52451f24a1ede706" kind="audience">
+      <identifier scheme="archive-org">gd1978-08-30.145136.sony.ecm270.nak301.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Source Info: 1st Set: Mark Severson's Master Audience Cassettes; Sony ECM-270 mics (row 20, seats 73-75)&gt; Sony TC-158SD (Maxell UDXLII) 2nd Set: Mark Severson's Master Audience Cassettes; Nakamichi 301 mics (row 20, seats 73-75)(patched out of Barry Glassberg) &gt; Sony TC-158SD (Maxell UDXLII) | Transfer Info: Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1978-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Barry Glassberg; role unspecified.</note>
+    </recording>
+    <recording id="r-0ccb1f5e4c8f26163a7a" kind="unknown">
+      <identifier scheme="archive-org">gd1978-08-30.158131.aud-partial.hicks-fong.flac2448</identifier>
+      <credit role="recordist">concert recording by John Hicks &amp; Dennis Fong</credit>
+      <lineage>Handheld deck (mono) &gt; MAC &gt; 1st-Gen mix tape | TDK-SA &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit-output) &gt; TLH &gt; FLAC 2448 tagged</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1978-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transferred by Andrew F. 09/2022</note>
+    </recording>
+    <recording id="r-09e66ea8404c4d8c4a12" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-08-30.s2.sbd.miller.110151.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (Maxell UDXLI) -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Ampitheatre on 1978-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a8ca2509917631f7ed42" kind="audience">
+      <identifier scheme="archive-org">gd78-08-30.aud.wiley.11479.sbeok.shnf</identifier>
+      <lineage>Audience Recording | AUD&gt;MC&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1978-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-ec31b87eb004dd92fefa" kind="soundboard">
+      <identifier scheme="archive-org">gd78-08-30.set2-sbd.barbella.8038.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MC&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1978-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-06-20" date="1987-06-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870620-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-118" nameAsBilled="William Randolph Hearst Greek Theatre, UC Berkeley"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-loser" transition="unknown"/>
+      <performance id="p01-05" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-06" song="s-bird-song" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-space" transition="segue"/>
+      <performance id="p02-02" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-03" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-04" song="s-deal" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p02-08" song="s-all-along-the-watchtower" transition="segue"/>
+      <performance id="p02-09" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-10" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-11" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-12" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6bad6c4529e3fa01fbc1" kind="audience">
+      <identifier scheme="archive-org">gd1987-06-20.124397.beacon.akg460.flac24</identifier>
+      <credit role="recordist">Danny Thompson</credit>
+      <lineage>Taper: Danny Thompson; Editing: Joe D'Amico; AKG C 460 Mics W/ CK61 Capsules &gt; Uher Cr 240 Tape Deck; Master Tapes &gt; Nak Dragon &gt; Korg MR-1000 &gt; Adobe Audition CS6 &gt; Traders Little Helper; FOB About 9th Row Jerry's Side</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1987-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-7b522585fd2f310120e3" kind="audience">
+      <identifier scheme="archive-org">gd1987-06-20.124398.beacon.akg460.flac16</identifier>
+      <credit role="recordist">Danny Thompson</credit>
+      <lineage>Taper: Danny Thompson; Editing: Joe D'Amico; AKG C 460 Mics W/ CK61 Capsules &gt; Uher Cr 240 Tape Deck; Master Tapes &gt; Nak Dragon &gt; Korg MR-1000 &gt; Adobe Audition CS6 &gt; Traders Little Helper; FOB About 9th Row Jerry's Side</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1987-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-8a82d050a41e46c2281e" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-20.135308.bltz.flac24</identifier>
+      <credit role="recordist">bltz</credit>
+      <lineage>Source: Previously unreleased Cassette original master. Nakamichi CM-300s/CP4 Shotguns -&gt; Sony Walkman Pro/ (Triad Metal-Position MG-X 90 for Set 1 and Maxell MX 90 for Set 2) -&gt; JVC TD-W354 -&gt; Zoom H6 -&gt; WAV 96/24 -&gt; Audacity -&gt; FLAC 96/24; Recorded, tracked and seeded by bltz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1987-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): bltz</note>
+    </recording>
+    <recording id="r-18662d71049d720c35e4" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-20.138260.AKG414.bryant.miller.sirmick.sbeok.flac16</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Source: AKG 414 B/TL cardioids &gt; ORTF &gt; Oade PS &gt; Sony PCM FI &gt; dat (44.1); Recorded by Robert Bryant and provided by Rich Gastwirt; Transfer: Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/44.1; Transfer by Charlie Miller; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick May 2017</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1987-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick and Rich Gastwirt</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2bf140e3b62464eacc9e" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-20.146928.senn441.corso-rossi.ford.sbeok.flac16</identifier>
+      <lineage>Source: MAC; Sennheiser 441s(left of board) &gt; Sony D5 &gt; Maxell XLII90 + Maxell MX90 | Lineage: Master Audience Cassettes&gt; Nakamichi Dragon&gt; Lunatec V3&gt; Lynx AES16&gt; .wav @24/88.2&gt; WaveLab 7.2.1&gt; UAD-2&gt; Crystal Resampler/UV22HR&gt; .wav @16/44.1&gt; xAct&gt; flac16.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1987-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred and mastered by Alex Ford</note>
+    </recording>
+    <recording id="r-2926eaf234d29e822fb1" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-20.akg414.bryant.gems.77988.sbeok.flac16</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>AKG 414 B/TL mics, cardioid pattern with windscreens, ORTF-&gt; Oade PS-&gt; Sony PCM F1 | PCM 601-&gt; Sony DTC2000ES DAT-&gt; M-Audio Delta 410-&gt; Soundforge -&gt; Samplitude Professional V8.01 -&gt; waves X Crackle -&gt; ffe l6</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1987-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rich Gastwirt and Bob Looy</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-2ca550ff14432aa18c08" kind="matrix">
+      <identifier scheme="archive-org">gd1987-06-20.mtx.dts.haugh.93386.flac16</identifier>
+      <lineage>SBD/AUD Matrix Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1987-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Dan Haugh</note>
+    </recording>
+    <recording id="r-fe598db458d3d222d230" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-20.nakcm304.suraci.81744.sbeok.flac16</identifier>
+      <credit role="recordist">Tony Suraci</credit>
+      <lineage>Nak CM304's&gt;Sony D5M | Nak CR5A&gt;Lunatec V3&gt;SD722</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theater on 1987-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-60f745c3f485d7875f52" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-06-20.sbd.miller.93080.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; PCM -&gt; AIFF | AIFF -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1987-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-161c1eedda6c44cf04b1" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-06-20.sbd.walker-scotton.miller.83766.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (TDK MA-XG90/Sony D5) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1987-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-eac4ad3fb519044c4414" kind="matrix">
+      <identifier scheme="archive-org">gd87-06-20.matrix.ladner.11561.sbeok.shnf</identifier>
+      <lineage>SBD/Matrix&gt;Cm&gt;PCM&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1987-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-85341daab7da3b12ecf4" kind="soundboard">
+      <identifier scheme="archive-org">gd87-06-20.sbd.clugston.11943.sbefail.shnf</identifier>
+      <lineage>Master Soundboard Cassette&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1987-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

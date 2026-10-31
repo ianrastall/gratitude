@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-12-16" date="1994-12-16">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19941216-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-1027" nameAsBilled="Los Angeles Memorial Sports Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-02" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-so-many-roads" transition="unknown"/>
+      <performance id="p01-05" song="s-childhood-s-end" transition="unknown"/>
+      <performance id="p01-06" song="s-eternity" transition="segue"/>
+      <performance id="p01-07" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-eyes-of-the-world" transition="unknown"/>
+      <performance id="p02-02" song="s-samba-in-the-rain" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-lucy-in-the-sky-with-diamonds" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-a0df5e51ef0b4e8e449f" kind="audience">
+      <identifier scheme="archive-org">gd1994-12-16.138603.fob.Schoeps.Ammons.Noel.t-flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>flac16/48kHz ; Taper unknown: Schoeps CMC54 &gt; Aerco PS &gt; Marantz DAT; FOB; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel Track, Flac &amp; Pack: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1994-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
+    </recording>
+    <recording id="r-d58bc2fc6250aaa8470f" kind="audience">
+      <identifier scheme="archive-org">gd1994-12-16.141245.mk4.ebel.flac1644</identifier>
+      <lineage>flac16/44.1 Source Info: FOB Schoeps MK 4-&gt; Reutelhuber P/S-&gt; DAT.Transfer Info: Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1).Transfers by Pete Ebel.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1994-12-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-849780522a81a14e1aff" kind="unknown">
+      <identifier scheme="archive-org">gd1994-12-16.153188.sony.bregman.miller.vernon.f1648</identifier>
+      <credit role="recordist">Chris Bregman</credit>
+      <lineage>Chris Bregman's Master DATs; stereo sony mic &gt; dat master | Master DAT Sony PCM-R500 &gt; Tascam DA-3000 (16-bit/48k) &gt; Audacity &gt; Xact &gt; flac1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1994-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer by Charlie Miller Tracking/Tagging by Matt Vernon August 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-fcc36c78881b325dfe66" kind="soundboard">
+      <identifier scheme="archive-org">gd1994-12-16.157721.sbd.set1.beckwith.miller.flac2448</identifier>
+      <credit role="recordist">The cassette was made for Vince Welnick by Dick Latvala</credit>
+      <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite (24-bit/48k) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1994-12-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 1, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
+    </recording>
+    <recording id="r-96e552c125b116fd5ee9" kind="soundboard">
+      <identifier scheme="archive-org">gd1994-12-16.157722.sbd.beckwith.miller.flac1644</identifier>
+      <credit role="recordist">-- The cassette was made for Vince Welnick by Dick Latvala -- Thanks to David Beckwith for supplying the cassette</credit>
+      <lineage>Set 1 Recording Info: SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) Set 2 Recording Info: SBD &gt; DAT Master &gt; DAT Clone (44.1k) | Set 1 Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite (16-bit/44.1k) &gt; FLAC/16 Set 2 Transfer Info: DAT Clone (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1994-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 1, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
+    </recording>
+    <recording id="r-e6d083526660fcb5b942" kind="matrix">
+      <identifier scheme="archive-org">gd1994-12-16.set2.mtx.hansokolow.100297.flac16</identifier>
+      <lineage>matrix of DSBD: shnid=34551 and DAUD: shnid=10543 by hansokolow using ProTools</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Los Angeles Sports Arena on 1994-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): hansokolow</note>
+    </recording>
+    <recording id="r-43fd594650d85c36b690" kind="soundboard">
+      <identifier scheme="archive-org">gd1994-12-16.set2.sbd.lemieux-vernon.34551.sbeok.flac16</identifier>
+      <credit role="recordist">Thanks to Andy Lemieux for the disks</credit>
+      <lineage>DSBD &gt; DAT &gt; [?] &gt; CDR &gt; EAC &gt; CEPro &gt; CDWAV &gt; FLAC (level 8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Los Angeles Sports Arena on 1994-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): EAC etc. by Matt Vernon</note>
+      <note certainty="uncertain">Legacy name match: David Lemieux; role recording.</note>
+    </recording>
+    <recording id="r-e67535784a2a7eace2f2" kind="audience">
+      <identifier scheme="archive-org">gd94-12-16.nak300.wankelswurth.10543.sbeok.shnf</identifier>
+      <credit role="recordist">Henry Wankleswurth</credit>
+      <lineage>Audience: Nakamichi 300 Shotguns | Nak 300 Shotguns &gt; Aiwa DAT &gt; CDR &gt; EAC v0.9 beta4 (secure) &gt; WAV &gt; shntool &gt; SHNv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1994-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

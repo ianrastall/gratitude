@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1969-04-15" date="1969-04-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19690415-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 de7b9e32c210a89466abbc31973ce74b938886b560fd00ee68d570b7490c44e8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-196" nameAsBilled="The Music Box"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p01-02" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-03" song="s-morning-dew" transition="unknown"/>
+      <performance id="p01-04" song="s-hurts-me-too" transition="unknown"/>
+      <performance id="p01-05" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p01-06" song="s-doin-that-rag" transition="unknown"/>
+      <performance id="p01-07" song="s-i-know-it-s-a-sin" transition="unknown"/>
+      <performance id="p01-08" song="s-turn-on-your-lovelight" transition="segue"/>
+      <performance id="p01-09" song="s-drums" transition="segue"/>
+      <performance id="p01-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-sitting-on-top-of-the-world" transition="unknown"/>
+      <performance id="p02-02" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p02-03" song="s-drums" transition="segue"/>
+      <performance id="p02-04" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-05" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p02-06" song="s-dark-star" transition="segue"/>
+      <performance id="p02-07" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-08" song="s-the-eleven" transition="unknown"/>
+      <performance id="p02-09" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-6beebed6c5d235809ab5" kind="unknown">
+      <identifier scheme="archive-org">gd1969-04-15.aud.komar.miller.31523.flac16</identifier>
+      <credit role="recordist">Leon Komar</credit>
+      <lineage>Aiwa hand-held microphone -&gt; Master Reel (Aiwa 5" reel-to-reel) -&gt; Alesis Masterlink 9600 -&gt; Hard Drive -&gt; CD | CD -&gt; EAC -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7538592a439bbebd9aa2" kind="unknown">
+      <identifier scheme="archive-org">gd1969-04-15.aud.sbd-patch.komar.miller.31939.sbeok.flac16</identifier>
+      <credit role="recordist">Leon Komar</credit>
+      <lineage>Aiwa hand-held microphone -&gt; Master Reel (Aiwa 5" reel-to-reel) -&gt; Alesis Masterlink 9600 -&gt; Hard Drive -&gt; CD | CD -&gt; EAC -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-083e175aa06139038fe4" kind="unknown">
+      <identifier scheme="archive-org">gd1969-04-15.dts.danhaugh.34269.flac</identifier>
+      <credit role="recordist">See info file</credit>
+      <lineage>DTS-Audio-5.1 Mix | See info file</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Dan Haugh</note>
+    </recording>
+    <recording id="r-026c141ef13dc7eb8a2b" kind="matrix">
+      <identifier scheme="archive-org">gd1969-04-15.mtx.dan.33952.sbefail.flac16</identifier>
+      <lineage>SBD + AUD Matrix Mix (60%-SBD/40%-AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrixing by Dan Haugh</note>
+    </recording>
+    <recording id="r-989ca0c43d9d39aa5642" kind="unknown">
+      <identifier scheme="archive-org">gd1969-04-15.sbd.oswley.9073.sbeok.shnf</identifier>
+      <lineage>Owsley's Master Sounboard Cassette &gt; cass &gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Kevin Gills</note>
+      <note certainty="uncertain">Legacy name match: Owsley Stanley; role unspecified.</note>
+    </recording>
+    <recording id="r-fa91dbeae223f73df51c" kind="unknown">
+      <identifier scheme="archive-org">gd69-04-15.aud.komar.31672.sbefail.flac16</identifier>
+      <credit role="recordist">Leon Komar</credit>
+      <lineage>portable Aiwa 5" reel-to-reel, stock Aiwa hand-held microphone; "Automatic Volume Control" (compressor/limiter?) switch ON. | AUDMR-&gt;Alesis Masterlink 9600-&gt;HD-&gt;CD-&gt;EAC-&gt;SoundEdit 16-&gt;FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Bob Bihlmayer</note>
+    </recording>
+    <recording id="r-1c51dd6ee6bfcf213faa" kind="audience">
+      <identifier scheme="archive-org">gd69-04-15.aud.miller.31435.sbeok.flacf</identifier>
+      <credit role="recordist">Leon Komar</credit>
+      <lineage>Audience: Aiwa hand-held Microphone | Aiwa hand-held microphone &gt; Master Reel (Aiwa 5 inch reel-to-reel) &gt; Alesis Masterlink 9600 &gt; Hard Drive &gt; CD &gt; EAC &gt; Samplitude Professional v7.02 &gt; shntool &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeremy Garrett, Scott Allan and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-35200001b2fe5f0ea4db" kind="soundboard">
+      <identifier scheme="archive-org">gd69-04-15.sbd.cotsman.6288.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; Bear's MC &gt; ? &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Music Box on 1969-04-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

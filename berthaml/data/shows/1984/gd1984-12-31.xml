@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1984-12-31" date="1984-12-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19841231-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-617" nameAsBilled="San Francisco Civic Auditorium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
+      <performance id="p01-02" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-04" song="s-jack-straw" transition="segue"/>
+      <performance id="p01-05" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-06" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-07" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-sugar-magnolia" transition="segue"/>
+      <performance id="p02-02" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-03" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-04" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-spanish-jam" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-10" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="set" n="3" mode="unknown">
+      <performance id="p03-01" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p03-02" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p03-03" song="s-around-and-around" transition="segue"/>
+      <performance id="p03-04" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Set 3</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-08309a480491e6ae1031" kind="fm">
+      <identifier scheme="archive-org">gd1984-12-31.082395.cpb.IViews.flac1644</identifier>
+      <lineage>WETA FM (Wash. D.C.) -&gt; unknown cassette recorder (MC) MC &gt; Playback on Marantz PRD505 &gt; Marantz Integrated Stereo Amp MP-68 &gt; SB Audigy4 on new P4 machine &gt; Sound Forge normalization &gt; WAV &gt; CDWave &gt; WAVs &gt; Flacfrontend 1.7.1 (level 8) &gt; flacs.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+    </recording>
+    <recording id="r-88952240ca791cdef310" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-12-31.121725.sbd.miller.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette (Maxell XLII-S90) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt;Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-df0cbeb5bd25fb7abd61" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.128592.schoeps.oade.BCE.flac16</identifier>
+      <credit role="recordist">The Oade Brothers</credit>
+      <lineage>Source: Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1; | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav; Mastering by Droncit; No changes to the file except for minor edits, fade-ins/fade-outs, and level changes as needed. One short blank space in Jack Straw cut out for flow. Editing with Diamond Cut Forensics 8 and Forensics 9 (alpha). Paragraphic and Spectral Filters applied for equalization.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Doug Oade</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-379de9460fc3ec761c19" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.140160.fob.schoeps.cmc4.mk41.oade.bryant.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Robert Bryant patched out of Oade Brothers</credit>
+      <lineage>(FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Cassette Master (Sony WM-D6C/Denon DXM-90)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-e3bb46d1c955f95bc3a4" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.140161.fob.schoeps.cmc4.mk41.oade.bryant.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Robert Bryant patched out of Oade Brothers</credit>
+      <lineage>(FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Cassette Master (Sony WM-D6C/Denon DXM-90)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-22f72ac983e7e980eca0" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-12-31.147328.sbd.clugston.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Master Soundboard Cassettes &gt; Sony D6; 1st generation cassettes &gt; PCM &gt; .wav 16/44.1 | Unknown (.wav) &gt; Adobe Audition 2019 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston</note>
+    </recording>
+    <recording id="r-88206fb8d4d34e7db60e" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.148401.fob.neumann.km84i.hecht.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; Neumann KM84i mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8c0445c62f5e32f8139c" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.148402.fob.neumann.km84i.hecht.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Chris Hecht</credit>
+      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; Neumann KM84i mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4df45b83218bbcadbc7d" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.150896.sbd.clugston.flac16</identifier>
+      <lineage>this is a fixed version of shnid147328 (patched "Fire On The Mountain") | Unknown (.wav) &gt; Adobe Audition 2019 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Mastered by Scott Clugston</note>
+    </recording>
+    <recording id="r-2939cb098a66f921268c" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.151277.senn421.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew- Chris Kidwell; Tom Pinney; Kyle Holbrook; JJ Hance; Mike Davis; Johnny B Goode</credit>
+      <lineage>Sennheiser 421's, NORTF, front row balcony 150 feet from stage&gt;Sony TCD5M; Maxell MX 90 w/dolby B Nr second deck in line; patched from Eddie Claridge mics &amp; rig. | Nakamichi LX-5|ESI Juli@ @24/48||WIN10| Audacity| cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-f5511a903abe5b86686b" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.151278.senn421.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew- Chris Kidwell; Tom Pinney; Kyle Holbrook; JJ Hance; Mike Davis; Johnny B Goode</credit>
+      <lineage>Sennheiser 421's, NORTF, front row balcony 150 feet from stage&gt;Sony TCD5M; Maxell MX 90 w/dolby B Nr second deck in line; patched from Eddie Claridge mics &amp; rig. | Nakamichi LX-5|ESI Juli@ @24/48||WIN10| Audacity| cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-362d0a767cfb6e42ba57" kind="matrix">
+      <identifier scheme="archive-org">gd1984-12-31.154657.mtx.tobin.flac16</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f85d78213b2d476061c6" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.154658.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f29479bdd38c99a6a4f3" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.154659.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound (48k) mixed in Adobe Audition CC 2014</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-69c054845e36b73db28d" kind="fm">
+      <identifier scheme="archive-org">gd1984-12-31.165263.fm.mckenzie.miller.sirmick.flac16</identifier>
+      <credit role="recordist">Tim Mckenzie</credit>
+      <lineage>FM Master &gt; TDK-SA C90 | wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX 10 Advanced &gt; iZotope Neutron 3 &gt; iZotope Ozone 9 Maximiser &gt; iZotope RX 10 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac 16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Sirmick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-99389ea2ef0a80c58fcd" kind="fm">
+      <identifier scheme="archive-org">gd1984-12-31.165264.fm.mckenzie.miller.sirmick.flac24</identifier>
+      <credit role="recordist">Tim Mckenzie</credit>
+      <lineage>FM Master &gt; TDK-SA C90 | wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX 10 Advanced &gt; iZotope Neutron 3 &gt; iZotope Ozone 9 Maximiser &gt; CD Wave &gt; Flac 24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Sirmick</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4565c01059d22a12f1d1" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.170341.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e914da2bb32a2312f0db" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.170342.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-261162746658ee948adf" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.akg.keshavan.miller.106684.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>AKG Mics -&gt; Cassette Master (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-8968998655ecac5f7469" kind="fm">
+      <identifier scheme="archive-org">gd1984-12-31.fm.menke.miller.32347.sbeok.flac16</identifier>
+      <lineage>FM -&gt; Master Reel (1/4 Track 7.5ips Dolby B Tandberg Deck) -&gt; Dat D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; Cool Edit Pro v2.0 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Center on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
+    </recording>
+    <recording id="r-619d720e8625acb97553" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.nak100.holtz-bolton.jaz.105154.flac16</identifier>
+      <credit role="recordist">Greg Holtz and Tony Bolton</credit>
+      <lineage>Front Row Balcony, Nakamichi CM-100s w/CP-4 shotgun caps -&gt; Sony TC-D5M | Master Cassettes (Maxell Metalxial MX 90) Tascam 112MKII -&gt; Korg MR-1, 1bit 2.8MHz -&gt; USB -&gt; Korg Audio Gate Software 24bit 96KHz -&gt; Wave Lab 6.0 w/UAD -&gt; R8brain for 16bit 44.1KHz sample rate conversion -&gt; Traders Little Helper flac8 -&gt; Tagged w/Tag &amp; Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): JAZ</note>
+    </recording>
+    <recording id="r-a78cb31f25be019ef0d8" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.nak300.russjcan.96435.sbeok.flac16</identifier>
+      <credit role="recordist">Russ Cansler</credit>
+      <lineage>Nak 300 shotguns w/D6 OTS | MAC&gt;NakCR-3A&gt;HD&gt;Audacity&gt;CDwave&gt;TLH</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Center on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Russ Cansler</note>
+    </recording>
+    <recording id="r-bae3af9206e16161c206" kind="soundboard">
+      <identifier scheme="archive-org">gd1984-12-31.sbd.walker-scotton.miller.106251.flac16</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master -&gt; Cassette (Maxell XLII-S90) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-592b0b8dbd7cd0deb491" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.Senn421.Darby.118305.Flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; SennheiserMD421's (PAS/DFC/OTS Row 4)&gt; Sony TC-D5m,Tapes Sony Metallic; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48 HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-79ea1b0b0abc1a0a0037" kind="audience">
+      <identifier scheme="archive-org">gd1984-12-31.Senn421.Darby.118306.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; SennheiserMD421's (PAS/DFC/OTS Row 4)&gt; Sony TC-D5m,Tapes Sony Metallic; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48 HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-b076b71e6c53005d0888" kind="unknown">
+      <identifier scheme="archive-org">gd1984-12-31.senn421.mccue.ford.82046.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue</credit>
+      <lineage>MAC; 2 Sennheiser 421s &gt; Sony D5 &gt; TDK MA-R 90 (Set I &amp; II) &amp; Maxell MX 90 (Set III) | Master Audience Cassettes &gt; Nakamichi Cassette Deck 2 (azimuth adjusted) &gt; Kind Kables RCA/XLR &gt; Lunatec V3 (24bit/96kHz) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; 24bit/96kHz .wav files (1 per tape side) &gt; Waves L3 UltraMaximizer(dither) &gt; 16bit/44.1kHz &gt; CD Wave Editor &gt; TLH &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Center on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-7fd477a1dc41454d6918" kind="fm">
+      <identifier scheme="archive-org">gd84-12-31.sbd.gorinsky.6395.sbeok.shnf</identifier>
+      <lineage>SB &gt; MR &gt; ?? [apparently FM] &gt; DAT &gt; CDR &gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1984-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+    </recording>
+    <recording id="r-c6f3d2e5fb0ccd42f6b3" kind="unknown">
+      <identifier scheme="other">etree-551868</identifier>
+      <note>Supplied catalogue listing: etree; gd1984-12-31.Senn421.Darby.118306.Flac1644. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

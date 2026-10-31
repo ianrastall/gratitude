@@ -1,0 +1,17 @@
+# Source provenance
+
+`inputs.lock.json` pins every active source snapshot by SHA-256. Builds use these local files and never fetch the network. Source data is evidence; the record status and curation queue express what has been checked.
+
+- `catalogue.xml.gz`: byte-preserved supplied Gratitude catalogue, originally `D:/jupiter/gratitude/data/gd-shows.xml`. Its uncompressed SHA-256 is `616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089`. It contributes 19,297 recording listings, original source references and 531 previously unplaced records. Date-group metadata alone is not proof of a show. The original file is unchanged.
+- `gdshowsdb.json.gz`, `gdshowsdb-lock.json`, `gdshowsdb-LICENSE.txt`: 2,233 licensed factual show records at revision `2ccd86c1f0db284ed1f3967df17f8defc80a387e`. Copyright Jeff Smith; MIT notice retained. This is a comparison source, not an automatic adjudicator of newer research.
+- `jerrybase-index.json`, `jerrybase-facts.json.gz`: identities, venues, section labels, song titles and segue markers from 29 public year-table captures. Each capture records its URL, hash and UTC retrieval time. The active roster uses the 2,234 Public GD events; 443 Canceled and 453 Private events remain separately inventoried. Context prose is not converted into asserted personnel or music; affected records have review issues.
+- `recording-playlists/`: factual original-audio-file metadata from the Archive metadata API. `index.json` pins the normalized snapshots and records success/failure. Files contain actual filenames, supplied titles, track/disc numbers, original-file formats, source credit fields and available durations, plus the raw response hash. Original and derivative audio files are distinguished. No audio is downloaded.
+- `official-release-index.json`: a discovery inventory from the Grateful Dead Family Discography recording-date table. It preserves 1,300 factual date/release associations and identifies 317 live-release page candidates. It does not certify complete edition coverage.
+- `official-playlists/`: compact factual transcriptions for researched official editions, retaining source URLs, dates and page hashes. Original source wording, artwork, lyrics, reviews and liner-note prose are not reproduced.
+- `pre-consolidation.zip`, `pre-consolidation-lock.json`: verified recovery copy of the earlier 2,236-record import, its curation output, the superseded importer/auditor/tests and original README/HANDOFF. These historical files are not a second active corpus.
+- `legacy-identity-map.json`: established source-URL/show-ID associations retained during consolidation. Unresolved early/late associations are not guessed.
+- `recordings.json.gz`, `recordings-lock.json`: the earlier importer’s normalized listing snapshot, retained for historical reproducibility; the active builder reads the preserved supplied XML.
+
+The repository MIT license covers the project code and original contributions; the gdshowsdb license travels with its material. Factual extraction and attribution do not claim ownership of other sites’ scholarship or relicense their prose, artwork, recordings or other protected material. Sources can share upstream research: agreement is not by itself independent verification.
+
+Research sources: [Jerrybase about and credits](https://jerrybase.com/about), [gdshowsdb](https://github.com/jefmsmit/gdshowsdb), [Archive metadata](https://archive.org/metadata/GratefulDead), [Grateful Dead Family Discography](https://www.deaddisc.com/GDFD_Dead_By_Date.htm).

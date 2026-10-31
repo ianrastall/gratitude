@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-09-02" date="1985-09-02">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850902-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-811" nameAsBilled="Zoo Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-04" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-06" song="s-stagger-lee" transition="segue"/>
+      <performance id="p01-07" song="s-iko-iko" transition="unknown"/>
+      <performance id="p01-08" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-10" song="s-hell-in-a-bucket" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-09" song="s-china-doll" transition="segue"/>
+      <performance id="p02-10" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-11" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-day-job" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-fb6c9260a7175849b7ba" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.138386.sbd.miller.flac24</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-997793f188f6c7485b37" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.138397.sbd.miller.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9030f88d27827cf86483" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.142179.pp-aud.darby.tobin.flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Patched &amp; Pitch Corrected Audience (original shnid = 117762) Master Audience Recorded By Mr. Darby; Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin and Keo</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e41e876cdf73beb62851" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.142180.pp-aud.darby.tobin.flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Patched &amp; Pitch Corrected Audience (original shnid = 117762) Master Audience Recorded By Mr. Darby; Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin and Keo</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6502c410e90fb33c0d04" kind="matrix">
+      <identifier scheme="archive-org">gd1985-09-02.142181.mtx.tobin.flac2448</identifier>
+      <lineage>flac24; Matrix 2 Source Mix - SBD (shnid = 138386) Recording Info: SBD &gt; Cassette Master (TDK MA-R90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; All Transfers and Mastering By Charlie Miller + AUD (shnid = 117762) Master Audience Recorded By Mr. Darby; Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e4fc2b90c61e3810b786" kind="matrix">
+      <identifier scheme="archive-org">gd1985-09-02.142182.mtx.tobin.flac1644</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid = 138386) Recording Info: SBD &gt; Cassette Master (TDK MA-R90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; All Transfers and Mastering By Charlie Miller + AUD (shnid = 117762) Master Audience Recorded By Mr. Darby; Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2258c65b31fac146b92d" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.142183.dts.tobin.flac1644</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix; - SBD (shnid = 138386) Recording Info: SBD &gt; Cassette Master (TDK MA-R90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; All Transfers and Mastering By Charlie Miller + AUD (shnid = 117762) Master Audience Recorded By Mr. Darby; Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c2a25d8a72080d153240" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.142184.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 138386) Recording Info: SBD &gt; Cassette Master (TDK MA-R90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; All Transfers and Mastering By Charlie Miller + AUD (shnid = 117762) Master Audience Recorded By Mr. Darby; Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo - surround mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8db74c6f75c9ef686194" kind="unknown">
+      <identifier scheme="archive-org">gd1985-09-02.153038.akgc422.davis-holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Olvy Johnson, Mike Yacavone</credit>
+      <lineage>Recorder: Sony TC-D5M Location: Lawn ~175' from stage This Source: Master AUDCA Maxell MX90 No NR | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-308f0a92aa3fe85ec58b" kind="unknown">
+      <identifier scheme="archive-org">gd1985-09-02.153039.akgc422.davis-holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Olvy Johnson, Mike Yacavone</credit>
+      <lineage>Recorder: Sony TC-D5M Location: Lawn ~175' from stage This Source: Master AUDCA Maxell MX90 No NR | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-bdd50246f6ba458d69b6" kind="unknown">
+      <identifier scheme="archive-org">gd1985-09-02.153040.beyerm201.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Olvy Johnson, Mike Yacavone</credit>
+      <lineage>Microphones: Beyer M201c (Cardioid)XY 90º Recorder: Sony TC-D5M Location: Lawn ~150' from stage This Source: Master AUDCA Maxell MX90 No NR | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-d61254ed55e01aa3f86c" kind="unknown">
+      <identifier scheme="archive-org">gd1985-09-02.153041.beyerm201.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Olvy Johnson, Mike Yacavone</credit>
+      <lineage>Microphones: Beyer M201c (Cardioid)XY 90º Recorder: Sony TC-D5M Location: Lawn ~150' from stage This Source: Master AUDCA Maxell MX90 No NR | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-c19ecefdb4ce50747baf" kind="audience">
+      <identifier scheme="archive-org">gd1985-09-02.154367.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f81e107d5332d57797c3" kind="audience">
+      <identifier scheme="archive-org">gd1985-09-02.154368.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-358fd1b8f20cd8a9d399" kind="audience">
+      <identifier scheme="archive-org">gd1985-09-02.169127.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-47f40c8b5f0792ad4433" kind="audience">
+      <identifier scheme="archive-org">gd1985-09-02.169128.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-21119c7264e71db05650" kind="unknown">
+      <identifier scheme="archive-org">gd1985-09-02.aud.steinkamp.2373.sbeok.shnf</identifier>
+      <credit role="recordist">Glenn Steinkamp</credit>
+      <lineage>? &gt; MC | MC &gt; CD &gt; ?</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Ampitheatre on 1985-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Glenn Steinkamp ?</note>
+    </recording>
+    <recording id="r-c644367b6301cc596cf4" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.Senn421.Darby.117762.Flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-8a406813013be7de20ba" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-09-02.Senn421.Darby.117763.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby Sennheiser MD421's (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tape Sony Metallic; Set 2 Master Tape Broke: Sony TC-D5M&gt;B &amp; O 8002,Tape Maxell XLII; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-88dca2d4ef9f1a5b45f0" kind="audience">
+      <identifier scheme="archive-org">gd1985-09-02.senn441.adam-justin-monica.ford.85981.sbeok.flac16</identifier>
+      <credit role="recordist">Adam, Justin &amp; Monica</credit>
+      <lineage>MAC; (FOB) Sennheiser 441s &gt; Sony D5 &gt; Sony D5 &gt; 2 Maxell MX90s | Master Audience Cassettes &gt; Nakamichi Dragon &gt; Kind Kables RCA/XLR &gt; Lunatec V3 (@ 2496) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; WAV @ 2496 &gt; Waves L2 &gt; WAV @ 1644 &gt; CD Wave Editor &gt; TLH &gt; FLAC16.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheatre on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-0929009065eff949e04e" kind="unknown">
+      <identifier scheme="archive-org">gd85-09-02.aud.leeds.17431.sbeok.shnf</identifier>
+      <lineage>Schoeps CMC34&gt;PCM&gt;DAT&gt;CD-R&gt;?&gt;SHN&gt;MKW&gt;WAVE LAB&gt;MKW&gt;SHN(Seekable)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+    </recording>
+    <recording id="r-123b677783208ff5aa6a" kind="soundboard">
+      <identifier scheme="archive-org">gd85-09-02.sbd.hinko.19475.sbeok.shnf</identifier>
+      <lineage>SBD &gt; MC &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-fc5719cadc3399c3aea4" kind="unknown">
+      <identifier scheme="archive-org">gd85-09-02.schoeps-oade.sacks.26077.sbeok.flacf</identifier>
+      <lineage>Oade Brothers Recording: Schoeps cmc441 (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1 | 9Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav &gt; cdwav &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1985-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

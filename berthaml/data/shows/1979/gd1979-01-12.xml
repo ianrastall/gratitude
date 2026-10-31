@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-01-12" date="1979-01-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19790112-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-187" nameAsBilled="Spectrum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-candyman" transition="unknown"/>
+      <performance id="p01-03" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-04" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-05" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-06" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-07" song="s-passenger" transition="unknown"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p02-03" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
+      <performance id="p02-04" song="s-jam" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-07" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-08" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-39745346431ec46ec662" kind="audience">
+      <identifier scheme="archive-org">gd1979-01-12.132217.aud.wise-claridge.fob.sony.ecm-280.flac16</identifier>
+      <credit role="recordist">Jim Wise and Eddie Claridge</credit>
+      <lineage>flac16/48kHz ; Cassette Audience Master Recorded 12'th Row FOB Dead Center by Eddie Claridge &amp; Jim Wise; Sony ECM 280 Cardioid Condenser Microphones-Stand Mounted-Sony TC 158 Cassette Recorder; Analog-Digital | Dolby B Decoded Cassette Master played back on Nakamichi Dragon-Sony PCM R-700 DAT @ 48 kHz (original A-D by J.W. circa 1991); DAT Master played back on a Sony PCM R-500-Digital Audio Labs Carddeluxe-16 bit 48KHz WAV; Editing(Adobe Audition 3.0)-Mastering &amp; Processing(iZotope Ozone 6)-FLAC encoding(dBpoweramp)-tagging(Tag &amp; Re-name)By J.W. :November 2014</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1979-01-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-e2fed5daa2d0631e0b62" kind="audience">
+      <identifier scheme="archive-org">gd1979-01-12.152537.s2-unknown-onemoreshot.shnf</identifier>
+      <lineage>Unknown audience recording - set 2 only; downloaded from a.b.gd 01/03</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1979-01-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-2b7e8b53b5de067b6a55" kind="audience">
+      <identifier scheme="archive-org">gd1979-01-12.163410.aud.Spectrum.howie.fulton.flac1644</identifier>
+      <credit role="recordist">Howie form Long Island</credit>
+      <lineage>FOB Aud -&gt; CM -&gt; C -&gt; C | D5 &gt; Turtle Beach sound card &gt; Goldwave &gt; WAV &gt; CD CD &gt; dbPoweramp &gt; FLAC 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1979-01-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Mark D Fulton</note>
+    </recording>
+    <recording id="r-038d300c4597c53bd087" kind="unknown">
+      <identifier scheme="archive-org">gd1979-01-12.167729.ShureSM57.Sublette.Noel.Goldey.t-flac2496</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Shure SM57 mics &gt; Sony-TC158 (Dolby ??) &gt; Master Cassettes | Master Cassettes (Set I UDXL-II 90; Set II Sony type 1 C120) &gt; Nak CR-7A &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition &gt; Flac @ 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1979-01-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): DSF Transfer by Mark Goldey Edited &amp; Mastered by Joe Noel May 02, 2024</note>
+    </recording>
+    <recording id="r-a498955b6681c0b58672" kind="audience">
+      <identifier scheme="archive-org">gd79-01-12.claridge.kempka.309.sbeok.shnf</identifier>
+      <credit role="recordist">Eddie Claridge</credit>
+      <lineage>Audience Recording: Sony ECM-280's | Split 30' on the balcony with Sony ECM-280 mics &gt; Sony tc158; FOB Cass. Master &gt; DAT &gt; Soundforge &gt; CDR &gt; Cdparanoia &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1979-01-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-04-16" date="1983-04-16">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830416-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-876" nameAsBilled="Meadowlands Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-06" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-07" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-08" song="s-maybe-you-know" transition="unknown"/>
+      <performance id="p01-09" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p01-10" song="s-touch-of-grey" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="segue"/>
+      <performance id="p02-03" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-04" song="s-truckin" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-black-queen" transition="segue"/>
+      <performance id="p02-09" song="s-iko-iko" transition="segue"/>
+      <performance id="p02-10" song="s-little-star" transition="segue"/>
+      <performance id="p02-11" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-12" song="s-black-peter" transition="segue"/>
+      <performance id="p02-13" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-5da3e63d81556121e8e4" kind="unknown">
+      <identifier scheme="archive-org">gd1983-04-16.117477.daweez.d5scott.Sennheiser421.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Sennheiser 421 microphones &gt; Sony TC-D5M - master analog cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-bd5b31ed1235aa56c775" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.119967.aud.set2.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>Set 2 source: (2) nakamichi 300 fob&gt;d-5&gt;d-5 (mine); conversion: sony tc we435&gt; sbm-1&gt;d-8&gt;sony pcm m-10 96khz/24bit&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96khz/24bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-7b3bf71f5911f8b9abc4" kind="unknown">
+      <identifier scheme="archive-org">gd1983-04-16.119967.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>Updated | Set 2 Only: (2) nakamichi 300 fob&gt; d-5&gt; sony pcm m-10 96khz/24bit&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; Note : Filesets from this seeder had been originally seeded with incorrect sample and/or bitrate due to incorrect transfer procedures</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-dc455794c4b53d20bec6" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-04-16.132874.SBD.Keo.Flac1644</identifier>
+      <lineage>Soundboard Master Cassettes &gt; (Unk) Reel To Reel &gt; Low Gen PCM Early 90's &gt; Sony HG L750 Beta Tape &gt; Sony SL2405 Beta VCR &gt; Modified PCM601ESD &gt; SPDIF &gt; VX Pocket Emphasis Decoded In Neundo Track @ 16/44 Wave; Track Renamed With AudioGate Software V.3.0.2 @ 16/44 Wave; Tracked/Flacked With AudioGate V.3.0.2; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-daf383ee12aef5415106" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.137372.set2.m160.miller.flac24</identifier>
+      <lineage>(FOB) Beyer M160 &gt; Sony TC-D5M &gt; Cassette Master (Sony WM-D6 Patched) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-608be91c1a6bcc515395" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.137376.set2.m160.miller.flac16</identifier>
+      <lineage>(FOB) Beyer M160 &gt; Sony TC-D5M &gt; Cassette Master (Sony WM-D6 Patched) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-67a976bad553664c1f75" kind="matrix">
+      <identifier scheme="archive-org">gd1983-04-16.138225.mtx.dusborne.flac16</identifier>
+      <lineage>2 source matrix by Dusborne; Soundboard (shnid:28294),Recording Info: Set 1: SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat -&gt; CD -&gt; EAC -&gt; WAV -&gt; FLAC; Set 2: SBD -&gt; PCM -&gt; Dat -&gt; Cool Edit Pro -&gt; FLAC -&gt; WAV, Transfer Info: WAV -&gt; Samplitude v7.02 Professional -&gt; FLAC; Audience (shnid:117477), Recorded by The Weasel - "Da Weez" Transferred and mastered to .wav files by D5scott, Source: 2 Sennheiser 421 microphones &gt; Sony TC-D5M - master analog cassettes, | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-01dbb61af7a010d14b43" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.140307.aud.lamarre.berger.flac1644</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; nakamichi 300/cp4 shotguns &gt; sony d5; maxell xlIIs90’s, dolby b; nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT; transferred &amp; seeded - Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-b6463032bc0b25f1cca5" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.140308.aud.lamarre.berger.flac2496</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; nakamichi 300/cp4 shotguns &gt; sony d5; maxell xlIIs90’s, dolby b; nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT; transferred &amp; seeded - Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-0c95a151a4e8488e0a8a" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-04-16.140358.sbd.msc.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Master Soundboard Cassette &gt; Technics Reel To Reel &gt; Panasonic SV-3800 Dat 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-a28c524cbc73b989fb03" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-04-16.140359.sbd.pcm.1p.2.eaton.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Master Soundboard Vault PCM &gt; PCM Clone by Gans</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-2f43ba66adfb6894f599" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.141681.beyerm201-pinney-holbrook.flac1644</identifier>
+      <credit role="recordist">Tom Pinney</credit>
+      <lineage>flac16/44.1 First Gen AUD Cassette: Maxell UDXLI90 set1; Maxell XLII90 set2 Master was: Beyer M201 hypercardiod XY 120ft from stacks DFC-&gt;Sony TCD5M|TDK MA 90 No Dolby | Nakamichi LX-5-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-3b54602bcecc7a32cddd" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.141684.beyerm201-pinney-holbrook.flac2448</identifier>
+      <credit role="recordist">Tom Pinney</credit>
+      <lineage>flac24/48 First Gen AUD Cassette: Maxell UDXLI90 set1; Maxell XLII90 set2 Master was: Beyer M201 hypercardiod XY 120ft from stacks DFC-&gt;Sony TCD5M|TDK MA 90 No Dolby | Nakamichi LX-5-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-0026ce739b7047b473c7" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.143070.set2.m160.miller.flac2496</identifier>
+      <lineage>(FOB) Beyer M160 &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ed654b1818e384c29fcd" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.143273.s2.cm.fob.Beyer-M160.miller.flac1644</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>(FOB) Beyer M160 &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-97b61c052c5bea8ad8e4" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.153497.m160.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Charlie Miller</credit>
+      <lineage>(FOB) Beyer M160 &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-13ef1871cfc344fad3ae" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.154392.fob.beyer.m160.cm.miller.t.flac16</identifier>
+      <credit role="recordist">Charlie Miller</credit>
+      <lineage>(FOB) Beyer M160 &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-da3ef942fcbd117951ad" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.162703.senn421.blend.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; 3 x Sennheiser 421 mics (15th row, center) &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9a1370717fa20258e5e8" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.162704.senn421.blend.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; 3 x Sennheiser 421 mics (15th row, center) &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-87ec85521de89d37fbf0" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-04-16.175517.sbd.bradt.miller.flac2496</identifier>
+      <credit role="recordist">Thanks to Bill Bradt and Kathy Weir Bradt for the tapes</credit>
+      <lineage>Set 1: SBD &gt; Cassette Master &gt; Cassette (dbx) Set 2: SBD &gt; Cassette Master (TDK MA-R90) | Set 1: Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; DxII Codec &gt; Adobe Audition 2025 &gt; Samplitude Pro X6 Suite &gt; FLAC/24 Set 2: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 9, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-38d43c300daeeb0c9f91" kind="audience">
+      <identifier scheme="archive-org">gd1983-04-16.senn421.tom_g.ford.125924.sbeok.flac16</identifier>
+      <credit role="recordist">Tom G.</credit>
+      <lineage>(FOB) Sennheiser 421s &gt; Sony D5 &gt; MAC (from lead deck) &gt; 1st Gen Cassettes (via Mark McCue); Location: (FOB) 8th or 10th row center, chest to head level; Transfer/Lineage: 1st Gen Cassette&gt; Nakamichi Dragon&gt; Lunatec V3(@24/88.2)&gt; Lynx AES16e&gt; WaveLab 7.2.1(UAD-2)&gt; .wav @24/88.2&gt; Apogee UV22HR&gt; .wav @16/44.1&gt; xAct&gt; flac16; Taped by Tom G. Transferred, edited and mastered by Alex Ford</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-b2ed578e88b311e69ede" kind="unknown">
+      <identifier scheme="archive-org">gd1983-04-16.senn421.unknown.32618.sbeok.flac16</identifier>
+      <lineage>Sennheiser 421's &gt; Sony TCD5M &gt; Sony D-6 Master Maxell XLIIS Tape. Location: 4-5 rows up from the back of the floor dead center | Nakamichi CR-2A &gt; Apogee MiniMe (16/44.1) &gt; EGOSYS WT2496 &gt; Soundforge 7</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena, Meadowlands Sports Complex on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-6f386979aaedda6099f6" kind="audience">
+      <identifier scheme="archive-org">gd83-04-16.fob-miller.set2.23851.sbeok.shnf</identifier>
+      <lineage>Audience Partial (set 2 only) - Beyer M160 | (FOB) Beyer M160 -&gt; Sony D5 (Lead Deck) -&gt;Cassette Master (Patched With Sony D6, Maxell XL-II)Transfer Info: Cassette Master (Sony TC-WE475/Azimuth Adjusted) -&gt; Apogee MiniMe (24bit/96k) -&gt; RME Hammerfall Digiface -&gt;Sony V505 -&gt; Samplitude v7.02 Pro</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-aa277558d1bdb9ffe477" kind="audience">
+      <identifier scheme="archive-org">gd83-04-16.rolfe.weiner.7316.sbeok.shnf</identifier>
+      <credit role="recordist">Steve Rolfe</credit>
+      <lineage>Audience | Aud &gt; MC &gt; DAT &gt; CDWAV &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Noah Weiner</note>
+      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
+    </recording>
+    <recording id="r-169a887d5b82eb611f5c" kind="soundboard">
+      <identifier scheme="archive-org">gd83-04-16.sbd.fink.14940.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MC &gt; DAT &gt; CDR &gt; EAC &gt; shntool &gt; mkwACT &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jeff Williams and Alan J Fink</note>
+    </recording>
+    <recording id="r-f039f328a199559d6e33" kind="soundboard">
+      <identifier scheme="archive-org">gd83-04-16.sbd.miller.28294.sbeok.flacf</identifier>
+      <lineage>Patched Soundboard | Set 1: SBD &gt; Cassette Master &gt; Reel &gt; DAT &gt; CD &gt; EAC &gt; WAV &gt; FLAC16; Set 2: SBD &gt; PCM &gt; DAT &gt; Cool Edit Pro &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1983-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

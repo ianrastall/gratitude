@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-03-27" date="1985-03-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850327-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-498" nameAsBilled="Nassau Veterans Memorial Coliseum"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-03" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-04" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-05" song="s-big-river" transition="unknown"/>
+      <performance id="p01-06" song="s-just-like-tom-thumb-s-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-08" song="s-tons-of-steel" transition="unknown"/>
+      <performance id="p01-09" song="s-might-as-well" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="segue"/>
+      <performance id="p02-02" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-07" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-touch-of-grey" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3d7565ffd14c0fb1705f" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.124675.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>lineage: sennheiser 421 (fob)&gt; d-5&gt; mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-d21463ac4211add907de" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.140844.s2.unkown.Bryant.Miller.Noel.t-flac2496</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Set 2 Robert Bryant recording: unknown mics &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Samplitude Professional v11.2.1 &gt; FLAC 24/96; Edited &amp; Mastered w/ Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0b4d074661b29a429522" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.141207.s2.unknown.Bryant.Miller.Noel.t-flac1644</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Set 2 Robert Bryant recording: unknown mics &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Charlie Miller DSD Transfer: Cassette Master (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96; Edited &amp; Mastered w/ Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-536687355f14fdc888ed" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.149303.senn441.hunt.mattes.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+      <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-f3fece8e2bdb85a48972" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.149304.senn441.hunt.mattes.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+      <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-0bc4d795354811ab2a0d" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.149949.akg.dyche.flac1644</identifier>
+      <credit role="recordist">David Dyche</credit>
+      <lineage>AKG 224’s &gt; Sony TCD5M | Nakamichi BX-1 &gt; Sound Devices 744t 24/96 &gt; Sound Forge Pro 11 &gt; Sound Studio &gt; xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Dyche</note>
+    </recording>
+    <recording id="r-62adbbe6c0c5f0d98cf7" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.152065.beyerm201.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew: Tom Pinney; Kyle Holbrook; JJ Hance; Eric Britt</credit>
+      <lineage>Source: Master AUDCA: Beyer M201's XY &gt; Nakamichi 550 &gt; 2nd Sony TCD5M in line &gt; Maxell MX 90s No Dolby -lead deck run by ??. Location: 40 feet from stage DFC, 8 ft up | Transfer: Nakamichi LX5 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-e6f548ede61cc1be65d4" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.152066.beyerm201.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew: Tom Pinney; Kyle Holbrook; JJ Hance; Eric Britt</credit>
+      <lineage>Source: Master AUDCA: Beyer M201's XY &gt; Nakamichi 550 &gt; 2nd Sony TCD5M in line &gt; Maxell MX 90s No Dolby -lead deck run by ??. Location: 40 feet from stage DFC, 8 ft up | Transfer: Nakamichi LX5 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-3bb24d90b7b2364e990f" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.163419.akg451.neumann.u87.blend.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-9a07d5e42af21c5350fd" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.163420.akg451.neumann.u87.blend.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-e4ebab2d258bf4b8e220" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-03-27.164915.sbd.remaster.shnid8567.clugston.flac16</identifier>
+      <lineage>Master Soundboard Cassettes &gt; Cassettes &gt; DAT &gt; CDR (shnid8567)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-6365f1dadde1a5e285bf" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.164921.nak304.thomas.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d0d83278daf57536b6ab" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.164922.nak304.thomas.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2ef4f87698ab01c378f5" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-03-27.169122.set1.sbd.brightman.miller.flac24</identifier>
+      <credit role="recordist">Candace Brightman</credit>
+      <lineage>SBD &gt; Cassette Master (Maxell XL-II90/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2023 &gt; Samplitude Pro X6 Suite &gt; DDi Codec (Dolby B) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 21, 2024</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-db4b721ac5097992b071" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-03-27.169155.Nassau.Uniondale.NY.set1.sbd.brightman.miller.t-flac1648</identifier>
+      <credit role="recordist">Candace Brightman</credit>
+      <lineage>SBD &gt; Cassette Master (Maxell XL-II90/Dolby B) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2023 &gt; Samplitude Pro X6 Suite &gt; DDi Codec (Dolby B) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 21, 2024</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-aa7bb1055d9baa1134b0" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.169426.Nassau.Uniondale.NY.akg.451.guns.master.tartus.t-flac16</identifier>
+      <credit role="recordist">Brian Tartus</credit>
+      <lineage>Bryan Tartus' Master Audience Cassette: 2 AKG 451 Shotguns &gt; D6 (Sony UCX-S90, Dolby B) &gt; Tascam 122 mk III &gt; Cool Edit Pro 2.0 &gt; CDWav &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfer by Chuck Lewis</note>
+    </recording>
+    <recording id="r-7c90f67683bef7951e8d" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.170911.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-54ea0c8006312a5b3807" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.audiotec.damico.87209.sbeok.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>audio tech mics &gt; sony d5 &gt; mac | mac &gt; nak dragon deck &gt; creative extigy souncard&gt;cool edit pro &gt;flac frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-ccef304f201d0e630151" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.beyerm160.d5scott.107391.flac16</identifier>
+      <credit role="recordist">D5scott</credit>
+      <lineage>2 Beyer M160 Microphones &gt; Sony TC-D5M - 25 feet from stage (mic's on a stand @ almost 6 feet) &gt; analog cassette master - Maxell MX90's | Sony TC-D5M (origional record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-f7bdb02c14de86ced335" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.nak300.bmandel.78403.sbeok.shnf</identifier>
+      <credit role="recordist">Brian Mandel</credit>
+      <lineage>Nakamichi 300 Shotguns CP4's &amp; Sony TCD5M | Master Casssette Transfer: Nakamichi BX300-&gt; Macintosh -&gt;Peak Bias-&gt;JAM-&gt;cdr-&gt;EAC-&gt;MKW-&gt;shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brian Mandel</note>
+    </recording>
+    <recording id="r-491927c40565afaeadd0" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.nak300.lane-barfield.103144.flac24</identifier>
+      <credit role="recordist">Dave Barfield and David Lane</credit>
+      <lineage>nak300/cp4 (ots, 12') &gt; sony tcd5m &gt; tdk-ma (dolby on, master) | tcd5m (same as recorder) &gt; minime (24/96) &gt; sd744 &gt; audacity &gt; xact (flac)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Barfield</note>
+    </recording>
+    <recording id="r-e52af027297d23f4952b" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-27.nak300.morris.106784.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-87b7bfb3da999cb8c453" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-27.senn421.mccue.ford.34778.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue, Adam, Monica, Johnny Kelly and Davey the beeker meade</credit>
+      <lineage>MAC: (FOB) 2 Sennheiser 421's &gt; Sony D5 &gt; TDK MA90's | MAC: Nakamichi CD2(azimuth adjusted)&gt;RCA&gt;Audiophile 2496&gt;WinXP Pro&gt;CEP 2.0&gt;CD Wave Editor&gt;Flac Frontend&gt;FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-25b5ea00359ec17e3d5a" kind="audience">
+      <identifier scheme="archive-org">gd85-03-27.aud.vernon.7369.sbeok.shnf</identifier>
+      <lineage>PCM AUD (unknown taper/mics)&gt; PCM&gt; DAT&gt; CDR(1)&gt; SHN, big thanks to David Minches for the seed (had been marked unknown aud); via Scott Zarnegar; Matt Vernon</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e34be94fec658d1642f7" kind="unknown">
+      <identifier scheme="archive-org">gd85-03-27.oade-schoeps.sacks.23442.sbeok.flacf</identifier>
+      <credit role="recordist">Oade Brothers</credit>
+      <lineage>Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1 | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav &gt; cdwav &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Doug Oade - Darren Sacks</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    </recording>
+    <recording id="r-9ed1848443fa2e73ce0f" kind="soundboard">
+      <identifier scheme="archive-org">gd85-03-27.sbd.ladner.8567.sbeok.shnf</identifier>
+      <lineage>SBD&gt; MC&gt; C&gt; DAT&gt; CDR&gt; WAV&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1985-03-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

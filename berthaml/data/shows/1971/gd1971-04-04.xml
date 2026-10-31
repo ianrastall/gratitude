@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-04-04" date="1971-04-04">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710404-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-377" nameAsBilled="Manhattan Center"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-next-time-you-see-me" transition="unknown"/>
+      <performance id="p01-04" song="s-morning-dew" transition="unknown"/>
+      <performance id="p01-05" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p01-06" song="s-loser" transition="unknown"/>
+      <performance id="p01-07" song="s-easy-wind" transition="unknown"/>
+      <performance id="p01-08" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p01-09" song="s-greatest-story-ever-told" transition="segue"/>
+      <performance id="p01-10" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-truckin" transition="unknown"/>
+      <performance id="p02-02" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p02-03" song="s-deal" transition="unknown"/>
+      <performance id="p02-04" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-05" song="s-casey-jones" transition="unknown"/>
+      <performance id="p02-06" song="s-good-lovin" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-09" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-10" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-12" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-0784caf3945d189fdba0" kind="soundboard">
+      <identifier scheme="archive-org">gd1971-04-04.178875.sbd.miller.flac1644</identifier>
+      <lineage>SBD &gt; Master Reel &gt; CD | CD &gt; Adobe Audition v3.0 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 16, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7ab20e989621baa21e4e" kind="unknown">
+      <identifier scheme="archive-org">gd1971-04-04.sbd.GEMS.35252.flac16</identifier>
+      <lineage>MSR&gt;C&gt;DAT3x&gt;Delta DiO 2496&gt;SoundForge 7.0&gt;cdwav&gt;Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): GEMS</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-cd5a172955852b36a981" kind="soundboard">
+      <identifier scheme="archive-org">gd1971-04-04.sbd.miller.110325.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; CD | CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-68c4d4196f5fb95a24ef" kind="unknown">
+      <identifier scheme="archive-org">gd1971-04-04.sbd.sirmick.76807.sbeok.flac16</identifier>
+      <lineage>MSR &gt; C &gt;DAT3 &gt; Delta DiO 2496 &gt; SoundForge 7.0 &gt; cdwav &gt; flac &gt; wav &gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): this is a partial clean up of shnid 35252 by SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f9a5b5a98f05a1d07d7c" kind="audience">
+      <identifier scheme="archive-org">gd71-04-04.aud.cotsman.10358.sbeok.shnf</identifier>
+      <lineage>Audience | AUD &gt; ? &gt; Cass &gt; Sound Forge &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Walter Schnell and JCotsman</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

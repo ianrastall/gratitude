@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<show xmlns="urn:berthaml:1" id="gd1970-05-02" date="1970-05-02" schemaVersion="1.0">
+
+  <record status="draft" updated="2026-10-30">
+    <cite title="Grateful Dead of the Day: 05-02-1970" href="https://gratefuldeadoftheday.com/05-02-1970/" accessed="2026-10-30">Setlist, set divisions, segues, Cold Rain and Snow placement, NRPS set placement.</cite>
+    <cite title="DeadDisc: Dick's Picks Volume 8" href="https://deaddisc.com/disc/Dicks_Pick_8.htm" accessed="2026-10-30">Musicians and instruments.</cite>
+    <cite title="Wikipedia: Dick's Picks Volume 8" href="https://en.wikipedia.org/wiki/Dick%27s_Picks_Volume_8" accessed="2026-10-30">Segues after Beat It On Down The Line and Candyman.</cite>
+    <cite title="Gratefulweb: The 40th Anniversary of the Grateful Dead at Harpur College" href="https://www.gratefulweb.com/?p=574276" accessed="2026-10-30">Audience remarks during the acoustic set.</cite>
+    <cite title="Grateful Dead Archive Online item 245121" href="https://www.gdao.org/items/show/245121" accessed="2026-10-30">archive.org identifier of the soundboard source.</cite>
+  </record>
+
+  <venue ref="v-harpur-college"/>
+
+  <bill>
+    <act name="Grateful Dead" self="true" role="headliner"/>
+    <act name="New Riders of the Purple Sage" role="support">
+      <participant person="p-garcia" certainty="probable">
+        <instrument>pedal-steel-guitar</instrument>
+      </participant>
+    </act>
+  </bill>
+
+  <lineup>
+    <player person="p-garcia">
+      <instrument>electric-guitar</instrument>
+      <instrument>vocals</instrument>
+    </player>
+    <player person="p-weir">
+      <instrument>electric-guitar</instrument>
+      <instrument>vocals</instrument>
+    </player>
+    <player person="p-lesh">
+      <instrument>electric-bass</instrument>
+      <instrument>vocals</instrument>
+    </player>
+    <player person="p-kreutzmann">
+      <instrument>drums</instrument>
+    </player>
+    <player person="p-hart">
+      <instrument>drums</instrument>
+    </player>
+    <player person="p-mckernan">
+      <instrument>organ</instrument>
+      <instrument>harmonica</instrument>
+      <instrument>vocals</instrument>
+    </player>
+  </lineup>
+
+  <program coverage="complete">
+
+    <set kind="set" n="1" mode="acoustic">
+      <personnelChanges>
+        <change person="p-garcia">
+          <instrument>acoustic-guitar</instrument>
+          <instrument>vocals</instrument>
+        </change>
+        <change person="p-weir">
+          <instrument>acoustic-guitar</instrument>
+          <instrument>vocals</instrument>
+        </change>
+      </personnelChanges>
+      <event id="s1-00" kind="tuning"/>
+      <performance id="s1-01" song="s-dont-ease-me-in" transition="stop"/>
+      <performance id="s1-02" song="s-i-know-you-rider" transition="stop"/>
+      <performance id="s1-03" song="s-friend-of-the-devil" transition="stop"/>
+      <performance id="s1-04" song="s-dire-wolf" transition="stop"/>
+      <performance id="s1-05" song="s-beat-it-on-down-the-line" transition="segue"/>
+      <performance id="s1-06" song="s-black-peter" transition="stop"/>
+      <performance id="s1-07" song="s-candyman" transition="segue"/>
+      <performance id="s1-08" song="s-cumberland-blues" transition="stop"/>
+      <performance id="s1-09" song="s-deep-elem-blues" transition="stop"/>
+      <performance id="s1-10" song="s-cold-jordan" transition="stop">
+        <note>Sources say members of the New Riders of the Purple Sage joined; which members is not yet researched.</note>
+      </performance>
+      <performance id="s1-11" song="s-uncle-johns-band" transition="stop"/>
+      <note>Participation of Lesh, Kreutzmann, Hart and McKernan in the acoustic set has not been researched; the inherited lineup is unverified for this set.</note>
+      <note>During the acoustic set Garcia and Weir ask the audience to quiet down.</note>
+    </set>
+
+    <set kind="set" n="2" mode="electric">
+      <performance id="s2-01" song="s-st-stephen" transition="segue"/>
+      <performance id="s2-02" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="s2-03" song="s-drums" transition="segue">
+        <personnel>
+          <player person="p-kreutzmann"><instrument>drums</instrument></player>
+          <player person="p-hart"><instrument>drums</instrument></player>
+        </personnel>
+      </performance>
+      <performance id="s2-04" song="s-the-other-one" transition="segue"/>
+      <performance id="s2-05" song="s-cryptical-envelopment" transition="segue" continues="s2-02"/>
+      <performance id="s2-06" song="s-cosmic-charlie" transition="stop"/>
+      <performance id="s2-07" song="s-casey-jones" transition="stop"/>
+      <performance id="s2-08" song="s-good-lovin" transition="segue"/>
+      <performance id="s2-09" song="s-drums" transition="segue">
+        <personnel>
+          <player person="p-kreutzmann"><instrument>drums</instrument></player>
+          <player person="p-hart"><instrument>drums</instrument></player>
+        </personnel>
+      </performance>
+      <performance id="s2-10" song="s-good-lovin" transition="stop" continues="s2-08"/>
+      <performance id="s2-11" song="s-cold-rain-and-snow" transition="stop"/>
+      <performance id="s2-12" song="s-its-a-mans-mans-mans-world" transition="stop"/>
+      <performance id="s2-13" song="s-dancing-in-the-street" transition="stop"/>
+    </set>
+
+    <set kind="set" n="3" mode="electric">
+      <performance id="s3-01" song="s-morning-dew" transition="stop"/>
+      <performance id="s3-02" song="s-viola-lee-blues" transition="segue"/>
+      <performance id="s3-03" song="s-feedback" transition="segue"/>
+      <performance id="s3-04" song="s-we-bid-you-goodnight" mode="a-cappella" transition="stop"/>
+    </set>
+
+  </program>
+
+  <sources>
+    <recording id="rec-sbd-gems" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-05-02.sbd.BEAR.gems.108673.flac24</identifier>
+    </recording>
+    <release ref="rel-dicks-picks-08" coverage="partial"/>
+  </sources>
+
+  <note>The New Riders of the Purple Sage set fell between the acoustic set and the second set.</note>
+  <note>Dick's Picks Volume 8 omits Cold Rain and Snow.</note>
+
+</show>

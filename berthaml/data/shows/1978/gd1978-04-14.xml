@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-04-14" date="1978-04-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780414-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-713" nameAsBilled="Cassell Coliseum, Virginia Tech"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-big-river" transition="unknown"/>
+      <performance id="p01-05" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-06" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-08" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-09" song="s-dupree-s-diamond-blues" transition="unknown"/>
+      <performance id="p01-10" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-03" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
+      <performance id="p02-04" song="s-drums" transition="segue"/>
+      <performance id="p02-05" song="s-space" transition="segue"/>
+      <performance id="p02-06" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-07" song="s-black-peter" transition="segue"/>
+      <performance id="p02-08" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-cec0ded2122d23ec2b0f" kind="audience">
+      <identifier scheme="archive-org">gd1978-04-14.147789.shure.sm57.sublette.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cassell Coliseum, Virginia Polytechnic on 1978-04-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1c8b0d58ab401825496a" kind="audience">
+      <identifier scheme="archive-org">gd1978-04-14.147790.shure.sm57.sublette.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cassell Coliseum, Virginia Polytechnic on 1978-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-90df6c9db2ff8e288536" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-14.148291.sbd.betty.dalton.miller.sirmick.flac16</identifier>
+      <credit role="recordist">Betty Cantor;Tim Dalton</credit>
+      <lineage>Source: SBD Master Reel (7" two track @ 7 1/2 ips - recorded by Betty Cantor) &gt; PCM501ES @ 44.055 kHz &gt; DAT (44k) - From the Tim Dalton collection. | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16-bit/44.1k - Transferred by Charlie Miller Lineage: wav &gt; Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cassell Coliseum, Virginia Polytechnic on 1978-04-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1a747f346a08b4760a02" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-14.149542.BettyBoard.Anon.Noel.t-flac16</identifier>
+      <credit role="recordist">Betty Cantor</credit>
+      <lineage>Source: Betty Cantor’s SBD Reel Master &gt; Beta tape &gt; Beta VCR &gt; PCM | Transfer: PCM &gt; Sony PCM601esd spdif out &gt; VX Pocket/Laptop &gt; Nuendo &gt; Waves q10 &gt; WAV 16/44</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cassell Coliseum, Virginia Polytechnic on 1978-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): PCM provided by anonymous, while hiding out away from the Bay Area. Edited &amp; Mastered using Adobe Audition by Joe Noel April 12, 2020</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
+    </recording>
+    <recording id="r-57f71e3ddfa63cee5296" kind="soundboard">
+      <identifier scheme="archive-org">gd1978-04-14.sbd.miller.83717.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k) D | Dat -&gt; CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cassell Coliseum - Virginia Polytechnic Institute and State University on 1978-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-193ff6d3a4a21b45b4c9" kind="soundboard">
+      <identifier scheme="archive-org">gd78-04-14.sbd.clugston.7251.sbefail.shnf</identifier>
+      <lineage>Soundboard | Betty's 7 inch, 2 track, Master Soundboard Reels&gt; PCM x2&gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Coliseum, Virginia Polytechnic U on 1978-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

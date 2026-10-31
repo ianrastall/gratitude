@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-12-19" date="1993-12-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19931219-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-wang-dang-doodle" transition="unknown"/>
+      <performance id="p01-03" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-04" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-05" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-07" song="s-bird-song" transition="segue"/>
+      <performance id="p01-08" song="s-promised-land" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-so-many-roads" transition="unknown"/>
+      <performance id="p02-05" song="s-truckin" transition="segue"/>
+      <performance id="p02-06" song="s-smokestack-lightning" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-10" song="s-the-days-between" transition="segue"/>
+      <performance id="p02-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-213456716d6aabb03b8b" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-12-19.sbd.miller.91963.sbeok.flac16</identifier>
+      <credit role="recordist">Thanks to Paul Scotton for the discs</credit>
+      <lineage>SBD -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-6b3b39bd81a13849b33a" kind="soundboard">
+      <identifier scheme="archive-org">gd1993-12-19.sedt1-aud.set2-sbd.ladner.10112.shnf</identifier>
+      <lineage>Set 1: FOB AUD (unk. mic) &gt; DAT &gt; CDR; Set 2: SBD&gt;MC&gt;DAT&gt;ZA2&gt;CDR;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Chris Ladner</note>
+    </recording>
+    <recording id="r-2615ec03859b93e270e6" kind="unknown">
+      <identifier scheme="archive-org">gd1993-12-19.set2-neumann.larson.28883.shn</identifier>
+      <lineage>Neuman KM 140's&gt;DAT(48kHz) | DAT&gt;ZA2(S/PDIF)&gt;Samplitude2496&gt;CD-r (or shn)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Larson</note>
+    </recording>
+    <recording id="r-0410e286669bb839332a" kind="audience">
+      <identifier scheme="archive-org">gd93-12-19.aud.vernon.7349.sbeok.shnf</identifier>
+      <lineage>Audience: Unknown Mics | Unknown Mics (FOB) &gt; DAT &gt; ? &gt; CDR &gt; EAC (secure) &gt; shntool &gt; mkwACT &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-45e579f0c643c9c0ef23" kind="soundboard">
+      <identifier scheme="archive-org">gd93-12-19.sbd.braverman.12573.sbeok.shnf</identifier>
+      <lineage>Set 1: SBD&gt;DAT&gt; Cassette&gt; DAT&gt; CD&gt; SHNSet 2: SBD&gt;MC&gt;DAT&gt;ZA2&gt;CDR&gt;WAV&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

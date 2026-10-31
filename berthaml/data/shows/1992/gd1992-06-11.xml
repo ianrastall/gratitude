@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1992-06-11" date="1992-06-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19920611-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 44d1b39e1ad19cb4216f350210d1af46c8065421deaeaa31d0befdf75ae0aba8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-986" nameAsBilled="Knickerbocker Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="unknown"/>
+      <performance id="p01-02" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-04" song="s-queen-jane-approximately" transition="unknown"/>
+      <performance id="p01-05" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-06" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-07" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-08" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-foolish-heart" transition="unknown"/>
+      <performance id="p02-02" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-03" song="s-uncle-johns-band" transition="segue"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-quinn-the-eskimo" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-f84077f10be7dd0b28c4" kind="audience">
+      <identifier scheme="archive-org">gd1992-06-11.134956.Nak300CP4.Fitzy.Keo.Flac1644</identifier>
+      <credit role="recordist">Fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes: Set 1 Maxell MX-S 90, Set 2 Maxell MX-S 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.0.4 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-9cee76bc6fd248929dbe" kind="audience">
+      <identifier scheme="archive-org">gd1992-06-11.134957.Nak300CP4.Fitzy.Keo.Flac2496</identifier>
+      <credit role="recordist">Fitzy</credit>
+      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes: Set 1 Maxell MX-S 90, Set 2 Maxell MX-S 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.0.4 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-3e3488ffcfa41244bfa6" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.137459.nak300.boedicker.flac16</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source: Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony TC-D5M Cassette Deck&gt;Sony WM-D6C Cassette Deck (Maxell MX-90 Minute Metal Tapes,1st Set,Sony SR-100 Minute Metal Tapes,2nd Set)&gt;Sony TC-D5M Cassette Deck (Playback)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8, Sector Boundaries Aligned Using Traders Little Helper.Taped By Dave Boedicker,1st Row Official Taping Section</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-ac1743233778e7debe49" kind="audience">
+      <identifier scheme="archive-org">gd1992-06-11.137754.aud.lamarre.berger.flac16</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; sennheiser 441’s &gt; sony d5; maxell mx-90/100’s, dolby b; OTS; nakamichi dragon/b &gt; benchmark adc1 @ 24/96&gt;fission&gt; adobe audition cc&gt; xACT flac; transferred - Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-88598303a5003b6807cf" kind="audience">
+      <identifier scheme="archive-org">gd1992-06-11.137755.aud.lamarre.berger.flac24</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master; taped by Doug Lamarre; sennheiser 441’s &gt; sony d5; maxell mx-90/100’s, dolby b; OTS; nakamichi dragon/b &gt; benchmark adc1 @ 24/96&gt;fission&gt; adobe audition cc&gt; xACT flac; transferred - Rob Berger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-22b30cf0e4a789c94946" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.139452.akg568.flac2448</identifier>
+      <credit role="recordist">Bob Block</credit>
+      <lineage>AKG 568s -&gt; Oade Power Supply &gt; Casio DA-7 Portable DAT Deck -&gt; Sony PCM-R500 Deck -&gt; Hosa ODL-312 Optical AES/EBU Link -&gt; Audacity on a Macintosh, all digital end-to-end. Front row tapers, center section; Taped by Bob Block, tracked and seeded by bltz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): bltz</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-82b3dc5034d2e337209c" kind="audience">
+      <identifier scheme="archive-org">gd1992-06-11.149564.set1.fob.BK4011.ebel.flac16</identifier>
+      <credit role="recordist">Most Likely Taped By Clay Brennecke</credit>
+      <lineage>FOB B&amp;K 4011-&gt; Sony D10 Pro II-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Transfers by Pete Ebel April 5, 2020</note>
+    </recording>
+    <recording id="r-a1148d6661dc4c29eebc" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.149565.ts.schoeps34.travitz.ebel.flac16</identifier>
+      <credit role="recordist">Taped By Jeff Travitz</credit>
+      <lineage>TS: Schoeps CMC3 MK4-&gt; Panasonic SV255-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transfers by Pete Ebel April 5, 2020</note>
+    </recording>
+    <recording id="r-d69dddca076fe6795df6" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-06-11.152717.sbd.miller.flac2448</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette (Tascam 122mkIII/TDK SA-X100) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite (24-bit/48k) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 23, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-686a292805a8f6d739bd" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-06-11.154484.sbd.cm.miller.t.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette (Tascam 122mkIII/TDK SA-X100) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite (24-bit/48k) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 23, 2021</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-87dbc4cd3bfa9f70c780" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.165914.me88.dat.rogosa.flac1648</identifier>
+      <credit role="recordist">Dan Rogosa</credit>
+      <lineage>2x Senn ME88s (stand, OTS) &gt; TCD-D3 by Dan Rogosa | Transfer: MDAT &gt; Fostex D-15 &gt; Tascam DA-3000 &gt; WAV @ 16/48 Master: Wavelab 11 (tracking, fades, remove DC offset) &gt; FLAC 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e9b622a28c52dd8b39a6" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.165915.me88.mc.rogosa.flac2496</identifier>
+      <credit role="recordist">Dan Rogosa</credit>
+      <lineage>2x Senn ME88s (stand, OTS) &gt; TCD-D3 by Dan Rogosa | Transfer: MC (MX-90, 100) &gt; Nak CR-7A (no Dolby) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 11 (pitch correction, levels, DDI Codec (Dolby B @ -32.5 dBFS), patch, EQ) &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mark Goldey</note>
+    </recording>
+    <recording id="r-cfeb87ce79097b9ccba9" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.165916.me88.mc.rogosa.flac1644</identifier>
+      <credit role="recordist">Dan Rogosa</credit>
+      <lineage>2x Senn ME88s (stand, OTS) &gt; TCD-D3 by Dan Rogosa | Transfer: MC (MX-90, 100) &gt; Nak CR-7A (no Dolby) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 11 (pitch correction, levels, DDI Codec (Dolby B @ -32.5 dBFS), patch, EQ, resample, Lin dither) &gt; FLAC 1644</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mark Goldey</note>
+    </recording>
+    <recording id="r-2d2d38b383a4aabe313e" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.168983.fixed.165915.me88.mc.rogosa.flac2496</identifier>
+      <credit role="recordist">Dan Rogosa</credit>
+      <lineage>2x Senn ME88s (stand, OTS) &gt; TCD-D3 &gt; line out &gt; TC-D5 (Dolby B) taped by Dan Rogosa | &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 11 (pitch correction, levels, DDI Codec (Dolby B @ -27.9 dBFS), patch) &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Mark Goldey</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-12ce163571127bcc5d12" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.168984.fixed.165916.me88.mc.rogosa.flac1644</identifier>
+      <credit role="recordist">Dan Rogosa</credit>
+      <lineage>2x Senn ME88s (stand, OTS) &gt; TCD-D3 &gt; line out &gt; TC-D5 (Dolby B) taped by Dan Rogosa | Transfer: MC (MX-90, 100) &gt; Nak CR-7A (no Dolby) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 11 (pitch correction, levels, DDI Codec (Dolby B @ -27.9 dBFS), patch, resample, Lin dither) &gt; FLAC 1644</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller, Mark Goldey</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-815f7e61bff443afcf25" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.nak.boedicker.116122.flac16</identifier>
+      <credit role="recordist">Dave Boedicker</credit>
+      <lineage>Source:Sony D6 Cassette Master(Dolby B On)&gt;Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony TC-D5M Cassette Deck(Playback,Dolby Off)&gt;Cd Wav Editor&gt;Traders Little Helper&gt;Flac Level 8. Sector Boundaries Aligned Using Traders Little Helper. Taped 1st Row Official Tapers Section.Taped By Dave Boedicker</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Dave Boedicker</note>
+    </recording>
+    <recording id="r-e953b1b0c79d351694df" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.nak300.andrewf.86034.sbeok.flac16</identifier>
+      <credit role="recordist">Andrew F</credit>
+      <lineage>Nakamichi CM-300's with CP-4 shotgun capsules &gt; Casio DA-7 &gt; Sony DG-Dat tape. Mics on 7-foot stand in OTS. | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (48kHz) &gt; CD-Wave &gt; R8Brain (44.1kHz) &gt; TLH &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-79ccb4356cae58dcac25" kind="audience">
+      <identifier scheme="archive-org">gd1992-06-11.nak300.baker-keo.sirmick.110978.flac24</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Source: Audience Recording &gt; Nakamichi CM300 with CP4 caps &gt; Sony D6 &gt; MAC (1 x Maxell MX-S100 + 1 x MX-S90); | MAC &gt; Nakamichi MR-1&gt; Dolby B &gt; Korg MR 100 @ 1Bit/5.6 MHz &gt; AudioGate &gt; 24/96 wav&gt; Adobe Audition 1.5 &gt; Wavelab 6 (with iZotope Ozone) &gt; CD Wave &gt; TLH &gt; Flac 24 taped by Baker and transferred by Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c9a050849020507c452e" kind="audience">
+      <identifier scheme="archive-org">gd1992-06-11.nak300.baker-keo.sirmick.110979.sbeok.flac16</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Source: Audience Recording &gt; Nakamichi CM300 with CP4 caps &gt; Sony D6 &gt; MAC (1 x Maxell MX-S100 + 1 x MX-S90); | MAC &gt; Nakamichi MR-1&gt; Dolby B &gt; Korg MR 100 @ 1Bit/5.6 MHz &gt; AudioGate &gt; 24/96 wav&gt; Adobe Audition 1.5 &gt; Wavelab 6 (with iZotope Ozone) &gt; iZotope RX Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; taped by Baker and transferred by Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo and SIRMick</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f45bec4f794bf02245e2" kind="unknown">
+      <identifier scheme="archive-org">gd1992-06-11.nakcm300.andrewf.86035.flac1648</identifier>
+      <credit role="recordist">Andrew F</credit>
+      <lineage>Nakamichi CM-300's with CP-4 shotgun capsules &gt; Casio DA-7 &gt; Sony DG-Dat tape. Mics on 7-foot stand in OTS. | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-9972e8e5119538854224" kind="soundboard">
+      <identifier scheme="archive-org">gd1992-06-11.sbd.miller.90105.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Dat -&gt; Cassette Master (TDK SA-X100) D | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6506503a58b0704c95a1" kind="audience">
+      <identifier scheme="archive-org">gd92-06-11.aud.vernon.18581.sbeok.shnf</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Audience Recording | AUD(unknown mics)&gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-3dce33464734e67ea75b" kind="soundboard">
+      <identifier scheme="archive-org">gd92-06-11.sbd.ladner.8069.sbeok.shnf</identifier>
+      <lineage>sbd&gt; dat&gt; cass&gt; dat&gt; cdr&gt; wav&gt; shnv3</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Knickerbocker Arena on 1992-06-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

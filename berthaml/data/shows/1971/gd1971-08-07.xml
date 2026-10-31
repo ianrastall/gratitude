@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-08-07" date="1971-08-07">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710807-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+  </record>
+  <venue ref="v-jb-397" nameAsBilled="Community Concourse Golden Hall"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-02" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-03" song="s-mr-charlie" transition="unknown"/>
+      <performance id="p01-04" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-05" song="s-mama-tried" transition="unknown"/>
+      <performance id="p01-06" song="s-bertha" transition="unknown"/>
+      <performance id="p01-07" song="s-big-boss-man" transition="unknown"/>
+      <performance id="p01-08" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-09" song="s-hard-to-handle" transition="unknown"/>
+      <performance id="p01-10" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-11" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-truckin" transition="unknown"/>
+      <performance id="p02-02" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-03" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-04" song="s-next-time-you-see-me" transition="unknown"/>
+      <performance id="p02-05" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-06" song="s-sing-me-back-home" transition="unknown"/>
+      <performance id="p02-07" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p02-08" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-09" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-10" song="s-jam" transition="segue"/>
+      <performance id="p02-11" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

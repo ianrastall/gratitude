@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-09-17" date="1973-09-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19730917-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-407" nameAsBilled="Onondaga County War Memorial"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-02" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-05" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-loser" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-09" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p01-10" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-11" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-12" song="s-you-ain-t-woman-enough" transition="unknown"/>
+      <performance id="p01-13" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-14" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-mississippi-half-step" transition="unknown"/>
+      <performance id="p02-02" song="s-let-me-sing-your-blues-away" transition="unknown"/>
+      <performance id="p02-03" song="s-truckin" transition="segue"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-weather-report-suite-prelude" transition="segue"/>
+      <performance id="p02-06" song="s-weather-report-suite-part-1" transition="segue"/>
+      <performance id="p02-07" song="s-let-it-grow" transition="segue"/>
+      <performance id="p02-08" song="s-stella-blue" transition="unknown"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-787a626ecbe56a549bc9" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-09-17.150977.sbd.patched.miller.flac1644</identifier>
+      <credit role="recordist">Rob Eaton and Dick Latvala</credit>
+      <lineage>SBD &gt; Reel Master (7in 7.5ips 1/2trk) &gt; DAT (Panasonic SV-3700/44.1k) &gt; DAT (Panasonic SV-3700/44.1k) | DAT (Panasonic SV-3800) &gt; Avid MBox Pro &gt; Pro Tools 12 &gt; WAV (16-bit/44.1k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Original Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 30, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
+    </recording>
+    <recording id="r-d5d2e0c54c1143f8777d" kind="unknown">
+      <identifier scheme="archive-org">gd1973-09-17.sbd.jensen.10082.sbeok.shnf</identifier>
+      <lineage>MSR&gt;C&gt;DAT&gt;DAT | DA-40&gt;U2A&gt;CDWave&gt;MkW&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Tyler Jensen</note>
+    </recording>
+    <recording id="r-180d0d7160ff9f61ee2c" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-09-17.sbd.sirmick.107542.flac16</identifier>
+      <lineage>SBD &gt; Master Reel | MR &gt; C&gt;DAT&gt;DAT provided by Jeff Tiedrich&gt;Andrew Gustin Conversion: DA-40&gt;U2A&gt;CDWave&gt;MkW with seek tables appended Transferred by Tyler Jensen</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-78aea54ec844b82a9b71" kind="soundboard">
+      <identifier scheme="archive-org">gd73-09-17.sbd.cotsman.14473.d3fixed.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;MR&gt;D&gt;CD&gt;EAC&gt;SHN ; SBD&gt;MR&gt;C&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-fd55a1cc4d3a74825057" kind="unknown">
+      <identifier scheme="other">etree-559431</identifier>
+      <note>Supplied catalogue listing: etree; gd73-09-17.107542.sbd.sirmick.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-07-22" date="1990-07-22">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900722-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-997" nameAsBilled="World Music Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p01-02" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-03" song="s-loser" transition="unknown"/>
+      <performance id="p01-04" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-05" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-06" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-07" song="s-far-from-me" transition="unknown"/>
+      <performance id="p01-08" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-09" song="s-hell-in-a-bucket" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-hey-pocky-way" transition="unknown"/>
+      <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
+      <performance id="p02-04" song="s-eyes-of-the-world" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-08" song="s-gimme-some-lovin" transition="segue"/>
+      <performance id="p02-09" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3dfa18349668c9b859da" kind="matrix">
+      <identifier scheme="archive-org">gd1990-07-22.133842.sbd.chasingwilma.flac16</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>lineage: sbd/aud matrix&gt;dat&gt;cd&gt; eac&gt; traders little helper encoding option 8</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-1d3495309f161d46822a" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-22.138459.fob.Schoeps.Katzeff.Ammons.Noel.t-flac16</identifier>
+      <credit role="recordist">Rick Katzeff</credit>
+      <lineage>flac16/48kHz ; Rick Katzeff recording: FOB Schoeps cardioids* at 110 degrees ORTF &gt; Panasonic SV250 &gt; DAT; Set I is labeled CMC34 &amp; set II is labeled CMC54; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel Edits: Track, Flac &amp; Pack: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
+    </recording>
+    <recording id="r-f301557748bfebedcf85" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-22.142005.FOB.Schoeps.Brotman.Mattes.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Dave Brotman and Ted Mattes</credit>
+      <lineage>flac16/48kHz ; Dave Brotman FOB Recording using Ted Mattes' rig: Schoeps CMC3 MK4 (ORTF) &gt; DAT (Panasonic SV250); Location info: s1, Section 103 Row BB Seat 28 (hand held); s2, same as s1, mics on stand @ 6'2"; Charlie Miller | Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-887c89022280307ec83b" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-22.143931.FOB.Schoeps.Brotman.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Dave Brotman</credit>
+      <lineage>Dave Brotman Master DAT Recording: Schoeps CMC3 MK4 (ORTF) Oade PS &gt; M100 cable &gt; DAT (Panasonic SV250) Location info (FOB): s1, Section 103 Row BB Seat 28 (hand held) s2, same as s1, mics on stand @ 6'2" | Charlie Miller Transfer: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-4ef26709a35415f3a7a6" kind="matrix">
+      <identifier scheme="archive-org">gd1990-07-22.158175.ultramatrix.miller.flac2496</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 19, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-97869d4693ee1e5f5d24" kind="matrix">
+      <identifier scheme="archive-org">gd1990-07-22.158192.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
+      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 19, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-b5b7f20b114a910e8c24" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-22.AKG451.Darby.117739.Flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes:Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-af1d86e640befde0cab2" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-22.AKG451.Darby.117740.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes:Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-cd7b9afc010e9332eaa5" kind="unknown">
+      <identifier scheme="archive-org">gd1990-07-22.aud.Holtz.Nak300s.112525.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Field Gear: Nakamichi CM-300's w/ CP-4 shotgun capsules &gt; Sony D-5 &gt; MAC; Taping location: 3rd level corporate box inside pavilion; | MAC &gt; Tascam 112 MKII &gt; Edirol R-09 &gt; WAV &gt; Audacity &gt; TLH &gt; FLAC Level 8; Taped, transferred, mastered, track/FLAC by Greg Holtz</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Greg Holtz</note>
+    </recording>
+    <recording id="r-fda5559c4015a1630678" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-22.Nak100sSenn421.Hill.Keo.131371.Flac1644</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; 2 Nakamichi CM100/Cp4 Shotguns + 1 Sennheiser 421 &gt; Unknown Mixer (Either A Radio Shack Or Boss) 1/4 Inch In/RCA Out &gt; Sony TC-D5M &gt; Dolby B, Tapes: Maxell MX 90, 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/22/7-22-90-tinley-park-il-world-music-theater/</note>
+    </recording>
+    <recording id="r-f2de9b846973e3118a04" kind="audience">
+      <identifier scheme="archive-org">gd1990-07-22.Nak100sSenn421.Hill.Keo.131372.Flac2496</identifier>
+      <credit role="recordist">Steve Hill</credit>
+      <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; 2 Nakamichi CM100/Cp4 Shotguns + 1 Sennheiser 421 &gt; Unknown Mixer (Either A Radio Shack Or Boss) 1/4 Inch In/RCA Out &gt; Sony TC-D5M &gt; Dolby B, Tapes: Maxell MX 90, 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-b0f282593d8097d7bfe0" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-07-22.sbd.bertha.9397.sbeok.shnf</identifier>
+      <lineage>SBD&gt;&gt;DAT&gt;&gt;CDA&gt;&gt;WAV(EAC)&gt;&gt;DAW(Bertha)&gt;&gt;CDA</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at World Music Theatre on 1990-07-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Jay Ashley</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/22/7-22-90-tinley-park-il-world-music-theater/</note>
+    </recording>
+    <recording id="r-d10de230a5f74ee19c8f" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-07-22.sbd.fix.walker.scotton.miller.115497.flac16</identifier>
+      <credit role="recordist">Paul Scotton and Joani Walker</credit>
+      <lineage>SBD -&gt; Dat Master (48k) | Dat Master (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-01f982fcd52bcd0763a8" kind="soundboard">
+      <identifier scheme="archive-org">gd1990-07-22.sbd.walker-scotton.miller.95870.sbeok.flac16</identifier>
+      <credit role="recordist">Joani Walker and Paul Scotton</credit>
+      <lineage>SBD -&gt; Dat Master (48k) | Dat Master (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theatre on 1990-07-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-05e56ceb366da9bf7f89" kind="soundboard">
+      <identifier scheme="archive-org">gd90-07-22.sbd.conner.7834.sbeok.shnf</identifier>
+      <lineage>Master Soundboard DAT &gt; CDR,EAC'ed / SHN'ed by Scott Clugston, to abgd via Charlie Connor</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at World Music Theater on 1990-07-22. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/22/7-22-90-tinley-park-il-world-music-theater/</note>
+    </recording>
+    <recording id="r-39a9913dfd03146e1c85" kind="unknown">
+      <identifier scheme="other">etree-616850</identifier>
+      <note>Supplied catalogue listing: etree; gd1990-07-22.158192.UltraMatrix.sbd.cm.miller.t.flac1644. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

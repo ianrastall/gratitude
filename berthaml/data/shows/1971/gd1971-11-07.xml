@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-11-07" date="1971-11-07">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19711107-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-346" nameAsBilled="Harding Theater"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-truckin" transition="unknown"/>
+      <performance id="p01-02" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-03" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-04" song="s-hideaway" transition="unknown"/>
+      <performance id="p01-05" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-06" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-07" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-08" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-09" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-10" song="s-big-railroad-blues" transition="unknown"/>
+      <performance id="p01-11" song="s-comes-a-time" transition="unknown"/>
+      <performance id="p01-12" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-13" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p02-02" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p02-03" song="s-loser" transition="unknown"/>
+      <performance id="p02-04" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p02-05" song="s-dark-star" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p02-09" song="s-the-other-one" transition="unknown"/>
+      <performance id="p02-10" song="s-deal" transition="unknown"/>
+      <performance id="p02-11" song="s-brokedown-palace" transition="unknown"/>
+      <performance id="p02-12" song="s-playing-in-the-band" transition="unknown"/>
+      <performance id="p02-13" song="s-casey-jones" transition="unknown"/>
+      <performance id="p02-14" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-15" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-16" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <performance id="p03-02" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-68b5dc78bbd7523197bd" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.127490.fm.boswell.smith.flac24</identifier>
+      <credit role="recordist">Peter Kafer</credit>
+      <lineage>FM MR @ 3/ 3.4 ips(Peter Kafer?)&gt;R @ 3 &amp; 3/4 ips(Will Boswell) | Akai GX636 direct tape head output &gt; Bottlehead tube tape pre w/a pair of Telefunken tubes circa 1960 &gt; Apogee Mini Me 24/96 &gt; Apogee Mini DAC monitoring and mastering &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Will Boswell; Matt Smith</note>
+    </recording>
+    <recording id="r-55fc928287b3a3b1af8a" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.127503.fm.boswell.smith.flac16</identifier>
+      <credit role="recordist">Peter Kafer</credit>
+      <lineage>FM MR @ 3/ 3.4 ips(Peter Kafer?)&gt;R @ 3 &amp; 3/4 ips(Will Boswell) | Akai GX636 direct tape head output &gt; Bottlehead tube tape pre w/a pair of Telefunken tubes circa 1960 &gt; Apogee Mini Me 24/96 &gt; Apogee Mini DAC monitoring and mastering &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Will Boswell; Matt Smith</note>
+    </recording>
+    <recording id="r-0665ac76a0238b385f1a" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.135990.pre-fm.GEMS.flac16</identifier>
+      <credit role="recordist">PO and Stucco TINA Holmes</credit>
+      <lineage>FM or Pre-FM &gt; PCM; Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; tracked with Audacity-&gt; flac level 8-&gt; tagged with Tag&amp;Rename and checksums with TLH by Norm; Audacity and Wavelab 7.1 Mastering by Jamie Waddell</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-9e07eb5f3756c73b446b" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.155687.remastered.boswell.smith.miller.flac24</identifier>
+      <credit role="recordist">Tape supplied by Will Boswell</credit>
+      <lineage>FM &gt; Master Reel (3.75ips) &gt; Reel (3.75ips) | Transfer Info: Reel (Akai GX636) Apogee Mini-Me (24-bit/96k) &gt; FLAC Mastering Info: FLAC &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Transfer by Matt Smith Mastering by Charlie Miller February 12, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b55a9302f98f18c2c5b7" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.155721.remastered.fm.boswell.smith.miller.t.flac16</identifier>
+      <credit role="recordist">Tape supplied by Will Boswell</credit>
+      <lineage>FM &gt; Master Reel (3.75ips) &gt; Reel (3.75ips) | Reel (Akai GX636) Apogee Mini-Me (24-bit/96k) &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Transfer by Matt Smith Mastering by Charlie Miller February 12, 2022</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e1d23d4f07b3fbcf288d" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.167790.FM.Menke-Miller.flac1648</identifier>
+      <credit role="recordist">Recording and Transfer by Bob Menke</credit>
+      <lineage>FM (KSFX-FM) &gt; Master Reels (3.75ips 1/4trk) | Master Reel (Technics RS-1506) &gt; Korg (DSF 1-bit/5.6MHz) &gt; Korg Audio Gate (FLAC 24-bit/96k); FLAC (24-bit/96k) &gt; Adobe Audition 2023 &gt; iZotope RX8 Advanced &gt; Samplitude Pro X6 Suite (WAV 16-bit/48k) &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): Mastering by Charlie Miller June 11, 2024</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
+    </recording>
+    <recording id="r-277e2c3cb2af03295e55" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.169935.prefm.gdh.miller.flac1644</identifier>
+      <lineage>Pre-FM &gt; Master Reels &gt; DAT (44.1k) | DAT &gt; FLAC &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+      <note>Source credit (transfer-mastering): All Mastering by Charlie Miller December 26, 2024</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e9d5a273a43d7304a82f" kind="fm">
+      <identifier scheme="archive-org">gd1971-11-07.sbd.lai.2580.shnf</identifier>
+      <lineage>sdb&gt;&gt;MR&gt;&gt;[FM&gt;?&gt;]D&gt;&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theatre on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note>Source credit (transfer-mastering): ripped and seeded by Mike Lai</note>
+    </recording>
+    <recording id="r-fb86335840d94b40a713" kind="soundboard">
+      <identifier scheme="archive-org">gd71-11-07.prefm.kaplan.9570.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD : Pre-FM Reel &gt; DAT &gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harding Theater on 1971-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: PRE-FM</note>
+    </recording>
+    <recording id="r-04ae66ef1e38f38094ba" kind="unknown">
+      <identifier scheme="other">etree-615061</identifier>
+      <note>Supplied catalogue listing: etree; gd1971-11-07.155721.remastered.fm.boswell.smith.miller.t.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note certainty="uncertain">Legacy inferred type: FM</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

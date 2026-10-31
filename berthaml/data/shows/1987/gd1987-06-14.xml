@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-06-14" date="1987-06-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870614-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-852" nameAsBilled="Ventura County Fairgrounds"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-tons-of-steel" transition="unknown"/>
+      <performance id="p01-04" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-althea" transition="unknown"/>
+      <performance id="p01-08" song="s-feel-like-a-stranger" transition="segue"/>
+      <performance id="p01-09" song="s-might-as-well" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-03" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-truckin" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-quinn-the-eskimo" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-02d2ff83e25344bb1f90" kind="audience">
+      <identifier scheme="archive-org">gd1987-06-14.135940.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>lineage:beyers 160 fob&gt; tcd-d5&gt; tcd-d5&gt; mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; Note: Filesets from this seeder have been flagged as suspect because they are thought to have mislabeled lineage and/or re-sampled at a high bitrate</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-4a6742f060e001445723" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.151121.aud.lohr.vernon.flac1648</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Unspecified mics (Nak 100?) &gt; unspecified deck (D6?) &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-75b12bad79dcde887b63" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.151122.aud.lohr.vernon.flac2496</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Unspecified mics (Nak 100?) &gt; unspecified deck (D6?) &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-76154be215b51a417206" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.168424.SSEC7.ont.flac1644</identifier>
+      <credit role="recordist">OldNeumanntapr</credit>
+      <lineage>OTS; Superscope EC-7 Cardioid Condensers (Near Coincident) &gt;Sony TC-153SD (TDK HX-S 90s) | Cass Masters Transferred: Denon DR-M12HR Cassette Deck &gt;Tascam DR100mkII (24bit/48kHz) (August 2024) WAV &gt;Audacity (Amplify By 4.7db, Index Tracks, Down Sample To 16bit/44.1kHz, Minor Edits [Tape Flips], &amp; Fades) Fix SBEs &gt;FLAC (Level 8) + Tags Via xACT 2.53</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
+    </recording>
+    <recording id="r-1f2d8ca60790524dd13f" kind="audience">
+      <identifier scheme="archive-org">gd1987-06-14.176697.schoeps.minches.miller.flac1644</identifier>
+      <credit role="recordist">David Minches</credit>
+      <lineage>(FOB) Schoeps Mics &gt; PCM &gt; ? &gt; CD &gt; FLAC/16 | FLAC/16 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Mastered by Charlie Miller March 19, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7e93b0df67b1ab8c5430" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.akg.thompson.motb.83990.sbeok.flac16</identifier>
+      <credit role="recordist">Danny Thompson</credit>
+      <lineage>AKG C460b pre's with Ck61uls capsules &gt; Uher CR240 &gt; MAC (TDK SA-X) | MAC &gt; Nakamichi DR-1 &gt; Grace Design Lunatec V3 &gt; AES &gt; Sound Devices 722 &gt; WAV Mastering: WaveLab 5.0 iZotope Ozone 3 &gt; CDWAV1.9 &gt; FLAC (level 8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): A. Egert and B. Koucky</note>
+    </recording>
+    <recording id="r-6a59d11d95cd8e613c31" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.fob.thompson.motb.0017.84953.flac24</identifier>
+      <credit role="recordist">D. Thompson</credit>
+      <lineage>AKG C460b pre's with Ck61uls capsules &gt; Uher CR240 &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; Grace Design Lunatec V3 &gt; AES &gt; Sound Devices 722 &gt; WAV</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): A. Egert and B. Koucky</note>
+    </recording>
+    <recording id="r-cf32ca1310f7d841a3d5" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.sbd.clugston.tetzeli.fix-11896.75505.flac16</identifier>
+      <lineage>Seamless fix of shnid 11896</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+    </recording>
+    <recording id="r-dd8fc334d803dc82c268" kind="matrix">
+      <identifier scheme="archive-org">gd1987-06-14.sbd.painoman.17347.shnf</identifier>
+      <lineage>Matrix SBD&gt;CASS&gt;DAT&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Chris Paino</note>
+    </recording>
+    <recording id="r-f332beea051a7c32e506" kind="soundboard">
+      <identifier scheme="archive-org">gd1987-06-14.sbd.walker-scotton.miller.83755.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master (TDK MA-XG90/Sony D5) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+    </recording>
+    <recording id="r-9544f23596d751abd40f" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.senn421-nak300.alexander.tetzeli.77364.sbeok.flac16</identifier>
+      <credit role="recordist">Tim Alexander</credit>
+      <lineage>2 Senn. 421s + 2 Nakamichi 300 shotguns &gt; Yamaha Mixer &gt; Sony D5 (Dolby B) | Playback on Nak DR-1 (Dolby B decode)&gt; Tascam HD-P2 (pass through) &gt; Waveterminal U2A &gt; Inspiron 8000 &gt; WAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+    </recording>
+    <recording id="r-889c6a4b1dcb2fab16a7" kind="unknown">
+      <identifier scheme="archive-org">gd1987-06-14.senn421-nak300.alexander.tetzeli.77365.sbeok.flac24</identifier>
+      <credit role="recordist">Tim Alexander</credit>
+      <lineage>2 Senn. 421s + 2 Nakamichi 300 shotguns &gt; Yamaha Mixer &gt; Sony D5 (Dolby B) | Playback on Nak DR-1 (Dolby B decode) &gt; Tascam HD-P2 (24bit/48khz) &gt; WAV &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+    </recording>
+    <recording id="r-746f29f7f4a4347fd457" kind="soundboard">
+      <identifier scheme="archive-org">gd87-06-14.sbd.clugston.11896.sbefail.shnf</identifier>
+      <lineage>Master Soundboard Cassette &gt; PCM &gt; DAT&gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1987-06-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

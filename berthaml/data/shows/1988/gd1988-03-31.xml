@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-03-31" date="1988-03-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880331-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-876" nameAsBilled="Meadowlands Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-06" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
+      <performance id="p01-07" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-08" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-09" song="s-dear-mr-fantasy" transition="segue"/>
+      <performance id="p02-10" song="s-hey-jude-reprise" transition="segue"/>
+      <performance id="p02-11" song="s-all-along-the-watchtower" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-85b9986616a190d212f5" kind="unknown">
+      <identifier scheme="archive-org">gd1988-03-31.124843.AT835.laurentis.flac16</identifier>
+      <credit role="recordist">M.Laurentus</credit>
+      <lineage>AT835B's- AT 8202’s-SONY WM D6-C Cassette-Tascam DR-5 Line In-CD Wave- Flac; Taper: M. Laurentus from Taper Section: 2,Row-K,Seat-13</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1988-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): M.Laurentus</note>
+    </recording>
+    <recording id="r-d32a27182fb7dddad60e" kind="audience">
+      <identifier scheme="archive-org">gd1988-03-31.138890.FOB.Schoeps.Bryant.Gastwirt.Miller.Noel.t-flac.16</identifier>
+      <credit role="recordist">Robert Bryant - Rich Gastwrit collection</credit>
+      <lineage>Robert Bryant (patched out of Oade Bros.) Schoeps &gt; CMC4 &gt; MK41 &gt; PCM &gt; DAT (FOB); Charlie Miller | DAT (Sony PCM-R500) &gt; Sound Devices 744T &gt; wav 16/44; Edited &amp; Mastered by Joe Noel in Audacity &gt; flac 16/44; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-9448c19fcbb225c7fec8" kind="matrix">
+      <identifier scheme="archive-org">gd1988-03-31.140279.sbd.miller.flac2496</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-782f8ac92beaeabe280e" kind="matrix">
+      <identifier scheme="archive-org">gd1988-03-31.140328.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c0dd8fe529c94b33245a" kind="audience">
+      <identifier scheme="archive-org">gd1988-03-31.140737.schoeps.cmc3.mk41.mattes.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Ted Mattes</credit>
+      <lineage>Ted Mattes' Master Audience PCM (Nakamichi DMP-100 deck, Sony ESX-HiFi/L750 tape); Schoeps CMC3/MK41 mics, ortf (1st row center, OTS)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-844ff1da06b68c284833" kind="unknown">
+      <identifier scheme="archive-org">gd1988-03-31.146218.sennme-80.porter.carbonetta.sirmick.flac16</identifier>
+      <credit role="recordist">Steven Porter</credit>
+      <lineage>Source: Sennheiser ME-80s &gt; Sony D-5 &gt; Master Cassette - taped by Stephen Porter | Transfer: Master Cassette &gt; Nakamichi CR-7A &gt; Korg MR-1000 &gt; (DSF 1-bit/5.6MHz) &gt; DBPoweramp &gt; wav 24/96 - Transferred by Nick Carbonetta Lineage: wav 24/96&gt; Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; iZotope RX7 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; flac 16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Nick Carbonetta and SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5a538372b56930a6f07d" kind="unknown">
+      <identifier scheme="archive-org">gd1988-03-31.146219.sennme-80.porter.carbonetta.sirmick.flac24</identifier>
+      <credit role="recordist">Steve Porter</credit>
+      <lineage>Source: Sennheiser ME-80s &gt; Sony D-5 &gt; Master Cassette - taped by Stephen Porter | Transfer: Master Cassette &gt; Nakamichi CR-7A &gt; Korg MR-1000 &gt; (DSF 1-bit/5.6MHz) &gt; DBPoweramp &gt; wav 24/96 - Transferred by Nick Carbonetta Lineage: wav 24/96&gt; Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Nick Carbonetta and SirMick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e0884544cbc7459ef289" kind="unknown">
+      <identifier scheme="archive-org">gd1988-03-31.nak300.pasternak.andrewf.90802.sbeok.flac16</identifier>
+      <credit role="recordist">Jon Pasternak</credit>
+      <lineage>Nakamichi CM300/CP4's &gt; patched thru one deck &gt; Marantz PMD-420 &gt; Maxell MX-90's w/Dolby B, set up front row of OTS. | MAC &gt; Nakamichi DR-8 (Dolby B) &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1988-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-f0aa8027efa53b185d26" kind="unknown">
+      <identifier scheme="archive-org">gd88-03-31.beyerM88.connor.30748.sbeok.flacf</identifier>
+      <credit role="recordist">Charlie Connor</credit>
+      <lineage>Taper's Section 110 row 9, seat 9&gt; Beyer Dynamic M88's&gt;Sony TCD5M (CM - 1 st set Maxell MX90 | Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to 16/44.1&gt;CDWav(v1.71)(tracking only)&gt;Flac Front End</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Connor</note>
+    </recording>
+    <recording id="r-2543a669929aeda5df65" kind="fm">
+      <identifier scheme="archive-org">gd88-03-31.fm.miller.25528.sbeok.shnf</identifier>
+      <lineage>Recording Info: In House FM -&gt; Cassette Master -&gt; Dat -&gt; CD -&gt; Samplitude v7.02 Professional -&gt; SHN via Charlie Miller</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FM</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-4719be611b27351026a8" kind="soundboard">
+      <identifier scheme="archive-org">gd88-03-31.sbd.unknown.8137.sbeok.shnf</identifier>
+      <lineage>Soundboard</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1988-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

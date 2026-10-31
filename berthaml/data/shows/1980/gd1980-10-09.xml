@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-10-09" date="1980-10-09">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19801009-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-799" nameAsBilled="Warfield Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="acoustic">
+      <performance id="p01-01" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-02" song="s-dark-hollow" transition="unknown"/>
+      <performance id="p01-03" song="s-i-ve-been-all-around-this-world" transition="unknown"/>
+      <performance id="p01-04" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-05" song="s-china-doll" transition="unknown"/>
+      <performance id="p01-06" song="s-on-the-road-again" transition="unknown"/>
+      <performance id="p01-07" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-08" song="s-the-race-is-on" transition="unknown"/>
+      <performance id="p01-09" song="s-oh-babe-it-ain-t-no-lie" transition="segue"/>
+      <performance id="p01-10" song="s-ripple" transition="unknown"/>
+      <note>Source section label: Acoustic Set</note>
+    </set>
+    <set kind="set" n="2" mode="electric">
+      <performance id="p02-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p02-02" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p02-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p02-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p02-05" song="s-peggy-o" transition="unknown"/>
+      <performance id="p02-06" song="s-little-red-rooster" transition="unknown"/>
+      <performance id="p02-07" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p02-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-09" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p02-10" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Electric Set 1</note>
+    </set>
+    <set kind="set" n="3" mode="electric">
+      <performance id="p03-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p03-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p03-03" song="s-high-time" transition="unknown"/>
+      <performance id="p03-04" song="s-lost-sailor" transition="segue"/>
+      <performance id="p03-05" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p03-06" song="s-terrapin-station" transition="segue"/>
+      <performance id="p03-07" song="s-drums" transition="segue"/>
+      <performance id="p03-08" song="s-space" transition="segue"/>
+      <performance id="p03-09" song="s-not-fade-away" transition="segue"/>
+      <performance id="p03-10" song="s-wharf-rat" transition="segue"/>
+      <performance id="p03-11" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Electric Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="electric">
+      <performance id="p04-01" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Electric Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-5461d0693c0fb9fdac80" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-10-09.140924.set1p.sbd.betty.pcm.dalton.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Betty Cantor and Tim Dalton</credit>
+      <lineage>Partial 1st Electric Set Source Info: Betty's 7" 2-track Master Soundboard Reel @ 7.5 ips &gt; PCM; Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a1c8502b783a7ff5826b" kind="unknown">
+      <identifier scheme="archive-org">gd1980-10-09.141349.sbd.acoustic.set.betty.pcm.dalton.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Betty Cantor and Tim Dalton</credit>
+      <lineage>Source Info: Betty's 7" two track reels @ 7 1/2 ips &gt; PCM; Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-006c0b9a26b41305444d" kind="audience">
+      <identifier scheme="archive-org">gd1980-10-09.144734.nak700.severson.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0a395b6e4f8641555208" kind="audience">
+      <identifier scheme="archive-org">gd1980-10-09.144735.nak700.severson.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Mark Severson</credit>
+      <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-80-sf-ca-warfield-theater/</note>
+    </recording>
+    <recording id="r-c4a2e3dc8ab017d41618" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-10-09.151344.sbd.miller.flac2496</identifier>
+      <lineage>SBD &gt; Cassette Master (Nakamichi 550) &gt; Cassette (Sony TC-D5M/TDK SA-C90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite (24-bit/96k) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 28, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-c2c1b968136d88e3667d" kind="soundboard">
+      <identifier scheme="archive-org">gd1980-10-09.151441.sbd.1st-gen.miller.t.flac16</identifier>
+      <lineage>SBD &gt; Cassette Master (Nakamichi 550) &gt; Cassette (Sony TC-D5M/TDK SA-C90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite (24-bit/96k) &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 28, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-196941cecbb36cf5f95d" kind="unknown">
+      <identifier scheme="archive-org">gd1980-10-09.sbd-partial.stephens.32402.sbeok.shnf</identifier>
+      <lineage>7" 2-track BBD reel @ 7.5 ips &gt; PCM501ES @ 44.055 kHz; PCM501ES analog out &gt; Fostex D5 @ 48 kHz &gt; 3 DAT Generations | Tascam DA-20mkII &gt; Delta DiO 2448 &gt; SoundForge 4.5 (48-44.1, highest accuracy with anti-alias filter) &gt; CDWAV &gt; MKW Audio Compression Tool v0.97b1 (no DAE)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Dan Stephens</note>
+    </recording>
+    <recording id="r-731681d9e82681972f09" kind="soundboard">
+      <identifier scheme="archive-org">gd80-10-09.sbd.unknown.11042.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; R&gt; DAT&gt; CD?</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-80-sf-ca-warfield-theater/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

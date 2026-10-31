@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-03-03" date="1981-03-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810303-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-340" nameAsBilled="Cleveland Music Hall"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
+      <performance id="p01-02" song="s-peggy-o" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-04" song="s-big-river" transition="unknown"/>
+      <performance id="p01-05" song="s-bird-song" transition="segue"/>
+      <performance id="p01-06" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-07" song="s-big-railroad-blues" transition="segue"/>
+      <performance id="p01-08" song="s-little-red-rooster" transition="segue"/>
+      <performance id="p01-09" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-02" song="s-i-know-you-rider" transition="segue"/>
+      <performance id="p02-03" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-jam" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-08" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-09" song="s-black-peter" transition="segue"/>
+      <performance id="p02-10" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-5028c153fb0938d19e07" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-03.123978.sbd.miller.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Sony R500) -&gt; AIFF -&gt; Adobe Audition v3 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-f5b1a066058538c9943c" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-03.139735.fob.beyer.m88.streeter.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source Info: Frank Streeter's Master FOB Audience Cassette; Beyer M88 &gt; Sony TC-D5M (Maxell MX90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0&gt; TLH flac2496; Transfer by Charlie Miller; Mastered by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1f90bf24cfd4626b5ff1" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-03.139736.fob.beyer.m88.streeter.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Frank Streeter</credit>
+      <lineage>Source Info: Frank Streeter's Master FOB Audience Cassette; Beyer M88 &gt; Sony TC-D5M (Maxell MX90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0&gt; TLH flac2496; Transfer by Charlie Miller; Mastered by Scott Clugston</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a0cf5d020dcffe66bcf1" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-03.175089..sbd.miller.phase-repair.flac1644</identifier>
+      <lineage>SBD &gt; Cassette Master &gt; Reel &gt; DAT (48k) | Transfer Info: DAT (Sony PCM-R500) &gt; AIFF &gt; Adobe Audition v1.5 &gt; Samplitude Professional v11.2 &gt; FLAC/16 Transfer Info: DAT (Sony PCM-R500) &gt; AIFF &gt; Adobe Audition v1.5 &gt; Samplitude Professional v11.2 &gt; FLAC/16 &gt; iZotope RX11 Advanced &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): DAT Supplied By Rob Eaton Transferred By Digitalrbb Mastered By Charlie Miller November 11, 2025</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6299d037eb255a2aedd3" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-03.3902.aud.lai.shnf</identifier>
+      <lineage>aud&gt;&gt;mics?&gt;&gt;cassette master&gt;&gt;dat&gt;&gt;cdr</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-da1c8e0a0500a6a78bc4" kind="unknown">
+      <identifier scheme="archive-org">gd1981-03-03.nak700.taylor-radnor.gross.gems.83828.flac16</identifier>
+      <credit role="recordist">Mason Taylor and Mark Radnor</credit>
+      <lineage>NAK 700 (shotgun capsules) &gt; Nak 550 Cassette Recorder &gt; Maxell Metal &gt; HHB Porta-a-DAT | DAT &gt; TASCAM DA-20 (S/PDIF out) -&gt; Apogee Wide Eye S/PDIF interconnect -&gt; LynxTWO-A Audio Reference Interface (S/PDIF in) -&gt; Wavelab 6.0 (Ozone, L2) -&gt; WAV -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
+      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    </recording>
+    <recording id="r-fe015932210c63914dd3" kind="audience">
+      <identifier scheme="archive-org">gd1981-03-03.nak700.wagner.miller.90473.sbeok.flac16</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>(FOB) Nakamichi 700 (With Bass EQ) -&gt; Cassette Master (Sony D5M/Maxell DXLIIS/Dolby B) D | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-a30bf3475977bf7048d2" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-03-03.sbd.digitalrbb.miller.112777.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Sony R500) -&gt; AIFF -&gt; Adobe Audition v3 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b3acef83fcf22295040f" kind="audience">
+      <identifier scheme="archive-org">gd81-03-03.horvath.cheadle.9113.sbeok.shnf</identifier>
+      <credit role="recordist">Mark Horvath</credit>
+      <lineage>Audience: Sennheiser 421's | Sennheiser 421s &gt; master cassette &gt; cdr</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Mark Horvath</note>
+    </recording>
+    <recording id="r-d1f0b8b9fa453d149441" kind="audience">
+      <identifier scheme="archive-org">gd81-03-03.wagner.minches.18579.sbeok.shnf</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Audience Recording: Nak 700's | Nak 700s&gt;Sony TC-D5; AUDMC &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1981-03-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

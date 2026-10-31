@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1986-12-15" date="1986-12-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19861215-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 859e0118134444b5e15767a698508f39e1975f3652750caf5f073ddf4d7b68d8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-touch-of-grey" transition="unknown"/>
+      <performance id="p01-02" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-03" song="s-when-push-comes-to-shove" transition="unknown"/>
+      <performance id="p01-04" song="s-beat-it-on-down-the-line" transition="segue"/>
+      <performance id="p01-05" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-06" song="s-loser" transition="unknown"/>
+      <performance id="p01-07" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-08" song="s-althea" transition="unknown"/>
+      <performance id="p01-09" song="s-my-brother-esau" transition="unknown"/>
+      <performance id="p01-10" song="s-candyman" transition="unknown"/>
+      <performance id="p01-11" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-iko-iko" transition="unknown"/>
+      <performance id="p02-02" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p02-03" song="s-black-muddy-river" transition="unknown"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-truckin" transition="segue"/>
+      <performance id="p02-09" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-10" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-11" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-77ae90d17d5f5062961e" kind="matrix">
+      <identifier scheme="archive-org">gd1986-12-15.128689.mtx.nicksmix.flac16</identifier>
+      <lineage>2 source matrix mix of AUD: shnid 80809 and SBD: shnid 99035</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matrix by Nick Crump</note>
+    </recording>
+    <recording id="r-66bfae9810618ad69abc" kind="audience">
+      <identifier scheme="archive-org">gd1986-12-15.132367.nak300.gidley.flac2448</identifier>
+      <credit role="recordist">Ted Gidley</credit>
+      <lineage>OTS AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell MX 90's, with no Dolby, recording by Ted Gidley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 02/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-8e0ca14a9730dcf84738" kind="audience">
+      <identifier scheme="archive-org">gd1986-12-15.132368.nak300.gidley.flac1644</identifier>
+      <credit role="recordist">Ted Gidley</credit>
+      <lineage>OTS AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell MX 90's, with no Dolby, recording by Ted Gidley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 02/2015</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-e470597593d099248837" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.137554.upg-aud.tobin.flac16</identifier>
+      <lineage>(original shnid = 88884) taper: Joe D'Amico nak 300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-aee2f83898e01c3b7606" kind="matrix">
+      <identifier scheme="archive-org">gd1986-12-15.137555.mtx.tobin.flac16</identifier>
+      <lineage>Matrix 2 Source Mix - SBD (shnid = 99035) Recording Info: SBD -&gt; Cassette Master (Sony D5/TDK MX-XG90/Dolby B); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.2.1 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 88884) taper: Joe D'Amico nak300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Maxtrix by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-bc7ff07f7cb9cad4cf59" kind="matrix">
+      <identifier scheme="archive-org">gd1986-12-15.137558.dts.tobin.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid = 99035) Recording Info: SBD -&gt; Cassette Master (Sony D5/TDK MX-XG90/Dolby B); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.2.1 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 88884) taper: Joe D'Amico nak300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3f598a6ac7589c3a0eb6" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-12-15.137576.5-1.tobin.flac1648</identifier>
+      <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 99035) Recording Info: SBD -&gt; Cassette Master (Sony D5/TDK MX-XG90/Dolby B); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.2.1 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 88884) taper: Joe D'Amico nak300 mics w/cp4 shotguns &gt; sony d-5 nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-db07efd850af21c7d11d" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.139362.Senn.Hessberg.Miller.Noel.t-flac24</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Sennheiser ME80 &gt; Cassette Master (Sony TC-D5M) | Charlie Miller DSD Transfer: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96 Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-2934e4df5d73af9f31b7" kind="audience">
+      <identifier scheme="archive-org">gd1986-12-15.140293.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Jim Wise</credit>
+      <lineage>Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+    </recording>
+    <recording id="r-a8ee569a04c20562dbc1" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.141034.Senn.Hessberg.Miller.Noel.t-flac1644</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg Recording: Sennheiser ME80 &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-39e9e6f7033699a0308c" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.aud.Holtz.Naks.114699.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Recording Info: Nakamichi CM-300 mics w/ CP-4 shotgun caps &gt; Sony D-5 (Front Row OTS); Transfer Info: MAC &gt; Tascam 112 &gt; Edirol UA-5 &gt; Audacity &gt; Traders Little Helper &gt; FLAC Level 8; All recording, transfers, and mastering by Greg Holtz</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Greg Holtz</note>
+    </recording>
+    <recording id="r-8293b6254a6db56dacab" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.nak300.damico.88884.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>nak 300 mics w/cp4 shotguns &gt; sony d-5 &gt; mac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland - Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-1a3ee7e2b33ca8c4ed09" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.nakcm304.beckham.suraci.sbeok.80809.flac16</identifier>
+      <credit role="recordist">Don Beckham and Tony Suraci</credit>
+      <lineage>Nak CM304&gt;Sony D5 | Nak CR5A&gt;Lunatec V3&gt;SD 722</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland - Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-23f87de8bf0083d5ec26" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.sbd.braverman.13270.shnf</identifier>
+      <lineage>Master Cassette&gt; DAT&gt; CD | CD&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Peter Braverman</note>
+    </recording>
+    <recording id="r-a0eabfd86fa984511853" kind="unknown">
+      <identifier scheme="archive-org">gd1986-12-15.sbd.kpfa.16330.shnf</identifier>
+      <lineage>Master Dolby B Cass&gt;Sonic Solutions via TC2000 @ 24 bits&gt;SBM2 CD&gt;CD &gt; EAC[secure] &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): KPFA</note>
+    </recording>
+    <recording id="r-65cc42985e2f5e0c576e" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-12-15.sbd.tetzeli.moore.8230.sbeok.shnf</identifier>
+      <credit role="recordist">Thom Moore</credit>
+      <lineage>SBD &gt; ?? &gt; Cassette &gt; analog signal to ESS Maestro sound card &gt; .wav &gt; CDR &gt; .wav &gt; .shn</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+      <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
+    </recording>
+    <recording id="r-a802a8e72a1318ae4ac1" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-12-15.sbd.walker-scotton.miller.99035.sbeok.flac16</identifier>
+      <credit role="recordist">Joani Walkerand Paul Scotton</credit>
+      <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MX-XG90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.2.1 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-9e4a37a9e6f3919ac871" kind="audience">
+      <identifier scheme="archive-org">gd86-12-15.nakcm101-dwonk.25263.sbeok.flacf</identifier>
+      <credit role="recordist">Adam Smith &amp; Andy Liu</credit>
+      <lineage>Audience | Nakamichi CM-101 &gt; Nakamichi 550 &gt; Sony WM-D6C; Nakamichi DR-3 (Master) &gt; Oade adc24mod SONY SBM-1 &gt; M-Audio AP2496 &gt; Sound Forge XP4.5 &gt; CDwave1.6 &gt; FLAC16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Adam Smith &amp; Andy Liu</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-ef2cba3d527b36877864" kind="soundboard">
+      <identifier scheme="archive-org">gd86-12-15.sbd.kpfa.19600.sbeok.shnf</identifier>
+      <lineage>Soundboard | Master Dolby B Cass&gt;Sonic Solutions via TC2000 @ 24 bits&gt;SBM2 CD&gt;CD &gt; EAC[secure] &gt; SHN. [Note - this is apparently another version of the KPFA sbd source.]</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1986-12-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-008bad9b6edbc2980be6" kind="unknown">
+      <identifier scheme="other">etree-595295</identifier>
+      <note>Supplied catalogue listing: etree; gd1986-12-15.139362.Senn.Hessberg.Miller.Noel.t-flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

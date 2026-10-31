@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-12-05" date="1979-12-05">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19791205-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-706" nameAsBilled="Uptown Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
+      <performance id="p01-02" song="s-greatest-story-ever-told" transition="unknown"/>
+      <performance id="p01-03" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-05" song="s-big-river" transition="unknown"/>
+      <performance id="p01-06" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-07" song="s-easy-to-love-you" transition="unknown"/>
+      <performance id="p01-08" song="s-althea" transition="segue"/>
+      <performance id="p01-09" song="s-lost-sailor" transition="segue"/>
+      <performance id="p01-10" song="s-saint-of-circumstance" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-shakedown-street" transition="segue"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-03" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-black-peter" transition="segue"/>
+      <performance id="p02-09" song="s-i-need-a-miracle" transition="segue"/>
+      <performance id="p02-10" song="s-bertha" transition="segue"/>
+      <performance id="p02-11" song="s-good-lovin" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-johnny-b-goode" transition="unknown"/>
+      <performance id="p03-02" song="s-dont-ease-me-in" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-0e4f4636ab937652de00" kind="unknown">
+      <identifier scheme="archive-org">gd1979-12-05.128622.naks.mason.flac16</identifier>
+      <credit role="recordist">Mason B. Taylor</credit>
+      <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e5a274fbd67d674ec544" kind="unknown">
+      <identifier scheme="archive-org">gd1979-12-05.aud-sbd.long.19418-and-31959.34874.sbeok.flac16</identifier>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+    <recording id="r-e799da685326d04174d6" kind="matrix">
+      <identifier scheme="archive-org">gd1979-12-05.mtx.seamons.112235.flac16</identifier>
+      <lineage>flac16: Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut w/couple areas of EQ &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9e5e84670d2110d62059" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-12-05.sbd.miller.112163.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Dat (44.1k) -&gt; Data DVD | Data DVD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3cd1499b0119b538971b" kind="unknown">
+      <identifier scheme="archive-org">gd1979-12-05.senn-frisch.minches.83532.flac16</identifier>
+      <credit role="recordist">Ira Frisch</credit>
+      <lineage>2 Sennheiser 421s + Sennheiser 441&gt; Nakamichi 550 | Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition&gt; (dither/downsample)&gt; FLAC encoding</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+    </recording>
+    <recording id="r-730a7f2bc09b3051ee58" kind="soundboard">
+      <identifier scheme="archive-org">gd1979-12-05.set2-sbd.miller.31959.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Dat (44.1k) | Dat (Sony D8) -&gt; VX Pocket v440 -&gt; Sharp MV10 -&gt; Samplitude Professional v8.01 -&gt; CD -&gt; EAC -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-84dcb3854ff4827a9ece" kind="audience">
+      <identifier scheme="archive-org">gd79-12-05.aud.warner.19418.sbeok.shnf</identifier>
+      <credit role="recordist">Unknown</credit>
+      <lineage>Audience Recording | MAC (Unknown equipment) &gt; Unknown analog generations &gt; Nakamichi RX-505 cassette &gt; 20-bit conversion with Burr-Brown ADC, dithered to 16-bit for output &gt; HHB CDR8930 &gt; EAC &gt; CoolEdit &gt; CD &gt; Samsung SW-232B extraction (EAC v0.9 beta 4) &gt; tracking (CD Wave)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-a430ce9595209e8e4117" kind="soundboard">
+      <identifier scheme="archive-org">gd79-12-05.sbd.pset2.ladner.9359.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt;MC&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

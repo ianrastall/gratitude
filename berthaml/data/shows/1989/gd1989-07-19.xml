@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1989-07-19" date="1989-07-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19890719-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-795" nameAsBilled="Alpine Valley Music Theatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-hell-in-a-bucket" transition="segue"/>
+      <performance id="p01-02" song="s-sugaree" transition="unknown"/>
+      <performance id="p01-03" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-althea" transition="unknown"/>
+      <performance id="p01-06" song="s-victim-or-the-crime" transition="unknown"/>
+      <performance id="p01-07" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-08" song="s-desolation-row" transition="segue"/>
+      <performance id="p01-09" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p02-02" song="s-foolish-heart" transition="segue"/>
+      <performance id="p02-03" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-09" song="s-morning-dew" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-7283d49e85dc4f2d92cb" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-19.138808.sbd.miller.fixed.flac24</identifier>
+      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-4db440a72c1db69b4350" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-19.138818.UltraMatrix.sbd.miller.flac16</identifier>
+      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9a02d80e09e35d5dd0f1" kind="unknown">
+      <identifier scheme="archive-org">gd1989-07-19.141076.TSBeyerCM101.ebel.flac2496</identifier>
+      <lineage>flac24/96 Source Info:TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's)Transfer Info:Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analog-&gt; Digital Converter) (SPDIF out) 24/96-&gt;Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/96)Transfers by Pete Ebel</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Pete Ebel</note>
+    </recording>
+    <recording id="r-af01e84839abf80109b5" kind="unknown">
+      <identifier scheme="archive-org">gd1989-07-19.142299.Lawn.Schoeps.Mattes.Miller.Noel.t-flac1648</identifier>
+      <credit role="recordist">Ted Mattes</credit>
+      <lineage>flac16/48kHz ; Ted Mattes Master DAT Recording: Schoeps CMC4 MK4 &gt; DAT; Recorded off the delay stacks from the lawn; Charlie Miller | DAT &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-fdeebed2d0e582ad44cc" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-19.175255.mtx.tobin.flac1648</identifier>
+      <lineage>SBD + AUD Matrix 2 Source Mix (48/16)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (48/16) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-efbf6c293570ad05cadf" kind="unknown">
+      <identifier scheme="archive-org">gd1989-07-19.175284.dts.tobin.flac1648</identifier>
+      <lineage>DTS Audio 5.1 Mix (16/48)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DTS</note>
+      <note>Source credit (transfer-mastering): DTS Audio 5.1 Mix (16/48) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1a813a4e2da9bc760c26" kind="unknown">
+      <identifier scheme="archive-org">gd1989-07-19.175297.5-1.tobin.flac1648</identifier>
+      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0d9cdbcce67dc7035b51" kind="soundboard">
+      <identifier scheme="archive-org">gd1989-07-19.dts.tobin.125862.flac16</identifier>
+      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=437) DSBD&gt; DAT&gt; CD&gt; eac&gt; SHN; via N. Georges + AUD1 (shn id 92447) Sennheiser 441 &gt; Marantz PDM 340 w/ dbx Cassette Master Maxell MX-S 90 Recorded by Casey Coniff in front of Repeater Stack | Nakamichi DR-1 &gt; dbx224x &gt; Korg MR-1 DSD [1 Bit 2.8 khz] Mastering: Audio Gate to [24/96] &gt; WaveLab &gt; Nomad Blue Tube Limiter LM2S-3 &gt; r8brain to [16/44.1] &gt; CD Wave &gt; TLH &gt; Flac Transfer and Mastering by Bill Koucky, Green Mountain Bros. June 26, 2008 + AUD2 (shnid=106492) TAPER: GREG HOLTZ "Third night we were in the pavilion FOB" SOURCE: Nakamichi CM-300's CP-1 caps worn in a hat stealth-style -&gt; Sony WM-D6C. TRANSFER: By (JAZ) Master Cassettes (Maxell MX 100) Tascam 112MKII -&gt; Korg MR-1, 1bit 2.8MHz -&gt; USB -&gt; Korg Audio Gate Software 24bit 96KHz -&gt; Wave Lab 6.0 w/UAD -&gt; R8brain for 16bit 44.1KHz sample rate conversion + VID (no shn id) low generation video supplied in dvd format by weem4me for video project - dts mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DSBD DTS</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-d55d14f9c81c340eb159" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-19.fob.nak300.holtz.jaz.106492.flac16</identifier>
+      <credit role="recordist">Greg Holtz</credit>
+      <lineage>Nakamichi CM-300's CP-1 caps worn in a hat stealth-style -&gt; Sony WM-D6C. ("Third night we were in the pavilion FOB") | Master Cassettes (Maxell MX 100) Tascam 112MKII -&gt; Korg MR-1, 1bit 2.8MHz -&gt; USB -&gt; Korg Audio Gate Software 24bit 96KHz -&gt; Wave Lab 6.0 w/UAD -&gt; R8brain for 16bit 44.1KHz sample rate conversion -&gt; Traders Little Helper flac8 -&gt; Tagged w/Tag &amp; Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): JAZ</note>
+    </recording>
+    <recording id="r-708a9cec56f5f241bcb6" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-19.fob.set2.seaweed.130697.flac16</identifier>
+      <lineage>Set 2 FOB MC&gt;A&gt;A(XL-II)&gt;CD&gt;flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): seaweed</note>
+    </recording>
+    <recording id="r-8a9d4f15e534189335b4" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-19.mat.tobin.125861.flac16</identifier>
+      <lineage>Matrix 4 Source Mix - SBD (shnid=437) DSBD&gt; DAT&gt; CD&gt; eac&gt; SHN; via N. Georges + AUD1 (shn id 92447) Sennheiser 441 &gt; Marantz PDM 340 w/ dbx Cassette Master Maxell MX-S 90 Recorded by Casey Coniff in front of Repeater Stack | Nakamichi DR-1 &gt; dbx224x &gt; Korg MR-1 DSD [1 Bit 2.8 khz] Mastering: Audio Gate to [24/96] &gt; WaveLab &gt; Nomad Blue Tube Limiter LM2S-3 &gt; r8brain to [16/44.1] &gt; CD Wave &gt; TLH &gt; Flac Transfer and Mastering by Bill Koucky, Green Mountain Bros. June 26, 2008 + AUD2 (shnid=106492) TAPER: GREG HOLTZ "Third night we were in the pavilion FOB" SOURCE: Nakamichi CM-300's CP-1 caps worn in a hat stealth-style -&gt; Sony WM-D6C. TRANSFER: By (JAZ) Master Cassettes (Maxell MX 100) Tascam 112MKII -&gt; Korg MR-1, 1bit 2.8MHz -&gt; USB -&gt; Korg Audio Gate Software 24bit 96KHz -&gt; Wave Lab 6.0 w/UAD -&gt; R8brain for 16bit 44.1KHz sample rate conversion + VID (no shn id) low generation video supplied in dvd format by weem4me for video project - matrix mixing by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB DSBD</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-39470f16734fd2abc801" kind="matrix">
+      <identifier scheme="archive-org">gd1989-07-19.mtx.hansokolow.96232.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): hansokolow</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-89-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+    <recording id="r-1f2f2cfbb60b8ce8d44d" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-19.Nak300CP4.Baker.Keo.125505.Flac2496</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes: Maxell XLII-S 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+    </recording>
+    <recording id="r-270b5bd29787b0e128eb" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-19.Nak300CP4.Baker.Keo.125506.Flac1644</identifier>
+      <credit role="recordist">Baker</credit>
+      <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes: Maxell XLII-S 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
+    </recording>
+    <recording id="r-3ed1b3ab3218c70c40f3" kind="unknown">
+      <identifier scheme="archive-org">gd1989-07-19.senn441.coniff.gmb.92447.flac16</identifier>
+      <credit role="recordist">Casey Coniff</credit>
+      <lineage>Sennheiser 441 &gt; Marantz PDM 340 w/ dbx (Cassette Master Maxell MX-S 90) | Nakamichi DR-1 &gt; dbx224x &gt; Korg MR-1 DSD [1 Bit 2.8 khz] Mastering: Audio Gate to [24/96] &gt; WaveLab &gt; Nomad Blue Tube Limiter LM2S-3 &gt; r8brain to [16/44.1] &gt; CD Wave &gt; TLH &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Koucky</note>
+    </recording>
+    <recording id="r-e1d0eb761366a01ff4f9" kind="audience">
+      <identifier scheme="archive-org">gd1989-07-19.upg-aud.tobin.125855.flac16</identifier>
+      <lineage>(original shnid = 92447) Source: Sennheiser 441 &gt; Marantz PDM 340 w/ dbx Cassette Master Maxell MX-S 90 Recorded by Casey Coniff in front of Repeater Stack | Nakamichi DR-1 &gt; dbx224x &gt; Korg MR-1 DSD [1 Bit 2.8 khz] Mastering: Audio Gate to [24/96] &gt; WaveLab &gt; Nomad Blue Tube Limiter LM2S-3 &gt; r8brain to [16/44.1] &gt; CD Wave &gt; TLH &gt; Flac Transfer and Mastering by Bill Koucky, Green Mountain Bros. June 26, 2008 - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-89-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+    <recording id="r-7539101e648b177ca552" kind="soundboard">
+      <identifier scheme="archive-org">gd1989-07-19.upg-sbd.tobin.125854.flac16</identifier>
+      <lineage>DSBD -&gt; DAT -&gt; CD -&gt; eac -&gt; SHN (original shn 437) - pitch correction and patches by Kevin Tobin</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Source credit (transfer-mastering): Kevin Tobin</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-89-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+    <recording id="r-56bf2ac120a423961782" kind="soundboard">
+      <identifier scheme="archive-org">gd89-07-19.sbd.437.sbeok.shnf</identifier>
+      <lineage>DSBD&gt; DAT&gt; CD&gt; eac&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1989-07-19. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: DSBD</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-89-east-troy-wi-alpine-valley-music-theater/</note>
+    </recording>
+    <recording id="r-ffc07573229bb3e201e2" kind="unknown">
+      <identifier scheme="other">etree-594183</identifier>
+      <note>Supplied catalogue listing: etree; gd1989-07-19.138818.UltraMatrix.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-c923f568388f7538deb0" kind="unknown">
+      <identifier scheme="other">etree-594179</identifier>
+      <note>Supplied catalogue listing: etree; gd1989-07-19.138808.UltraMatrix.sbd.miller.flac24-fixed-. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: ULTRAMATRIX</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+    <recording id="r-38219cdb2fb5051e4f16" kind="unknown">
+      <identifier scheme="other">etree-567428</identifier>
+      <note>Supplied catalogue listing: etree; gd1989-07-19.mat.tobin.125861.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Kevin Tobin; role unspecified.</note>
+    </recording>
+    <recording id="r-9213ffec55f400444003" kind="unknown">
+      <identifier scheme="other">etree-520818</identifier>
+      <note>Supplied catalogue listing: etree; gd89-07-19.mtx.hansokolow.96232.flac16 - Alpine Valley - East Troy, WI. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: MTX</note>
+    </recording>
+    <recording id="r-839d9dd19fee43065953" kind="unknown">
+      <identifier scheme="other">etree-504809</identifier>
+      <note>Supplied catalogue listing: etree; Grateful Dead 1989-07-19 Alpine Valley, WI SBD SHN by request. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

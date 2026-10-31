@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1986-05-03" date="1986-05-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19860503-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 859e0118134444b5e15767a698508f39e1975f3652750caf5f073ddf4d7b68d8. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-905" nameAsBilled="Cal Expo Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="segue"/>
+      <performance id="p01-02" song="s-the-race-is-on" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-05" song="s-high-time" transition="unknown"/>
+      <performance id="p01-06" song="s-beat-it-on-down-the-line" transition="segue"/>
+      <performance id="p01-07" song="s-promised-land" transition="segue"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-02" song="s-fire-on-the-mountain" transition="segue"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-04" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-comes-a-time" transition="segue"/>
+      <performance id="p02-09" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3fcfe55d997a111e31f1" kind="audience">
+      <identifier scheme="archive-org">gd1986-05-03.135008.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>lineage: sennheiser 441 fob&gt; tcd-d5&gt; mc &gt; c sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; taper: unknown</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1986-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-f89e689ee4252836ad2e" kind="unknown">
+      <identifier scheme="archive-org">gd1986-05-03.156455.nak300.davis.holbrook.flac1644</identifier>
+      <credit role="recordist">Executive Crew; Kenny Davis, Mike Davis, Tom Pinney, John Goode</credit>
+      <lineage>Source: 1GEN AUDCA 2.5% speed correction each set Microphones: Nakamichi 300/CP4 shotgun capsules Recorder: Sony TC-D5M| Maxell MX 90's no Dolby (1st in line) Location: OTS (tape says "behind board") | original transfer: Sony TC-D5M &gt; Sony TC-D5M Transfer: Nakamichi CR-5A &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC| foobar 2000 tagger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1986-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-6abdea47b526be7f3256" kind="unknown">
+      <identifier scheme="archive-org">gd1986-05-03.156456.nak300.davis.holbrook.flac2448</identifier>
+      <credit role="recordist">Executive Crew; Kenny Davis, Mike Davis, Tom Pinney, John Goode</credit>
+      <lineage>Source: 1GEN AUDCA 2.5% speed correction each set Microphones: Nakamichi 300/CP4 shotgun capsules Recorder: Sony TC-D5M| Maxell MX 90's no Dolby (1st in line) Location: OTS (tape says "behind board") | original transfer: Sony TC-D5M &gt; Sony TC-D5M Transfer: Nakamichi CR-5A &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC| foobar 2000 tagger</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1986-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
+    </recording>
+    <recording id="r-54713d0e3682be08b2dd" kind="soundboard">
+      <identifier scheme="archive-org">gd1986-05-03.sbd.miller.81516.flac16</identifier>
+      <credit role="recordist">Thanks to Paul Scotton and Joani Walker for the Cassettes</credit>
+      <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MA-R90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1986-05-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
+    </recording>
+    <recording id="r-20144dfed838997ed0ad" kind="audience">
+      <identifier scheme="archive-org">gd1986-05-03.Set1.Senn421sNak300CP4s.Darby.119543.Flac2448</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Set 1 Master Audience Recorded By Mr. Darby; Sennheiser MD421's + Nakamichi CM300/CP4s&gt; (PAS/DFC/2nd Row Of OTS/6 Feet High)&gt; Sony MX 10&gt;Sony TC-D5M,Tape Maxell MX; Transfer Information:Tascam 112 MKII (XLR Out)&gt; Tascam HD-P2 @ 24/48&gt;HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1986-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-03755290247fd9784268" kind="audience">
+      <identifier scheme="archive-org">gd1986-05-03.Set1.Senn421sNak300CP4s.Darby.119544.Flac1644</identifier>
+      <credit role="recordist">Mike Darby</credit>
+      <lineage>Set 1 Master Audience Recorded By Mr. Darby; Sennheiser MD421's + Nakamichi CM300/CP4s&gt; (PAS/DFC/2nd Row Of OTS/6 Feet High)&gt; Sony MX 10&gt;Sony TC-D5M,Tape Maxell MX; Transfer Information:Tascam 112 MKII (XLR Out)&gt; Tascam HD-P2 @ 24/48&gt;HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1986-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Keo</note>
+    </recording>
+    <recording id="r-3533c621a5fed12cf53b" kind="unknown">
+      <identifier scheme="archive-org">gd86-05-03.beyer.cronk.9626.sbeok.shnf</identifier>
+      <lineage>Beyer M88s&gt;PCM&gt;metal cass&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1986-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-b8015953cdec209425a0" kind="soundboard">
+      <identifier scheme="archive-org">gd86-05-03.sbd.hinko.18375.sbeok.shnf</identifier>
+      <lineage>SBD &gt; MC &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN via Darryl Hinko</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1986-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

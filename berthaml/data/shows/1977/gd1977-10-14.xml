@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-10-14" date="1977-10-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19771014-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-482" nameAsBilled="Hofheinz Pavilion"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-03" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-04" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-05" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-loser" transition="unknown"/>
+      <performance id="p01-07" song="s-passenger" transition="unknown"/>
+      <performance id="p01-08" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-09" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-10" song="s-tennessee-jed" transition="unknown"/>
+      <performance id="p01-11" song="s-the-music-never-stopped" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-bertha" transition="segue"/>
+      <performance id="p02-02" song="s-good-lovin" transition="unknown"/>
+      <performance id="p02-03" song="s-candyman" transition="unknown"/>
+      <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-the-wheel" transition="segue"/>
+      <performance id="p02-07" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-08" song="s-around-and-around" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-brokedown-palace" transition="segue"/>
+      <performance id="p03-02" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-74e81ca2d3380e288342" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-14.sbd.fixed.miller.110419.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hofheinz Pavilion on 1977-10-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/14/10-14-77-houston-tx-hofheinz-pavilion/</note>
+    </recording>
+    <recording id="r-5bf40b01b13431c677ff" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-14.sbd.gorinsky.tetzeli.fix-6693.34260.sbeok.shnf</identifier>
+      <lineage>SBD&gt;MC&gt;R&gt;DAT&gt;CDR | CDR &gt; EAC (secure mode, test and copy) &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hofheinz Pavilion - University of Houston on 1977-10-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bill Golden, G. Gorinsky, and Bill Tetzeli</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/14/10-14-77-houston-tx-hofheinz-pavilion/</note>
+    </recording>
+    <recording id="r-4e92c54b305f5d59da11" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-10-14.sbd.miller.110400.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; Dat | Dat -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hofheinz Pavilion on 1977-10-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/14/10-14-77-houston-tx-hofheinz-pavilion/</note>
+    </recording>
+    <recording id="r-3a821df02cfec906e51c" kind="soundboard">
+      <identifier scheme="archive-org">gd77-10-14.sbd.gorinsky.6693.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD&gt; MC&gt; R&gt; DAT&gt; CDR &gt; EAC (secure mode, test and copy) &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hofheinz Pavilion on 1977-10-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/14/10-14-77-houston-tx-hofheinz-pavilion/</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-05-04" date="1977-05-04">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770504-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-670" nameAsBilled="The Palladium"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
+      <performance id="p01-02" song="s-big-river" transition="unknown"/>
+      <performance id="p01-03" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-04" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-05" song="s-it-must-have-been-the-roses" transition="unknown"/>
+      <performance id="p01-06" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-07" song="s-deal" transition="unknown"/>
+      <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-09" song="s-brown-eyed-women" transition="unknown"/>
+      <performance id="p01-10" song="s-dancing-in-the-street" transition="unknown" titleVariant="Dancin' In The Streets"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-estimated-prophet" transition="unknown"/>
+      <performance id="p02-02" song="s-scarlet-begonias" transition="segue"/>
+      <performance id="p02-03" song="s-fire-on-the-mountain" transition="unknown"/>
+      <performance id="p02-04" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-05" song="s-playing-in-the-band" transition="segue"/>
+      <performance id="p02-06" song="s-comes-a-time" transition="segue"/>
+      <performance id="p02-07" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-476a028aba8cfe13396a" kind="audience">
+      <identifier scheme="archive-org">gd1977-05-04.151750.1st.set.shure.sm57.sublette.mattes.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
+    </recording>
+    <recording id="r-4a599b54b64a8b79d280" kind="audience">
+      <identifier scheme="archive-org">gd1977-05-04.151751.1st.set.shure.sm57.sublette.mattes.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Kathy Sublette</credit>
+      <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
+    </recording>
+    <recording id="r-b6ac5581f1b2568b8ed5" kind="matrix">
+      <identifier scheme="archive-org">gd1977-05-04.mtx.seamons.ht09.99106.flac16</identifier>
+      <lineage>Matrix mix (SBD/AUD)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8c5157e10037bb15a532" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-05-04.sbd.miller.91970.sbeok.flac16</identifier>
+      <lineage>Set 1: SBD -&gt; Master Cassette -&gt; Cassette -&gt; ART DIO -&gt; Cool Edit 2000 -&gt; FLAC DSet 2: SBD -&gt; Master Reel -&gt; Dat -&gt; Sonic Solutions -&gt; CD D | Set 1: FLAC -&gt; Sampltiude Professional v9.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b3b981ebe2cb807b0e5d" kind="soundboard">
+      <identifier scheme="archive-org">gd1977-05-04.set2.mtx.seamons.92159.sbeok.flac16</identifier>
+      <lineage>About 55%SBD/45%AUD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Hunter Seamons</note>
+      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-464c034a08a60410f7f2" kind="audience">
+      <identifier scheme="archive-org">gd77-05-04.moore.minches.17686.sbeok.shnf</identifier>
+      <credit role="recordist">Jerry Moore</credit>
+      <lineage>Audience Recording: Sony ECM-33Ps&gt;Sony TC-152 from orchestra row 6 or 8 | A&gt; D&gt; EAC&gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
+    </recording>
+    <recording id="r-bfd5032a348612f61651" kind="soundboard">
+      <identifier scheme="archive-org">gd77-05-04.sbd.mccarthy.1321.sbefixed.shnf</identifier>
+      <lineage>Soundboard | d1: SBD&gt; CASSM?R?&gt; DAT; d2: MASTER REEL&gt; DAT&gt; DAT&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-3e18ea6ff8602b0a471c" kind="soundboard">
+      <identifier scheme="archive-org">gd77-05-04.set1-sbd.minches.17967.sbeok.shnf</identifier>
+      <lineage>Soundboard | Set 1 SBD S: MC &gt; C &gt; CDR patched with Jerry Moore audience tape</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): David Minches</note>
+      <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

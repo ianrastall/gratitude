@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-05-12" date="1991-05-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910512-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-939" nameAsBilled="Shoreline Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-picasso-moon" transition="unknown"/>
+      <performance id="p01-02" song="s-althea" transition="unknown"/>
+      <performance id="p01-03" song="s-c-c-rider" transition="segue"/>
+      <performance id="p01-04" song="s-it-takes-a-lot-to-laugh-it-takes-a-train-to-cry" transition="unknown"/>
+      <performance id="p01-05" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-06" song="s-high-time" transition="unknown"/>
+      <performance id="p01-07" song="s-black-throated-wind" transition="segue"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
+      <performance id="p02-02" song="s-slipknot" transition="segue"/>
+      <performance id="p02-03" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-04" song="s-looks-like-rain" transition="segue"/>
+      <performance id="p02-05" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-06" song="s-jam" transition="segue"/>
+      <performance id="p02-07" song="s-drums" transition="segue"/>
+      <performance id="p02-08" song="s-space" transition="segue"/>
+      <performance id="p02-09" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-10" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-11" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-the-weight" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3480168787af58b719e6" kind="unknown">
+      <identifier scheme="archive-org">gd1991-05-12.111135.NeumannKMF4-daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Neumann KMF4 microphones (15th row-center)&gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck)&gt;Pre Sonus Inspire GT&gt;Sound Forge&gt;.wav files&gt;Trader's Little Helper&gt;flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-dd34c3cd9cbc1eed7a72" kind="unknown">
+      <identifier scheme="archive-org">gd1991-05-12.111372.schoeps.nickc.flac16</identifier>
+      <lineage>Schoeps MK4 w/ RBox 16 Bit 48K. Do not recall DAT use to master this show. Recorded from section 102. Transferred by Nick C using Sony D7&gt;Edirol R-44 via coax digital. Processed using Soundforge 10b, resample, to 16bit 44.1K and split tracks TLH to convert to Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-52ed537e8963fd237f3c" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-05-12.137353.set1.sbd.miller.flac1644</identifier>
+      <lineage>SBD &gt; Dat Master &gt; PCM | PCM (Sony SL-HF500) &gt; Sony PCM601-ESD &gt; Omega Fenix HT &gt; Audio Audition 6.0 &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-fe1090ec1ed2a41f8aff" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-05-12.149691.sbd.pearson-healy.miller.flac2496</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 27, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-12620166bba9fbd2cdf2" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-05-12.149700.sbd.cm.miller.flac16</identifier>
+      <credit role="recordist">Don Pearson and Dan Healy</credit>
+      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 27, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+    </recording>
+    <recording id="r-37ac41c51e45f5712c66" kind="unknown">
+      <identifier scheme="archive-org">gd1991-05-12.151053.aud.lohr.vernon.flac1648</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>AT-815As &gt; D5 &gt; Nak 550 &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification) &gt; dbpoweramp &gt; 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-d9a62747d8e5caf7a5e2" kind="unknown">
+      <identifier scheme="archive-org">gd1991-05-12.151054.aud.lohr.vernon.flac2496</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>AT-815As &gt; D5 &gt; Nak 550 &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification) &gt; dbpoweramp &gt; 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-5cabff5b24867b29dbed" kind="soundboard">
+      <identifier scheme="archive-org">gd1991-05-12.sbd.miller.31962.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Dat D | Dat (Sony D8) -&gt; VX Pocket 440 -&gt; Sharp MV10 -&gt;</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-ced92b294491af70ae81" kind="soundboard">
+      <identifier scheme="archive-org">gd91-05-12.sbd.clugston.7362.sbeok.shnf</identifier>
+      <lineage>Master Soundboard Cassette &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-5a25d6b749e858fb270a" kind="audience">
+      <identifier scheme="archive-org">gd91-05-12.schoeps.oconnor.9402.sbeok.shnf</identifier>
+      <lineage>FOB-AUD:Schoeps MK4V&gt;DAT&gt;CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+    </recording>
+    <recording id="r-f0e0cee12ba2789b3adf" kind="unknown">
+      <identifier scheme="other">etree-609509</identifier>
+      <note>Supplied catalogue listing: etree; gd1991-05-12.149691.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

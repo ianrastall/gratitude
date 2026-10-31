@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-07-05" date="1981-07-05">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810705-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-811" nameAsBilled="Zoo Amphitheatre"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-shakedown-street" transition="segue"/>
+      <performance id="p01-02" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-03" song="s-candyman" transition="segue"/>
+      <performance id="p01-04" song="s-cassidy" transition="unknown"/>
+      <performance id="p01-05" song="s-brown-eyed-women" transition="segue"/>
+      <performance id="p01-06" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-07" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-08" song="s-mama-tried" transition="segue"/>
+      <performance id="p01-09" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-10" song="s-althea" transition="segue"/>
+      <performance id="p01-11" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-02" song="s-dont-ease-me-in" transition="segue"/>
+      <performance id="p02-03" song="s-the-music-never-stopped" transition="unknown"/>
+      <performance id="p02-04" song="s-ship-of-fools" transition="unknown"/>
+      <performance id="p02-05" song="s-lost-sailor" transition="segue"/>
+      <performance id="p02-06" song="s-saint-of-circumstance" transition="segue"/>
+      <performance id="p02-07" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-08" song="s-drums" transition="segue"/>
+      <performance id="p02-09" song="s-space" transition="segue"/>
+      <performance id="p02-10" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-11" song="s-stella-blue" transition="segue"/>
+      <performance id="p02-12" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-13" song="s-johnny-b-goode" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-3aa7eca31346a8e03219" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-05.132362.set2.fob.ohr-weinberg.flac16</identifier>
+      <credit role="recordist">Ohr Weinberg</credit>
+      <lineage>flac16/48kHz ; Set 2 Cassette Audience Master recorded by Ohr Weinberg FOB DFC; Sony ECM23-F Electret Condenser Microphones-Sony TC-D5M Cassette Recorder; Analog to Digital Transfer-Dolby B Decoded Master played back on Nakamichi Dragon-Sony PCM-R500 DAT @ 48KHz; DAT Master played back on a Sony PCM R-500- Digital Audio Labs Carddeluxe-WAV 16/48; Editing(Adobe Audition CC)-Mastering &amp; Processing(iZotope Ozone 6)-FLAC encodeing(dBpoweramp)-Tagging(Tag &amp; Re-name)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Jim Wise</note>
+      <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+    </recording>
+    <recording id="r-b3848b688a2f3a1df41f" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-05.135205.set2.nak300.schley.flac2448</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>2nd Set Aud: Nakamichi Cm300/cp4 Shotguns &gt; Unknown Lead Deck &gt; Sony Tc-d5m &gt; Hitachi Me-metal, Fob Recording By Brian Schley. | Mac &gt; Nakamichi Cr-5a &gt; Edirol Fa-66 &gt; Wavelab 2448 &gt; Cd-wave (24bit Output) &gt; Tlh &gt; Flac 2448 Tagged. Transferred By Andrew F. 02/2016</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-40aab640d4bb8df30338" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-05.135206.set2.nak300.schley.flac1644</identifier>
+      <credit role="recordist">Brian Schley</credit>
+      <lineage>2nd Set AUD: Nakamichi CM300/CP4 shotguns &gt; unknown lead deck &gt; Sony TC-D5M &gt; Hitachi ME-Metal, FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 02/2016</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Andrew F.</note>
+    </recording>
+    <recording id="r-411c23a3b29ccf787fc8" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-05.152668.senn421.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassette; Sennheiser 421 mics &gt; Sony TC-D5M (Maxell UDXLII) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-9a15bccc6eba4c924a57" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-05.152669.senn421.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master Audience Cassette; Sennheiser 421 mics &gt; Sony TC-D5M (Maxell UDXLII) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-104fdd85138b6e2d2066" kind="unknown">
+      <identifier scheme="archive-org">gd1981-07-05.175900.aud.bernstein.ackerman.noel.flac2496</identifier>
+      <credit role="recordist">Jon Bernstein</credit>
+      <lineage>?? mics &gt; ?? lead deck &gt; Sony TC-D5 &gt; Master Cassettes (Maxell XLIIS-90's) | Master Cassettes &gt; Nakamichi Cassette Deck 1 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96 &gt; Adobe Audition &gt; FLAC 2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Transfer, Mastering by Ray Ackerman Edited, Processed w/ add'l Mastering by Joe Noel December 21, 2025</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-232e6d488c3159485b0f" kind="audience">
+      <identifier scheme="archive-org">gd1981-07-05.aud.unknown.109861.flac16</identifier>
+      <lineage>Set 2 only, audience tape trade cdrs -&gt; flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-e921c9dd63aec94da124" kind="soundboard">
+      <identifier scheme="archive-org">gd1981-07-05.sbd.miller.109839.flac16</identifier>
+      <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat | Dat (Sony R500) -&gt; Samplitude Professional v11.1 -&gt; Adobe Audition v3.0 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/05/7-5-81-oklahoma-city-ok-zoo-amphitheater/</note>
+    </recording>
+    <recording id="r-c98debf4b7aa37974eb1" kind="audience">
+      <identifier scheme="archive-org">gd81-07-05.nak700.munder.9126.sbeok.shnf</identifier>
+      <lineage>Audience Recording: Nak CM700's | Nak CM700's&gt; Sony D-5&gt; MC&gt; DAT&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2024/07/05/7-5-81-oklahoma-city-ok-zoo-amphitheater/</note>
+    </recording>
+    <recording id="r-a47edfc1f459ef288fea" kind="soundboard">
+      <identifier scheme="archive-org">gd81-07-05.sbd.miller.30648.sbeok.flacf</identifier>
+      <lineage>Soundboard | SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Zoo Amphitheater on 1981-07-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

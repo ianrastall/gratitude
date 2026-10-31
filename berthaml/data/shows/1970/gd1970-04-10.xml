@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1970-04-10" date="1970-04-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19700410-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+  </record>
+  <venue ref="v-jb-165" nameAsBilled="Fillmore West"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown" mode="electric"/>
+      <performance id="p01-02" song="s-new-speedway-boogie" transition="unknown" mode="electric"/>
+      <performance id="p01-03" song="s-mama-tried" transition="unknown" mode="electric"/>
+      <performance id="p01-04" song="s-china-cat-sunflower" transition="segue" mode="electric"/>
+      <performance id="p01-05" song="s-i-know-you-rider" transition="unknown" mode="electric"/>
+      <performance id="p01-06" song="s-hard-to-handle" transition="unknown" mode="electric"/>
+      <performance id="p01-07" song="s-casey-jones" transition="unknown" mode="electric"/>
+      <performance id="p01-08" song="s-friend-of-the-devil" transition="unknown" mode="acoustic"/>
+      <performance id="p01-09" song="s-deep-elem-blues" transition="unknown" mode="acoustic"/>
+      <performance id="p01-10" song="s-candyman" transition="unknown" mode="acoustic"/>
+      <performance id="p01-11" song="s-wake-up-little-susie" transition="segue" mode="acoustic"/>
+      <performance id="p01-12" song="s-black-peter" transition="unknown" mode="acoustic"/>
+      <performance id="p01-13" song="s-uncle-johns-band" transition="unknown" mode="acoustic"/>
+      <performance id="p01-14" song="s-its-a-mans-mans-mans-world" transition="unknown" titleVariant="It's A Man's World" mode="electric"/>
+      <performance id="p01-15" song="s-dancing-in-the-street" transition="unknown" titleVariant="Dancin' In The Streets" mode="electric"/>
+      <performance id="p01-16" song="s-high-time" transition="unknown" mode="electric"/>
+      <performance id="p01-17" song="s-alligator" transition="segue" mode="electric"/>
+      <performance id="p01-18" song="s-drums" transition="segue" mode="electric"/>
+      <performance id="p01-19" song="s-alligator" transition="segue" mode="electric"/>
+      <performance id="p01-20" song="s-caution" transition="segue" mode="electric"/>
+      <performance id="p01-21" song="s-we-bid-you-goodnight" transition="unknown" titleVariant="And We Bid You Good Night" mode="electric"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

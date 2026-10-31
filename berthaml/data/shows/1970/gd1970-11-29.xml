@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1970-11-29" date="1970-11-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19701129-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-360" nameAsBilled="Club Agora"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-02" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-04" song="s-next-time-you-see-me" transition="unknown"/>
+      <performance id="p01-05" song="s-morning-dew" transition="unknown"/>
+      <performance id="p01-06" song="s-truckin" transition="segue"/>
+      <performance id="p01-07" song="s-drums" transition="segue"/>
+      <performance id="p01-08" song="s-the-other-one" transition="segue"/>
+      <performance id="p01-09" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-10" song="s-casey-jones" transition="unknown"/>
+      <performance id="p01-11" song="s-dire-wolf" transition="unknown"/>
+      <performance id="p01-12" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p01-13" song="s-brokedown-palace" transition="unknown"/>
+      <performance id="p01-14" song="s-good-lovin" transition="unknown"/>
+      <performance id="p01-15" song="s-sugar-magnolia" transition="unknown"/>
+      <performance id="p01-16" song="s-not-fade-away" transition="segue"/>
+      <performance id="p01-17" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p01-18" song="s-not-fade-away" transition="unknown"/>
+      <performance id="p01-19" song="s-uncle-johns-band" transition="unknown"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-00b3100c2e38090cc1b2" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-11-29.179343.sbd.cassidy.minches.miller.flac2496</identifier>
+      <credit role="recordist">Peter S. Kimble</credit>
+      <lineage>SBD (mono) &gt; Master Reel (3.75ips) | Transfer Info: Master Reel (Technics RS-1500) &gt; Tascam DA-3000 (24-bit/96k) Mastering Info: WAV &gt; Samplitude Pro X6 Suite &gt; Adobe Audition 2025 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Club Agora on 1970-11-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred by David Minches Mastered by Charlie Miller September 24, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e31208a5eda39621dee9" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-11-29.179344.sbd.cassidy.minches.miller.flac1648</identifier>
+      <credit role="recordist">Peter S. Kimble</credit>
+      <lineage>SBD (mono) &gt; Master Reel (3.75ips) | Transfer Info: Master Reel (Technics RS-1500) &gt; Tascam DA-3000 (24-bit/96k) Mastering Info: WAV &gt; Samplitude Pro X6 Suite &gt; Adobe Audition 2025 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Club Agora on 1970-11-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred by David Minches Mastered by Charlie Miller September 24, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-1f28b638cd0d06ec0c1f" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-11-29.179348.sbd.cassidy.minches.miller.retrack.flac2496</identifier>
+      <credit role="recordist">Peter S. Kimble</credit>
+      <lineage>SBD (mono) &gt; Master Reel (3.75ips) | Transfer Info: Master Reel (Technics RS-1500) &gt; Tascam DA-3000 (24-bit/96k) Mastering Info: WAV &gt; Samplitude Pro X6 Suite &gt; Adobe Audition 2025 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Club Agora on 1970-11-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred by David Minches Mastered by Charlie Miller September 25, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-7d2cd35ce4f7710c6271" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-11-29.179349.sbd.cassidy.minches.miller.retrack.flac1648</identifier>
+      <credit role="recordist">Peter S. Kimble</credit>
+      <lineage>SBD (mono) &gt; Master Reel (3.75ips) | Transfer Info: Master Reel (Technics RS-1500) &gt; Tascam DA-3000 (24-bit/96k) Mastering Info: WAV &gt; Samplitude Pro X6 Suite &gt; Adobe Audition 2025 &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Club Agora on 1970-11-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Transferred by David Minches Mastered by Charlie Miller September 25, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-e7bcea7c03fff2c33ae5" kind="audience">
+      <identifier scheme="archive-org">gd70-11-29.aud.hanno.7592.sbeok.shnf</identifier>
+      <lineage>Audience</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Club Agora on 1970-11-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Uli Tuete and Hanno Bunjes</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

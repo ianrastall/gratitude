@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-09-18" date="1983-09-18">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830918-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-888" nameAsBilled="Nevada County Fairgrounds"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
+      <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-03" song="s-minglewood-blues" transition="unknown"/>
+      <performance id="p01-04" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-05" song="s-hell-in-a-bucket" transition="unknown"/>
+      <performance id="p01-06" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-07" song="s-let-it-grow" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-touch-of-grey" transition="segue"/>
+      <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
+      <performance id="p02-03" song="s-terrapin-station" transition="segue"/>
+      <performance id="p02-04" song="s-jam" transition="segue"/>
+      <performance id="p02-05" song="s-drums" transition="segue"/>
+      <performance id="p02-06" song="s-space" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-wharf-rat" transition="segue"/>
+      <performance id="p02-09" song="s-around-and-around" transition="segue"/>
+      <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-520969d1ec14d4762651" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-18.138828.FOB.NAK700.DSD.billydee.Sellers.Noel.t-flac24</identifier>
+      <credit role="recordist">billydee</credit>
+      <lineage>billydee recording (patched out of Yamaguchi/Poris): Nak 700's &gt; Sony TC-D5M &gt; master audio cassette (FOB); Larry Sellers &amp; the Philly Crew Direct Stream Digital (DSD) | master audio cassette &gt; Nak CR7A w/ azimuth adjusted &gt; Korg MR-1000 @ 5.8mhz &gt; FLAC 24/96; Joe Noel Edited &amp; Mastered in Audacity, Flac 24/96; Checksum &amp; tags created in xACT</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Larry Sellers &amp; the Philly Crew; Joe Noel</note>
+    </recording>
+    <recording id="r-f1aac3b70db6d4ad95ef" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-18.140957.FOB.NAK700.DSD.billydee.Sellers.Noel.t-flac1644</identifier>
+      <credit role="recordist">billydee</credit>
+      <lineage>billydee recording (patched out of Yamaguchi/Poris): Nak 700's &gt; Sony TC-D5M &gt; master audio cassette (FOB); Larry Sellers &amp; the Philly Crew Direct Stream Digital (DSD) | master audio cassette &gt; Nak CR7A w/ azimuth adjusted &gt; Korg MR-1000 @ 5.8mhz &gt; FLAC 24/96; Joe Noel Edited &amp; Mastered in Audacity, Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Joe Noel, Larry Sellers</note>
+    </recording>
+    <recording id="r-0e54f3d8b991c5313e4c" kind="unknown">
+      <identifier scheme="archive-org">gd1983-09-18.151143.aud.lohr.vernon.flac2496</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Unspecified mics &gt; unspecified deck &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-abb809dc15100ab2f533" kind="unknown">
+      <identifier scheme="archive-org">gd1983-09-18.151144.aud.lohr.vernon.flac1648</identifier>
+      <credit role="recordist">Gesine Lohr</credit>
+      <lineage>Unspecified mics &gt; unspecified deck &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification) &gt; dbpoweramp 1648</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: AUD</note>
+      <note>Source credit (transfer-mastering): Matt Vernon</note>
+    </recording>
+    <recording id="r-b32e801d5d669225c7cd" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-18.163459.nak700.wagner.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-65b91397badfc9f35d46" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-18.163460.nak700.wagner.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Bob Wagner</credit>
+      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    </recording>
+    <recording id="r-ffaa330689627a17149b" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-18.163783.senn421.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 421 mics &gt; Jim Vita's 1st Generation Cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6300698fff12f1cabfae" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-18.163784.senn421.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Master Audience Cassettes; Sennheiser 421 mics &gt; Jim Vita's 1st Generation Cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-8d827435a59a2dc65491" kind="soundboard">
+      <identifier scheme="archive-org">gd1983-09-18.aud.andrewf.79375.sbeok.flac16</identifier>
+      <credit role="recordist">Andrew F</credit>
+      <lineage>2 Sony ECM-220 mics + 1 Sony ECM-939LT (stereo) mic &gt; Sony MX-10L 4-channel mixer &gt; Marantz PMD-340 cassette deck. Taped on Maxell UDXL-II 90's, Dolby on. Mics aprx seven feet high, and set up aprx half-way between the stage and the soundboard. | MAC &gt; Sony TC-D5M (Dolby on) &gt; Marantz CDR-500 &gt; EAC &gt; WAV &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-OK, FLAC compression, and checksums) &gt; FLAC, October 2006. Taped and transfered by Andrew F.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Andrew F</note>
+    </recording>
+    <recording id="r-1c00b382141b03b105a9" kind="audience">
+      <identifier scheme="archive-org">gd1983-09-18.nak700.guch.poris.russjcan.98307.flac16</identifier>
+      <credit role="recordist">Tazuo Yamaguchi and Jamie Poris</credit>
+      <lineage>Nakamichi 700's with Sony TC-D5 FOB DFC Maxell XL-IIs 90 nr dbx II | Master&gt;NakCR-3A&gt;dbx224&gt;hd&gt;Audacity&gt;CDWave&gt;TLH</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Russ Cansler</note>
+    </recording>
+    <recording id="r-6f2c9ae5fe8f69f86d85" kind="unknown">
+      <identifier scheme="archive-org">gd83-09-18.sbd.dodd.17409.sbeok.shnf</identifier>
+      <lineage>MSC&gt;Cass&gt;DAT&gt;CDR Eac &gt; cool edit pro &gt; shntool &gt; cdwav &gt; shnv3 Discs kindly provided by Andy Lemieux Eac &gt; shn by Ernie Dodd</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: David Lemieux; role unspecified.</note>
+    </recording>
+    <recording id="r-e530cffd8297f6292016" kind="unknown">
+      <identifier scheme="archive-org">gd83-09-18.set2-neumann.clugston.7225.sbeok.shnf</identifier>
+      <lineage>Neumann KM84 mics &gt; Sony D5M cassette deck: master cassette played back via a Nakamichi CR7A &gt; Sony R500 w/ "Super Bit-Mapping" turned "On" &gt; DAT &gt; CDR</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nevada County Fairgrounds on 1983-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

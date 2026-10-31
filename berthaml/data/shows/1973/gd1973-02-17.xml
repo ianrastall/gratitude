@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-02-17" date="1973-02-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19730217-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-674" nameAsBilled="St. Paul Civic Center Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-02" song="s-he-s-gone" transition="unknown"/>
+      <performance id="p01-03" song="s-looks-like-rain" transition="unknown"/>
+      <performance id="p01-04" song="s-box-of-rain" transition="unknown"/>
+      <performance id="p01-05" song="s-wave-that-flag" transition="unknown"/>
+      <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-07" song="s-bird-song" transition="unknown"/>
+      <performance id="p01-08" song="s-beat-it-on-down-the-line" transition="unknown"/>
+      <performance id="p01-09" song="s-loose-lucy" transition="unknown"/>
+      <performance id="p01-10" song="s-me-and-bobby-mcgee" transition="unknown"/>
+      <performance id="p01-11" song="s-stella-blue" transition="unknown"/>
+      <performance id="p01-12" song="s-el-paso" transition="unknown"/>
+      <performance id="p01-13" song="s-they-love-each-other" transition="unknown"/>
+      <performance id="p01-14" song="s-playing-in-the-band" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-truckin" transition="unknown"/>
+      <performance id="p02-02" song="s-row-jimmy" transition="unknown"/>
+      <performance id="p02-03" song="s-big-river" transition="unknown"/>
+      <performance id="p02-04" song="s-you-ain-t-woman-enough" transition="unknown"/>
+      <performance id="p02-05" song="s-here-comes-sunshine" transition="segue"/>
+      <performance id="p02-06" song="s-china-cat-sunflower" transition="segue"/>
+      <performance id="p02-07" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p02-08" song="s-around-and-around" transition="unknown"/>
+      <performance id="p02-09" song="s-not-fade-away" transition="segue"/>
+      <performance id="p02-10" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p02-11" song="s-not-fade-away" transition="unknown"/>
+      <performance id="p02-12" song="s-one-more-saturday-night" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-casey-jones" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-8cd41953ff035751bb5e" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-02-17.150300.sbd.miller.flac1648</identifier>
+      <lineage>SBD &gt; Reel Master (7.5ips 1/2trk) &gt; Reel/1 (7.5ips/Dolby B) &gt; DAT/0 (Panasonic SV-3800/48k) | DAT/0 (Tascam DA-40) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 Suite &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Auditorium on 1973-02-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 26, 2020</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a04987bc3751a480eb70" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-02-17.163792.sbd.fixed.miller.flac1648</identifier>
+      <lineage>SBD &gt; Reel Master (7.5ips 1/2trk) &gt; Reel/1 (7.5ips/Dolby B) &gt; DAT/0 (Panasonic SV-3800/48k) | DAT/0 (Tascam DA-40) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 Suite &gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Auditorium on 1973-02-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 23, 2023</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-131759ed7163d15dc121" kind="unknown">
+      <identifier scheme="archive-org">gd1973-02-17.sbd.ashley-field.32875.sbeok.flac16</identifier>
+      <lineage>Bertha Remaster of multi-signature source (shn id 32580) | (*)SBD &gt; MR &gt; PCM &gt; DAT &gt; CDA &gt; WAV &gt; DAW(Bertha) &gt; Audio DVD &gt; DVD Audio Extractor v.3.3.2 (audio files extracted prior to burning to DVD disc) &gt; 24/48 wav &gt; downsampled to 44.1 wav with Wave Lab v.5.00a &gt; dithered from 24 to 16 bit depth with Wave Lab UV22 HR Plugin &gt; SBEs fixed with shntool v.2.0.3 (by set) &gt; FLAC encoding with FLAC Frontend v.1.7.1 Etree Edition, FLAC v.1.1.2 (level 8)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Auditorium on 1973-02-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): Jay Ashley and Gary Field</note>
+    </recording>
+    <recording id="r-0b39f6dedc5f0c99a7b3" kind="soundboard">
+      <identifier scheme="archive-org">gd1973-02-17.sbd.miller.32580.sbeok.flac16</identifier>
+      <lineage>SBD -&gt; Master Reel -&gt; PCM -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Auditorium on 1973-02-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-a776bd935e70c69bc184" kind="soundboard">
+      <identifier scheme="archive-org">gd73-02-17.sbd.carman.11771.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD:MR&gt; PCM&gt; DAT&gt; CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Auditorium on 1973-02-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-b642e56b190981904ab1" kind="unknown">
+      <identifier scheme="other">etree-610007</identifier>
+      <note>Supplied catalogue listing: etree; gd1973-02-17.150300.sbd.miller.flac1648. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

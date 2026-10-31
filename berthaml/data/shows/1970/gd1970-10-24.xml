@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1970-10-24" date="1970-10-24">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19701024-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-343" nameAsBilled="Kiel Opera House"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-dancing-in-the-street" transition="unknown" titleVariant="Dancin' In The Streets"/>
+      <performance id="p01-02" song="s-hurts-me-too" transition="unknown"/>
+      <performance id="p01-03" song="s-me-and-my-uncle" transition="unknown"/>
+      <performance id="p01-04" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-05" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-06" song="s-attics-of-my-life" transition="unknown"/>
+      <performance id="p01-07" song="s-good-lovin" transition="segue"/>
+      <performance id="p01-08" song="s-drums" transition="segue"/>
+      <performance id="p01-09" song="s-good-lovin" transition="unknown"/>
+      <performance id="p01-10" song="s-casey-jones" transition="unknown"/>
+      <performance id="p01-11" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p01-12" song="s-not-fade-away" transition="segue"/>
+      <performance id="p01-13" song="s-goin-down-the-road-feelin-bad" transition="segue"/>
+      <performance id="p01-14" song="s-not-fade-away" transition="segue"/>
+      <performance id="p01-15" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-0d00b8c345d31f19e049" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-10-24.140923.SBD.Dalton.Miller.Noel.flac1644</identifier>
+      <credit role="recordist">Tim Dalton</credit>
+      <lineage>Recording: SBD &gt; Master Reel &gt; Reel &gt; (7.5ips) &gt; PCM (Sony HG tape); | Sony SL-10 &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (WAV 16-bit/44.1k)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-6713d5067ceff41a2cb6" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-10-24.141429.sbd.boswell.smith.sirmick.flac2496</identifier>
+      <credit role="recordist">Will Boswell</credit>
+      <lineage>Source: Unknown mono soundboard (low gen) - provided by Will Boswell; | low gen Reel &gt; Technics RS-1506 &gt; Apogee Mini Me &gt; Mini DAC &gt; WaveLab 5 &gt; .wav 24-bit/96k; edited and mastered SIRMick</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): SIRMick and Matt Smith</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/24/10-24-70-st-louis-mo-kiel-opera-house/</note>
+    </recording>
+    <recording id="r-f10ce84b1298b72a65d8" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-10-24.144903.sbd.boswell.smith.sirmick.flac1644</identifier>
+      <credit role="recordist">Will Boswell</credit>
+      <lineage>Unknown mono soundboard (low gen) - provided by Will Boswell | Transfer: low gen Reel &gt; Technics RS-1506 &gt; Apogee Mini Me &gt; Mini DAC &gt; WaveLab 5 &gt; .wav 24-bit/96k - transferred by Matt Smith</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Matt Smith and Sirmick</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-b36792734ec8d3c994ee" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-10-24.179415.sbd.cassidy.minches.miller.flac1644</identifier>
+      <lineage>SBD &gt; Master Reel (mono) &gt; CD &gt; WAV | Mastering Info: WAV &gt; Adobe Audition 2025 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): All Mastering by Charlie Miller September 28, 2026</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-67766eea24fb4ef2bf0d" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-10-24.179802.sbd.cassidy.minches.miller.v2.flac2496</identifier>
+      <credit role="recordist">All Mastering by Charlie Miller October 18, 2026</credit>
+      <lineage>SBD &gt; Master Reel (mono) &gt; WAV (24-bit/96k) | Mastering Info: WAV &gt; Adobe Audition 2025 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-072c37d836c7f74c90eb" kind="soundboard">
+      <identifier scheme="archive-org">gd1970-10-24.179803.sbd.cassidy.minches.miller.v2.flac1648</identifier>
+      <credit role="recordist">All Mastering by Charlie Miller October 18, 2026</credit>
+      <lineage>SBD &gt; Master Reel (mono) &gt; WAV (24-bit/96k) | Mastering Info: WAV &gt; Adobe Audition 2025 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
+    </recording>
+    <recording id="r-39ea255c3243faf65834" kind="unknown">
+      <identifier scheme="archive-org">gd1970-10-24.sbd.bihlmayer.pitch.31948.sbefail.flac16</identifier>
+      <lineage>SBDMR-&gt;R-&gt;R-&gt;DAT-&gt;DAT-&gt;ZA2-&gt;DartPro32</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note>Source credit (transfer-mastering): pitch correction using SoundEdit 16 on the Macintosh platform by Bob Bihlmayer ()</note>
+    </recording>
+    <recording id="r-41fbdfa2559cef9d6f3e" kind="soundboard">
+      <identifier scheme="archive-org">gd70-10-24.sbd.hollister.103.sbeok.shnf</identifier>
+      <lineage>Soundboard | SBD &gt; MReel &gt; Reelx2 &gt; DATx2 &gt; ZA2 &gt; DartPro32 NR (weight .03/ V.L. smoothing/ Normal frame size /Large freq. carving /V.L. overlay) &gt; CD &gt; SHN</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Opera House on 1970-10-24. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+      <note>Recording reference: http://infinitedead.net/2021/10/24/10-24-70-st-louis-mo-kiel-opera-house/</note>
+    </recording>
+    <recording id="r-25d705064feb205419f2" kind="unknown">
+      <identifier scheme="other">etree-604140</identifier>
+      <note>Supplied catalogue listing: etree; gd1970-10-24.144903.sbd.boswell.smith.sirmick.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy inferred type: SBD</note>
+      <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

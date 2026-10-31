@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<songs xmlns="urn:berthaml:1" schemaVersion="1.0">
+
+  <record status="draft" updated="2026-10-30">
+    <cite title="DeadDisc: Dick's Picks Volume 8" href="https://deaddisc.com/disc/Dicks_Pick_8.htm" accessed="2026-10-30">Writer credits as printed on the release.</cite>
+  </record>
+
+  <!--
+    Seed catalog: only the songs needed by the sample show. Credits are
+    entered for originals whose credits appear in the cited source; cover
+    and traditional credits are not yet entered. Default leads are seed
+    values from general knowledge.
+  -->
+
+  <song id="s-dont-ease-me-in" kind="song" origin="traditional">
+    <title>Don't Ease Me In</title>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-i-know-you-rider" kind="song" origin="traditional">
+    <title>I Know You Rider</title>
+    <defaultLead person="p-garcia"/>
+    <defaultLead person="p-weir"/>
+  </song>
+
+  <song id="s-friend-of-the-devil" kind="song" origin="original">
+    <title>Friend Of The Devil</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="music" person="p-dawson"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-dire-wolf" kind="song" origin="original">
+    <title>Dire Wolf</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-beat-it-on-down-the-line" kind="song" origin="cover">
+    <title>Beat It On Down The Line</title>
+    <credit role="words-and-music">Jesse Fuller</credit>
+    <defaultLead person="p-weir"/>
+  </song>
+
+  <song id="s-black-peter" kind="song" origin="original">
+    <title>Black Peter</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-candyman" kind="song" origin="original">
+    <title>Candyman</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-cumberland-blues" kind="song" origin="original">
+    <title>Cumberland Blues</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="music" person="p-lesh"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-deep-elem-blues" kind="song" origin="traditional">
+    <title>Deep Elem Blues</title>
+    <defaultLead person="p-weir"/>
+  </song>
+
+  <song id="s-cold-jordan" kind="song" origin="traditional">
+    <title>Cold Jordan</title>
+  </song>
+
+  <song id="s-uncle-johns-band" kind="song" origin="original">
+    <title>Uncle John's Band</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-st-stephen" kind="song" origin="original">
+    <title>St. Stephen</title>
+    <altTitle>Saint Stephen</altTitle>
+    <credit role="music" person="p-garcia"/>
+    <credit role="music" person="p-lesh"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-thats-it-for-the-other-one" kind="suite" origin="original">
+    <title>That's It For The Other One</title>
+  </song>
+
+  <song id="s-cryptical-envelopment" kind="song" origin="original">
+    <title>Cryptical Envelopment</title>
+    <credit role="words-and-music" person="p-garcia"/>
+    <defaultLead person="p-garcia"/>
+    <partOf song="s-thats-it-for-the-other-one" part="1"/>
+  </song>
+
+  <song id="s-the-other-one" kind="song" origin="original">
+    <title>The Other One</title>
+    <credit role="words" person="p-weir"/>
+    <credit role="music" person="p-weir"/>
+    <credit role="music" person="p-kreutzmann"/>
+    <defaultLead person="p-weir"/>
+    <partOf song="s-thats-it-for-the-other-one" part="3"/>
+  </song>
+
+  <song id="s-drums" kind="improvisation" instrumental="true">
+    <title>Drums</title>
+    <altTitle>Rhythm Devils</altTitle>
+  </song>
+
+  <song id="s-feedback" kind="improvisation" instrumental="true">
+    <title>Feedback</title>
+  </song>
+
+  <song id="s-cosmic-charlie" kind="song" origin="original">
+    <title>Cosmic Charlie</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-casey-jones" kind="song" origin="original">
+    <title>Casey Jones</title>
+    <credit role="music" person="p-garcia"/>
+    <credit role="words" person="p-hunter"/>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-good-lovin" kind="song" origin="cover">
+    <title>Good Lovin'</title>
+    <defaultLead person="p-mckernan"/>
+  </song>
+
+  <song id="s-cold-rain-and-snow" kind="song" origin="traditional">
+    <title>Cold Rain And Snow</title>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-its-a-mans-mans-mans-world" kind="song" origin="cover">
+    <title>It's A Man's Man's Man's World</title>
+    <altTitle>It's A Man's World</altTitle>
+    <defaultLead person="p-mckernan"/>
+  </song>
+
+  <song id="s-dancing-in-the-street" kind="song" origin="cover">
+    <title>Dancing In The Street</title>
+    <altTitle>Dancin' In The Streets</altTitle>
+    <altTitle>Dancing In The Streets</altTitle>
+    <defaultLead person="p-weir"/>
+  </song>
+
+  <song id="s-morning-dew" kind="song" origin="cover">
+    <title>Morning Dew</title>
+    <defaultLead person="p-garcia"/>
+  </song>
+
+  <song id="s-viola-lee-blues" kind="song" origin="cover">
+    <title>Viola Lee Blues</title>
+  </song>
+
+  <song id="s-we-bid-you-goodnight" kind="song" origin="traditional">
+    <title>We Bid You Goodnight</title>
+    <altTitle>And We Bid You Goodnight</altTitle>
+  </song>
+
+</songs>

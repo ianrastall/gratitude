@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-03-24" date="1985-03-24">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850324-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <venue ref="v-jb-470" nameAsBilled="Springfield Civic Center Arena"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-bertha" transition="segue"/>
+      <performance id="p01-02" song="s-promised-land" transition="unknown"/>
+      <performance id="p01-03" song="s-althea" transition="unknown"/>
+      <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
+      <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-ramble-on-rose" transition="unknown"/>
+      <performance id="p01-07" song="s-minglewood-blues" transition="segue"/>
+      <performance id="p01-08" song="s-deal" transition="unknown"/>
+      <note>Source section label: Set 1</note>
+    </set>
+    <set kind="set" n="2" mode="unknown">
+      <performance id="p02-01" song="s-samson-and-delilah" transition="segue"/>
+      <performance id="p02-02" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p02-03" song="s-man-smart-woman-smarter" transition="segue"/>
+      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-spoonful" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-space" transition="segue"/>
+      <performance id="p02-08" song="s-dear-mr-fantasy" transition="segue"/>
+      <performance id="p02-09" song="s-throwing-stones" transition="segue"/>
+      <performance id="p02-10" song="s-not-fade-away" transition="unknown"/>
+      <note>Source section label: Set 2</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <sources>
+    <recording id="r-62bb0c0ce51cd4b669b8" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.112149.Sennheiser421.daweez.d5scott.flac16</identifier>
+      <credit role="recordist">Da Weez</credit>
+      <lineage>Source: 2 Sennheiser 421 microphones (up front-center)&gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): D5scott</note>
+    </recording>
+    <recording id="r-e1aac75b1f03ad5297ea" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.124603.chasingwilma.flac24</identifier>
+      <credit role="recordist">chasingwilma</credit>
+      <lineage>lineage: (3) audio technica atm 11 (fob)&gt; optimus&gt; d-5mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): chasingwilma</note>
+    </recording>
+    <recording id="r-d8f25a051662dd6b4980" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.125720.beyerm160.scarletdog.flac16</identifier>
+      <lineage>2 M-160s and Sony TC-D5m Cassette Master; | Playback Sony UCX-S cassette masters on Sony TC-D5m to Marantz PMD-670</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-1e482419500bcbf87897" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.130232.schoeps.oade.BCE.flac16</identifier>
+      <lineage>Set 1: Source: Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1; | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav; Mastering by Dave Usborne; Set 2 Source: gd85-03-24.oade.connor.8461.sbeok.shnf: Oade's Master Audience PCM: Schoeps CMC-441 mics &gt; Oade M118 &gt; Sony PCM-F1 &gt; DAT &gt; CDR &gt; EAC &gt; Shn; Converted to flac using Traders Little Helper</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-f7858c6cdd83f95d3531" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.140839.unknown.bryant.miller.clugston.flac1644</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Source Info: Robert Bryant's Master Audience Cassettes; unknown mics &gt; Sony TC-D5M; Transfer Info: Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0 &gt; TLH flac2496; 24 bit &gt; 16 bit via dBpoweramp</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-3c9ec553f35c0924ccdc" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.140840.unknown.bryant.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Robert Bryant</credit>
+      <lineage>Source Info: Robert Bryant's Master Audience Cassettes; unknown mics &gt; Sony TC-D5M; Transfer Info: Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz)&gt; KORG AudioGate 4 &gt; Adobe Audition 3.0 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-5836eb847bc9227ae0bc" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.145291.aud.lamarre.berger.flac2496</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's | nakamichi dragon &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-f96b43976bb24ce46289" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.145292.aud.lamarre.berger.flac1644</identifier>
+      <credit role="recordist">Doug Lamarre</credit>
+      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's | nakamichi dragon &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Rob Berger</note>
+    </recording>
+    <recording id="r-35bbdeb492344d85d9e3" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.149242.senn441.hunt.mattes.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+      <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-0bd478169f7c379c48c0" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.149243.senn441.hunt.mattes.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+      <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+    </recording>
+    <recording id="r-1a1ef63b7f0e90116992" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.163388.akg451.neumann.u87.blend.eaton.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob, Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-ebd74f1ce596475d528b" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.163389.akg451.neumann.u87.blend.eaton.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Rob Eaton</credit>
+      <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Rob, Eaton, Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+    </recording>
+    <recording id="r-d7f0b21d85a732683bde" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.164361.nak304.thomas.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-83783ec08afcfc15e0d1" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.164362.nak304.thomas.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Stephen Thomas</credit>
+      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-28290ba8dd024ba26c78" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.167064.beyer.m160.vita.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-dcf87a36d158e8fda0a9" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.167065.beyer.m160.vita.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Jim Vita</credit>
+      <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-0354a3c171c3ea03f715" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.169119.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-73f7e6a82001b35bc7ae" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.169120.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+      <credit role="recordist">Michael Hessberg</credit>
+      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    </recording>
+    <recording id="r-87ed4fc195f09263cd73" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.audiotec.damico.87182.sbeok.flac16</identifier>
+      <credit role="recordist">Joe D'Amico</credit>
+      <lineage>audio tech mics &gt; sony d-6 &gt; mac | MAC &gt; nak dragon deck &gt; creative extigy souncard&gt;cool edit pro &gt;flac frontend</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center Arena on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Joe D'Amico</note>
+    </recording>
+    <recording id="r-ffac528ca89a1dd7f1e9" kind="soundboard">
+      <identifier scheme="archive-org">gd1985-03-24.beyerm88.tsuraci.78645.flac16</identifier>
+      <credit role="recordist">Tony Suraci</credit>
+      <lineage>*Beyer M88's&gt;Sony D5M *At SBD, stand at 9 feet | Sony D5Pro&gt;Lunatec V3&gt;722@24/96 722&gt;Adobe Aud.&gt;16 bit&gt;Cdwav&gt;flac16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civiv Center on 1985-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Tony Suraci</note>
+    </recording>
+    <recording id="r-8b49925b95559ce3ca61" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.nak300.morris.106780.flac16</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Bob Morris</note>
+    </recording>
+    <recording id="r-4ebde5cef3eb34df0596" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.nak300.morris.114485.flac24</identifier>
+      <credit role="recordist">Bob Morris</credit>
+      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell UDII C-90) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits) &gt; flac24</lineage>
+      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+    <recording id="r-b27c932bea3a1fe97936" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.nak700.anon.lmpp.99178.sbeok.flac16</identifier>
+      <credit role="recordist">anonymous</credit>
+      <lineage>Nakamichi 700's &gt; d6 &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; HD-P2 &gt; 24/96 WAve &gt; Wavelab 5 &gt; UAD Plugs &gt; r8brain Pro &gt; Izotope Ozone 3 Mbit &gt; 16/44.1 Wave &gt; Flac</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center Arena on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Brion Green and TAA</note>
+    </recording>
+    <recording id="r-7b7c25602ff352f36966" kind="audience">
+      <identifier scheme="archive-org">gd1985-03-24.senn421.mccue.ford.34619.sbeok.flac16</identifier>
+      <credit role="recordist">Mark McCue, Adam, Monica &amp; John</credit>
+      <lineage>MAC: (FOB) 2 Sennheiser 421's &gt; Sony TC-D5 &gt; TDK MA90's | Master Audience Cassettes&gt;Nakamichi CD2[azimuth adjusted]&gt;RCA&gt;Audiophile 2496&gt;CEP 2.0[normalized100%]&gt;CD Wave Editor&gt;Flac Frontend&gt;FLAC16.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source modifiers: FOB</note>
+      <note>Source credit (transfer-mastering): Alex Ford</note>
+    </recording>
+    <recording id="r-ea7d1068e88d050453e5" kind="unknown">
+      <identifier scheme="archive-org">gd1985-03-24.sonyecm220t.keshavan.miller.106779.flac16</identifier>
+      <credit role="recordist">Rango Keshavan</credit>
+      <lineage>Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+      <note>Source credit (transfer-mastering): Charlie Miller</note>
+      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
+    </recording>
+    <recording id="r-a7c7c3fcaeeeb4509b57" kind="audience">
+      <identifier scheme="archive-org">gd85-03-24.oade.connor.8461.sbeok.shnf</identifier>
+      <lineage>Oade's Master Audience PCM&gt;Schoeps CMC-441 mics&gt;Oade M118&gt;Sony PCM-F1&gt;DAT&gt;CDR&gt;EAC&gt;ShnEAC'ed/Shn'ed and seeded to fungus and abgd by Charlie Connor 3/26/02 with thanks To Scott Clugston and to Doug Oade.</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
+      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    </recording>
+    <recording id="r-efc39e144ff1a01f6236" kind="soundboard">
+      <identifier scheme="archive-org">gd85-03-24.sbd-set2.willy.11699.sbeok.shnf</identifier>
+      <lineage>SBD&gt;?&gt;CD</lineage>
+      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1985-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    </recording>
+  </sources>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>
