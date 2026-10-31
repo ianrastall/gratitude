@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-09-28" date="1976-09-28">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1976-09-28" date="1976-09-28">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760928-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-407" nameAsBilled="Onondaga County War Memorial"/>
   <program coverage="partial">
@@ -38,32 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-77adbc5c16e59ff1a62c" kind="soundboard">
-      <identifier scheme="archive-org">gd1976-09-28.sbd.vernon.10512.shnf</identifier>
-      <lineage>SBD &gt; MR &gt; ? &gt; CDR | CDR &gt; EAC(secure) &gt; Cool Edit (minor fixes) &gt; CDWav(retracking) &gt; mkwact(seekable)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1976-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-b502c990c21b433f05a8" kind="audience">
-      <identifier scheme="archive-org">gd1976-09-28.set2.aud.unknown.andrewf.100071.flac16</identifier>
-      <lineage>AUD of unknown lineage | TDK SA-90 (c1979) &gt; Nakamichi DR-8 (no Dolby) &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1976-09-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-e80aaeb43f02de07e3a6" kind="audience">
-      <identifier scheme="archive-org">gd76-09-28.aud.vernon.14356.sbeok.shnf</identifier>
-      <lineage>Audience Recording | Unknown aud (FOB) patched with SBD; pitch correction</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onongada County War Memorial on 1976-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Dale Shepherd</note>
-    </recording>
-    <recording id="r-9b3ff3928a132c504ed9" kind="soundboard">
-      <identifier scheme="archive-org">gd76-09-28.sbd.vernon.14355.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; ? &gt; SHN &gt; Cool Edit(see notes) &gt; CDWAV &gt; mkwact(seekable). shn encoding and patching (unkown FOB aud)by Matt Vernon</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onongada County War Memorial on 1976-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

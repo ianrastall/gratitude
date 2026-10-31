@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1995-05-24" date="1995-05-24">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1995-05-24" date="1995-05-24">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950524-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-1021" nameAsBilled="Seattle Center Memorial Stadium"/>
   <program coverage="partial">
@@ -39,53 +38,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-137d40221f91578bba31" kind="audience">
-      <identifier scheme="archive-org">gd1995-05-24.141527.FOB.set1-cmc4mk41-set2-mk4v.ebel.flac1644</identifier>
-      <credit role="recordist">Set 1 unknonwn; Set 2 Clete</credit>
-      <lineage>flac16/44.1 Source Info:Set #1: FOB Schoeps CMC 4 MK 41-&gt; Koch P/S-&gt; Panasonic SV255Set #2: FOB Schoeps MK4V-&gt; Reutelhuber P/S-&gt; Sony D10 Pro II (Clete)Transfer Info: Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Transfers by Pete Ebel</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Stadium on 1995-05-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-ee066c62e4895ad3dadd" kind="unknown">
-      <identifier scheme="archive-org">gd1995-05-24.neumann.vernon.8377.shnf</identifier>
-      <lineage>Neumann KM 140 &gt; ? CDR &gt; EAC(secure) &gt; mkwact(seekable)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Stadium on 1995-05-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-7b075730bf110a451419" kind="unknown">
-      <identifier scheme="archive-org">gd1995-05-24.nuemannKM140.unknown.larson.35153.sbeok.flac16</identifier>
-      <lineage>Af:Nueman KM140&gt;DAT(48kHz) | DAT&gt;ZA2(S/PDIF)&gt;Samplitude 2496&gt;WAV</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Stadium on 1995-05-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chris Larson</note>
-    </recording>
-    <recording id="r-d3b912f44c84ed1039b6" kind="soundboard">
-      <identifier scheme="archive-org">gd1995-05-24.partial.sbd.larson.35181.sbeok.flac16</identifier>
-      <lineage>unknown sbd (GDHour?) &gt; dat | panasonic sv3700 &gt; vxpocket 440 (s/pdif) &gt; Wavelab 5.01b &gt; CDWav &gt; flac 16 (6)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Stadium on 1995-05-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chris Larson</note>
-    </recording>
-    <recording id="r-57ef6efe8df68616011f" kind="unknown">
-      <identifier scheme="archive-org">gd1995-05-24.pzm.russjcan.97610.sbeok.flac16</identifier>
-      <credit role="recordist">Russ Cansler</credit>
-      <lineage>Hat mounted Realistic pzm's &gt; Sony WMD6-C, 60ft, dfc MAC&gt;NakCR-3A&gt;HD&gt;Audacity&gt;CDWave&gt;TLH | Master &gt; D6 &gt; HD &gt; Audacity &gt; CDWave &gt; TLH &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Stadium on 1995-05-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Russ Cansler</note>
-    </recording>
-    <recording id="r-17f1a1727a68244ffc9b" kind="fm">
-      <identifier scheme="archive-org">gd1995-05-24.sndchk.fm.gmb.91237.sbeok.flac16</identifier>
-      <lineage>FM SB Monitor &gt; Sony D-6 Cassette &gt; 1st gen &gt; DAT | Panasonic SV-3700 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0 (Nomad LM-662) &gt; CD Wave &gt; TLH &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Stadium on 1995-05-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Bill Koucky</note>
-    </recording>
-    <recording id="r-0a98be28ac8b2cb1bcc6" kind="audience">
-      <identifier scheme="archive-org">gd95-05-24.neumann.18800.sbeok.shnf</identifier>
-      <lineage>Audience: Neumann KM140's | Neumann KM140's &gt; DAT(48kHz) &gt; ZA2(S/PDIF) &gt; Samplitude 2496 &gt; WAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Stadium on 1995-05-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Ross M. and Chris Larson</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

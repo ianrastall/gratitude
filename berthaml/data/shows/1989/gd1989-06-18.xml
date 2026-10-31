@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1989-06-18" date="1989-06-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1989-06-18" date="1989-06-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19890618-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-939" nameAsBilled="Shoreline Amphitheatre"/>
   <program coverage="partial">
@@ -37,87 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-430e46e5deb3e2b7cea1" kind="unknown">
-      <identifier scheme="archive-org">gd1989-06-18.111015.neumann.daweez.d5scott.flac16</identifier>
-      <credit role="recordist">Da Weez</credit>
-      <lineage>Source: 1 Neumann KMF4 microphones (22nd row)&gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck)&gt;Pre Sonus Inspire GT&gt;Sound Forge&gt;.wav files&gt;Trader's Little Helper&gt;flac files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-466cfdd69ed8d6218d4b" kind="unknown">
-      <identifier scheme="archive-org">gd1989-06-18.121369.set1.sonicstudio.d5scott.flac16</identifier>
-      <credit role="recordist">D5scott</credit>
-      <lineage>Set 1 Source: 2 Sonic Studio DSM-1Sx microphones - 22nd row &gt; Sony TC-D5M - analog master cassette; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-3a24a5849af5af4d8a02" kind="audience">
-      <identifier scheme="archive-org">gd1989-06-18.127416.atm11.chuckm.flac16</identifier>
-      <credit role="recordist">Chuck Miller</credit>
-      <lineage>Source (AUD): Audio Technica ATM11 (~ORTF, left of center, 7' up) &gt; 5532 differential pre-amp &gt; Sony WMD-6C (Maxell MX 90 &amp; MX 100 cassettes, Dolby NR off) | Transfer: master cassettes &gt; Sony TC-WE635 (Dolby NR off) &gt; Tascam DR-680 &gt; SDHC card &gt; PC Digital editing: Steinberg CuBase SX (pre and post set fades, channel balancing, WAVES Q10 Paragraphic EQ, WAVES L2 Ultramaximizer, cross fade tape flips</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chuck Miller</note>
-    </recording>
-    <recording id="r-06092dde572b6d7e147f" kind="audience">
-      <identifier scheme="archive-org">gd1989-06-18.142377.schoeps.cmc4.mk2s.mattes.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Ted Mattes</credit>
-      <lineage>flac16/48kHz ; Source Info: Ted Mattes' Master Audience Dat; Schoeps CMC4/MK2S mics spaced on 2 stands, OTS &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Master Dat (Sony PCM-R500) &gt; Tascam DA-3000 (16-bit/48k) &gt; wav (16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
-    </recording>
-    <recording id="r-1759bbcbc25e39558f74" kind="matrix">
-      <identifier scheme="archive-org">gd1989-06-18.161583.ultramatrix.miller.flac2496</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 24, 2022</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-f7d24eec589c0a32d313" kind="matrix">
-      <identifier scheme="archive-org">gd1989-06-18.164169.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 24, 2022</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-594bf24d563901823f6f" kind="unknown">
-      <identifier scheme="archive-org">gd1989-06-18.atm11.chuckm.127416</identifier>
-      <credit role="recordist">Chuck Miller</credit>
-      <lineage>Audio Technica ATM11 (~ORTF, left of center, 7' up) &gt; 5532 differential pre-amp &gt; Sony WMD-6C (Maxell MX 90 &amp; MX 100 cassettes, Dolby NR off) | master cassettes &gt; Sony TC-WE635 (Dolby NR off) &gt; Tascam DR-680 &gt; SDHC card &gt; PC Digital editing: Steinberg CuBase SX (pre and post set fades, channel balancing, WAVES Q10 Paragraphic EQ, WAVES L2 Ultramaximizer, cross fade tape flips between s1t05 &amp; s1t06, during s2t06 and between s2t12 &amp; s2t13) Tracking &amp; processing: CD Wave Editor &gt; Trader's Little Helper/ FLAC, SBE check &amp; FLAC fingerprint &gt; AudioShell tag editor Distribution format: 44.1 kHz, 16 bit, stereo (.FLAC)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Ampitheatre on 1989-06-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-0628655d9b0e64b3dc47" kind="soundboard">
-      <identifier scheme="archive-org">gd1989-06-18.dsbd.miller.83709.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e120e6adb01e7167b044" kind="soundboard">
-      <identifier scheme="archive-org">gd1989-06-18.sbd.walker-scotton.miller.83635.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    </recording>
-    <recording id="r-1ede4e12971b998b7d6c" kind="soundboard">
-      <identifier scheme="archive-org">gd89-06-18.sbd.wiley.9053.sbeok.shnf</identifier>
-      <lineage>SBD&gt;??&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1989-06-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

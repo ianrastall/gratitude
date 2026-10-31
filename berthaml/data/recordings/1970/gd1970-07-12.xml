@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1970-07-12">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-4e2e1e1813a86008acc7" kind="audience">
+    <identifier scheme="archive-org">gd1970-07-12.aud.composite.130938.flac16</identifier>
+    <lineage>Combination of the two audience recordings shnid 9379 and shnid 122707; edits were limited to volume, speed, cross-fades at the beginning and end of patches, and such elimination or reduction of drops, static, clicks, and bumps as I could obtain without losing any music; see info files for details</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-07-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Rob Darst;Jim Cooper;Jim Cotsman</note>
+  </recording>
+  <recording id="r-fc94bd9e6f1e69c39444" kind="unknown">
+    <identifier scheme="archive-org">gd1970-07-12.aud.cooper.122707.flac16</identifier>
+    <credit role="recordist">Jim Cooper</credit>
+    <lineage>Jim Cooper's Hitachi TRQ-222 Cassette recording &gt; CDR &gt; WAV &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+  </recording>
+  <recording id="r-a430d8911d70a99893b5" kind="audience">
+    <identifier scheme="archive-org">gd1970-07-12.aud.mysteryreel.cloverman.smith.GEMS.108002.flac16</identifier>
+    <credit role="recordist">Mystery Reel of an unknown audience recording uncovered and shared by LL member Cloverman, which he sent to Matt Smith for his great reel transfer work. The handwriting on the reel case is thought to be Latvala's, no more is known.</credit>
+    <lineage>unknown audience recording | all transfers and work performed in the 24 bit realm Weiss-Saracon for 16 BIT 44.1kHz; SBE Free, Flac Level 8 with TLH, Meta Data with Tag &amp; Rename</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): edited and mastered by Jamie Waddell with listening assistance by Jim Blackwood. Rel transfer by Matt Smith</note>
+    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
+  </recording>
+  <recording id="r-092f631410325cde2c0d" kind="audience">
+    <identifier scheme="archive-org">gd1970-07-12.aud.unknown.sirmick.24663.sbefail.shnf</identifier>
+    <lineage>aud &gt; ??? &gt; shn &gt; wav &gt; shn</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-07-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): SirMick</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    <note>Recording reference: http://infinitedead.net/2024/07/12/7-12-70-new-york-city-ny-fillmore-east/</note>
+  </recording>
+  <recording id="r-481ef4d14e43e4c00733" kind="audience">
+    <identifier scheme="archive-org">gd1970-07-12.Weinberg.MAR.108156.flac16</identifier>
+    <credit role="recordist">Marty Weinberg</credit>
+    <lineage>Marty Weinberg's 5" 1/4 track Master Audience Reel&gt;HHb CDR-850&gt;CDR&gt;EAC&gt;CDR&gt;EAC&gt;.WAV&gt;TLH&gt;.FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-07-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+  </recording>
+</recordings>

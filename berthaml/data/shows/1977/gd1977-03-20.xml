@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-03-20" date="1977-03-20">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1977-03-20" date="1977-03-20">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770320-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-69" nameAsBilled="Winterland"/>
   <program coverage="partial">
@@ -35,52 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-1e55a8f89dd46cec6a2d" kind="unknown">
-      <identifier scheme="archive-org">gd1977-03-20.132365.aud.taback.flac16</identifier>
-      <credit role="recordist">Gene Taback</credit>
-      <lineage>Partial Recording by Gene Taback center-right balcony toward the front, deck and mics unlabeled and forgotten</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-    </recording>
-    <recording id="r-07aec5a915dd7c89bb32" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-03-20.141691.sbd.miller.flac1644</identifier>
-      <lineage>SBD &gt; Master Reel (7in 7.5ips 1/2trk dbx) &gt; Dat (44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-03-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-bfe8e8ce0c32e309d45c" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-03-20.141710.sbd.miller.flac1644</identifier>
-      <lineage>SBD &gt; Master Reel (7in 7.5ips 1/2trk dbx) &gt; Dat (44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-3c909f87a8eb8cc5f33a" kind="matrix">
-      <identifier scheme="archive-org">gd1977-03-20.145511.mtx.motb0226.flac16</identifier>
-      <credit role="recordist">Audience source by Bob Menke</credit>
-      <lineage>Matrix by Derek McCabe</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Mastering &amp; Matrix: Derek McCabe</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
-    </recording>
-    <recording id="r-291213f17b66472ce328" kind="audience">
-      <identifier scheme="archive-org">gd1977-03-20.aud.unknown.100022.flac16</identifier>
-      <lineage>Audience -&gt; ? | Unknown Gen TDK Cassette-&gt; SB Audigy-&gt; Audacity-&gt; CD Wav-&gt; Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-03-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-71b4307b4ff92e49e004" kind="soundboard">
-      <identifier scheme="archive-org">gd77-03-20.sbd.kempa.257.sbefixed.shnf</identifier>
-      <lineage>SBD &gt; Reel(1) &gt; ?? &gt; DAT &gt; WAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-809a0b4375fa48e35805" kind="soundboard">
-      <identifier scheme="archive-org">gd77-03-20.sbd.miller.25610.sbeok.shnf</identifier>
-      <lineage>Recording Info: SBD -&gt; Master Reel -&gt; Dat x 2 -&gt; Sonic Solutions -&gt; CD Transfer Info: CD -&gt; EAC -&gt; Samplitude v7.02 Professional -&gt; SHNTracked and SHN'd By Charlie Miller</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

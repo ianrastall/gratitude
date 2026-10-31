@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-04-20" date="1983-04-20">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1983-04-20" date="1983-04-20">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830420-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
   <program coverage="partial">
@@ -37,105 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-0f53d3dc46ce2e7b8ac0" kind="unknown">
-      <identifier scheme="archive-org">gd1983-04-20.120098.beyer.dyche.flac16</identifier>
-      <credit role="recordist">David Dyche</credit>
-      <lineage>Beyer M160's &gt; Sony TCD 5m &gt; Sound Devices 722 - 24/96 &gt; Sound Forge Audio Studio 10 &gt; CD Wave &gt; Flac 16; Recorded by David Dyche</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): David Dyche</note>
-    </recording>
-    <recording id="r-fd1f28aa07a389a2e49d" kind="audience">
-      <identifier scheme="archive-org">gd1983-04-20.139213.s1.m160.flac2496</identifier>
-      <credit role="recordist">Charlie Miller</credit>
-      <lineage>Set 1 Recording Info: (FOB) Beyer M160 &gt; Sony TC-D5M &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; Recorded By Charlie Miller</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
-    </recording>
-    <recording id="r-e416f6fb25c31b69f931" kind="audience">
-      <identifier scheme="archive-org">gd1983-04-20.139219.FOB.Senn441.Gastwirt.Miller.Noel.t-flac16</identifier>
-      <credit role="recordist">Unknown - provided by Rich Gastwirt</credit>
-      <lineage>flac16/48kHz ; Unknown taper: (FOB) Sennheiser 441 &gt; Master Cassette &gt; PCM &gt; DAT; Charlie Miller | Dat (Panasonic SV-3700) &gt; Tascam DA-3000 &gt; wav 16/48; Edited &amp; Mastered in Audacity by Joe Noel; Wave &gt; Flac 16/48; Checksum &amp; tags created in xACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a941d271a0b8bf2b30c2" kind="audience">
-      <identifier scheme="archive-org">gd1983-04-20.139277.set1.fob.beyer.m160.miller.flac16</identifier>
-      <credit role="recordist">Charlie Miller</credit>
-      <lineage>(FOB) Beyer M160 &gt; Sony TC-D5M &gt; Cassette Master (Sony WM-D6C/Maxell UDXL-II) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
-    </recording>
-    <recording id="r-5eee05290d678d53183f" kind="unknown">
-      <identifier scheme="archive-org">gd1983-04-20.140669.nak300.barfield.flac2496</identifier>
-      <credit role="recordist">Dave Barfield</credit>
-      <lineage>source: nak 300 &gt; tcd5m (udxliis +dolby) &gt; master &gt; tascam 122mkii &gt; apogee rosetta 200 (24/96) &gt; audacity (fades, normalize, tracks) &gt; flac2496 &gt; xact; recorded: david barfield; transferred/seeded: barfield</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): david barfield</note>
-    </recording>
-    <recording id="r-fa4b8ff0cfcfb54ba6a0" kind="audience">
-      <identifier scheme="archive-org">gd1983-04-20.144678.set2.aud.lamarre.berger.flac16</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5 maxell xlIIS90, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT transferred by Rob Berger 2019</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-269f97b61095b4f653e8" kind="audience">
-      <identifier scheme="archive-org">gd1983-04-20.144679.set2.aud.lamarre.berger.flac24</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5 maxell xlIIS90, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT transferred by Rob Berger 2019</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-323c7629d6685f0ac4b8" kind="unknown">
-      <identifier scheme="archive-org">gd1983-04-20.aud.wise.92322.sbeok.flac16</identifier>
-      <credit role="recordist">Jim Wise</credit>
-      <lineage>Sennheiser MD-421's &gt; Sony TC-D5, recorded from "upper level". | CDR &gt; EAC &gt; WavMerge &gt; CD-Wave &gt; Soundforge &gt; TLH &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Unknown</note>
-      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    </recording>
-    <recording id="r-6991781f07c81dd29b5d" kind="unknown">
-      <identifier scheme="archive-org">gd1983-04-20.nak300.morris.102040.sbeok.flac16</identifier>
-      <credit role="recordist">Bob Morris</credit>
-      <lineage>Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Sony TCD5M/Maxell UDXLII C-90) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bob Morris</note>
-    </recording>
-    <recording id="r-efadf3245a398b21f351" kind="audience">
-      <identifier scheme="archive-org">gd1983-04-20.nak300.morrone.120287.flac2448</identifier>
-      <credit role="recordist">Joe Morrone</credit>
-      <lineage>AUD: 2x Nakamichi CM300 w/CP-1 cardioid capsules &gt; Sony TC-D5M &gt; Maxell MX90's, floor center section 23rd row, taped by Joe Morrone. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 05/2012</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-6ce23ce5b6a16be55c14" kind="audience">
-      <identifier scheme="archive-org">gd1983-04-20.nak300.morrone.120288.flac1644</identifier>
-      <credit role="recordist">Joe Morrone</credit>
-      <lineage>AUD: 2x Nakamichi CM300 w/CP-1 cardioid capsules &gt; Sony TC-D5M &gt; Maxell MX90's, floor center section 23rd row, taped by Joe Morrone. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 05/2012</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-9939bb800f60e339f3cf" kind="soundboard">
-      <identifier scheme="archive-org">gd83-04-20.sbd.miller.27860.sbeok.flacf</identifier>
-      <lineage>SBD&gt; Master Cassette&gt; Reel&gt; Dat (SV3800/48k), plus patch from FOB Sennheiser 421&gt; Master Cassette; | Dat (Sony R500)&gt; SEK'D Prodif Plus&gt; Samplitude v7.02 Professional&gt; FLAC; Transferred and Edited By Charlie Miller</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-03babaa0c304a0567e21" kind="audience">
-      <identifier scheme="archive-org">gd83-04-20.sennheiser.dodd.10090.sbeok.shnf</identifier>
-      <lineage>FOB-Senn. 421Âs&gt;Sony D-5&gt;CM&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1983-04-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

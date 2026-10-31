@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-09-12" date="1991-09-12">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-09-12" date="1991-09-12">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910912-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
@@ -36,102 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-0754a8153ef40f267abf" kind="audience">
-      <identifier scheme="archive-org">gd1991-09-12.139651.schoeps-cmc4-mk4.gastwirt.miller.sirmick.flac1648</identifier>
-      <credit role="recordist">Rich Gastwirt</credit>
-      <lineage>flac16/48kHz ; Source: Audience recording &gt; Schoeps cmc4 mk4 (ortf) &gt; Oade modified Panasonic SV-255 &gt; dat (48k) - Recorded by Rick Gastwirt from 1st row OTS; Transfer: Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/48 - Transfered by Charlie Miller; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick October 2017</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-41683a010b89b88e91a6" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-09-12.149784.sbd.millerflac2496</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 2, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-dd6ef2097a3ae9647c5c" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-09-12.149847.sbd.cm.miller.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 2, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-4ac464d26bc30b45db6f" kind="unknown">
-      <identifier scheme="archive-org">gd1991-09-12.150655.senn-me88.rogosa.miller.sirmick.flac1648</identifier>
-      <credit role="recordist">Dan Rogosa</credit>
-      <lineage>Sennheiser ME88's &gt; Sony TCD-D3 &gt; DAT Master (48k) - recorded by Dan Rogosa. | Transfer: DAT &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller. Lineage: wav &gt; iZotope RX7 Advanced &gt; Neutron 2 Advanced &gt; CD Wave &gt; flac 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d3388ccf20b921d24bf7" kind="unknown">
-      <identifier scheme="archive-org">gd1991-09-12.167486.me88.rogosa.flac1644</identifier>
-      <credit role="recordist">Dan Rogosa</credit>
-      <lineage>2x Senn ME88s (stand, OTS) &gt; TCD-D3 &gt; line out &gt; TCD-D5 (Dolby B) | Transfer: MC (MX-90, 100) &gt; Nak Dragon (no Dolby) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 11 (tracking, patch, cross-fades, DDI Codec (Dolby B @ -20.8 dBFS), resample, Lin dither) &gt; FLAC 1644</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller, Mark Goldey</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-31ac6b796a33888e4e4a" kind="unknown">
-      <identifier scheme="archive-org">gd1991-09-12.167487.me88.rogosa.flac2496</identifier>
-      <credit role="recordist">Dan Rogosa</credit>
-      <lineage>2x Senn ME88s (stand, OTS) &gt; TCD-D3 &gt; line out &gt; TCD-D5 (Dolby B) | Transfer: MC (MX-90, 100) &gt; Nak Dragon (no Dolby) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 11 (tracking, patch, cross-fades, DDI Codec (Dolby B @ -20.8 dBFS)) &gt; FLAC 2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller, Mark Goldey</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-438986217e36f87865d7" kind="matrix">
-      <identifier scheme="archive-org">gd1991-09-12.dmtx.hansokolow.110641.flac16</identifier>
-      <lineage>This is a matrix of these sources: DSBD: shnid=28871 (soundboard &gt; DAT &gt; CDR &gt; SHN) // DAUD: shnid=97386 (B&amp;K 4011 110 degrees ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-      <note>Source credit (transfer-mastering): hansokolow</note>
-    </recording>
-    <recording id="r-e8833ac8c7fa074a8fb2" kind="audience">
-      <identifier scheme="archive-org">gd1991-09-12.fob.brennecke-young.GEMS.97386.flac16</identifier>
-      <credit role="recordist">James Young and Clay Brennecke</credit>
-      <lineage>B&amp;K 4011 110 degrees ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro Recording Location: FOB - Hand Held, Upfront | 16 bit 48kHz DAT Master &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0 by Todd Evans (todd@bluedakota.com) October 30, 2008 Editing and Mastering: Jamie Waddell (shnflac@gmail.com) on the GEMS Edit Station. Weiss Saracon for 16 BIT 44.1kHz SRC and POWR-3 Dither Encoding by Dazed64. Tracked in CDwave, FLAC with Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-5a748414e0fc0470f521" kind="audience">
-      <identifier scheme="archive-org">gd1991-09-12.nak300.gidley.122165.flac2448</identifier>
-      <credit role="recordist">Ted Gidley</credit>
-      <lineage>OTS AUD: 2x Nakamichi CM300 w/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell MXS 90/100, w/no Dolby. Taped by Ted Gidley. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; TLH &gt; FLAC 2448 tagged. Transfer by Andrew F. 09/2012</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-9574139a049e675e401f" kind="unknown">
-      <identifier scheme="archive-org">gd91-09-12.sbd.hinko.28871.sbeok.shnf</identifier>
-      <lineage>Clean up of SHNid=516</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-    <recording id="r-b551d64d52f888797c23" kind="soundboard">
-      <identifier scheme="archive-org">gd91-09-12.sbd.roux.516.sbeok.shnf</identifier>
-      <lineage>SBD &gt; DAT &gt; CDR &gt; .shn</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1991-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-500ff5693097b1131ddc" kind="unknown">
-      <identifier scheme="other">etree-609621</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-09-12.149784.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

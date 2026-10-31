@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-12-19" date="1973-12-19">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1973-12-19" date="1973-12-19">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731219-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-556" nameAsBilled="Curtis Hixon Convention Hall"/>
   <program coverage="partial">
@@ -42,57 +41,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-5ec580640fc3e51ccd7f" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-12-19.107984.sbd.dan.patch-97361.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.2 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller; Dan</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c36f49f874e84bb73dda" kind="matrix">
-      <identifier scheme="archive-org">gd1973-12-19.126124.mtx.dusborne.droncit.flac16</identifier>
-      <lineage>Matrix from sources: soundboard: 97361; and Dan McDonald's audience tape (new flat transfer)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
-    </recording>
-    <recording id="r-65eb72aa3c6ce0765709" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-12-19.178707.sbd.patched.flegel.flac1644</identifier>
-      <lineage>Patched soundboard by Brian Flegel</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-ded76436b2cd9a5560f1" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-12-19.sbd-part.dan.patch-97361.107984.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.2 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller; Dan</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-7111351fc5c3d8d2cef4" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-12-19.sbd.miller.113503.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a0b13c90b9ea60caf148" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-12-19.sbd.miller.97361.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.2 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-ddeac86e4d85906ce21b" kind="audience">
-      <identifier scheme="archive-org">gd73-12-19.aud.clugston.8602.sbeok.shnf</identifier>
-      <credit role="recordist">Dan McDonald</credit>
-      <lineage>Audience Recording | MAC&gt;PCM&gt;Cassette&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-6f7b3c4eee373ec0a7eb" kind="soundboard">
-      <identifier scheme="archive-org">gd73-12-19.sbd.finney.outtakes.197.sbeok.shnf</identifier>
-      <lineage>Soundboard | Dick's Picks Leftovers</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Curtis Hixon Convention Hall on 1973-12-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

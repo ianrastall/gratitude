@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-02-13" date="1988-02-13">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1988-02-13" date="1988-02-13">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880213-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
-    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1988-02-13.sbd.walker-scotton.miller.102929.flac16" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 d4aeb044a182ec1709ed88cf9e99340c02a3db7b51e54a5346389574bcff1e81</cite>
   </record>
   <venue ref="v-jb-922" nameAsBilled="Henry J. Kaiser Convention Center"/>
   <program coverage="partial">
@@ -35,101 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-2f2a4d9b3330a1dd11af" kind="audience">
-      <identifier scheme="archive-org">gd1988-02-13.163694.fob.schoeps.unknown.ebel.flac16</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>FOB Schoeps CMC 3 MK4-&gt; PCM-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coaxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-0b4458caea1588d152ac" kind="unknown">
-      <identifier scheme="archive-org">gd1988-02-13.168627.SuperscopeEC-7.ont.flac1644</identifier>
-      <credit role="recordist">OldNeumanntapr</credit>
-      <lineage>OTS; Superscope EC-7 Cardioids (Near Coincident) &gt;Sony TC-153SD [XLIIS] | Cassette Masters Transferred Via Denon DR-M12HR &gt;Tascam DR100mkII (24bit/48kHz) WAV &gt;Audacity (Amplify By 11db, Track Splits, Down Sample To 16bit/44.1kHz, Minor Edits [Tape Flips] &amp; Fades) Fix SBEs &gt;FLAC (Level 8) + Tags Via xACT 2.53</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
-    </recording>
-    <recording id="r-a2a0e421de40611ccfe1" kind="unknown">
-      <identifier scheme="archive-org">gd1988-02-13.aud.schoepsCMC3.miller.14952.shnf</identifier>
-      <lineage>Schoeps CMC3/MK41&gt;Dat&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-e7e44b42886cfc064117" kind="soundboard">
-      <identifier scheme="archive-org">gd1988-02-13.sbd.walker-scotton.miller.102929.flac16</identifier>
-      <credit role="recordist">Paul Scotton and Joani Walker</credit>
-      <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MA-R90) | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.1.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</lineage>
-      <playlist id="pl-3ade322e6b4d8462a90a" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1988-02-13.sbd.walker-scotton.miller.102929.flac16">
-        <track n="1" title="Tuning" file="gd88-02-13d1t01.flac" mappingStatus="unreviewed" disc="1" sourceNumber="1" duration="PT104.66S"/>
-        <track n="2" title="Hell In A Bucket -&gt;" file="gd88-02-13d1t02.flac" mappingStatus="candidate" disc="1" sourceNumber="2" duration="PT369.65S" covers="p01-01" certainty="probable"/>
-        <track n="3" title="Sugaree" file="gd88-02-13d1t03.flac" mappingStatus="candidate" disc="1" sourceNumber="3" duration="PT690.78S" covers="p01-02" certainty="probable"/>
-        <track n="4" title="New Minglewood Blues" file="gd88-02-13d1t04.flac" mappingStatus="unreviewed" disc="1" sourceNumber="4" duration="PT547.32S"/>
-        <track n="5" title="Friend Of The Devil" file="gd88-02-13d1t05.flac" mappingStatus="candidate" disc="1" sourceNumber="5" duration="PT584.72S" covers="p01-04" certainty="probable"/>
-        <track n="6" title="Mama Tried -&gt;" file="gd88-02-13d1t06.flac" mappingStatus="candidate" disc="1" sourceNumber="6" duration="PT154.04S" covers="p01-05" certainty="probable"/>
-        <track n="7" title="Big River" file="gd88-02-13d1t07.flac" mappingStatus="candidate" disc="1" sourceNumber="7" duration="PT405.52S" covers="p01-06" certainty="probable"/>
-        <track n="8" title="Loser" file="gd88-02-13d1t08.flac" mappingStatus="candidate" disc="1" sourceNumber="8" duration="PT427.36S" covers="p01-07" certainty="probable"/>
-        <track n="9" title="Iko Iko -&gt;" file="gd88-02-13d2t01.flac" mappingStatus="candidate" disc="2" sourceNumber="1" duration="PT364.36S" covers="p02-01" certainty="probable"/>
-        <track n="10" title="Looks Like Rain" file="gd88-02-13d2t02.flac" mappingStatus="candidate" disc="2" sourceNumber="2" duration="PT605.25S" covers="p02-02" certainty="probable"/>
-        <track n="11" title="Gimme Some Lovin' -&gt;" file="gd88-02-13d2t03.flac" mappingStatus="candidate" disc="2" sourceNumber="3" duration="PT303.84S" covers="p02-03" certainty="probable"/>
-        <track n="12" title="Jam -&gt;" file="gd88-02-13d2t04.flac" mappingStatus="candidate" disc="2" sourceNumber="4" duration="PT269.12S" covers="p02-04" certainty="probable"/>
-        <track n="13" title="Drums -&gt;" file="gd88-02-13d2t05.flac" mappingStatus="candidate" disc="2" sourceNumber="5" duration="PT524.72S" covers="p02-05" certainty="probable"/>
-        <track n="14" title="Space -&gt;" file="gd88-02-13d2t06.flac" mappingStatus="candidate" disc="2" sourceNumber="6" duration="PT414.24S" covers="p02-06" certainty="probable"/>
-        <track n="15" title="The Other One -&gt;" file="gd88-02-13d2t07.flac" mappingStatus="candidate" disc="2" sourceNumber="7" duration="PT365.96S" covers="p02-07" certainty="probable"/>
-        <track n="16" title="Wharf Rat -&gt;" file="gd88-02-13d2t08.flac" mappingStatus="candidate" disc="2" sourceNumber="8" duration="PT559.56S" covers="p02-08" certainty="probable"/>
-        <track n="17" title="Good Lovin' -&gt;" file="gd88-02-13d2t09.flac" mappingStatus="candidate" disc="2" sourceNumber="9" duration="PT353S" covers="p02-09" certainty="probable"/>
-        <track n="18" title="One More Saturday Night" file="gd88-02-13d2t10.flac" mappingStatus="candidate" disc="2" sourceNumber="10" duration="PT152.42S" covers="p02-10" certainty="probable"/>
-        <track n="19" title="Black Muddy River" file="gd88-02-13d2t11.flac" mappingStatus="candidate" disc="2" sourceNumber="11" duration="PT383.36S" covers="p03-01" certainty="probable"/>
-        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
-      </playlist>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
-      <note>Archive source metadata (lineage): Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.1.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</note>
-      <note>Archive source metadata (source): SBD -&gt; Cassette Master (Sony D5/TDK MA-R90)</note>
-      <note>Archive source metadata (taper): Paul Scotton and Joani Walker</note>
-      <note>Archive source metadata (transferer): Charlie Miller</note>
-    </recording>
-    <recording id="r-568e1162cc18a2aee23a" kind="soundboard">
-      <identifier scheme="archive-org">gd1988-02-13.sbd.walker-scotton.miller.85908.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MA-R90) D | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    </recording>
-    <recording id="r-f566a34dcdf172aaa305" kind="audience">
-      <identifier scheme="archive-org">gd1988-02-13.sen441.andrewf.96634.flac16</identifier>
-      <credit role="recordist">Andrew F.</credit>
-      <lineage>OTS AUD: Sennheiser MD-441's &gt; patched thru one Sony D5 &gt; Sony WM-D6C &gt; Maxell MX-90's with no Dolby. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1644</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-0e749ce397d02a41024d" kind="unknown">
-      <identifier scheme="archive-org">gd88-02-13.aud.wiley.15126.sbeok.shnf</identifier>
-      <lineage>Schoeps CMC3/MK41&gt;Dat&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-    </recording>
-    <recording id="r-8b0a6302cff084c18611" kind="soundboard">
-      <identifier scheme="archive-org">gd88-02-13.sbd.hinko.24292.sbeok.shnf</identifier>
-      <lineage>SBD &gt; MC &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-78f86d822211a490791e" kind="unknown">
-      <identifier scheme="other">etree-603848</identifier>
-      <note>Supplied catalogue listing: etree; gd88-02-13.102929.sbd-UltraMatrix.walker.scotton-miller-remaster-85908.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

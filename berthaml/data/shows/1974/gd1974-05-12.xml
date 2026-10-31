@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1974-05-12" date="1974-05-12">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1974-05-12" date="1974-05-12">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19740512-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3e1446bc543eee5edf4d38a234e0f587367494973cc03334af1abedbe8950463. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-567" nameAsBilled="Mackay Stadium, University of Nevada"/>
   <program coverage="partial">
@@ -38,63 +37,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-4cd90589f9ce439da535" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-05-12.150221.sbd.miller.flac1644</identifier>
-      <lineage>SBD &gt; Reel Master &gt; DAT (44.1k) | DAT (Tascam DA-40) &gt; Tascam DA-3000 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X5 Suite &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University Of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 18, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e5d08491efa93e001845" kind="audience">
-      <identifier scheme="archive-org">gd1974-05-12.aud-patched.warner.90176.flac16</identifier>
-      <lineage>AUD&gt;?&gt;CDRs&gt;EAC&gt;SHN - original shnid 10529 - audio patches and speed correction by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin and Jack Warner</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d4121ad52d4e43e75891" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-05-12.sbd.matrix-dts.tobin.90179.flac16</identifier>
-      <lineage>DTS Audio 5.1; SBD (shn id 2224) MSR&gt;C&gt;DAT&gt;CDRs&gt;EAC&gt;SHN + AUD (shn id 10529)AUD&gt;?&gt;CDRs&gt;EAC&gt;SHN Shns supplied by Jack Warner - dts mixing by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role unspecified.</note>
-    </recording>
-    <recording id="r-94604f8a52239674030a" kind="matrix">
-      <identifier scheme="archive-org">gd1974-05-12.sbd.matrix.tobin.90172.flac16</identifier>
-      <lineage>Matrix 2 Source Mix - SBD (shn id 2224) MSR&gt; C&gt; DAT&gt; CDRs&gt; EAC&gt; SHN; via Darrin Sacks + AUD (shn id 10529) Partial 2nd Set; AUD&gt;?&gt;CD; via Jack Warner - matrix mixing by Kevin Tobin | SBD + AUD Matrix 2 Source Mix (55%-SBD/45%-AUD)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-73159d5fdd7b72de7f1e" kind="unknown">
-      <identifier scheme="archive-org">gd1974-05-12.sbd.matt.22248.shnf</identifier>
-      <lineage>MSR&gt;C&gt;DAT&gt;CDRs&gt;EAC&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Matt</note>
-    </recording>
-    <recording id="r-7e460f83611e8c818f30" kind="audience">
-      <identifier scheme="archive-org">gd74-05-12.aud.vernon.10529.sbeok.shnf</identifier>
-      <lineage>Audience Recording | Partial 2nd Set; AUD&gt;?&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-b520972d03cde2faec87" kind="soundboard">
-      <identifier scheme="archive-org">gd74-05-12.sbd-patch-disk3.cribbs.16749.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSR&gt;C&gt;DAT&gt;CD w/ pitch corrected aud patches for disk 3 only of SBD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-8845e2a9f0252405c796" kind="soundboard">
-      <identifier scheme="archive-org">gd74-05-12.sbd.sacks.2224.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSR&gt; C&gt; DAT&gt; CDRs&gt; EAC&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at University of Nevada on 1974-05-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-8ba379533ac78416548b" kind="unknown">
-      <identifier scheme="other">etree-610005</identifier>
-      <note>Supplied catalogue listing: etree; gd1974-05-12.150221.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

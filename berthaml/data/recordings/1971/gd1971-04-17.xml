@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1971-04-17">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-3d523a602fdc885c8da5" kind="soundboard">
+    <identifier scheme="archive-org">gd1971-04-17.138033.sbd.unknown.flac1648</identifier>
+    <credit role="recordist">unknown</credit>
+    <lineage>flac16/48kHz ; SBD Master Reel originally recorded with analog equipment on a 7 inch, 7.5 i.p.s half-track master reel; Transferred to 16 48 WAV February 2017</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dillon Gym, Princeton University on 1971-04-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-ce849bb07a39faeb1fa8" kind="unknown">
+    <identifier scheme="archive-org">gd1971-04-17.aud.boswell-smith.motb-0136.107075.flac16</identifier>
+    <credit role="recordist">Will Boswell and Randy Smith</credit>
+    <lineage>Unknown mic(mono) &gt;&gt; unknown deck &gt;&gt; MAR | MAR&gt;&gt; Akai GX 636&gt;Apogee Mini Me(24/96)&gt;Apogee Mini DAC(monitoring/mastering)&gt;Lynx One soundcard&gt;wavelab 5.0&gt;DVD/FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dillon Gym, Princeton University on 1971-04-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Will Boswell and Derek McCabe</note>
+  </recording>
+  <recording id="r-d505cc5da4f423e90c87" kind="matrix">
+    <identifier scheme="archive-org">gd1971-04-17.dts.mtx.tobin.107385.flac16</identifier>
+    <lineage>DTS Audio Matrix Mix. SBD (shn id 89031) soundboard lineage : MSR&gt; R1? &gt; R2 MAXELL UD35-90 3.75 IPS (Dick Latvala) Technics RS-1506 &gt; R3 TANDBERG TD20A 7.5IPS Transfer : R3 &gt; Technics RS-1506 &gt; TEAC AN-300 DOLBY DECODE &gt; GRACE DESIGN LUNATEC V3 PRE ONLY &gt; KORG MR-1000 &gt; DSD DDF 1BIT 5.644mhZ &gt; AUDIO GATE SW DISEMINATION &gt; 24BIT wav @96khz sample rate + SBD2 (shn id 122) set 2; SBD&gt;Reel&gt;?&gt; D, with 1.1 sec from a secondary source spliced into d1t4 to patch a d/o; "the best source out there"; no Lovelight flip; via R. Nayfield + AUD1 (no shn id) Unknown mic(mono) &gt;&gt; unknown deck &gt;&gt; MAR&gt;&gt; Akai GX 636&gt;Apogee Mini Me(24/96)&gt;Apogee Mini DAC(monitoring/mastering)&gt;Lynx One soundcard&gt;wavelab 5.0&gt;DVD/FLAC; Taped By: Will Boswell and Randy Smith - dts mixing by Kevin Tobin</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dillon Gym, Princeton University on 1971-04-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: DTS</note>
+    <note>Source credit (transfer-mastering): Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-30db2a2114d66c5d67e9" kind="matrix">
+    <identifier scheme="archive-org">gd1971-04-17.mtx.tobin.107384.flac16</identifier>
+    <lineage>Matrix 2 Source Mix - SBD (shn id 89031) soundboard lineage : MSR&gt; R1? &gt; R2 MAXELL UD35-90 3.75 IPS (Dick Latvala) Technics RS-1506 &gt; R3 TANDBERG TD20A 7.5IPS Transfer : R3 &gt; Technics RS-1506 &gt; TEAC AN-300 DOLBY DECODE &gt; GRACE DESIGN LUNATEC V3 PRE ONLY &gt; KORG MR-1000 &gt; DSD DDF 1BIT 5.644mhZ &gt; AUDIO GATE SW DISEMINATION &gt; 24BIT wav @96khz sample rate + AUD (no shnid) Unknown mic(mono) &gt;&gt; unknown deck &gt;&gt; MAR&gt;&gt; Akai GX 636&gt;Apogee Mini Me(24/96)&gt;Apogee Mini DAC(monitoring/mastering)&gt;Lynx One soundcard&gt;wavelab 5.0&gt;DVD/FLAC; Taped By: Will Boswell and Randy Smith - matrix mixing by Kevin Tobin</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dillon Gym, Princeton University on 1971-04-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-4094083832f41a3bbef2" kind="unknown">
+    <identifier scheme="archive-org">gd1971-04-17.sbd.sirmick.88760.flac16</identifier>
+    <lineage>MSR&gt; R1? &gt; R2 MAXELL UD35-90 3.75 IPS (Dick Latvala) Technics RS-1506 &gt; R3 TANDBERG TD20A 7.5IPS | R3 &gt; Technics RS-1506 &gt; TEAC AN-300 DOLBY DECODE &gt; GRACE DESIGN LUNATEC V3 PRE ONLY &gt; KORG MR-1000 &gt; DSD DDF 1BIT 5.644mhZ &gt; AUDIO GATE SW DISEMINATION &gt; 24BIT wav</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dillon Gym - Princeton University on 1971-04-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
+  </recording>
+  <recording id="r-ef7905a54a48c3139819" kind="unknown">
+    <identifier scheme="archive-org">gd1971-04-17.sbd.sirmick.89031.flac24</identifier>
+    <lineage>MSR&gt; R1? &gt; R2 MAXELL UD35-90 3.75 IPS (Dick Latvala) Technics RS-1506 &gt; R3 TANDBERG TD20A 7.5IPS | R3 &gt; Technics RS-1506 &gt; TEAC AN-300 DOLBY DECODE &gt; GRACE DESIGN LUNATEC V3 PRE ONLY &gt; KORG MR-1000 &gt; DSD DDF 1BIT 5.644mhZ &gt; AUDIO GATE SW DISEMINATION &gt; 24BIT wav @96khz sample rate</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dillon Gym on 1971-04-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note>Source credit (transfer-mastering): SIRMick</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-50efb37548ca5fe443e5" kind="soundboard">
+    <identifier scheme="archive-org">gd71-04-17.sbd.nayfield.121.122.sbeok.shnf</identifier>
+    <lineage>Soundboard | SBD &gt; Reel &gt; ? &gt; DAT &gt; ZA2 (48&gt;44.1) &gt; CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Dillon Gym, Princeton University on 1971-04-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Rod Nayfield</note>
+  </recording>
+</recordings>

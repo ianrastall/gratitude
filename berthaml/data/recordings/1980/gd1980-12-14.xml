@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1980-12-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-ebddd27cb758dc89c952" kind="unknown">
+    <identifier scheme="archive-org">gd1980-12-14.124583.aud.goldshine.sennheiser-mkh406.flac16-flyingm</identifier>
+    <credit role="recordist">Ron Goldshine ;John Musgrave ;Mark the B-Man ;Mike Martin</credit>
+    <lineage>Source: 2 Sennheiser MKH 406 TUD microphones &gt; Sony D5M (w/ Dolby B, Bias @ 70us on 3 TDK MA C-90 tapes); Copy of masters: Sony D5M (w/ Dolby, Bias @ 70us) &gt; Akaii GX-570 D2 (w/ Dolby B, Bias @ 70us on 2 TDK SA C-90 tapes); | Nakamichi CR-7A (azimuth aligned to tape, Dolby B, Bias @ 70us) &gt; Korg MN-2000S 1 Bit DFF @ 2.822 MHz &gt; AudioGate (convert to 24-96) &gt; Audacity (clean up) &gt; AudioGate (convert to 16-44) &gt; CD wav &gt; Flac (Level 8) &gt; Stamp ID3 Tag editor; Recorded by: Ron Goldshine and John Musgrave</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Mike Martin</note>
+  </recording>
+  <recording id="r-25fa81757b326cfec29e" kind="matrix">
+    <identifier scheme="archive-org">gd1980-12-14.136726.mtx.dusborne.flac16</identifier>
+    <lineage>3 source matrix by Dusborne; Soundboard (Shnid:108813) MSC &gt; C; Cassette played back on Nakamichi Dragon&gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; Ozone 4.0&gt; FLAC; Audience 1 (Shnid:89058) Recording Info: Nakamichi 300 -&gt; Cassette Master (Sony D5M/Maxell UDXL-II90) Transfer Info: Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v9.12 -&gt; FLAC/16; Audience 2 (Shnid:124583) Recorded by: Ron Goldshine and John Musgrave; 2 Sennheiser MKH 406 TUD microphones &gt; Sony D5M (w/ Dolby B, Bias @ 70us on 3 TDK MA C-90 tapes) Copy of masters: Sony D5M (w/ Dolby, Bias @ 70us) &gt; Akaii GX-570 D2 (w/ Dolby B, Bias @ 70us on 2 TDK SA C-90 tapes) | Nakamichi CR-7A (azimuth aligned to tape, Dolby B, Bias @ 70us) &gt; Korg MN-2000S 1 Bit DFF @ 2.822 MHz &gt;AudioGate (convert to 24-96) &gt; Audacity (clean up) &gt; AudioGate (convert to 16-44) &gt; CD wav &gt; Flac (Level 8) &gt; Stamp ID3 Tag editor</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-0790e8fdce29643b90db" kind="audience">
+    <identifier scheme="archive-org">gd1980-12-14.175908.nak700.ellner.menke.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Ron Ellner</credit>
+    <lineage>Ron Ellner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 (Maxell XLII-S90) provides "Bertha" through "Passenger", "Cold Rain &amp; Snow &gt; Samson &amp; Delilah", as well as from the patch in "Drums &gt; Space" through "Good Lovin'" Ron Ellner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 (Maxell XLII-S90) &gt; Bob Menke's Reels @3 3/4 ips (Technics RS-1506) provides "Candyman" through "Don't Ease Me In", as well as "It Must Have Been The Roses" until the patch in "Drums &gt; Space" | Master Cassettes; (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition CC 2025 (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496 1st generation Reels (Technics RS-1506) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition CC 2025 (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-930de860aa28e0c9f426" kind="audience">
+    <identifier scheme="archive-org">gd1980-12-14.175909.nak700.ellner.menke.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Ron Ellner</credit>
+    <lineage>Ron Ellner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 (Maxell XLII-S90) provides "Bertha" through "Passenger", "Cold Rain &amp; Snow &gt; Samson &amp; Delilah", as well as from the patch in "Drums &gt; Space" through "Good Lovin'" Ron Ellner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 (Maxell XLII-S90) &gt; Bob Menke's Reels @3 3/4 ips (Technics RS-1506) provides "Candyman" through "Don't Ease Me In", as well as "It Must Have Been The Roses" until the patch in "Drums &gt; Space" | Master Cassettes; (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition CC 2025 (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496 1st generation Reels (Technics RS-1506) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition CC 2025 (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-86a466efbea4f4b9822f" kind="soundboard">
+    <identifier scheme="archive-org">gd1980-12-14.all.sbd.minches.108813.flac1644</identifier>
+    <lineage>Unknown generation cassette from sound board master Transfer and FLAC encoding by David Minches: Cassette played back on Nakamichi Dragon&gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; Ozone 4.0&gt; FLAC encoding Speed/pitch Correction by Joe B. Jones. Missing sections were patched with SHNID 89058. Patch Info: Nakamichi 300 -&gt; Cassette Master (Sony D5M/Maxell UDXL-II90) Thanks to Michael Parrish for the sound board recording.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): David Minches</note>
+  </recording>
+  <recording id="r-d94544066474169948ab" kind="unknown">
+    <identifier scheme="archive-org">gd1980-12-14.nak300.walker-scotton.miller.89058.sbeok.flac16</identifier>
+    <credit role="recordist">Joani Walker</credit>
+    <lineage>Nakamichi 300 -&gt; Cassette Master (Sony D5M/Maxell UDXL-II90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v9.12 -&gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+  </recording>
+  <recording id="r-d85f3dec7a9cc4babd84" kind="unknown">
+    <identifier scheme="archive-org">gd1980-12-14.nak700.miller.89003.sbeok.flac16</identifier>
+    <lineage>Nakamichi 700 -&gt; Cassette Master (Sony D5M) -&gt; Dat | Dat (Sony R500) -&gt; Behringer UltraMatch SRC2000 -&gt; Dio 2448 -&gt; Samplitude Professional v6.0 -&gt; SHN -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-af03d480c55df2ecf9d2" kind="unknown">
+    <identifier scheme="archive-org">gd1980-12-14.naks.mason.128626.flac16</identifier>
+    <credit role="recordist">Mason B. Taylor</credit>
+    <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-9525818c1571bd768b81" kind="audience">
+    <identifier scheme="archive-org">gd80-12-14.nak700.munder.13193.sbeok.shnf</identifier>
+    <lineage>Audience Recording: Nak 700's | AUD(Nak 700's)&gt;MC&gt;DAT&gt;CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+</recordings>

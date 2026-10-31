@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-10-31" date="1990-10-31">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1990-10-31" date="1990-10-31">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19901031-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-1005" nameAsBilled="Wembley Arena"/>
   <program coverage="partial">
@@ -38,119 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-1c8ed389ca8b64120f20" kind="matrix">
-      <identifier scheme="archive-org">gd1990-10-31.125745.mtx.dusborne.flac16</identifier>
-      <lineage>2 Source Matrix by dusborne; Soundboard (shinid:8070) Source: SBD &gt; DAT &gt; CDR &gt; WAV &gt; SHNv3; DAE(EAC) &gt; SHNTOOL &gt; MKWACT via Chris L. and Audience (shnid:90844) Source: Audience Master Cassette Nakamichi 300's Shotguns &gt; Marantz PMD-430 w/Dolby B; Tapers: Alf Houck and Robert Wright Mastering with: iZotope Ozone 3 &gt; CD Wave &gt; r8brain [16/44.1] &gt; TLH &gt; FLAC; Transfer and Mastered by Bill Koucky March 16, 2008</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by dusborne</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-90-london-england-wembley-arena/</note>
-    </recording>
-    <recording id="r-04db2f4ea1dde3e2f716" kind="audience">
-      <identifier scheme="archive-org">gd1990-10-31.138688.FOB.BK.Schoeps.Teitlebaum.Katzeff.Ammons.Noel.t-flac16</identifier>
-      <credit role="recordist">Mark Teitlebaum;Rick Katzeff</credit>
-      <lineage>flac16/48kHz ; Set I: Mark Teitlebaum FOB recording w/stand; B&amp;K 4011 at 110 degrees ORTF &gt; Neumann PS &gt; Panasonic SV255; Set II: Rick Katzeff FOB recording w/stand; Schoeps CMC34 at 110 degrees ORTF &gt; MIT Cables &gt; Oade PS &gt; Panasonic SV250; John Ammons | from his DAT clone of the master; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel Edits: raw waves track'd, flac'd, pack'd &amp; patch'd in Audacity &amp; exported as flac 16/48; Checksum &amp; tags created in xACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-fe51e3c7f51f51939972" kind="audience">
-      <identifier scheme="archive-org">gd1990-10-31.139125.aud.liff.lamarre.berger.flac1648</identifier>
-      <credit role="recordist">Dan Liff</credit>
-      <lineage>flac16/48kHz ; source: aud dat master &gt; dat; Doug Lamarre’s clone; taped by Dan Liff r.i.p; neumann rsm 190iS &gt; sony tcd-d10 pro; transferred &amp; seeded by Rob Berger</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger and Doug Lamarre</note>
-    </recording>
-    <recording id="r-09b0e05a1dce1a3c14e6" kind="audience">
-      <identifier scheme="archive-org">gd1990-10-31.139615.FOB-Schoeps-cmc4-mk41.oade.gastwirt.miller.sirmick.flac1648</identifier>
-      <credit role="recordist">Jim Oade from the Gastwirt Collection</credit>
-      <lineage>flac16/48kHz ; Source: (FOB) Schoeps cmc4 mk41 &gt; modified Panasonic SV-250 &gt; Dat x 2 (48k) - Recorded by Jim Oade and provided by Rich Gastwirt; Transfer: Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 . wav 16/44.1 - Transferred by Charlie Miller; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick October 2017</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1e951783102533ae5342" kind="audience">
-      <identifier scheme="archive-org">gd1990-10-31.142715.FOB.Schoeps.Brotman.Mattes.Miller.Noel.t-flac1648</identifier>
-      <credit role="recordist">Dave Brotman and Ted Mattes</credit>
-      <lineage>flac16/48kHz ; Dave Brotman FOB Recording: Schoeps CMC3 MK4 (ORTF)&gt; MIT cables &gt; Jensen 16 P.S. &gt; DAT (Panasonic sv250), mics on stand; 6'3" (s1), 6'5" (s2); Charlie Miller | Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
-    </recording>
-    <recording id="r-747d7c600285a5dd68d3" kind="audience">
-      <identifier scheme="archive-org">gd1990-10-31.142734.FOB.Schoeps.Katzeff.Mattes.Miller.Noel.fixed.t-flac1648</identifier>
-      <credit role="recordist">Rick Katzeff and Ted Mattes</credit>
-      <lineage>flac16/48kHz ; Rick Katzeff FOB Recording: Schoeps CMC3 MK4 (ORTF)&gt; MIT cables &gt; Jensen 16 P.S. &gt; DAT (Panasonic sv250), mics on stand; 6'3" (s1), 6'5" (s2); Charlie Miller Transfer from clone of master: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
-    </recording>
-    <recording id="r-3039d046f2eb7b3a51ea" kind="unknown">
-      <identifier scheme="archive-org">gd1990-10-31.143864.nak300-cp4.dalton.miller.sirmick.flac1648</identifier>
-      <credit role="recordist">Tim Dalton</credit>
-      <lineage>Nakamichi 300s (cp4) &gt; Oade p/s &gt; Panasonic SV255 &gt; DAT (48K) - Taped by Tim Dalton | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembly Arena on 1990-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-82e0423dea33e2b0af2b" kind="matrix">
-      <identifier scheme="archive-org">gd1990-10-31.150006.sbd.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 28, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-90-london-england-wembley-arena/</note>
-    </recording>
-    <recording id="r-e47c47a1dbc0f58a2a00" kind="audience">
-      <identifier scheme="archive-org">gd1990-10-31.nak300.andrewf.85914.flac16</identifier>
-      <credit role="recordist">Andrew F.</credit>
-      <lineage>Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell MX tapes, with no Dolby | MAC &gt; Sony TC-D5M (no Dolby) &gt; Audiophile 2496 analog RCA-In &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-90-london-england-wembley-arena/</note>
-    </recording>
-    <recording id="r-db76ab596fb8d0bfa476" kind="audience">
-      <identifier scheme="archive-org">gd1990-10-31.nak300.houck-wright.gmb.90844.sbeok.flac16</identifier>
-      <credit role="recordist">Alf Houck and Robert Wright</credit>
-      <lineage>Audience Master Cassette Nakamichi 300's Shotguns &gt; Marantz PMD-430 w/Dolby B | Nakamichi DR-1 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0 @ [24/96]</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bill Koucky</note>
-    </recording>
-    <recording id="r-18214ccfa7733ea5943b" kind="soundboard">
-      <identifier scheme="archive-org">gd90-10-31.sbd.ladner.8070.sbeok.shnf</identifier>
-      <lineage>SBD &gt; DAT &gt; CDR &gt; WAV &gt; SHNv3</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Wembley Arena on 1990-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-90-london-england-wembley-arena/</note>
-    </recording>
-    <recording id="r-ac89196333efb33de284" kind="unknown">
-      <identifier scheme="other">etree-609959</identifier>
-      <note>Supplied catalogue listing: etree; gd1990-10-31.150234.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-1bf12e69670fd1cd5597" kind="unknown">
-      <identifier scheme="other">etree-609942</identifier>
-      <note>Supplied catalogue listing: etree; gd1990-10-31.150006.UltraMatrix.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

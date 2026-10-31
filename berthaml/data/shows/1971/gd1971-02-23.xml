@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-02-23" date="1971-02-23">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1971-02-23" date="1971-02-23">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710223-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-283" nameAsBilled="Capitol Theatre"/>
   <program coverage="partial">
@@ -37,53 +36,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-13b4556c820b09d50aca" kind="audience">
-      <identifier scheme="archive-org">gd1971-02-23.151502.aud.partial.lamarre.vernon.sirmick.flac16</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Unknown aud (3rd gen cassette) - From the collection of Doug Lamarre | Transfer: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby B) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) - Transferred by Matt Vernon Lienage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; iZotope RX8 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0c69bc62e7a125b6be1f" kind="audience">
-      <identifier scheme="archive-org">gd1971-02-23.151503.aud.partial.lamarre.vernon.sirmick.flac24</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Unknown aud (3rd gen cassette) - From the collection of Doug Lamarre | Transfer: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby B) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) - Transferred by Matt Vernon Lienage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; iZotope RX8 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-bd7176ade5fccfe68ea4" kind="unknown">
-      <identifier scheme="archive-org">gd1971-02-23.aud.weinberg.moore.berger.98406.flac16</identifier>
-      <credit role="recordist">Marty Weinberg</credit>
-      <lineage>mastered on uher reel by Marty Weinberg | aud reel master&gt;reel technics rs-1506&gt;sony nr-335&gt;hd-p2 24/48&gt; cd wave&gt;adobe 2.0 16/44&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Jerry Moore and Rob Berger</note>
-      <note certainty="uncertain">Legacy name match: Jerry Moore; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
-    </recording>
-    <recording id="r-a41de09abbea8cf3727c" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-02-23.sbd.evans-waddell.GEMS.82755.flac16</identifier>
-      <credit role="recordist">DAT from the collection of Todd Evans</credit>
-      <lineage>SBD -&gt; Master Reel (7 inch reels @ 7.5ips 1/2trk) -&gt; PCM -&gt; Dat (44.1k) | DAT &gt; TASCAM DA-20 (spdif out) -&gt; Apogee Wide Eye spdif innterconnect -&gt; Lynx Two Soundcard (spdif in) -&gt; Wavelab 6.0</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Editing and Mastering in Wavelab6.0 and Ozone. Dithered L2type1ultra by Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-1fd73b7adc15b742dabc" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-02-23.sbd.miller.110353.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; CD | CD -&gt; Samplitude Professional v11.1 -&gt; Adobe Audition v3.0 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-8d0494c07a32cd1aa8d3" kind="unknown">
-      <identifier scheme="archive-org">gd71-02-23.sbd.orf.113.sbeok.shnf</identifier>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater, Portchester NY on 1971-02-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

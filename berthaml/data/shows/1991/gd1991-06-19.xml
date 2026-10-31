@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-06-19" date="1991-06-19">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-06-19" date="1991-06-19">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910619-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-797" nameAsBilled="Pine Knob Music Theatre"/>
   <program coverage="partial">
@@ -33,100 +32,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-0a75d581d4f29e248b95" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-19.109345.sbd.lai.shnf</identifier>
-      <lineage>SBD&gt;CM&gt;DAT&gt;SHN&gt;CD; edited and transferred to cd by michael lai</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-0d41805a6b5ea0b629b1" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-19.138579.sbd.lai-jeh.sbeok.flac16</identifier>
-      <lineage>SBD&gt;CM&gt;DAT&gt;SHN&gt;CD; This is a minor remaster of shnid: 109345</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Mike Lai and jeh</note>
-    </recording>
-    <recording id="r-36420ef8a73a46a9903c" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-19.140452.TSBeyer-CM1010.ebel.flac2496</identifier>
-      <credit role="recordist">Pete Ebel</credit>
-      <lineage>flac24/96 Source Info: TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's). Transfer Info: Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analong-&gt; Digital Converter) (SPDIF out) 24/96-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/96). Transfers by Pete Ebel</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-55a0d1b5fe2e5b028a2d" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-19.149584.sbd.pearson-healy.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 17, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-81f5248e713474bc070d" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-19.149645.sbd.cm.miller.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 17, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-2320276b6372fc2e1208" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-19.150372.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
-      <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
-      <lineage>FOB Schoeps CMC3 MK4’s (ORTF) &gt; Oade PS &gt; MIT cables &gt; Master DAT (Panasonic SV-255mod) (16/48) Location: Set I FOB, Section Center, Row O, Seat 18 (hand held) Location: Set II FOB, Section Center, Row O, Seat 18 (on stand @ 6') | Transfer: Dat &gt; Sony PCM r500 &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Transfer By Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel May 16, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-03adc6a428064b76efb6" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-19.fob.brennecke-young.GEMS.95645.flac16</identifier>
-      <credit role="recordist">James Young and Clay Brennecke</credit>
-      <lineage>B&amp;K 4011 110º ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro Recording Location: DFC Front Row Taper Section | 16 bit – 48kHz DAT Master &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0. Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither Tracked in CDwave, FLAC’d Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theatre on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-8e5cc6ce7d8e09e64481" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-19.Nak300CP4.Baker.Keo.116153.Flac2496</identifier>
-      <credit role="recordist">Baker</credit>
-      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns SonyD5; Taper Mr. Baker,Tapes From JB's Collection,Transfer By Keo; Tapes Maxell MX-s 90.100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked/Metadata Tagging With AudioGate Software To 24 Bit/96 kHz</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
-    </recording>
-    <recording id="r-687d0cec8247d353cd0a" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-19.Nak300CP4.Baker.Keo.116154.Flac1644</identifier>
-      <credit role="recordist">Baker</credit>
-      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns SonyD5; Taper Mr. Baker,Tapes From JB's Collection,Transfer By Keo; Tapes Maxell MX-s 90.100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Metadata Tagging With AudioGate Software To 32 Bit Float/96 kHz Dithered/Flacked With Korg Aqua To 16/44 SBE's Checked/Fixed With Trader's Little Helper</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
-    </recording>
-    <recording id="r-bf1086cdb4c06c7f82e9" kind="audience">
-      <identifier scheme="archive-org">gd91-06-19.aud.ladner.19144.sbeok.shnf</identifier>
-      <lineage>AUD (unknown mics) &gt;DAT&gt;CDR&gt;WAV&gt;SHN. SHN encoding via C.Ladner.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-e21db6cbea3b8718d4b6" kind="audience">
-      <identifier scheme="archive-org">gd91-06-19.fob-schoeps-mahoney-oneill.miller.28392.sbeok.shnf</identifier>
-      <credit role="recordist">JC Mahoney, Dan O'Neill</credit>
-      <lineage>Audience: AKG 461's | FOB AKG 460/CK61 (ORTF) &gt; Mike Grace Early Preamp &gt; Dat Master (Casio DA-7/48k) &gt; Dat (Sony R500) &gt; Behringer UltraMatch SRC2000 &gt; SEK'D Prodif Plus &gt; Samplitude v7.02 Professional &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-caeadc1fbfdae9d0e37a" kind="soundboard">
-      <identifier scheme="archive-org">gd91-06-19.sbd.aj.2786.sbeok.shnf</identifier>
-      <lineage>SBD &gt; DAT &gt; Cass &gt; DAT &gt; CD &gt; EAC &gt; CDWav (retrack) &gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pine Knob Music Theater on 1991-06-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

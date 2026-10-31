@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1973-12-02">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-1187ee757aa65e58e028" kind="matrix">
+    <identifier scheme="archive-org">gd1973-12-02.124133.mtx.dusborne.flac16</identifier>
+    <lineage>3 source matrix by dusborneSoundboard (shnid:3415)Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDREAC'ed / SHN'ed by Scott ClugstonAudience (shnid:17278)Source: MAC &gt; ? &gt; C &gt; DAT &gt; CDRDAT &gt; WAV(48kHz) by Marc PujolEncoding: EAC(secure) &gt; Cool Edit &gt; CDWAV &gt; mkwact &gt; SHN(seekable) by mvernon54@attbi.comAudience (shnid:110782)FOB AUD Source: Unknown equipment &gt; MAC taped by Bill Degen. | Maxell UD90 &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab &gt;R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transfer by Andrew F.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Music Hall on 1973-12-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+  </recording>
+  <recording id="r-a1349b87134fd92c9a7d" kind="soundboard">
+    <identifier scheme="archive-org">gd1973-12-02.150276.s2.sbd.miller.flac1648</identifier>
+    <lineage>SBD &gt; Master Reel &gt; DAT (48k) | DAT (Tascam DA-40) &gt; Tascam DA-3000 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X5 Suite &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Music Hall on 1973-12-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 23, 2020</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-530c771491bb078f88b5" kind="audience">
+    <identifier scheme="archive-org">gd1973-12-02.aud.degen.partial.110782.flac1644</identifier>
+    <credit role="recordist">Unknown</credit>
+    <lineage>FOB AUD Source: Unknown equipment &gt; MAC taped by Bill Degen. This transfer is 1st Gen cassette, kindly provided by Tim Friend. | Maxell UD90 &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transfer by Andrew F.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Music Hall on 1973-12-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Andrew F.</note>
+  </recording>
+  <recording id="r-d665bfb30b07bc169ad0" kind="soundboard">
+    <identifier scheme="archive-org">gd1973-12-02.sbd.clugston.lai.4733.sbefail.shnf</identifier>
+    <lineage>Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1973-12-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston</note>
+  </recording>
+  <recording id="r-191937d157f58ff571ac" kind="audience">
+    <identifier scheme="archive-org">gd73-12-02.aud.vernon.17278.sbeok.shnf</identifier>
+    <credit role="recordist">Unknown</credit>
+    <lineage>Audience Recording | A:? &gt; DAT &gt; CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1973-12-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Matt Vernon and Marc Pujol</note>
+  </recording>
+  <recording id="r-9bc78657b3e9a92d8fbb" kind="soundboard">
+    <identifier scheme="archive-org">gd73-12-02.sbd.clugston.3415.sbeok.shnf</identifier>
+    <lineage>Soundboard | Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1973-12-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-8b390086d160768ce3fd" kind="unknown">
+    <identifier scheme="other">etree-610059</identifier>
+    <note>Supplied catalogue listing: etree; gd1973-12-02.150276.s2.sbd.mr.miller.flac1648. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  </recording>
+</recordings>

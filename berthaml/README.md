@@ -1,6 +1,6 @@
-# BerthaML data 0.1.0
+# BerthaML data 0.2.0
 
-An attributed Grateful Dead research dataset and XML vocabulary. The current dataset covers public events from 1967 through 9 July 1995, with one file per show, four shared registries and edition-specific playlists for official and circulating recordings. The schemas can also describe the earlier Jerry Garcia era from 1965-05-05.
+An attributed Grateful Dead research dataset and XML vocabulary. The current dataset covers public events from 1967 through 9 July 1995, with one hand-edited file per show, four shared registries, one generated recordings file per show with known tapes, and edition-specific playlists for official and circulating recordings. The schemas can also describe the earlier Jerry Garcia era from 1965-05-05.
 
 **Canonical curation is incomplete.** The first baseline has 2,234 show records and 39,639 performance entries. It retains uncertainty rather than filling gaps with invented facts. See the generated [coverage report](reports/coverage.md), the [curation contract](CURATION.md) and [source provenance](sources/README.md).
 
@@ -13,29 +13,33 @@ schemas/
   berthaml.xsd    driver: validates any BerthaML file
   common.xsd      ID formats, dates, closed vocabularies, record/citation block
   show.xsd        <show>
+  recordings.xsd  <recordings>
   people.xsd      <people>
   songs.xsd       <songs>
   venues.xsd      <venues>
   releases.xsd    <releases>
 data/
-  people.xml
-  songs.xml
-  venues.xml
-  releases.xml
-  shows/YYYY/<show-id>.xml
+  shows/YYYY/<show-id>.xml        hand-owned: what happened on stage
+  people.xml                      hand-owned
+  songs.xml                       hand-owned
+  venues.xml                      hand-owned
+  releases.xml                    hand-owned
+  recordings/YYYY/<show-id>.xml   generated: tapes, track lists, timings
 tools/
   validate.py
   requirements.txt
   build_corpus.py
   audit_corpus.py
   collect_playlists.py
-curated/          research overrides; never overwritten by acquisition
+curated/          hand-entered recordings, identity and review decisions
 sources/          pinned evidence and original-import recovery archive
-reports/          coverage, source crosswalks and the finite issue queue
+reports/          coverage, source drift, crosswalks and the finite issue queue
 playlists/        source-specific TXT, JSON and local M3U8 exports
 ```
 
-Namespace: `urn:berthaml:1`. Schemas are XSD 1.0, so they load in .NET `System.Xml.Schema`, libxml2/lxml and Xerces.
+**The show files and registries are the source of truth.** Edit them directly; git is their history. The build reads them and never writes them. It generates `data/recordings/`, `playlists/` and `reports/`, and refuses to overwrite a generated file that was edited by hand. See [CURATION.md](CURATION.md).
+
+Namespace: `urn:berthaml:1`. Language version 1.1: show files no longer hold recordings. Schemas are XSD 1.0, so they load in .NET `System.Xml.Schema`, libxml2/lxml and Xerces.
 
 ## Setup
 
@@ -58,7 +62,7 @@ python -m unittest discover -s tools -p 'test_*.py'
 
 Add `--strict` to fail on warnings. Output lines are `ERROR file:line: message` or `WARN  file:line: message`, followed by a summary. Exit code 0 means no errors.
 
-The ordinary rebuild is entirely offline and validates prospective XML before publishing it. `--check` compares a complete rebuild with every owned output. Local edits to generated files cause a refusal; put researched changes in `curated/`. `audit_corpus.py --require-complete` is a separate historical-completion gate, expected to fail for this draft.
+The ordinary rebuild is entirely offline and validates the show files with the prospective generated XML before publishing anything, so a broken hand edit stops the build and leaves the generated files as they were. `--check` compares a complete rebuild with every generated file. `audit_corpus.py --require-complete` is a separate historical-completion gate, expected to fail for this draft.
 
 ## Grow the playlist dataset
 
@@ -88,9 +92,17 @@ python tools/compare_sources.py ../work/berthaml-refresh-facts.json.gz --output 
 
 This reports added, removed and changed facts without modifying the corpus. No scheduled monitoring is installed.
 
+Once a capture is pinned, a rebuild writes `reports/source-drift.jsonl`: every place a pinned source states something a show file does not, including new events, songs and venues. Sources never change a show file, and a source's silence is never drift, so research that goes beyond a source stays quiet. To see the record a source implies, write it somewhere outside `data/`:
+
+```powershell
+python tools/build_corpus.py --propose ../work/berthaml-proposals
+```
+
+Copy what you accept into the show file by hand.
+
 ## Data release
 
-`python tools/release_dataset.py` runs the offline rebuild comparison, audit, tests and Windows .NET schema validation, then creates `../dist/berthaml-data-0.1.0.zip` and its SHA-256 file. The package contains XML, playlists, schemas, research overrides, pinned factual sources, attribution and rebuild tools. It is a draft dataset release, not a new Gratitude application release or a claim that historical curation is finished.
+`python tools/release_dataset.py` runs the offline rebuild comparison, audit, tests and Windows .NET schema validation, then creates `../dist/berthaml-data-<version>.zip` and its SHA-256 file. The package contains XML, playlists, schemas, research overrides, pinned factual sources, attribution and rebuild tools. It is a draft dataset release, not a new Gratitude application release or a claim that historical curation is finished.
 
 ## Design
 
@@ -126,12 +138,12 @@ The show's `<lineup>` is authoritative. An absent lineup means unresearched pers
 
 A duration is a measurement of a specific recording or release, and track boundaries differ between sources. One track often spans several performances (Good Lovin' > Drums > Good Lovin'). So durations sit on `<track>` elements, which list the performance IDs they cover:
 
-- circulating recordings: `<recording>/<track>` inside the show file
+- circulating recordings: `<recording>/<track>` in `data/recordings/`
 - official releases: `<release>/<track>` in `releases.xml`, with `show` and `covers`
 - specific official editions: `<release>/<edition>/<track>`
-- specific circulating original-file variants: `<recording>/<playlist>/<track>`
+- specific circulating original-file variants: `<recording>/<playlist>/<track>` in `data/recordings/`
 
-Tracks retain source titles and optional real filenames. `covers` can be absent while mapping is unresearched. Automated links carry `mappingStatus="candidate"`; they do not certify a historical mapping.
+Tracks retain source titles and optional real filenames. `covers` can be absent while mapping is unresearched. Automated links carry `mappingStatus="candidate"`; they do not certify a historical mapping. Because `covers` crosses files, `tools/validate.py` resolves it rather than the schema.
 
 ### Sandwiches and reprises
 
@@ -166,4 +178,5 @@ Schema validation, then:
 - lead vocalists are on stage (warning)
 - lineup members fall inside a membership period, and active members missing from a lineup are flagged (warnings)
 - release and recording tracks cover existing performance or event IDs
+- each recordings file names an existing show and agrees with its file name
 - song credits use either a person ID or a text name

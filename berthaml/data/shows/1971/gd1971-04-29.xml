@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-04-29" date="1971-04-29">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1971-04-29" date="1971-04-29">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710429-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-155" nameAsBilled="Fillmore East"/>
   <program coverage="partial">
@@ -47,99 +46,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-a8ee9ba9481f4c6d003f" kind="matrix">
-      <identifier scheme="archive-org">gd1971-04-29.mtx.hansokolow.97660.flac16</identifier>
-      <lineage>matrix of SBD: shnid=33565 and AUD: shnid=26568</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): hansokolow</note>
-    </recording>
-    <recording id="r-314a29b009c17e0dc280" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.boswell.smith.114145.flac16</identifier>
-      <lineage>SBD MR@ 7.5 ips&gt;R @ 7.5 ips.(Wilson Boswell). Transfer info:Akai GX636 &gt; Apogee Mini Me @24/96&gt;Mini DAC(monitoring/mastering) &gt; Lynx One soundcard&gt;Wavelab 5.0(dithered to 16/44 via 'UV22HR' Apogee algorithim &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matt Smith</note>
-    </recording>
-    <recording id="r-762d65aa68e56d143e58" kind="unknown">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.haugh.33565.flac16</identifier>
-      <lineage>Borrows other material to "recreate" show without cuts</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Dan Haugh</note>
-    </recording>
-    <recording id="r-9d65bb3177cec6a0ff09" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.miller.105925.flac24</identifier>
-      <lineage>SBD -&gt; Shure Line Mixers -&gt; Advent Advocate Dolby B Unit -&gt; Master Reel (Sony Deck - BASF Tapes - 1/4 Track - 7 1/2 ips) | Master Reel (Teac A-6100) -&gt; Advent Advocate Dolby B Unit -&gt; Fostex FR-2LE -&gt; WAV (24bit/96k) Mastering Info: WAV -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b2ced1e0c8b642d94dcf" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.miller.105926.flac16</identifier>
-      <lineage>SBD -&gt; Shure Line Mixers -&gt; Advent Advocate Dolby B Unit -&gt; Master Reel (Sony Deck - BASF Tapes - 1/4 Track - 7 1/2 ips) | Master Reel (Teac A-6100) -&gt; Advent Advocate Dolby B Unit -&gt; Fostex FR-2LE -&gt; WAV (24bit/96k) Mastering Info: WAV -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-98f3935b69d88f77c81a" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.multitracks.miller.114350.flac16</identifier>
-      <lineage>SBD -&gt; 16 Track Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e62cea8dcc1a8923c12a" kind="unknown">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.murphy.1858.shnf</identifier>
-      <lineage>MSR 7 inch (7.5 ips) Revox A 77 &gt;Alesis Masterlink&gt;CD-R</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Bob Murphy</note>
-    </recording>
-    <recording id="r-9e16472d6620142418dc" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.serafin.19639.shnf</identifier>
-      <lineage>SBD &gt; 8 track RTR @ 15 i.p.s. (Vault Master) &gt; 2 track RTR @ 15 i.p.s. (Phil Lesh 1987 mixdown Safety) &gt; 24/96 DAT &gt; SSSB (SHNTOOL used and verified)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jay Serafin</note>
-    </recording>
-    <recording id="r-512ad399efa72f90d4aa" kind="unknown">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.unknown.126.shnf</identifier>
-      <lineage>MR&gt;R&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Unknown</note>
-    </recording>
-    <recording id="r-4680de301017648a32c3" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-29.sbd.unknown.4333.shnf</identifier>
-      <lineage>SBD&gt;MR : Shure line mixers &gt; Sony reel to reel (middle of the line model, exact model unknown) at 7 1/2 ips onto BASF 90 minute reels MR&gt;CDR: Revox A77 reel to reel &gt; Alesis Masterlink ML960</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bill Gadsden</note>
-    </recording>
-    <recording id="r-bb4f346880b206655a38" kind="soundboard">
-      <identifier scheme="archive-org">gd71-04-29.sbd.frisco.16782.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; MR &gt; CD &gt; EAC &gt; Cool Edit &gt; CD Wave &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chris Frisco</note>
-    </recording>
-    <recording id="r-dd37a28693553a9b8fbf" kind="audience">
-      <identifier scheme="archive-org">gd71-04-29.weinberg.warner.26568.sbeok.flacf</identifier>
-      <credit role="recordist">Marty Weinberg</credit>
-      <lineage>Audience | AKG190E &gt; Uher 400L &gt; Technics 1506 &gt; Cardas audiophile cables &gt; HHB CDR 800 master CD &gt; CD &gt; Plextor PX-708A &gt; EAC v0.95pb5 &gt; CD Wave &gt; shntool v1.01 &gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dr. Michael Parrish, Steven Martin and Jack Warner</note>
-      <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
-    </recording>
-    <recording id="r-63ad899893c1d4318e43" kind="unknown">
-      <identifier scheme="other">etree-559209</identifier>
-      <note>Supplied catalogue listing: etree; gd71-04-29.105926.sbd.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-e45c7ec78c239f42b773" kind="unknown">
-      <identifier scheme="other">etree-532424</identifier>
-      <note>Supplied catalogue listing: etree; gd71-04-29.sbd.miller.105926.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

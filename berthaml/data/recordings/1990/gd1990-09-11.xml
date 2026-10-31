@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1990-09-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-1faa4460dbeacd6d83fb" kind="soundboard">
+    <identifier scheme="archive-org">gd1990-09-11.122144.sbd.miller.flac24</identifier>
+    <lineage>SBD -&gt; Cassette Master (TDK SA-X100) | Cassette Master (Sony TC-K677ES) -&gt; Sound Devices 744T (24bit/48k) -&gt;Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/24</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-ff7c3c4472dbe82dd642" kind="soundboard">
+    <identifier scheme="archive-org">gd1990-09-11.122145.sbd.miller.flac16</identifier>
+    <lineage>SBD -&gt; Cassette Master (TDK SA-X100) | Cassette Master (Sony TC-K677ES) -&gt; Sound Devices 744T (24bit/48k) -&gt;Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-1c6d950e8862b60d2337" kind="matrix">
+    <identifier scheme="archive-org">gd1990-09-11.137116.mtx.dusborne.flac16</identifier>
+    <lineage>2 Source Matrix by Dusborne;Soundboard (shnid:122145) Recording Info: SBD -&gt; Cassette Master (TDK SA-X100) Transfer Info: Cassette Master (Sony TC-K677ES) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16; Audience (shnid:011808)Source: FOB(Nak. 300's &gt; D-5) &gt; CM &gt;?? &gt; CDR &gt;There maybe another Cass. gen. in the lineage. Conversion: EAC(secure)&gt;CD WAV&gt;Cool Edit Pro&gt;SHN(seekable)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-be25f5c4160ac003410d" kind="audience">
+    <identifier scheme="archive-org">gd1990-09-11.142423.s1.FOB.BK.Berner.Ammons.Noel.t-flac1648</identifier>
+    <credit role="recordist">Rich Berner</credit>
+    <lineage>flac16/48kHz ; Set 1 Rich Berner FOB Recording; B&amp;K 4011s @ 110ยบ ORTF &gt; Mod Neumann PS &gt; DAT (Sony D10 Pro). Location; Section 102 Row 16 Seat 9; mics on stand @ 6'; John Ammons | from his DAT clone of the master; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; WAV</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Joe Noel and John Ammons</note>
+  </recording>
+  <recording id="r-364af0bfb3e6f71b1429" kind="audience">
+    <identifier scheme="archive-org">gd1990-09-11.146063.FOB.BK4011.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
+    <credit role="recordist">Dave Brotman &amp; Jeff Metchick Master Digital Recording</credit>
+    <lineage>Recording info: B&amp;K 4011 (110°) &gt; B&amp;K power supply &gt; Master DAT (Panasonic SV-250/48k). Location: FOB; Sec, 102 Row 14, Seat 13 (mics on stand @ 6') | Transfer info: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; flac 16/48</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Charlie Miller Transfer Edited &amp; Mastered by Joe Noel</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-0ea3fbf23e85c07bd3be" kind="matrix">
+    <identifier scheme="archive-org">gd1990-09-11.158746.ultramatrix.miller.flac2496</identifier>
+    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: ULTRAMATRIX</note>
+    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 23, 2022</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+  </recording>
+  <recording id="r-04a2004e2ba00c6e5b1a" kind="matrix">
+    <identifier scheme="archive-org">gd1990-09-11.161383.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
+    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: ULTRAMATRIX</note>
+    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 23, 2022</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
+    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+  </recording>
+  <recording id="r-600e0747ee62cac41c39" kind="audience">
+    <identifier scheme="archive-org">gd1990-09-11.AKG451.Currier.Keo.121664.Flac2496</identifier>
+    <credit role="recordist">Mr. Currier</credit>
+    <lineage>Master Audience Recorded By MR. Currier, Transfer By Keo; AKGC451EB/CK1's&gt;AKG 9V Phantom Power&gt;Marantz PDM 430&gt; Probaly Dolby (Not Marked)&gt;Tapes Maxell MX-100's; Transfer With Nakamichi MR-1&gt;No Dolby&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Keo</note>
+  </recording>
+  <recording id="r-45e0855d50403f06abbd" kind="audience">
+    <identifier scheme="archive-org">gd1990-09-11.AKG451.Currier.Keo.121665.Flac1644</identifier>
+    <credit role="recordist">Mr. Currier</credit>
+    <lineage>Master Audience Recorded By MR. Currier, Transfer By Keo; AKGC451EB/CK1's&gt;AKG 9V Phantom Power&gt;Marantz PDM 430&gt; Probaly Dolby (Not Marked)&gt;Tapes Maxell MX-100's; Transfer With Nakamichi MR-1&gt;No Dolby&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Keo</note>
+  </recording>
+  <recording id="r-425d91b37def29e8b83e" kind="audience">
+    <identifier scheme="archive-org">gd90-09-11.fob-nak300.wiley.11808.sbeok.shnf</identifier>
+    <lineage>FOB(Nak. 300's&gt;D-5)&gt;CM&gt;?&gt;CDR&gt;WAV&gt;SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+  </recording>
+  <recording id="r-2cbcc8c4c5d22c43f6b7" kind="soundboard">
+    <identifier scheme="archive-org">gd90-09-11.sbd-matrix.wiley.11809.sbeok.shnf</identifier>
+    <lineage>(Healy Mix)SBD&gt;DAT&gt;C&gt;DAT&gt;CDR&gt;WAV&gt;SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1990-09-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+  </recording>
+</recordings>

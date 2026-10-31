@@ -1,3 +1,17 @@
+# Corpus restructure validation
+
+Validated on Windows on 30 October 2026 by comparing the working tree with the committed 0.1.0 corpus. This moved recordings out of the show files and made the show files hand-owned. It changed no fact.
+
+- Shows: 2,234 of 2,234 have identical stage content, compared as canonical XML with recordings, their citations and the version attribute set aside.
+- Recordings: 18,611 of 18,611 are identical and in the same order, now in 1,887 files. Three shows had an empty `<sources/>`, which is gone.
+- Registries: identical apart from the version attribute.
+- Playlists: 96 of 100 exports are byte-identical. The other 4, all `gd1970-05-02`, differ only in citation order, because the citation for its soundboard identifier moved with the recording.
+- Reports: the same 5,067 issues, with the same IDs, kinds and subjects. Evidence hashes moved only for the 2,234 `show-review` and 4 `registry-review` issues, which hash files whose shape or version changed; no resolutions existed to go stale. Crosswalk, exclusions, release candidates, playlist coverage and unassigned recordings match. `coverage.json` is identical apart from two new fields.
+- Drift: one row, `gd1970-05-02`, whose hand-researched song IDs differ from source titles such as Jordan for Cold Jordan.
+- Exercised on real files: a hand edit to a show survived rebuilds and appeared as drift; `--propose` wrote the source's version outside `data/`; an edited generated file stopped the rebuild and was left in place.
+- Regression suite: 24 tests pass. Python XSD/semantic validation has zero errors and warnings; .NET `System.Xml.Schema` passes all 4,125 XML files; the audit has zero errors.
+- The data ZIP was unpacked outside the repository, where its builder and auditor pass offline.
+
 # Data release 0.1.0 validation
 
 Validated on Windows on 30 October 2026, using Python 3.12, lxml 6.1.3 and PyYAML 6.0.3. This is a draft research release; historical curation is incomplete.

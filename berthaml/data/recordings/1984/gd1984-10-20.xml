@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1984-10-20">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-b8269da8cebe51e678ab" kind="unknown">
+    <identifier scheme="archive-org">gd1984-10-20.110063.beyer-senn-daweez.D5scott.flac16</identifier>
+    <credit role="recordist">Da Weez</credit>
+    <lineage>source: 2 Beyer M160 &amp; 1 Sennheiser 421 microphones &gt; Nak MX100 w/2001 &gt; Sony TC-D5M (Dolby on) - analog master cassettes; | Sony TC-D5M (original record deck - Dolby on) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): D5scott</note>
+  </recording>
+  <recording id="r-558f565e341ccbe15190" kind="matrix">
+    <identifier scheme="archive-org">gd1984-10-20.122859.mtx.dusborne.flac16</identifier>
+    <lineage>Matrix from: Soundboard (shnid:105445) SBD -&gt; Cassette Master -&gt; Dat -&gt; CD; All Transfers and Mastering By Charlie Miller and Audience (shnid:110063)source: 2 Beyer M160 &amp; 1 Sennheiser 421 microphones &gt; Nak MX100 w/2001 &gt; Sony TC-D5M (Dolby on) - analog master cassettes; | Sony TC-D5M (original record deck - Dolby on) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files; Recorded by The Weasel - "Da Weez"; Transferred and mastered to .wav files by D5scott</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): matrix by dusborne</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-84-syracuse-ny-syracuse-university-carrier-dome/</note>
+  </recording>
+  <recording id="r-2b8c6c3a26b97c3354d6" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.124527.chasingwilma.flac24</identifier>
+    <credit role="recordist">chasingwilma</credit>
+    <lineage>lineage: sennheiser 441 fob&gt; optimus&gt; d-5&gt; mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): chasingwilma</note>
+  </recording>
+  <recording id="r-425b5ad29ab255a5833d" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.128437.set2.schoeps.oade.BCE.flac16</identifier>
+    <credit role="recordist">The Oade Brothers</credit>
+    <lineage>Set 2 Source: Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1; | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav; Mastering by Dave Usborne: Izotpoe RX Advanced Declick and Spectral Repair used manually to fix pops and digital artifacts. Editing done in Reaper V4.591/X64; Tracks cut in Audacity 2.0.5; Flac files created in Traders Little Helper</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Doug Oade</note>
+    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-84-syracuse-ny-syracuse-university-carrier-dome/</note>
+  </recording>
+  <recording id="r-a6d967c5e7447365511c" kind="soundboard">
+    <identifier scheme="archive-org">gd1984-10-20.140928.fob.senn441.ackerman.miller.clugston.flac1644</identifier>
+    <lineage>Source Info: Ray Ackerman's (FOB) Master Audience Cassette (first row in front of soundboard); Sennheiser 441 mics &gt; Sony D5 &gt; Sony D6; Transfer Info: Cassette (Nakamichi mkii)&gt; Grace Design Lunatec V3 &gt; Oade modified M-Audio MicroTrack II (wav 24 bit/96k)&gt; Adobe Audition 3 &gt; TLH flac24/96; 24 bit &gt; 16 bit via dBpoweramp</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+  </recording>
+  <recording id="r-46fb4db8b53e7bb7d10b" kind="soundboard">
+    <identifier scheme="archive-org">gd1984-10-20.140929.fob.senn441.ackerman.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Ray Ackerman</credit>
+    <lineage>Source Info: Ray Ackerman's (FOB) Master Audience Cassette (first row in front of soundboard); Sennheiser 441 mics &gt; Sony D5 &gt; Sony D6; Transfer Info: Cassette (Nakamichi mkii)&gt; Grace Design Lunatec V3 &gt; Oade modified M-Audio MicroTrack II (wav 24 bit/96k) &gt; Adobe Audition 3 &gt; TLH flac24/96</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-84-syracuse-ny-syracuse-university-carrier-dome/</note>
+  </recording>
+  <recording id="r-4aa9982dd7320b560f0d" kind="soundboard">
+    <identifier scheme="archive-org">gd1984-10-20.150967.sbd.eaton-latvala.miller.flac1644</identifier>
+    <lineage>SBD &gt; PCM Master &gt; DAT (Panasonic SV-3700) &gt; DAT (Panasonic SV-3800) | DAT (Panasonic SV-3800) &gt; Avid MBox Pro &gt; Pro Tools 12 &gt; WAV (16-bit/44.1k) Additional Mastering: WAV &gt; Samplitude Pro X5 Suite &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Original Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 28, 2020</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+  </recording>
+  <recording id="r-12c48c0c161cd4678f3c" kind="unknown">
+    <identifier scheme="archive-org">gd1984-10-20.152671.FOBNak100-SGMasterCassette.Anon.Noel.t-flac2448</identifier>
+    <credit role="recordist">Recorded, Transferred &amp; Mastered by Anon</credit>
+    <lineage>Nakamichi 100 shotguns &gt; Sony TC-D5M &gt; Master Cassette (TDK MA90s, Dolby B On) Location: Three rows directly in front of Healy (sorry Dan!); stand 6 to 7 feet high. | Transfer: Master Cassette &gt; Nakamichi CR7a playback with no dolby&gt; Korg mr2000 (1 bit, 5.6 Mhz). Render from 1 bit to 24 48 wave file using AudioGate. Pre dolby nr decode eq &amp; software dolby B decode using Nuendo &amp; DDICodec.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Edited with add'l Mastering in Adobe Audition by Joe Noel February 16, 2021</note>
+    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+  </recording>
+  <recording id="r-40108fc829115b4ecb24" kind="unknown">
+    <identifier scheme="archive-org">gd1984-10-20.152672.FOBNak100-SGMasterCassetteAnonNoel.t-flac16</identifier>
+    <credit role="recordist">Recorded, Transferred &amp; Mastered by Anon</credit>
+    <lineage>Nakamichi 100 shotguns &gt; Sony TC-D5M &gt; Master Cassette (TDK MA90s, Dolby B On) Location: Three rows directly in front of Healy (sorry Dan!); stand 6 to 7 feet high. | Transfer: Master Cassette &gt; Nakamichi CR7a playback with no dolby&gt; Korg mr2000 (1 bit, 5.6 Mhz). Render from 1 bit to 24 48 wave file using AudioGate. Pre dolby nr decode eq &amp; software dolby B decode using Nuendo &amp; DDICodec.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Edited with add'l Mastering in Adobe Audition by Joe Noel February 16, 2021</note>
+    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
+  </recording>
+  <recording id="r-edf08c426ff0496fbf15" kind="matrix">
+    <identifier scheme="archive-org">gd1984-10-20.154034.mtx.photoleon.flac1644</identifier>
+    <lineage>Matrix created in Adobe Audition by Joe Noel June 2021</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-4e8e0befee5a5f02ec3e" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.168182.beyer.m160.vita.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Jim Vita</credit>
+    <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-7083e1e5586379bc78bc" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.168183.beyer.m160.vita.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Jim Vita</credit>
+    <lineage>Jim Vita's Master (FOB) Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-44a990bea68a3f40cf40" kind="unknown">
+    <identifier scheme="archive-org">gd1984-10-20.aud.morris.108407.flac24</identifier>
+    <credit role="recordist">Bob Morris</credit>
+    <lineage>Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Sony TCD5M/Maxell XLII-S C-90) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits); Recorded from Floor Section 3, Row L, Seat 9 by Bob Morris</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+  </recording>
+  <recording id="r-18dc9fc76f4ac2ca2731" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.Nak100CP4.Hill.Keo.131798.Flac1644</identifier>
+    <credit role="recordist">Steve Hill</credit>
+    <lineage>Master Audience Recorded By Sandy For Steve Hill, Transfer By Keo; Nakamichi CM100/CP4 Shotguns &gt; Sony D5, Tapes:Maxell UD XLII 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.02 To 24/96 kHz; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Keo</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-84-syracuse-ny-syracuse-university-carrier-dome/</note>
+  </recording>
+  <recording id="r-3f1a1752fdf3e48166b3" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.Nak100CP4.Hill.Keo.131799.Flac2496</identifier>
+    <credit role="recordist">Steve Hill</credit>
+    <lineage>Master Audience Recorded By Sandy For Steve Hill, Transfer By Keo; Nakamichi CM100/CP4 Shotguns &gt; Sony D5, Tapes:Maxell UD XLII 90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.02 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Keo</note>
+  </recording>
+  <recording id="r-4da834c1edbe8f93b840" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.nak300.carpenter.108304.flac2496</identifier>
+    <credit role="recordist">Ted Carpenter</credit>
+    <lineage>FOB AUD: 2x Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell UD-XLII 90's w/no Dolby. Taped by Ted Carpenter. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 2496 Tagged. Transfer by Andrew F.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-84-syracuse-ny-syracuse-university-carrier-dome/</note>
+  </recording>
+  <recording id="r-12c04220e046f19e0d37" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.nak300.carpenter.wise.andrewf.33341.sbeok.flac16</identifier>
+    <credit role="recordist">Ted Carpenter</credit>
+    <lineage>FOB, Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; MAC (UD-XLII, no Dolby) | MAC &gt; CD, CDR &gt; EAC &gt; WavMerge &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-fix, checksums, and FLAC compression) &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome - Syracuse University on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Jim Wise and Andrew F.</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-a48ed258ffc51e318378" kind="unknown">
+    <identifier scheme="archive-org">gd1984-10-20.nak300.morris.crazyfingers.106652.flac16</identifier>
+    <credit role="recordist">Bob Morris</credit>
+    <lineage>Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Sony TCD5M/Maxell XLII-S C-90); Recorded from Floor Section 3, Row L, Seat 9 | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Chuck T.</note>
+  </recording>
+  <recording id="r-bb746ae80909adb0fb06" kind="audience">
+    <identifier scheme="archive-org">gd1984-10-20.nak300.unknown.lai.1871.sbeok.shnf</identifier>
+    <lineage>aud&gt;&gt;nak300&gt;&gt;cassette master&gt;&gt;cd wav | cd wav&gt;&gt;cool edit pro&gt;&gt;shn&gt;&gt;cdr</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome - Syracuse University on 1984-10-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Mike Lai</note>
+  </recording>
+  <recording id="r-af4a0fcd697309df6d5b" kind="soundboard">
+    <identifier scheme="archive-org">gd1984-10-20.sbd.miller.105445.flac16</identifier>
+    <lineage>SBD -&gt; Cassette Master -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-84-syracuse-ny-syracuse-university-carrier-dome/</note>
+  </recording>
+  <recording id="r-4b03e1fa0481626a26bd" kind="soundboard">
+    <identifier scheme="archive-org">gd84-10-20.sbd.mattman.15673.sbeok.shnf</identifier>
+    <lineage>SBD&gt; CM&gt; DAT&gt; computer processing&gt; CDR&gt; EAC&gt; SHNTOOL&gt; MKWACT</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carrier Dome, Syracuse U on 1984-10-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/20/10-20-84-syracuse-ny-syracuse-university-carrier-dome/</note>
+  </recording>
+  <recording id="r-0a6fe9c4dbf028210e5f" kind="unknown">
+    <identifier scheme="other">etree-614213</identifier>
+    <note>Supplied catalogue listing: etree; gd84-10-20 154034 Syracuse MTX photoLeon t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: MTX</note>
+  </recording>
+  <recording id="r-25359b914b68fbafa0f8" kind="unknown">
+    <identifier scheme="other">etree-531525</identifier>
+    <note>Supplied catalogue listing: etree; gd84-10-20.sbd.miller.105445.flac16 ** NEW MILLER **. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  </recording>
+</recordings>

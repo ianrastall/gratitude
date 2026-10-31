@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-06-15" date="1990-06-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1990-06-15" date="1990-06-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900615-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-939" nameAsBilled="Shoreline Amphitheatre"/>
   <program coverage="partial">
@@ -37,91 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-c350dd8a24d8e712c1a5" kind="unknown">
-      <identifier scheme="archive-org">gd1990-06-15.138464.s2.ots.Scheops.Ammons.Noel.t-flac16</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>flac16/48kHz ; Set 2, unknown taper: Schoeps CMC 42s &gt; Panasonic SV255; mics spaced 9 feet with 6'5" stand; front row taper section; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel Edits: Track, Flac, Pack &amp; Patch: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
-    </recording>
-    <recording id="r-5a9496b5fb0c3c8aac82" kind="unknown">
-      <identifier scheme="archive-org">gd1990-06-15.142345.OTS.Brotman.Fanari.Katzeff.Mattes.Miller.Noel.t-flac1648</identifier>
-      <credit role="recordist">Rick Katzeff and Dave Brotman and Ted Mattes and Marco Fanari</credit>
-      <lineage>flac16/48kHz ; Rick Katzeff, Marco Fanari &amp; Dave Brotman OTS Recording: Schoeps CMC4 MK2's &gt; DAT (Panasonic SV250): mics spaced 9' on a stand at 6'5"; front row OTS; Charlie Miller Transfer from DAT clone of master: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
-    </recording>
-    <recording id="r-80d5c1e5b4d90c8f7898" kind="matrix">
-      <identifier scheme="archive-org">gd1990-06-15.143854.sbd.miller.flac2496</identifier>
-      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9823219b669436848bf5" kind="matrix">
-      <identifier scheme="archive-org">gd1990-06-15.143855.UltraMatrix.sbd.cm.miller.flac1644</identifier>
-      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0e22199d78cf8d32b00a" kind="audience">
-      <identifier scheme="archive-org">gd1990-06-15.146443.FOB.OTS.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
-      <credit role="recordist">Dave Brotman &amp; Jeff Metchick Master Digital Recording</credit>
-      <lineage>Dave Brotman &amp; Jeff Metchick Master Digital Recording: Set I: (FOB) Spaced Schoeps CMC4 MK4's &gt; Oade Pre Amp &gt; (-20db pad) &gt; DAT (Panasonic SV255) Location: Row F Seat 21 &amp; 27, mics were on stands at 6' 4" spaced 9' 1" Set II: (OTS) Schoeps CMC4 MK4's (110°) &gt; Oade Pre Amp &gt; DAT (Panasonic SV250) Location: front row tapers section | Charlie Miller Transfer: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Joe Noel and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-cf060a79844b0eaeaf88" kind="matrix">
-      <identifier scheme="archive-org">gd1990-06-15.146936.photoLeon.MTX.t-flac16</identifier>
-      <lineage>A photoLeon Matrix</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-3dd7acbf219a3d878440" kind="audience">
-      <identifier scheme="archive-org">gd1990-06-15.Nak300CP4.Fitzy.Keo.126232.Flac2496</identifier>
-      <credit role="recordist">Fitzy</credit>
-      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M; Tapes: Set 1 Maxell MX-90, Set 2 Maxell MX-100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-d92c2b9ad712e30bfc5c" kind="audience">
-      <identifier scheme="archive-org">gd1990-06-15.Nak300CP4.Fitzy.Keo.126233.Flac1644</identifier>
-      <credit role="recordist">Fitzy</credit>
-      <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M; Tapes: Set 1 Maxell MX-90, Set 2 Maxell MX-100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-a8454b6ee188d1e88e5f" kind="unknown">
-      <identifier scheme="archive-org">gd1990-06-15.sbd.ladner.tetzeli.fix-8570.35161.reflac.flac16</identifier>
-      <lineage>Fix of shnid 8570</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
-    </recording>
-    <recording id="r-af77f3d46864e1d05bbe" kind="soundboard">
-      <identifier scheme="archive-org">gd1990-06-15.sbd.miller.106144.flac16</identifier>
-      <lineage>SBD -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e1ed132221c0f9897d5f" kind="unknown">
-      <identifier scheme="archive-org">gd90-06-15.naks.jill-rob.7762.sbeok.shnf</identifier>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-93e91e6d911ec278f836" kind="soundboard">
-      <identifier scheme="archive-org">gd90-06-15.sbd.ladner.8570.sbeok.shnf</identifier>
-      <lineage>SBD &gt; DAT &gt; CDR &gt; WAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1990-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

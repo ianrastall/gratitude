@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-01-18" date="1979-01-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1979-01-18" date="1979-01-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19790118-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
   <program coverage="partial">
@@ -38,71 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-60be6ed628c6b3b3113f" kind="audience">
-      <identifier scheme="archive-org">gd1979-01-18.akg-shure.friend.andrewf.106899.flac24</identifier>
-      <credit role="recordist">Tim Friend</credit>
-      <lineage>FOB AUD: AKG D200E (left mic) plus Shure Dynamic (right mic) &gt; Sony TC-153SD &gt; Maxell UD-XLII 90's. Mics on stand, set up FOB floor "dead center" Sec 5 Row H, taped by Tim Friend. | MAC &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab 2496 &gt; CD-Wave &gt; TLH &gt; FLAC 2496 Tagged. Transfer by Andrew F. 03/2010</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-7c0ed2113aa17a234bea" kind="audience">
-      <identifier scheme="archive-org">gd1979-01-18.akg-shure.friend.andrewf.106900.flac16</identifier>
-      <credit role="recordist">Tim Friend</credit>
-      <lineage>FOB AUD: AKG D200E (left mic) plus Shure Dynamic (right mic) &gt; Sony TC-153SD &gt; Maxell UD-XLII 90's. Mics on stand, set up FOB floor "dead center" Sec 5 Row H | MAC &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab 2496 &gt; CD-Wave &gt; R8Brain &gt; TLH &gt; FLAC 1644 Tagged.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-c05f6339d223fb4789ff" kind="audience">
-      <identifier scheme="archive-org">gd1979-01-18.nak300.rolfe.miller.100209.sbeok.flac16</identifier>
-      <credit role="recordist">Steve Rolfe</credit>
-      <lineage>(FOB) Nakamichi 300/CP1 -&gt; Cassette Master (Maxell UDXLI/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.21 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
-    </recording>
-    <recording id="r-c5a6105c7d40637a0d23" kind="audience">
-      <identifier scheme="archive-org">gd1979-01-18.nak300.rolfe.miller.100210.flac24</identifier>
-      <credit role="recordist">Steve Rolfe</credit>
-      <lineage>(FOB) Nakamichi 300/CP1 -&gt; Cassette Master (Maxell UDXLI/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.21 -&gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
-    </recording>
-    <recording id="r-4ae891e391ede6bafa47" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-01-18.sbd.miller.102444.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d39679b72cfaba818c33" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-01-18.sbd.miller.fix-102444.103186.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-eff8669016e3ebbd9449" kind="audience">
-      <identifier scheme="archive-org">gd79-01-18.rolfe.vernon.17175.sbeok.shnf</identifier>
-      <credit role="recordist">Steve Rolfe</credit>
-      <lineage>Audience Recording: TEAC PC-10 with nak 700 mic's fob | DAT &gt; CDR &gt; EAC(secure) &gt; Cool Edit &gt; CDWAV &gt; mkwact &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
-    </recording>
-    <recording id="r-5bd48cca2ada8c571854" kind="audience">
-      <identifier scheme="archive-org">gd79-01-18.senn.fishman.13058.sbeok.shnf</identifier>
-      <lineage>Audience Recording: Sennheiser 441's? | FOB AUD Master Cassette &gt; DAT &gt;CD-R &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1979-01-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

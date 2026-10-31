@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1983-09-08" date="1983-09-08">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1983-09-08" date="1983-09-08">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830908-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-727" nameAsBilled="Red Rocks Amphitheatre"/>
   <program coverage="partial">
@@ -36,94 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-116b52a0c37038a907b5" kind="unknown">
-      <identifier scheme="archive-org">gd1983-09-08.111728.Sennheiser421.daweez.d5scott.flac16</identifier>
-      <credit role="recordist">Da Weez</credit>
-      <lineage>source: 2 Sennheiser 421 microphones &gt; Sony TC-D5M - master analog cassettes; | Sony TC-D5M (original record deck) &gt;Pre Sonus Inspire GT&gt;Sound Forge&gt;.wav files&gt;Trader's Little Helper&gt;flac files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Ampitheatre on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-c72028e7587a4290af49" kind="soundboard">
-      <identifier scheme="archive-org">gd1983-09-08.143056.beyerm201.holbrook.flac1644</identifier>
-      <credit role="recordist">Executive Crew, Kyle Holbrook, Chris Kidwell, Tom Pinney</credit>
-      <lineage>flac16/44.1 Master: AUD MC Beyer M201's X-Y 5.5'up &gt; Sony TCD5M no dolby Maxell MX90 x 3 Location: 140 feet from stage, 10 ft. ROC (~10 rows behind SBD) | Nakamichi CR-5A (24/96) &gt; Tascam DR680|SD &gt; i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-819c666f58af3f4a88a3" kind="soundboard">
-      <identifier scheme="archive-org">gd1983-09-08.143057.beyerm201.holbrook.flac2448</identifier>
-      <credit role="recordist">Executive Crew, Kyle Holbrook, Chris Kidwell, Tom Pinney</credit>
-      <lineage>flac24/48 Master: AUD MC Beyer M201's X-Y 5.5'up &gt; Sony TCD5M no dolby Maxell MX90 x 3 Location: 140 feet from stage, 10 ft. ROC (~10 rows behind SBD) | Nakamichi CR-5A (24/96) &gt; Tascam DR680|SD &gt; i7Windows7 Audacity &gt; cdwav editor &gt; TLH flac level 8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1983-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-b44c0f837d36e53b15d7" kind="audience">
-      <identifier scheme="archive-org">gd1983-09-08.176441.akg.se5.wiseman.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Scott Wiseman</credit>
-      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi BX-150) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Audacity &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1983-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-2c044a35da1e04c948fe" kind="audience">
-      <identifier scheme="archive-org">gd1983-09-08.176442.akg.se5.wiseman.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Scott Wiseman</credit>
-      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi BX-150) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Audacity &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1983-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-96022be1fc5011296418" kind="unknown">
-      <identifier scheme="archive-org">gd1983-09-08.aud.morris.111035.sbeok.flac24</identifier>
-      <credit role="recordist">Bob Morris</credit>
-      <lineage>Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Sony TCD5M/Maxell UDXLII C-90); Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits); Recorded by Bob Morris</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Ampitheatre on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-    </recording>
-    <recording id="r-4656b3bc5c7b34b90a72" kind="unknown">
-      <identifier scheme="archive-org">gd1983-09-08.nak300.morris.102053.sbeok.flac16</identifier>
-      <credit role="recordist">Bob Morris</credit>
-      <lineage>Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Sony TCD5M/Maxell UDXLII C-90) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Ampitheatre on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bob Morris</note>
-    </recording>
-    <recording id="r-bb3b3f7a2f82a12d36bb" kind="audience">
-      <identifier scheme="archive-org">gd1983-09-08.nak700.wagner.miller.113684.flac16</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>(FOB) 3 Nakamichi 700 Omni's -&gt; Cassette Master (Sony TC-D5M/Maxell XLII-S90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/44.1k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Red Rocks Ampitheatre on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-87a310d4d727fcdf29a4" kind="soundboard">
-      <identifier scheme="archive-org">gd1983-09-08.nakcm304.mikeg-suraci.79047.flac16</identifier>
-      <credit role="recordist">Mike G. and Tony Suraci</credit>
-      <lineage>Nakamich CM304's&gt;Sony D5&gt;Sony D6 At SBD, stand at 7 Feet. | Sony D5Pro&gt;Lunatec V3&gt;722@24/96 &gt; 722&gt;Adobe Aud.&gt;16bit&gt;CDwav&gt;flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Tony Suraci</note>
-    </recording>
-    <recording id="r-c821a1dae322b0346e8e" kind="unknown">
-      <identifier scheme="archive-org">gd1983-09-08.set1-aud.set2-sbd.84856.flac</identifier>
-      <lineage>Set 1: Nakamichi CM304's &gt; Sony D5 &gt; Sony D6 (shnid=79047)--Tuning before Shakedown &amp; L.L. Rain patches: Senn. 441s? &gt; MC &gt; DAT &gt; CDR (shnid=12482) Set 2: MSC &gt; Reel &gt; DAT &gt; CDR &gt; EAC &gt; SHN &gt; WAV &gt; FLAC (level 8) (shnid=20536)--Scarlet &gt; Fire from Eaton's --Start of Baby Blue patch: Nakamichi CM304's &gt; Sony D5 &gt; Sony D6 (shnid=79047)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
-    </recording>
-    <recording id="r-b85c2903ff534ca1fcf0" kind="audience">
-      <identifier scheme="archive-org">gd83-09-08.sennheiser.dodd.12482.sbeok.shnf</identifier>
-      <lineage>AUD (Senn. 441Âs)&gt; MC&gt; DAT&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks on 1983-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-4cc94c51d30a52230c2f" kind="soundboard">
-      <identifier scheme="archive-org">gd83-09-08.set2.sbd.lemieux-kaplan.20536.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSC&gt;Reel&gt;DAT&gt;CDR (Scarlet&gt;Fire from Eaton's MAC)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks on 1983-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: David Lemieux; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,9 +1,11 @@
-"""Build the attributed BerthaML corpus offline; retain uncertainty and edits.
+"""Generate everything derived from the hand-owned corpus; never touch that corpus.
 
-Public Jerrybase event identities define the working roster, not a claim that
-its current historical research is final. The supplied catalogue contributes
-recording references. Licensed gdshowsdb is retained and reconciled separately.
-Hand-curated records in curated/ take precedence over acquired facts.
+data/shows/ and the registries beside it are the source of truth: they are edited
+by hand and git is their history. From them and the pinned captures this writes
+data/recordings/, playlists/ and reports/. Where a pinned source states something
+a show file does not, the difference is reported in reports/source-drift.jsonl for
+a person to weigh; it is never applied. Public Jerrybase event identities remain
+the comparison roster, not a claim that its current research is final.
 """
 import argparse
 from collections import Counter, defaultdict
@@ -28,6 +30,11 @@ ROOT = Path(__file__).resolve().parents[1]
 NS = 'urn:berthaml:1'
 N = {'b': NS}
 UPDATED = '2026-10-30'
+# Paths this build owns. Everything else under data/ is hand-owned.
+GENERATED = ('data/recordings/', 'playlists/', 'reports/')
+REGISTRIES = ['people', 'songs', 'venues', 'releases']
+REVIEWED = ('reviewed', 'verified')
+EVENT_URL = 'https://jerrybase.com/events/'
 COUNTRIES = {'US': 'US', 'Canada': 'CA', 'England': 'GB', 'Scotland': 'GB',
              'Germany': 'DE', 'France': 'FR', 'Denmark': 'DK', 'Netherlands': 'NL',
              'Egypt': 'EG', 'Luxembourg': 'LU', 'Spain': 'ES', 'Jamaica': 'JM', 'Sweden': 'SE'}
@@ -58,7 +65,7 @@ def el(tag, parent=None, text=None, **attrs):
 
 
 def root(tag, **attrs):
-    return etree.Element(f'{{{NS}}}{tag}', nsmap={None: NS}, schemaVersion='1.0', **attrs)
+    return etree.Element(f'{{{NS}}}{tag}', nsmap={None: NS}, schemaVersion='1.1', **attrs)
 
 
 def xml(node):
@@ -191,6 +198,94 @@ def make_issue(kind, subject, **detail):
     return value
 
 
+def read_owned(base=None):
+    """The hand-owned XML. Builds read these files and never write them."""
+    base = base or ROOT
+    paths = (p.relative_to(base).as_posix() for p in sorted((base / 'data').rglob('*.xml')))
+    return {p: (base / p).read_bytes() for p in paths if not p.startswith(GENERATED)}
+
+
+def imported_show(event, names, titles, shared_day, capture, accessed):
+    """The record a source event states. It is compared with a show file, never written over one."""
+    sid, day = event['id'], show_date(event['date_label'])
+    issues = []
+    show = root('show', id=sid, date=day)
+    if len(day) < 10:
+        show.set('dateCertainty', 'uncertain')
+    record(show, 'draft' if event['sections'] else 'skeleton',
+           'Jerrybase event and year-table factual capture', event['url'],
+           f'Working event identity, venue and setlist facts; source year-page SHA-256 '
+           f'{capture}. Imported, not independently verified.', accessed)
+    slot = re.search(r'\]\s+(Early|Late|Afternoon|Evening)$', event['date_label'], re.I)
+    if slot or shared_day:
+        el('slot', show, text=slot[1].lower() if slot else 'unknown')
+    name, _ = locality(event['venue_label'])
+    el('venue', show, ref=event['venue_id'], nameAsBilled=name)
+    program = el('program', show, coverage='partial' if event['sections'] else 'none')
+    counters = Counter()
+    for section in event['sections']:
+        label = section['label']
+        if 'Soundcheck' in label:
+            kind = 'soundcheck'
+        elif 'Encore' in label:
+            kind = 'encore'
+        elif 'Set' in label or 'Show' in label:
+            kind = 'set'
+        else:
+            kind = 'unknown'
+        counters[kind] += 1
+        mode = 'acoustic' if 'Acoustic' in label else 'electric' if 'Electric' in label else 'unknown'
+        node = el('set', program, kind=kind, n=counters[kind], mode=mode)
+        if label == 'Known Songs':
+            node.set('certainty', 'uncertain')
+        for i, item in enumerate(section['items'], 1):
+            attrs = dict(id=f'p{len(program):02}-{i:02}', song=names[norm(item['title'])],
+                         transition=item['transition'])
+            if item['title'] != titles[attrs['song']]:
+                attrs['titleVariant'] = item['title']
+            if item.get('mode'):
+                attrs['mode'] = item['mode']
+            el('performance', node, **attrs)
+        el('note', node, text='Source section label: ' + label)
+        if label == 'Known Songs':
+            el('note', node, text='Source identifies known songs; their performance order is unconfirmed.')
+    performances = program.findall('.//b:performance', N)
+    if performances and performances[-1].get('transition') == 'segue':
+        performances[-1].set('transition', 'unknown')
+        el('note', performances[-1], text='Source ends the known program with a segue marker; '
+           'the destination is not identified. Marker retained in the factual snapshot.')
+        issues.append(make_issue('dangling-segue', sid, source=event['url']))
+    el('note', show, text='Imported factual record. No membership-derived lineup, vocalists, '
+       'reprises, track durations or release mappings are inferred. Program completeness '
+       'requires review; an absent segue marker does not prove a stop.')
+    return show, issues
+
+
+def stage_facts(show):
+    """What a source can state about a show, in comparable form."""
+    performances = show.findall('.//b:performance', N)
+    return dict(date=show.get('date'), slot=show.findtext('b:slot', namespaces=N),
+                venue=show.find('b:venue', N).get('ref'),
+                sets=[(s.get('kind'), len(s.findall('b:performance', N)))
+                      for s in show.findall('b:program/b:set', N)],
+                songs=[p.get('song') for p in performances],
+                transitions=[p.get('transition') for p in performances])
+
+
+def source_drift(imported, show):
+    """Fields a source states differently from a show file. A source's silence is never drift."""
+    source, held = stage_facts(imported), stage_facts(show)
+    fields = [key for key in ['date', 'venue'] if source[key] != held[key]]
+    if source['slot'] not in (None, 'unknown') and source['slot'] != held['slot']:
+        fields.append('slot')
+    if source['songs']:
+        fields.extend(key for key in ['sets', 'songs'] if source[key] != held[key])
+    if source['songs'] == held['songs'] and any(
+            s != 'unknown' and s != h for s, h in zip(source['transitions'], held['transitions'])):
+        fields.append('segues')
+    return fields
+
+
 def build():
     lock = json.loads((ROOT / 'sources/inputs.lock.json').read_text('utf-8'))
     for name, expected in lock['files'].items():
@@ -213,15 +308,29 @@ def build():
     access = {year: value['fetched_utc'][:10] for year, value in captures.items()}
     # The snapshot UTC date may be the following day; dates of records use Ian's local date.
     curated = ROOT / 'curated'
-    regs = {name: etree.parse(str(curated / f'{name}.xml')).getroot()
-            for name in ['people', 'songs', 'venues', 'releases']}
+    owned = read_owned()
+    regs = {name: etree.fromstring(owned[f'data/{name}.xml']) for name in REGISTRIES}
+    shows = {}
+    for path, raw in owned.items():
+        if path.startswith('data/shows/'):
+            show = etree.fromstring(raw)
+            shows[show.get('id')] = show
+    # A show file names its source event, so the file stays the anchor when an ID changes.
+    cited = {}
+    for sid, show in shows.items():
+        for cite in show.findall('b:record/b:cite', N):
+            if cite.get('href', '').startswith(EVENT_URL) and cited.setdefault(cite.get('href'), sid) != sid:
+                raise ValueError('Two shows cite one source event: ' + cite.get('href'))
+    source_of = {sid: url for url, sid in cited.items()}
     overrides = json.loads((curated / 'identities.json').read_text('utf-8'))
     preserved_ids = json.loads((ROOT / 'sources/legacy-identity-map.json').read_text('utf-8'))['shows']
     for event in events:
-        event['id'] = overrides['shows'].get(event['url'], preserved_ids.get(event['url'], show_id(event)))
+        event['id'] = cited.get(event['url']) or overrides['shows'].get(
+            event['url'], preserved_ids.get(event['url'], show_id(event)))
         event['venue_id'] = overrides['venues'].get(event['venue_url'],
                                                  'v-jb-' + event['venue_url'].rsplit('/', 1)[1])
     song_nodes = {s.get('id'): s for s in regs['songs'].findall('b:song', N)}
+    titles = {sid: song.findtext('b:title', namespaces=N) for sid, song in song_nodes.items()}
     song_names = {}
     for song in song_nodes.values():
         for name in song.findall('b:title', N) + song.findall('b:altTitle', N):
@@ -233,42 +342,28 @@ def build():
         if sid not in song_nodes:
             raise ValueError('Alias targets missing curated song: ' + sid)
         song_names[norm(alias)] = sid
+    drift = []
     for title in sorted({s['title'] for e in events for t in e['sections'] for s in t['items']}):
         if norm(title) in song_names:
             continue
         sid = 's-' + slug(title)
         if sid in song_nodes:
             sid += '-' + digest(title.encode())[:8]
-        song = el('song', regs['songs'], id=sid, kind='unknown')
-        el('title', song, text=title)
-        el('note', song, text='Title attested in the locked Jerrybase setlist facts. '
-           'Authorship, work identity, vocal defaults and classification require review.')
-        song_nodes[sid] = song
         song_names[norm(title)] = sid
-    cite = el('cite', title='Jerrybase year-table factual capture', href='https://jerrybase.com/events',
-              accessed=UPDATED, text='Imported titles only; see sources/jerrybase-facts.json.gz and inputs.lock.json. '
-              'Existing seed credits and lead defaults retain their original research status.')
-    regs['songs'].find('b:record', N).append(cite)
+        titles[sid] = title
+        drift.append(dict(kind='new-song', song=sid, title=title))
     venues = {v.get('id'): v for v in regs['venues'].findall('b:venue', N)}
-    for event in events:
-        vid = event['venue_id']
-        name, loc = locality(event['venue_label'])
+    for vid, url, label in sorted({(e['venue_id'], e['venue_url'], e['venue_label']) for e in events}):
         if vid not in venues:
-            venue = el('venue', regs['venues'], id=vid)
-            el('name', venue, text=name)
-            el('locality', venue, **loc)
-            el('note', venue, text='Event venue identity: ' + event['venue_url'] + '. '
-               'Physical-site identity, renamings and coordinates remain unreviewed.')
-            venues[vid] = venue
-        known = [v.text for v in venues[vid].findall('b:name', N) + venues[vid].findall('b:altName', N)]
-        if name not in known:
-            # altName precedes locality in the schema.
-            node = el('altName', text=name)
-            venues[vid].insert(list(venues[vid]).index(venues[vid].find('b:locality', N)), node)
-    regs['venues'].find('b:record', N).append(copy.deepcopy(cite))
+            drift.append(dict(kind='new-venue', venue=vid, source=url, label=label))
+    for sid, show in shows.items():
+        unknown = ({show.find('b:venue', N).get('ref')} - venues.keys()
+                   | {p.get('song') for p in show.iterfind('.//b:performance', N)} - song_nodes.keys())
+        if unknown:
+            raise ValueError(f'{sid} refers to entries missing from the registries: {sorted(unknown)}')
     matches, unmatched = reconcile(gd, events)
     matched_by_url = {b['url']: (a, method) for a, b, method in matches}
-    issues, crosswalk, output = [], [], {}
+    issues, crosswalk, proposals, output = [], [], {}, {}
     for row in unmatched:
         issues.append(make_issue('event-identity', row['date'], **row))
     official_path = ROOT / 'sources/official-release-index.json'
@@ -280,77 +375,29 @@ def build():
                                        recording_years=sorted({r['recording_year'] for r in associations}),
                                        state='pending-edition-research'))
         issues.append(make_issue('official-release-editions', url, label=associations[0]['release_label']))
-    by_day = defaultdict(list)
+    events_by_day = defaultdict(list)
     for event in events:
-        by_day[show_date(event['date_label'])].append(event)
+        events_by_day[show_date(event['date_label'])].append(event)
+    shows_by_day = defaultdict(list)
+    for sid, show in shows.items():
+        shows_by_day[show.get('date')].append(sid)
     recordings_by_day = {s.get('date'): s.findall('recording')
                          for s in catalogue.findall('./shows/show')}
-    unassigned, assigned_keys, xml_shows = [], [], []
-    assignment_reasons = {}
     for event in events:
         sid = event['id']
         day = show_date(event['date_label'])
-        source_day = access[int(day[:4])]
-        override = curated / 'shows' / day[:4] / f'{sid}.xml'
-        if override.exists():
-            show = etree.parse(str(override)).getroot()
-            if show.get('id') != sid or show.get('date') != day:
-                raise ValueError(f'Curated identity mismatch: {override}')
-        else:
-            show = root('show', id=sid, date=day)
-            if len(day) < 10:
-                show.set('dateCertainty', 'uncertain')
-            record(show, 'draft' if event['sections'] else 'skeleton',
-                   'Jerrybase event and year-table factual capture', event['url'],
-                   f'Working event identity, venue and setlist facts; source year-page SHA-256 '
-                   f'{captures[int(day[:4])]["sha256"]}. Imported, not independently verified.', source_day)
-            slot = re.search(r'\]\s+(Early|Late|Afternoon|Evening)$', event['date_label'], re.I)
-            if slot or len(by_day[day]) > 1:
-                el('slot', show, text=slot[1].lower() if slot else 'unknown')
-            name, _ = locality(event['venue_label'])
-            el('venue', show, ref=event['venue_id'], nameAsBilled=name)
-            program = el('program', show, coverage='partial' if event['sections'] else 'none')
-            counters = Counter()
-            for section in event['sections']:
-                label = section['label']
-                if 'Soundcheck' in label:
-                    kind = 'soundcheck'
-                elif 'Encore' in label:
-                    kind = 'encore'
-                elif 'Set' in label or 'Show' in label:
-                    kind = 'set'
-                else:
-                    kind = 'unknown'
-                counters[kind] += 1
-                mode = 'acoustic' if 'Acoustic' in label else 'electric' if 'Electric' in label else 'unknown'
-                node = el('set', program, kind=kind, n=counters[kind], mode=mode)
-                if label == 'Known Songs':
-                    node.set('certainty', 'uncertain')
-                for i, item in enumerate(section['items'], 1):
-                    attrs = dict(id=f'p{len(program):02}-{i:02}', song=song_names[norm(item['title'])],
-                                 transition=item['transition'])
-                    canonical = song_nodes[attrs['song']].findtext('b:title', namespaces=N)
-                    if item['title'] != canonical:
-                        attrs['titleVariant'] = item['title']
-                    if item.get('mode'):
-                        attrs['mode'] = item['mode']
-                    el('performance', node, **attrs)
-                el('note', node, text='Source section label: ' + label)
-                if label == 'Known Songs':
-                    el('note', node, text='Source identifies known songs; their performance order is unconfirmed.')
-            performances = program.findall('.//b:performance', N)
-            if performances and performances[-1].get('transition') == 'segue':
-                performances[-1].set('transition', 'unknown')
-                el('note', performances[-1], text='Source ends the known program with a segue marker; '
-                   'the destination is not identified. Marker retained in the factual snapshot.')
-                issues.append(make_issue('dangling-segue', sid, source=event['url']))
-            el('note', show, text='Imported factual record. No membership-derived lineup, vocalists, '
-               'reprises, track durations or release mappings are inferred. Program completeness '
-               'requires review; an absent segue marker does not prove a stop.')
-        rec = show.find('b:record', N)
-        if not any(c.get('href') == event['url'] for c in rec.findall('b:cite', N)):
-            el('cite', rec, title='Jerrybase event identity', href=event['url'], accessed=source_day,
-               text='Current comparison snapshot; original curated facts retain their citations.')
+        imported, imported_issues = imported_show(event, song_names, titles, len(events_by_day[day]) > 1,
+                                                  captures[int(day[:4])]['sha256'], access[int(day[:4])])
+        show = shows.get(sid)
+        if show is None:
+            drift.append(dict(kind='new-event', show=sid, source=event['url']))
+            proposals[f'shows/{day[:4]}/{sid}.xml'] = xml(imported)
+            continue
+        fields = source_drift(imported, show)
+        if fields:
+            drift.append(dict(kind='changed', show=sid, source=event['url'], fields=fields))
+            proposals[f'shows/{day[:4]}/{sid}.xml'] = xml(imported)
+        issues.extend(imported_issues)
         legacy = matched_by_url.get(event['url'])
         entry = dict(show=sid, date=day, jerrybase=event['url'],
                      source_show_id=event['source_show_id'], venue_source=event['venue_url'])
@@ -370,32 +417,52 @@ def build():
                                          gdshowsdb=dict(name=old_name, **old_loc),
                                          jerrybase=dict(name=new_name, **new_loc), match_method=method))
         crosswalk.append(entry)
+        if event['unmodeled_contexts']:
+            issues.append(make_issue('context-review', sid, count=event['unmodeled_contexts'],
+                                     source=event['url'], explanation='Source context may describe music, '
+                                     'guests or another act. It was not converted into asserted stage facts.'))
+    unsourced = shows.keys() - {entry['show'] for entry in crosswalk}
+    crosswalk.extend(dict(show=sid, date=shows[sid].get('date'), jerrybase=None) for sid in sorted(unsourced))
+    playlist_path = ROOT / 'sources/recording-playlists/index.json'
+    playlist_index = json.loads(playlist_path.read_text('utf-8')) if playlist_path.exists() else {}
+    unassigned, assigned_keys, documents = [], [], {}
+    assignment_reasons = {}
+    for sid, show in shows.items():
+        day = show.get('date')
+        override = curated / 'recordings' / day[:4] / f'{sid}.xml'
+        if override.exists():
+            document = etree.parse(str(override)).getroot()
+            if document.get('show') != sid:
+                raise ValueError(f'Curated recording identity mismatch: {override}')
+        else:
+            document = root('recordings', show=sid)
+            el('record', document, status='draft', updated=UPDATED)
         refs = recordings_by_day.get(day, [])
-        if len(by_day[day]) == 1 and len(day) == 10:
-            if refs:
-                sources = show.find('b:sources', N)
-                if sources is None:
-                    sources = el('sources')
-                    show.insert(list(show).index(show.find('b:program', N)) + 1, sources)
-                present = {i.text for i in sources.findall('b:recording/b:identifier', N)}
-                for item in refs:
-                    actual_day = recording_date(item.get('provider'), item.get('key'), item.get('title'))
-                    if actual_day != day:
-                        assignment_reasons[(item.get('provider'), item.get('key'))] = (
-                            'identifier-date-unknown-or-out-of-scope' if actual_day is None
-                            else 'identifier-date-disagrees-with-catalogue-group')
-                        continue
-                    if item.get('key') not in present:
-                        position = next((i for i, e in enumerate(sources) if e.tag == f'{{{NS}}}release'), len(sources))
-                        sources.insert(position, recording(item))
-                    assigned_keys.append((item.get('provider'), item.get('key')))
-                el('cite', rec, title='Ian supplied Gratitude catalogue, 2026-10-29 snapshot',
-                   href='urn:sha256:' + lock['supplied_catalogue']['sha256'], accessed=UPDATED,
-                   text='Recording references associated by sole public event on this date only; '
-                   'individual metadata dates and provenance remain unreviewed. Input SHA-256 '
-                   + lock['supplied_catalogue']['sha256'])
-        playlist_issues = apply_recording_playlists(show, ROOT, song_nodes)
+        if len(shows_by_day[day]) == 1 and len(day) == 10 and refs:
+            present = {i.text for i in document.findall('b:recording/b:identifier', N)}
+            for item in refs:
+                actual_day = recording_date(item.get('provider'), item.get('key'), item.get('title'))
+                if actual_day != day:
+                    assignment_reasons[(item.get('provider'), item.get('key'))] = (
+                        'identifier-date-unknown-or-out-of-scope' if actual_day is None
+                        else 'identifier-date-disagrees-with-catalogue-group')
+                    continue
+                if item.get('key') not in present:
+                    document.append(recording(item))
+                assigned_keys.append((item.get('provider'), item.get('key')))
+            el('cite', document.find('b:record', N), title='Ian supplied Gratitude catalogue, 2026-10-29 snapshot',
+               href='urn:sha256:' + lock['supplied_catalogue']['sha256'], accessed=UPDATED,
+               text='Recording references associated by sole public event on this date only; '
+               'individual metadata dates and provenance remain unreviewed. Input SHA-256 '
+               + lock['supplied_catalogue']['sha256'])
+        playlist_issues = apply_recording_playlists(document, show, ROOT, song_nodes, playlist_index)
         issues.extend(make_issue(kind, subject, **details) for kind, subject, details in playlist_issues)
+        if document.findall('b:recording', N):
+            output[f'data/recordings/{day[:4]}/{sid}.xml'] = xml(document)
+            documents[sid] = document
+        rec = show.find('b:record', N)
+        if rec.get('status') in REVIEWED:
+            continue
         missing = []
         for tag, label in [('lineup', 'personnel'), ('bill', 'billing')]:
             if show.find('b:' + tag, N) is None:
@@ -406,14 +473,7 @@ def build():
         if len(day) < 10:
             missing.append('date-precision')
         issues.append(make_issue('show-review', sid, record_status=rec.get('status'),
-                                 fields=missing, source=event['url'], show_sha256=digest(xml(show))))
-        if event['unmodeled_contexts']:
-            issues.append(make_issue('context-review', sid, count=event['unmodeled_contexts'],
-                                     source=event['url'], explanation='Source context may describe music, '
-                                     'guests or another act. It was not converted into asserted stage facts.'))
-        path = f'data/shows/{day[:4]}/{sid}.xml'
-        output[path] = xml(show)
-        xml_shows.append(show)
+                                 fields=missing, source=source_of.get(sid), show_sha256=digest(xml(show))))
     assigned_set = set(assigned_keys)
     total_recordings = 0
     for date, items in recordings_by_day.items():
@@ -422,17 +482,17 @@ def build():
             if (item.get('provider'), item.get('key')) not in assigned_set:
                 unassigned.append(dict(date=date, provider=item.get('provider'), key=item.get('key'),
                                        reason=assignment_reasons.get((item.get('provider'), item.get('key')),
-                                           'multiple-public-events' if len(by_day.get(date, [])) > 1
+                                           'multiple-public-events' if len(shows_by_day.get(date, [])) > 1
                                            else 'no-exact-public-event'),
-                                       candidate_shows=[e['id'] for e in by_day.get(date, [])]))
+                                       candidate_shows=shows_by_day.get(date, [])))
     for day in sorted({x['date'] for x in unassigned}):
         issues.append(make_issue('recording-date-assignment', day,
                                  count=sum(x['date'] == day for x in unassigned)))
     for name, node in regs.items():
-        output[f'data/{name}.xml'] = xml(node)
-        if node.find('b:record', N).get('status') not in ('reviewed', 'verified'):
+        if node.find('b:record', N).get('status') not in REVIEWED:
             issues.append(make_issue('registry-review', name, content_sha256=digest(xml(node))))
-    playlist_outputs, playlist_stats = export_playlists(xml_shows, regs)
+    xml_shows = list(shows.values())
+    playlist_outputs, playlist_stats = export_playlists(xml_shows, documents, regs)
     scope = json.loads((curated / 'research-scope.json').read_text('utf-8'))
     inventory_complete = scope.get('official_release_inventory_complete', False)
     if inventory_complete and (not scope.get('reviewed') or not scope.get('citations')):
@@ -457,27 +517,29 @@ def build():
                 and all(s.find('b:record', N).get('status') in ('reviewed', 'verified') for s in xml_shows)
                 and all(r.find('b:record', N).get('status') in ('reviewed', 'verified') for r in regs.values()))
     stats = dict(version=1, scope=lock['scope'], updated=UPDATED,
-                 completion='complete' if complete else 'incomplete', source_events=len(facts['events']), shows=len(events),
+                 completion='complete' if complete else 'incomplete', source_events=len(facts['events']), shows=len(shows),
                  show_status=dict(sorted(Counter(s.find('b:record', N).get('status') for s in xml_shows).items())),
                  program_coverage=dict(sorted(Counter(s.find('b:program', N).get('coverage') for s in xml_shows).items())),
                  performances=sum(len(s.findall('.//b:performance', N)) for s in xml_shows),
                  songs=len(song_nodes), venues=len(venues), people=len(regs['people'].findall('b:person', N)),
                  official_releases=len(regs['releases'].findall('b:release', N)),
+                 recordings=sum(len(d.findall('b:recording', N)) for d in documents.values()),
                  supplied_recordings=total_recordings, assigned_recording_references=len(assigned_keys),
                  unassigned_recording_references=len(unassigned),
                  legacy_unplaced_records=len(catalogue.findall('./unplacedRecords/record')),
                  gdshowsdb_records=len(gd), source_matches=len(matches),
                  issues=dict(sorted(Counter(i['kind'] for i in issues if i['state'] == 'open').items())),
                  open_issues=sum(i['state'] == 'open' for i in issues),
+                 source_drift=len(drift),
                  source_exclusions=dict(Counter(r['category'] for r in facts['events'] if r['category'] != 'Public')),
                  playlists=playlist_stats,
                  official_release_page_candidates=len(release_candidates),
-                 years={year: sum(show_date(e['date_label']).startswith(str(year)) for e in events)
-                        for year in range(1967, 1996)})
+                 years=dict(sorted(Counter(int(s.get('date')[:4]) for s in xml_shows).items())))
     output['reports/coverage.json'] = jbytes(stats)
     output['reports/official-release-candidates.jsonl'] = lines(release_candidates)
     output['reports/review-queue.jsonl'] = lines(sorted(issues, key=lambda i: (i['kind'], i['subject'])))
     output['reports/source-crosswalk.jsonl'] = lines(crosswalk)
+    output['reports/source-drift.jsonl'] = lines(drift)
     output['reports/recordings-unassigned.jsonl'] = lines(unassigned)
     output['reports/event-exclusions.jsonl'] = lines([dict(url=e['url'], date_label=e['date_label'],
                                                          category=e['category'], venue=e['venue_label'])
@@ -498,7 +560,7 @@ def build():
                'No duration is inferred from a show or setlist.', '', '## Open work', '',
                *[f'- {k}: {v:,}' for k, v in stats['issues'].items()], '',
                'Machine-readable evidence: coverage.json, review-queue.jsonl, source-crosswalk.jsonl, '
-               'recordings-unassigned.jsonl and event-exclusions.jsonl in this directory.', '',
+               'source-drift.jsonl, recordings-unassigned.jsonl and event-exclusions.jsonl in this directory.', '',
                '## Shows by year', '', '| Year | Events |', '| --- | ---: |',
                *[f'| {y} | {n} |' for y, n in stats['years'].items()], ''])
     md.extend(['## Edition-specific playlists', '',
@@ -509,13 +571,17 @@ def build():
                'actual relative source filenames are known; copy the M3U8 alongside the matching source audio. '
                'No audio is acquired. Candidate performance mappings require review.', ''])
     output['reports/coverage.md'] = '\n'.join(md).encode('utf-8')
-    return output, stats
+    return output, stats, proposals
 
 
 def publish(output, check=False, destination=None):
     destination = (destination or ROOT).resolve()
     manifest_path = destination / 'corpus-manifest.json'
     previous = json.loads(manifest_path.read_text('utf-8'))['files'] if manifest_path.exists() else {}
+    # Only generated paths are owned here. A hand-owned file is never compared, replaced or removed.
+    previous = {path: value for path, value in previous.items() if path.startswith(GENERATED)}
+    if not all(path.startswith(GENERATED) for path in output):
+        raise ValueError('The build may only write generated paths')
     for path in sorted(set(previous) | set(output)):
         target = destination / path
         if not target.resolve().is_relative_to(destination):
@@ -528,16 +594,13 @@ def publish(output, check=False, destination=None):
         if path in previous:
             if current is None or digest(current) != previous[path]:
                 if current != output.get(path):
-                    raise ValueError('Preserve the local edit in curated/ before rebuilding: ' + path)
+                    raise ValueError('Generated file was edited; change its source instead: ' + path)
         elif current is not None and current != output.get(path):
-            # Initial publication may expand the seed data only if the original is preserved.
-            seed = ROOT / 'curated' / path.removeprefix('data/')
-            if not path.startswith('data/') or not seed.exists() or seed.read_bytes() != current:
-                raise ValueError('Refuse to overwrite an unmanaged file: ' + path)
-    planned_xml = {p for p in output if p.startswith('data/') and p.endswith('.xml')}
-    existing_xml = {p.relative_to(destination).as_posix() for p in (destination / 'data').rglob('*.xml')}
+            raise ValueError('Refuse to overwrite an unmanaged file: ' + path)
+    planned_xml = {p for p in output if p.startswith('data/recordings/') and p.endswith('.xml')}
+    existing_xml = {p.relative_to(destination).as_posix() for p in (destination / 'data/recordings').rglob('*.xml')}
     if existing_xml - planned_xml - set(previous):
-        raise ValueError('Unmanaged XML in data/: ' + ', '.join(sorted(existing_xml - planned_xml - set(previous))))
+        raise ValueError('Unmanaged XML in data/recordings/: ' + ', '.join(sorted(existing_xml - planned_xml - set(previous))))
     manifest = jbytes(dict(version=1, files={p: digest(raw) for p, raw in sorted(output.items())}))
     if check:
         if not manifest_path.exists() or manifest_path.read_bytes() != manifest:
@@ -565,13 +628,23 @@ def main():
     parser.add_argument('--check', action='store_true', help='rebuild offline and compare without changing files')
     parser.add_argument('--output', type=Path, default=ROOT,
                         help='corpus output directory (default: berthaml)')
+    parser.add_argument('--propose', type=Path,
+                        help='write the records sources state for changed or new events to this directory')
     args = parser.parse_args()
-    output, stats = build()
+    output, stats, proposals = build()
     # Validate all prospective data before publishing, without temporary copies of every XML file.
-    report = validate_memory(output, ROOT / 'schemas/berthaml.xsd', args.output.resolve() / 'data')
+    report = validate_memory({**read_owned(), **output}, ROOT / 'schemas/berthaml.xsd', args.output.resolve() / 'data')
     if report.errors or report.warnings:
         raise ValueError('Prospective corpus failed strict validation; published data is unchanged')
     publish(output, args.check, args.output.resolve())
+    if args.propose:
+        target = args.propose.resolve()
+        if target.is_relative_to(ROOT / 'data'):
+            raise ValueError('Proposals never go inside data/')
+        for path, raw in proposals.items():
+            (target / path).parent.mkdir(parents=True, exist_ok=True)
+            (target / path).write_bytes(raw)
+        print(f'{len(proposals)} proposed show record(s) in {target}')
     print(f'{stats["shows"]} shows; {stats["performances"]} performances; {stats["open_issues"]} open issues. '
           + ('Offline rebuild matches.' if args.check else 'Corpus published locally.'))
 

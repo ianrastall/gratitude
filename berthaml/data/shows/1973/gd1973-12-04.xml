@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-12-04" date="1973-12-04">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1973-12-04" date="1973-12-04">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731204-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-549" nameAsBilled="Cincinnati Gardens"/>
   <program coverage="partial">
@@ -33,33 +32,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-3bd9a14efd9855344623" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-12-04.sbd.miller.86839.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cincinnati Gardens on 1973-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-71e89bacf6bd337b089e" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-12-04.sbd.miller.86845.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cincinnati Gardens on 1973-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-54ccd9bd055df1da2017" kind="soundboard">
-      <identifier scheme="archive-org">gd73-12-04.s1-sbd.miller.30656.sbeok.flacf</identifier>
-      <lineage>Soundboard | SBD &gt; Master Reel &gt; DAT &gt; Sony R500 &gt; SEK'D Prodif Plus &gt; Samplitude v7.02 Professional &gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cincinnati Gardens on 1973-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-434569fe9f75e2af4b22" kind="soundboard">
-      <identifier scheme="archive-org">gd73-12-04pt.sbd.elliot.11799.sbeok.shnf</identifier>
-      <lineage>Soundboard | master soundboard cassette &gt; reel &gt; pcm &gt; dat &gt; cdr</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cincinnati Gardens on 1973-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

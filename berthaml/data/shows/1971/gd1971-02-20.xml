@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-02-20" date="1971-02-20">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1971-02-20" date="1971-02-20">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710220-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-283" nameAsBilled="Capitol Theatre"/>
   <program coverage="partial">
@@ -35,34 +34,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-f081809a81ea7da11d35" kind="unknown">
-      <identifier scheme="archive-org">gd1971-02-20.sbd.cantor-crouch-diebert-gmb.85912.sbeok.flac16</identifier>
-      <credit role="recordist">Original WBOTB DATs procured &amp; circulated in 1996 by Jace Crouch and Tim Deibert. Thanks to trailmix for providing the lineaged master DAT for transfer.</credit>
-      <lineage>7" two track BBD reel w/ Dolby A @ 7 1/2 ips &gt; PCM501ES (beta) &gt; PCM501ES analog out &gt; Dolby A decoder &gt; Apogee filter &gt; analog in PCMF1/PCM501ES analog out &gt; Fostex D5 @ 48 kHz x 2 &gt; WBOTB Master DAT. | Jace's DAT (48 KHz) playback on Sony PCM-R500, AES digital output &gt; Benchmark DAC1, XLR analog output &gt; Grace Lunatec V3, sample rate at 96 KHz, AES digiout) &gt; AES digital input, professional mode/sync - LynxTwo soundcard in E6400 dual core processor-based PC &gt; HD as 24 bit/96 KHz WAV &gt; Ozone 3.0 &gt; MBIT+ dithering to 16/44.1 KHz WAV &gt; CDWAV 1.9 (tracking) &gt; FLAC (level 8). Recording, editing and mastering with Wavelab 5.0. All cables were Mogami Gold 0.3m pro-audio XLR cables. All components in the transfer/mastering chain were powered from a Cyberpower 1285AVR noise-attenuated uninterruptible AC power supply.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Transfer and mastering by Chris L.</note>
-    </recording>
-    <recording id="r-3a852f634088bdabcbcc" kind="unknown">
-      <identifier scheme="archive-org">gd1971-02-20.sbd.cantor.orf.6188.shnf</identifier>
-      <lineage>7" 2-track Betty Reel w/ dolby A @ 7 1/2 ips &gt; PCM501ES @ 44.056 KHz PCM501ES analog out &gt; dolby A decoder &gt; analog in Fostex D5 @ 48KHz &gt; DATx32 | Datx32 &gt; Za2 &gt; notch filter &gt; CR-R</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1971-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-    <recording id="r-703c0f6353c3ef388fbf" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-02-20.sbd.miller.116617.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; CD | CD -&gt; Samplitude Professional v10.02 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-42be39eff7537f5fdfe0" kind="soundboard">
-      <identifier scheme="archive-org">gd71-02-20.sbd.orf.111.sbeok.shnf</identifier>
-      <lineage>Soundboard | 7inch 2-track Betty Reel w/ dolby A @ 7 1/2 ips &gt; PCM501ES @ 44.056 KHz &gt; analog out &gt; dolby A decoder &gt; analog in Fostex D5 @ 48KHz &gt; DATx3 &gt; ZA2 &gt; notch filter &gt; CD-R</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Leigh Orf</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

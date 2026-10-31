@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1970-05-01">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-9e7c3c81f5a7afe29adf" kind="soundboard">
+    <identifier scheme="archive-org">gd1970-05-01.sbd.gans-miller.85322.sbeok.flac16</identifier>
+    <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; Sonic Solutions -&gt; CD | CD -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alfred State College on 1970-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): David Gans and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-db19d75bd077e2284f32" kind="soundboard">
+    <identifier scheme="archive-org">gd1970-05-01.sbd.miller.95683.sbeok.flac16</identifier>
+    <lineage>Source 1: SBD -&gt; Master Reel -&gt; CD Source 2: SBD -&gt;Master Reel -&gt; Dat -&gt; Sonic Solutions -&gt; CD Source 3: SBD -&gt; Master Reel -&gt; Reel-&gt; Dat -&gt; Sonic Solutions -&gt; CD | CD -&gt; Adobe Audition v1.5 -&gt;Samplitude Professional v10.1 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alfred College on 1970-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-6584122a3e583fd0ffd5" kind="soundboard">
+    <identifier scheme="archive-org">gd1970-05-01.sbd.unknown.93.sbeok.shnf</identifier>
+    <lineage>soundboard | MR&gt;DAT&gt;Satellite feed&gt;DATx2&gt;ZA2&gt;CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alfred College on 1970-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-a7ba401264467f5c8f62" kind="soundboard">
+    <identifier scheme="archive-org">gd70-05-01.sbd.clugston.5465.sbeok.shnf</identifier>
+    <lineage>Soundboard | SBD &gt; MR &gt; DAT &gt; Sonic Solutions &gt; CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alfred College on 1970-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston</note>
+  </recording>
+  <recording id="r-772f91469a754902653a" kind="unknown">
+    <identifier scheme="other">etree-533752</identifier>
+    <note>Supplied catalogue listing: etree; gd70-05-01.95683.sbd.miller.sbeok.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  </recording>
+</recordings>

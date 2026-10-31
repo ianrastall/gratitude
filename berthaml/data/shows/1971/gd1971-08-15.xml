@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-08-15" date="1971-08-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1971-08-15" date="1971-08-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710815-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-64" nameAsBilled="Berkeley Community Theater"/>
   <program coverage="partial">
@@ -36,64 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-5c92f87ed1bd2fbc1e4d" kind="unknown">
-      <identifier scheme="archive-org">gd1971-08-15.168861.sonytcd49.menke.miller.flac1648</identifier>
-      <credit role="recordist">Bob Menke</credit>
-      <lineage>Sony TC-D40 (Built-In Mic) &gt; Cassette Master (TDK 120SD) | Cassette Master (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (WAV 24-bit/96k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Transfer by Bob Menke Mastering by Charlie Miller September 20, 2024</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
-    </recording>
-    <recording id="r-1ead366247cd23f669f9" kind="unknown">
-      <identifier scheme="archive-org">gd1971-08-15.168862.sonytcd49.menke.miller.flac2496</identifier>
-      <credit role="recordist">Bob Menke</credit>
-      <lineage>Sony TC-D40 (Built-In Mic) &gt; Cassette Master (TDK 120SD) | Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (WAV 24-bit/96k) Mastering Info: WAV (24-bit/96k) &gt; Adobe Audition 2023 &gt; Samplitude Pro X6 Suite (16-bit/48k) &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Transfer by Bob Menke Mastering by Charlie Miller September 20, 2024</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
-    </recording>
-    <recording id="r-80916fb9204dc357a042" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-08-15.168863.sbd.patched.latvala.miller.menke.flac1644</identifier>
-      <credit role="recordist">Cassette supplied by Dick Latvala</credit>
-      <lineage>SBD &gt; Master Reel &gt; Cassette &gt; DAT (44.1k) | DAT (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition 2023 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 20, 2024</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
-    </recording>
-    <recording id="r-d491de57a17e9fd53672" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-08-15.168900.sbd.patched.latvala.miller.menke.fixed-version-2.flac1644</identifier>
-      <credit role="recordist">Cassette supplied by Dick Latvala</credit>
-      <lineage>SBD &gt; Master Reel &gt; Cassette &gt; DAT (44.1k) | DAT (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition 2023 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 27, 2024</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
-    </recording>
-    <recording id="r-226c3c7a3c58620ab6fa" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-08-15.sbd.130890.MrBill.flac16</identifier>
-      <lineage>Recording Info: SBD &gt; MR &gt; C &gt; DAT; Transfer Info: DAT &gt; Sony D8 &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC; Upgrade of existing sources. No shn or CDR in lineage. Transferred, tracked and mastered by Bill Guarneri, August 7, 2014</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bill Guarneri</note>
-    </recording>
-    <recording id="r-a14de3efd49ead54366a" kind="unknown">
-      <identifier scheme="archive-org">gd1971-08-15.sbd.gustin.131.sbeok.shnf</identifier>
-      <lineage>mSR&gt;cass.&gt;DAT&gt;Serafin digital editing&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Andy Gustin</note>
-    </recording>
-    <recording id="r-6fb7d4950279017849ad" kind="soundboard">
-      <identifier scheme="archive-org">gd71-08-15.sbd.ladner.21780.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; MR &gt; Cass1 &gt; DAT &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1971-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): M. Woyczynski</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

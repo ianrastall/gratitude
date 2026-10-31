@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-05-14" date="1993-05-14">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1993-05-14" date="1993-05-14">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930514-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-1007" nameAsBilled="Sam Boyd Silver Bowl"/>
   <program coverage="partial">
@@ -35,61 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-52a8a5408a3419757b6c" kind="unknown">
-      <identifier scheme="archive-org">gd1993-05-14.112085.schoepsMK41.flac16</identifier>
-      <lineage>Recording Info: FOBH 30' center Schoeps Mk-41 3.5" @ 90* ( 1/2 O.R.T.F ) &gt; Schoeps KC5 Actives &gt; CMC 4 &gt; Canare Star Quad &gt; Koch Power Supply &gt; Canare Star Quad &gt; Koch Modified Panasonic SV-255 | Transfer Info: DAT x 3 48k &gt; Hosa ODL-276 &gt; Nomad Jukebox 3 &gt; USB &gt; Dell Home Computer &gt; R8t Brain 48K to 44.1k &gt; CD Wave &gt; Flac Frontend</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl on 1993-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-d4476626dcd5c08e0ca1" kind="audience">
-      <identifier scheme="archive-org">gd1993-05-14.137245.mk41.miller.flac1648</identifier>
-      <lineage>(FOB) Schoeps MK41 -&gt; Dat (Panasonic SV-255/48k) | Dat (Sony R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 &gt; FLAC/</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fdcc7f676efe78aa217e" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-05-14.140129.sbd.miller.flac2496</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-7c9723b571c57fe9a3b0" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-05-14.140224.sbd.cm.miller.flac1644</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-be91499bcfb45a922bb5" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-05-14.141491.OTS.AKG.Ackerman.Miller.Noel.t-flac.1648</identifier>
-      <credit role="recordist">Ray Ackerman</credit>
-      <lineage>flac16/48kHz ; Master Audience Recording &amp; Transfer by Ray Ackerman: AKG 460/61 B18 &gt; AKG B18 phantom power unit &gt; Panasonic SV255 &gt; DAT (OTS); Location: on the rail behind the soundboard dead center; Transfer info: Tascam DA 30 mkii &gt; Microtrack ii &gt; wavelab 5 &gt; WAV 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0d6c0cd30d82a995b6c5" kind="unknown">
-      <identifier scheme="archive-org">gd1993-05-14.sennME80.wklitz.94259.flac16</identifier>
-      <credit role="recordist">Keith Litzenberger</credit>
-      <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 (DAT) | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5(Fades)&gt;CDWAV&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl on 1993-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
-    </recording>
-    <recording id="r-4d8b8463a80398589a2c" kind="audience">
-      <identifier scheme="archive-org">gd93-05-14.aud.fink.17812.sbeok.shnf</identifier>
-      <lineage>Audience: Unknown Mics | Unknown Mics &gt; DAT &gt; CDR &gt; EAC 0.9 beta 4 (secure) &gt; CD Wave &gt; shntool &gt; mkwACT &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Paul B. and Alan J. Fink</note>
-    </recording>
-    <recording id="r-ee518c4a3ab79b19ea90" kind="unknown">
-      <identifier scheme="other">etree-597189</identifier>
-      <note>Supplied catalogue listing: etree; gd1993-05-14.140224.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

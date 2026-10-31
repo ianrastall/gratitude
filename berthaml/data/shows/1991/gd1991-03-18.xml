@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-03-18" date="1991-03-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-03-18" date="1991-03-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910318-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-553" nameAsBilled="Capital Centre"/>
   <program coverage="partial">
@@ -35,89 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-19d491b3a38f3fb39c45" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-18.132302.Nak300s-Senn441s.Baker.Keo.Flac1644</identifier>
-      <credit role="recordist">Baker</credit>
-      <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; 2 Nakamichi CM300/CP4 Shotguns And 2 Sennheiser 441's &gt; Unknown Radio Shack Mixer &gt; Sony D6, Tapes:Maxell MX-90, Maxell MX-100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.02 To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
-    </recording>
-    <recording id="r-3a03ae7a93eb46f32efe" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-18.132303.Nak300s-Senn441s.Baker.Keo.Flac2496</identifier>
-      <credit role="recordist">Baker</credit>
-      <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; 2 Nakamichi CM300/CP4 Shotguns And 2 Sennheiser 441's &gt; Unknown Radio Shack Mixer &gt; Sony D6, Tapes:Maxell MX-90, Maxell MX-100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.02 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-      <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
-    </recording>
-    <recording id="r-1bea60fba486676ae1fe" kind="unknown">
-      <identifier scheme="archive-org">gd1991-03-18.149503.OTS.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
-      <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
-      <lineage>Recording: Schoeps CMC3 MK4’s (110°) &gt; Panasonic SV-255 (16/48) Location: first row center, taper’s section | Transfer: Dat &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Transfer By Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel March 06, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a0c409b0ab9dd5e36669" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-03-18.149661.sbd.pearson-healy.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 24, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-99ba13326d7f20cf5397" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-03-18.149665.sbd.cm.miller.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 24, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-a1480035cc39040766b8" kind="unknown">
-      <identifier scheme="archive-org">gd1991-03-18.dts.tobin.33770.sbeok.flac16</identifier>
-      <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-db33444e67df74d14397" kind="unknown">
-      <identifier scheme="archive-org">gd1991-03-18.nak.cohen.107155.flac16</identifier>
-      <credit role="recordist">Dave Cohen</credit>
-      <lineage>3 Nakamichi CM300s/CP4s&gt;Nakamichi 550 w/Maxell XLIIS cassette masters. Dolby B was used on the Master Cassettes. Official Taping Section 8 foot stand (sec. 128 Row B Seat 13) | The Master Cassettes were played back with Azimuth adjustment and Dolby B decoding on a Nakamichi CD1 into a Korg MR1000 at DSF 1 bit 5.6MHz. Subsequent conversion to 24/96 AIFF done via Korg Audiogate software. Redbook CDR standard 16/44.1 files were created using Bias Peak, Izotope Ozone's MBIT+ (for all dithering), and Weiss Saracon SRC (all sample rate conversions).</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dave Cohen</note>
-    </recording>
-    <recording id="r-3e44099f7656b847e3ff" kind="audience">
-      <identifier scheme="archive-org">gd91-03-18.aud.ladner.16779.sbeok.shnf</identifier>
-      <lineage>AUD (unknown mics) &gt;DAT&gt;Cass (X1)&gt;CDR via D.Duquette. DAE/SHN encoding neo_levo/candyman</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-1174b59164aa84330558" kind="soundboard">
-      <identifier scheme="archive-org">gd91-03-18.sbd.hinko.28162.sbeok.flacf</identifier>
-      <lineage>flac16 SBD &gt; MC &gt; DAT &gt; CD &gt; EAC &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Darryl Hinko</note>
-    </recording>
-    <recording id="r-5580c1e94d2fca767422" kind="soundboard">
-      <identifier scheme="archive-org">gd91-03-18.sbd.set2.oconnor.10926.sbeok.shnf</identifier>
-      <lineage>Set 2 SBD&gt;MC&gt;DAT&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1991-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-c4b68e37beb9d3ef2634" kind="unknown">
-      <identifier scheme="other">etree-609432</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-03-18.149665.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -15,6 +15,7 @@ Expected layout:
     <data>/venues.xml
     <data>/releases.xml
     <data>/shows/<YYYY>/<show-id>.xml
+    <data>/recordings/<YYYY>/<show-id>.xml
 
 Usage:
     python validate.py <data-dir> [--schema PATH] [--strict]
@@ -320,16 +321,6 @@ def check_show(path, root, ctx, report):
     if performances and performances[-1].get("transition") == "segue":
         report.warn(path, performances[-1].sourceline, "last performance of the show is marked as a segue")
 
-    # Recording tracks must cover performances or events, not other elements.
-    for recording in root.findall('b:sources/b:recording', NSMAP):
-        check_track_list(path, recording.findall('b:track', NSMAP), report, recording.get('id'))
-        for playlist in recording.findall('b:playlist', NSMAP):
-            check_track_list(path, playlist.findall('b:track', NSMAP), report, playlist.get('id'))
-    for track in root.xpath('b:sources/b:recording/b:track | b:sources/b:recording/b:playlist/b:track', namespaces=NSMAP):
-        for ref in (track.get("covers") or '').split():
-            if ref not in local_items:
-                report.error(path, track.sourceline, f"track {track.get('n')} covers '{ref}', which is not a performance or event")
-
     ctx["shows"][sid] = {
         "path": path,
         "items": local_items,
@@ -338,6 +329,29 @@ def check_show(path, root, ctx, report):
         "full_date": lo == hi,
         "slot": root.findtext("b:slot", namespaces=NSMAP),
     }
+
+
+def check_recordings(path, root, ctx, report):
+    sid = root.get("show")
+    if path.stem != sid:
+        report.error(path, root.sourceline, f"file name does not match show id '{sid}'")
+    m = SHOW_ID_RE.match(sid)
+    if m and path.parent.name != m.group(1):
+        report.warn(path, root.sourceline, f"recordings are not in a directory named for their year ({m.group(1)})")
+    show = ctx["shows"].get(sid)
+    if show is None:
+        report.error(path, root.sourceline, f"unknown show '{sid}'")
+        return
+
+    # Recording tracks must cover performances or events in the show file.
+    for recording in root.findall("b:recording", NSMAP):
+        check_track_list(path, recording.findall("b:track", NSMAP), report, recording.get("id"))
+        for playlist in recording.findall("b:playlist", NSMAP):
+            check_track_list(path, playlist.findall("b:track", NSMAP), report, playlist.get("id"))
+    for track in root.xpath("b:recording/b:track | b:recording/b:playlist/b:track", namespaces=NSMAP):
+        for ref in (track.get("covers") or "").split():
+            if ref not in show["items"]:
+                report.error(path, track.sourceline, f"track {track.get('n')} covers '{ref}', which is not a performance or event in {sid}")
 
 
 def check_same_day(ctx, report):
@@ -441,9 +455,15 @@ def validate_memory(files, schema_path, data):
         if node is not None:
             check_show(data / name, node, ctx, report)
     check_same_day(ctx, report)
+    recording_names = sorted(name.removeprefix('data/') for name in files
+                             if name.startswith('data/recordings/') and name.endswith('.xml'))
+    for name in recording_names:
+        node = parse(name, 'recordings')
+        if node is not None:
+            check_recordings(data / name, node, ctx, report)
     if 'releases' in roots:
         check_release_tracks(*roots['releases'], ctx, report)
-    print(f'{len(names)} show file(s), {len(roots)} registries: '
+    print(f'{len(names)} show file(s), {len(recording_names)} recording file(s), {len(roots)} registries: '
           f'{report.errors} error(s), {report.warnings} warning(s)')
     return report
 
@@ -502,10 +522,22 @@ def main():
         check_show(path, tree.getroot(), ctx, report)
 
     check_same_day(ctx, report)
+
+    recording_files = sorted((data / "recordings").rglob("*.xml")) if (data / "recordings").is_dir() else []
+    for path in recording_files:
+        tree = load(path, schema, report)
+        if tree is None:
+            continue
+        if etree.QName(tree.getroot()).localname != "recordings":
+            report.error(path, 1, "root element must be <recordings>")
+            continue
+        check_recordings(path, tree.getroot(), ctx, report)
+
     if "releases" in roots:
         check_release_tracks(*roots["releases"], ctx, report)
 
-    print(f"{len(show_files)} show file(s), {len(roots)} registr{'y' if len(roots) == 1 else 'ies'}: "
+    print(f"{len(show_files)} show file(s), {len(recording_files)} recording file(s), "
+          f"{len(roots)} registr{'y' if len(roots) == 1 else 'ies'}: "
           f"{report.errors} error(s), {report.warnings} warning(s)")
     if report.errors or (args.strict and report.warnings):
         return 1

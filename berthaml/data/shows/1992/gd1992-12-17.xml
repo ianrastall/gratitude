@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1992-12-17" date="1992-12-17">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1992-12-17" date="1992-12-17">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19921217-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 44d1b39e1ad19cb4216f350210d1af46c8065421deaeaa31d0befdf75ae0aba8. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
   <program coverage="partial">
@@ -36,81 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-9ed98983ef474f5aaf88" kind="unknown">
-      <identifier scheme="archive-org">gd1992-12-17.119222.sonicsolution.d5scott.flac16</identifier>
-      <lineage>Source: Sonic Solution DSM-1S/x microphones (up front-center) &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; PreSonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-cb148b1757fc20a70ee1" kind="soundboard">
-      <identifier scheme="archive-org">gd1992-12-17.140832.sbd.miller.flac2496</identifier>
-      <lineage>SBD &gt; Dat Master (Panasonic SV-3700) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-92d09ed31a1adea1f7e0" kind="soundboard">
-      <identifier scheme="archive-org">gd1992-12-17.140854.sbd.cm.miller.flac1644</identifier>
-      <lineage>SBD &gt; Dat Master (Panasonic SV-3700) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-de8e54112d4661b232f3" kind="audience">
-      <identifier scheme="archive-org">gd1992-12-17.aud.larson.28903.sbeok.shnf</identifier>
-      <lineage>Set 1- A(FOB):Schoeps CMC5 MK4's&gt;DAT(48kHz) Set 2- A: AKG 460 B's w/ CK8&gt;DAT(48)kHz | DAT&gt;ZA2(S/PDIF)&gt;Samplitude2496&gt;CD-r</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-12-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Chris Larson</note>
-    </recording>
-    <recording id="r-502ae1b618d78cb20078" kind="audience">
-      <identifier scheme="archive-org">gd1992-12-17.aud.larson.29086.sbeok.shnf</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Set 1- A(FOB):Schoeps CMC5 MK4's&gt;DAT(48kHz) Set 2- A: AKG 460 B's w/ CK8&gt;DAT(48)kHz | DAT&gt;ZA2(S/PDIF)&gt;Samplitude2496&gt;CD-r</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Chris Larson</note>
-    </recording>
-    <recording id="r-ee106a83adc235562c76" kind="unknown">
-      <identifier scheme="archive-org">gd1992-12-17.dts.tobin.88013.flac</identifier>
-      <credit role="recordist">See info file</credit>
-      <lineage>See info file</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-12-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-532c5b778f486dbf2449" kind="unknown">
-      <identifier scheme="archive-org">gd1992-12-17.fob.neumann.copeland.gems.79732.sbeok.flac16</identifier>
-      <credit role="recordist">Chip Copeland</credit>
-      <lineage>Neumann km140 (110 deg. ORTF) -&gt; Neumann Supply -&gt; Panasonic sv255 | DAT(1) &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-12-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-501d59f4ec1c7deac461" kind="matrix">
-      <identifier scheme="archive-org">gd1992-12-17.mtx.tobin.87983.sbeok.flac16</identifier>
-      <credit role="recordist">See info file</credit>
-      <lineage>SBD + AUD Matrix 4 Source Mix (60%-SBD/40%-AUD) | See info file</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c06b1d33f0ac32e46b6e" kind="soundboard">
-      <identifier scheme="archive-org">gd92-12-17.sbd-2track.stonebear.5552.sbeok.shnf</identifier>
-      <lineage>Soundboard | Dan Healy 2 track pa sbd dat master &gt; Healy cassette &gt; analog to digital by kingbee using Aoxoa's nak dragon for playback &gt; panasonic sv3800 dat &gt; HHb800&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
-    </recording>
-    <recording id="r-578d5fafa9de88e53f79" kind="unknown">
-      <identifier scheme="other">etree-597683</identifier>
-      <note>Supplied catalogue listing: etree; gd1992-12-17.140832.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

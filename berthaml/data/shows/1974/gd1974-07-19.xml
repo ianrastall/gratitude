@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1974-07-19" date="1974-07-19">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1974-07-19" date="1974-07-19">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19740719-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3e1446bc543eee5edf4d38a234e0f587367494973cc03334af1abedbe8950463. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-134" nameAsBilled="Selland Arena"/>
   <program coverage="partial">
@@ -37,55 +36,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-dc1e908f3b7d8353d0cc" kind="matrix">
-      <identifier scheme="archive-org">gd1974-07-19.mtx.sirmick.103132.sbeok.flac16</identifier>
-      <lineage>Matrix mix (SBD/AUD)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Selland Arena on 1974-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b9c02b378ee486a81160" kind="unknown">
-      <identifier scheme="archive-org">gd1974-07-19.sbd.gans-finney.217.sbeok.shnf</identifier>
-      <lineage>MR&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Selland Arena on 1974-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): David Gans and D. Finney</note>
-    </recording>
-    <recording id="r-4dfd0c9f6b18819b84e8" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-07-19.sbd.miller.32634.sbeok.flac16</identifier>
-      <credit role="recordist">DAT from Rob Eaton</credit>
-      <lineage>SBD -&gt; Master Reel (7 inch Master Reels @ 7.5ips 1/2trk) -&gt; Cassette (Tascam 122mkIII) -&gt; Dat (Panasonic SV3800/44.1k) | Dat -&gt; Sound Forge 4.0 -&gt; SHN (Jamie Lutch June 2001)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Selland Arena on 1974-07-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-74-fresno-ca-selland-arena/</note>
-    </recording>
-    <recording id="r-2684f3e54a2ef5ff89b2" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-07-19.sbd.pre-dankfix.4596.sbeok.shnf</identifier>
-      <lineage>SBD&gt;Master Reel&gt;Cassette(1)&gt;DAT@44.1K&gt;DAT&gt;WAV&gt;Soundforge 4.0&gt;CDWAV&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Selland Arena on 1974-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): DAT seed from Rob Eaton, DAT &gt; SHN by Jamie Lutch</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-647655d743c24de13805" kind="unknown">
-      <identifier scheme="archive-org">gd1974-07-19.shure.unknown.102766.flac16</identifier>
-      <credit role="recordist">AS</credit>
-      <lineage>2 Shure omni mics &gt; Sony portable (152?) cassette recorder; with borrowed UC Santa Cruz AV gear | Nakamichi Dragon &gt; Panasonic 3800 DAT &gt; Apple G4 (Peak editing) &gt; Xact</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Selland Arena on 1974-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-ee8e2663a6b7ec949187" kind="unknown">
-      <identifier scheme="archive-org">gd1974-07-19.shure.unknown.fix-102766.102866.flac16</identifier>
-      <lineage>2 Shure omni mics &gt; Sony portable (152?) cassette recorder | Nakamichi Dragon &gt; Panasonic 3800 DAT &gt; Apple G4 (Peak editing) &gt; Xact</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Selland Arena on 1974-07-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-8fdaca2ce18ce96ba0d1" kind="soundboard">
-      <identifier scheme="archive-org">gd74-07-19.sbd.symons.12381.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSR &gt; D &gt; CD patched with MAC &gt; C &gt; C &gt; D</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Selland Arena on 1974-07-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/19/7-19-74-fresno-ca-selland-arena/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

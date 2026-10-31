@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1973-10-29">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-f53774acadffe9c77f94" kind="audience">
+    <identifier scheme="archive-org">gd1973-10-29.116118.aud.cousinit.flac16</identifier>
+    <lineage>Taper: Unknown; Source: Unknown Mics and Deck&gt;??&gt;C&gt;WAV&gt;FLAC; Transferred and Encoded by Cousinit</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): CousinIt</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/29/10-29-73-st-louis-mo-kiel-auditorium/</note>
+  </recording>
+  <recording id="r-21b9b6bf45168e9d15a8" kind="matrix">
+    <identifier scheme="archive-org">gd1973-10-29.131409.mtx.nicksmix.flac16</identifier>
+    <lineage>Matrix mix of Shnid 32352(sbd) and Shnid 116118(aud)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Matrix by Nick Crump</note>
+  </recording>
+  <recording id="r-cc2591dbc1cc47bb03b9" kind="soundboard">
+    <identifier scheme="archive-org">gd1973-10-29.150875.sbd.miller.flac1644</identifier>
+    <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; WAV | WAV -&gt; Samplitude Professional v10.2.1 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller May 18, 2009</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-e7042dc52b72b0029fc0" kind="unknown">
+    <identifier scheme="archive-org">gd1973-10-29.sbd.kaplan.1070.shnf</identifier>
+    <lineage>Reel master &gt; 1 cassette gen &gt; DAT &gt; CD &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note>Source credit (transfer-mastering): Thanks to Seth Kaplan for providing this show! Extraction and SHN encoding of the source discs was done by S. Kaplan. Info file and notes by G.S. Hamilton</note>
+  </recording>
+  <recording id="r-9967d0c54852064a9796" kind="soundboard">
+    <identifier scheme="archive-org">gd1973-10-29.sbd.miller.32352.sbeok.flac16</identifier>
+    <lineage>SBD -&gt; Master Reel (7inch Master Reels @ 7.5ips 1/2trk) -&gt; DCassette (Tascam 122mkIII) -&gt; Dat (Panasonic 3700/44.1k) D | Dat (Sony D8) -&gt; RME Hammerfall Digiface -&gt; Sony Vaio C1VP -&gt;</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note>Recording reference: http://infinitedead.net/2021/10/29/10-29-73-st-louis-mo-kiel-auditorium/</note>
+  </recording>
+  <recording id="r-789faf4abea4080e96dd" kind="unknown">
+    <identifier scheme="archive-org">gd1973-10-29.set2.131458.McIlhenny.flac16</identifier>
+    <credit role="recordist">Chaffe McIlhenny</credit>
+    <lineage>Set 2, Handheld Sony 1 point stereo mic from the 5th and 4th row sometimes standing on chair; Recorderd and transferred by Chaffe McIlhenny; Master cassette&gt;Revox cassette deck to DAT in 1998&gt; to Tascam P2 Flash Card in Oct 2014&gt;Audacity&gt;Traders Little Helper for FLAC Fingerprint creation</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Chaffe McIlhenny</note>
+  </recording>
+  <recording id="r-a6a723662b7e74eb5a61" kind="audience">
+    <identifier scheme="archive-org">gd73-10-29.sbd.powell-mollman.16817.sbeok.shnf</identifier>
+    <lineage>MSR &gt; C &gt; D &gt; CD patched with AUD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-da43eeae7fafdad12a52" kind="unknown">
+    <identifier scheme="archive-org">gd73-10-29.sbd.sacks.1014.sbefail.shnf</identifier>
+    <lineage>MSR&gt; C&gt; DAT&gt; Circulation&gt; EAC&gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kiel Auditorium on 1973-10-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  </recording>
+  <recording id="r-069363dc7a46a22b8b52" kind="unknown">
+    <identifier scheme="other">etree-575342</identifier>
+    <note>Supplied catalogue listing: etree; Grateful Dead 1973-10-29 Kiel Auditorium Matrix. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: MTX</note>
+  </recording>
+</recordings>

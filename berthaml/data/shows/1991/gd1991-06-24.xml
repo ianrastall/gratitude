@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-06-24" date="1991-06-24">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-06-24" date="1991-06-24">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910624-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-940" nameAsBilled="Sandstone Amphitheater"/>
   <program coverage="partial">
@@ -36,103 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-96e111691741f9b53473" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-24.146590.sbd.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-eb2870d63e7f15a8d8a4" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-24.147391.sbd.cm.miller.flac16</identifier>
-      <credit role="recordist">Don Pearson</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-b4f33a14a4999f62482e" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-24.149327.set1BK4011.set2akg460.ebel.flac16</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Set #1: B&amp;K 4011-&gt; Sony D10 Pro II-&gt; DAT Set #2: AKG 460 CK 61-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coaxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-decee7190af5db3fab69" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-24.150375.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
-      <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
-      <lineage>FOB Schoeps CMC3 MK4’s (ORTF) &gt; Oade PS &gt; MIT cables &gt; Master DAT (Panasonic SV-255mod) (16/48) Location: Set I FOB, Section 3, Row W, Seat 2 (hand held - 5 seats off center) Location: Set II FOB, Section 3, Row W, Seat 2 (on stand @ 6'5" - 5 seats off center) | Transfer: Dat &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Transfer By Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel June 18, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-60a6621cdb1b3ddb06c5" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-24.AKG451.Darby.118933.Flac2448</identifier>
-      <credit role="recordist">Mike Darby</credit>
-      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/2nd Row Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony Tc-D5M,Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-1b912cb4bba5b979266f" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-24.AKG451.Darby.118934.Flac1644</identifier>
-      <credit role="recordist">Mike Darby</credit>
-      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/2nd Row Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony Tc-D5M,Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/Flac8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-4581f23c421dee788e04" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-24.cmc5u_mk4.chuckm.116711.flac16</identifier>
-      <credit role="recordist">Chuck Miller</credit>
-      <lineage>Schoeps CMC5u/ MK-4 &gt; Panasonic SV 255 &gt; Sony WMD-6C (Dolby C encoded); Microphone configuration: TS, center, ORTF, 10' up Master format (analog): Maxell MX-S 90 &amp; MX 110 cassettes; | Sony TC-WE635 (Dolby C decoded) &gt; Tascam DR-680 &gt; SDHC card &gt; (card reader) PC &gt; CuBase SX; Digital editing: CuBase SX (pre and post set fades, level correction, WAVES 10 band Paragraphic EQ, WAVES L1 Ultramaximizer (limiting), cassette flips patched with etree source #28394); Tracking &amp; processing for CD: CD Wave Editor 1.95.1 &gt; FLAC Frontend 1.7.1/ FLAC 1.1.2; Distribution format: 44.1 kHz, 16 bit, stereo (.FLAC); Recorded via analog patch from Richard Wood, processed and distributed by Chuck Miller</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chuck Miller</note>
-    </recording>
-    <recording id="r-c78d2fd9c8c06c17785a" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-24.sbd.jeffm.tetzeli.fix-2533.35251.reflac.flac16</identifier>
-      <lineage>Fix of shnid 2533</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Amphitheatre on 1991-06-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Bill Tetzeli</note>
-    </recording>
-    <recording id="r-528521055d7db667728b" kind="audience">
-      <identifier scheme="archive-org">gd91-06-24.fob-akg-mahoney-oneill.miller.28394.sbeok.shnf</identifier>
-      <credit role="recordist">JC Mahoney, Dan O'Neill, with patch source by Ed Boardman</credit>
-      <lineage>FOB AKG C460B/CK61 (ORTF)&gt; Mike Grace Early Preamp&gt; Dat Master (Casio DA-7/48k) | Dat (Sony R500)&gt; Behringer UltraMatch SRC2000&gt; SEK'D Prodif Plus&gt; Samplitude v7.02 Professional&gt; SHN; Recorded By JC Mahoney, Dan O'Neill, with patch source by Ed Boardman; Transferred By Charlie Miller</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-59c4f8af2fdb27a8cae8" kind="audience">
-      <identifier scheme="archive-org">gd91-06-24.mahoney-akg.unknown.21648.sbeok.shnf</identifier>
-      <lineage>FOB AKG 460 cardioid &gt; DAT &gt; CDDAT &gt; CD: Panasonic sv3700 &gt; Cool Edit Pro &gt; CD Wave &gt; mkw</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-    </recording>
-    <recording id="r-6b0d9b5cd5ef6288426a" kind="soundboard">
-      <identifier scheme="archive-org">gd91-06-24.sbd.jeff_m.2533.sbeok.shnf</identifier>
-      <lineage>DSBD&gt; DAT&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1991-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-    </recording>
-    <recording id="r-82989ba5ad0c336dd6a5" kind="unknown">
-      <identifier scheme="other">etree-606788</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-06-24.147391.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-cadfae9b7c506dbf9b21" kind="unknown">
-      <identifier scheme="other">etree-606753</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-06-24.146590.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

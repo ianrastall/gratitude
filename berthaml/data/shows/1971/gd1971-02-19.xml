@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-02-19" date="1971-02-19">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1971-02-19" date="1971-02-19">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710219-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-283" nameAsBilled="Capitol Theatre"/>
   <program coverage="partial">
@@ -34,46 +33,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-9337b3265efada87099c" kind="audience">
-      <identifier scheme="archive-org">gd1971-02-19.132102.flac16</identifier>
-      <lineage>Partial 1st Set; it is supposidly 4th gen audience recording from an unknown source; the transfer was not documented</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1971-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-a24742a6dc560407f48d" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-02-19.151881.soundboard.ramrod.miller.flac1644</identifier>
-      <credit role="recordist">Ramrod</credit>
-      <lineage>SBD &gt; Master Reel (Sony TC-770/Scotch 7in 1/4 track 7.5ips) | Master Reel (Technics RS-1506) &gt; Sony PCM-R500 (pass through) &gt; Sound Forge &gt; CD.Mastering Info: CD &gt; Samplitude Pro X5 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 26, 2021</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-585c4011035326907b24" kind="audience">
-      <identifier scheme="archive-org">gd1971-02-19.aud.Vadnais.30230.flac16</identifier>
-      <lineage>Audience | AUD &gt; 1st gen reel &gt; Teac A-2300SX &gt; RCA out &gt; Audiophile 2496 &gt; Wavelab 4.0 &gt; CD Wave&gt; mkwACT &gt; WAV &gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1971-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Clinton Vadnais</note>
-    </recording>
-    <recording id="r-ac6976d99e5735dd7d79" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-02-19.sbd.bertha.91849.dvda</identifier>
-      <credit role="recordist">Betty Cantor</credit>
-      <lineage>SBD &gt; Master Reel | Master Reel &gt; PCM &gt; DAT &gt; WAV</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1971-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jay Ashley</note>
-      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
-    </recording>
-    <recording id="r-7e8542c32a034e588cf7" kind="matrix">
-      <identifier scheme="archive-org">gd71-02-19.matrix.chappell.31210.sbeok.flacf</identifier>
-      <lineage>Matrix | Soundboard + Audience mix (see notes)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1971-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Clinton Vadnais and Chris Chappell</note>
-      <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0c33db469058511a1d8c" kind="soundboard">
-      <identifier scheme="archive-org">gd71-02-19.sbd.orf.1029.sbeok.shnf</identifier>
-      <lineage>Soundboard | 7inch two track BBD reel w/ Dolby A @ 7 1/2 ips &gt; PCM501ES @ 44.055 kHz &gt; PCM501ES analog out &gt; Fostex D5 @ 48 kHz (Dolby not decoded?) &gt; WAV &gt; Cool Edit Pro (filtering and sample rate conversion) &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1971-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -25,9 +25,13 @@ def jb(day, number, titles=(), venue='Fillmore East, New York, NY'):
                 venue_label=venue, sections=[dict(items=[dict(title=t) for t in titles])])
 
 
+def prospective():
+    return {**corpus.read_owned(), **corpus.build()[0]}
+
+
 class CorpusTests(unittest.TestCase):
     def test_prospective_validation_checks_cross_file_references(self):
-        files, _ = corpus.build()
+        files = prospective()
         path = next(p for p in files if p.startswith('data/shows/'))
         show = etree.fromstring(files[path])
         show.find('b:venue', corpus.N).set('ref', 'v-missing-test-venue')
@@ -35,6 +39,58 @@ class CorpusTests(unittest.TestCase):
         with redirect_stdout(io.StringIO()):
             report = validate_memory(files, corpus.ROOT / 'schemas/berthaml.xsd', corpus.ROOT / 'data')
         self.assertEqual(report.errors, 1)
+
+    def test_track_links_are_checked_against_the_show_file(self):
+        files = prospective()
+        path = next(p for p, raw in files.items() if p.startswith('data/recordings/') and b'covers=' in raw)
+        recordings = etree.fromstring(files[path])
+        recordings.find('.//b:track[@covers]', corpus.N).set('covers', 'p99-99')
+        files[path] = etree.tostring(recordings)
+        with redirect_stdout(io.StringIO()):
+            report = validate_memory(files, corpus.ROOT / 'schemas/berthaml.xsd', corpus.ROOT / 'data')
+        self.assertEqual(report.errors, 1)
+
+    def test_a_show_file_cannot_hold_a_recording(self):
+        schema = etree.XMLSchema(etree.parse(str(corpus.ROOT / 'schemas/berthaml.xsd')))
+        path = corpus.ROOT / 'data/shows/1977/gd1977-05-08.xml'
+        show = etree.parse(str(path)).getroot()
+        self.assertTrue(schema.validate(show))
+        sources = etree.SubElement(show, f'{{{corpus.NS}}}sources')
+        etree.SubElement(sources, f'{{{corpus.NS}}}recording', id='r-test', kind='unknown')
+        show.insert(list(show).index(show.find('b:program', corpus.N)) + 1, sources)
+        self.assertFalse(schema.validate(show))
+
+    def test_hand_edit_survives_the_build_and_shows_up_as_drift(self):
+        owned = corpus.read_owned()
+        path = 'data/shows/1977/gd1977-05-08.xml'
+        show = etree.fromstring(owned[path])
+        show.find('b:program/b:set/b:performance', corpus.N).set('song', 's-bertha')
+        show.find('b:record', corpus.N).set('status', 'reviewed')
+        owned[path] = etree.tostring(show)
+        with patch.object(corpus, 'read_owned', return_value=owned):
+            output, stats, proposals = corpus.build()
+        self.assertNotIn(path, output)
+        drift =[json.loads(x) for x in output['reports/source-drift.jsonl'].splitlines()]
+        row = next(r for r in drift if r.get('show') == 'gd1977-05-08')
+        self.assertEqual(row['fields'], ['songs'])
+        self.assertIn('shows/1977/gd1977-05-08.xml', proposals)
+        # Reviewing the file closes its review issue with no separate bookkeeping.
+        subjects = [json.loads(x) for x in output['reports/review-queue.jsonl'].splitlines()]
+        self.assertNotIn('gd1977-05-08', {r['subject'] for r in subjects if r['kind'] == 'show-review'})
+        self.assertEqual(stats['show_status']['reviewed'], 1)
+
+    def test_a_sources_silence_is_not_drift(self):
+        def show(*items, slot=None):
+            sets = ''.join(f'<performance id="p{i}" song="{s}" transition="{t}"/>' for i, (s, t) in enumerate(items))
+            slot = f'<slot>{slot}</slot>' if slot else ''
+            return etree.fromstring(f'<show xmlns="{corpus.NS}" date="1977-05-08">{slot}<venue ref="v-x"/>'
+                                    f'<program><set kind="set">{sets}</set></program></show>')
+        held = show(('s-a', 'stop'), ('s-b', 'unknown'), slot='late')
+        self.assertEqual(corpus.source_drift(show(), held), [])
+        self.assertEqual(corpus.source_drift(show(('s-a', 'unknown'), ('s-b', 'unknown'), slot='unknown'), held), [])
+        self.assertEqual(corpus.source_drift(show(('s-a', 'segue'), ('s-b', 'unknown')), held), ['segues'])
+        self.assertEqual(corpus.source_drift(show(('s-a', 'stop'), ('s-c', 'unknown')), held), ['songs'])
+        self.assertEqual(corpus.source_drift(show(('s-a', 'stop'), ('s-b', 'unknown'), slot='early'), held), ['slot'])
 
     def test_fuzzy_date_uses_label_not_url_day(self):
         event = jb('1970-08-00', 3)
@@ -91,20 +147,42 @@ class CorpusTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory, patch.object(corpus, 'ROOT', Path(directory)):
             root = Path(directory)
             (root / 'data').mkdir()
-            path = root / 'data/test.xml'
+            (root / 'data/recordings').mkdir()
+            path = root / 'data/recordings/test.xml'
             original = b'original'
             path.write_bytes(b'local edit')
-            (root / 'corpus-manifest.json').write_text(json.dumps(dict(files={'data/test.xml': corpus.digest(original)})))
-            with self.assertRaisesRegex(ValueError, 'Preserve the local edit'):
-                corpus.publish({'data/test.xml': b'replacement', 'reports/new.json': b'new'}, destination=root)
+            (root / 'corpus-manifest.json').write_text(json.dumps(
+                dict(files={'data/recordings/test.xml': corpus.digest(original)})))
+            with self.assertRaisesRegex(ValueError, 'Generated file was edited'):
+                corpus.publish({'data/recordings/test.xml': b'replacement', 'reports/new.json': b'new'}, destination=root)
             self.assertEqual(path.read_bytes(), b'local edit')
             self.assertFalse((root / 'reports/new.json').exists())
 
+    def test_publish_cannot_replace_or_remove_hand_owned_files(self):
+        with tempfile.TemporaryDirectory() as directory, patch.object(corpus, 'ROOT', Path(directory)):
+            root = Path(directory)
+            shows = root / 'data/shows/1977'
+            shows.mkdir(parents=True)
+            show = shows / 'gd1977-05-08.xml'
+            registry = root / 'data/songs.xml'
+            show.write_bytes(b'edited by hand')
+            registry.write_bytes(b'edited by hand')
+            # A manifest from before the split listed these; they must not count as generated.
+            (root / 'corpus-manifest.json').write_text(json.dumps(dict(files={
+                'data/shows/1977/gd1977-05-08.xml': corpus.digest(b'old'), 'data/songs.xml': corpus.digest(b'old')})))
+            corpus.publish({'reports/new.json': b'new'}, destination=root)
+            self.assertEqual(show.read_bytes(), b'edited by hand')
+            self.assertEqual(registry.read_bytes(), b'edited by hand')
+            with self.assertRaisesRegex(ValueError, 'only write generated paths'):
+                corpus.publish({'data/songs.xml': b'replacement'}, destination=root)
+            self.assertEqual(registry.read_bytes(), b'edited by hand')
+
     def test_current_source_accounting_and_determinism(self):
-        first, stats = corpus.build()
-        second, again = corpus.build()
+        first, stats, _ = corpus.build()
+        second, again, _ = corpus.build()
         self.assertEqual(first, second)
         self.assertEqual(stats, again)
+        self.assertTrue(all(path.startswith(corpus.GENERATED) for path in first))
         self.assertEqual(stats['shows'], 2234)
         self.assertEqual(stats['supplied_recordings'],
                          stats['assigned_recording_references'] + stats['unassigned_recording_references'])

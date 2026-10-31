@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1973-03-19">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-ea5246bbf8dd0e9f50d0" kind="soundboard">
+    <identifier scheme="archive-org">gd1973-03-19.141298.sbd.miller.patched.flac2496</identifier>
+    <lineage>flac24/96 Recording Info: SBD &gt; Master Reels &gt; Dat (16-bit/44.1k) &gt; upsampled to 24-bit/96k; Mastering Info:WAV &gt; Samplitude Pro X3 Suite &gt; FLAC/24; Master Reel Transferred by Rob Eaton; All Mastering By Charlie Miller; the original version of this source had a 2 second dropout in thrack 16 (Playing In The Band)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1973-03-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
+  </recording>
+  <recording id="r-99355e1fabc1982ed326" kind="soundboard">
+    <identifier scheme="archive-org">gd1973-03-19.141309.patched.sbd.mr.miller.flac1644</identifier>
+    <lineage>Recording Info: SBD &gt; Master Reels &gt; Dat (16-bit/44.1k) &gt; upsampled to 24-bit/96k; Mastering Info: WAV &gt; Samplitude Pro X3 Suite &gt; FLAC/24; Master Reel Transferred by Rob Eaton; All Mastering By Charlie Miller; the original version of this source had a 2 second dropout in thrack 16 (Playing In The Band)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1973-03-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
+  </recording>
+  <recording id="r-ffbf93513cf47a5cc4a8" kind="unknown">
+    <identifier scheme="archive-org">gd1973-03-19.partial.aud.danh.97506.flac16</identifier>
+    <credit role="recordist">Dan H.</credit>
+    <lineage>Unknown Mic, Unknown Cassette recorder (mono) Location: Slightly too close to stage | Master Cassette -&gt; 24bit/96kHz wav -&gt; slight edit (fade-in, out, azimuth adjustment, and slight level changes for crowd noise) -&gt; 16-bit, 44.1 khz wav (triangular noise dither)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1973-03-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Dan McDonald</note>
+  </recording>
+  <recording id="r-f0bc881c4b02de785555" kind="soundboard">
+    <identifier scheme="archive-org">gd1973-03-19.sbd.123987.miller.flac16</identifier>
+    <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v11.2.1 -&gt; Adobe Audition CS6 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1973-03-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-18a83564082d5af1270d" kind="unknown">
+    <identifier scheme="archive-org">gd1973-03-19.sonyecm.moskal.97417.flac16</identifier>
+    <credit role="recordist">Gerry Moskal</credit>
+    <lineage>Sony Stereo ECM x 2 --&gt;SONY TCD126 | Master Cassette Transfer-&gt;RR -&gt;Cassette Transfer/editing//flac Conversion: Brian Mandel Cassette Transfer Nakamichi BX300-&gt; Macintosh -&gt;Peak Bias-&gt;JAM-&gt;cdr-&gt;EAC-&gt;flac</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1973-03-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Gerry Moskal</note>
+  </recording>
+  <recording id="r-f59bf06dcb1b11095970" kind="soundboard">
+    <identifier scheme="archive-org">gd73-03-19.sbd.elliot.9987.sbeok.shnf</identifier>
+    <lineage>Soundboard | SBD:MR&gt;Cas&gt;Cas&gt;DAT&gt;CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1973-03-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-8781413d73cf0b04eb1e" kind="unknown">
+    <identifier scheme="other">etree-598510</identifier>
+    <note>Supplied catalogue listing: etree; gd1973-03-19.141309.patched.sbd.mr.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  </recording>
+</recordings>

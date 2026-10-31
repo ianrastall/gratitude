@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-10-27" date="1973-10-27">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1973-10-27" date="1973-10-27">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19731027-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-543" nameAsBilled="State Fair Coliseum"/>
   <program coverage="partial">
@@ -46,31 +45,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-4e72cde08e56e9b46bb0" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-10-27.142772.set2p.sbd.eaton.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Rob Eaton</credit>
-      <lineage>flac16/48kHz ; Source Info: Master Soundboard Reels &gt; 2 cassette generations &gt; Dat (16/48k)&gt; Dat (16/48k); Transfer Info: Dat (Sony PCM-R500)&gt; Apogee aes/ebu cable &gt; Tascam DA-3000 (16/48k)&gt; Adobe Audition 3.01 &gt; TLH flac1648</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
-    </recording>
-    <recording id="r-fa13358d85e2f58083ad" kind="audience">
-      <identifier scheme="archive-org">gd1973-10-27.aud.boswell.motb-0141.107323.flac16</identifier>
-      <credit role="recordist">David Boswell</credit>
-      <lineage>Unknown Mics &gt;&gt; Unknown Deck &gt;&gt; MAC | MAC &gt;&gt; Reel 7.5 ips Revox A77 Reel @ 7.5 ips &gt;&gt; Revox A77 &gt;&gt; Akai GX636&gt;Apogee Mini Me(24/96)&gt;Apogee Mini Dac(monitoring/mastering)&gt;Lynx One soundcard&gt;Wavelab 5.0&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matt Smith and Derek McCabe</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
-    </recording>
-    <recording id="r-a86780ded0717c434015" kind="soundboard">
-      <identifier scheme="archive-org">gd73-10-27.sbd.wier.16583.sbeok.shnf</identifier>
-      <lineage>Soundboard with aud patches | MSR &gt; R &gt; C &gt; D &gt; CD patched with MAC &gt; ? &gt; D</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-07-21" date="1994-07-21">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1994-07-21" date="1994-07-21">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19940721-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-979" nameAsBilled="Deer Creek Music Center"/>
   <program coverage="partial">
@@ -37,77 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-1acd6518f2c6e1c838c9" kind="audience">
-      <identifier scheme="archive-org">gd1994-07-21.112808.bk.schmit.sbeok.flac16</identifier>
-      <credit role="recordist">Alan Schmit</credit>
-      <lineage>Source: (ORTF/110^/DFC/FOB) B&amp;K 4011s &gt; Neumann BS48i-2 &gt; Modified Sony TCD-D10 Pro &gt; DAT(m); | DAT(m) &gt; Tascam DA-20mkII &gt; SPDIF &gt; Tascam HD-P2 &gt; Audacity (16/48 &gt; 16/44) &gt; CDWave &gt; FLAC; DAT(m) sourced by Alan Schmit; Transfer by Terry Watts</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/21/7-21-94-noblesville-in-deer-creek-amphitheater/</note>
-    </recording>
-    <recording id="r-eee17b6e1d20b63e9b97" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-21.139714.beyercmc101.ebel.flac1644</identifier>
-      <credit role="recordist">Pete Ebel</credit>
-      <lineage>flac16/44.1 Source Info: TS Beyer CMC 101 (Omni's)-&gt; Casio DA-7-&gt; DAT. Transfer Info: Dat (Panasonic SV-3700) -&gt; Marantz CDR-615 -&gt; CD (Late 90's). Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1). Taped &amp; Transfers by Pete Ebel</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-870924edc73f32a9de7c" kind="audience">
-      <identifier scheme="archive-org">gd1994-07-21.akg460.flaschner.davis.91155.flac16</identifier>
-      <credit role="recordist">Dave Flaschner</credit>
-      <lineage>(OTS) AKG 460b/ck61 -&gt; custom pre-amp -&gt; D-7 | dat (master) -&gt; DA-20mkII -&gt; AR coax -&gt; Audiophile 24/96 -&gt; Wavelab 5.0 -&gt; CD Wave -&gt; FLAC(6)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chris Davis</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/21/7-21-94-noblesville-in-deer-creek-amphitheater/</note>
-    </recording>
-    <recording id="r-df9a84db8d0341f6799f" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-21.aud.unknown.larson.31804.shnf</identifier>
-      <lineage>A:D(48kHz) no mic info | D&gt;ZA2&gt;Samplitude2496&gt;CD-r</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Chris Larson</note>
-    </recording>
-    <recording id="r-5ad116c899b404df2c90" kind="audience">
-      <identifier scheme="archive-org">gd1994-07-21.fob.shure.unknown.nawrocki.18144.shnf</identifier>
-      <lineage>FOB Shure BG 4.0's &gt; D7 &gt; CDR &gt; EAC &gt; Cool Edit Pro 2.0 &gt; CDWave &gt; mkwACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Doug Nawrocki</note>
-    </recording>
-    <recording id="r-c3ce659f42a57b7410ec" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-21.nak-PZM.holtz.91838.flac16</identifier>
-      <credit role="recordist">Greg Holtz</credit>
-      <lineage>Nakamichi Cm300's with Cp-4 guns/PZM 30D's mix-&gt; D3 DAT | (BY JAZ) DAT master-&gt; Sony PCM R-300-&gt; COAX-&gt; M-Audio Delta 1010Lt-&gt; Wave Lab 5.0, Mastering Software-&gt; Traders Little Helper flac8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): JAZ</note>
-    </recording>
-    <recording id="r-550446321fd256eeeb62" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-21.nak300.76309.shnf</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Nak 300's/cp4's &gt; D7 | DA-P1 &gt; Phillips CDR870 &gt; EAC &gt; CDWave &gt; mkwACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): unknown</note>
-    </recording>
-    <recording id="r-642007ed60675e546eb9" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-07-21.sbd.braverman.9406.shnf</identifier>
-      <lineage>Soundboard | ?&gt; DAT&gt; CD&gt; Cool Edit&gt; CD&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Amphitheater on 1994-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Harrison and Peter Braverman</note>
-    </recording>
-    <recording id="r-bebdae4ade379e036c02" kind="audience">
-      <identifier scheme="archive-org">gd94-07-21.aud.ladner.12099.sbeok.shnf</identifier>
-      <lineage>Audience: Unknown Mics | Unknown Mics &gt; DAT &gt; CDR &gt; EAC 0.9 &gt; CD Wave &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Paul</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/21/7-21-94-noblesville-in-deer-creek-amphitheater/</note>
-    </recording>
-    <recording id="r-e2544b0268f8b4cff031" kind="soundboard">
-      <identifier scheme="archive-org">gd94-07-21.sbd.ladner.12322.sbeok.shnf</identifier>
-      <lineage>Soundboard - Shntool fix (by Chris Ladner) of previous</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-21. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/21/7-21-94-noblesville-in-deer-creek-amphitheater/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

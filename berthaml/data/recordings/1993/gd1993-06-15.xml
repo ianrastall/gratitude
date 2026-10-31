@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1993-06-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-cadf1c6bfade6c1b7efc" kind="soundboard">
+    <identifier scheme="archive-org">gd1993-06-15.125096.sbd.mills.flac16</identifier>
+    <lineage>SBD&gt;DAT | DAT&gt;C&gt;DAT&gt;CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): A. Mills</note>
+  </recording>
+  <recording id="r-a880b027757449d59999" kind="soundboard">
+    <identifier scheme="archive-org">gd1993-06-15.137334.sbd.miller.flac1648</identifier>
+    <lineage>SBD &gt; Dat Master (Panasonic SV-3700/48k) | Dat Master (Sony R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC/</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-e4b7d5b465eaa3753612" kind="matrix">
+    <identifier scheme="archive-org">gd1993-06-15.137863.mtx.jeh.flac1648</identifier>
+    <lineage>flac16/48kHz ; Matrix Source 1 (shnid 137334): Recording Info: SBD &gt; Dat Master (Panasonic SV-3700/48k); Transfer Info: Dat Master (Sony R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC/48k and Source 2 (shnid 106551): Recording info: (Handheld/ORTF/110^/FOB/DFC/Row20) B&amp;K 4011s &gt; Neumann BS48i-2 &gt; Panasonic SV-255 &gt; DAT(m); Transfer info: DAT(m) &gt; Sony DTC-59ES &gt; SPDIF &gt; Tascam HD-P2 &gt; Audacity (16/48 &gt; 16/44) &gt; CDWave &gt; FLAC; DAT(m) sourced by Alan Schmit</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Matrix by jeh</note>
+  </recording>
+  <recording id="r-8f18ac68156b34335a54" kind="unknown">
+    <identifier scheme="archive-org">gd1993-06-15.152513.cmc34.larson.flac1644</identifier>
+    <lineage>Schoeps CMC34 -&gt; Oade M148 -&gt; Panasonic SV-255&gt;D | D(48kHz)&gt;Panasonic sv3700&gt;ZA2(S/PDIF)&gt;Wavelab 3.03&gt;CDWav&gt;.wav&gt;CD or .shn</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Transfered by Chris Larson () 3/13/2002</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+  </recording>
+  <recording id="r-74056648af7101ad59c5" kind="audience">
+    <identifier scheme="archive-org">gd1993-06-15.AKG451.Darby.117679.Flac1648</identifier>
+    <credit role="recordist">Mike Darby</credit>
+    <lineage>flac16/48kHz ; Master Audience Recorded By Mr. Darby; AKG451EB/CK1's (DIN/DFC/Last Row On Floor Of OTS/9 Feet High)&gt; Whirlwind Phantoms&gt;Teac DA-P20 @ 16/48; Transfer Information:Sony R500&gt;Tascam HD-P2 @ 16/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Keo</note>
+  </recording>
+  <recording id="r-e755f09eb896dc20d539" kind="audience">
+    <identifier scheme="archive-org">gd1993-06-15.AKG451.Darby.117680.Flac1644</identifier>
+    <credit role="recordist">Mike Darby</credit>
+    <lineage>Master Audience Recorded By Mr. Darby; AKG451EB/CK1's (DIN/DFC/Last Row On Floor Of OTS/9 Feet High)&gt; Whirlwind Phantoms&gt;Teac DA-P20 @ 16/48; Transfer Information:Sony R500&gt;Tascam HD-P2 @ 16/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Keo</note>
+  </recording>
+  <recording id="r-8c7981ab1e0de8f34c2a" kind="audience">
+    <identifier scheme="archive-org">gd1993-06-15.fob.bk4011.schmit.watts.106551.flac16</identifier>
+    <credit role="recordist">Alan Schmit</credit>
+    <lineage>(Handheld/ORTF/110^/FOB/DFC/Row20) B&amp;K 4011s &gt; Neumann BS48i-2 &gt; Panasonic SV-255 &gt; DAT(m) | DAT(m) &gt; Sony DTC-59ES &gt; SPDIF &gt; Tascam HD-P2 &gt; Audacity (16/48 &gt; 16/44) &gt; CDWave &gt; FLAC DAT(m)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Terry Watts</note>
+  </recording>
+  <recording id="r-e09dbb905bdc43b5755b" kind="audience">
+    <identifier scheme="archive-org">gd1993-06-15.fob.st250.young-brennecke.footbear.fix.99146.flac16</identifier>
+    <credit role="recordist">James Young and Clay Brennecke</credit>
+    <lineage>FOB/DFC Soundfield ST-250 (blumlein mode) &gt; Sony D10-Pro II (48k) hand held for set one, on stand (6') for 2nd set | 1st gen clone played back through Sony PCM-M1 &gt; Oade active cable &gt; Edirol UA-5 (hardware resample to 44.1k) &gt; USB out &gt; HP Omnibook (cool Edit 2000 for record/edit) &gt; CD-WAV &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Footbear</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+  </recording>
+  <recording id="r-15c60ff2d89c581626f7" kind="unknown">
+    <identifier scheme="archive-org">gd1993-06-15.nak300.rickers.davis.105743.flac16</identifier>
+    <credit role="recordist">Trew Rickers</credit>
+    <lineage>[ots] Nakamichi cm300/cp4 -&gt; Sony D8 [16/48] | dat [m] -&gt; Tascam DA20 mkII -&gt; R-44 -&gt; CD Wave 1.98 -&gt; Wavelab 5.01a [fades/Resampler 192] -&gt; FLAC [8]</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Chris Davis</note>
+  </recording>
+  <recording id="r-3d9194c82617db367e16" kind="audience">
+    <identifier scheme="archive-org">gd93-06-15.brennecke-young.georges.18984.sbeok.shnf</identifier>
+    <credit role="recordist">James Young and Clay Brennecke</credit>
+    <lineage>Audience: Soundfield ST-250 (blumlein) | Soundfield ST-250 (blumlein mode) &gt; Sony D10-Pro II (48k) &gt; Sony PCM-M1 (1st gen clone) &gt; Oade active cable &gt; Edirol UA-5 (hardware resample to 44.1k) &gt; USB out &gt; HP Omnibook (cool Edit 2000 for record/edit) &gt; CD-WAV &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Nick Georges</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+  </recording>
+  <recording id="r-696d809b4e7d6be00dad" kind="soundboard">
+    <identifier scheme="archive-org">gd93-06-15.sbd.gardner.10085.sbeok.shnf</identifier>
+    <lineage>SBD&gt;DAT&gt;C&gt;DAT&gt;CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1993-06-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+</recordings>

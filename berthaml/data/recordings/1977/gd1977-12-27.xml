@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1977-12-27">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd77-12-27.sbd.cotsman.19288.sbeok.shnf" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 e4eabc9a31a1f3f9d1501da459f7a2d2054e62063f52cbcbb4d80604375e9e68</cite>
+  </record>
+  <recording id="r-5faafd70dc8cb3ae850d" kind="soundboard">
+    <identifier scheme="archive-org">gd1977-12-27.137166.sbd.miller.flac16</identifier>
+    <lineage>SBD &gt; Master Reel &gt; Dat (44.1k) | Dat (Sony R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-0d34821f3fe55b1d4a29" kind="soundboard">
+    <identifier scheme="archive-org">gd1977-12-27.sbd.ashley-bertha.24069.sbeok.shnf</identifier>
+    <lineage>SBD&gt;&gt;MR&gt;&gt;SS&gt;&gt;DAT&gt;&gt;CDA&gt;&gt;WAV(EAC)&gt;&gt;DAW(Bertha)&gt;&gt;CDA/SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bertha Remaster of the Master Reel source by Jay Ashley</note>
+  </recording>
+  <recording id="r-2057804e05fca784675b" kind="unknown">
+    <identifier scheme="archive-org">gd1977-12-27.sbd.redbeard.2989.shnf</identifier>
+    <lineage>MSR&gt;&gt;DAT&gt;Sonic Solutions remastering&gt;CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note>Source credit (transfer-mastering): David Gans and Redbeard</note>
+  </recording>
+  <recording id="r-b639f20ffdebfc182bf6" kind="soundboard">
+    <identifier scheme="archive-org">gd77-12-27.sbd.cotsman.19288.sbeok.shnf</identifier>
+    <lineage>Soundboard | SBD&gt; MR&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
+    <playlist id="pl-8acc4c58ea2cd105ac1e" label="Archive original SHN files" format="shn" sourceHref="https://archive.org/metadata/gd77-12-27.sbd.cotsman.19288.sbeok.shnf">
+      <track n="1" title="Bertha" file="gd77-12-27d1t01.shn" mappingStatus="candidate" disc="1" sourceNumber="1" duration="PT207.54S" covers="p01-01" certainty="probable"/>
+      <track n="2" title="Good Lovin'" file="gd77-12-27d1t02.shn" mappingStatus="candidate" disc="1" sourceNumber="2" duration="PT186.21S" covers="p01-02" certainty="probable"/>
+      <track n="3" title="Brown Eyed Women" file="gd77-12-27d1t03.shn" mappingStatus="candidate" disc="1" sourceNumber="3" duration="PT183.51S" covers="p01-03" certainty="probable"/>
+      <track n="4" title="Cassidy" file="gd77-12-27d1t04.shn" mappingStatus="candidate" disc="1" sourceNumber="4" duration="PT161.19S" covers="p01-04" certainty="probable"/>
+      <track n="5" title="Peggy-O" file="gd77-12-27d1t05.shn" mappingStatus="candidate" disc="1" sourceNumber="5" duration="PT207.7S" covers="p01-05" certainty="probable"/>
+      <track n="6" title="Looks Like Rain" file="gd77-12-27d1t06.shn" mappingStatus="candidate" disc="1" sourceNumber="6" duration="PT242.76S" covers="p01-06" certainty="probable"/>
+      <track n="7" title="Dire Wolf" file="gd77-12-27d1t07.shn" mappingStatus="candidate" disc="1" sourceNumber="7" duration="PT136.84S" covers="p01-07" certainty="probable"/>
+      <track n="8" title="Passenger" file="gd77-12-27d1t08.shn" mappingStatus="candidate" disc="1" sourceNumber="8" duration="PT139.46S" covers="p01-08" certainty="probable"/>
+      <track n="9" title="Candyman" file="gd77-12-27d1t09.shn" mappingStatus="candidate" disc="1" sourceNumber="9" duration="PT211.22S" covers="p01-09" certainty="probable"/>
+      <track n="10" title="El Paso" file="gd77-12-27d1t10.shn" mappingStatus="candidate" disc="1" sourceNumber="10" duration="PT156.74S" covers="p01-10" certainty="probable"/>
+      <track n="11" title="Friend Of The Devil" file="gd77-12-27d1t11.shn" mappingStatus="candidate" disc="1" sourceNumber="11" duration="PT257.47S" covers="p01-11" certainty="probable"/>
+      <track n="12" title="The Music Never Stopped" file="gd77-12-27d1t12.shn" mappingStatus="candidate" disc="1" sourceNumber="12" duration="PT258.93S" covers="p01-12" certainty="probable"/>
+      <track n="13" title="Cold Rain and Snow" file="gd77-12-27d2t01.shn" mappingStatus="candidate" disc="2" sourceNumber="1" duration="PT202.21S" covers="p02-01" certainty="probable"/>
+      <track n="14" title="Lazy Lightning" file="gd77-12-27d2t02.shn" mappingStatus="candidate" disc="2" sourceNumber="2" duration="PT121.71S" covers="p02-02" certainty="probable"/>
+      <track n="15" title="Supplication" file="gd77-12-27d2t03.shn" mappingStatus="candidate" disc="2" sourceNumber="3" duration="PT189.69S" covers="p02-03" certainty="probable"/>
+      <track n="16" title="Scarlet Begonias" file="gd77-12-27d2t04.shn" mappingStatus="candidate" disc="2" sourceNumber="4" duration="PT285.09S" covers="p02-04" certainty="probable"/>
+      <track n="17" title="Fire On The Mountain" file="gd77-12-27d2t05.shn" mappingStatus="candidate" disc="2" sourceNumber="5" duration="PT296.43S" covers="p02-05" certainty="probable"/>
+      <track n="18" title="Estimated Prophet" file="gd77-12-27d2t06.shn" mappingStatus="candidate" disc="2" sourceNumber="6" duration="PT336.02S" covers="p02-06" certainty="probable"/>
+      <track n="19" title="He's Gone" file="gd77-12-27d2t07.shn" mappingStatus="candidate" disc="2" sourceNumber="7" duration="PT297.77S" covers="p02-07" certainty="probable"/>
+      <track n="20" title="Truckin'" file="gd77-12-27d3t01.shn" mappingStatus="candidate" disc="3" sourceNumber="1" duration="PT334.82S" covers="p02-08" certainty="probable"/>
+      <track n="21" title="Wharf Rat" file="gd77-12-27d3t02.shn" mappingStatus="candidate" disc="3" sourceNumber="2" duration="PT383.62S" covers="p02-09" certainty="probable"/>
+      <track n="22" title="Around and Around" file="gd77-12-27d3t03.shn" mappingStatus="candidate" disc="3" sourceNumber="3" duration="PT288.71S" covers="p02-10" certainty="probable"/>
+      <track n="23" title="Samson and Delilah" file="gd77-12-27d3t04.shn" mappingStatus="candidate" disc="3" sourceNumber="4" duration="PT248.64S" covers="p03-01" certainty="probable"/>
+      <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+    </playlist>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Archive source metadata (lineage): SBD&gt; MR&gt; D&gt; CD&gt; EAC&gt; SHN</note>
+    <note>Archive source metadata (source): Soundboard</note>
+  </recording>
+</recordings>

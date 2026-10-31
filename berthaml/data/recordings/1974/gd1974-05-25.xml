@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1974-05-25">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-1923ae78dabc74cc4780" kind="matrix">
+    <identifier scheme="archive-org">gd1974-05-25.111432.mtx.sirmick.sbeok.flac16</identifier>
+    <lineage>Matrix: 60%sbd/40% aud; Sources: Master Soundboard Reel &gt; Dick Latvala's Cassette &gt; DAT &gt; mastered to CD-R on an HHB CDR-850 &gt; .shn (shnid 2635) Originally seeded to phlash.etree.org by Johnathan Miller. FOB Audience Recording by Jeremy Witt (shnid 111301) Preserved in posterity for 36 years by Jay Abrams (jra-sm) Recording Equipment: Sony TC-152, Sony Mics, BASF 120 minute cassettes, Dolby B Analog to Analog Transfer June 1974: Sony TC-152 -&gt; Teac 1230 - Scotch 150, 7" Reels at 3 3/4 ips Transfer by Jim Blackwood Dec 23 2010 Editing and Mastering by Jamie Waddell on the GEMS Edit Station at 24 bit 96 kHz Weiss-Saracon for 16 bit 44.1kHz conversion TLH for FLAC8 SBE Free</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Campus Stadium, UC Santa Barbara on 1974-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): SIRMick</note>
+    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-df8fe4c397f20a5cee6e" kind="soundboard">
+    <identifier scheme="archive-org">gd1974-05-25.162440.sbd.ONt.flac16</identifier>
+    <lineage>Soundboard Reel &gt;DAT &gt;CDR &gt;FLAC | Trade DAT Transferred: Tascam DA-30 &gt;HHb CDR 800 PRO Via Analog i/o, Tayio Uden CD Masters &gt;FLAC (Level 8) Via xACT 2.35 FLAC Tags Via xACT 2.51</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Campus Stadium, UCSB on 1974-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Trade DAT Transferred, FLAC'd, And Tagged (+ Front-Cover Artwork) By OldNeumanntapr</note>
+  </recording>
+  <recording id="r-72e9546dbfb2c1d76803" kind="audience">
+    <identifier scheme="archive-org">gd1974-05-25.aud.gems.111301.flac16</identifier>
+    <credit role="recordist">Jeremy Witt</credit>
+    <lineage>Recording Info: FOB Audience Recording by Jeremy Witt Preserved in posterity for 36 years by Jay Abrams (jra-sm) Recording Equipment: Sony TC-152, Sony Mics, BASF 120 minute cassettes, Dolby B Analog to Analog Transfer June 1974: Sony TC-152 -&gt; Teac 1230 - Scotch 150, 7" Reels at 3 3/4 ips Transfer by Jim Blackwood Dec 23 2010 Editing and Mastering by Jamie Waddell on the GEMS Edit Station at 24 bit 96 kHz Weiss-Saracon for 16 bit 44.1kHz conversion TLH for FLAC8 SBE Free</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Campus Stadium, UC Santa Barbara on 1974-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Jamie Waddell</note>
+    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  </recording>
+  <recording id="r-2c78783b9a1124f0a686" kind="unknown">
+    <identifier scheme="archive-org">gd1974-05-25.sbd.jmiller.205.sbeok.shnf</identifier>
+    <lineage>MSR &gt; C &gt; DAT &gt; CDR &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Campus Stadium, UCSB on 1974-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  </recording>
+  <recording id="r-19222a3825919819350f" kind="soundboard">
+    <identifier scheme="archive-org">gd74-05-25.sbd.moog.2635.sbeok.shnf</identifier>
+    <lineage>Soundboard | DAE/reSHN of MSR &gt; Dick Latvala's cass &gt; DAT &gt; mastered to CD-R on an HHB CDR-850&gt; .shn</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Campus Stadium, UC Santa Barbara on 1974-05-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+  </recording>
+  <recording id="r-c504aa189f4dfca1abe8" kind="unknown">
+    <identifier scheme="other">etree-617867</identifier>
+    <note>Supplied catalogue listing: etree; gd1974-05-25.162440.sbd.ONt.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  </recording>
+</recordings>

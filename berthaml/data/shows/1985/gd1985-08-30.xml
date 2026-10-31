@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-08-30" date="1985-08-30">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1985-08-30" date="1985-08-30">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850830-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-928" nameAsBilled="Southern Star Amphitheater"/>
   <program coverage="partial">
@@ -32,116 +31,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-690199d9fa78257288f9" kind="unknown">
-      <identifier scheme="archive-org">gd1985-08-30.123819.nak300.flac16</identifier>
-      <lineage>nak300&gt;cp4&gt;d5 no dolby; ots mics @12ft. pas; cass(m)&gt;hhb830 cds 16/44.1 in 2003; cd&gt;audacity +2.5&gt;cdwave splits&gt;tlh flac 8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-c057a21dbcd6a0a3f42b" kind="soundboard">
-      <identifier scheme="archive-org">gd1985-08-30.138385.sbd.miller.flac24</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-3dbcfbb3f793eccff580" kind="soundboard">
-      <identifier scheme="archive-org">gd1985-08-30.138390.sbd.miller.flac16</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-f4b43850214ea9b6e88c" kind="unknown">
-      <identifier scheme="archive-org">gd1985-08-30.153032.akgc422.davis-holbrook.flac1644</identifier>
-      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Phil Schuman</credit>
-      <lineage>Microphones: AKG C422 (Cardioid) &gt; AKG S42 XY 90º 10 feet high Patch Source 2: Beyer M201's XY (hypercardioid) &gt; Sony TC-D5M Recorder: Sony TC-D5M| 4th in line Location: Lawn- 150' from stage This Source: Master AUDCA Maxell MX90 No NR [KH] | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-97a09a5df798a6113987" kind="unknown">
-      <identifier scheme="archive-org">gd1985-08-30.153033.akgc422.davis-holbrook.flac2448</identifier>
-      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Phil Schuman</credit>
-      <lineage>Microphones: AKG C422 (Cardioid) &gt; AKG S42 XY 90º 10 feet high Patch Source 2: Beyer M201's XY (hypercardioid) &gt; Sony TC-D5M Recorder: Sony TC-D5M| 4th in line Location: Lawn- 150' from stage This Source: Master AUDCA Maxell MX90 No NR [KH] | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-8b45ded51f8c81589fd1" kind="unknown">
-      <identifier scheme="archive-org">gd1985-08-30.153034.beyerm201.holbrook-pinney.flac1644</identifier>
-      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Phil Schuman</credit>
-      <lineage>Microphones: Beyer M201's XY (hypercardioid) Patch Source 2: AKG C422 (Cardioid) &gt; AKG S42 XY 90º 10 feet high &gt; Sony TC-D5M|4th in line Recorder: Sony TC-D5M| mic deck Location: Lawn- 250' from stage This Source: Master AUDCA Maxell MX90 No NR [KH] | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-164309c01bc72ea43f48" kind="unknown">
-      <identifier scheme="archive-org">gd1985-08-30.153035.beyerm201.holbrook-pinney.flac2448</identifier>
-      <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Kyle Holbrook, Tom Pinney, Phil Schuman</credit>
-      <lineage>Microphones: Beyer M201's XY (hypercardioid) Patch Source 2: AKG C422 (Cardioid) &gt; AKG S42 XY 90º 10 feet high &gt; Sony TC-D5M|4th in line Recorder: Sony TC-D5M| mic deck Location: Lawn- 250' from stage This Source: Master AUDCA Maxell MX90 No NR [KH] | Transfer: Nakamichi 582ZX &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-d809ac2531804e54c51b" kind="audience">
-      <identifier scheme="archive-org">gd1985-08-30.154549.senn.me80.hessberg.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1b7079d6904823641aee" kind="audience">
-      <identifier scheme="archive-org">gd1985-08-30.154550.senn.me80.hessberg.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c0a342ec2d72e7d865e5" kind="audience">
-      <identifier scheme="archive-org">gd1985-08-30.fob.senn441.mccue.LMPP.96289.sbeok.flac16</identifier>
-      <credit role="recordist">Mark McCue</credit>
-      <lineage>MAC; (FOB) 2 x Sennheiser 441 &gt; Sony D5 &gt; Sony D5 &gt; 2 x Maxell MX 90. FOB, DFC, no more than 20 feet back from stage/ PAS - black shawl over mics (to avoid security). | Master Audience Cassettes&gt; Nakamichi Dragon&gt; Kind Kables RCA/XLR&gt; Lunatec V3 (@ 24/96)&gt; coax&gt; Audiophile 2496&gt; WaveLab 5.0&gt; .wav @ 24/96&gt; Waves L3 UltraMaximizer &gt; .wav @ 16/44.1 &gt; TLH &gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Alex Ford</note>
-    </recording>
-    <recording id="r-d0f39a3a87b52dd69589" kind="audience">
-      <identifier scheme="archive-org">gd1985-08-30.fob.senn441.mccue.LMPP.96349.flac24</identifier>
-      <credit role="recordist">Adam, Justin &amp; Monica</credit>
-      <lineage>(FOB) 2 x Sennheiser 441 &gt; Sony D5 &gt; Sony D5 &gt; 2 x Maxell MX 90 (MAC) | Master Audience Cassettes&gt; Nakamichi Dragon&gt; Kind Kables RCA/XLR&gt; Lunatec V3 (@ 24/96)&gt; coax&gt; Audiophile 2496&gt; WaveLab 5.0 (edit/mastering)&gt; .wav @ 24/96 &gt; TLH &gt; FLAC24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Alex Ford</note>
-    </recording>
-    <recording id="r-e316358e153afa3e71f0" kind="soundboard">
-      <identifier scheme="archive-org">gd1985-08-30.sbd.serafin.32799.sbeok.flac16</identifier>
-      <lineage>SBD &gt; (CM?) &gt; DAT &gt; DAT | Sony PCM-R300 &gt; SB X-Fi EP &gt; COOL EDIT PRO2 &gt; .WAV &gt; .FLAC (1.7.1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jay Serafin</note>
-    </recording>
-    <recording id="r-e2f9422a2be272bbe575" kind="audience">
-      <identifier scheme="archive-org">gd85-08-30.naks.connor.8792.sbeok.shnf</identifier>
-      <lineage>Charlie Connor's Master Audience Cassettes Lineage:AUD&gt;Nak 300's&gt;Sony TCD5M(CM)&gt;Nak DR-10 (Playback)&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav(tracking only)&gt;SHNv3 (MK | AUD&gt;Nak 300's&gt;Sony TCD5M(CM)&gt;Nak DR-10 (Playback)&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav(tracking only)&gt;SHNv3 (MKW ACT)Note: This is a new transcription of my prior</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-84b85a3f7a1829caee29" kind="soundboard">
-      <identifier scheme="archive-org">gd85-08-30.sbd.sunspot.16903.sbefail.shnf</identifier>
-      <lineage>SBD &gt; ? &gt; CD-R obtained by Slick Willie &gt; EAC &gt; correction of tracking &gt; SHN by sunspot</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-6052c12cd1facf1a123c" kind="unknown">
-      <identifier scheme="archive-org">gd85-08-30.schoeps-oade.sacks.25470.sbeok.flacf</identifier>
-      <credit role="recordist">Oade Brothers</credit>
-      <lineage>Field: Schoeps cmc441 (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1 | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav &gt; cdwav &gt; Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Star Amphitheater on 1985-08-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Doug Oade - Darren Sacks</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
-    </recording>
-    <recording id="r-03fb0debb401ed6bd553" kind="unknown">
-      <identifier scheme="other">etree-593345</identifier>
-      <note>Supplied catalogue listing: etree; gd1985-08-30.138390.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

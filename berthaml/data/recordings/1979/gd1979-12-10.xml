@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1979-12-10">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-c062b8f5726b8419cb32" kind="matrix">
+    <identifier scheme="archive-org">gd1979-12-10.126986.mtx.dusborne.flac16</identifier>
+    <lineage>2 Source Matrix by dusborne; Soundboard (shnid:34938) Set 1 SBD&gt;Cm&gt;Reel&gt;Dat&gt;CD&gt;EAC&gt;SHN; Set 2 SBD&gt;Cm&gt;?&gt;Dat&gt;CD&gt;EAC&gt;SHN; Fix of shnid 3371 and Audience (shnid:89136) Recording Info: (FOB) Sony ECM-250 -&gt; Cassette Master (Sony TC-158/TDK SA-C90); Transfer Info: Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers' and Sailors' Memorial Hall on 1979-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-0b10079d16cf8395b877" kind="unknown">
+    <identifier scheme="archive-org">gd1979-12-10.128746.naks.mason.flac16</identifier>
+    <credit role="recordist">Mason B. Taylor</credit>
+    <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones; Transferred on a Nak Cr7A</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers' and Sailors' Memorial Hall on 1979-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-366be308af158e54d46b" kind="soundboard">
+    <identifier scheme="archive-org">gd1979-12-10.165179.sbd.anon.gems.flac1644</identifier>
+    <lineage>SBD Cassette Master &gt; DAT &gt; AIF via Anon</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers &amp; Sailors Memorial Hall on 1979-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Mastered by Jim Blackwood Speed/pitch adjusted by Jason Chastain Track, FLAC, and pack by Steve Gravel</note>
+    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  </recording>
+  <recording id="r-6289cc058b240db88037" kind="matrix">
+    <identifier scheme="archive-org">gd1979-12-10.165584.mtx.seamons.ht163.flac1644</identifier>
+    <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) August 27, 2023</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers &amp; Sailors Memorial Hall on 1979-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+  </recording>
+  <recording id="r-1f60986137ee35f084a5" kind="soundboard">
+    <identifier scheme="archive-org">gd1979-12-10.165876.sbd.anon.gems.v3.flac16</identifier>
+    <credit role="recordist">via Anon</credit>
+    <lineage>SBD Cassette Master &gt; DAT &gt; AIF</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers &amp; Sailors Memorial Hall on 1979-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Mastered by Jim Blackwood Speed/pitch adjusted by Jason Chastain Minor repairs, track, FLAC, and pack by Steve Gravel</note>
+    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  </recording>
+  <recording id="r-704986a21dbab1a44849" kind="audience">
+    <identifier scheme="archive-org">gd1979-12-10.aud.andrewf.76498.sbeok.flac16</identifier>
+    <credit role="recordist">Unknown</credit>
+    <lineage>AUD of unknown lineage | Cassette &gt; Sony TC-D5M (no Dolby) &gt; Realtek AC97 &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-fix, FLAC compression, and checksums) &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers and Sailors War Memorial Hall on 1979-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Andrew F.</note>
+  </recording>
+  <recording id="r-2003448dba592a6e5188" kind="unknown">
+    <identifier scheme="archive-org">gd1979-12-10.nak700-minches.77331.flac16</identifier>
+    <credit role="recordist">Unknown</credit>
+    <lineage>Nak 700s&gt;Sony TC-D5 | A:C:R:D Played back on Akai GX-4000D R2R; Edited and normalized with Cool Edit</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers' and Sailors' Memorial Hall on 1979-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): David Minches</note>
+  </recording>
+  <recording id="r-ca0c51e99b6569a1f47a" kind="unknown">
+    <identifier scheme="archive-org">gd1979-12-10.sbd.ststephen.tetzeli.fix-3371.34938.reflac.flac16</identifier>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers and Sailors Memorial Hall on 1979-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note>Source credit (transfer-mastering): St Stephen and Bill Tetzeli</note>
+  </recording>
+  <recording id="r-82ba90c1c09cf92185a7" kind="audience">
+    <identifier scheme="archive-org">gd1979-12-10.sonyecm-walker.walker-scotton-miller.89136.flac16</identifier>
+    <credit role="recordist">Joani Walker</credit>
+    <lineage>(FOB) Sony ECM-250 -&gt; Cassette Master (Sony TC-158/TDK SA-C90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10 -&gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers &amp; Sailors Memorial Auditorium on 1979-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
+    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+  </recording>
+  <recording id="r-71d97cea6c1e4d0bc146" kind="soundboard">
+    <identifier scheme="archive-org">gd79-12-10.sbd.ststephen.3371.sbeok.shnf</identifier>
+    <lineage>Soundboard | SBD&gt; Cm&gt; (set 1 = Reel, set 2 = ?)&gt; Dat&gt; CD&gt; EAC&gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldiers' and Sailors' Memorial Hall on 1979-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+</recordings>

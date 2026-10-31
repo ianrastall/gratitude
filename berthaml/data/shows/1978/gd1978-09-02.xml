@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-09-02" date="1978-09-02">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1978-09-02" date="1978-09-02">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780902-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-729" nameAsBilled="Giants Stadium"/>
   <program coverage="partial">
@@ -35,91 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-546d000203a2be654c14" kind="matrix">
-      <identifier scheme="archive-org">gd1978-09-02.131868.mtx.dusborne.flac16</identifier>
-      <lineage>2 Source Matrix by Dusborne; Soundboard (shnid:106818) Recording Info: SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat -&gt; CD; Transfer Info: CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC and Audience (shnid:015822) AUDMC &gt; DAT &gt; WAV &gt; SHN; Recorded by Steve Rolfe with two Sony EMC-33P mics &gt; Sony TC-152 deck 50-60 feet left center from the stage</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role unspecified.</note>
-    </recording>
-    <recording id="r-29061c483798472901eb" kind="audience">
-      <identifier scheme="archive-org">gd1978-09-02.139367.s2.Sony54P.wagner.miller.sirmick.flac24</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>(FOB) Sony 54P &gt; Sony TC-158SD &gt; Cassette Master taped by Bob Wagner | Transfer: Cassette Master &gt; Nakamichi CR-7A &gt; Tascam DA-3000 &gt;DSF 1-bit/5.8 MHz Conversion by Charlie Miller : DSF &gt; KORG AudioGate 4 &gt; wav 24/96 Lineage: wav 24/96 &gt; Adobe Audition 3.0 &gt; iZotope RX 6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller; Sirmick</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-4884bbb4d06895a4fd8f" kind="audience">
-      <identifier scheme="archive-org">gd1978-09-02.140476.s2.Sony54P.wagner.miller.sirmick.flac1644</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>Set 2 Source: (FOB) Sony 54P &gt; Sony TC-158SD &gt; Cassette Master; taped by Bob Wagner; Transfer: Cassette Master &gt; Nakamichi CR-7A &gt; Tascam DA-3000 &gt;DSF 1-bit/5.8 MHz; Conversion by Charlie Miller : DSF &gt; KORG AudioGate 4 &gt; wav 24/96; Lineage: wav 24/96 &gt; Adobe Audition 3.0 &gt; iZotope RX 6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24; edited and mastered SIRMick September 2017</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-77b66b0a9db49cb0999a" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-09-02.142988.set2.sbd.dalton.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Tim Dalton</credit>
-      <lineage>Master Soundboard Cassette (Maxell UDXLII)&gt; Cassette (TDK) &gt; Dat 16/48(Panasonic SV-3700)&gt; Dat x3</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1011e2db9f72ff9d0ae9" kind="audience">
-      <identifier scheme="archive-org">gd1978-09-02.164506.fob.shure.sm57.gatto.mckenzie.miller.clugston.flac1644</identifier>
-      <credit role="recordist">Keith Gatto</credit>
-      <lineage>Keith Gatto's Master (FOB) Audience Cassettes; Shure SM57 mics&gt; Sony TC-158 &gt; Tim McKenzies' DAT (x3)(Maxell HS-4/90s) @48kHz | DAT (Sony PCM-M1) &gt; Sony 7-pin/Oade digi I/O&gt; Hosa DRA-501 coaxial cable&gt; Tascam CD-RW750 CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Tim McKenzie;Charlie Miller;Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-52d84d1533d37604050f" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-09-02.aud-sbd.clugston.5986.sbefail.shnf</identifier>
-      <lineage>Master Audience Cassette; Shure SM-57 mics&gt; Sony TC-158 Master Soundboard Cassette &gt; Cassette &gt; DAT source supplies the 2nd set</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston</note>
-    </recording>
-    <recording id="r-44e957144b6863035e2d" kind="audience">
-      <identifier scheme="archive-org">gd1978-09-02.s2.sony54p.wagner.miller.124588.flac16</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>(FOB) Sony 54P -&gt; Cassette Master (Sony TC-158SD) | Cassette Master (Sony TC-K677ES) -&gt; Sound Devices 744T (24bit/48k) -&gt;Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-7fb940fd0a3c8dfbb9de" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-09-02.sbd.miller.106818.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fa8baafd9f36c41151f4" kind="audience">
-      <identifier scheme="archive-org">gd78-09-02.rolfe.weiner.15822.sbeok.shnf</identifier>
-      <credit role="recordist">Steve Rolfe</credit>
-      <lineage>Audience Recording: Sony EMC-33Ps | AUDMC &gt; DAT &gt; WAV &gt; SHN recorded with two Sony EMC-33P mics &gt; Sony TC-152 deck 50-60 feet left center from the stage</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Noah Weiner</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
-    </recording>
-    <recording id="r-86c6330e38252f2c849a" kind="soundboard">
-      <identifier scheme="archive-org">gd78-09-02.sbd.jools.7925.sbeok.shnf</identifier>
-      <lineage>Soundboard | 1st Set unknown gen reel&gt;CD with some aud patches; 2nd Set SBD:MC&gt;Cas&gt;DAT&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Giants Stadium on 1978-09-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

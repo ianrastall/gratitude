@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-10-03" date="1980-10-03">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1980-10-03" date="1980-10-03">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19801003-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-799" nameAsBilled="Warfield Theatre"/>
   <program coverage="partial">
@@ -49,56 +48,5 @@
       <note>Source section label: Electric Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-4c04465789ee373a77e8" kind="matrix">
-      <identifier scheme="archive-org">gd1980-10-03.146232.acoustic.mtx.seamons.ht17.flac16</identifier>
-      <lineage>Matrix by Hunter Seamons</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
-    </recording>
-    <recording id="r-05cb3afc95162f295556" kind="soundboard">
-      <identifier scheme="archive-org">gd1980-10-03.163612.sbd.miller.flac2496</identifier>
-      <lineage>SBD &gt; Cassette Master (Nakamichi 550) &gt; Cassette (Sony TC-D5M/TDK SA-C90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 9, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a690cc05496408e0b82b" kind="soundboard">
-      <identifier scheme="archive-org">gd1980-10-03.165795.sbd.tape1.1gen.miller.t-flac1644</identifier>
-      <lineage>SBD &gt; Cassette Master (Nakamichi 550) &gt; Cassette (Sony TC-D5M/TDK SA-C90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 9, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b0bef65f2da947891bbf" kind="matrix">
-      <identifier scheme="archive-org">gd1980-10-03.acoustic.mtx.seamons.94131.flac16</identifier>
-      <lineage>Matrix mix (SBD/AUD)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theatre on 1980-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Hunter Seamons</note>
-      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-80-sf-ca-warfield-theater/</note>
-    </recording>
-    <recording id="r-e42412a2b512fc29fd9b" kind="unknown">
-      <identifier scheme="archive-org">gd1980-10-03.nak700.ellner.koucky.89128.sbeok.flac16</identifier>
-      <credit role="recordist">Ron Ellner</credit>
-      <lineage>Master Cassette &gt; Nakamichi 700’s &gt; Sony TC D-5 &gt; Teak Reel to Reel | Pioneer RT-701 Reel to Reel &gt; Soundblaster Soundcard &gt; Soundforge &gt; CD &gt; EAC &gt; TLH &gt; FLAC level 8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-03. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bill Koucky</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-80-sf-ca-warfield-theater/</note>
-    </recording>
-    <recording id="r-7679e29ec41d34c8ed93" kind="audience">
-      <identifier scheme="archive-org">gd80-10-03.nak300.vernon.16208.sbeok.shnf</identifier>
-      <lineage>Audience Recording: Nak 300 | Nak300 &gt; Sony TC-152 &gt; AMC &gt; CoolEdit Pro &gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-80-sf-ca-warfield-theater/</note>
-    </recording>
-    <recording id="r-5cd78bf1f08091b1af99" kind="soundboard">
-      <identifier scheme="archive-org">gd80-10-03.set1-sbd.aj.2200.sbeok.shnf</identifier>
-      <lineage>Soundboard | Set 1 SBD-&gt; Master Cassette-&gt; DAT-&gt; Sonic Solutions-&gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-80-sf-ca-warfield-theater/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

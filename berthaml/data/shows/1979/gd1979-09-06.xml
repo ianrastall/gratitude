@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-09-06" date="1979-09-06">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1979-09-06" date="1979-09-06">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19790906-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
@@ -38,88 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-de99e8c7033d4bca617e" kind="unknown">
-      <identifier scheme="archive-org">gd1979-09-06.151783.SonyStereo.ECM.Moskal.t.flac16</identifier>
-      <credit role="recordist">Gerry Moskal</credit>
-      <lineage>Sony Stereo ECM --&gt;SONY TCD126 Location: PA behind Stage | Master Cassette Transfer-&gt;RR -&gt;Cassette Transfer/Flac Conversion Brian Mandel gdplusmore@aol.com Cassette Transfer Maxell XL11-S90 Nakamichi BX300-&gt;SONY PCM-M10 16bit 44 Wave CD Wave Editor -&gt; TLP-&gt;Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Gerry Moskal &amp; Brian Mandel</note>
-    </recording>
-    <recording id="r-11aed6794554bb34719c" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-06.151832.nak700.wagner.miller.flac24</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>(FOB/14th Row) Nakamichi CM700 &gt; Cassette Master (Sony TC-158SD/Dolby B) | Cassette Master (Nakamichi CR-7A/Dolby B) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 19, 2021</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-3fce46f25cc695234230" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-06.151985.nak700.wagner.miller.t.flac16</identifier>
-      <credit role="recordist">Recorded by Bob Wagner</credit>
-      <lineage>(FOB/14th Row) Nakamichi CM700 &gt; Cassette Master (Sony TC-158SD/Dolby B) | Cassette Master (Nakamichi CR-7A/Dolby B) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 19, 2021</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-2dd442655483eb3a6709" kind="unknown">
-      <identifier scheme="archive-org">gd1979-09-06.152718.aud-partial.petrunis.flac2448</identifier>
-      <credit role="recordist">Concert recording by Rich Petrunis.</credit>
-      <lineage>Mono Sony hand-held recorder (model unknown) &gt; TDK-AD (normal bias) cassettes. | Transfer: MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Transferred by Andrew F. 06/2021</note>
-    </recording>
-    <recording id="r-2a011bad1aa7d0738dc7" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-06.156436.senn441.senn421.blend.eaton.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Rob Eaton for the recording, as well as the transfer and harddrive</credit>
-      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 (left + right) + (1) Sennheiser 421 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    </recording>
-    <recording id="r-d0f8d608dfee3ba62738" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-06.156437.senn441.senn421.blend.eaton.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Rob Eaton for the recording, as well as the transfer and harddrive</credit>
-      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 (left + right) + (1) Sennheiser 421 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    </recording>
-    <recording id="r-3baea9e266f33946d280" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-09-06.sbd.clugston.tetzeli.fix-9454.35218.sbeok.flac16</identifier>
-      <lineage>Soundboard Cassette &gt; Reel to Reel &gt; PCM &gt; CDR &gt; EAC &gt; SHN &gt; WAV &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Bill Tetzeli</note>
-    </recording>
-    <recording id="r-4e44e251b33af2cabd7d" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-09-06.sbd.miller.79749.flac16</identifier>
-      <lineage>SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat -&gt; PCM -&gt; CD | CD -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5fb3f8146fa1be592199" kind="audience">
-      <identifier scheme="archive-org">gd79-09-06.glassberg.unknown.8458.sbeok.shnf</identifier>
-      <credit role="recordist">Barry Glassberg</credit>
-      <lineage>Audience Recording | FOB (14th row center) NAK 700s&gt;TC-158&gt;MAC&gt;FC/DD 2496&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    </recording>
-    <recording id="r-58577e9448412cabb5a1" kind="soundboard">
-      <identifier scheme="archive-org">gd79-09-06.sbd.clugston.9454.sbeok.shnf</identifier>
-      <credit role="recordist">Barry Glassberg</credit>
-      <lineage>Soundboard with aud patches | Master Soundboard Cassette &gt; Reel to Reel &gt; PCM &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

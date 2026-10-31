@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-09-25" date="1980-09-25">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1980-09-25" date="1980-09-25">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19800925-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-799" nameAsBilled="Warfield Theatre"/>
   <program coverage="partial">
@@ -49,34 +48,5 @@
       <note>Source section label: Electric Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-39ba07df94a98ad04f75" kind="audience">
-      <identifier scheme="archive-org">gd1980-09-25.144696.nak700.severson.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Mark Severson</credit>
-      <lineage>Mark Severson's Master Audience Cassettes; (3) x Nakamichi 700 mics (left/right cardioids, omni center - handheld shoulder high)&gt; Custom mixer by Jamie Poris &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-8d0ba070e732c0cb362a" kind="audience">
-      <identifier scheme="archive-org">gd1980-09-25.144697.nak700.severson.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Mark Severson</credit>
-      <lineage>Mark Severson's Master Audience Cassettes; (3) x Nakamichi 700 mics (left/right cardioids, omni center - handheld shoulder high)&gt; Custom mixer by Jamie Poris &gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-7d2c24391e546f8bb85e" kind="soundboard">
-      <identifier scheme="archive-org">gd80-09-25.acoustic-sbd.hinko.18740.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; MR &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-fb4a50d951a3525dafc6" kind="audience">
-      <identifier scheme="archive-org">gd80-09-25.menke.vernon.7303.sbeok.shnf</identifier>
-      <lineage>Audience Recording: Nak CM700's | Nakamichi CM700 Mics (3)&gt;Mixer&gt;Sony D-5</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1980-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

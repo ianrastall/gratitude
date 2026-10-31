@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-09-23" date="1976-09-23">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1976-09-23" date="1976-09-23">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760923-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-551" nameAsBilled="Cameron Indoor Stadium, Duke University"/>
   <program coverage="partial">
@@ -36,18 +35,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-d197574f258a892a161b" kind="unknown">
-      <identifier scheme="archive-org">gd1976-09-23.117651.pa-restoration.dan.flac16</identifier>
-      <lineage>This is a restored version of shnid=14687. It did not involve an upgrade in the source material. A short portion contains a transfer from an open reel tape I received in trade in 1977 (unknown generations).</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1976-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dan McDonald</note>
-    </recording>
-    <recording id="r-fec142d0d7274d637a76" kind="soundboard">
-      <identifier scheme="archive-org">gd76-09-23.sbd.backus.14687.sbeok.shnf</identifier>
-      <lineage>Soundboard | Primary source - SBD: Cm-&gt; C-&gt; Cx2-&gt; DAT-&gt; CDR-&gt;EAC-&gt;SHN Aud patch sources: AUD: Cm-&gt;?-&gt; C-&gt; DAT-&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1976-09-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

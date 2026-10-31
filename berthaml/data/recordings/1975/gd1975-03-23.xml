@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1975-03-23">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1975-03-23.150533.remaster.flac2448" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 feb5c10f5267e1cacf71c9233050618c9e001dc75c2d9ed9360b6d4af26f74e5</cite>
+  </record>
+  <recording id="r-df9c935735a4229640d2" kind="unknown">
+    <identifier scheme="archive-org">gd1975-03-23.126296.fm.kafer-boswell-smith.flac24</identifier>
+    <lineage>FMMR (Peter Kafer) @ 7 1/2 ips &gt; R @ 7 1/2 ips (Will Boswell); Transfer info: Akai GX636 direct tape head output &gt; Bottlehead tube tape pre pair Tesla tubes circa 1980 &gt; Apogee Mini Me 24/96 &gt; Apogee Mini DAC monitoring and mastering &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FM</note>
+    <note certainty="uncertain">Legacy inferred type: FM</note>
+    <note>Source credit (transfer-mastering): Matt Smith</note>
+  </recording>
+  <recording id="r-27d348b723b42f396527" kind="soundboard">
+    <identifier scheme="archive-org">gd1975-03-23.150533.remaster.flac2448</identifier>
+    <lineage>SHN Remastered: gd1975-03-23.pre-fm-sbd.hope-ross.32539.shnf Lineage: FM &gt; ??? &gt; WAV &gt; SHN &gt; Adobe Audition 2020 &gt; FLAC</lineage>
+    <playlist id="pl-81d276df95bdb21521d8" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1975-03-23.150533.remaster.flac2448">
+      <track n="1" title="Blues For Allah &gt;" file="1. Blues For Allah.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT573S"/>
+      <track n="2" title="Stronger Than Dirt &gt;" file="2. Stronger Than Dirt.flac" mappingStatus="unreviewed" sourceNumber="2" duration="PT411.01S"/>
+      <track n="3" title="Drums &gt;" file="3. Drums.flac" mappingStatus="candidate" sourceNumber="3" duration="PT202.4S" covers="p01-03" certainty="probable"/>
+      <track n="4" title="Stronger Than Dirt &gt;" file="4. Stronger Than Dirt.flac" mappingStatus="unreviewed" sourceNumber="4" duration="PT562.57S"/>
+      <track n="5" title="Blues For Allah" file="5. Blues For Allah.flac" mappingStatus="unreviewed" sourceNumber="5" duration="PT229.33S"/>
+      <track n="6" title="Johnny B. Goode" file="6. Johnny B Goode.flac" mappingStatus="candidate" sourceNumber="6" duration="PT246.6S" covers="p02-01" certainty="probable"/>
+      <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+    </playlist>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: PRE-FM</note>
+    <note>Archive source metadata (source): SHN Remastered: gd1975-03-23.pre-fm-sbd.hope-ross.32539.shnf Lineage: FM &gt; ??? &gt; WAV &gt; SHN &gt; Adobe Audition 2020 &gt; FLAC</note>
+  </recording>
+  <recording id="r-a649cc55a2d2e9207d44" kind="fm">
+    <identifier scheme="archive-org">gd1975-03-23.fm.lee-smith.94026.sbeok.flac16</identifier>
+    <credit role="recordist">Peter Kafer</credit>
+    <lineage>FM Radio Broadcast &gt; Master Reel (@ 7 1/2 ips) | FM MR (Peter Kafer) @ 7 1/2 ips &gt; R @ 7 1/2 ips (Pat Lee)* &gt; CD Huge thanks to Taper Pat for dubbing a copy from the master at 7.5 ips --- (R copied @ 7.5 ips using a Revox A-77&gt;A-77) --- Mastered to cd by Matt Smith --- Playback info: R &gt; Akai GX625 &gt; apogee mini me (24/96) &gt; apogee mini dac (monitoring) &gt; Lynx One soundcard &gt; wavelab 5.0 (dithered to 20/44) &gt; CD &gt; EAC &gt; WAV (shntool confirms no sbes) &gt; FLAC (TLH)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FM</note>
+    <note>Source credit (transfer-mastering): Matt Smith and Pat Lee</note>
+  </recording>
+  <recording id="r-05308c5b71b3df3ead2a" kind="fm">
+    <identifier scheme="archive-org">gd1975-03-23.fm.unknown.32299.shnf</identifier>
+    <lineage>FM &gt; ??? &gt; WAV &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FM</note>
+  </recording>
+  <recording id="r-87062af9a2b82917c406" kind="soundboard">
+    <identifier scheme="archive-org">gd1975-03-23.pre-fm-sbd.hope-ross.32539.shnf</identifier>
+    <lineage>Pre-FM SBD MR&gt;DAT&gt;Digi-Remaster&gt;CD&gt;CD&gt;EAC&gt;MKW&gt;SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: PRE-FM</note>
+  </recording>
+  <recording id="r-5c40677d4b0c9cc7c7c8" kind="soundboard">
+    <identifier scheme="archive-org">gd1975-03-23.sbd.miller.110126.flac16</identifier>
+    <lineage>SBD -&gt; Master Reel -&gt; Dat | Dat -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-01882a775669f54a7db3" kind="soundboard">
+    <identifier scheme="archive-org">gd1975-03-23.sbd.skankweed.13585.shnf</identifier>
+    <lineage>SBD&gt;FM&gt;?&gt;DAT&gt;CDR | CDR &gt; EAC &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FM</note>
+    <note>Source credit (transfer-mastering): Skankweed</note>
+  </recording>
+  <recording id="r-e0ffeb086ee10cdba3b3" kind="soundboard">
+    <identifier scheme="archive-org">gd1975-03-23.sbd.snack.18525.flac16</identifier>
+    <credit role="recordist">Unknown</credit>
+    <lineage>Soundboard</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kezar Stadium on 1975-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Unknown</note>
+  </recording>
+</recordings>

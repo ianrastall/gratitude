@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-03-23" date="1972-03-23">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1972-03-23" date="1972-03-23">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720323-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-423" nameAsBilled="Academy of Music"/>
   <program coverage="partial">
@@ -44,59 +43,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-716b9c855b2aebf2edb1" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-03-23.136683.sbd.sirmick.flac1648</identifier>
-      <credit role="recordist">Anonomous</credit>
-      <lineage>Source: sbd &gt; master reel &gt; dat (48k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b4095c73ca71cc6e9010" kind="audience">
-      <identifier scheme="archive-org">gd1972-03-23.157067.aud.lamarre.vernon.sirmick.flac16</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Unknown audience cassette - from the collection of Doug Lamarre | Transfer: cassette &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96 - transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX 9 Advanced &gt; iZotope Neutron 2 Advanced &gt; iZotope RX 9 Advanced &gt; wav 16/44.1 &gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Sirmick and Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-2b5b96277d3250d8dce0" kind="audience">
-      <identifier scheme="archive-org">gd1972-03-23.157068.aud.lamarre.vernon.sirmick.flac24</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Unknown audience cassette - from the collection of Doug Lamarre | Transfer: cassette &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96 - transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX 9 Advanced &gt; iZotope Neutron 2 Advanced &gt; iZotope RX 9 Advanced &gt; wav 16/44.1 &gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Sirmick and Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-4ace6b20998f2b3e05f4" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-03-23.sbd.cantor-gans.field.20676.shnf</identifier>
-      <credit role="recordist">Betty Cantor</credit>
-      <lineage>SBD &gt; Master Reel | MR &gt; Gans CD &gt; CD &gt; DAE &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Gary Field</note>
-      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
-    </recording>
-    <recording id="r-50cc2fcb2dc0b4b1f358" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-03-23.sbd.miller.100000.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Apogee AD500 -&gt; Dat (48k) | Dat (Sony D8) -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1847d521d6392ef2e094" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-03-23.sbd.miller.bertha.100298.dvda</identifier>
-      <lineage>SBD&gt;&gt;MR&gt;&gt;DAT&gt;&gt;FLAC | FLAC&gt;&gt;DAW(Bertha)&gt;&gt;Audio DVD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Jay Ashley</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e5f8b1f1e492db42bee6" kind="soundboard">
-      <identifier scheme="archive-org">gd72-03-23.sbd.goodbear.137.sbefail.shnf</identifier>
-      <lineage>Soundboard | ?&gt;Jim Wise BBD (Betty Board)&gt; Gans CD&gt;</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

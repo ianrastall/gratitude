@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-02-01" date="1978-02-01">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1978-02-01" date="1978-02-01">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780201-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-706" nameAsBilled="Uptown Theatre"/>
   <program coverage="partial">
@@ -34,26 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-663e14eb1e70e79051ac" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-02-01.138451.sbd.GEMS.flac16</identifier>
-      <lineage>SBD Master Reel &gt; Cassette &gt; DAT; 16 bit 44.1kHz FLAC Level8 SBE Free; Speed Correction and Patching by Jason Chastain in Audition CC; Mastering by Jamie Waddell in Wavelab 7.2.1</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1978-02-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Speed Correction and Patching by Jason Chastain,mastering by Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-222da7d7dcd9343470f9" kind="unknown">
-      <identifier scheme="archive-org">gd1978-02-01.aud.cousinit.97744.sbefail.flac16</identifier>
-      <lineage>MAC&gt;R&gt;C | C&gt;WAV&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theatre on 1978-02-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Cousinit</note>
-    </recording>
-    <recording id="r-b5b3090bd6b9166f3bf2" kind="soundboard">
-      <identifier scheme="archive-org">gd78-02-01.sbd.parillo.1017.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSR&gt; C&gt; DATs&gt; CDRs&gt; EAC&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1978-02-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

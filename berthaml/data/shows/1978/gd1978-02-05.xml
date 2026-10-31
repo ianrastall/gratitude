@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-02-05" date="1978-02-05">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1978-02-05" date="1978-02-05">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780205-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-708" nameAsBilled="Uni-Dome, University of Northern Iowa"/>
   <program coverage="partial">
@@ -35,80 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-003adb8b07ec1fe97c8f" kind="matrix">
-      <identifier scheme="archive-org">gd1978-02-05.123360.mtx.set2.dusborne.flac16</identifier>
-      <lineage>Set 2 only; Two source matrix: Soundboard (shnid:19471) Soundboard-&gt;Master Reel-&gt;DAT-&gt;DAT-&gt;ZA2-&gt;Soundforge-&gt;.wav-&gt;mkw-&gt;SHN and Audience (shnid:19466) Master audience cassette (unknown equipment) &gt; DAT &gt; CD &gt; Samsung SW-232B extraction (EAC v0.9 beta 4) &gt; tracking (CD Wave) &gt; sector boundary verification (shntool v1.01) &gt; .shn encoding (mkwACT v0.97 beta 1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, U of Northern Iowa on 1978-02-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by dusborne</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5f495cb35ee07c76ccf0" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-02-05.138311.sbd.GEMS.flac16</identifier>
-      <lineage>SBD Master Reel &gt; Cassette &gt; DAT; 16 bit 44.1kHz FLAC Level8 SBE Free; Speed Correction and Patching by Jason Chastain in Audition CC; Mastering by Jamie Waddell in Wavelab 7.2.1</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, U of Northern Iowa on 1978-02-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jamie Waddell and Jason Chastain</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-8467f5784633dfeb5a1c" kind="audience">
-      <identifier scheme="archive-org">gd1978-02-05.138384.set2.aud.schley.flac1644</identifier>
-      <credit role="recordist">Brian Schley</credit>
-      <lineage>Set 2; Source: Unknown FOB AUD (mono) from Brian Schley tape collection; | Maxell XLII &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 05/2017</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, U of Northern Iowa on 1978-02-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-5f216328f46363d8a1a1" kind="unknown">
-      <identifier scheme="archive-org">gd1978-02-05.151646.mtx.sb34.chappell.flac16</identifier>
-      <lineage>Matrixed (edited, mixed and converted) by Chris Chappell</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, University Of Northern Iowa on 1978-02-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Chris Chappell; role unspecified.</note>
-    </recording>
-    <recording id="r-3b06dfc1a75146be17d3" kind="audience">
-      <identifier scheme="archive-org">gd1978-02-05.151821.s1.aud.lamarre.vernon.sirmick.flac16</identifier>
-      <credit role="recordist">Unknown; tape supplied by Doug Lamarre</credit>
-      <lineage>Source: Unknown aud (low gen cassette) - From the collection of Doug Lamarre | Transfer: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby B) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) - Transferred by Matt Vernon Lienage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; CD Wave &gt; Flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, University Of Northern Iowa on 1978-02-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b76e9187fe735a64cc68" kind="audience">
-      <identifier scheme="archive-org">gd1978-02-05.151822.s1.aud.lamarre.vernon.sirmick.flac24</identifier>
-      <credit role="recordist">Unknown; tape supplied by Doug Lamarre</credit>
-      <lineage>Source: Unknown aud (low gen cassette) - From the collection of Doug Lamarre | Transfer: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby B) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) - Transferred by Matt Vernon Lienage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; CD Wave &gt; Flac 24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, University Of Northern Iowa on 1978-02-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-3fcbef32c6698f131156" kind="audience">
-      <identifier scheme="archive-org">gd1978-02-05.151837.s2.aud.lamarre.vernon.sirmick.flac16</identifier>
-      <credit role="recordist">Unknown; tape supplied by Doug Lamarre</credit>
-      <lineage>Source: Unknown aud (low gen cassette) - From the collection of Doug Lamarre | Transfer: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby B) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) - Transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; iZotope RX8 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, University Of Northern Iowa on 1978-02-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-75329d8b85a657581fd1" kind="audience">
-      <identifier scheme="archive-org">gd1978-02-05.151838.s2.aud.lamarre.vernon.sirmick.flac24</identifier>
-      <credit role="recordist">Unknown; tape supplied by Doug Lamarre</credit>
-      <lineage>Source: Unknown aud (low gen cassette) - From the collection of Doug Lamarre | Transfer: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby B) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) - Transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; CD Wave &gt; Flac 24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, University Of Northern Iowa on 1978-02-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9b714da7263cbd0088b4" kind="audience">
-      <identifier scheme="archive-org">gd78-02-05.aud.set2.warner.19466.sbeok.shnf</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Audience Recording | Master audience cassette (unknown equipment) &gt; DAT &gt; CD &gt; EAC &gt; CD Wave &gt; shntool &gt; shn</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, U of Northern Iowa on 1978-02-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-8c9d1df83950814ccd4a" kind="soundboard">
-      <identifier scheme="archive-org">gd78-02-05.sbd.set2.samaritano.19471.sbeok.shnf</identifier>
-      <lineage>Soundboard | Set 2 Only: Soundboard-&gt;Master Reel-&gt;DAT-&gt;DAT. DAT-&gt;ZA2-&gt;Soundforge-&gt;.wav-&gt;mkw-&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uni Dome, U of Northern Iowa on 1978-02-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joe Samaritano</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

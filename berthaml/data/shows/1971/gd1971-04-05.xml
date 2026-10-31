@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-04-05" date="1971-04-05">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1971-04-05" date="1971-04-05">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710405-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-377" nameAsBilled="Manhattan Center"/>
   <program coverage="partial">
@@ -37,60 +36,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-d786acebea7e812d5f39" kind="audience">
-      <identifier scheme="archive-org">gd1971-04-05.partial.aud.berger.100052.flac16</identifier>
-      <lineage>aud of unknown origin lineage | mono aud&gt;?&gt;7" reel @ 3.75 ips, dolby b technics rs-1506&gt;teac an-180&gt;hd-p2 24/96&gt;hd&gt;cd wave&gt;adobe 2.0 16/44&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-515ec2035fdc280adeda" kind="unknown">
-      <identifier scheme="archive-org">gd1971-04-05.sbd.cantor.gmb.96269.flac16</identifier>
-      <credit role="recordist">Betty Cantor</credit>
-      <lineage>7" two track reel @ 7 1/2 ips &gt; PCM501ES (beta) PCM501ES analog out &gt; dolby A decoder &gt; analog in PCMF1 &gt; analog out &gt; Fostex D5 Dat @ 48 kHz | Panasonic SV-3700 &gt; Cardas cable S/PDIF &gt; Edirol UA-5 &gt; USB &gt; WaveLab @ [32bit float / 48kHz] Mastering: In WaveLab with iZotope Ozone 3 Rate Conversion with r8brain to [16bit/44.1kHz] &gt; CD Wave &gt; TLH &gt; Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Bill Koucky</note>
-      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
-    </recording>
-    <recording id="r-40719a86fff2e7d1d1b7" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-05.sbd.fixed.miller.110185.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k) | Dat -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-6c40e57b1bfce3cf09a1" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-05.sbd.miller.110127.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k) | Dat -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-73ced0c39c066b21439f" kind="unknown">
-      <identifier scheme="archive-org">gd1971-04-05.sbd.orf.117.sbeok.shnf</identifier>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Leigh Orf</note>
-    </recording>
-    <recording id="r-d4d7b3db9e83a6e0428d" kind="soundboard">
-      <identifier scheme="archive-org">gd71-04-05.sbd.ladner.12367.sbeok.shnf</identifier>
-      <lineage>Soundboard</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Leigh Orf and Chris Ladner</note>
-    </recording>
-    <recording id="r-5ec2301f7d76786d645f" kind="soundboard">
-      <identifier scheme="archive-org">gd71-04-05.sbd.stephens.16606.sbeok.shnf</identifier>
-      <lineage>Soundboard | 7inch 2-track BBD reel (dolby A, 7.5 ips) &gt; PCM501ES@ 44.055 kHz &gt; analog out &gt; dolby A decoder &gt; analog in PCMF1 (Beta HiFi) &gt; PCM501ES analog out &gt; Fostex D5 @ 48 kHz &gt; DATx4 &gt; Tascam DA-20mkII &gt; M Audio Delta Audiophile 2496 &gt; SoundForge 6.0 (48-44.1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manhattan Center on 1971-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dan Stephens</note>
-    </recording>
-    <recording id="r-12b44e8a389639fc648b" kind="unknown">
-      <identifier scheme="other">etree-559165</identifier>
-      <note>Supplied catalogue listing: etree; gd71-04-05.110185.sbd-fixed.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

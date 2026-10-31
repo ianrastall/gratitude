@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1969-07-03" date="1969-07-03">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1969-07-03" date="1969-07-03">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19690703-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 de7b9e32c210a89466abbc31973ce74b938886b560fd00ee68d570b7490c44e8. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-228" nameAsBilled="Reed Hollow Ranch"/>
   <program coverage="partial">
@@ -21,34 +20,5 @@
       <note>Source section label: Show</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-eb49f8c7f5baa9d7cdd5" kind="soundboard">
-      <identifier scheme="archive-org">gd1969-07-03.121879.sbd.miller.flac16</identifier>
-      <credit role="recordist">Rob Eaton</credit>
-      <lineage>SBD -&gt; Cassette Master -&gt; Dat (48k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Reed's Ranch on 1969-07-03. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/</note>
-    </recording>
-    <recording id="r-b0c81fb40f7aa0b8e594" kind="soundboard">
-      <identifier scheme="archive-org">gd1969-07-03.132377.sbd.miller.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master -&gt; Dat (48k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Pro X Suite -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Reed's Ranch on 1969-07-03. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/</note>
-    </recording>
-    <recording id="r-e0c2a3c8e6378b7195d1" kind="soundboard">
-      <identifier scheme="archive-org">gd1969-07-03.sbd.miller.92771.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master | Cassette Master -&gt; Dat (48k) &gt; Dat (Sony R500) -&gt; VXPocket v2 -&gt; Samplitude Professional v10.1 -&gt; FLAC (1 Disc Audio / 1 Disc FLAC)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Reed's Ranch on 1969-07-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Eaton and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-07-29" date="1988-07-29">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1988-07-29" date="1988-07-29">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880729-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-949" nameAsBilled="Laguna Seca Raceway"/>
   <program coverage="partial">
@@ -35,67 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-6aba72abd723f108dcb8" kind="matrix">
-      <identifier scheme="archive-org">gd1988-07-29.158384.mtx.photoleon.flac16</identifier>
-      <lineage>Matrix created in Adobe Audition by Joe Noel</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Recreation Area on 1988-07-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-5fa7fa038bb46a42299a" kind="matrix">
-      <identifier scheme="archive-org">gd1988-07-29.167172.ultramatrix.patched.miller.flac1644</identifier>
-      <lineage>Ultramatrix SBD &gt; DAT (44.1k) &gt; AIFF | AIFF &gt; Samplitude Pro X6 Suite &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Recreation Area on 1988-07-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller March 12, 2024</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-cb8bc153dd394dcc8526" kind="audience">
-      <identifier scheme="archive-org">gd1988-07-29.fob.nak100.holtz.jaz.102903.flac16</identifier>
-      <credit role="recordist">Greg Holtz</credit>
-      <lineage>Nakamichi CM-100 mics with CP-1 caps (Hand Held FOB) Sony WM-D6 | Master Cassettes (Maxell MX90) Tascam 112MKII -&gt; Korg MR-1, 1bit 2.8MHz -&gt; USB -&gt; Korg Audio Gate Software 24bit 96KHz -&gt; Wave Lab 6.0 w/UAD -&gt; R8brain for 16bit 44.1KHz sample rate conversion -&gt; Traders Little Helper flac8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Recreation Area on 1988-07-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): JAZ</note>
-    </recording>
-    <recording id="r-6db731ecc7c64bb5cd18" kind="audience">
-      <identifier scheme="archive-org">gd1988-07-29.pzm.russjcan.93970.sbeok.flac16</identifier>
-      <credit role="recordist">Russ Cansler</credit>
-      <lineage>Hat Mounted pzm's with Sony WMD6-C 45 feet away,Dead center Maxell MX-90 No nr | Master&gt;D6&gt;HD&gt;Audacity&gt;CDWave&gt;TLH&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Raceway on 1988-07-29. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Russ Cansler</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/29/7-29-88-monterey-ca-laguna-seca-raceway/</note>
-    </recording>
-    <recording id="r-f67ce4ac31a9f6817e62" kind="soundboard">
-      <identifier scheme="archive-org">gd1988-07-29.sbd.miller.106034.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Recreation Area on 1988-07-29. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/29/7-29-88-monterey-ca-laguna-seca-raceway/</note>
-    </recording>
-    <recording id="r-94ef3eacb6e497dd5b93" kind="unknown">
-      <identifier scheme="archive-org">gd1988-07-29.schoeps.litzenberger.watson.86255.sbefail.flac16</identifier>
-      <lineage>Schoeps cmc 4/mk2-&gt; Sony pcm-f1-&gt;Beta-&gt;Dat | Dat-&gt;Sony pcm R-500(playback)-&gt;vx pocket v2-&gt;SF6</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Raceway on 1988-07-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): M Watson</note>
-    </recording>
-    <recording id="r-15795b60f27d893846c5" kind="soundboard">
-      <identifier scheme="archive-org">gd1988-07-29.set2.sbd.russjcan.105341.flac16</identifier>
-      <lineage>SBD &gt; ? &gt; ? &gt; Cassette (Third Gen sbd cassette maxell XL II no nr) | 3rd gen sbd &gt; NakCR-3A &gt; AudigySE &gt; Audacity &gt; CDwave &gt; TLH</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Recreation Area on 1988-07-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Russ Cansler</note>
-    </recording>
-    <recording id="r-05b8dbc6ab712ab923b4" kind="soundboard">
-      <identifier scheme="archive-org">gd88-07-29.sbd.hayum.5395.sbeok.shnf</identifier>
-      <lineage>Soundboard( was labeled as Aud CM-&gt; DAT-&gt; CDR-&gt; EAC w/correct offsets using Secure Mode w/C2 (Plextor UW)-&gt; SHN (MKW))</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Laguna Seca Recreation Area on 1988-07-29. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/29/7-29-88-monterey-ca-laguna-seca-raceway/</note>
-    </recording>
-    <recording id="r-d4a5ebcca53f69fb11cc" kind="unknown">
-      <identifier scheme="other">etree-617056</identifier>
-      <note>Supplied catalogue listing: etree; gd88-07-29 158384 Monterey MTX photoLeon t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

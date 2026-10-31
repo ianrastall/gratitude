@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-03-31" date="1991-03-31">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-03-31" date="1991-03-31">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910331-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-787" nameAsBilled="Greensboro Coliseum"/>
   <program coverage="partial">
@@ -32,116 +31,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-e5d616a3ca4bf497067d" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-31.149580.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
-      <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
-      <lineage>Recording: Schoeps CMC3 MK4’s (ORTF) &gt; Panasonic SV-255 (16/48) Location: FOB mics hand held, center section, row S, seat 9 | Transfer: Dat &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Transfer by Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel April 02, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5d1d61899576e7c9400c" kind="matrix">
-      <identifier scheme="archive-org">gd1991-03-31.152200.miller.pearson.healy.flac2496</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 5, 2021</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-f9dccd7063473a2cdc24" kind="matrix">
-      <identifier scheme="archive-org">gd1991-03-31.154477.UltraMatrix.sbd.cm.miller.t.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 5, 2021</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-19e8c6808112a02bd484" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-31.164240.nak300.hessberg.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Nakamichi 300 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a2ef3740a44e2509a46f" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-31.164241.nak300.hessberg.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Nakamichi 300 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-4785586045e6fc04f9d3" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-31.fob.schoepsCMC34.unknown.GEMS.93473.flac16</identifier>
-      <lineage>(FOB) Schoeps CMC34 (ORTF) -&gt; MIT Cable -&gt; Oade Power Supply -&gt; Panasonic sv255 | Dat Master &gt; Dat 1 &gt; 16 bit 48kHz DAT Clone &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0 -&gt; Weiss Saracon for 16 BIT 44.1kHz SRC and POWR-3 Dither Encoding by Dazed64. Tracked in CDwave, FLACd Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Todd Evans, Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-f158888cdeb3b5ea6c76" kind="matrix">
-      <identifier scheme="archive-org">gd1991-03-31.mtx.south.99386.flac16</identifier>
-      <lineage>Matrix mix (SBD/AUD)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joey South</note>
-    </recording>
-    <recording id="r-f9c512d4a60d928b9f5d" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-31.nak300.bleich-sirmick.109862.sbeok.flac16</identifier>
-      <credit role="recordist">John Bleich</credit>
-      <lineage>Source: Audience recording &gt; Nakamichi 300s (with cp1 caps) &gt; Sony WM-D6 &gt; mac | mac &gt; Yamaha K-98 &gt; Edirol R09 HR &gt; 24/48 wav &gt; Adobe Audition &gt; Wavelab 6 (with iZotope Ozone 4) &gt; iZotope RX Advanced &gt; 16/44.1 wav &gt; CD Wave &gt; TLH &gt; Flac 16; taped from OTS, and transferred by John Bleich</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1dccfccf4ffa71c6af08" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-31.Nak300CP4.Floater.Keo.112999.Flac2496</identifier>
-      <credit role="recordist">Floater</credit>
-      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D6 Tapes From Floater,Transfer By Keo Tapes:Maxell MX-90,100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHZ Tracking/Sample Rate Conversion/Flacked/Metadata Tagging With AudioGate Software To 24 Bit/96kHz</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-4a3348e069d5f1f66708" kind="audience">
-      <identifier scheme="archive-org">gd1991-03-31.Nak300CP4.Floater.Keo.113000.Flac1644</identifier>
-      <credit role="recordist">Floater</credit>
-      <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D6 Tapes From Floater,Transfer By Keo Tapes:Maxell MX-90,100; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHZ Tracking/Sample Rate Conversion/Metadata Tagging With AudioGate Software To 32 Bit Float/96kHz Dithered/Flacked With Korg Aqua to 16/44 SBE's Checked/Fixed With Trader's Little Helper</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-4436d0d3554eeda7d1da" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-03-31.sbd.miller.120029.flac16</identifier>
-      <lineage>SBD -&gt; Dat (44.1k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a73b75a933c20e77654e" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-03-31.sbd.unknown.31955.sbeok.shnf</identifier>
-      <lineage>SBD dat master &gt; dat &gt; cd (eac, secure) &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): unknown</note>
-    </recording>
-    <recording id="r-ac87514bf4eb2ab2a52a" kind="soundboard">
-      <identifier scheme="archive-org">gd91-03-31.sbd.perkins.9451.sbeok.shnf</identifier>
-      <lineage>SBD &gt; ?? &gt; EAC &gt; Multiquence &gt; Shn</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greensboro Coliseum on 1991-03-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-affc3651aadaccf8169b" kind="unknown">
-      <identifier scheme="other">etree-614557</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-03-31.154477.UltraMatrix.sbd.cm.miller.t.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

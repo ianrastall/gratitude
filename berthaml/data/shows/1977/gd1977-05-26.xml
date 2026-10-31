@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-05-26" date="1977-05-26">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1977-05-26" date="1977-05-26">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770526-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-468" nameAsBilled="Baltimore Civic Center"/>
   <program coverage="partial">
@@ -37,48 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-debd5913d83c491b5f4a" kind="audience">
-      <identifier scheme="archive-org">gd1977-05-26.aud.wizard.32092.shnf</identifier>
-      <lineage>AUD&gt;MC&gt;DAT&gt;CDR&gt;EAC&gt;WAV&gt;DC6&gt;WAV</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1977-05-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Owen Brothers</note>
-    </recording>
-    <recording id="r-c3d13f3ffca13e503467" kind="matrix">
-      <identifier scheme="archive-org">gd1977-05-26.mtx.chappell.sb30a.97016.flac16</identifier>
-      <lineage>Matrix mix (SBD/AUD)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1977-05-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chris Chappell</note>
-      <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-cfe08d6a14a341db4546" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-26.sbd.ashley-bertha.31291.sbeok.shnf</identifier>
-      <lineage>SBD&gt;&gt;MR&gt;&gt;DAT&gt;&gt;SHN&gt;&gt;DAW(Bertha)&gt;&gt;CDA/SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1977-05-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jay Ashley</note>
-    </recording>
-    <recording id="r-e5ce0f02a1ec788158a4" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-26.sbd.serafin.11614.sbefail.shnf</identifier>
-      <lineage>SBD &gt; 7" RTR half-track recording @ 7.5 i.p.s. 1/2 track &gt; Marin County Mixdown ADAT &gt; SSSB</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1977-05-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jay Serafin</note>
-    </recording>
-    <recording id="r-e66173de55fd3411f6b5" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-26.sbd.wizard.32302.shnf</identifier>
-      <lineage>SBD&gt;MSR&gt;DAT&gt;SS&gt;CD&gt;EAC&gt;WAV&gt;DC6&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1977-05-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Owen Brothers</note>
-    </recording>
-    <recording id="r-aaafe7333accec3b9fb5" kind="audience">
-      <identifier scheme="archive-org">gd77-05-26.aud.vernon.18746.sbeok.shnf</identifier>
-      <lineage>Audience Recording | AUD&gt;MC&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1977-05-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-3d49184fa585156016d0" kind="soundboard">
-      <identifier scheme="archive-org">gd77-05-26.sbd.sacks.3224.sbeok.shnf</identifier>
-      <lineage>Soundboard | Soundboard &gt; 7 inch Master Reels @7.5ips 1/2 track -&gt; DAT(s) -&gt; ZA2 -&gt; CDR (x1)-&gt; EAC -&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Baltimore Civic Center on 1977-05-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

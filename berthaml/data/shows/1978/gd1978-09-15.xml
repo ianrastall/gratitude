@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-09-15" date="1978-09-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1978-09-15" date="1978-09-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780915-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-731" nameAsBilled="Gizah Sound and Light Theater"/>
   <program coverage="partial">
@@ -29,82 +28,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-36cc318184fb1fcfa147" kind="unknown">
-      <identifier scheme="archive-org">gd1978-09-15.165797.remastered.107304.Cairo-Egypt.sony.ecm280.acetboy.flac16</identifier>
-      <credit role="recordist">Eldon Porray</credit>
-      <lineage>remaster of shn #107304 by acetboy of the MOTB Release: 0138 16-44.1 Taped By: Eldon Porray Transfer By: Bob Menke Mastering By: Bill Koucky, Derek McCabe</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gizah Sound and Light Theater on 1978-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): acetboy</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
-    </recording>
-    <recording id="r-bb9e7394c9962f3c25ed" kind="unknown">
-      <identifier scheme="archive-org">gd1978-09-15.fob.sonyecm280.porray.motb-0138.107304.flac16</identifier>
-      <credit role="recordist">Eldon Porray</credit>
-      <lineage>2 x Sony ecm 280 mics &gt;&gt; Sony 153sd &gt;&gt; MAC | MAC &gt;&gt; Nakamichi CR7a =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96] &gt; flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gizah Sound and Light Theater on 1978-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Bob Menke and Derek McCabe and Bill Koucky</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-3be0d8683963181b5b0a" kind="unknown">
-      <identifier scheme="archive-org">gd1978-09-15.mtx.dts.tobin.88924.sbeok.flac16</identifier>
-      <credit role="recordist">See info file</credit>
-      <lineage>See info file</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sphinx Theatre on 1978-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note>Source credit (transfer-mastering): DTS mix by Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1582d8daa4cfb7691080" kind="matrix">
-      <identifier scheme="archive-org">gd1978-09-15.mtx.tobin.88923.flac</identifier>
-      <credit role="recordist">See info file</credit>
-      <lineage>SBD + AUD Matrix 2 Source Mix (60%-SBD/40%-AUD)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sphinx Theatre on 1978-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrixing by Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c2e86a75ce9666ce52e8" kind="unknown">
-      <identifier scheme="archive-org">gd1978-09-15.nak700.unknown.LMPP.94537.flac16</identifier>
-      <credit role="recordist">anonymous</credit>
-      <lineage>2 Nakamichi 700 cardioid mic's, Sony TCM 158 stereo cassette recorder | 1st gen Maxell UDXL 2 cass &gt; Sony TC-KE5000S Cassette player &gt; 16/44.1 wave &gt; Tascam CD-RW 750 &gt; EAC &gt; 16/44.1 Wave &gt;Edited in Adobe Audition, mastered with iZotope Ozone, noise reduction with iZotope RX Advanced, tracked with CD Wave and flac'd with TLH</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sphinx Theatre on 1978-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): anonymous and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0840457711c1d6f45bc2" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-09-15.sbd.lai.295.shnf</identifier>
-      <lineage>Probably the SBD 90/2nd listed in the Deadlists project which would be - Master 10" reel @ 15ips 1/2trk-&gt; PCM x1-&gt; DAT -&gt; CD-R -&gt; WAV via EAC -&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sphinx Theatre on 1978-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-3c757e9a63a4a4f30451" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-09-15.sbd.miller.87782.flac16</identifier>
-      <lineage>Set One: SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat (48k) Set Two: SBD -&gt; Master Reel -&gt; PCM -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sphinx Theatre on 1978-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-16d87fa461273ee890fa" kind="audience">
-      <identifier scheme="archive-org">gd78-09-15.aud.dauria.4160.sbeok.shnf</identifier>
-      <lineage>Audience Recording: Sony ECM280 | Aud FOB, front row LFC, Sony ECM280 &gt; Sony TC-153 cassette recorder; Transfer: Master FOB Cassettes &gt; Yamaha KXW9527 &gt; Apogee AD1000 &gt; Delta DiO 2496 &gt; Samplitude 2496 &gt; CDWAV &gt; SHNv3</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gizah Sound and Light Theater on 1978-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): John D'Auria</note>
-    </recording>
-    <recording id="r-b1cbaabc971aaf642329" kind="soundboard">
-      <identifier scheme="archive-org">gd78-09-15.sbd.miller.21781.sbeok.shnf</identifier>
-      <lineage>Soundboard | Set One: SBD -&gt; Reel Master (Multi-track) -&gt; Cass -&gt; Dat -&gt; CD -&gt; EAC -&gt; SHN; Set Two: SBD -&gt; Reel Master (10in @ 15 I.P.S. 1/2-track) -&gt; Dat -&gt; CD -&gt; EAC -&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gizah Sound and Light Theater on 1978-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-65f22f1a66fd5e9f1313" kind="soundboard">
-      <identifier scheme="archive-org">gd78-09-15.set2-sbd.murphy.5933.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; 10" RTR @ 15 I.P.S. 2-track &gt; Sony 601 PCM &gt; Panasonic 3700 DAT &gt; Neve "Capricorn" digital console &gt; DB3000s sample-rate converter &amp; noise shaper &gt; Panasonic 4100 DAT &gt; Panasonic 3700 DAT &gt; SSSB</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Gizah Sound and Light Theater on 1978-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

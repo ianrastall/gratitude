@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-09-06" date="1988-09-06">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1988-09-06" date="1988-09-06">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880906-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-553" nameAsBilled="Capital Centre"/>
   <program coverage="partial">
@@ -36,77 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-c03643338f804ca77976" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-06.131132.nakcm100.datbrad.flac16</identifier>
-      <credit role="recordist">datbrad</credit>
-      <lineage>OTS 2 Nakamichi CM100s w/10v batt/cP4 shotguns(XY)&gt;Sony TCD5M (Maxell MX90s); | Nakamichi CR7A&gt;Lucid AD9624&gt;Fostex D5&gt;DAT&gt; Tascam DA20MKII&gt;Tascam CDRW700&gt;CDR&gt; Wavelab 6&gt;CDWave&gt;Flac Frontend(Level 6); Recording by DATBRAD; Master cassette transfer to DAT by Mark Lynn; DAT to CDR and conversion to wav&gt;flac by DATBRAD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): datbrad</note>
-    </recording>
-    <recording id="r-4ffcced6a137a03c68c4" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-06.140020.nak300.boedicker.flac1644</identifier>
-      <credit role="recordist">Dave Boedicker</credit>
-      <lineage>Source:Nakamichi 300 Mics W/CP4 Shotguns&gt;Nakamichi 550 Cassette Deck (Lead Deck) &gt;Sony WM-D6C Cassette Deck&gt;TDK MA-90 Metal Cassette Master Tapes&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR (24/44.1 KHZ)&gt;Cd Wav Editor&gt;Traders Little Helper&gt; Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper; Taped By Dave Boedicker; Official Taper Section, Section 128 Row Bb,Seat 8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dave Boedicker</note>
-    </recording>
-    <recording id="r-641b420d3eb63063e950" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-06.142144.OTS.Schoeps.PCM.Mattes.Miller.Noel.t-flac1644</identifier>
-      <credit role="recordist">Ted Mattes</credit>
-      <lineage>Don Crandall &amp; Chris Huron OTS Recording: Schoeps CMC3 MK41 &gt; PCM (Nakamichi DMP-100); Charlie Miller | Sony SL-HF66 &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (WAV 16-bit/44.1k) &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
-    </recording>
-    <recording id="r-a2fd39090d8f469e2827" kind="matrix">
-      <identifier scheme="archive-org">gd1988-09-06.163715.ultramatrix.miller.flac2496</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 16, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-3e76b6b21e0e2811f3fe" kind="matrix">
-      <identifier scheme="archive-org">gd1988-09-06.164246.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 16, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-f8fe7b6f704e8e6673f3" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-06.nak100.mchugh.hanscom.bzl.83295.sbeok.flac16</identifier>
-      <credit role="recordist">MC &gt; standalone TDK DA-5800 CD recorder, via Nak BX-300 cassette deck, as long multi-song tracks. Transfer by Dave Hanscom () Track-splitting, burning, etc.: EAC to extract to hard drive, CD Wave for splitting resulting .wav files, mkw to encode to shn. This is done by Bzl () &gt; flac</credit>
-      <lineage>NAK-100s &gt; Sony D-5, using Dolby B &gt; Maxell MX- 90s | recorded by Boyd McHugh from tapers' section</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dave Hanscom and bzl</note>
-    </recording>
-    <recording id="r-1c9208c743a269f9f8ec" kind="audience">
-      <identifier scheme="archive-org">gd88-09-06.aud.ingle.9984.sbeok.shnf</identifier>
-      <lineage>AUD&gt;PCM&gt;DAT&gt;CDR (Schoeps CMC-34Âs)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-1676166d16faaf279140" kind="soundboard">
-      <identifier scheme="archive-org">gd88-09-06.sbd.miller.27750.sbeok.flacf</identifier>
-      <lineage>flac16 SBD&gt; Cassette Master&gt; Dat (SV3800/48k); | Dat (Sony D8)&gt; RME Hammerfall Digiface&gt; Sony Vaio C1VP&gt; Samplitude v7.02 Professional&gt; FLAC; Transferred and Edited By Charlie Miller</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1988-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-ddb30d46cd7fa2d92fd7" kind="unknown">
-      <identifier scheme="other">etree-610461</identifier>
-      <note>Supplied catalogue listing: etree; gd88-09-06.sbd.miller.27750.sbeok.flacf. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

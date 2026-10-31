@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1970-12-31" date="1970-12-31">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1970-12-31" date="1970-12-31">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19701231-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-69" nameAsBilled="Winterland"/>
   <program coverage="partial">
@@ -26,34 +25,5 @@
       <note>Source section label: Show</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-cfe83c4f93b57f8d2924" kind="unknown">
-      <identifier scheme="archive-org">gd1970-12-31.sonyecm22p.kaslow-todd.berger.101530.flac16</identifier>
-      <credit role="recordist">Craig Todd and Harvey Kaslow</credit>
-      <lineage>sony ecm-22p's&gt;sony tc-770 reel @ 7.5 ips | aud reel master&gt;7" reel @ 7.5 ips technics rs-1506&gt;hd-p2 24/96&gt;hd&gt;cd wave&gt;adobe 16/44&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1970-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-27f97bac30ccc6834075" kind="soundboard">
-      <identifier scheme="archive-org">gd70-12-31.aftershow.sbd.cole.6171.sbeok.shnf</identifier>
-      <lineage>Soundboard (aftershow performance) | SBD &gt; ?reel? &gt; DAT &gt; CDR &gt; EAC (secure) &gt; CD Wave (split) &gt; SHN V3</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1970-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jim Oade and Brian Cole</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1caa51c1e3232dac5c6c" kind="soundboard">
-      <identifier scheme="archive-org">gd70-12-31.sbd-fm.7283.sbeok.shnf</identifier>
-      <lineage>Soundboard + FM | [SBD MR &gt; Cass &gt; DAT &gt; CDR] + [FMS (KSAN) &gt; ?? &gt; Cass &gt; DAT &gt; CDR]</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1970-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-    </recording>
-    <recording id="r-60e109df8168e76dbdd4" kind="unknown">
-      <identifier scheme="archive-org">gd70-12-31.sbd.hollister-ayers.106.shnf</identifier>
-      <lineage>S:MReel&gt;DAT&gt;Satellite Feed&gt;DAT&gt;ZA2&gt;SoundForge NR (removed hum)&gt;DartPro32 de-hissed (gain 3.0)&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1970-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): David Hollister</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

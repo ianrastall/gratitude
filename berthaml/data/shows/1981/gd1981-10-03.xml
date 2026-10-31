@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-10-03" date="1981-10-03">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1981-10-03" date="1981-10-03">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19811003-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-433" nameAsBilled="Rainbow Theatre"/>
   <program coverage="partial">
@@ -38,45 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-3accabba93525461fae7" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-03.143078.sbd.dalton.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Tim Dalton</credit>
-      <lineage>flac16/48kHz ; Master Soundboard Cassettes &gt; 1st generation reels (Technics)&gt; Dat(Panasonic SV-3800)(16-bit/48k)&gt; Tim Dalton's Dat (16-bit/48k); Transfer Info: Dat (Sony PCM-R500)(16-bit/48k)&gt; Apogee aes/ebu cable &gt; Tascam DA-3000 (.wav 16-bit/48k) &gt; Adobe Audition 3.01 &gt; TLH flac1648</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-81-london-england-rainbow-theater/</note>
-    </recording>
-    <recording id="r-d10e7ab542310aa4b973" kind="unknown">
-      <identifier scheme="archive-org">gd1981-10-03.145249.s2.beyer.stankiewicz.flac2448</identifier>
-      <credit role="recordist">Richie Stankiewicz</credit>
-      <lineage>BeyerDynamic M160's &gt; Sony TC-D5M &gt; MAC &gt; 1st-Gen tape. Concert recording by Richie Stankiewicz, copy via Rip Tompkins. | Transfer: XLII &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 02/2019</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rip Tomkins;Andrew F.</note>
-    </recording>
-    <recording id="r-5a16dbc4105a0117428b" kind="audience">
-      <identifier scheme="archive-org">gd1981-10-03.145359.s2.beyer.m160.stankiewicz.flac16</identifier>
-      <credit role="recordist">Richie Stankiewicz</credit>
-      <lineage>Source: BeyerDynamic M160's &gt; Sony TC-D5M &gt; MAC &gt; 1st-Gen tape. Concert recording by Richie Stankiewicz, copy via Rip Tompkins. | Transfer: XLII &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 02/2019</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rip Tomkins;Andrew F.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-81-london-england-rainbow-theater/</note>
-    </recording>
-    <recording id="r-53f0347a000ef24cd873" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-03.sbd.miller.103480.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master -&gt; Dat | Dat (Sony R500) -&gt; Samplitude Professional v10.22 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-03. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-81-london-england-rainbow-theater/</note>
-    </recording>
-    <recording id="r-7e64315388e012db89b8" kind="soundboard">
-      <identifier scheme="archive-org">gd81-10-03.sbd.jeffm.2369.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD&gt; MC&gt; DAT&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-81-london-england-rainbow-theater/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

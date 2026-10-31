@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-03-26" date="1987-03-26">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1987-03-26" date="1987-03-26">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870326-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-677" nameAsBilled="Hartford Civic Center"/>
   <program coverage="partial">
@@ -40,129 +39,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-485da58aaf32f4645166" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.135547.chasingwilma.flac24</identifier>
-      <credit role="recordist">chasingwilma</credit>
-      <lineage>2 nakamichi 300 + cp4 / (2) audio technica shotguns&gt; tcd-d5&gt; mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): chasingwilma</note>
-    </recording>
-    <recording id="r-af28588b5bd2f7d4e6d2" kind="matrix">
-      <identifier scheme="archive-org">gd1987-03-26.138162.sbd.miller.flac24</identifier>
-      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-2462c767f9070f0abb59" kind="matrix">
-      <identifier scheme="archive-org">gd1987-03-26.138166.sbd.miller.sbeok.flac16</identifier>
-      <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c57493af4f8499120b8a" kind="audience">
-      <identifier scheme="archive-org">gd1987-03-26.138700.FOB.Schoeps.Bryant.Gastwirt.Miller.Noel.t-flac16</identifier>
-      <credit role="recordist">Robert Bryant</credit>
-      <lineage>Robert Bryant recording: (patched out of the Oade Brothers) FOB Schoeps CMC4 MK41 &gt; Sony PCM &gt; DAT/44; Charlie Miller | DAT (Sony PCM-R500) &gt; Sound Devices 744T &gt; wav 16/44; Joe Noel edits: Track, Flac &amp; Pack: Wave &gt; Audacity &gt; flac 16/44; Checksum &amp; tags created in xACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller, Rich Gastwirt, Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-3545f0fac40e642766c1" kind="audience">
-      <identifier scheme="archive-org">gd1987-03-26.143349.OTS.AT835b-AKG.blend.Ackerman.Noel.t-flac2496</identifier>
-      <credit role="recordist">Ray Ackerman</credit>
-      <lineage>Ray Ackerman’s Master Audience Cassettes; Two x Audio Technica 835b + One x AKG D12e center fill &gt; Realistic 32-1105A, 4 channel stereo mixer &gt; Sony TCD5 (OTS) | Master Cassettes (Nakamichi 700 MKii) &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-14b7c9ede42a187df902" kind="audience">
-      <identifier scheme="archive-org">gd1987-03-26.145505.ots.at835b.akg.d12e.blend.ackerman.noel.t-flac16</identifier>
-      <credit role="recordist">Ray Ackerman</credit>
-      <lineage>Ray Ackerman’s Master Audience Cassettes; Two x Audio Technica 835b + One x AKG D12e center fill &gt; Realistic 32-1105A, 4 channel stereo mixer &gt; Sony TCD5 (OTS) | Master Cassettes (Nakamichi 700 MKii) &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-1076172ca8866dd4e3f8" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.150711.nak300.flac16.re-mastered</identifier>
-      <credit role="recordist">Joe D'Amico ''AKA'' Joebeacon</credit>
-      <lineage>Nak 300 Mics W/Cp4 Shotguns &gt; Sony D5 | Nak Dragon &gt; Sony Sbm1 &gt; Cool Edit &gt; Master Raw Files &gt; Adobe Audition CS6 &gt; Trader's Little Helper</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joe D'Amico ''AKA'' Joebeacon</note>
-    </recording>
-    <recording id="r-3ac901938e94b927d8fe" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.150850.senn441.lamarre.miller.2496</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>Sennheiser 441 &gt; Cassette Master (Sony TC-D5M/Maxell MX90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller November 5, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-607ef7c69d9739ee3112" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.151599.senn441.cm.lamarre.miller.t.flac16</identifier>
-      <credit role="recordist">Recorded by Doug Lamarre</credit>
-      <lineage>Sennheiser 441 &gt; Cassette Master (Sony TC-D5M/Maxell MX90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller November 5, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5568b87656ffe3f5a3e4" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.at835-d12e.Ackerman-Tarazski.102131.flac16</identifier>
-      <credit role="recordist">Ray Ackerman</credit>
-      <lineage>(2x) AudioTechnica AT835 + (1x) AKG D12E &gt; Sony TCD5 | Nakamichi 700II (cassette master)&gt; Oade Modified Lunatec V3 @ 24/96&gt; Wave Lab 5 (resample, Apogee uv22hr dither)&gt; CDA&gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Ray Ackerman;Tracks, FLACs, Tags by Craig Taraszki</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-8a221031c1fcd473afd4" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.aud.morris.106901.flac16</identifier>
-      <credit role="recordist">Bob Morris</credit>
-      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell MX 90) Recorded from Taper Section 8, Row H, Seat 14 | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Bob Morris</note>
-    </recording>
-    <recording id="r-a23c3f2682eb424f8201" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.nak300.damico.89168.sbeok.flac16</identifier>
-      <credit role="recordist">Joe D'Amico</credit>
-      <lineage>nak300 mics w/ cp4 shotguns &gt; sony d-5 | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard&gt; cool edit pro &gt; flac frontend</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joe D'Amico</note>
-    </recording>
-    <recording id="r-82203542a4c4cc295857" kind="unknown">
-      <identifier scheme="archive-org">gd1987-03-26.nakcm304.suraci.81450.sbeok.flac16</identifier>
-      <credit role="recordist">Tony Suraci</credit>
-      <lineage>Nak CM304's&gt;Sony D5 | Nak CR5A&gt;Lunatec V3&gt;SD722</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Tony Suraci</note>
-    </recording>
-    <recording id="r-d4a4691ced102bc1017c" kind="matrix">
-      <identifier scheme="archive-org">gd1987-03-26.s2.sbd.seaweed.124744.flac2448</identifier>
-      <lineage>Set 2 Source: SBD (Healy Matrix) &gt; Metal cassette 1st Gen &gt; Maxell MXS-90 2nd Gen cassette. With kind thanks to Seaweed1010. | MXS &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit) &gt; TLH &gt; FLAC 2448 tagged. June 2013, Andrew F.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
-    </recording>
-    <recording id="r-7f6d17e362a80b9e9fd3" kind="soundboard">
-      <identifier scheme="archive-org">gd87-03-26.mixed.braverman.10923.sbeok.shnf</identifier>
-      <lineage>SBD | Master Cassette &gt; DAT &gt; CD &gt; SHN;</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1987-03-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-d2c4a3c19540f10401b3" kind="unknown">
-      <identifier scheme="other">etree-602007</identifier>
-      <note>Supplied catalogue listing: etree; gd87-03-26.138166.sbd-UltraMatrix.cm.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

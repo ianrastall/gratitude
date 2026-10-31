@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-08-18" date="1991-08-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-08-18" date="1991-08-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910818-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-939" nameAsBilled="Shoreline Amphitheatre"/>
   <program coverage="partial">
@@ -36,96 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-fd69b2c30eb87fbdec23" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-08-18.141295.sbd.miller.flac2496</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fb9a533d1e3a4e8a9701" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-08-18.141326.sbd.cm.miller.flac1644</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fb07fea41e784aec10fc" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-08-18.147507.sbd.miller.flac24</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-30eccc628005a6047207" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-08-18.148256.sbd.cm.miller.flac16</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a0ac398b520ace449173" kind="unknown">
-      <identifier scheme="archive-org">gd1991-08-18.149439.BK4003.ebel.flac1648</identifier>
-      <lineage>T/S B&amp;K 4003 (Omni Caps)-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-2c830c23097292ce107f" kind="unknown">
-      <identifier scheme="archive-org">gd1991-08-18.151061.aud.lohr.vernon.flac1648</identifier>
-      <credit role="recordist">Gesine Lohr</credit>
-      <lineage>Unspecified mics &gt; Nak 550 &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification) &gt; dbpoweramp &gt; 1648</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-d044719468191dcc2738" kind="unknown">
-      <identifier scheme="archive-org">gd1991-08-18.151062.aud.lohr.vernon.flac2496</identifier>
-      <credit role="recordist">Gesine Lohr</credit>
-      <lineage>Unspecified mics &gt; Nak 550 &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-8bcc47b3b7cd0a63d642" kind="matrix">
-      <identifier scheme="archive-org">gd1991-08-18.mtx.hansokolow.107883.flac16</identifier>
-      <lineage>Matrix by hansokolow of these two sources: DSBD: (shnid=21349) SB DAT 48khz low-gen clone // DAUD: (shnid=94188) Sennheiser ME-80's&gt;Technics SV-MD1; By Keith Litzenberger</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-      <note>Source credit (transfer-mastering): hansokolow</note>
-    </recording>
-    <recording id="r-767056333093e28421c0" kind="unknown">
-      <identifier scheme="archive-org">gd1991-08-18.sbd.kung.19870.flac16</identifier>
-      <lineage>SB DAT 48khz low-gen clone (on 60 min/120 minute audio dats, 93?) - Sony PCM-1 / 7 pin - Nightengale PCI / Optical (reverse format) - Ce Pro 2000 Record 48k - Ce Pro 2000 Downsample to 44k / highest quality, pre-post filter - CDWav / ShnTool / FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Steve Behan</note>
-    </recording>
-    <recording id="r-86ec672d1e56e384262f" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-08-18.sbd.lynn.81573.sbeok.flac48</identifier>
-      <lineage>Soundboard-&gt;DAT @ 48 kHz-&gt;DAT x 4.Conversion:Sony R500 -&gt;M Audio Audiophile 2496 -&gt;Soundforge (record)-&gt;CDWAV (track) -&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Mark Lynn</note>
-    </recording>
-    <recording id="r-2132d969eb39ef108560" kind="unknown">
-      <identifier scheme="archive-org">gd1991-08-18.senn-ME80.wklitz.94188.flac16</identifier>
-      <credit role="recordist">Keith Litzenberger</credit>
-      <lineage>Sennheiser ME-80's&gt; Technics SV-MD1 (DAT) | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9 (Fades &amp; Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
-    </recording>
-    <recording id="r-0c028d88d648845031c3" kind="unknown">
-      <identifier scheme="archive-org">gd91-08-18.sbd.nawrocki.21349.sbeok.shnf</identifier>
-      <lineage>SB DAT 48khz low-gen clone</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1991-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-    <recording id="r-f85810e49da75463ffbe" kind="unknown">
-      <identifier scheme="other">etree-607753</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-08-18.148256.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

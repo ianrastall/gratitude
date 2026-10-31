@@ -16,15 +16,17 @@ Completion requires every event identity and edition in the agreed inventory to 
 
 ## Where to work
 
-- `data/` is generated, validated XML. Edit the corresponding source under `curated/`, then rebuild. A modified generated file is detected and preserved by refusing the rebuild.
-- `curated/people.xml`, `songs.xml`, `venues.xml` and `releases.xml` contain researched registry overrides. Acquired song and venue entries are added during generation.
-- `curated/shows/YYYY/<id>.xml` replaces the acquired show record. Preserve the ID and cited evidence; this supports reviewed personnel, guests, segues and source mappings without regeneration undoing them.
-- `curated/identities.json` contains deliberate source-to-record ID overrides. Existing unambiguous show IDs were retained through `sources/legacy-identity-map.json`; a source suffix is never interpreted as early/late without evidence.
-- `reports/review-queue.jsonl` contains stable issue IDs, evidence hashes, states and subjects. `reports/coverage.json` is the machine-readable progress summary.
+- `data/shows/` and `data/people.xml`, `songs.xml`, `venues.xml` and `releases.xml` are the source of truth. Edit them directly and rebuild; git is the review log. The build reads them and never writes them, and sources never change them.
+- `data/recordings/`, `playlists/` and `reports/` are generated. A hand edit to one of these is detected and refused at the next rebuild. To undo an accidental edit, restore the file with git.
+- `curated/recordings/YYYY/<show-id>.xml` holds hand-entered recordings in the normal `<recordings>` form. They come first in the generated file; acquired recordings with other identifiers follow, and a curated playlist with the same ID replaces the acquired one.
+- `curated/identities.json` assigns IDs to source events that no show file cites yet. Existing unambiguous show IDs were retained through `sources/legacy-identity-map.json`; a source suffix is never interpreted as early/late without evidence.
+- `reports/review-queue.jsonl` contains stable issue IDs, evidence hashes, states and subjects. `reports/coverage.json` is the machine-readable progress summary. `reports/source-drift.jsonl` lists where a pinned source differs from a show file.
 
-Copy a generated show into the matching `curated/shows/` path before editing it. Acquisition never edits these overrides.
+Each show file's `<cite>` of its Jerrybase event is how the build pairs the file with its source, so keep it when editing. Recordings attach by date: correcting a show's date, or giving a date a second show, reassigns them at the next rebuild. Automated track links are recalculated at every rebuild; if you renumber performances, the validator reports any link in `releases.xml` or `curated/recordings/` that no longer resolves.
 
-For a resolved issue, add an entry to `curated/resolutions.json` containing its `id`, current `evidence_sha256`, `state` (`resolved`, `accepted-unknown` or `excluded`), `reason`, `reviewed` date and `citations`. Stale evidence hashes fail the build. Review status remains a separate property of the XML record. The supplied schema defines `reviewed` as checked by a person and `verified` as checked against multiple independent sources; imports retain `draft` or `skeleton`.
+To review a show, check it, cite what you checked, and set its `<record status>` to `reviewed` or `verified`. That closes its `show-review` issue with no further bookkeeping. The schema defines `reviewed` as checked by a person and `verified` as checked against multiple independent sources; imports retain `draft` or `skeleton`.
+
+For any other resolved issue, add an entry to `curated/resolutions.json` containing its `id`, current `evidence_sha256`, `state` (`resolved`, `accepted-unknown` or `excluded`), `reason`, `reviewed` date and `citations`. Stale evidence hashes fail the build.
 
 ## Recording and release playlists
 

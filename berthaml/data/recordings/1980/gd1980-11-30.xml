@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1980-11-30">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-06a17a946aa9ba12e099" kind="matrix">
+    <identifier scheme="archive-org">gd1980-11-30.110936.mtx.chappell.sb31.flac16</identifier>
+    <lineage>Matrix (SBD/AUD mix) Ratio ~ Phi</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theatre on 1980-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Matrix by Chris Chappell</note>
+    <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-bd18fc624b839abef4ba" kind="audience">
+    <identifier scheme="archive-org">gd1980-11-30.123306.senn421.moore-berger.flac2496</identifier>
+    <credit role="recordist">Jerry Moore</credit>
+    <lineage>Partial source: aud cassette master taped by Jerry Moore or ???*; sennheiser 421's &gt; sony d5m, fofb; maxell mx-90/dolby b; nak dragon/b &gt; tascam hd-p2 24/96 &gt; pc &gt; adobe audition 2.0 &gt; cd wave &gt; flac; transferred &amp; seeded by Rob Berger</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theater on 1980-11-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Rob Berger</note>
+    <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
+  </recording>
+  <recording id="r-efce13c3b9e1dbd9abc9" kind="unknown">
+    <identifier scheme="archive-org">gd1980-11-30.128440.naks.mason.flac16</identifier>
+    <credit role="recordist">Mason B. Taylor</credit>
+    <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theater on 1980-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-1bebc0b232ce3ba002aa" kind="unknown">
+    <identifier scheme="archive-org">gd1980-11-30.157922.aud.hicks-fong.flac2448</identifier>
+    <credit role="recordist">concert recording by John Hicks &amp; Dennis Fong</credit>
+    <lineage>Unknown mics &amp; deck &gt; Sony Fe-Cr 90's | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave (24bit-output) &gt; TLH &gt; FLAC 2448 tagged</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theater on 1980-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Transferred by Andrew F. 09/2022</note>
+  </recording>
+  <recording id="r-1816df6037396af27bdd" kind="soundboard">
+    <identifier scheme="archive-org">gd1980-11-30.175075.set1.set2p.remaster.miller.flac1644</identifier>
+    <lineage>SBD &gt; Cassette Master &gt; Reel &gt; DAT &gt; CD | CD &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theater on 1980-11-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Remastered by Charlie Miller November 8, 2025</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-ec4a2b6ffe379c390798" kind="unknown">
+    <identifier scheme="archive-org">gd1980-11-30.nak700-set1.wagner.chappell.110921.flac16</identifier>
+    <credit role="recordist">Bob Wagner</credit>
+    <lineage>Nakamichi 700 (With Bass EQ) -&gt; Cassette Master (Sony D5M/TDK SA-X90/Dolby B); Transfer Info: Cassette Master (Nakamichi CR-7A) -&gt; Apogee Ensemble (24bit/44.1kHz) -&gt; Peak Pro -&gt; AIFF -&gt; Vegas 10 &gt; CD WAV -&gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theater on 1980-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Chris Chappell</note>
+    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+    <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-b0eb7599028c38c3be47" kind="audience">
+    <identifier scheme="archive-org">gd1980-11-30.nak700-set2.wagner.miller.90497.sbeok.flac16</identifier>
+    <credit role="recordist">Bob Wagner</credit>
+    <lineage>(FOB) Nakamichi 700 (With Bass EQ) -&gt; Cassette Master (Sony D5M/TDK SA-X90/Dolby DB) D | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt;</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theatre on 1980-11-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+  </recording>
+  <recording id="r-0122c8d65800440a9c75" kind="audience">
+    <identifier scheme="archive-org">gd1980-11-30.nak700-set2.wagner.miller.90530.sbeok.flac24</identifier>
+    <credit role="recordist">Bob Wagner</credit>
+    <lineage>(FOB) Nakamichi 700 (With Bass EQ) -&gt; Cassette Master (Sony D5M/TDK SA-X90/Dolby DB) D | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt;</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theatre on 1980-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
+  </recording>
+  <recording id="r-349d6357c690ae266f05" kind="soundboard">
+    <identifier scheme="archive-org">gd1980-11-30.part.127319.aud.oade.stankiewicz.wise.minches.flac24</identifier>
+    <credit role="recordist">Jim Oade; Richie Stankiewicz; Jim Wise</credit>
+    <lineage>Set 1 - Master Audience Cassette: 2 Teac ME-120s&gt; Sony D-5 location SBD; Set 2 - Master Audience Cassette: 2 Beyer M160s&gt; Sony D-5 location SBD | Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theater on 1980-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): David Minches</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
+  </recording>
+  <recording id="r-3503465de3645e58d58a" kind="soundboard">
+    <identifier scheme="archive-org">gd80-11-30.sbd-aud.sacks.2416.sbeok.shnf</identifier>
+    <lineage>Soundboard and Audience composite | MSC&gt; Reel&gt; DATs&gt; CDRs&gt; EAC&gt; SHN (set I and Scarlet&gt;Fire from Set II); remainder Jim Wise's Sony ECM280s&gt; D5&gt; DATs&gt; CDRs&gt; EAC&gt; SHN, also with patches from other AUDs</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fox Theater on 1980-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
+  </recording>
+</recordings>

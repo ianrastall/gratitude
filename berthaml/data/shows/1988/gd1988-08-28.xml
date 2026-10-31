@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-08-28" date="1988-08-28">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1988-08-28" date="1988-08-28">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880828-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-724" nameAsBilled="Autzen Stadium, University of Oregon"/>
   <program coverage="partial">
@@ -34,74 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-a6bcae24e994e899c13b" kind="unknown">
-      <identifier scheme="archive-org">gd1988-08-28.139356.cmc34.set1.ebel.flac1644</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Schoeps CMC 34-&gt; PCM-&gt; DAT | Cassette transfered to DAT in the mid 90's... DAT-&gt; Marantz CDR 615 (late 90's)-&gt; extract wav -&gt; Flaced with Traders little helper Level 8-&gt;Tagged. (16/44.1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-aecb82899d7666e8b1e8" kind="unknown">
-      <identifier scheme="archive-org">gd1988-08-28.140488.sonywmd3.flac1644</identifier>
-      <credit role="recordist">Slipkid68</credit>
-      <lineage>Sony WM-D3 with stock mic &gt; Maxell XL-II 90 minute cassette &gt; Nakamichi CR-7A azimuth-adjusted playback &gt; Sound Devices USBPre2 &gt; Audacity 2.0 (16/44.1 capture to .wav) &gt; iZotope RX and Ozone &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, U. of Oregon on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): JEMS</note>
-    </recording>
-    <recording id="r-f74354227d4a57983de3" kind="audience">
-      <identifier scheme="archive-org">gd1988-08-28.152079.fob.nak700.severson.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Mark Severson</credit>
-      <lineage>Mark Severson's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, University Of Oregon on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-67a70ae1e653a2b8348f" kind="audience">
-      <identifier scheme="archive-org">gd1988-08-28.152080.fob.nak700.severson.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Mark Severson</credit>
-      <lineage>Mark Severson's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, University Of Oregon on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-768440569a06fa2a9e2e" kind="matrix">
-      <identifier scheme="archive-org">gd1988-08-28.163899.ultramatrix.miller.flac2496</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Izotope RX8 Advanced &gt; Adobe Audition CC2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, University Of Oregon on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller March 6, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-997c58a828cfcebb8601" kind="matrix">
-      <identifier scheme="archive-org">gd1988-08-28.164247.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Izotope RX8 Advanced &gt; Adobe Audition CC2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, University Of Oregon on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller March 6, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-3782a56b1ce6a359482d" kind="soundboard">
-      <identifier scheme="archive-org">gd88-08-28.sbd.ladner.31107.sbeok.flacf</identifier>
-      <lineage>Soundboard | Healy SBD Ultramix Patch &gt; Sony D5 &gt; MSC (TDK MA-XG90 Type IV) &gt; Nakamichi DR2 &gt; gold RCA connectors &gt; Audiophile 2496 &gt; WaveLab 5.0 (24/48) &gt; Waves L3 Multimaximizer (16/44.1) &gt; CD Wave v1.9 &gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, U. of Oregon on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): C. Ladner</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
-    </recording>
-    <recording id="r-0c917c3e1effdc958d6d" kind="soundboard">
-      <identifier scheme="archive-org">gd88-08-28.sbd.wiley.16085.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; MC &gt; DAT &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Autzen Stadium, U. of Oregon on 1988-08-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): T. Wiley</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

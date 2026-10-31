@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-07-18" date="1972-07-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1972-07-18" date="1972-07-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720718-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-458" nameAsBilled="Roosevelt Stadium"/>
   <program coverage="partial">
@@ -48,54 +47,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-b4ed0711142775376914" kind="matrix">
-      <identifier scheme="archive-org">gd1972-07-18.127703.mtx.dusborne.flac16</identifier>
-      <lineage>2 Source Matrix by Dusborne; Recording Info: SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD; Transfer Info: CD -&gt; Samplitude Professional v7.02 -&gt; Cool Edit Pro v2.0 -&gt; FLAC; and AUDMC&gt;?&gt;R&gt;D&gt;SHN&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1972-07-18. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/18/7-18-72-jersey-city-nj-roosevelt-stadium/</note>
-    </recording>
-    <recording id="r-e313612376c2ccc1512d" kind="unknown">
-      <identifier scheme="archive-org">gd1972-07-18.sbd.lai.3348.shnf</identifier>
-      <lineage>sdb&gt;&gt;master reel&gt;&gt;reel&gt;&gt;pcm&gt;&gt;cdr</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rossevelt Stadium on 1972-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-    <recording id="r-8f0cf7ad5ccc2af71677" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-07-18.sbd.miller.32878.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v7.02 -&gt; Cool Edit Pro v2.0 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1972-07-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/18/7-18-72-jersey-city-nj-roosevelt-stadium/</note>
-    </recording>
-    <recording id="r-dcea64f50d05aa98f4c7" kind="unknown">
-      <identifier scheme="archive-org">gd1972-07-18.sbd.theotherwayne.88658.sbefail.shnf</identifier>
-      <lineage>SMR&gt;?&gt;DAT&gt;WAV&gt;CDR&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1972-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): theotherwayne</note>
-    </recording>
-    <recording id="r-a323a478bd84d00be468" kind="unknown">
-      <identifier scheme="archive-org">gd1972-07-18.sbd.unknown.9097.shnf</identifier>
-      <lineage>sdb&gt;&gt;master reel&gt;&gt;reel&gt;&gt;pcm&gt;&gt;cdr</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1972-07-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Unknown</note>
-    </recording>
-    <recording id="r-a4fd796fb56d88cb7c8d" kind="audience">
-      <identifier scheme="archive-org">gd72-07-18.aud.weiner.5916.sbefail.shnf</identifier>
-      <lineage>Audience | AUD MC&gt; ?&gt; R&gt; D&gt; SHN&gt; CDR, with change to A:MC&gt; ?&gt; C&gt; D source toward end</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1972-07-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/18/7-18-72-jersey-city-nj-roosevelt-stadium/</note>
-    </recording>
-    <recording id="r-9e0b66ba4500b2c13028" kind="soundboard">
-      <identifier scheme="archive-org">gd72-07-18.sbd.cribbs.9067.sbeok.shn</identifier>
-      <lineage>Soundboard</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1972-07-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/18/7-18-72-jersey-city-nj-roosevelt-stadium/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

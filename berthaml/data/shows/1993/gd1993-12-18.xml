@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-12-18" date="1993-12-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1993-12-18" date="1993-12-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19931218-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
   <program coverage="partial">
@@ -36,49 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-0b1a9f86772f420287a1" kind="audience">
-      <identifier scheme="archive-org">gd1993-12-18.141525.FOB-km140.ebel.flac1648</identifier>
-      <credit role="recordist">Possibly Dominic Tringale</credit>
-      <lineage>flac16/48 Source Info: FOB Neumann KM140-&gt; DATPossibly recorded by Dominic Tringale.Transfer Info: DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)Transfers by Pete Ebel</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-12-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-f7ac7edbcf30af508516" kind="audience">
-      <identifier scheme="archive-org">gd1993-12-18.168893.nyquist.omnis.hunt.ont.flac16</identifier>
-      <credit role="recordist">Jack Hunt</credit>
-      <lineage>FOB; Nyquist Omnis &gt;Sony TCD-D3 DAT | 1st DAT Copy Transferred Via Tascam DA 30 &gt;S/PDIF &gt;HHb CDR 800 PRO CD &gt;FLAC (Level 8) + Tags Via xACT 2.53</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-12-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
-    </recording>
-    <recording id="r-501eb1c00c10d8d7026a" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-12-18.sbd.miller.91962.sbeok.flac16</identifier>
-      <credit role="recordist">Thanks to Paul Scotton for the discs</credit>
-      <lineage>SBD -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
-    </recording>
-    <recording id="r-40790f238732a9ac8d1d" kind="audience">
-      <identifier scheme="archive-org">gd93-12-18.aud.vernon.7277.sbeok.shnf</identifier>
-      <lineage>Audience: probably Neumann KM140's | Neumann KM140's (FOB) &gt; DAT &gt; ? &gt; CDR &gt; EAC (secure) &gt; Cool Edit &gt; mkwACT &gt; SHN (seekable)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-12-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-ee07d712aa7c0885b6e9" kind="soundboard">
-      <identifier scheme="archive-org">gd93-12-18.sbd.ladner.20330.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; DAT &gt; Cass &gt; DAT &gt; CDR &gt; WAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-12-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jim Powell and Chris Ladner</note>
-    </recording>
-    <recording id="r-ad21cf2ee44ae108d228" kind="unknown">
-      <identifier scheme="other">etree-622726</identifier>
-      <note>Supplied catalogue listing: etree; Grateful Dead 1993-12-18.168893.Oakland,CA.nyquist-omnis.hunt.ont.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

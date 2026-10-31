@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-03-28" date="1972-03-28">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1972-03-28" date="1972-03-28">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720328-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-423" nameAsBilled="Academy of Music"/>
   <program coverage="partial">
@@ -43,26 +42,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-e589bd918261e7a4c703" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-03-28.132729.sbd.miller.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Apogee AD500 -&gt; Dat (48k) | Dat (Sony D8) -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-99ebd3676be090867e3c" kind="audience">
-      <identifier scheme="archive-org">gd1972-03-28.aud.teute-bunjes.sirmick.24536.shnf</identifier>
-      <lineage>AUD C/5 &gt; SoundForge &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e745be468dee8005afc9" kind="audience">
-      <identifier scheme="archive-org">gd72-03-28.aud.hanno.15414.sbeok.shnf</identifier>
-      <lineage>Audience | AUD C/5 &gt; SoundForge &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Academy of Music on 1972-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

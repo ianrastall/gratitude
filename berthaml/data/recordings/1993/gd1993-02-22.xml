@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1993-02-22">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-79c34633755df3708aab" kind="unknown">
+    <identifier scheme="archive-org">gd1993-02-22.116143.NeumannKMF4.daweez.d5scott.flac16</identifier>
+    <credit role="recordist">Da Weez</credit>
+    <lineage>source: 2 Neumann KMF4 microphones &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): D5scott</note>
+  </recording>
+  <recording id="r-5817a194c8efb83dade5" kind="soundboard">
+    <identifier scheme="archive-org">gd1993-02-22.138698.sbd.miller.flac1644</identifier>
+    <lineage>SBD &gt; Dat (44.1k) | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-e7b0ab2d3c51d79602f0" kind="audience">
+    <identifier scheme="archive-org">gd1993-02-22.141178.fob.cmc5-mk4.ebel.flac1648</identifier>
+    <lineage>flac16/44.1 Source Info:FOB Schoeps CMC 5 MK 4-&gt; DATTransfer Info:DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt;SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)Transfers by Pete Ebel</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Pete Ebel</note>
+  </recording>
+  <recording id="r-743511d17f127cb24a61" kind="audience">
+    <identifier scheme="archive-org">gd1993-02-22.149125.PandP-aud.tobin.flac16</identifier>
+    <lineage>Patched and pitch corrected audience (44/16)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Patched and pitch corrected audience (44/16) by Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-8a3083c51e7f57fe85b5" kind="matrix">
+    <identifier scheme="archive-org">gd1993-02-22.149126.mtx.tobin.flac16</identifier>
+    <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-99fafb7341f59d1827d8" kind="unknown">
+    <identifier scheme="archive-org">gd1993-02-22.149127.dts.tobin.flac16</identifier>
+    <lineage>DTS-Audio-CD 5.1 Mix</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: DTS</note>
+    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-0f97c9d85486c88a30c2" kind="unknown">
+    <identifier scheme="archive-org">gd1993-02-22.149128.5-1.tobin.flac1648</identifier>
+    <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-6f8862768bdd3d7f0f41" kind="soundboard">
+    <identifier scheme="archive-org">gd93-02-22.dsbd.vernon.19238.sbeok.shnf</identifier>
+    <lineage>DSBD: DAT &gt; DAT &gt; CD encoded by Matt Vernon</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: DSBD</note>
+  </recording>
+</recordings>

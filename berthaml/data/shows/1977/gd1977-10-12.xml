@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-10-12" date="1977-10-12">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1977-10-12" date="1977-10-12">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19771012-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-688" nameAsBilled="Manor Downs"/>
   <program coverage="partial">
@@ -39,36 +38,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-3487a92ad0fa9310c2d7" kind="audience">
-      <identifier scheme="archive-org">gd1977-10-12.121616.set2.aud.miller.flac1648</identifier>
-      <credit role="recordist">Jonathan Rozes</credit>
-      <lineage>Unknown Mics -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Adobe Audition v3.0 -&gt;Samplitude Professional v11.2.1 -&gt; FLAC/</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/12/10-12-77-austin-tx-manor-downs/</note>
-    </recording>
-    <recording id="r-013ff2b4938796b0dccd" kind="unknown">
-      <identifier scheme="archive-org">gd1977-10-12.121618.set2.aud.miller.flac1644</identifier>
-      <lineage>Unknown Mics -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Adobe Audition v3.0 -&gt;Samplitude Professional v11.2.1 -&gt; FLAC/</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-8bc933acfdd9118082a8" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-10-12.sbd.goodbear.3919.sbefail.shnf</identifier>
-      <lineage>Soundboard</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Teddy Goodbear</note>
-    </recording>
-    <recording id="r-7819b08beeccefd0dfe3" kind="soundboard">
-      <identifier scheme="archive-org">gd77-10-12.sbd.cotsman.19291.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD&gt; MR&gt; C&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/12/10-12-77-austin-tx-manor-downs/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

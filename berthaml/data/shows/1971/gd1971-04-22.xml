@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1971-04-22" date="1971-04-22">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1971-04-22" date="1971-04-22">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19710422-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-386" nameAsBilled="Bangor Auditorium"/>
   <program coverage="partial">
@@ -32,21 +31,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-d375df9c90c6c1ba9b59" kind="soundboard">
-      <identifier scheme="archive-org">gd1971-04-22.167465.sbd.anon.gems.flac1644</identifier>
-      <credit role="recordist">Anon</credit>
-      <lineage>Master soundboard reel &gt; first generation reel &gt; PCM &gt; DAT (via Anon) | Transfer info: Tascam DA-302 &gt; Sound Devices 722 (digital transfer)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Bangor Municipal Auditorium on 1971-04-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): DAT transferred and mastered by Jim Blackwood Speed/pitch adjusted by Jason Chastain Minor repairs, track, FLAC, and pack by Steve Gravel</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-60b6dbaf36c05539953f" kind="soundboard">
-      <identifier scheme="archive-org">gd71-04-22.sbd.clugston.2176.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; MR &gt; DAT &gt; CDR &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Bangor Municipal Auditorium on 1971-04-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

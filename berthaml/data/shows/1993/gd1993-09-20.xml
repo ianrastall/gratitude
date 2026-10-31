@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-09-20" date="1993-09-20">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1993-09-20" date="1993-09-20">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930920-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
@@ -35,71 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-335ef60bcd3b65e78061" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-09-20.137336.sbd.miller.flac1648</identifier>
-      <lineage>SBD &gt; Dat Master (Panasonic SV-3700/48k) | Dat Master (Sony R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC/</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-40a92b7237aa4c64897d" kind="audience">
-      <identifier scheme="archive-org">gd1993-09-20.140590.fob.Schoeps-MK41.miller.sirmick.flac1648</identifier>
-      <lineage>flac16/48kHz ; Source: (FOB) Schoeps MK41 &gt; Panasonic SV-255 &gt; dat(48k); Transfer: dat &gt; Sony PCM-R500 &gt; Tascam DA-3000&gt; wav 16/48; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 1648; edited and mastered SIRMick January 2018</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-49574adfed7ffc98d626" kind="unknown">
-      <identifier scheme="archive-org">gd1993-09-20.157239.NeumannKMR82i.miller.flac2496</identifier>
-      <credit role="recordist">Charlie Miller</credit>
-      <lineage>Neumann KMR 82i &gt; Cassette Master (Sony TC-D5M/Dolby B) &gt; Cassette | Cassette Master (Nakamichi DR-1) &gt; Sound Devices 744T (24-bit/96k) &gt; DDi Codec (Dolby B) &gt; Adobe Audition &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Recording, Transfer and Mastering by Charlie Miller Pitch Correction by Scott Clugston December 5, 2016 (Transfer) July 10, 2022 (Mastering)</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
-    </recording>
-    <recording id="r-f9b471f31d941ba54d85" kind="unknown">
-      <identifier scheme="archive-org">gd1993-09-20.157808.neum.gen1.miller.t.flac1644</identifier>
-      <credit role="recordist">Charlie Miller</credit>
-      <lineage>Neumann KMR 82i &gt; Cassette Master (Sony TC-D5M/Dolby B) &gt; Cassette | Cassette Master (Nakamichi DR-1) &gt; Sound Devices 744T (24-bit/96k) &gt; DDi Codec (Dolby B) &gt; Adobe Audition &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Recording, Transfer and Mastering by Charlie Miller Pitch Correction by Scott Clugston December 5, 2016 (Transfer) July 10, 2022 (Mastering)</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
-    </recording>
-    <recording id="r-170540e3ecb8ecb11b51" kind="unknown">
-      <identifier scheme="archive-org">gd1993-09-20.AT835B.laurentus.96889.flac16</identifier>
-      <credit role="recordist">M. Laurentus</credit>
-      <lineage>Taper Section Sec 10,Row F,Seat-14 AT835B's- AT 8202's-SONY D 7 | D7- Sony POC-DA12- Creative Audigy USB Optical In-Creative Recorder-CD Wave- FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): M. Laurentus</note>
-    </recording>
-    <recording id="r-5f1dcb5946287e1869d1" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-09-20.sbd.Samaritano.31623.flac16</identifier>
-      <lineage>Soundboard-&gt;Master DAT-&gt;Sonic Solutions-&gt;Master CD | Master CD-&gt;EAC-&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): EAC, Re-track, and FLAC by Joe Samaritano</note>
-    </recording>
-    <recording id="r-d26b160a3c03a1d0ddf8" kind="audience">
-      <identifier scheme="archive-org">gd1993-09-20.schoeps.andrewf.131592.flac1644</identifier>
-      <credit role="recordist">Andrew F.</credit>
-      <lineage>AUD: Schoeps CMC6/MK4 (ORTF) &gt; unknown mic power and lead dat deck &gt; Coax SPDIF &gt; Casio DA-7 &gt; TDK DA-R DAT, set up end of floor center, directly behind the lighting board. | MAD &gt; Sony D8 &gt; Optical out &gt; Edirol FA-66 &gt; Wavelab 1644 &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Recording &amp; transfer by Andrew F.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-d4a1c04e0030c53eb51e" kind="audience">
-      <identifier scheme="archive-org">gd93-09-20.ams-brennecke-young.4531.sbeok.shnf</identifier>
-      <credit role="recordist">Clay Brennecke and Jamie Young</credit>
-      <lineage>Audience: Schoeps S4 | Schoeps S4 at 90 degrees &gt; Canari Cables &gt; Sonosax SX-M2 &gt; Apogee AD 500 &gt; Sony D7 &gt; Sony PCM-M1(master) &gt; Oade active cable &gt; Midiman CO2 &gt; Zoltrix Nightengale &gt; Cool Edit 2000 &gt; CD Wave &gt; mkwACT &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-c5c8a7ffe4cf1af7fdfd" kind="soundboard">
-      <identifier scheme="archive-org">gd93-09-20.sbd.wiley.8766.sbeok.shnf</identifier>
-      <lineage>SBD&gt;?&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1993-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-12-13" date="1993-12-13">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1993-12-13" date="1993-12-13">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19931213-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-546" nameAsBilled="San Diego Sports Arena"/>
   <program coverage="partial">
@@ -39,77 +38,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-4d63c2a96ee73f5150c4" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-12-13.139184.sbd.miller.flac24</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego Sports Arena on 1993-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9680d7f95b2bbbb45468" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-12-13.139214.sbd.miller.flac16</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego Sports Arena on 1993-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-8a5d2cb7a1cfa2cd4d8d" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-12-13.150626.sbd.miller.flac1648</identifier>
-      <lineage>SBD &gt; DAT Master (48k) | DAT Master (Tascam DA-40) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 Suite &gt; FLAC/48k</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego Sports Arena on 1993-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 26, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c9f93d06313049597a59" kind="soundboard">
-      <identifier scheme="archive-org">gd1993-12-13.sbd.miller.91960.sbeok.flac16</identifier>
-      <credit role="recordist">hanks to Paul Scotton for the discs</credit>
-      <lineage>Set 1: SBD -&gt; Dat -&gt; Cassette Master -&gt; Dat -&gt; CD DSet 2: SBD -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego International Sports Arena on 1993-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
-    </recording>
-    <recording id="r-3fc2185792617542f32b" kind="unknown">
-      <identifier scheme="archive-org">gd1993-12-13.schoeps.wklitz.94671.flac16</identifier>
-      <credit role="recordist">Keith Litzenberger</credit>
-      <lineage>Schoeps MK4's&gt;Rbox&gt;Technics SV-MD1 | DAT Master&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9(Fades, Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego International Sports Arena on 1993-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keith Litzenberger</note>
-    </recording>
-    <recording id="r-f230d470bd865b579680" kind="unknown">
-      <identifier scheme="archive-org">gd1993-12-13.senn.swayne.85710.flac16</identifier>
-      <credit role="recordist">Neil Sturtevant, with little or no assistance from Scott Swayne ;)</credit>
-      <lineage>Sennheiser ME-80's &gt; Teac DA-P20 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro (44.1k) &gt; CDWave &gt; FLAC (L8)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego International Sports Arena on 1993-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Swayne</note>
-    </recording>
-    <recording id="r-74acc89e2c5b3daf5263" kind="unknown">
-      <identifier scheme="archive-org">gd1993-12-13.senn.swayne.85711.flac1648</identifier>
-      <credit role="recordist">Neil Sturtevant, with little or no assistance from Scott Swayne ;)</credit>
-      <lineage>Sennheiser ME-80's &gt; Teac DA-P20 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego Sports Arena on 1993-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Swayne</note>
-    </recording>
-    <recording id="r-f3ec329b459e6013888a" kind="fm">
-      <identifier scheme="archive-org">gd1993-12-13.sndcheck.fm-moniotr.koucky.91349.flac16</identifier>
-      <lineage>FM SB Monitor &gt; Sony D-6 Cassette &gt; 1st gen &gt; DAT | Panasonic SV-3700 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego International Sports Arena on 1993-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Transfer and Mastering: Bill Koucky Green Mountain Bros.</note>
-    </recording>
-    <recording id="r-bfee832aa2ffcbcbb773" kind="audience">
-      <identifier scheme="archive-org">gd93-12-13.mk4-fob.vernon.7360.sbeok.shnf</identifier>
-      <lineage>Audience: Schoeps mk4's | Schoeps mk4's (FOB) &gt; DAT &gt; ? &gt; CDR &gt; CDR &gt; EAC (secure) &gt; shntool &gt; mkwACT &gt; SHN (seekable)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego Sports Arena on 1993-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-a0e556d9aabb07d234ef" kind="soundboard">
-      <identifier scheme="archive-org">gd93-12-13.sbd-aud.vernon-ladner.11666.sbeok.shnf</identifier>
-      <lineage>Set 1 : Audience; Set 2 : Soundboard</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Diego Sports Arena on 1993-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

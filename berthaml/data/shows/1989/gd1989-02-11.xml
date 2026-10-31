@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1989-02-11" date="1989-02-11">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1989-02-11" date="1989-02-11">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19890211-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-972" nameAsBilled="Great Western Forum"/>
   <program coverage="partial">
@@ -38,92 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-0a9ddde058a9b4a50cc0" kind="unknown">
-      <identifier scheme="archive-org">gd1989-02-11.124830.AT835.laurentis.flac16</identifier>
-      <credit role="recordist">M.Laurentus</credit>
-      <lineage>AT835B's- AT 8202’s-SONY WM D6-C Cassette-Tascam DR-5 Line In-CD Wave- Flac; Taper: M. Laurentus from Section 1, Row DDD, Seat 8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): M.Laurentus</note>
-    </recording>
-    <recording id="r-4150a24aa7c75e5b4cb3" kind="soundboard">
-      <identifier scheme="archive-org">gd1989-02-11.134776.sbd.miller.flac16</identifier>
-      <lineage>Set 1: SBD -&gt; Cassette Master -&gt; DatSet 2: SBD -&gt; PCM Master -&gt; Dat | Dat (Tascam DA-20) -&gt; Sound Devices 744T -&gt; WAV -&gt;Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-6264908230f6fad57b43" kind="matrix">
-      <identifier scheme="archive-org">gd1989-02-11.140719.sbd.pcm.miller.flac1644</identifier>
-      <lineage>Set 1: SBD &gt; PCMSet 2: UltraMatrix SBD &gt; PCM | PCM (Sony SLV-M20HF) &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt;Tascam DA-3000 (16-bit/44.1k) &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fcde9bbaaa4d3f571701" kind="soundboard">
-      <identifier scheme="archive-org">gd1989-02-11.140730.set1.akg.c42.ambient.mics.gans.miller.clugston.flac1644</identifier>
-      <credit role="recordist">David Gans</credit>
-      <lineage>Master Audience 4 Track Hi-Fi VHS; AKG C42 mics located mid-side of soundboard &gt; 1st gen Hi-Fi VHS (dubbed by David Gans, January 1991)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-243e6ebe9b17647fd55f" kind="soundboard">
-      <identifier scheme="archive-org">gd1989-02-11.140731.set1.akg.c42.ambient.mics.gans.miller.clugston.flac2496</identifier>
-      <credit role="recordist">David Gans</credit>
-      <lineage>Master Audience 4 Track Hi-Fi VHS; AKG C42 mics located mid-side of soundboard &gt; 1st gen Hi-Fi VHS (dubbed by David Gans, January 1991)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-3d676131faf324e7938a" kind="audience">
-      <identifier scheme="archive-org">gd1989-02-11.140999.FOB.Schoeps.PCM.Mattes.Weber-Small.Miller.Noel.t-flac1644</identifier>
-      <credit role="recordist">Ted Mattes and Sean Weber-Small</credit>
-      <lineage>Recording info: (FOB/DFC) Schoeps CMC4/MK4 (ORTF) &gt; PCM (Sony PCM-F1 &gt; Sony SL-2000 modded with Apogee filters - Oade capacitor power supply); Transfer info: Sony SL-10 &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (WAV 16-bit/44.1k); Recorded by Ted Mattes and Sean Weber-Small</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
-    </recording>
-    <recording id="r-64d787c58aa82def210e" kind="unknown">
-      <identifier scheme="archive-org">gd1989-02-11.fob.french.35158.sbeok.flac24</identifier>
-      <credit role="recordist">Mike French</credit>
-      <lineage>Set one: Sennheiser MKE2002 HRTF headband -&gt; Sony TC-D5M @ 6'5"Set two; ~ Schoeps cmc?? cards (caps on bodies, cardioids) ORTF @ 6'4" covered by the Mike Stand (MF) at eye level. ~ Oade pre (m118 ?) -&gt; Sony PCM processor-&gt;beta, line out (Sean Weber Small rig) -&gt; Sony TC-D5M master by Mike French | Sony TC-D5M master deck w/ master, no n.r. -&gt; Tascam DVRA1000 DSD recorder in high-res pcm mode, 24/96</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-02-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Mike French</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-58039b095a2e0fb22546" kind="unknown">
-      <identifier scheme="archive-org">gd1989-02-11.fob.french.sirmick.76125.sbeok.flac16</identifier>
-      <lineage>Set one: Sennheiser MKE2002 HRTF headband -&gt; Sony TC-D5M @ 6'5" by Mike FrenchSet two; ~ Schoeps cmc?? cards (caps on bodies, cardioids) ORTF @ 6'4" covered by the Mike Stand (MF) at eye level. ~ Oade pre (m118 ?) -&gt; Sony PCM processor-&gt;beta, line out (Sean Weber Small rig) -&gt; Sony TC-D5M master by Mike French | Sony TC-D5M master deck w/ master, no n.r. -&gt; Tascam DVRA1000 DSD recorder in high-res pcm mode, 24/96 by Mike French</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western Forum on 1989-02-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
-    </recording>
-    <recording id="r-6be81d0d5a7fd2201f37" kind="unknown">
-      <identifier scheme="archive-org">gd89-02-11.aud.bauer.20759.sbeok.shnf</identifier>
-      <lineage>DAUD[master] &gt; CDR &gt; EAC &gt; AddaWav &gt; CDWAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-    </recording>
-    <recording id="r-17493d530deaf3c14834" kind="soundboard">
-      <identifier scheme="archive-org">gd89-02-11.sbd.wiley.9203.sbeok.shnf</identifier>
-      <lineage>SBD&gt;MC&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Great Western LA Forum on 1989-02-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-e2d5fdf57760140f33e6" kind="unknown">
-      <identifier scheme="other">etree-583754</identifier>
-      <note>Supplied catalogue listing: etree; gd1989-02-11.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

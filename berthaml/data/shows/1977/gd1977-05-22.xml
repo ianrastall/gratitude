@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-05-22" date="1977-05-22">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1977-05-22" date="1977-05-22">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770522-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-667" nameAsBilled="Sportatorium"/>
   <program coverage="partial">
@@ -39,66 +38,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-cdae5e796a51b990e896" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-22.140278.sbd.miller.flac2496</identifier>
-      <lineage>SBD &gt; Master Reel &gt; Cassette | Cassette (Nakamichi BX-300) &gt; Apogee MiniMe &gt; Lynx One &gt; Wavelab 8 &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5209cc8c01a4805f4380" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-22.140332.sbd.miller.flac1644</identifier>
-      <lineage>SBD &gt; Master Reel &gt; Cassette | Cassette (Nakamichi BX-300) &gt; Apogee MiniMe &gt; Lynx One &gt; Wavelab 8 &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-8e3b0b110f79b5fdac83" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-22.150935.sbd.master-reel.miller.flac1644</identifier>
-      <lineage>SBD &gt; Master Reel (7in 7.5ips 1/2trk) &gt; dbx922 &gt; DAT (Panasonic SV-3700/44.1k) | DAT (Panasonic SV-3800) &gt; Pro Tools &gt; WAV (16-bit/44.1k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Transferred by Rob Eaton Mastered By Charlie Miller November 22, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-8d1a7f8638fffb9d2e72" kind="audience">
-      <identifier scheme="archive-org">gd1977-05-22.152259.aud.lamarre.vernon.sirmicki.flac16</identifier>
-      <credit role="recordist">uknown audience cassette from the collection of Doug Lamarre</credit>
-      <lineage>uknown audience cassette from the collection of Doug Lamarre | Transfer: cassette &gt; Nakamichi CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96 - Transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; iZotope RX8 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-97fbb292c52bb9995863" kind="audience">
-      <identifier scheme="archive-org">gd1977-05-22.152260.aud.lamarre.vernon.sirmicki.flac24</identifier>
-      <credit role="recordist">uknown audience cassette from the collection of Doug Lamarre</credit>
-      <lineage>uknown audience cassette from the collection of Doug Lamarre | Transfer: cassette &gt; Nakamichi CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96 - Transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; iZotope RX8 Advanced</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a60adec80accb34aeb7d" kind="matrix">
-      <identifier scheme="archive-org">gd1977-05-22.152392.mtx.photoleon.flac16</identifier>
-      <lineage>Matrix created in Adobe Audition by Joe Noel April 26, 2021</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-0f1684bb654c82ff7de4" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-22.sbd.terrapin.dp3-rip.31789.sbeok.shnf</identifier>
-      <lineage>Soundboard</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-ba42b710cc19e30e9910" kind="soundboard">
-      <identifier scheme="archive-org">gd77-05-22.sbd.dp-leftovers.18803.sbefail.shnf</identifier>
-      <lineage>Soundboard | SBD&gt;MR&gt;C&gt;D&gt;CD&gt;Toast&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Sportatorium on 1977-05-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-af522c41d7157bc35eb1" kind="unknown">
-      <identifier scheme="other">etree-597436</identifier>
-      <note>Supplied catalogue listing: etree; gd1977-05-22.140332.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

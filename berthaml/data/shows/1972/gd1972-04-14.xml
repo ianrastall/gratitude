@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-04-14" date="1972-04-14">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1972-04-14" date="1972-04-14">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720414-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-436" nameAsBilled="Tivoli Concert Hall"/>
   <program coverage="partial">
@@ -47,52 +46,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-4196fb0fe1a8d8547fce" kind="matrix">
-      <identifier scheme="archive-org">gd1972-04-14.136980.mtx.dusborne.flac16</identifier>
-      <lineage>2 Source Matrix by Dusborne;Soundboard (shnid:76006), Recording Info: SBD -&gt; (16 Track) Master Reel -&gt; Dat (44.1k)Transfer Info: Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Profesional v8.01 -&gt; FLAC; Bert Slany: Speed Correction.flac -&gt; Adobe Audition 1.5 -&gt; pitch/speed correction* -&gt; flac -&gt; TraLiHe -&gt; sbe's fixed; Audience (shnid:23662), Source: Aud (unknown mics) | Unknown</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tivoli Theater on 1972-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fc33585ba8333760b873" kind="unknown">
-      <identifier scheme="archive-org">gd1972-04-14.sbd.ashley-field.34931.sbeok.flac16</identifier>
-      <lineage>Bertha Remaster of the Multi Track Master Reel source (SHN ID 34552)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tivolis Koncertsal on 1972-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Jay Ashley</note>
-    </recording>
-    <recording id="r-8a5bda18991e4d5c4803" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-04-14.sbd.miller-repitched.76006.flac16</identifier>
-      <lineage>SBD -&gt; (16 Track) Master Reel -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Profesional v8.01 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tivolis Koncertsal on 1972-04-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c6be0da00f2cbcbf65c7" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-04-14.sbd.miller.34552.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; (16 Track) Master Reel -&gt; Dat (44.1k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Profesional v8.01 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tivolis Koncertsal on 1972-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5844c470ae5ca9be4381" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-04-14.sbd.sacks.140.shnf</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>SBD &gt; Master Reel | Master Reel &gt; Cassette &gt; DATs &gt; CDRs &gt; EAC &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tivolis Koncertsal on 1972-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D. Sacks</note>
-    </recording>
-    <recording id="r-97397c75f47f4a8e57e3" kind="audience">
-      <identifier scheme="archive-org">gd72-04-14.aud.vernon.23662.sbeok.shnf</identifier>
-      <lineage>Aud (unknown mics)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tivoli Theater on 1972-04-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-54c9bc31328264affa09" kind="soundboard">
-      <identifier scheme="archive-org">gd72-04-14.sbd.hurwitt.8828.sbeok.shnf</identifier>
-      <lineage>SBD&gt;mR&gt;C&gt;D&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tivoli Theater on 1972-04-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

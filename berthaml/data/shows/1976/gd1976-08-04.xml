@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1976-08-04" date="1976-08-04">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1976-08-04" date="1976-08-04">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760804-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-458" nameAsBilled="Roosevelt Stadium"/>
   <program coverage="partial">
@@ -38,99 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-f38a885bc940aa972e9a" kind="matrix">
-      <identifier scheme="archive-org">gd1976-08-04.120684.mtx.dusborne.flac16</identifier>
-      <lineage>2 source matrix: Soundboard (shnid=99697) | sbd reel master&gt;reel&gt;10.5" reel @ 7.5 ips, dolby b technics rs-1506&gt;teac an-180&gt;hd-p2 24/96&gt;cd wave&gt;adobe&gt;flac transferred &amp; seeded by Rob Berger 6/22/09 and Audience (shnid=12078) Source 1: MAC &gt; D &gt; CD *Recorded by Scott Jones, Shure micsSony TC-158 Source 2: unknown aud supplies end of Sugar Magnolia and Encore Transfer: CDR &gt; EAC (secure) &gt; Cool Edit (minor fixup) &gt; mkwact(seekable) Patch Source (shnid=35171) SBD&gt;Cm&gt;Reel&gt;Lucid AD2496&gt;CD&gt;EAC&gt;SHN (Tape Flips Patched w/(FOB) Shure Mics&gt;Cm&gt;Dat&gt;CD) (parts of set 1 patched from video soundtrack) from Charlie Miller via Patrick Clifford Matrix by dusborne using Sound Forge Pro 10.0 and Audacity 2.0 06-11-2012</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): matrix by dusborne</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-bda20191341e98fc10d2" kind="matrix">
-      <identifier scheme="archive-org">gd1976-08-04.127240.mtx.tobin.flac16</identifier>
-      <lineage>SBD + AUD Matrix 3 Source Mix (55%-SBD/45%-AUD) from SBD1 (shnid=35171), SBD2 (no shn ID) and AUD1 (shnid=12078) | SBD + AUD Matrix 3 Source Mix (55%-SBD/45%-AUD)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-6174f1e6a14ccad88883" kind="soundboard">
-      <identifier scheme="archive-org">gd1976-08-04.127249.upg-sbd.tobin.flac16</identifier>
-      <lineage>Patched and pitch corrected Soundboard (original shnid=35171) | Patched with Audio from video source and AUD1 (shnid=12078)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-99be6a477cc1e0309709" kind="unknown">
-      <identifier scheme="archive-org">gd1976-08-04.127254.dts.tobin.flac16</identifier>
-      <lineage>DTS-Audio-CD 5.1 Mix | SBD1 (shnid=35171), SBD2 (no shnid) and AUD1 (shnid=12078)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-77857ce1a046c1707adc" kind="unknown">
-      <identifier scheme="archive-org">gd1976-08-04.145268.5-1.tobin.flac1648</identifier>
-      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-bed13b177fb62fb8ce56" kind="unknown">
-      <identifier scheme="archive-org">gd1976-08-04.152165.aud.petrunis.af.flac2448</identifier>
-      <credit role="recordist">Concert recording by Rich Petrunis.</credit>
-      <lineage>Mono Sony hand-held recorder (model unknown) &gt; TDK-SD (normal bias) back-up tapes. | Transfer: 1st-gen &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Transferred by Andrew F. 03/2021</note>
-    </recording>
-    <recording id="r-38cf03d8861500e877d7" kind="unknown">
-      <identifier scheme="archive-org">gd1976-08-04.sbd.backus.6677.shnf</identifier>
-      <lineage>MSR-&gt;C-&gt;DAT-&gt;CDR-&gt;EAC-&gt;SHN V.3</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): David Backus</note>
-    </recording>
-    <recording id="r-3098142ea644bde7c7f4" kind="soundboard">
-      <identifier scheme="archive-org">gd1976-08-04.sbd.berger.99697.flac24</identifier>
-      <lineage>sbd reel master&gt;reel&gt;10.5" reel @ 7.5 ips, dolby b | technics rs-1506&gt;teac an-180&gt;hd-p2 24/96&gt;cd wave&gt;adobe&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-fb2070987ada7ca833a3" kind="soundboard">
-      <identifier scheme="archive-org">gd1976-08-04.sbd.berger.99698.flac16</identifier>
-      <lineage>sbd reel master&gt;reel&gt;10.5" reel @ 7.5 ips, dolby b | technics rs-1506&gt;teac an-180&gt;hd-p2 24/96&gt;cd wave&gt; adobe 16/44&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-14ef70fc0dd49f916800" kind="soundboard">
-      <identifier scheme="archive-org">gd1976-08-04.sbd.miller-tobin.35171.flac</identifier>
-      <credit role="recordist">See info file</credit>
-      <lineage>SBD&gt;Cm&gt;Reel&gt;Lucid AD2496&gt;CD&gt;EAC&gt;SHN | See info file</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-866f221d0a865543839c" kind="audience">
-      <identifier scheme="archive-org">gd1976-08-04.upg-aud.tobin.127248.flac16</identifier>
-      <lineage>flac16; (original shnid = 12078) Source 1: MAC &gt; D &gt; CD *Recorded by Scott Jones, Shure micsSony TC-158 Source 2: unknown aud supplies end of Sugar Magnolia and Encore; via Jackey Shack; Seeded to etree by Matt Vernon - pitch correction and patches by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e879ebf43d90728352dc" kind="audience">
-      <identifier scheme="archive-org">gd76-08-04.jones.vernon.12078.sbeok.shnf</identifier>
-      <credit role="recordist">Scott Jones</credit>
-      <lineage>Audience Recording: Shure | Source 1: MAC &gt; D &gt; CD, Shure mics, Sony TC-158; Source 2: unknown aud supplies end of Sugar Magnolia and Encore</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-c76276ddc8c5d221f00d" kind="soundboard">
-      <identifier scheme="archive-org">gd76-08-04.sbd.cotsman.12830.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD&gt; MR&gt; C&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roosevelt Stadium on 1976-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

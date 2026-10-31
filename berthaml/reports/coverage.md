@@ -39,7 +39,7 @@ Schema validity and source agreement do not constitute historical verification. 
 - show-review: 2,234
 - venue-disagreement: 29
 
-Machine-readable evidence: coverage.json, review-queue.jsonl, source-crosswalk.jsonl, recordings-unassigned.jsonl and event-exclusions.jsonl in this directory.
+Machine-readable evidence: coverage.json, review-queue.jsonl, source-crosswalk.jsonl, source-drift.jsonl, recordings-unassigned.jsonl and event-exclusions.jsonl in this directory.
 
 ## Shows by year
 

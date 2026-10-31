@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-04-02" date="1982-04-02">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1982-04-02" date="1982-04-02">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820402-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-551" nameAsBilled="Cameron Indoor Stadium, Duke University"/>
   <program coverage="partial">
@@ -37,104 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-bc130d48a48705d3a80b" kind="unknown">
-      <identifier scheme="archive-org">gd1982-04-02.132146.MAC.flac16</identifier>
-      <lineage>NAK deck &gt; 2 90 minute UDXL II cassette masters, REC from centered seats behind the stage. Tascam 322 &gt; Marantz CDR 510 &gt; CDR &gt; EAC &gt; WAV &gt; CD WAV Editor &gt; Flac 8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-5b95fbf6f397b8bd5801" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.132918.aud.unk.flac1644</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>AUD Source: Low-gen, unknown taper &amp; gear, kindly provided by Tom P. aka "Laser Beam" and poordevil. | Maxell XLII &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged, April 2015</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Tom P. and Poordevil</note>
-    </recording>
-    <recording id="r-7b96761034be17482f8c" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.135561.nak300.schley.flac2448</identifier>
-      <credit role="recordist">Brian Schley</credit>
-      <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5M &gt; Hitachi ME Metal C-90s, FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 04/2016</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-a981abe3c1c4a54252b3" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.135562.nak300.schley.flac1644</identifier>
-      <credit role="recordist">Brian Schley</credit>
-      <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5M &gt; Hitachi ME Metal C-90s, FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 04/2016</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-803ffbcd0b95d2d166c4" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.154425.beyer.m160.beyer.m88.blend.vita.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Master Audience Cassettes; (2) Beyer M160 + (1) Beyer M88 blend &gt; Unknown deck &gt; Jim Vita's 1st generation cassettes (Maxell MX 90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium Duke University on 1982-04-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-2118c76a8b92ad636701" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.154426.beyer.m160.beyer.m88.blend.vita.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Master Audience Cassettes; (2) Beyer M160 + (1) Beyer M88 blend &gt; Unknown deck &gt; Jim Vita's 1st generation cassettes (Maxell MX 90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium Duke University on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-6bff6478b26d4696f4aa" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.170731.nak700.wagner.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics (w/ Bass EQ) &gt; Sony TC-D5M (Maxell XLIIS/Dolby B) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2025 &gt; DDi Codec (dolby B) &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-d8f65cb07036b1a49863" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.170732.nak700.wagner.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics (w/ Bass EQ) &gt; Sony TC-D5M (Maxell XLIIS/Dolby B) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2025 &gt; DDi Codec (dolby B) &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke University on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-5e0a625473d3ef195961" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.aud.nak700.110597.flac1644</identifier>
-      <credit role="recordist">Tim Friend</credit>
-      <lineage>AUD Source: Nakamichi CM-700's &gt; Sony TC-D5. Low Gen (1st or 2nd) copy, provided by Tim Friend. | Maxell XLIIs &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transfer by Andrew F. 11/2010</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-d5eafa34efeaf280c5bb" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-02.nak700.wagner.miller.112822.flac16</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>(FOB) Nakamichi 700 (With Bass EQ) -&gt; Cassette Master (Sony TC-D5M/Maxell XLIIS/Dolby B) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/44.1k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-0466cc14bfe85b2b7879" kind="soundboard">
-      <identifier scheme="archive-org">gd1982-04-02.sbd.129029.MrBill.flac16</identifier>
-      <lineage>Recording Info: SBD &gt; MC &gt; C &gt; ? &gt; ? &gt; DAT &gt; CDR; Transfer Info: CDR &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bill Guarneri</note>
-    </recording>
-    <recording id="r-8561a06afb691209de98" kind="soundboard">
-      <identifier scheme="archive-org">gd1982-04-02.sbd.tetzeli.clugston-fix.34846.sbeok.shnf</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Soundboard &gt; Master Cassette | Master Soundboard Cassette &gt; Cassette &gt; DAT&gt; CDR &gt; EAC &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U. on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bill Tetzeli and Scott Clugston</note>
-    </recording>
-    <recording id="r-999eb1cd0bbf73938b9e" kind="soundboard">
-      <identifier scheme="archive-org">gd82-04-02.sbd.clugston.7221.sbeok.shnf</identifier>
-      <lineage>Soundboard | Master Soundboard Cassette &gt; Cassette &gt; DAT &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cameron Indoor Stadium, Duke U on 1982-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

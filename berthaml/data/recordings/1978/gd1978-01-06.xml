@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1978-01-06">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1978-01-06.153175.sbd.menke.sirmick.flac16" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 5e57b0bd0ad8c6f1ff5598e5cb57769237d3e36b710f08dcf9847bda3747b729</cite>
+  </record>
+  <recording id="r-d33bf6e38232beba5a82" kind="unknown">
+    <identifier scheme="archive-org">gd1978-01-06.152854.s2.aud.lamarre.vernon.sirmick.flac16</identifier>
+    <credit role="recordist">Unknown; tape supplied by Doug Lamarre</credit>
+    <lineage>unknown audio cassette (low gen) - from the collection of Doug Lamarre. | Transfer: cassettes &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96. Lineage: wav 24/96 &gt; iZotope RX8 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-9e23523684558fd4a843" kind="unknown">
+    <identifier scheme="archive-org">gd1978-01-06.152855.s2.aud.lamarre.vernon.sirmick.flac24</identifier>
+    <credit role="recordist">Unknown; tape supplied by Doug Lamarre</credit>
+    <lineage>unknown audio cassette (low gen) - from the collection of Doug Lamarre. | Transfer: cassettes &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): SIRMick &amp; Matt Vernon</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-a3597d8322c5859b7da7" kind="soundboard">
+    <identifier scheme="archive-org">gd1978-01-06.153175.sbd.menke.sirmick.flac16</identifier>
+    <lineage>Sbd &gt; Cassette Master &gt; Cassette (1st gen) | Transfer: Cassette (1st gen) &gt; Nakamichi CR7A &gt; PCM &gt; wav 16/44.1 via: Bob Menke Lineage: wav &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; Cd Wave &gt; Flac16</lineage>
+    <playlist id="pl-33cfed9a50130f52bb2c" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1978-01-06.153175.sbd.menke.sirmick.flac16">
+      <track n="1" title="tuning" file="gd1978-01-06s1t01.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT269.24S"/>
+      <track n="2" title="The Promised Land" file="gd1978-01-06s1t02.flac" mappingStatus="unreviewed" sourceNumber="2" duration="PT274.99S"/>
+      <track n="3" title="Phil's broken string, noodling and Weir's hunter joke" file="gd1978-01-06s1t03.flac" mappingStatus="unreviewed" sourceNumber="3" duration="PT341.73S"/>
+      <track n="4" title="Dire Wolf" file="gd1978-01-06s1t04.flac" mappingStatus="candidate" sourceNumber="4" duration="PT358.37S" covers="p01-02" certainty="probable"/>
+      <track n="5" title="Mama Tried * &gt;" file="gd1978-01-06s1t05.flac" mappingStatus="candidate" sourceNumber="5" duration="PT163.29S" covers="p01-03" certainty="probable"/>
+      <track n="6" title="Big River" file="gd1978-01-06s1t06.flac" mappingStatus="candidate" sourceNumber="6" duration="PT489.09S" covers="p01-04" certainty="probable"/>
+      <track n="7" title="Loser" file="gd1978-01-06s1t07.flac" mappingStatus="candidate" sourceNumber="7" duration="PT620.67S" covers="p01-05" certainty="probable"/>
+      <track n="8" title="Looks Like Rain" file="gd1978-01-06s1t08.flac" mappingStatus="candidate" sourceNumber="8" duration="PT611.73S" covers="p01-06" certainty="probable"/>
+      <track n="9" title="Tennessee Jed" file="gd1978-01-06s1t09.flac" mappingStatus="candidate" sourceNumber="9" duration="PT652.15S" covers="p01-07" certainty="probable"/>
+      <track n="10" title="New Minglewood Blues" file="gd1978-01-06s1t10.flac" mappingStatus="unreviewed" sourceNumber="10" duration="PT431.37S"/>
+      <track n="11" title="Deal" file="gd1978-01-06s1t11.flac" mappingStatus="candidate" sourceNumber="11" duration="PT557.95S" covers="p01-09" certainty="probable"/>
+      <track n="12" title="Lazy Lightnin' &gt;" file="gd1978-01-06s1t12.flac" mappingStatus="unreviewed" sourceNumber="12" duration="PT203.01S"/>
+      <track n="13" title="Supplication" file="gd1978-01-06s1t13.flac" mappingStatus="candidate" sourceNumber="13" duration="PT329.23S" covers="p01-11" certainty="probable"/>
+      <track n="14" title="banter from Phil/tuning" file="gd1978-01-06s2t01.flac" mappingStatus="unreviewed" sourceNumber="14" duration="PT165.95S"/>
+      <track n="15" title="Playing In The Band &gt;" file="gd1978-01-06s2t02.flac" mappingStatus="candidate" sourceNumber="15" duration="PT1412.29S" covers="p02-01" certainty="probable"/>
+      <track n="16" title="Estimated Prophet &gt;" file="gd1978-01-06s2t03.flac" mappingStatus="candidate" sourceNumber="16" duration="PT706.4S" covers="p02-02" certainty="probable"/>
+      <track n="17" title="Drums &gt;" file="gd1978-01-06s2t04.flac" mappingStatus="candidate" sourceNumber="17" duration="PT431.47S" covers="p02-03" certainty="probable"/>
+      <track n="18" title="The Other One &gt;" file="gd1978-01-06s2t05.flac" mappingStatus="candidate" sourceNumber="18" duration="PT457.97S" covers="p02-04" certainty="probable"/>
+      <track n="19" title="Truckin'" file="gd1978-01-06s2t06.flac" mappingStatus="candidate" sourceNumber="19" duration="PT676.31S" covers="p02-05" certainty="probable"/>
+      <track n="20" title="encore break~~" file="gd1978-01-06s2t07.flac" mappingStatus="unreviewed" sourceNumber="20" duration="PT124.36S"/>
+      <track n="21" title="Johnny B. Goode" file="gd1978-01-06s2t08.flac" mappingStatus="candidate" sourceNumber="21" duration="PT275.52S" covers="p03-01" certainty="probable"/>
+      <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+    </playlist>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bob Menke, SIRMick</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    <note>Archive source metadata (lineage): Transfer: Cassette (1st gen) &gt; Nakamichi CR7A &gt; PCM &gt; wav 16/44.1 via: Bob Menke Lineage:  wav &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; iZotope Neutron 2 Advanced &gt; Cd Wave &gt; Flac16</note>
+    <note>Archive source metadata (source): Sbd &gt; Cassette Master  &gt; Cassette (1st gen)</note>
+    <note>Archive source metadata (transferer): Bob Menke, SIRMick</note>
+  </recording>
+  <recording id="r-45d3f2afd2a4d4c518e6" kind="audience">
+    <identifier scheme="archive-org">gd1978-01-06.170500.akg.d224e.holwein.menke.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Reinhart Hohlwein</credit>
+    <lineage>Reinhart Hohlwein's Master Audience Cassettes; AKG D224E mics &gt; Sony TC-158SD | Master Cassettes (Nakamichi CR7-A)&gt; Korg MR-1000 (DSF 1-bit/5.6 MHz) &gt; AudioGate 24/96 .wav &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Reinhart Holwein; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-5cb921df1cf9295e71bf" kind="audience">
+    <identifier scheme="archive-org">gd1978-01-06.170501.akg.d224e.holwein.menke.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Reinhart Hohlwein</credit>
+    <lineage>Reinhart Hohlwein's Master Audience Cassettes; AKG D224E mics &gt; Sony TC-158SD | Master Cassettes (Nakamichi CR7-A)&gt; Korg MR-1000 (DSF 1-bit/5.6 MHz) &gt; AudioGate 24/96 .wav &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Reinhart Holwein; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-1af99d281932c55af0a2" kind="soundboard">
+    <identifier scheme="archive-org">gd1978-01-06.170739.sbd.menke.miller.clugston.flac1648</identifier>
+    <lineage>Master Soundboard Cassettes &gt; Bob Menke's first generation cassettes | 1st Generation Cassettes (Nakamichi CR7-A)&gt; Korg MR-2000 (DSF 1-bit/5.6 MHz) &gt; AudioGate 24/96 .wav &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bob Menke, Scott Clugston</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-edbbf4a8b5025e70890d" kind="soundboard">
+    <identifier scheme="archive-org">gd1978-01-06.170740.sbd.menke.miller.clugston.flac2496</identifier>
+    <lineage>Master Soundboard Cassettes &gt; Bob Menke's first generation cassettes | 1st Generation Cassettes (Nakamichi CR7-A)&gt; Korg MR-2000 (DSF 1-bit/5.6 MHz) &gt; AudioGate 24/96 .wav &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bob Menke, Scott Clugston</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-d4185c043d00ff71fa98" kind="unknown">
+    <identifier scheme="archive-org">gd1978-01-06.sbd.wizard.24629.sbeok.shnf</identifier>
+    <lineage>MC&gt;RR&gt;DAT&gt;CD&gt;EAC&gt;DC5&gt;CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  </recording>
+  <recording id="r-672097c05640166b3c8b" kind="soundboard">
+    <identifier scheme="archive-org">gd78-01-06.sbd.clugston.6953.sbeok.shnf</identifier>
+    <lineage>Soundboard | Master Soundboard Cassette &gt; Cassette &gt; DAT &gt; CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+</recordings>

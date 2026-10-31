@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-04-29" date="1972-04-29">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1972-04-29" date="1972-04-29">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19720429-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-441" nameAsBilled="Musikhalle"/>
   <program coverage="partial">
@@ -38,75 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-fcdc2c155b784d95bc63" kind="matrix">
-      <identifier scheme="archive-org">gd1972-04-29.126010.mtx.dusborne.flac16</identifier>
-      <lineage>2 Source Matrix by dusborne; Soundboard (shinid:125888) Recording Info: SBD -&gt; Master Reel (14 inch 16 track Master Reels @ 15ips) -&gt; Dat (44.1k); Transfer Info: Dat -&gt; Pro Tools -&gt; Samplitude Professional v10.02 -&gt; FLAC; and Audience (shinid:5250) Source: MR*&gt; 2 reels&gt; cass&gt;SB Live!&gt;.wav&gt;.shn&gt;CD-R. seed disks provided by eurodead.net; SHN Conversion by mvernon54@home.com</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by dusborne</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-87347739915ae9feb914" kind="unknown">
-      <identifier scheme="archive-org">gd1972-04-29.141886.aud.wolsander.dalton.miller.sirmick.flac1644</identifier>
-      <credit role="recordist">Tim Dalton</credit>
-      <lineage>Source: Unknown mics &gt; Uher 4400 &gt; Master Reel &gt; PCM &gt; DAT (44.1k) - Taped by Wolsander* and provided by Tim Dalton; Tansfer: Dat &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/44.1 - Transferred by Charlie Miller; Lineage: Wav &gt; Adobe Audition 3 &gt; iZotope RX 6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; Flac 16; edited and mastered SIRMick May 2018</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-334b9407e6502e944337" kind="matrix">
-      <identifier scheme="archive-org">gd1972-04-29.mtx.sirmick.98401.flac16</identifier>
-      <lineage>Soundboard/Audience Matrix by Sir Mick</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
-    </recording>
-    <recording id="r-bcaabdea1243ff8e3889" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-04-29.sbd.cousinit.18523.sbeok.shnf</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>SBD &gt; Master Reel | MSR &gt; R &gt; R &gt; C &gt; DAT &gt; WAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Cousinit</note>
-    </recording>
-    <recording id="r-7e2404dc8e84a1de759c" kind="soundboard">
-      <identifier scheme="archive-org">gd1972-04-29.sbd.miller.125888.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel (14 inch 16 track Master Reels @ 15ips) -&gt; Dat (44.1k) | Dat -&gt; Pro Tools -&gt; Samplitude Professional v10.02 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-f0691fd2ae084444f40e" kind="unknown">
-      <identifier scheme="archive-org">gd1972-04-29.sbd.sirmick.32877.sbeok.flac16</identifier>
-      <lineage>remaster of shnid 17026</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): SirMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c64228867fdb58e3d2e7" kind="audience">
-      <identifier scheme="archive-org">gd72-04-29.aud.vernon.5250.sbeok.shnf</identifier>
-      <lineage>Audience | AUD MR (poss. Uher Reel Machine at 4.75 cm/sec)&gt; 2 reels&gt; cass&gt; SB Live!&gt; .wav&gt; .shn&gt; CD-R</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-77d22e34e96cb65f51ee" kind="matrix">
-      <identifier scheme="archive-org">gd72-04-29.matrix.vernon.17025.sbeok.shnf</identifier>
-      <lineage>Soundboard/Audience Matrix</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-b6d1edd5db9e0bf2dbb5" kind="soundboard">
-      <identifier scheme="archive-org">gd72-04-29.sbd.vernon.17026.sbeok.shnf</identifier>
-      <lineage>Soundboard with audience patches | SBD&gt;MR&gt;??&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Musikhalle on 1972-04-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matt Vernon</note>
-    </recording>
-    <recording id="r-a437e1a6a07356fa1d3c" kind="unknown">
-      <identifier scheme="other">etree-567871</identifier>
-      <note>Supplied catalogue listing: etree; gd72-04-29.126010.mtx.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

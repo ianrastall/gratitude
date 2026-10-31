@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-09-04" date="1979-09-04">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1979-09-04" date="1979-09-04">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19790904-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
@@ -36,88 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-ac8d7830eca8d1fb64b5" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-09-04.009452.sbd.clugston.sbeok.shnf</identifier>
-      <lineage>Master Soundboard Cassette &gt; Reel to Reel &gt; PCM &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Patching / CD Mastering by Scott Clugston EAC'ed / SHN'ed by Scott Clugston 4/16/02</note>
-    </recording>
-    <recording id="r-8504cdfb8390f88a4144" kind="unknown">
-      <identifier scheme="archive-org">gd1979-09-04.127491.set1.nak1000.stankiewicz.flac2496</identifier>
-      <credit role="recordist">Richie Stankiewicz</credit>
-      <lineage>Set 1 Recorded 6th row right center; Nakamichi 550 AKG D-222e; Transfer Nakamichi 1000II&gt;Sound Devices USBPre2; Recorded and transfered by Richie Stankiewicz</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Richie Stankiewicz</note>
-    </recording>
-    <recording id="r-ab7bf88022a0df1fe986" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-04.151656.nak700.wagner.miller.flac2496</identifier>
-      <credit role="recordist">Recorded by Bob Wagner</credit>
-      <lineage>(FOB/14th Row) Nakamichi CM700 &gt; Cassette Master (Sony TC-158SD/Dolby B) | Cassette Master (Nakamichi CR-7A/Dolby B) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 3, 2021</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-8093443bfca5fa0f502e" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-04.151988.fob.nak700.cm.wagner.miller.t.flac16</identifier>
-      <credit role="recordist">Recorded by Bob Wagner</credit>
-      <lineage>(FOB/14th Row) Nakamichi CM700 &gt; Cassette Master (Sony TC-158SD/Dolby B) | Cassette Master (Nakamichi CR-7A/Dolby B) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 3, 2021</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-0fa7db2978bcc4fa233e" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-04.156348.senn441.senn421.blend.eaton.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Rob Eaton for the recording, as well as the transfer and harddrive</credit>
-      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 (left + right) + (1) Sennheiser 421 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    </recording>
-    <recording id="r-b91b85edec3a64a424f8" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-04.156349.senn441.senn421.blend.eaton.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Rob Eaton for the recording, as well as the transfer and harddrive</credit>
-      <lineage>Rob Eaton's Master Audience Cassettes; (2) Sennheiser 441 (left + right) + (1) Sennheiser 421 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    </recording>
-    <recording id="r-22dd3c2936b9ab710bb8" kind="audience">
-      <identifier scheme="archive-org">gd1979-09-04.179466.senn.441.Weidner.Carbonetta.Visser.Mattes.flac2496</identifier>
-      <credit role="recordist">Dave Weidner</credit>
-      <lineage>( 1st Gen Aud ) Sennheiser 441's &gt; Sony TCD 5M | Transferred By: Nick Carbonetta, Master cassette &gt; Nakamichi CR7A &gt; Korg MR-2000 @ 1 bit, 5.6 Mhz Rendered By: Eric Visser, From 1 Bit to 24/96 WAV File using Audiogate, Decoded Dolby B NR with DDI Codec Edited &amp; Tracked By: Eric Visser, Cyberlink Audio Director &gt; Normalize &gt; Slight EQ &gt; Wav Track &gt; 24 Bit FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Nick Carbonetta</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
-    </recording>
-    <recording id="r-005f99abd4188eaa782f" kind="unknown">
-      <identifier scheme="archive-org">gd1979-09-04.nak700.glassberg.wise.117776.flac1644</identifier>
-      <credit role="recordist">Jim Wise and Barry Glassberg</credit>
-      <lineage>Nakamichi 700s &gt; Sony TC-158, 14th row recording by Barry Glassberg. Transferred MAC &gt; CDR by Jim Wise (c2000) CDR &gt; EAC &gt; TLH &gt; FLAC 1644 tagged (Dec 2011)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    </recording>
-    <recording id="r-3332040333d5fc974ccd" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-09-04.sbd.miller.79747.flac16</identifier>
-      <lineage>SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat -&gt; PCM -&gt; CD | CD -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0103640b7ca6d5a2a002" kind="audience">
-      <identifier scheme="archive-org">gd79-09-04.glassberg.unknown.8379.sbeok.shnf</identifier>
-      <lineage>Audience Recording: NAK 700's | FOB (14th row center) NAK 700s&gt; TC-158&gt; MAC&gt; FC/DD 2496&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-09-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

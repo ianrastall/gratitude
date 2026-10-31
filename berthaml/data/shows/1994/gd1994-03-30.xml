@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-03-30" date="1994-03-30">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1994-03-30" date="1994-03-30">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19940330-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-555" nameAsBilled="The Omni"/>
   <program coverage="partial">
@@ -34,36 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-e5b0f008df417ef823f1" kind="audience">
-      <identifier scheme="archive-org">gd1994-03-30.110956.bk.schmit.sbeok.flac16</identifier>
-      <credit role="recordist">Alan Schmit</credit>
-      <lineage>Source: (ORTF/110^/DFC/FOB/16th Row) B&amp;K 4011s &gt; Neumann BS48i-2 &gt; TCD-D3 &gt; DAT(m); | DAT(m) &gt; Sony DTC-59ES &gt; SPDIF &gt; Tascam HD-P2 &gt; Audacity (16/48 &gt; 16/44) &gt; CDWave &gt; FLAC; DAT(m) sourced by Alan Schmit; Transfer by Terry Watts</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1994-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Terry Watts</note>
-    </recording>
-    <recording id="r-e54ba7741eea792d0647" kind="unknown">
-      <identifier scheme="archive-org">gd1994-03-30.sbd.larson.31806.sbefail.shnf</identifier>
-      <lineage>S:D&gt;ZA2&gt;Samplitude2496&gt;CD-R</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1994-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Chris Larson</note>
-    </recording>
-    <recording id="r-a1cc06701e3b9c79780d" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-03-30.sbd.larson.3621.shnf</identifier>
-      <credit role="recordist">Thanks to Chris Larson for the discs</credit>
-      <lineage>SBD: DAT&gt; ZA2&gt; Samplitude2496&gt; CDR&gt; EAC&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1994-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): EAC and SHN Conversion by Tony Gardner</note>
-    </recording>
-    <recording id="r-b94e26738e1b95e512c9" kind="soundboard">
-      <identifier scheme="archive-org">gd94-03-30.sbd.miller.14832.sbeok.shnf</identifier>
-      <lineage>Recording Info:SBD -&gt; Dat Transfer Info:Dat (Sony R500) -&gt;Prodif Plus -&gt;Samplitude v6.0 -&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1994-03-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

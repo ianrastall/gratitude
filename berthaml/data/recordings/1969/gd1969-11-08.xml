@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1969-11-08">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-91027c683962dfa48fdd" kind="audience">
+    <identifier scheme="archive-org">gd1969-11-08.178500..s2p.aud.pape.andrewf.flac2448</identifier>
+    <credit role="recordist">John Pape</credit>
+    <lineage>AUD (AKG D190 &gt; Uher 4000L) Mono MAR &gt; ? &gt; 7-inch Reel, via the John Pape Collection, dubbed in the mid-70's. | Memorex-1800 @7.5ips &gt; Technics 1506 &gt; Komplete-6 interface &gt; Audacity 2448 capture &gt; Izotope-RX (De-hum) &gt; Wavelab (gain &amp; speed adjustments, edits) &gt; CD-Wave (24bit) &gt; TLH &gt; FLAC 2448 tagged. Andrew F, July 2026.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore Auditorium on 1969-11-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Andrew F</note>
+  </recording>
+  <recording id="r-26f9c55186e7b77a6cc0" kind="unknown">
+    <identifier scheme="archive-org">gd1969-11-08.sbd.wise.17433.shnf</identifier>
+    <lineage>MR (Dick Latvala) &gt; DAT &gt; SoundForge (Jim Wise) &gt; CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore Auditorium on 1969-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note>Source credit (transfer-mastering): Jim Wise</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-b4e837626bb1e400be01" kind="soundboard">
+    <identifier scheme="archive-org">gd69-11-08.sbd.wise.82.sbeok.shnf</identifier>
+    <lineage>Soundboard | MR (Dick Latvala) &gt; DAT &gt; SoundForge (Jim Wise) &gt; CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore Auditorium on 1969-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Jim Wise</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-35337a2bbe373169f535" kind="audience">
+    <identifier scheme="archive-org">gd69-11-08.weinberg.warner.26331.sbeok.flacf</identifier>
+    <credit role="recordist">Marty Weinberg</credit>
+    <lineage>Audience: AKG 190E | AKG190E &gt; Uher 400L MR; Audience master reel &gt; (possibly one extra reel gen?) &gt; modified Technics 1506 playback &gt; Cardas audiophile cables &gt; HHB CDR 800 master CD &gt; CD &gt; CD &gt; Samsung SW-232B extraction (EAC v0.9 beta 4) &gt; tracking &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore Auditorium on 1969-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Jack Warner</note>
+    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+  </recording>
+  <recording id="r-e3031f6b9e23aad45636" kind="unknown">
+    <identifier scheme="other">etree-551640</identifier>
+    <note>Supplied catalogue listing: etree; gd69-11-08.17433.sbd.wise.sbeok.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
+  </recording>
+</recordings>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1988-09-15" date="1988-09-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1988-09-15" date="1988-09-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880915-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
@@ -34,106 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-624feb347785fea4590d" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-15.125772.AT835.flac16</identifier>
-      <credit role="recordist">M.Laurentus</credit>
-      <lineage>Taper: M. Laurentus; Taper Section: 57F, Row C, Seat 5; AT835B's-AT8202's -10db -SONY WM D6-C; Cassette-Tascam DR-5 Line In-CD Wave- Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): M.Laurentus</note>
-    </recording>
-    <recording id="r-5f762fcb049acf155975" kind="matrix">
-      <identifier scheme="archive-org">gd1988-09-15.132909.mtx.tobin.flac16</identifier>
-      <lineage>Matrix 2 Source Mix - SBD (shnid=5068) SBD&gt; MC&gt; DAT&gt; CDR&gt; EAC&gt; CDwave&gt; SHN; via Steve Barbella; d2 tracked for 80 min + AUD (shn id 88535) AUD: Nakamichi CM300's w/CP4 shotguns &gt; patched thru one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX90's, no Dolby. Mics on 7-foot stand in OTS. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 analog &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC. Taped and transferred by Andrew F. - matrix mixing by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-f5317c4635dde978e625" kind="soundboard">
-      <identifier scheme="archive-org">gd1988-09-15.132910.dts.tobin.flac16</identifier>
-      <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=5068) SBD&gt; MC&gt; DAT&gt; CDR&gt; EAC&gt; CDwave&gt; SHN; via Steve Barbella; d2 tracked for 80 min + AUD (shn id 88535) AUD: Nakamichi CM300's w/CP4 shotguns &gt; patched thru one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX90's, no Dolby. Mics on 7-foot stand in OTS. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 analog &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC. Taped and transferred by Andrew F. - dts mixing by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5d4195cb18ef85b602d8" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-15.139644.OTS.Schoeps.Oade.Bryant.Gastwirt.Miller.Noel.t-flac16</identifier>
-      <credit role="recordist">Robert Bryant (patched out of Oade Brothers) via Rich Gastwirt</credit>
-      <lineage>Robert Bryant recording (patched out of Oade Brothers): Schoeps CMC4 MK41 &gt; PCM &gt; DAT; Charlie Miller | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Flac 16/44; Edited &amp; Mastered in Audacity by Joe Noel: Flac 16/44; Checksum &amp; tags created in xACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
-    </recording>
-    <recording id="r-fb953e48c39edd34642c" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-15.143842.sennme-80.porter.carbonetta.sirmick.flac1644</identifier>
-      <credit role="recordist">Steve Porter</credit>
-      <lineage>Sennheiser ME-80s &gt; Sony D-5 &gt; Master Cassette - taped by Steve Porter | Transfer: Master Cassette &gt; Nakamichi CR-7A &gt; Korg MR-1000 &gt; (DSF 1-bit/5.6MHz) &gt; KORG AudioGate 4 &gt; wav 16/44.1 - Transferred by Nick Carbonetta Lineage: Wav 16/44.1 &gt; Adobe Audition 3 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Nick Carbonetta and SirMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d3cfabe1b2976f30108c" kind="matrix">
-      <identifier scheme="archive-org">gd1988-09-15.163871.ultramatrix.miller.flac2496</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 25, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-71259b7ce69e21de0868" kind="matrix">
-      <identifier scheme="archive-org">gd1988-09-15.163882.ultramatrix.miller.fixed.flac2496</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller March 6, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-f308d446bdfb6136f3b6" kind="matrix">
-      <identifier scheme="archive-org">gd1988-09-15.164213.UltraMatrix.sbd.cm.miller.t.flac1644</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>Ultramatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller March 6, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-76078c4d7e5a2d8e8ae7" kind="audience">
-      <identifier scheme="archive-org">gd1988-09-15.fob.senn421.mccue-zaleski.ford.103230.flac16</identifier>
-      <credit role="recordist">Lucien Zaleski and Mark McCue</credit>
-      <lineage>(FOB) Sennheiser 421s&gt; Sony D5&gt; Maxell XLII 60 (Set I) and Maxell XLII-s 90 (Set II). | Nakamichi Dragon&gt; Kind Kables RCA/XLR&gt; Lunatec V3 (@24/88.2)&gt; coax&gt; Audiophile 2496&gt; WaveLab 6.10&gt; .wav @ 24/88.2&gt; R8brain&gt; 16/44.1&gt; CD Wave Editor&gt; Traders Little Helper&gt; FLAC16. Editing and Mastering in Wavelab 6.10 with UAD in 24/88.2.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Alex Ford</note>
-    </recording>
-    <recording id="r-d67005cab640a3229e95" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-15.nak300.andrewf.88535.sbeok.flac16</identifier>
-      <credit role="recordist">Andrew F</credit>
-      <lineage>Nakamichi CM300's w/CP4 shotguns &gt; patched thru one Sony D5 &gt; Sony TC-D5M &gt; Maxell MX90's, no Dolby. Mics on 7-foot stand in OTS. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 analog &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F</note>
-    </recording>
-    <recording id="r-eb2197825a22c8fe092c" kind="unknown">
-      <identifier scheme="archive-org">gd1988-09-15.nak300.damico.90744.sbeok.flac16</identifier>
-      <credit role="recordist">Joe D'Amico</credit>
-      <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joe D'Amico</note>
-    </recording>
-    <recording id="r-482b5fe296f1420b8034" kind="soundboard">
-      <identifier scheme="archive-org">gd88-09-15.sbd.barbella.5068.sbeok.shnf</identifier>
-      <lineage>SBD&gt; MC&gt; DAT&gt; CDR&gt; EAC&gt; CDwave&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1988-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1985-11-02">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-adfa7755f0ef0fbdf457" kind="unknown">
+    <identifier scheme="archive-org">gd1985-11-02.121577.BeyerM160.daweez.d5scott.flac16</identifier>
+    <credit role="recordist">Da Weez</credit>
+    <lineage>Source: 2 Beyer M160 microphones &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): D5scott</note>
+  </recording>
+  <recording id="r-3c046931c1b44ff6a18b" kind="unknown">
+    <identifier scheme="archive-org">gd1985-11-02.126333.chasingwilma.flac24</identifier>
+    <credit role="recordist">chasingwilma</credit>
+    <lineage>source: (2) audio technica atm 11/ (2) nakamichi 300&gt; tcd-d5&gt;mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): chasingwilma</note>
+  </recording>
+  <recording id="r-c66f452b0d48a51ba386" kind="soundboard">
+    <identifier scheme="archive-org">gd1985-11-02.137152.upg-sbd.tobin.flac16</identifier>
+    <lineage>(original shnid = 14604) SBD &gt; ? &gt; DAT &gt; CD &gt; EAC &gt; WAV &gt; CoolEdit2000 (retracking) &gt;SHN - pitch correction and patches by Kevin Tobin</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-27708c457ee06089714f" kind="matrix">
+    <identifier scheme="archive-org">gd1985-11-02.137205.mtx.tobin.flac16</identifier>
+    <lineage>Matrix 2 Source Mix - SBD (shnid=14604) SBD &gt; ? &gt; DAT &gt; CD &gt; EAC &gt; WAV &gt; CoolEdit2000 (retracking) &gt;SHN + AUD (shnid=4772)(FOB)AUD&gt;Beyer Dynamic M88's&gt;Sony TCD5M(CM)&gt;Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav v1.6 (tracking only)&gt;SHNv3 (MKW ACT): Analog and digital mastering by Charlie Connor; seeded to abgd - matrix mixing by Kevin Tobin</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-6eb549bf65c369c7365b" kind="soundboard">
+    <identifier scheme="archive-org">gd1985-11-02.137206.dts.tobin.flac16</identifier>
+    <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=14604) SBD &gt; ? &gt; DAT &gt; CD &gt; EAC &gt; WAV &gt; CoolEdit2000 (retracking) &gt;SHN + AUD (shnid=4772)(FOB)AUD&gt;Beyer Dynamic M88's&gt;Sony TCD5M(CM)&gt;Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav v1.6 (tracking only)&gt;SHNv3 (MKW ACT): Analog and digital mastering by Charlie Connor; seeded to abgd - dts mixing by Kevin Tobin</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB DTS</note>
+    <note>Source credit (transfer-mastering): Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-380eecfa6092b1a396a0" kind="soundboard">
+    <identifier scheme="archive-org">gd1985-11-02.137207.5-1.tobin.flac1648</identifier>
+    <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid=14604) SBD &gt; ? &gt; DAT &gt; CD &gt; EAC &gt; WAV &gt; CoolEdit2000 (retracking) &gt;SHN + AUD (shnid=4772)(FOB)AUD&gt;Beyer Dynamic M88's&gt;Sony TCD5M(CM)&gt;Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav v1.6 (tracking only)&gt;SHNv3 (MKW ACT): Analog and digital mastering by Charlie Connor; seeded to abgd - mixing by Kevin Tobin</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Kevin Tobin</note>
+    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-1af5ff3c2cce1696e130" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.148860.senn441.mattes.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+    <lineage>Ted Mattes and Robby Hunt's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+  </recording>
+  <recording id="r-b96122a5c4d14b18d44b" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.148861.senn441.mattes.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+    <lineage>Ted Mattes and Robby Hunt's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
+  </recording>
+  <recording id="r-07c83eb4d50a2375ca53" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.151992.senn441.lamarre.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Recorded by Doug Lamarre</credit>
+    <lineage>Doug Lamarre's Master Audience Cassettes (Taper's Section); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-0ce6afe9f5a9b8771dc8" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.151993.senn441.lamarre.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Recorded by Doug Lamarre</credit>
+    <lineage>Doug Lamarre's Master Audience Cassettes (Taper's Section); Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition 2020 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-da071c272760a0ba8f02" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.164232.akg451.ck8.eaton.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Rob Eaton</credit>
+    <lineage>Rob Eaton's Master Audience Cassettes; AKG 451's w/ CK8 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+  </recording>
+  <recording id="r-c0c5298a7663a4810d18" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.164233.akg451.ck8.eaton.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Rob Eaton</credit>
+    <lineage>Rob Eaton's Master Audience Cassettes; AKG 451's w/ CK8 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
+  </recording>
+  <recording id="r-6ec3d8e076143996a207" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.167351.nak304.thomas.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Stephen Thomas</credit>
+    <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-d962a08b396860498c63" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.167352.nak304.thomas.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Stephen Thomas</credit>
+    <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-d622c3656b0547f177d2" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.171786.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <credit role="recordist">Michael Hessberg</credit>
+    <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-b076165f79bf2c593d82" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.171787.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <credit role="recordist">Michael Hessberg</credit>
+    <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-48177f23ecec995d4c38" kind="unknown">
+    <identifier scheme="archive-org">gd1985-11-02.176242.schoeps.pcm.oade.miller.flac1644</identifier>
+    <lineage>Schoeps CMC4/MK41 + (1) Schoeps CMC4/MK2 &gt; Oade Mixer &gt; PCM (Sony PCM-F1) | PCM (Sony SL-10) &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller January 16, 2026</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+  </recording>
+  <recording id="r-746539b068fac7f352f1" kind="audience">
+    <identifier scheme="archive-org">gd1985-11-02.178964.beyer.m160.strizak.flac2448</identifier>
+    <credit role="recordist">Tom Strizak</credit>
+    <lineage>Tom Strizak’s Master Analog Cassettes: (2) Beyer M-160 standard stereo configuration &gt; Sony TC-D5M (2 Fugi -FR90 Metal/Dolby-B). Location: approx. 15’ FOB just R of center. | Lineage: Analog Master Cassette &gt; playback on Harmon Kardon TD-262 Ultra Wideband Linear Phase) &gt; Behringer XR-18 digital audio mixer &gt; Reaper *DAW (master digitization @ 24 bit 48Khz Exported@ -14LUFS &gt; WAV file &gt; Imported to Audacity *DAW (for track labeling, audio edits, and file conversion to Tracked and Labeled FLAC fileset) (*DAW = Digital Audio Workstation)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Tom Strizak</note>
+  </recording>
+  <recording id="r-27f3c40d2f660c458ee8" kind="unknown">
+    <identifier scheme="archive-org">gd1985-11-02.cpb.retransfer.32798.sbeok.flac16</identifier>
+    <credit role="recordist">Charles Bandrofcheck</credit>
+    <lineage>Can't remember shotgun mics -&gt; Sony D6 -&gt; Maxel MX 90s | Playback on Marantz SD 4050 -&gt; Marantz Intergrated Stereo Amp MP-68 -&gt; SBLive! -&gt; CDWave -&gt; WAV -&gt; mkwAC -&gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charles Bandrofcheck</note>
+  </recording>
+  <recording id="r-b1fa9850220168ef2915" kind="matrix">
+    <identifier scheme="archive-org">gd1985-11-02.matrix.chappell.27582.sbeok.flac16</identifier>
+    <credit role="recordist">See info files for details</credit>
+    <lineage>Matrix: (SBD/AUD mix) See info file for details | See info file for details</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Chris Chappell</note>
+    <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-576bb86d2ca9523628d9" kind="unknown">
+    <identifier scheme="archive-org">gd1985-11-02.senn421.zaleski.ford.91238.sbeok.flac16</identifier>
+    <credit role="recordist">Lucien Zaleski</credit>
+    <lineage>MAC; 2 x Sennheiser 421 &gt; Sony D5 &gt; D5 &gt; Maxell XLII-S 90 (Set I) Maxell MX 90 (Set II). | Master audience cassette &gt; Nakamichi Dragon &gt; Kind Kables RCA/XLR &gt; Luntatec V3 (@ 24/96) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; .wav @ 24/96 &gt; Waves L3 UltraMaximizer &gt; .wav @16/44.1 &gt; CD Wave Editor &gt; TLH &gt; flac16.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Alex Ford</note>
+  </recording>
+  <recording id="r-36313eb7893261bb3661" kind="unknown">
+    <identifier scheme="archive-org">gd1985-11-02.senn421s.nak300s.alexander.77525.sbeok.flac16</identifier>
+    <credit role="recordist">Tim Alexander</credit>
+    <lineage>MAC (2 Senn 421s + 2 Nak 300 shotguns) &gt; Yamaha mixer &gt; Sony D-5 (Dolby B in)) | MAC playback on Nak DR-1 (Dolby B out) &gt; Tascam HD-P2 (16 bit/44.1 khz) &gt; WAV &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+  </recording>
+  <recording id="r-2a9d980e744880451b38" kind="unknown">
+    <identifier scheme="archive-org">gd1985-11-02.senn421s.nak300s.alexander.77906.flac24</identifier>
+    <credit role="recordist">Tim Alexander</credit>
+    <lineage>MAC (2 Senn 421s + 2 Nak 300 shotguns) &gt; Yamaha mixer &gt; Sony D-5 (Dolby B)) | MAC playback on Nak DR-1 &gt; Tascam HD-P2 (24 bit/48 khz) &gt; WAV &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Bill Tetzeli</note>
+  </recording>
+  <recording id="r-7e4e8553242024d20a2c" kind="unknown">
+    <identifier scheme="archive-org">gd85-11-02.aud-oade.remaster.20663.sbeok.shnf</identifier>
+    <credit role="recordist">Oade Bros.</credit>
+    <lineage>Schoeps CMC441s (90deg, 17cm) + (CMC42 omni - offset ~ 8') &gt; custom mixer made by Doug Oade (M118 circuit in a 3 channel package) &gt; Oade mod SONY PCM-F1 | Master PCM &gt; DAW (via SEKD card) &gt; DSP* &gt; CD data &gt; HD &gt; compressed with mkwACT0.97b (mkw) &gt; CDR &gt; HD &gt; mkwACT (verify) &gt; WAV &gt; CD Wave 1.91 (splits) &gt; mkwACT &gt; SHN (seekable)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Doug Oade</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
+  </recording>
+  <recording id="r-90573fd9b28e0d2de1ff" kind="audience">
+    <identifier scheme="archive-org">gd85-11-02.beyer.connor.4772.sbeok.shnf</identifier>
+    <lineage>(FOB)AUD&gt;Beyer Dynamic M88's&gt;Sony TCD5M(CM)&gt;Nak DR-10 (Playback)&gt; Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav v1.6 (tracking only)&gt;SHNv3 (MKW ACT): Analog and digital m</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+  </recording>
+  <recording id="r-c224355425a8a30fa93e" kind="soundboard">
+    <identifier scheme="archive-org">gd85-11-02.sbd.jim.14604.sbeok.shnf</identifier>
+    <lineage>SBD &gt; ? &gt; DAT &gt; CD &gt; EAC &gt; WAV &gt; CoolEdit2000 (retracking) &gt;SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Richmond Coliseum on 1985-11-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+</recordings>

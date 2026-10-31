@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1989-10-22" date="1989-10-22">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1989-10-22" date="1989-10-22">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19891022-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-984" nameAsBilled="Charlotte Coliseum"/>
   <program coverage="partial">
@@ -37,127 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-7309c8b3fd4ab2fd04db" kind="audience">
-      <identifier scheme="archive-org">gd1989-10-22.132700.cmc521.fob.deal.petty.flac16</identifier>
-      <credit role="recordist">Lance Deal</credit>
-      <lineage>Recording info: FOB/ Schoeps cmc 521's&gt; Colette (active) cables&gt; Schoeps VMS 52 UB p/s&gt; Technics SV-MD1 by Lance Deal; Master DAT's provided by Lance Deal by Lance Deal; | Fostex D-5 (AES/BU)&gt; Luminous Monarch cable&gt; (s/pdif) M-Audio Audiophile 2496&gt; Audacity @ 16/48&gt; 16/44&gt; CDWAve(tracking)&gt; TLH (SBE's/Flac/md5); Tranferred and liberated to etree on March 22, 2015 by Will Petty</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Willl Petty</note>
-    </recording>
-    <recording id="r-4f0dd51d62f5e9f9c164" kind="audience">
-      <identifier scheme="archive-org">gd1989-10-22.142576.fob.schoeps.cmc4.mk4.mattes.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Ted Mattes</credit>
-      <lineage>flac16/48kHz ; Source Info: Ted Mattes' Master (FOB)Audience Dat; Schoeps CMC4/MK4 mics @ 110 degrees, ORTF, Schoeps t-bar, hand held, chin high &gt; Monster Cable Interlinks &gt; Oade capacitor P/S &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Master Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
-    </recording>
-    <recording id="r-7f81fbd9be1eba968ee1" kind="unknown">
-      <identifier scheme="archive-org">gd1989-10-22.147644.nak300CP4.ebel.flac2496</identifier>
-      <credit role="recordist">Taped &amp; Transfers by Pete Ebel September 22, 2019</credit>
-      <lineage>TS Nakamichi CM-300 CP4-&gt; Sony D5-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's) | Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analog-&gt; Digital Converter) (SPDIF out) 24/96-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/96)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-89-charlotte-nc-charlotte-coliseum/</note>
-    </recording>
-    <recording id="r-f2fea78235a61e07e607" kind="matrix">
-      <identifier scheme="archive-org">gd1989-10-22.147755.sbd.ultramatrix.miller.flac24</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-685726aa8fdf2ddbada9" kind="matrix">
-      <identifier scheme="archive-org">gd1989-10-22.148202.UltraMatrix.sbd.cm.miller.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-28d07165ee3159761852" kind="unknown">
-      <identifier scheme="archive-org">gd1989-10-22.149693.boedicker.flac1644</identifier>
-      <credit role="recordist">Dave Boedicker</credit>
-      <lineage>Source:DAK Shotgun Mics&gt;Sony WM-D6C Cassette Deck&gt;2 Maxell MX-90 MinuteMetal Cassette Master Tapes&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR(24/44.1 KHZ)&gt;Cd Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper.Taped By Dave Boedicker,Official Taper Section.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dave Boedicker</note>
-    </recording>
-    <recording id="r-cbe7d3191282cc23650f" kind="audience">
-      <identifier scheme="archive-org">gd1989-10-22.167186.akg.c522.hessberg.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; AKG C522 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9c26dac13e0e67e1dfef" kind="audience">
-      <identifier scheme="archive-org">gd1989-10-22.167187.akg.c522.hessberg.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; AKG C522 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-277d387f0c0aba3f4e42" kind="audience">
-      <identifier scheme="archive-org">gd1989-10-22.173001.beyer.m160.vita.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Jim Vita's Master Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b60950eca5de8a39766a" kind="audience">
-      <identifier scheme="archive-org">gd1989-10-22.173002.beyer.m160.vita.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Jim Vita's Master Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-53e6ae0363095b394a0b" kind="matrix">
-      <identifier scheme="archive-org">gd1989-10-22.mtx.seamons.102399.flac16</identifier>
-      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC&gt;AIFF&gt;Final Cut&gt;WAV&gt;FLAC)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Hunter Seamons</note>
-      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-89-charlotte-nc-charlotte-coliseum/</note>
-    </recording>
-    <recording id="r-641bfe2c6b69fdddd22b" kind="unknown">
-      <identifier scheme="archive-org">gd1989-10-22.nak300.holtz.lmpp.97414.sbeok.flac16</identifier>
-      <credit role="recordist">Greg Holtz</credit>
-      <lineage>Nakamichi CM-300s &gt; Sony WD-5 &gt; mac | mac &gt; Nakamichi CR-5A &gt; Tascam HD-P2 &gt; 24/96 wav &gt; Adobe Audition &gt; Wavelab with iZotope Ozone &gt; iZotope RX Advanced &gt; 16/44.1 wav &gt; CD Wave &gt; TLH &gt; flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Brian Green and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9db78db61201278c7caf" kind="soundboard">
-      <identifier scheme="archive-org">gd1989-10-22.sbd.walker-scotton.miller.83319.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-89-charlotte-nc-charlotte-coliseum/</note>
-    </recording>
-    <recording id="r-6375adf6afa519e57fc2" kind="soundboard">
-      <identifier scheme="archive-org">gd89-10-22.sbd.brame.12188.sbeok.shnf</identifier>
-      <lineage>SBD&gt; ?&gt; CD&gt; EAC&gt; SHN (EAC)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1989-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-89-charlotte-nc-charlotte-coliseum/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

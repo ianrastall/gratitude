@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-12-15" date="1978-12-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1978-12-15" date="1978-12-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19781215-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-747" nameAsBilled="Boutwell Auditorium"/>
   <program coverage="partial">
@@ -37,20 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-72a49a8dafcfc3dee01e" kind="audience">
-      <identifier scheme="archive-org">gd1978-12-15.143923.unknown.westcott.sirmick.flac1644</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>unknown aud Master Cassette &gt; 10" Reels &gt; PCM | Transfer: PCM &gt; Sony SL-HF360 &gt;Modified Sony 601 &gt; Marantz PMD 661 &gt; wav 16/44.1 - Transferred by the late Kris Westcott. Lineage: wav 16/44.1 &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 &gt; CD Wave &gt; Flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1978-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kris Westcott and SirMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c2c1cd6bfb67b0c6c7ef" kind="audience">
-      <identifier scheme="archive-org">gd78-12-15.sony.wiley.9479.sbeok.shnf</identifier>
-      <lineage>Audience Recording: Sony 54P's | AUD (Sony 54P's)&gt; MC&gt; DAT&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1978-12-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-12-12" date="1980-12-12">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1980-12-12" date="1980-12-12">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19801212-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-264" nameAsBilled="Swing Auditorium"/>
   <program coverage="partial">
@@ -39,89 +38,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-c72b4e5c809a8a76a8ec" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-12.124542.aud.goldshine.sennheiser-mkh406-flyingm.flac16</identifier>
-      <credit role="recordist">Ron Goldshine and John Musgrave with help from Mark the B-Man and Mike Martin (guarding the mic stands)</credit>
-      <lineage>Source: 2 Sennheiser MKH 406 TUD microphones &gt; Sony D5M (w/ Dolby B, Bias @ 70us on 3 TDK MA C-90 tapes); Copy of masters: Sony D5M (w/ Dolby, Bias @ 70us) &gt; Akaii GX-570 D2 (w/ Dolby B, Bias @ 70us on 2 TDK SA C-90 tapes); | Nakamichi CR-7A (azimuth aligned to tape, Dolby B, Bias @ 70us) &gt; Korg MN-2000S 1 Bit DFF @ 2.822 MHz &gt; AudioGate (convert to 24-96) &gt; Audacity (clean up) &gt; AudioGate (convert to 16-44) &gt; CD wav &gt; Flac (Level 8) &gt; Stamp ID3 Tag editor; Recorded by: Ron Goldshine and John Musgrave</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Mike Martin</note>
-    </recording>
-    <recording id="r-607ffc955ad116de316d" kind="matrix">
-      <identifier scheme="archive-org">gd1980-12-12.136722.mtx.dusborne.flac16</identifier>
-      <lineage>3 source matrix by Dusborne; Soundboard(Shnid:31509) Recording Info: SBD -&gt; Cassette Master -&gt; ? -&gt; Cassette; Transfer Info: Cassette (Nak CR7A) -&gt; Dat (Sony R500/SBM On); Dat (Sony D8) -&gt; Sharp MV10 -&gt; Samplitude Professional v8.01 -&gt; FLAC; Audience 1(Shnid:89134) Analog | 2 x Nakamichi CM-700 =&gt; Sony TC-D5M &gt;&gt; MAC,Analog Sound Preservation: MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3 [Pre-Only] =&gt;Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]; Taped By: Ron Ellner; Audience 2(Shnid:124542) Recorded by: Ron Goldshine and John Musgrave 2 Sennheiser MKH 406 TUD microphones &gt; Sony D5M (w/ Dolby B, Bias @ 70us on 3 TDK MA C-90 tapes)My Copy of masters:Sony D5M (w/ Dolby, Bias @ 70us) &gt; AkaiiGX-570 D2 (w/ Dolby B, Bias @ 70us on 2 TDK SA C-90 tapes); Transfer: Nakamichi CR-7A (azimuth aligned to tape, Dolby B, Bias @ 70us) &gt; Korg MN-2000S 1 Bit DFF @ 2.822 MHz &gt;AudioGate (convert to 24-96) &gt; Audacity (clean up) &gt; AudioGate (convert to 16-44) &gt; CD wav &gt; Flac (Level 8) &gt; Stamp ID3 Tag editor</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c46fad53e361eefd36d0" kind="soundboard">
-      <identifier scheme="archive-org">gd1980-12-12.175120.sbd.miller.remaster.31509.flac1644</identifier>
-      <lineage>SBD &gt; Cassette (Nakamichi CR-7A) &gt; DAT (Sony PCM-R500) | Transfer Info: DAT (Sony TC-D8) &gt; Sharp MV10 &gt; Samplitude Pro v8.01 -&gt; FLAC/16 Patch Info: (FOB) Nakamichi CM700 supplies: Little Red Rooster (7:53 - end of track) Peggy-O (0:00 - 0:52) China Cat Sunflower (0:00 - 0:13) Truckin' (2:17 - 2:43) Don't Ease Me In (0:00 - 0:05) Remastering Info: FLAC/16 &gt; Adobe Audition 2025 &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Transfer and Remastering by Charlie Miller November 14, 2025</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-273fc7f69f696fe37f51" kind="audience">
-      <identifier scheme="archive-org">gd1980-12-12.175906.nak700.ellner.menke.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Ron Ellner</credit>
-      <lineage>Ron Ellner's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Nakamichi 550 (TDK MA C-90) through the tape flip in "Good Lovin'" Ron Ellner's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Nakamichi 550 &gt; Bob Menke's 1st generation reels @ 3 3/4 ips supplies the balance of "Good Lovin', as well as the "Don't Ease Me In" encore | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition CC 2025 (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496 1st generation reel (Technincs RS-1506) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition 2025 &gt; (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-54b938649f0956f1ebc0" kind="audience">
-      <identifier scheme="archive-org">gd1980-12-12.175907.nak700.ellner.menke.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Ron Ellner</credit>
-      <lineage>Ron Ellner's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Nakamichi 550 (TDK MA C-90) through the tape flip in "Good Lovin'" Ron Ellner's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Nakamichi 550 &gt; Bob Menke's 1st generation reels @ 3 3/4 ips supplies the balance of "Good Lovin', as well as the "Don't Ease Me In" encore | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition CC 2025 (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496 1st generation reel (Technincs RS-1506) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate (32-bit/96k) &gt; Adobe Audition 2025 &gt; (24-bit/96k .wav)(DDi codec) &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c6b88dba8e481ef804bf" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-12.fob.ellner.motb.89347.flac24</identifier>
-      <credit role="recordist">Barry Glassberg</credit>
-      <lineage>2 x Nakamichi CM-700 =&gt; Nakamichi 550 &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3[Pre-Only] =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]]</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): A. Egert and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-ea7c97ed216fed56ec92" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-12.fob.glassberg.motb.89134.sbeok.flac16</identifier>
-      <credit role="recordist">Ron Ellner</credit>
-      <lineage>2 x Nakamichi CM-700 =&gt; Nak550 &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3 [Pre-Only] =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): A. Egert and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-88f07b7d9998fe0b6c86" kind="soundboard">
-      <identifier scheme="archive-org">gd80-12-12.sbd.miller.31509.sbeok.flacf</identifier>
-      <lineage>Soundboard | SBD &gt; Cassette Master &gt; ? &gt; Cassette &gt; Nak CR7A &gt; Sony R500 DAT (SBM "on") &gt; Sony TCD-D8 &gt; Sharp MV10 &gt; Samplitude Professional v8.01 &gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Neil Sturtevant and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5ece0cd09bd19e52552e" kind="audience">
-      <identifier scheme="archive-org">gd80-12-12.set1-aud.vernon.16906.sbeok.shnf</identifier>
-      <lineage>Audience Recording | set 1; aud (unknown mics)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-4eb19a0c44c40ce2435f" kind="audience">
-      <identifier scheme="archive-org">gd80-12-12.set2-aud.munder.13192.sbeok.shnf</identifier>
-      <lineage>Audience Recording | AUD&gt;MC&gt;DAT&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1980-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

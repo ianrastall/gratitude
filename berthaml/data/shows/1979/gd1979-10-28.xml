@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-10-28" date="1979-10-28">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1979-10-28" date="1979-10-28">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19791028-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-681" nameAsBilled="Cape Cod Coliseum"/>
   <program coverage="partial">
@@ -34,83 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-5e39c59719fdfe359197" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-10-28.134396.sbd.miller.flac16</identifier>
-      <lineage>SBD -&gt; Master Cassette -&gt; Dat | Dat -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional 11.2.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b52196d0bee709b1449b" kind="audience">
-      <identifier scheme="archive-org">gd1979-10-28.145464.fob.nak700.rolfe.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Steve Rolfe</credit>
-      <lineage>Steve Rolfe's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/28/10-28-79-south-yarmouth-ma-cape-cod-coliseum/</note>
-    </recording>
-    <recording id="r-af6f9fb8d0646c26e168" kind="audience">
-      <identifier scheme="archive-org">gd1979-10-28.145465.fob.nak700.rolfe.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Steve Rolfe</credit>
-      <lineage>Steve Rolfe's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
-    </recording>
-    <recording id="r-c58b70a6943c44394afe" kind="matrix">
-      <identifier scheme="archive-org">gd1979-10-28.mtx.seamons.105530.flac16</identifier>
-      <lineage>Matrix by Hunter Seamons using Final Cut Pro (SHN &amp; FLAC&gt;AIFF&gt;Final Cut&gt;WAV&gt;FLAC)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Hunter Seamons</note>
-      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/28/10-28-79-south-yarmouth-ma-cape-cod-coliseum/</note>
-    </recording>
-    <recording id="r-df78856e499c86f29149" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-10-28.nak300.morrone.113747.flac2448</identifier>
-      <lineage>AUD: 3x Nakamichi CM300/CP1's &gt; patched thru Nakamichi 550 &gt; Sony TC-153SD &gt; Maxell UDXLII's, set up directly behind the soundboard, taped by Joe Morrone. | MAC &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave &gt; TLH &gt; FLAC 2448 Tagged. Transfer by Andrew F.</lineage>
-      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-b7d8342c930ea4d4f6fc" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-10-28.nak300.morrone.113748.flac1644</identifier>
-      <lineage>AUD: 3x Nakamichi CM300/CP1's &gt; patched thru Nakamichi 550 &gt; Sony TC-153SD &gt; Maxell UDXLII's, set up directly behind the soundboard, taped by Joe Morrone. | MAC &gt; Nakamichi CR5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 Tagged. Transfer by Andrew F. 05/2011</lineage>
-      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/28/10-28-79-south-yarmouth-ma-cape-cod-coliseum/</note>
-    </recording>
-    <recording id="r-1fbaa30b44a7cb6f3c4b" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-10-28.sbd.miller.105434.flac16</identifier>
-      <lineage>SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat | Dat (Sony R500) -&gt; Samplitude Professional 10.22 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/28/10-28-79-south-yarmouth-ma-cape-cod-coliseum/</note>
-    </recording>
-    <recording id="r-1671905d8e7cb673aeb8" kind="audience">
-      <identifier scheme="archive-org">gd79-10-28.rolfe.vernon-pujol.19590.sbeok.shnf</identifier>
-      <credit role="recordist">Steve Rolfe</credit>
-      <lineage>Audience Recording | Sony D5 w/ nak 700's : AUDMC &gt; DAT &gt; WAV(48K) &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
-    </recording>
-    <recording id="r-b3c628643792b9d69b5c" kind="soundboard">
-      <identifier scheme="archive-org">gd79-10-28.sbd-aud.braverman.7602.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD : MC &gt; R &gt; DAT &gt; CDR ; AUD : MC ( NAK 700's &gt; TC-158 by Steve Rolfe) &gt; DAT &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role unspecified.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/28/10-28-79-south-yarmouth-ma-cape-cod-coliseum/</note>
-    </recording>
-    <recording id="r-43391c83b109f91df1e3" kind="soundboard">
-      <identifier scheme="archive-org">gd79-10-28.sbd.miller.30655.sbeok.flacf</identifier>
-      <lineage>Soundboard | SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cape Cod Coliseum on 1979-10-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

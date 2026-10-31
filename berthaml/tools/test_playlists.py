@@ -90,7 +90,7 @@ class PlaylistTests(unittest.TestCase):
             '<track disc="1" n="1" title="One" duration="PT120S"/>'
             '<track disc="2" n="1" title="Two" duration="PT180S"/></edition>'
             '</release></releases>')
-        outputs, stats = export_playlists([], regs)
+        outputs, stats = export_playlists([], {}, regs)
         cd = json.loads(outputs['playlists/official/ed-test-cd.json'])
         lp = json.loads(outputs['playlists/official/ed-test-lp.json'])
         self.assertEqual(len(cd['tracks']), 1)

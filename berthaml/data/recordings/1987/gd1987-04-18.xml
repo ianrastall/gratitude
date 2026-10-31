@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1987-04-18">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-8f1a45d0fb2bb2f0666d" kind="matrix">
+    <identifier scheme="archive-org">gd1987-04-18.141225.sbd.miller.flac2496</identifier>
+    <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: ULTRAMATRIX</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-0b4e6857c1a4ae8dbc1e" kind="matrix">
+    <identifier scheme="archive-org">gd1987-04-18.141231.UltraMatrix.sbd.miller.flac1644</identifier>
+    <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: ULTRAMATRIX</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-cb46246ad32b9be3d3cb" kind="unknown">
+    <identifier scheme="archive-org">gd1987-04-18.151127.aud.lohr.vernon.flac1648</identifier>
+    <credit role="recordist">Gesine Lohr</credit>
+    <lineage>Unspecified mics (Nak 100?) &gt; unspecified deck (D6?) &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Matt Vernon</note>
+  </recording>
+  <recording id="r-bc78b76365201601a6ab" kind="unknown">
+    <identifier scheme="archive-org">gd1987-04-18.151128.aud.lohr.vernon.flac2496</identifier>
+    <credit role="recordist">Gesine Lohr</credit>
+    <lineage>Unspecified mics (Nak 100?) &gt; unspecified deck (D6?) &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Matt Vernon</note>
+  </recording>
+  <recording id="r-f43c69526a42e4a5d79a" kind="soundboard">
+    <identifier scheme="archive-org">gd1987-04-18.sbd.walker-scotton.miller.83732.sbeok.flac16</identifier>
+    <lineage>SBD -&gt; Cassette Master (Maxell MX90/Sony D5) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows Amphitheatre on 1987-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+  </recording>
+  <recording id="r-12ad244b08b7590c12ce" kind="unknown">
+    <identifier scheme="archive-org">gd1987-04-18.senn441.corso.87639.sbeok.flac16</identifier>
+    <credit role="recordist">John Corso</credit>
+    <lineage>Sennheiser 441s &gt; D5 &gt; D5 &gt; gold plated Monster Cables &gt; D5 &gt; Maxell XLII-S 90 (set I) TDK MA-R90 (set II) | Master Audience Cassettes &gt; Nakamichi Dragon &gt; RCA/XLR &gt; Lunatec V3 (@ 2496) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; .wav @ 24/96 &gt; iZotope Ozone 3 &gt; Waves L3 UltraMaximizer &gt; .wav @ 16/44.1 &gt; CD Wave Editor &gt; Trader's Little Helper &gt; FLAC( 8 )</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows Amphitheatre on 1987-04-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Alex Ford</note>
+  </recording>
+  <recording id="r-1ece10dd3c10e2784512" kind="soundboard">
+    <identifier scheme="archive-org">gd87-04-18.sbd.clugston.11882.sbeok.shnf</identifier>
+    <lineage>Master Soundboard Casette &gt; PCM&gt; DAT&gt; CDR EAC'ed/SHN'ed &amp; Seeded to Etree by Scott Clugston</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-dd01bf121252f70a4018" kind="unknown">
+    <identifier scheme="archive-org">gd87-04-18.schoesp.eD.11659.sbeok.shnf</identifier>
+    <lineage>Schoeps CMC 44Âs&gt;DAT&gt;CDR</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1987-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): DAT&gt;CDR via Bad Man Brown; Seeded to etree by eD(efojr)</note>
+  </recording>
+  <recording id="r-8304d9c5462a072ef292" kind="unknown">
+    <identifier scheme="other">etree-602470</identifier>
+    <note>Supplied catalogue listing: etree; gd87-04-18.141231.sbd-UltraMatrix.cm.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: ULTRAMATRIX</note>
+    <note certainty="uncertain">Legacy inferred type: MTX</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  </recording>
+</recordings>

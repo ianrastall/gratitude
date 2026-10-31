@@ -8,7 +8,7 @@
            targetNamespace="urn:berthaml:1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.0">
+           version="1.1">
 
   <xs:include schemaLocation="common.xsd"/>
 
@@ -19,7 +19,7 @@
       <xs:element name="record" type="b:Record"/>
       <xs:element name="venue" type="b:Venue" maxOccurs="unbounded"/>
     </xs:sequence>
-    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.1"/>
   </xs:complexType>
 
   <xs:complexType name="Venue">

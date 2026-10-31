@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1979-11-29" date="1979-11-29">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1979-11-29" date="1979-11-29">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19791129-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-477" nameAsBilled="Cleveland Public Hall"/>
   <program coverage="partial">
@@ -38,53 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-41016cad62c5a200d7b8" kind="audience">
-      <identifier scheme="archive-org">gd1979-11-29.151719.1.2p.fob.shure.sm57.sublette.mattes.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Kathy Sublette</credit>
-      <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Public Hall on 1979-11-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
-    </recording>
-    <recording id="r-31b112a2ccd47747ecc6" kind="audience">
-      <identifier scheme="archive-org">gd1979-11-29.151720.1.2p.fob.shure.sm57.sublette.mattes.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Kathy Sublette</credit>
-      <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Public Hall on 1979-11-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
-    </recording>
-    <recording id="r-3b875f2eabc4cecaef8f" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-11-29.sbd.miller.95831.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (Sony TCD5M/UDXL-II) -&gt; Dat (Panasonic SV3800/48k) | Dat (Sony D8) -&gt; M-Audio DIO2448 -&gt; Samplitude Professional v8.0 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Public Auditorium on 1979-11-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d5153ebf07f430743bc2" kind="soundboard">
-      <identifier scheme="archive-org">gd1979-11-29.set2.sbd.jim.11630.shnf</identifier>
-      <credit role="recordist">Audio CDs compliments of Dr. Sketchy () via Stillman</credit>
-      <lineage>Soundboard | SBD&gt;?&gt;CDR&gt;EAC&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Public Hall on 1979-11-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): EAC/SHN by 08/02</note>
-    </recording>
-    <recording id="r-bddb910748d73277a772" kind="soundboard">
-      <identifier scheme="archive-org">gd79-11-29.sbd.clugston.12376.sbeok.shnf</identifier>
-      <lineage>Soundboard | Master Soundboard Cassette &gt; Cassette &gt; DAT&gt; Cassette &gt; DAT &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Public Hall on 1979-11-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-53678e08d982404b8bbf" kind="soundboard">
-      <identifier scheme="archive-org">gd79-11-29.sbd.miller.29421.sbeok.flacf</identifier>
-      <lineage>Soundboard | SBD -&gt; Cassette Master (Sony TCD5M/UDXL-II) -&gt; Dat (Panasonic SV3800/48k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Public Hall on 1979-11-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

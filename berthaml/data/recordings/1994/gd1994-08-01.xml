@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1994-08-01">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-d05e0888556e68aeddc9" kind="audience">
+    <identifier scheme="archive-org">gd1994-08-01.141177.Icmc5-mk4.IIFOB-mk4.ebel.flac1644</identifier>
+    <lineage>flac16/44.1 Source Info:Set #1: TS? Schoeps CMC5 Mk4-&gt;Oade P/S-&gt; Sony D10 Pro II-&gt; DATSet #2: FOB Schoeps MK4-&gt; Reutelhuber P/S-&gt; DAT (Ace Cubby)Transfer Info:Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Transfers by Pete Ebel</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palace on 1994-08-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Pete Ebel</note>
+    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
+  </recording>
+  <recording id="r-3ef75e8edcde07a2793f" kind="unknown">
+    <identifier scheme="archive-org">gd1994-08-01.schoeps.wklitz.96433.flac16</identifier>
+    <credit role="recordist">Keith Litzenberger</credit>
+    <lineage>Schoeps MK4's&gt;Rbox&gt;Technics SV-MD1 | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades, Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palace on 1994-08-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
+  </recording>
+  <recording id="r-bec933125e34ff86eb5a" kind="audience">
+    <identifier scheme="archive-org">gd94-08-01.neumann.nawrocki.12522.sbeok.shnf</identifier>
+    <lineage>Audience: Neumann TLM 170i's | Neumann TLM 170i's (cardioid) &gt; Modified D10 pro II &gt; DA-P1 &gt; Audiophile 2496 &gt; Sound Forge 6 (48 &gt; 44.1 on 4 w/anti alias) &gt; CD Wave &gt; mkwACT &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palace on 1994-08-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Doug Nawrocki</note>
+  </recording>
+  <recording id="r-aa4e01fab58c5dec2a39" kind="soundboard">
+    <identifier scheme="archive-org">gd94-08-01.set2-sbd.georges.1026.sbeok.shnf</identifier>
+    <lineage>DSBD&gt; CD&gt; EAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palace on 1994-08-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: DSBD</note>
+  </recording>
+</recordings>

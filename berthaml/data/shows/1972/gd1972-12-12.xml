@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1972-12-12" date="1972-12-12">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1972-12-12" date="1972-12-12">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19721212-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 af7bbb067b9d248cdbe5899e53ef1b78e102ffb91fddc8da18eab5e843f0b44e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-69" nameAsBilled="Winterland"/>
   <program coverage="partial">
@@ -40,19 +39,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-95d5c8fcaa5b33f3ad17" kind="soundboard">
-      <identifier scheme="archive-org">gd72-12-12.sbd.gorinsky.5802.sbeok.shnf</identifier>
-      <lineage>Soundboard and Audience Composite | SBD, AUD: MR &gt; ? &gt; DAT &gt; CDR &gt; EAC &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-64d67235d1f8260d309d" kind="soundboard">
-      <identifier scheme="archive-org">gd72-12-12.sbd.miller.32041.sbeok.flacf</identifier>
-      <lineage>Soundboard | SBD &gt; MR (7 inch @ 7.5ips 1/2trk) &gt; DAT &gt; Sony TCD-D8 &gt; RME Hammerfall Digiface &gt; Sony Vaio C1VP &gt; Samplitude v7.02 Professional &gt; Cool Edit Pro v2.0 &gt; FLAC16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

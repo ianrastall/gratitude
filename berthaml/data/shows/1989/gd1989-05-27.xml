@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1989-05-27" date="1989-05-27">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1989-05-27" date="1989-05-27">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19890527-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-977" nameAsBilled="Oakland-Alameda County Coliseum Stadium"/>
   <program coverage="partial">
@@ -35,67 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-0ddfeafad68de123e126" kind="matrix">
-      <identifier scheme="archive-org">gd1989-05-27.155314.ultramatrix.miller.flac24</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (Sony TC-D5M/Maxell MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 (pitch correction) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Stadium on 1989-05-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller January 12, 2022</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-a5aca7fc5da1f23d4733" kind="matrix">
-      <identifier scheme="archive-org">gd1989-05-27.155440.UltraMatrix.sbd.cm.miller.t.flac16</identifier>
-      <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (Sony TC-D5M/Maxell MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 (pitch correction) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Stadium on 1989-05-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller January 12, 2022</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-dfd8fcb900ce05ef1add" kind="audience">
-      <identifier scheme="archive-org">gd1989-05-27.156346.gardner.suraci.nak.flac1644</identifier>
-      <credit role="recordist">Michael Gardner</credit>
-      <lineage>Source: Nakamichi CM304&gt;Sony TCD-5M (Maxell XLllS) Location: FOB, Stand at 6 feet* | Transfer: Nakamichi Cassette Deck 1 (manual azimuth adjust)&gt;Sound Devices Mix Pre 6 @24/48 Editing: SD card&gt;Adobe Audition 3.0&gt;CDwav&gt;TLH&gt;flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Stadium on 1989-05-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Tony Suraci</note>
-    </recording>
-    <recording id="r-2e662921dbcea028e226" kind="audience">
-      <identifier scheme="archive-org">gd1989-05-27.156347.gardner.suraci.nak.flac2448</identifier>
-      <credit role="recordist">Michael Gardner</credit>
-      <lineage>Source: Nakamichi CM304&gt;Sony TCD-5M (Maxell XLllS) Location: FOB, Stand at 6 feet* | Transfer: Nakamichi Cassette Deck 1 (manual azimuth adjust)&gt;Sound Devices Mix Pre 6 @24/48 Editing: SD card&gt;Adobe Audition 3.0&gt;CDwav&gt;TLH&gt;flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Stadium on 1989-05-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Tony Suraci</note>
-    </recording>
-    <recording id="r-c9755ef7f7eae8e04dbf" kind="unknown">
-      <identifier scheme="archive-org">gd1989-05-27.pzm.russjcan.93686.sbeok.flac16</identifier>
-      <credit role="recordist">Russ Cansler</credit>
-      <lineage>Hat-Mounted Realistic pzm's with Sony WMD6-C 50 feet away,dead center Maxell XLII S 90 No nr | Cassette Master &gt; D6 &gt; HD &gt; Audacity &gt; CDWave &gt; Goldwave &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1989-05-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Russ Cansler</note>
-    </recording>
-    <recording id="r-9cf54e719affef405412" kind="soundboard">
-      <identifier scheme="archive-org">gd1989-05-27.sbd.walker-scotton.miller.87604.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (Sony D5/Maxell MX90) D | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Oakland-Alameda County Coliseum Stadium on 1989-05-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    </recording>
-    <recording id="r-1faa285ef527a8f81e95" kind="soundboard">
-      <identifier scheme="archive-org">gd89-05-27.sbd.clugston.6667.sbefail.shnf</identifier>
-      <lineage>Dan Healy's Master Soundboard Cassette &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Stadium on 1989-05-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

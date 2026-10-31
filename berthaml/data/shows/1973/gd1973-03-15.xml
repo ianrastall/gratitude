@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-03-15" date="1973-03-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1973-03-15" date="1973-03-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19730315-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-498" nameAsBilled="Nassau Veterans Memorial Coliseum"/>
   <program coverage="partial">
@@ -39,33 +38,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-e22da1c82a23c20c1eb1" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-03-15.136652.sbd.reelmaster.cassette.dat.sirmick.flac16</identifier>
-      <credit role="recordist">Anonomous</credit>
-      <lineage>Source: Soundboard &gt; Reel Master &gt; Cassette &gt; DAT (48k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1973-03-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d52ab8940722389372d3" kind="unknown">
-      <identifier scheme="archive-org">gd1973-03-15.151902.SonyStereo.ECM.Moskal.t.flac16</identifier>
-      <credit role="recordist">Gerry Moskal</credit>
-      <lineage>Sony Stereo ECM --&gt;SONY TCD126 Location: TBD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1973-03-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Gerry Moskal Master Cassette Transfer-&gt;RR -&gt;Cassette (Circa 1984) Transfer/Flac Conversion 02-27-21 Brian Mandel Cassette Transfer Maxell XL11-S90 Nakamichi BX300-&gt;SONY PCM-M10 16bit 44 Wave CD Wave Editor -&gt; TLH-&gt;Flac</note>
-    </recording>
-    <recording id="r-3ceb7f0a19efb8f960ce" kind="audience">
-      <identifier scheme="archive-org">gd73-03-15.aud.vernon.13468.sbeok.shnf</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Audience Recording | AUD &gt; ? cdr</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1973-03-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-37cbf91dff2bb1be7a0e" kind="soundboard">
-      <identifier scheme="archive-org">gd73-03-15.sbd.cotsman.14035.sbeok.shnf</identifier>
-      <lineage>Soundboard and Audience composite | composite source 1: AUD&gt;??&gt;CD&gt;EAC&gt;SHN and source 2: SBD&gt;MR&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1973-03-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

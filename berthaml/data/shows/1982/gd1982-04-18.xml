@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1982-04-18" date="1982-04-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1982-04-18" date="1982-04-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820418-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-677" nameAsBilled="Hartford Civic Center"/>
   <program coverage="partial">
@@ -40,108 +39,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-e44100ce6d03d6e37149" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.144652.aud.lamarre.berger.flac24</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-II90's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-4d73d23f16c0aad37b0c" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.144653.aud.lamarre.berger.flac16</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-II90's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-d3b76ef2d8ee767c7609" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.155702.senn421.vita.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Jim Vita's Master Audience Cassettes ; Sennheiser 421 mics &gt; Sony TC-D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k)&gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-2a3b91f3d2efd66e5d37" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.155703.senn421.vita.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Jim Vita's Master Audience Cassettes ; Sennheiser 421 mics &gt; Sony TC-D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (24-bit/96k)&gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-41ba2fd539d430d92b6c" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.169230.senn441.fox.mckenzie.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Larry Fox, Tim McKenzie</credit>
-      <lineage>Larry Fox's Master FOB Audience Cassettes; Sennheiser 441 mics&gt; Sony TC-D5M (metal tape master)&gt; Tim McKenzie's 1st generation cassettes (TDK SA-90, no Dolby) | 1st Generation Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k)&gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-97994356fe6694e7eedd" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.169231.senn441.fox.mckenzie.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Larry Fox, Tim McKenzie</credit>
-      <lineage>Larry Fox's Master FOB Audience Cassettes; Sennheiser 441 mics&gt; Sony TC-D5M (metal tape master)&gt; Tim McKenzie's 1st generation cassettes (TDK SA-90, no Dolby) | 1st Generation Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (.wav 24-bit/96k)&gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-63b22e4d55a89f289242" kind="soundboard">
-      <identifier scheme="archive-org">gd1982-04-18.beyerm160.unknown.andrewf.82487.sbeok.flac16</identifier>
-      <credit role="recordist">Jim Wise (?)</credit>
-      <lineage>Beyers M160's &gt; Sony TC-D5, near the Sbd &gt; MAC | MAC &gt; CDR from Jim Wise. CDR &gt; EAC &gt; WavMerge &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-      <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    </recording>
-    <recording id="r-870240c2288b8e363240" kind="matrix">
-      <identifier scheme="archive-org">gd1982-04-18.mtx.seamons.107090.flac16</identifier>
-      <lineage>Matrix using Final Cut Pro (SHN &gt; AIFF &gt; Final Cut &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Hunter Seamons</note>
-      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e9dc78bb17ae48a674f3" kind="unknown">
-      <identifier scheme="archive-org">gd1982-04-18.nak300.morris.102038.sbeok.flac16</identifier>
-      <credit role="recordist">Bob Morris</credit>
-      <lineage>Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII C-90); | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1kHz) &gt; cdwav (edits)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bob Morris</note>
-    </recording>
-    <recording id="r-5978b73a26325a5cc222" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.nak300.morrone.118275.flac1644</identifier>
-      <credit role="recordist">Joe Morrone</credit>
-      <lineage>AUD: 2x Nakamichi CM300's &gt; Sony TC-D5M &gt; TDK MA-90's. Set up behind the stage, recorded from the rear-facing P.A. system. Taped by Joe Morrone. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 Tagged. Transfer by Andrew F. 01/2012</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): AndrewF</note>
-    </recording>
-    <recording id="r-5c140b878a58dc840f98" kind="audience">
-      <identifier scheme="archive-org">gd1982-04-18.nak700.glassberg.78984.sbeok.flac16</identifier>
-      <credit role="recordist">Barry Glassberg</credit>
-      <lineage>FOB-Nak 700's &gt; Sony D5 &gt; MAC | MAC &gt; DAT &gt; CDR &gt; EAC &gt; Flac-level8</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    </recording>
-    <recording id="r-be3c6f7983f34180cef8" kind="audience">
-      <identifier scheme="archive-org">gd82-04-18.nak700-cohen.wise.14487.sbeok.shnf</identifier>
-      <credit role="recordist">Mark Cohen</credit>
-      <lineage>Audience: Nakamichi 700's | FOB Nak 700's &gt; MAC &gt; Nak Dragon &gt; HHB cdr 800 &gt; CDR &gt; EAC &gt; wav &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Jim Wise and Don Chase</note>
-      <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-ecfb1a76c28f868cc853" kind="soundboard">
-      <identifier scheme="archive-org">gd82-04-18.sbd.miller.18116.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD -&gt; Cm -&gt; PCM -&gt; Dat(48k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hartford Civic Center on 1982-04-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

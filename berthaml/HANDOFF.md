@@ -1,5 +1,23 @@
 # HANDOFF
 
+## Hand-owned corpus, 30 October 2026
+
+Ian made BerthaML the next phase of Gratitude: the corpus is to become the source of truth the app lacks. This is the first of five steps, and it changes where things live, not what the data says.
+
+`data/shows/` and the four registries are now hand-owned; `tools/build_corpus.py` reads them and generates `data/recordings/`, `playlists/` and `reports/`. Recordings moved out of the show files, which had been 71% recording data. Sources no longer flow into show files: `reports/source-drift.jsonl` and `--propose` report differences for a person to weigh. `curated/shows/` and the curated registries are gone, folded into `data/`. Language version is 1.1. `imported_show` is the old importer, kept for comparing and for drafting new events.
+
+The split was verified against the committed 0.1.0 corpus: all 2,234 shows have identical stage content and all 18,611 recordings are unchanged. See [VALIDATION.md](VALIDATION.md). The only drift row is `gd1970-05-02`, and it is title aliases (Jordan for Cold Jordan), not a disagreement.
+
+Remaining steps:
+
+1. Done: split recordings out and hand over the show files.
+2. Schema revision: turn recording notes into real fields (transfer credits, modifiers, shnid, inferred kind), add the song alias table, add a machine-checked `corroborated` status, and freeze IDs. Freezing must happen before the app stores any ID: 114 show IDs carry source hash suffixes, venues use `v-jb-N`, and performance IDs are positional.
+3. Compile the XML into a read-only `berthaml.db` shipped with Gratitude, replacing `data/gd-shows.xml`. Compare album names and the 129 recording-only dates first.
+4. Link local folders to shows and recordings: identifier, shnid, then file names and durations against track lists. Needs a store schema migration that preserves saved positions.
+5. New UI against the Jupiter style standard: show browser, setlists in playback, every owned performance of a song.
+
+Decided unless Ian objects: era rosters are added with a label saying they are roster-derived, reversing the current no-derived-lineups rule, and 1965-66 is a later capture. Before the roughly 18,000 Archive track lists are fetched, stop committing the TXT/JSON/M3U8 exports, which would reach about 54,000 files.
+
 ## Dataset implementation, 30 October 2026
 
 The active implementation is now `tools/build_corpus.py`, using the finished schemas with backward-compatible playlist extensions. It publishes the consolidated `data/` corpus, `reports/` and source-specific `playlists/` from pinned factual snapshots and `curated/` overrides. The initial 2,236-record importer, its curation files and its original documentation are retained in the hash-verified `sources/pre-consolidation.zip`; its superseded scripts are no longer active.

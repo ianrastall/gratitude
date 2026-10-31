@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1972-12-31">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-4b6f987ebe51e7cf0b8a" kind="fm">
+    <identifier scheme="archive-org">gd1972-12-31.137465.fm.GEMS.flac16</identifier>
+    <credit role="recordist">Stuccoholmes</credit>
+    <lineage>Recording of FM Broadcast on KSAN &gt; ? &gt; DAT provided and transferred by Stuccoholmes; Mastering &amp; Editing by Jason Chastain in Audition CC 2015; Final Mastering by Jamie Waddell in Wavelab 7.1; Track, FLAC and Pack by Norm</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FM</note>
+    <note>Source credit (transfer-mastering): Jamie Waddell and Jason Chastain</note>
+    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  </recording>
+  <recording id="r-f8972ff0af643d18ac89" kind="soundboard">
+    <identifier scheme="archive-org">gd1972-12-31.141135.sbd.gans.miller.clugston.fixed.flac1648</identifier>
+    <lineage>flac16/48kHz ; Source Info: Vault Master Soundboard Reels &gt; Dat (16/48k); Transfer Info: Dat (Sony PCM-R500) 16/48k &gt; Tascam DA-3000 (16-bit/48k) &gt; Adobe Audition 3.0 (16/48k)&gt; TLH flac1648; the original source had errors in track 6</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-bb408e6224efb12c6c8b" kind="soundboard">
+    <identifier scheme="archive-org">gd1972-12-31.sbd.bertha-ashley.26559.sbeok.shnf</identifier>
+    <credit role="recordist">Unknown</credit>
+    <lineage>SBD (Pre-FM) &gt; Master Reel | MR &gt; DAT &gt; SHN &gt; DAW(Bertha) &gt; CDA/SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: PRE-FM</note>
+    <note>Source credit (transfer-mastering): J. Ashely</note>
+  </recording>
+  <recording id="r-221ab0c146f389fbfc56" kind="fm">
+    <identifier scheme="archive-org">gd1972-12-31.sbd.prefm.wier.6340.sbeok.shnf</identifier>
+    <lineage>Pre-FM KSAN Reel &gt; DAT &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: PRE-FM</note>
+    <note>Source credit (transfer-mastering): Charles Wier</note>
+  </recording>
+  <recording id="r-9d00d90c10bf9faa1182" kind="fm">
+    <identifier scheme="archive-org">gd1972-12-31.sbd.unknown.1563.sbefail.shnf</identifier>
+    <lineage>Pre-FM KSAN Reel &gt; DAT &gt; .SHN.</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: PRE-FM</note>
+    <note>Source credit (transfer-mastering): unknown</note>
+  </recording>
+  <recording id="r-cfdf6f928d89402c2978" kind="soundboard">
+    <identifier scheme="archive-org">gd72-12-31.prefm.vernon.20559.sbeok.shnf</identifier>
+    <lineage>Soundboard | Vault pre-FM reels &gt; DAT</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: PRE-FM</note>
+  </recording>
+</recordings>

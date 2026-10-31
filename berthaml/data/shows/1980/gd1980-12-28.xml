@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-12-28" date="1980-12-28">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1980-12-28" date="1980-12-28">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19801228-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-93" nameAsBilled="Oakland Auditorium"/>
   <program coverage="partial">
@@ -35,127 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-85c91907e96e1fadeb9e" kind="soundboard">
-      <identifier scheme="archive-org">gd1980-12-28.135991.sbd.GEMS.flac16</identifier>
-      <credit role="recordist">PO and Stucco TINA Holmes</credit>
-      <lineage>Soundboard, unknown lineage; Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt;Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt;RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; tracked with Audacity-&gt; flac level 8 and checksums and tagged with xACT; Editing and Mastering by Jamie Waddell in Wavelab 7.1</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-607af8ca44610cd94487" kind="soundboard">
-      <identifier scheme="archive-org">gd1980-12-28.141649.sbd.pcm.dalton.miller.clugston.flac1644</identifier>
-      <credit role="recordist">Tim Dalton</credit>
-      <lineage>Source Info: Jeff Hellman's Master Soundboard Cassettes (dolby B) &gt; Dan DeLuca's 1st generation reels &gt; Tim Dalton's PCM; Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0e733981f2391413b7d2" kind="audience">
-      <identifier scheme="archive-org">gd1980-12-28.157238.aud.flac1644</identifier>
-      <credit role="recordist">via Richie &amp; Rip</credit>
-      <lineage>AUD of unknown lineage &gt; Lo-gen cassette | SA-90's &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain SRC &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged,</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F. 07/2022</note>
-    </recording>
-    <recording id="r-52850700b9e169ad50b4" kind="audience">
-      <identifier scheme="archive-org">gd1980-12-28.169888.nak700.wagner.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-d59d35e4cdea745fdab7" kind="audience">
-      <identifier scheme="archive-org">gd1980-12-28.169889.nak700.wagner.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-f11e5911c7db31babc97" kind="soundboard">
-      <identifier scheme="archive-org">gd1980-12-28.175527.sbd.pcm.dalton.miller.clugston.phase.repair.remaster.flac1644</identifier>
-      <credit role="recordist">Jeff Hellman, Tim Dalton</credit>
-      <lineage>Jeff Hellman's Master Soundboard Cassettes (dolby B) &gt; Dan DeLuca's 1st generation reels &gt; Tim Dalton's PCM | PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16 &gt; iZotope RX11 Advanced (vocal phase repair) &gt; Adobe Audition 2025 &gt; flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Vocal Phase Repair by Charlie Miller November 2025 Remastered by Scott Clugston December 2025</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-2d3e28d714841ab52783" kind="matrix">
-      <identifier scheme="archive-org">gd1980-12-28.176450.mtx.tobin.flac1648</identifier>
-      <lineage>SBD + AUD Matrix 2 Source Mix (48/16)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (48/16) by Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-37328e570a162fac3f43" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-28.176455.dts.tobin.flac1648</identifier>
-      <lineage>DTS Audio 5.1 Mix (16/48)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note>Source credit (transfer-mastering): DTS Audio 5.1 Mix (16/48) by Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b58906c9d0a35cf7cf5d" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-28.176464.5-1.tobin.flac1648</identifier>
-      <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-6bb7cc4f97840f64d8ec" kind="matrix">
-      <identifier scheme="archive-org">gd1980-12-28.mtx.sirmick.122408.flac16</identifier>
-      <lineage>Matrix: sbd 70%/aud 30%; sbd: Source: MSR&gt;C&gt;DAT&gt;WAV&gt;SHN; Edit: SHN&gt;WAV&gt;Sound Forge&gt;CDWAVE&gt;SHNTOOL&gt;FLAC &amp; aud: Recording Info: Nakamichi 700 -&gt; Cassette Master (Sony D5M/TDK SA-X90/Dolby B); Transfer Info: Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; Recorded by Bob Wagner; editing and matrix: SIRMick</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-64590b93661d532505a1" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-28.nak700.wagner.miller.107792.flac16</identifier>
-      <credit role="recordist">Bob Wagner</credit>
-      <lineage>Nakamichi 700 -&gt; Cassette Master (Sony D5M/TDK SA-X90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    </recording>
-    <recording id="r-4301ff3ab4431a24a16a" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-28.sbd.cousinit.tetzeli.fix-17421.35036.reflac.flac16</identifier>
-      <lineage>MSR&gt;C&gt;DAT&gt;WAV&gt;SHN | SHNs&gt;WAV&gt;CD Pro &gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Cousinit and Bill Tetzeli</note>
-    </recording>
-    <recording id="r-e4f1244deef861547995" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-28.sbd.long.34638.sbeok.flac16</identifier>
-      <lineage>MSR&gt;C&gt;DAT&gt;WAV&gt;SHN | SHN&gt;WAV&gt;Sound Forge&gt;CDWAVE&gt;SHNTOOL&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Andrew Long</note>
-    </recording>
-    <recording id="r-015d0950ef545260b122" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-28.sbd.willy.8862.sbeok.shnf</identifier>
-      <lineage>SB:&gt;?&gt;DAT | DAT&gt;Tascam DA-20&gt;EgoSys WaveTermanial 2496&gt;CD-Wave &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Willy</note>
-    </recording>
-    <recording id="r-f02b3b8b063ed1873376" kind="audience">
-      <identifier scheme="archive-org">gd80-12-28.rolfe.munder.13299.sbeok.shnf</identifier>
-      <lineage>Audience Recording: Nak 300's | AUD (Nak 300's)&gt;MC&gt;DAT&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role unspecified.</note>
-    </recording>
-    <recording id="r-59532756c984c512b84b" kind="soundboard">
-      <identifier scheme="archive-org">gd80-12-28.sbd.cousinit.17421.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSR&gt; C&gt; DAT&gt; WAV&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

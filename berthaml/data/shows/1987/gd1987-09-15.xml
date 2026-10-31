@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-09-15" date="1987-09-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1987-09-15" date="1987-09-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870915-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
@@ -36,68 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-5334c88dad7f30ec957b" kind="unknown">
-      <identifier scheme="archive-org">gd1987-09-15.125699.AT835.flac16</identifier>
-      <credit role="recordist">M.Laurentus</credit>
-      <lineage>Taper: M.LaurentusTaper Tection: Section H, Row 28, Seat 14AT835B\'s -SONY WM D6-CCassette-Tascam DR-5 Line In-CD Wave- Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): M.Laurentus</note>
-    </recording>
-    <recording id="r-00a5654ba5766a07db2f" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-15.154305.senn.me80.hessberg.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-98cab7432da1d9a82eef" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-15.154306.senn.me80.hessberg.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-7c6ab35667c445e42eb8" kind="unknown">
-      <identifier scheme="archive-org">gd1987-09-15.nak300.damico.90103.sbeok.flac16</identifier>
-      <credit role="recordist">Joe D'Amico</credit>
-      <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joe D'Amico</note>
-    </recording>
-    <recording id="r-a3645448331136b1393b" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-15.nak300.gidley.115933.flac2448</identifier>
-      <credit role="recordist">Ted Gidley</credit>
-      <lineage>24bit/48kHz file set: OTS AUD: 2x Nakamichi CM300 w/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell MX90's, w/no Dolby. Taped by Ted Gidley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab &gt; TLH &gt; FLAC 2448 tagged. Transfer by Andrew F. 09/2011</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): AndrewF</note>
-    </recording>
-    <recording id="r-a1ced04e675d236a5f51" kind="soundboard">
-      <identifier scheme="archive-org">gd1987-09-15.sbd.miller.76347.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (Sony D6/TDK MA-R90) | Cassette Master (Sony TC-WE475) -&gt; Apogee MiniMe -&gt; Samplitude v7.02 Professional -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-7105c0cdfeea565cef9f" kind="soundboard">
-      <identifier scheme="archive-org">gd1987-09-15.sbd.unknown.20176.sbeok.shnf</identifier>
-      <lineage>SBD:CM&gt;DATs&gt;CDRs</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-a1227917e7f1654fd052" kind="soundboard">
-      <identifier scheme="archive-org">gd87-09-15.sbd.miller.21981.sbeok.shnf</identifier>
-      <lineage>SBD -&gt; Cassette Master -&gt; Dat (48k) -&gt; Behringer UltraMatch SRC 2000 -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; SHN - Transfered and Edited By Charlie Miller</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-2bbdc22e037bba8545c2" kind="audience">
-      <identifier scheme="archive-org">gd87-09-15.schoeps.willy.15388.sbeok.shnf</identifier>
-      <lineage>Audience: Schoeps CMC 44's | Schoeps CMC 44's &gt; MC &gt; DAT &gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1987-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Raoul Duke and Willy</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

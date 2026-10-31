@@ -118,11 +118,9 @@ def sub(parent, tag, text=None, **attrs):
     return node
 
 
-def apply_recording_playlists(show, root, songs):
+def apply_recording_playlists(document, show, root, songs, manifest):
     issues, missing, imported, unmapped = [], [], 0, 0
-    manifest_path = root / 'sources/recording-playlists/index.json'
-    manifest = json.loads(manifest_path.read_text('utf-8')) if manifest_path.exists() else {}
-    for recording in show.findall('b:sources/b:recording', N):
+    for recording in document.findall('b:recording', N):
         identifier = recording.findtext('b:identifier[@scheme="archive-org"]', namespaces=N)
         if not identifier:
             if not recording.findall('b:track', N) and not recording.findall('b:playlist', N):
@@ -170,7 +168,7 @@ def apply_recording_playlists(show, root, songs):
             imported += 1
         for name, value in fact.get('credits', {}).items():
             sub(recording, 'note', text=f'Archive source metadata ({name}): {plain(value)}')
-        rec = show.find('b:record', N)
+        rec = document.find('b:record', N)
         if not any(c.get('href') == fact['url'] for c in rec.findall('b:cite', N)):
             sub(rec, 'cite', title='Archive original-file playlist metadata', href=fact['url'],
                 accessed=fact['captured_utc'][:10], text='Track filenames, supplied titles and measured durations. '
@@ -192,7 +190,7 @@ def safe_file(value):
     return not path.is_absolute() and '..' not in path.parts and not value.startswith('#')
 
 
-def export_playlists(shows, regs):
+def export_playlists(shows, documents, regs):
     outputs, inventory, published = {}, [], []
     titles = {s.get('id'): s.findtext('b:title', namespaces=N) for s in regs['songs'].findall('b:song', N)}
     venue_names = {v.get('id'): v.findtext('b:name', namespaces=N) for v in regs['venues'].findall('b:venue', N)}
@@ -255,9 +253,13 @@ def export_playlists(shows, regs):
         published.append(dict(id=identity, kind=kind, tracks=len(tracks), playable_m3u=playable))
 
     for show in shows:
+        document = documents.get(show.get('id'))
+        if document is None:
+            continue
         venue = show.find('b:venue', N)
-        citations = [dict(c.attrib) for c in show.findall('b:record/b:cite', N)]
-        for rec in show.findall('b:sources/b:recording', N):
+        citations = [dict(c.attrib) for c in (show.findall('b:record/b:cite', N)
+                                              + document.findall('b:record/b:cite', N))]
+        for rec in document.findall('b:recording', N):
             identifier = rec.findtext('b:identifier', namespaces=N)
             variants = [(p.get('id'), p.get('format'), p.findall('b:track', N)) for p in rec.findall('b:playlist', N)]
             if rec.findall('b:track', N):
@@ -274,7 +276,7 @@ def export_playlists(shows, regs):
                      [track_data(t, show.get('id')) for t in tracks], citations, notes,
                      date=show.get('date'), venue=venue_names[venue.get('ref')], identifier=identifier,
                      format=fmt, show=show.get('id'), recording=rec.get('id'),
-                     review_status=show.find('b:record', N).get('status'))
+                     review_status=document.find('b:record', N).get('status'))
     for release in regs['releases'].findall('b:release', N):
         rid = release.get('id')
         title = release.findtext('b:title', namespaces=N)
@@ -297,7 +299,8 @@ def export_playlists(shows, regs):
                  release=rid, review_status=release_status)
     outputs['reports/playlist-coverage.jsonl'] = ''.join(json.dumps(x, ensure_ascii=False, sort_keys=True) + '\n'
                                                        for x in inventory).encode('utf-8')
-    all_tracks = [t for show in shows for t in show.findall('.//b:track', N)] + regs['releases'].findall('.//b:track', N)
+    all_tracks = ([t for document in documents.values() for t in document.findall('.//b:track', N)]
+                  + regs['releases'].findall('.//b:track', N))
     stats = dict(exported=len(published), tracks=sum(x['tracks'] for x in published),
                  m3u_files=sum(x['playable_m3u'] for x in published),
                  official_playlists=sum(x['kind'] == 'official' for x in published),

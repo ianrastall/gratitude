@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1981-10-02" date="1981-10-02">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1981-10-02" date="1981-10-02">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19811002-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-433" nameAsBilled="Rainbow Theatre"/>
   <program coverage="partial">
@@ -38,100 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-83de9234180c6d600206" kind="audience">
-      <identifier scheme="archive-org">gd1981-10-02.138169.SonyECM-99.williams.sirmick.sbeok.flac16</identifier>
-      <credit role="recordist">Peter Williams</credit>
-      <lineage>Source: Audience recording &gt; Sony ECM-99 &gt; JVC CD-1635 &gt; Master Cassettes (C90 Maxell UD XLII x 2); Taped by Peter Williams from the balcony, about halfway between centre and right wall; | Cassette &gt; Nakamichi CD1 &gt; Tascam DR-100mkIII &gt; wav 24/176.4; Lineage: wav 24/176.4 &gt; Adobe Audition CC &gt; iZotope RX4 Advanced &gt; iZotope 5 Advanced &gt; iZotope RX4 Advanced &gt; wav 16/44.1 &gt; &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d5a69ac25b30c09f9644" kind="audience">
-      <identifier scheme="archive-org">gd1981-10-02.138170.SonyECM-99.williams.sirmick.sbeok.flac2496</identifier>
-      <credit role="recordist">Peter Williams</credit>
-      <lineage>flac16/96kHz ; Source: Audience recording &gt; Sony ECM-99 &gt; JVC CD-1635 &gt; Master Cassettes (C90 Maxell UD XLII x 2); Taped by Peter Williams from the balcony, about halfway between centre and right wall; | Cassette &gt; Nakamichi CD1 &gt; Tascam DR-100mkIII &gt; wav 24/176.4; Lineage: wav 24/176.4 &gt; Adobe Audition CC &gt; iZotope RX4 Advanced &gt; iZotope 5 Advanced &gt; iZotope RX4 Advanced &gt; wav 24/96 &gt; CD Wave &gt; TLH &gt; Flac 24; edited and mastered SIRMick</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/02/10-2-81-london-england-rainbow-theater/</note>
-    </recording>
-    <recording id="r-4358b5078b9f8797bd29" kind="audience">
-      <identifier scheme="archive-org">gd1981-10-02.138171.SonyECM-99.williams.sirmick.sbeok.flac24-176.4</identifier>
-      <credit role="recordist">Peter Williams</credit>
-      <lineage>flac24/176.4kHz ; Source: Audience recording &gt; Sony ECM-99 &gt; JVC CD-1635 &gt; Master Cassettes (C90 Maxell UD XLII x 2); Taped by Peter Williams from the balcony, about halfway between centre and right wall; | Cassette &gt; Nakamichi CD1 &gt; Tascam DR-100mkIII &gt; wav 24/176.4; Lineage: wav 24/176.4 &gt; Adobe Audition CC &gt; iZotope RX4 Advanced &gt; iZotope 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24; edited and mastered SIRMick</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-6f1614ffe6f0fc9c48bd" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-02.151193.sbd.hance.sirmick.flac16</identifier>
-      <lineage>Soundboard Cassette (1st gen) | Transfer Cassette &gt; Tascam 122 MK3 &gt; Korg MR2000S &gt; DFF @5.6 MHz &gt; Audiogate &gt; wav 24/96. Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theatre on 1981-10-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): John Hance and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1b3879ffc8153b0a368d" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-02.151194.sbd.hance.sirmick.flac24</identifier>
-      <lineage>Soundboard Cassette (1st gen) | Transfer Cassette &gt; Tascam 122 MK3 &gt; Korg MR2000S &gt; DFF @5.6 MHz &gt; Audiogate &gt; wav 24/96. Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; CD Wave &gt; Flac 24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theatre on 1981-10-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): John Hance and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-32abfdbaf5dac10feae9" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-02.151207.set2.sbd.miller-eaton.flac1648</identifier>
-      <credit role="recordist">Rob Eaton and Dick Latvala</credit>
-      <lineage>SBD &gt; Cassette Master &gt; Cassette (Tascam 122mkIII) | Cassette (Nakamichi Dragon) &gt; DAT (Panasonic SV-3800/48k) &gt; Avid MBox Pro &gt; Pro Tools 12 &gt; WAV</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theatre on 1981-10-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Transfers by Rob Eaton Mastering by Charlie Miller December 18, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
-    </recording>
-    <recording id="r-bda4c4c22fba553f131b" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-02.151770.sbd.hance.sirmick.flac16</identifier>
-      <credit role="recordist">John Hance</credit>
-      <lineage>Soundboard Cassette (1st gen) | Transfer Cassette &gt; Tascam 122 MK3 &gt; Korg MR2000S &gt; DFF @5.6 MHz &gt; Audiogate &gt; wav 24/96. Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theatre on 1981-10-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): John Hance &amp; SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-798914b292b4d18629d1" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-02.151771.sbd.hance.sirmick.flac24</identifier>
-      <credit role="recordist">Unknown; tape supplied by John Hance</credit>
-      <lineage>Soundboard Cassette (1st gen) | Transfer Cassette &gt; Tascam 122 MK3 &gt; Korg MR2000S &gt; DFF @5.6 MHz &gt; Audiogate &gt; wav 24/96. Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX8 Advanced &gt; CD Wave &gt; Flac 24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theatre on 1981-10-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): John Hance and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0921c96278945993dd94" kind="audience">
-      <identifier scheme="archive-org">gd1981-10-02.aud.set2.richs.120454.sbeok.flac16</identifier>
-      <credit role="recordist">Rich S</credit>
-      <lineage>Set 2, Beyer M-160 (x2) &gt; Sony TCD5M / CM &gt; C1 &gt; C2 (Maxell UDXLII-C90); Cassette 2 (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; CD Wave Editor &gt; Soundforge 9 (patch) &gt; Trader's Little Helper &gt; Flac16 Transfer, edit, &amp; patch by Bob Morris, May 2012</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bob Morris</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/02/10-2-81-london-england-rainbow-theater/</note>
-    </recording>
-    <recording id="r-454f464e70c596c55ffc" kind="audience">
-      <identifier scheme="archive-org">gd1981-10-02.aud.unknown.sirmick.80289.sbeok.flac16</identifier>
-      <lineage>aud &gt; low gen cass &gt; Wavelab &gt; wav &gt; flac | Sony TC-FX2 &gt; Creative Extigy &gt; wav</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theatre on 1981-10-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-466657b217d348dfc9de" kind="soundboard">
-      <identifier scheme="archive-org">gd1981-10-02.sbd.128794.MrBill.flac16</identifier>
-      <lineage>Recording and transfer info: SBD &gt; MC? &gt; C &gt; C; C &gt; wav &gt; Sound Forge 10 &gt; TLH &gt; flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bill Guarneri</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/02/10-2-81-london-england-rainbow-theater/</note>
-    </recording>
-    <recording id="r-b941036da7d602fd7f92" kind="soundboard">
-      <identifier scheme="archive-org">gd81-10-02.sbd.popi.6147.sbeok.shnf</identifier>
-      <lineage>Soundboard | sbd&gt; reel&gt; ?&gt; dats&gt; wave&gt; shn</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rainbow Theater on 1981-10-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/02/10-2-81-london-england-rainbow-theater/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

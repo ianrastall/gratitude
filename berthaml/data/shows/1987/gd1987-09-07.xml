@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-09-07" date="1987-09-07">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1987-09-07" date="1987-09-07">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870907-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
   <program coverage="partial">
@@ -39,90 +38,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-3e28fd23a55aa8ff9400" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-07.151411.senn.me80.hessberg.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a40962c912d6392ea530" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-07.151412.senn.me80.hessberg.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Michael Hessberg</credit>
-      <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-3d3babb7bcda8effb8d9" kind="unknown">
-      <identifier scheme="archive-org">gd1987-09-07.156739.nak300.carpenter.flac1644</identifier>
-      <credit role="recordist">Ted Carpenter</credit>
-      <lineage>Nak 300 w/ cp4 Shotguns -&gt; Sony TDC5M ( no dolby )-&gt; TDK-MA 90s | TDK-MA 90s -&gt; Nakamichi CR3a -&gt; M-Audio 192-6-&gt; Wavelab Elements 11 -&gt; Wav 24bit 48khz -&gt; CD Wave -&gt; R8brain (resampled to 16bit 44.1khz ) -&gt; TLH -&gt; analysis,SBE,flac,checksums.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Ted Carpenter</note>
-    </recording>
-    <recording id="r-ccea7a32bb26c06df195" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-07.176260.senn441.lamarre.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-ed4584940d18bae78c57" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-07.176261.senn441.lamarre.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fe60415d1717e962c2a1" kind="unknown">
-      <identifier scheme="archive-org">gd1987-09-07.aud.morris.106061.sbeok.flac16</identifier>
-      <credit role="recordist">Bob Morris</credit>
-      <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell XLII 90) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Bob Morris</note>
-    </recording>
-    <recording id="r-d10480cf6c0795626492" kind="unknown">
-      <identifier scheme="archive-org">gd1987-09-07.ecm220t.keshavan.miller.106821.flac16</identifier>
-      <credit role="recordist">Rango Keshavan</credit>
-      <lineage>Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; Adobe Audition v3.0 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
-    </recording>
-    <recording id="r-ec4aab7a694f29282ef0" kind="audience">
-      <identifier scheme="archive-org">gd1987-09-07.nak300.andrewf.73861.sbeok.flac16</identifier>
-      <credit role="recordist">Andrew F</credit>
-      <lineage>AUD, Nakamichi CM-300's with CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell MX-90 cassettes, with no Dolby | MAC &gt; Sony TC-D5M (no Dolby) &gt; Marantz CDR-500 &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-OK, FLAC compression &amp; checksums) &gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F</note>
-    </recording>
-    <recording id="r-962693699ca5de893327" kind="unknown">
-      <identifier scheme="archive-org">gd1987-09-07.nak300.damico.89984.sbeok.flac16</identifier>
-      <credit role="recordist">Joe D'Amico</credit>
-      <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Joe D'Amico</note>
-    </recording>
-    <recording id="r-3ba326778c8b252a4d6f" kind="unknown">
-      <identifier scheme="archive-org">gd1987-09-07.nakcm304.suraci.82277.sbeok.flac16</identifier>
-      <credit role="recordist">Tony Suraci</credit>
-      <lineage>Nak CM304's&gt;Sony D5M | Nak CR5A&gt;Lunatec V3&gt;SD722</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Tony Suraci</note>
-    </recording>
-    <recording id="r-465c27cf3f7eda9aa0c3" kind="unknown">
-      <identifier scheme="archive-org">gd87-09-07.aud-sonyecm220t.unknown.8596.sbeok.shnf</identifier>
-      <lineage>Sony ECM220T mics from taper's section</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1987-09-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

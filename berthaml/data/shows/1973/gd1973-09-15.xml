@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1973-09-15" date="1973-09-15">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1973-09-15" date="1973-09-15">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19730915-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
   <program coverage="partial">
@@ -42,31 +41,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-e4109752104d07720d55" kind="audience">
-      <identifier scheme="archive-org">gd1973-09-15.171320.aud.lamarre.vernon.andrewF.flac1648</identifier>
-      <credit role="recordist">Unknown. Tape provided by John Lebrun to Doug Lamarre</credit>
-      <lineage>Analog Audience Source: Unknown mic/deck/generation Medium Stock Brands: Maxell UDXL-I C90 (120 uS EQ) Dolby On | Analog Sound Preservation: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1973-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Transfer by: Matt Vernon Mastering by: Andrew F</note>
-    </recording>
-    <recording id="r-8572eb0917454b6540cd" kind="audience">
-      <identifier scheme="archive-org">gd1973-09-15.171321.aud.lamarre.vernon.andrewF.flac2496</identifier>
-      <credit role="recordist">Unknown. Tape provided by John Lebrun to Doug Lamarre</credit>
-      <lineage>Analog Audience Source: Unknown mic/deck/generation Medium Stock Brands: Maxell UDXL-I C90 (120 uS EQ) Dolby On | Analog Sound Preservation: Cassette &gt; Nak CR-7A #1 (azimuth adjusted, Dolby) &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1973-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Transfer by: Matt Vernon Mastering by: Andrew F</note>
-    </recording>
-    <recording id="r-d6dacfd6cb6759b216b3" kind="soundboard">
-      <identifier scheme="archive-org">gd1973-09-15.sbd-set2.levy.01077.sbeok.shnf</identifier>
-      <lineage>SBD:Master Reel&gt;DAT | DAT&gt;Sonic Solutions workstation&gt;CD&gt;(EAC)WAV&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1973-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-27d32f9d5415cdacd13d" kind="soundboard">
-      <identifier scheme="archive-org">gd73-09-15.aud-sbd.cotsman.16174.sbeok.shnf</identifier>
-      <lineage>Soundboard and Audience Composite | set 1: AUD&gt; M?&gt; C&gt; C&gt; D&gt; SHN; set 2: SBD&gt; MR&gt; D&gt; CD&gt; EAC&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1973-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-07-13" date="1994-07-13">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1994-07-13" date="1994-07-13">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19940713-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-1031" nameAsBilled="Franklin County Field"/>
   <program coverage="partial">
@@ -36,93 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-7b957307a0c9524b5653" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-13.107916.nak300.pasternak-mallick.flac16</identifier>
-      <credit role="recordist">Jon Pasternak</credit>
-      <lineage>Master: OTS Nakamichi CM300/cp4's&gt;Sony TC-D5M&gt;Cass(m), Nak DR-2&gt;Tascam CDRW2000&gt;CD by Jon Pasternak; Extraction: CD&gt;xACT 2.00a (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors by Dave Mallick</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dave Mallick</note>
-    </recording>
-    <recording id="r-6dc9d34b7dc5371c4f45" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-07-13.135271.aud.fob.berger.flac16</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>source: FOB daud master taped by Doug Lamarre; Sanken COS-11BP lavalier mics (Dan Liff’s r.i.p.) &gt; Denon DTR-80P 30’ in front of soundboard; transferred &amp; seeded by Rob Berger 2/2016</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-87b229538b856fb26f22" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-07-13.135272.aud.fob.berger.flac1648</identifier>
-      <credit role="recordist">Doug Lamarre</credit>
-      <lineage>flac16/48kHz ; source: FOB daud master taped by Doug Lamarre; Sanken COS-11BP lavalier mics (Dan Liff’s r.i.p.) &gt; Denon DTR-80P 30’ in front of soundboard; transferred &amp; seeded by Rob Berger 2/2016</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-60387a72b11551f5b5ed" kind="audience">
-      <identifier scheme="archive-org">gd1994-07-13.147694.schoepsCMC5MK21.ebel.flac16</identifier>
-      <credit role="recordist">Eliot Byron(?)</credit>
-      <lineage>FOB Schoeps CMC5 Mk 21-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-40ea9228a44c74a790e2" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-13.akg460.flaschner.sobel.88931.flac16</identifier>
-      <credit role="recordist">Dave Flaschner</credit>
-      <lineage>AKG 460B/ck61 &gt; custom pre-amp &gt; Sony D7 (@ 48 kHz) | Tascam DA-20MKII &gt; Tascam HD-P2 &gt; CF card &gt; usb 2.0 &gt; pc &gt; WaveLab 5.01b (fades) &gt; r8brain v1.9 (resample to 44.1 kHz) &gt; CD Wave v1.96.1 &gt; FLAC v1.2.1 (Level 8)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jason Sobel</note>
-    </recording>
-    <recording id="r-05c5ee70d991c161415d" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-07-13.fob.neumann-km82i.koucky.34299.flac16</identifier>
-      <credit role="recordist">Bill Koucky</credit>
-      <lineage>Neumann km-82i Shotguns &gt; Teac DAT behind sbd 20 ft in front of speaker stack 20 ft high | Panasonic SV-3700 DAT &gt; Audiophile 2496 &gt; WaveLab 5.01 @ 24 bit/44.1 &gt; converted to 16 bit&gt; CD Wave Editor &gt; EAC &gt; Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Bill Koucky</note>
-    </recording>
-    <recording id="r-8804e8b45f8b0aa1f8c8" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-13.fob.schoeps.braveman.32291.flac16</identifier>
-      <credit role="recordist">J Braveman</credit>
-      <lineage>Schoeps CMC 44 cardioids (ORTF) &gt; Oade power supply &gt; modified Panasonic SV-255 &gt; Sony D3 DAT Master (spdif input) | DAT Master 60ES &gt; M-Audio Microtrack 2496 (spdif) &gt; WAV &gt; Flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-17218cb34320b0d2ad09" kind="unknown">
-      <identifier scheme="archive-org">gd1994-07-13.fob.schoeps.roger-rich-seth-keith.watson.85719.flac16</identifier>
-      <credit role="recordist">Recorded FOB by Roger,Rich, Seth, Keith &amp; Jim</credit>
-      <lineage>Schoeps MK4's&gt;Reutelhuber&gt;Sony TCD-D10PROII | Dat master played back on Sony pcm-R500-&gt;vx pocket v2-&gt;WL5&gt;CDWAV&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Watson</note>
-    </recording>
-    <recording id="r-99fc2c2bacb46d728722" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-07-13.nak300.bleich.sirmick.103630.flac16</identifier>
-      <credit role="recordist">John Bleich</credit>
-      <lineage>Nakamichi 300s (with cp1 caps) &gt; Sony WM-D6 &gt; mac (Maxell XLII C90 x 2) OTS just right of the soundboard | mac &gt; Nakamichi BX-125E &gt; EMU 0202 &gt; Wavelab 6 &gt; wav 24/96 &gt; Adobe Audition 1.5 &gt; Wavelab 6 with iZotope Ozone 4 &gt; iZotope RX Advanced &gt; wav 16/44.1 &gt; Cd Wave &gt; TLH &gt; flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/13/7-13-94-highgate-vt-franklin-county-airport/</note>
-    </recording>
-    <recording id="r-8b1facb49e2619f94beb" kind="unknown">
-      <identifier scheme="archive-org">gd94-07-13.sbd.georges.17029.sbeok.shnf</identifier>
-      <lineage>M:D&gt;SHN digital transfer via: Da-p1 &gt; zoltrix Nightengale 48 &gt; 44.1 via CoolEdit2k &gt; tracked with CDWAV via Nick Georges. Note, this version has different md5s than the original but its directly from Nick's server...</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/13/7-13-94-highgate-vt-franklin-county-airport/</note>
-    </recording>
-    <recording id="r-b93de48daa166f1cf622" kind="audience">
-      <identifier scheme="archive-org">gd94-07-13.wankelswurth.10384.sbeok.shnf</identifier>
-      <lineage>Audience: AKG 460/ck1x | AKG 460/ck1x &gt; Sony D7 &gt; CDR &gt; EAC 0.9 beta 4 &gt; CD Wave &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Franklin County Airport on 1994-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Henry Wankleswurth</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

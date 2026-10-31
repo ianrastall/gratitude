@@ -41,6 +41,11 @@ def audit(require_complete=False, directory=None):
         errors.append('Actual performance count disagrees with coverage report')
     if dict(Counter(s.find('b:record', N).get('status') for s in shows)) != stats['show_status']:
         errors.append('Actual review statuses disagree with coverage report')
+    recordings = [etree.parse(str(p)).getroot() for p in sorted((directory / 'data/recordings').rglob('*.xml'))]
+    if sum(len(r.findall('b:recording', N)) for r in recordings) != stats['recordings']:
+        errors.append('Actual recording count disagrees with coverage report')
+    if {r.get('show') for r in recordings} - {s.get('id') for s in shows}:
+        errors.append('Recording file names a show that does not exist')
     if stats['assigned_recording_references'] + stats['unassigned_recording_references'] != stats['supplied_recordings']:
         errors.append('Recording reference accounting does not balance')
     crosswalk = [json.loads(line) for line in (directory / 'reports/source-crosswalk.jsonl').read_text('utf-8').splitlines()]

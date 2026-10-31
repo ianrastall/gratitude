@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-07-23" date="1994-07-23">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1994-07-23" date="1994-07-23">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19940723-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-1008" nameAsBilled="Soldier Field"/>
   <program coverage="partial">
@@ -34,43 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-ebdebc26cef38cd00c64" kind="audience">
-      <identifier scheme="archive-org">gd1994-07-23.147691.schoepsCMC5MK4.ebel.flac1648</identifier>
-      <lineage>FOB Schoeps CMC5 Mk 4-&gt; Aerco P/S-&gt; Panasonic SV255-&gt; DAT Location Sec B, Row 22, seat 30 | DAT Tape (Panasonic SV-3700) -&gt; Coaxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1994-07-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-9e85de4cc8d16fbd3d3e" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-07-23.166961.sbd.miller.flac1648</identifier>
-      <lineage>SBD &gt; DAT Master (48k) &gt; DAT Clone &gt; AIFF | AIFF &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1994-07-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Mastering by Charlie Miller December 11, 2023</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e0b0a5f1a563e339adab" kind="audience">
-      <identifier scheme="archive-org">gd1994-07-23.fob.schoeps.buller.574.shnf</identifier>
-      <credit role="recordist">Tim Buller</credit>
-      <lineage>FOB [15th Row] Schoeps (Unknown Model) &gt; DAT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1994-07-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Tim Buller</note>
-    </recording>
-    <recording id="r-4a87cee1c4b2f3c1259a" kind="soundboard">
-      <identifier scheme="archive-org">gd1994-07-23.sbd.burns.14853.sbeok.flac16</identifier>
-      <lineage>SBD Monitor Mix &gt; DAT @ 48k | D8 &gt; Dio 2448 &gt; Soundforge 5.0 (48k &gt; 44.1k) &gt; CDWav &gt; FLAC Frontend &gt; .flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1994-07-23. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Ryan Burns</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/23/7-23-94-chicago-il-soldier-field/</note>
-    </recording>
-    <recording id="r-92c750d570b8c58eec5f" kind="soundboard">
-      <identifier scheme="archive-org">gd94-07-23.sbd.fishman.14839.sbeok.shnf</identifier>
-      <lineage>DSBD&gt;D&gt;CD&gt;SHN Transcription from DAT and Encoding by JR Fishman</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1994-07-23. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-      <note>Recording reference: http://infinitedead.net/2024/07/23/7-23-94-chicago-il-soldier-field/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

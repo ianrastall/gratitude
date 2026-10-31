@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-05-03" date="1991-05-03">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-05-03" date="1991-05-03">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910503-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-905" nameAsBilled="Cal Expo Amphitheatre"/>
   <program coverage="partial">
@@ -35,54 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-038d734eec372787019b" kind="unknown">
-      <identifier scheme="archive-org">gd1991-05-03.113064.daweez.d5scott.NeumannKMF4.flac16</identifier>
-      <credit role="recordist">Da Weez</credit>
-      <lineage>Source: 2 Neumann KMF4 microphones (up front-center) &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1991-05-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-137ce6e40249ba516b54" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-05-03.142256.sbd.miller.flac2496</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1991-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b837272b843f604d6240" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-05-03.142435.sbd.miller.flac1644</identifier>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1991-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9c7c883c2b9e78831153" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-05-03.sbd.miller.109233.flac16</identifier>
-      <lineage>Set 1: SBD -&gt; Dat -&gt; Cassette Master -&gt; Dat (48k) Set 2: SBD -&gt; Dat (48k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1991-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-30819e827d916b3536ea" kind="unknown">
-      <identifier scheme="archive-org">gd1991-05-03.schoeps.unknown.gems.91195.sbeok.flac16</identifier>
-      <credit role="recordist">Todd Evans</credit>
-      <lineage>Schoeps Omnis (on stands spaced 10ft apart) -&gt; Panasonic sv250 | DAT &gt; TASCAM DA-20 (S/PDIF out) -&gt; LynxTWO-B Audio Reference Interface (S/PDIF in) -&gt; Wavelab 6.0</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1991-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-d9e421fe30af470b1664" kind="soundboard">
-      <identifier scheme="archive-org">gd91-05-03.sbd.ladner.8831.sbeok.shnf</identifier>
-      <lineage>SBD &gt; DAT &gt; C &gt; DAT &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1991-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-8d3b3f0d9bfd6ea108f3" kind="unknown">
-      <identifier scheme="other">etree-600044</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-05-03.142435.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-04-27" date="1977-04-27">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1977-04-27" date="1977-04-27">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770427-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-517" nameAsBilled="Capitol Theatre"/>
   <program coverage="partial">
@@ -34,65 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-3822424a29a8fe03e7e5" kind="fm">
-      <identifier scheme="archive-org">gd1977-04-27.167534.fm.glassberg.smith.clugston.flac1648</identifier>
-      <credit role="recordist">Barry Glassberg</credit>
-      <lineage>Barry Glassberg's Master FM Reel (Pioneer TX9500 tuner &gt; TEAC A3300S Reel @ 7 1/2 ips, Maxell UD180B) &gt; 1st Generation Reel @ 3 3/4 ips | 1st Generation Reel (Technics RS-1506) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1977-04-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Matt Smith;Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    </recording>
-    <recording id="r-ca704cc2df5db6952306" kind="fm">
-      <identifier scheme="archive-org">gd1977-04-27.167535.fm.glassberg.smith.clugston.flac2496</identifier>
-      <credit role="recordist">Barry Glassberg</credit>
-      <lineage>Barry Glassberg's Master FM Reel (Pioneer TX9500 tuner &gt; TEAC A3300S Reel @ 7 1/2 ips, Maxell UD180B) &gt; 1st Generation Reel @ 3 3/4 ips | 1st Generation Reel (Technics RS-1506) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1977-04-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Matt Smith;Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    </recording>
-    <recording id="r-80413011b888a6dd5cdd" kind="fm">
-      <identifier scheme="archive-org">gd1977-04-27.fm.doinker.91889.flac16</identifier>
-      <lineage>FM Cast WNEW FM -&gt;Reel Tapes -&gt; Many Years of Playback -&gt;Sound Forge 6.0-&gt; +4.0DB/2.5 octave bell spread centered at 5Khz-&gt; FLAC via Flac Frontend, level 6, sectors aligned and verified</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1977-04-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Doinker</note>
-    </recording>
-    <recording id="r-7a80ea437a5f3d89cf37" kind="fm">
-      <identifier scheme="archive-org">gd1977-04-27.fm.moore.berger.98429.flac24</identifier>
-      <credit role="recordist">Jerry Moore</credit>
-      <lineage>FM reel master | wnew simulcast&gt;10.5" reel @ 7.5 ips, dolby b technics rs-1506&gt;sony nr-335&gt;hd-p2 24/48&gt;cd wave&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1977-04-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
-    </recording>
-    <recording id="r-7b425dd1e376b99d47c3" kind="unknown">
-      <identifier scheme="archive-org">gd1977-04-27.fm.moore.berger.98430.flac16</identifier>
-      <credit role="recordist">Jerry Moore</credit>
-      <lineage>wnew simulcast&gt;10.5" reel @ 7.5 ips, dolby b technics rs-1506&gt;sony nr-335&gt;hd-p2 24/48&gt;cd wave&gt; adobe 2.0 16/44&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1977-04-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note certainty="uncertain">Legacy inferred type: FM</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
-    </recording>
-    <recording id="r-7e74a8630572ea060ad7" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-04-27.sbd.braverman.7799.shnf</identifier>
-      <lineage>sbd(fm)&gt;mr&gt;dat&gt;cd&gt;eac&gt;wav&gt;shn</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1977-04-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Peter Braverman</note>
-    </recording>
-    <recording id="r-919b993b5564a569c5f3" kind="soundboard">
-      <identifier scheme="archive-org">gd77-04-27.sbd.samaritano.20331.sbefail.shnf</identifier>
-      <lineage>Soundboard | Pre-FM Master Reel Soundboard-&gt;DAT x ?. DAT-&gt;ZA2-&gt;Soundforge-&gt;.wav-&gt;mkw-&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1977-04-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: PRE-FM</note>
-      <note>Source credit (transfer-mastering): Joe Samaritano</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

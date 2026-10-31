@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-06-07" date="1991-06-07">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-06-07" date="1991-06-07">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910607-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-979" nameAsBilled="Deer Creek Music Center"/>
   <program coverage="partial">
@@ -34,104 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-3adad3a6342f3b74b95d" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-07.140239.TS.beyercm101.ebel.flac1644</identifier>
-      <credit role="recordist">Pete Ebel</credit>
-      <lineage>flac16/44 Source Info: TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's). Transfer Info: Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analong-&gt; Digital Converter) (SPDIF out) 24/48-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/48). Transfers by Pete Ebel</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-420068ec8fd3d929b01a" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-07.140484.TSBeyerCM101.ebel.flac2496</identifier>
-      <credit role="recordist">Pete Ebel</credit>
-      <lineage>flac24/96 Source Info: TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's). Transfer Info: Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analong-&gt; Digital Converter) (SPDIF out) 24/96-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/96). Transfers by Pete Ebel.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-efba0400ade059ff6bca" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-07.149420.set1.BK4011.set2.akg460.young.brennecke.ebel.flac1648</identifier>
-      <credit role="recordist">Clay Brennecke &amp; Jamie Young</credit>
-      <lineage>Set #1: T/S B&amp;K 4011-&gt; Sony D10 Pro II-&gt; DAT Clay Brennecke &amp; Jamie Young Recording Set #2: FOB:AKG C460 w/ CK61 110º ORTF -&gt; Grace Supply -&gt; Master DAT (SHN ID#095640) Recorded By: JC Mahoney This is the same Set #2 source as (095640) but from DAT at 48k. I included it so it could be a full show and also a 48k version. | DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-62fed793ef00614da57a" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-07.149529.sbd.pearson-healy.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-173cd08ceb65ec890e83" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-06-07.149639.sbd.cm.miller.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 13, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-f42b62a0fdca201449e8" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-07.AKG451.Darby.118759.Flac2448</identifier>
-      <credit role="recordist">Mike Darby</credit>
-      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-447af0161f12acfd316f" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-07.AKG451.Darby.118760.Flac1644</identifier>
-      <credit role="recordist">Mike Darby</credit>
-      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-1ede33fda20e5b26d813" kind="audience">
-      <identifier scheme="archive-org">gd1991-06-07.fob.brennecke-young.GEMS.95640.flac16</identifier>
-      <credit role="recordist">JC Mahoney</credit>
-      <lineage>AKG C460 w/ CK61 110 ORTF -&gt; Grace Supply -&gt; Master DAT, Recording Location: FOB | 16 bit - 48kHz DAT Clone &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0, Weiss Saracon for 16 BIT - 44.1kHz SRC and POWR-3 Dither Tracked in CDwave, FLAC'd Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    </recording>
-    <recording id="r-813f95055fed843e09d9" kind="unknown">
-      <identifier scheme="archive-org">gd1991-06-07.nak300.rickers.davis.105581.flac16</identifier>
-      <credit role="recordist">Trew Rickers</credit>
-      <lineage>[ots] Nakamichi cm300/cp4 -&gt; Sony D8 [16/48] | Master DAT -&gt; Tascam DA20 mkII -&gt; R-44 -&gt; CD Wave 1.98 -&gt; Wavelab 5.01a [fades/Resampler 192] -&gt; FLAC [8]</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chris Davis</note>
-    </recording>
-    <recording id="r-c14156725862b2e11cca" kind="soundboard">
-      <identifier scheme="archive-org">gd91-06-07.dsbd.chastewk.480.sbeok.shnf</identifier>
-      <lineage>Source: DSBD -&gt; 48 KHz DAT Read in by Other1:DigiI/O via SGI DAT drive -&gt; shn file -&gt; internet to chastewk -&gt; unshned -&gt; sample rate conversion and normalization with Cooledit 96 -&gt; tracked w/ CD-WAV and shned for your pleasure.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-    </recording>
-    <recording id="r-fe944374ec2c2979afd1" kind="soundboard">
-      <identifier scheme="archive-org">gd91-06-07.sbd.miller.18712.sbeok.shnf</identifier>
-      <lineage>SBD -&gt; Dat -&gt; Cm -&gt; Dat</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1991-06-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d530294e9cf7670a29cc" kind="unknown">
-      <identifier scheme="other">etree-609375</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-06-07.149639.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-629e8a4a3e089499510b" kind="unknown">
-      <identifier scheme="other">etree-609372</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-06-07.149529.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

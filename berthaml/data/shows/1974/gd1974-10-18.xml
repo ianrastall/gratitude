@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1974-10-18" date="1974-10-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1974-10-18" date="1974-10-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19741018-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3e1446bc543eee5edf4d38a234e0f587367494973cc03334af1abedbe8950463. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-69" nameAsBilled="Winterland"/>
   <program coverage="partial">
@@ -47,106 +46,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-59489b967807e1e766e2" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-10-18.111459.gems.BOSWELL-SMITH.flac24</identifier>
-      <lineage>Multi-track SBD reels &gt; ? &gt; reel &gt; ? &gt; FLAC; Presented by Jamie Waddell; A **GEMS** Production January 2011</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jamie Waddell and Matt Smith</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-74-sf-ca-winterland-ballroom/</note>
-    </recording>
-    <recording id="r-49b964acca7ca3f7eeb6" kind="audience">
-      <identifier scheme="archive-org">gd1974-10-18.176646.sony.ecm250.falanga.menke.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Louis Falanga</credit>
-      <lineage>Louis Falanga's Master Audience Cassettes; Sony ECM 250 mic &gt; Sony TC-110 (Maxell UD C120) | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (.wav 24-bit/96k) &gt; Adobe Audition CC2025 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
-    </recording>
-    <recording id="r-909976c496b2fe24fdd2" kind="audience">
-      <identifier scheme="archive-org">gd1974-10-18.176647.sony.ecm250.falanga.menke.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Louis Falanga</credit>
-      <lineage>Louis Falanga's Master Audience Cassettes; Sony ECM 250 mic &gt; Sony TC-110 (Maxell UD C120) | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (.wav 24-bit/96k) &gt; Adobe Audition CC2025 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
-    </recording>
-    <recording id="r-e54b685e12efbf1ae6cf" kind="unknown">
-      <identifier scheme="archive-org">gd1974-10-18.BEAR.gems.110515.flac16</identifier>
-      <credit role="recordist">BEAR</credit>
-      <lineage>RECORDING AND MIX BY BEAR. Transfer and Mastering By Jim Blackwood, with listening assistance and track/flac by Jamie Waddell</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jim Blackwood</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Owsley Stanley; role recording.</note>
-    </recording>
-    <recording id="r-6946ca87af41bb6a6a1e" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-10-18.BEAR.gems.110558.flac24</identifier>
-      <credit role="recordist">BEAR</credit>
-      <lineage>RECORDING AND MIX BY BEAR Transfer and Mastering By Jim Blackwood, with listening assistance and track/flac by Jamie Waddell</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jamie Waddell and Jim Blackwood</note>
-      <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Owsley Stanley; role recording.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-74-sf-ca-winterland-ballroom/</note>
-    </recording>
-    <recording id="r-11cf51f680ed32f4b323" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-10-18.sbd.fink-nayfield-ferguson.225.shnf</identifier>
-      <lineage>Soundboard | MR &gt; PCM &gt; DAT 44.1kHz &gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): via A. Fink, R. Nayfield, M. Ferguson</note>
-    </recording>
-    <recording id="r-4b41ad71fa6915f242ae" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-10-18.sbd.hollister-miller.21213.shnf</identifier>
-      <credit role="recordist">DAT from David Hollister</credit>
-      <lineage>SBD -&gt; Reel Master -&gt; Reel -&gt; Reel -&gt; PCM -&gt; CD -&gt; EAC -&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0bee34e254b3915cba13" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-10-18.sbd.miller.110771.flac16</identifier>
-      <lineage>Set 1: SBD -&gt; Master Reel -&gt; Reel -&gt; Reel -&gt; PCM -&gt; Dat (44.1k) Set 2: SBD -&gt; Master Reel -&gt; Dat (44.1k) Set 3: SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.1.1 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-f2bb863eec0de8158a41" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-10-18.sbd.miller.34950.shnf</identifier>
-      <lineage>SBD -&gt; Rough Mixes -&gt; Cass -&gt; Reel -&gt; ? -&gt; Dat D | Dat (Sony R500) -&gt; Prodif Plus -&gt; Samplitude -&gt; CD -&gt; EAC -&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-cb586b8bd8fbecc9a99f" kind="soundboard">
-      <identifier scheme="archive-org">gd74-10-18.sbd.bertha-ashley.22796.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD&gt; MR&gt; MDAT (44.1k)&gt; SHN&gt; DAW (Bertha)&gt; CDA/SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-74-sf-ca-winterland-ballroom/</note>
-    </recording>
-    <recording id="r-4dd93d5c1ed00f55535d" kind="soundboard">
-      <identifier scheme="archive-org">gd74-10-18.sbd.miller.21785.sbeok.shnf</identifier>
-      <lineage>Soundboard | Set I : SBD -&gt; Reel Master -&gt; Reel -&gt; Reel -&gt; PCM -&gt; CD -&gt; EAC -&gt; SHN Set II : SBD -&gt; Reel Master -&gt; Dat Master (44.1k) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; Cool Edit Pro v2.0 -&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-03d5f35d1d9d79553e92" kind="soundboard">
-      <identifier scheme="archive-org">gd74-10-18.sbd.romanski.5436.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD MR &gt; PCM &gt; DAT&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-a57668b0054642c48c78" kind="unknown">
-      <identifier scheme="other">etree-559627</identifier>
-      <note>Supplied catalogue listing: etree; gd74-10-18.110771.sbd.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

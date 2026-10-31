@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1974-06-26" date="1974-06-26">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1974-06-26" date="1974-06-26">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19740626-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3e1446bc543eee5edf4d38a234e0f587367494973cc03334af1abedbe8950463. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-532" nameAsBilled="Providence Civic Center"/>
   <program coverage="partial">
@@ -44,74 +43,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-f5e71bf60016de0e448a" kind="matrix">
-      <identifier scheme="archive-org">gd1974-06-26.119613.mtx.dusborne.flac16</identifier>
-      <lineage>2 source matrix: Soundboard (shnid=00214): Source for disc 1: SBD&gt;MR&gt;C&gt;DAT&gt;CDR; Source for discs 2,3: MSR &gt; Reel &gt; 4xDAT &gt; CDR (HHB CDR-850) &gt; SHN (EACx2) and Audience (shnid=105919): source: aud cassette master taped by Jerry Moore | aud&gt;akg d1000e's&gt;sony tc-152sd, (3)maxell ud-120's, dolby bnak dragon&gt;hd-p2 24/96&gt;cd wave&gt;flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
-    </recording>
-    <recording id="r-e6815113e643e9310c82" kind="audience">
-      <identifier scheme="archive-org">gd1974-06-26.136647.aud.cooper.berger.flac24</identifier>
-      <credit role="recordist">Jim Cooper</credit>
-      <lineage>source: aud cassette master; taped by Jimmy Cooper; sony ecm22p’s &gt; hitachi trq-232; nakamichi dragon &gt; benchmark adc1 24/96; transfer &amp; seeded by Rob Berger</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-daa1f5d93b2f082a920e" kind="audience">
-      <identifier scheme="archive-org">gd1974-06-26.136648.aud.cooper.berger.flac16</identifier>
-      <credit role="recordist">Jim Cooper</credit>
-      <lineage>source: aud cassette master; taped by Jimmy Cooper; sony ecm22p’s &gt; hitachi trq-232; nakamichi dragon &gt; benchmark adc1 24/96; transfer &amp; seeded by Rob Berger</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-    </recording>
-    <recording id="r-7ebaffed56c536a6fe3a" kind="soundboard">
-      <identifier scheme="archive-org">gd1974-06-26.140081.sbd.miller.patched.flac1644</identifier>
-      <lineage>SBD &gt; Master Reel &gt; Dat (Panasonic SV-3800/44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5f83fc7f876d4887b21c" kind="matrix">
-      <identifier scheme="archive-org">gd1974-06-26.149947.mtx.seamons.ht119.flac16</identifier>
-      <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by Hunter Seamons</note>
-      <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-94defb3378af4cf1b33f" kind="unknown">
-      <identifier scheme="archive-org">gd1974-06-26.151833.SonyStereo.ECM.Moskal.t.flac16</identifier>
-      <credit role="recordist">Gerry Moskal</credit>
-      <lineage>Sony Stereo ECM --&gt;SONY TCD126 Location: TBD | Master Cassette Nakamichi BX-150 Transfer-&gt;Nakamichi BX300 Cassette Maxell XL11-S90 x3 circa 1984 Wave/ Flac Conversion &amp; Editing 2-20-21 Brian Mandel gdplusmore@aol.com Cassette Transfer Maxell XL11-S90 Nakamichi BX300-&gt;SONY PCM-M10 16bit 44 Wave CD Wave Editor -&gt; TLH-&gt;Flac Edits Tape Flips - Audacity</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Brian Mandel</note>
-    </recording>
-    <recording id="r-5ecb2d1215df842388f0" kind="audience">
-      <identifier scheme="archive-org">gd1974-06-26.akgd1000e.moore.berger.105919.flac24</identifier>
-      <credit role="recordist">Jerry Moore</credit>
-      <lineage>aud&gt;akg d1000e's&gt;sony tc-152sd, (3)maxell ud-120's, dolby b | cassettes re-shelled &gt; nak dragon &gt; hd-p2 24/96 &gt; cd wave &gt; flac</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Rob Berger</note>
-      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
-    </recording>
-    <recording id="r-b87e0ecaab09c6141713" kind="audience">
-      <identifier scheme="archive-org">gd74-06-26.moore.weiner.gdADT17.16037.sbeok.shnf</identifier>
-      <credit role="recordist">Jerry Moore</credit>
-      <lineage>Audience Recording: Sony ECM-99 Stereo mic | AudMC &gt; WAV &gt; CD &gt; EAC &gt; SHN recorded near the rear of the floor, close to center axis with Sony ECM-99 Stereo mic (on metal pole) &gt; Sony 152 deck. Maxell UD-120 cassettes, with Dolby B ON</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
-    </recording>
-    <recording id="r-40a212766a1e0188d09a" kind="soundboard">
-      <identifier scheme="archive-org">gd74-06-26.sbd.oleynick.214.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSR &gt; Reel &gt; 4xDAT &gt; CDR (HHB CDR-850) &gt; SHN (EACx2)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Providence Civic Center on 1974-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-0b8eaf81ef8384e6f7a0" kind="unknown">
-      <identifier scheme="other">etree-612531</identifier>
-      <note>Supplied catalogue listing: etree; GD1974-06-26 SBD. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

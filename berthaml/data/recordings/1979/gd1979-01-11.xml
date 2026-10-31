@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1979-01-11">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1979-01-11.sbd.miller.102430.flac16" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 94107df565c66e961ade3628c95aef445e7ad7392efbd6bbc14d321a686cb44a</cite>
+  </record>
+  <recording id="r-17e25f5c5765a85614b0" kind="audience">
+    <identifier scheme="archive-org">gd1979-01-11.125492.aud.cooper.berger.flac16</identifier>
+    <credit role="recordist">Jim Cooper</credit>
+    <lineage>source: aud cassette master taped by Jim Cooper; sony ecm22p's &gt; sony tc-158sd, dolby b; set I, end of II: TDK SA-C90's, set II: Maxell UDXLII-C90; nak dragon/b &gt; benchmark adc1 24/96 &gt; hd-p2 &gt; adobe audition cs6 16/44.1 &gt; flac; transferred &amp; seeded by Rob Berger 2013</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1979-01-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Rob Berger</note>
+  </recording>
+  <recording id="r-ab2a6c86416e8976aef2" kind="audience">
+    <identifier scheme="archive-org">gd1979-01-11.125493.aud.cooper.berger.flac24</identifier>
+    <credit role="recordist">Jim Cooper</credit>
+    <lineage>source: aud cassette master taped by Jim Cooper; sony ecm22p's &gt; sony tc-158sd, dolby b; set I, end of II: TDK SA-C90's, set II: Maxell UDXLII-C90; nak dragon/b &gt; benchmark adc1 24/96 &gt; hd-p2 &gt; adobe audition cs6 &gt; flac; transferred &amp; seeded by Rob Berger 2013</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1979-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Rob Berger</note>
+  </recording>
+  <recording id="r-df212bc7c72091e3001f" kind="audience">
+    <identifier scheme="archive-org">gd1979-01-11.132250.aud.fob.nak-300.flac16</identifier>
+    <credit role="recordist">Dr Keith J. Gatto</credit>
+    <lineage>flac16/48kHz ; Cassette Audience Master Recorded By Dr Keith J. Gatto; Nakamichi CM-300 Electret Condenser Microphones -Sony TCD 158 Cassette Recorder Location @ FOB; Analog to Digital Transfer by Keith Gatto: Cassette Master played back on Sony TC-158 SD to a "Unknown Model" DAT deck @ 48KHz (circa 1991); Original zero gen DAT played back on a Sony PCM R-500-Digital Audio Labs Carddeluxe-32 bit float 48KHz WAV; Editing(Adobe Audition 3.0)-Mastering &amp; Processing(iZotope Ozone 6)-FLAC encodeing(dBpoweramp)-Tagging(Tag &amp; Re-name); Digital Transfer,Editing &amp; Processing performed in the 32 bit float digital domain By JW</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1979-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Dr Keith J. Gatto and Jim Wise</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-033ecea7b53d4d3120c9" kind="soundboard">
+    <identifier scheme="archive-org">gd1979-01-11.sbd.miller.102430.flac16</identifier>
+    <lineage>SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
+    <playlist id="pl-7a2d80fbc423b0c12633" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1979-01-11.sbd.miller.102430.flac16">
+      <track n="1" title="Sugaree" file="gd79-01-11d1t01.flac" mappingStatus="candidate" disc="1" sourceNumber="1" duration="PT904.12S" covers="p01-01" certainty="probable"/>
+      <track n="2" title="Me And My Uncle -&gt;" file="gd79-01-11d1t02.flac" mappingStatus="candidate" disc="1" sourceNumber="2" duration="PT173.13S" covers="p01-02" certainty="probable"/>
+      <track n="3" title="Big River" file="gd79-01-11d1t03.flac" mappingStatus="candidate" disc="1" sourceNumber="3" duration="PT406.62S" covers="p01-03" certainty="probable"/>
+      <track n="4" title="Peggy-O" file="gd79-01-11d1t04.flac" mappingStatus="candidate" disc="1" sourceNumber="4" duration="PT598.1S" covers="p01-04" certainty="probable"/>
+      <track n="5" title="Cassidy" file="gd79-01-11d1t05.flac" mappingStatus="candidate" disc="1" sourceNumber="5" duration="PT297.06S" covers="p01-05" certainty="probable"/>
+      <track n="6" title="Friend Of The Devil" file="gd79-01-11d1t06.flac" mappingStatus="candidate" disc="1" sourceNumber="6" duration="PT737.96S" covers="p01-06" certainty="probable"/>
+      <track n="7" title="New Minglewood Blues" file="gd79-01-11d1t07.flac" mappingStatus="unreviewed" disc="1" sourceNumber="7" duration="PT445.76S"/>
+      <track n="8" title="From The Heart Of Me" file="gd79-01-11d1t08.flac" mappingStatus="candidate" disc="1" sourceNumber="8" duration="PT262.69S" covers="p01-08" certainty="probable"/>
+      <track n="9" title="Ramble On Rose" file="gd79-01-11d1t09.flac" mappingStatus="candidate" disc="1" sourceNumber="9" duration="PT625.16S" covers="p01-09" certainty="probable"/>
+      <track n="10" title="Jack Straw -&gt;" file="gd79-01-11d2t01.flac" mappingStatus="candidate" disc="2" sourceNumber="1" duration="PT372.05S" covers="p01-10" certainty="probable"/>
+      <track n="11" title="Deal" file="gd79-01-11d2t02.flac" mappingStatus="candidate" disc="2" sourceNumber="2" duration="PT376.88S" covers="p01-11" certainty="probable"/>
+      <track n="12" title="I Need A Miracle" file="gd79-01-11d2t03.flac" mappingStatus="candidate" disc="2" sourceNumber="3" duration="PT685.24S" covers="p02-01" certainty="probable"/>
+      <track n="13" title="Ship Of Fools" file="gd79-01-11d2t04.flac" mappingStatus="candidate" disc="2" sourceNumber="4" duration="PT677.26S" covers="p02-02" certainty="probable"/>
+      <track n="14" title="Estimated Prophet -&gt;" file="gd79-01-11d2t05.flac" mappingStatus="candidate" disc="2" sourceNumber="5" duration="PT775.41S" covers="p02-03" certainty="probable"/>
+      <track n="15" title="He's Gone -&gt;" file="gd79-01-11d2t06.flac" mappingStatus="candidate" disc="2" sourceNumber="6" duration="PT982.02S" covers="p02-04" certainty="probable"/>
+      <track n="16" title="Drums -&gt;" file="gd79-01-11d2t07.flac" mappingStatus="candidate" disc="2" sourceNumber="7" duration="PT614.69S" covers="p02-05" certainty="probable"/>
+      <track n="17" title="Space -&gt;" file="gd79-01-11d3t01.flac" mappingStatus="candidate" disc="3" sourceNumber="1" duration="PT156.53S" covers="p02-06" certainty="probable"/>
+      <track n="18" title="Truckin' -&gt;" file="gd79-01-11d3t02.flac" mappingStatus="candidate" disc="3" sourceNumber="2" duration="PT575.1S" covers="p02-07" certainty="probable"/>
+      <track n="19" title="The Other One -&gt;" file="gd79-01-11d3t03.flac" mappingStatus="candidate" disc="3" sourceNumber="3" duration="PT344.09S" covers="p02-08" certainty="probable"/>
+      <track n="20" title="Stella Blue -&gt;" file="gd79-01-11d3t04.flac" mappingStatus="candidate" disc="3" sourceNumber="4" duration="PT727.56S" covers="p02-09" certainty="probable"/>
+      <track n="21" title="Good Lovin'" file="gd79-01-11d3t05.flac" mappingStatus="candidate" disc="3" sourceNumber="5" duration="PT396.45S" covers="p02-10" certainty="probable"/>
+      <track n="22" title="Casey Jones" file="gd79-01-11d3t06.flac" mappingStatus="candidate" disc="3" sourceNumber="6" duration="PT327.92S" covers="p03-01" certainty="probable"/>
+      <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
+    </playlist>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1979-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note>Archive source metadata (lineage): Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</note>
+    <note>Archive source metadata (source): SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5)</note>
+    <note>Archive source metadata (transferer): Charlie Miller</note>
+  </recording>
+  <recording id="r-ef82f5581d13acb84ec0" kind="soundboard">
+    <identifier scheme="archive-org">gd1979-01-11.sbd.miller.fix-102430.102446.flac16</identifier>
+    <lineage>SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1979-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-1f7638468f191ac266c8" kind="audience">
+    <identifier scheme="archive-org">gd79-01-11.gatto.kempka.308.sbeok.shnf</identifier>
+    <credit role="recordist">Keith Gatto</credit>
+    <lineage>Audience Recording: Nak 300's and Sony TC-158 | FOB Cass. Master &gt; DAT; DAT &gt; Soundforge &gt; CDR &gt; Cdparanoia &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1979-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Keith Gatto, Jim Wise</note>
+    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
+  </recording>
+</recordings>

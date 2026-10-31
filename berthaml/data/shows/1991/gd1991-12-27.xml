@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1991-12-27" date="1991-12-27">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1991-12-27" date="1991-12-27">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19911227-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
   <program coverage="partial">
@@ -37,74 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-909dce038d814856dce2" kind="unknown">
-      <identifier scheme="archive-org">gd1991-12-27.127428.nak.bowen.flac16</identifier>
-      <credit role="recordist">Jeff Bowen</credit>
-      <lineage>Source: Nakamichi CM-300x3; Two CP-4 Shotguns + One CP-1 Cardioid &gt; Boss BX-4 Mixer &gt; Sony WM-D6C (w/Dolby C) &gt; Cassette Master (MX-S 100) | Masters Transferred Via: WM-D6C (Original Record Deck w/Dolby C) &gt; HHb CDR 800 &gt; CD Masters &gt; FLAC (Level 8) Via xACT 2.25</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1991-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jeff Bowen</note>
-    </recording>
-    <recording id="r-ddb08451e2b46ad111ac" kind="matrix">
-      <identifier scheme="archive-org">gd1991-12-27.144615.sbd.ultramatrox.miller.flac1644</identifier>
-      <credit role="recordist">David Gans</credit>
-      <lineage>UltraMatrix SBD &gt; Dat Master (44.1k) | Dat Master (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X4 Suite &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b1b131f0ac5755d548f0" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-12-27.150796.sbd.healy-pearson.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller October 31, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-b7fcd39bf21b8fdb90c9" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-12-27.151628.sbd.cm.miller.t.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller October 31, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-9bdfe990d6e9988cf325" kind="soundboard">
-      <identifier scheme="archive-org">gd1991-12-27.sbd.miller.105582.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a3839dc580c47a05b0fc" kind="soundboard">
-      <identifier scheme="archive-org">gd91-12-27.sbd.hinko.25944.sbeok.shnf</identifier>
-      <lineage>DSBD &gt; DAT &gt; C &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-    </recording>
-    <recording id="r-72da6280fad92ecaca99" kind="audience">
-      <identifier scheme="archive-org">gd91-12-27.schoeps.oconnor.12094.sbeok.shnf</identifier>
-      <lineage>AUD(Schoeps)&gt; DAT&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-1ce9d87a536a18329580" kind="unknown">
-      <identifier scheme="other">etree-611841</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-12-27.151628.sbd.cm.miller.t.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-a75e17ee179f56827746" kind="unknown">
-      <identifier scheme="other">etree-604070</identifier>
-      <note>Supplied catalogue listing: etree; gd1991-12-27.144615.UltraMatrix.sbd.dm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

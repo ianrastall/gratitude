@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1985-02-18" date="1985-02-18">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1985-02-18" date="1985-02-18">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850218-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
-    <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1985-02-18.170268.sbd.miksis.flac1648" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 6346757a752cadc8623ffc9cc42f2c81f459497089e303cf93dd2c4841e8b63c</cite>
   </record>
   <venue ref="v-jb-922" nameAsBilled="Henry J. Kaiser Convention Center"/>
   <program coverage="partial">
@@ -37,81 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-96948a23a371384d9e1a" kind="unknown">
-      <identifier scheme="archive-org">gd1985-02-18.112038.beyer-senn.daweez.d5scott.flac16</identifier>
-      <credit role="recordist">Da Weez</credit>
-      <lineage>Source: 3 Sennheiser 421 microphones (up front-center) &gt; Nak MX100 w/2001 &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-5684faa92e8e0dbe4c18" kind="soundboard">
-      <identifier scheme="archive-org">gd1985-02-18.170268.sbd.miksis.flac1648</identifier>
-      <lineage>Soundboard Source (shnid=7588): Cassette Master -&gt; DAT - &gt; SoundForge -&gt; CD First circulated February 15, 2002 | Final Cut Pro (16b/48k) &gt; Izotope RX Advanced &gt; Peak Pro &gt; xAct &gt; FLAC/16</lineage>
-      <playlist id="pl-dd6dd9187234be9355ba" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1985-02-18.170268.sbd.miksis.flac1648">
-        <track n="1" title="Iko Iko" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t01 -  Iko Iko.flac" mappingStatus="candidate" sourceNumber="1" duration="PT392.67S" covers="p01-01" certainty="probable"/>
-        <track n="2" title="C. C. Rider" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t02 -  C. C. Rider.flac" mappingStatus="candidate" sourceNumber="2" duration="PT499.41S" covers="p01-02" certainty="probable"/>
-        <track n="3" title="Dire Wolf" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t03 -  Dire Wolf.flac" mappingStatus="candidate" sourceNumber="3" duration="PT233.2S" covers="p01-03" certainty="probable"/>
-        <track n="4" title="Cassidy" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t04 -  Cassidy.flac" mappingStatus="candidate" sourceNumber="4" duration="PT406.19S" covers="p01-04" certainty="probable"/>
-        <track n="5" title="Ramble On Rose" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t05 -  Ramble On Rose.flac" mappingStatus="candidate" sourceNumber="5" duration="PT434.33S" covers="p01-05" certainty="probable"/>
-        <track n="6" title="Me And My Uncle -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t06 -  Me And My Uncle.flac" mappingStatus="candidate" sourceNumber="6" duration="PT182.55S" covers="p01-06" certainty="probable"/>
-        <track n="7" title="Mexicali Blues" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t07 -  Mexicali Blues.flac" mappingStatus="candidate" sourceNumber="7" duration="PT286.64S" covers="p01-07" certainty="probable"/>
-        <track n="8" title="China Cat Sunflower -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t08 -  China Cat Sunflower.flac" mappingStatus="candidate" sourceNumber="8" duration="PT323.67S" covers="p01-08" certainty="probable"/>
-        <track n="9" title="I Know You Rider" file="gd1985-02-18.170268.sbd.miksis.flac1648/s1t09 -  I Know You Rider.flac" mappingStatus="candidate" sourceNumber="9" duration="PT295.03S" covers="p01-09" certainty="probable"/>
-        <track n="10" title="Samson And Delilah" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t01 -  Samson And Delilah.flac" mappingStatus="candidate" sourceNumber="1" duration="PT440.27S" covers="p02-01" certainty="probable"/>
-        <track n="11" title="He's Gone -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t02 -  He's Gone.flac" mappingStatus="candidate" sourceNumber="2" duration="PT783.95S" covers="p02-02" certainty="probable"/>
-        <track n="12" title="Spoonful -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t03 -  Spoonful.flac" mappingStatus="candidate" sourceNumber="3" duration="PT287.38S" covers="p02-03" certainty="probable"/>
-        <track n="13" title="Eyes Of The World -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t04 -  Eyes Of The World.flac" mappingStatus="candidate" sourceNumber="4" duration="PT685.29S" covers="p02-04" certainty="probable"/>
-        <track n="14" title="Going Down The Road Feeling Bad -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t05 -  Going Down The Road Feeling Bad.flac" mappingStatus="unreviewed" sourceNumber="5" duration="PT385.15S"/>
-        <track n="15" title="Drums -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t06 -  Drums.flac" mappingStatus="candidate" sourceNumber="6" duration="PT776.8S" covers="p02-06" certainty="probable"/>
-        <track n="16" title="Space -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t07 -  Space.flac" mappingStatus="candidate" sourceNumber="7" duration="PT600.88S" covers="p02-07" certainty="probable"/>
-        <track n="17" title="China Doll -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t08 -  China Doll.flac" mappingStatus="candidate" sourceNumber="8" duration="PT308.58S" covers="p02-08" certainty="probable"/>
-        <track n="18" title="Baby What You Want Me To Do -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t09 -  Baby What You Want Me To Do.flac" mappingStatus="candidate" sourceNumber="9" duration="PT345.28S" covers="p02-09" certainty="probable"/>
-        <track n="19" title="Sugar Magnolia -&gt;" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t10 -  Sugar Magnolia.flac" mappingStatus="candidate" sourceNumber="10" duration="PT645.39S" covers="p02-10" certainty="probable"/>
-        <track n="20" title="Day Job (Encore)" file="gd1985-02-18.170268.sbd.miksis.flac1648/s2t11 -  Day Job.flac" mappingStatus="unreviewed" sourceNumber="11" duration="PT261.55S"/>
-        <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: natural filename order. Performance links are review candidates.</note>
-      </playlist>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Matrix by Brian Miksis</note>
-      <note>Archive source metadata (lineage): Final Cut Pro (16b/48k) &gt; Izotope RX Advanced &gt; Peak Pro &gt; xAct &gt; FLAC/16</note>
-      <note>Archive source metadata (source): Soundboard Source (shnid=7588): Cassette Master -&gt; DAT - &gt; SoundForge -&gt; CD First circulated February 15, 2002</note>
-      <note>Archive source metadata (transferer): Matrix by Brian Miksis</note>
-    </recording>
-    <recording id="r-aefda07825b75e1f6027" kind="matrix">
-      <identifier scheme="archive-org">gd1985-02-18.170269.mtx.miksis.flac1648</identifier>
-      <lineage>SBD/AUD Matrix: Final Cut Pro (16b/48k) &gt; Izotope RX Advanced &gt; Peak Pro &gt; xAct &gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Created by Brian Miksis February 15, 2025</note>
-    </recording>
-    <recording id="r-1c4ea76a7ad24398d07b" kind="soundboard">
-      <identifier scheme="archive-org">gd1985-02-18.176182.sbd1.donaldson.miller.flac2496</identifier>
-      <credit role="recordist">Dougal Donaldson</credit>
-      <lineage>SBD &gt; VHS Master (Sony Handycam) &gt; Cassette (Sony TC-D5M/Maxell XLII-S90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2025 &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 1, 2026</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-749596c0008098466b60" kind="unknown">
-      <identifier scheme="archive-org">gd1985-02-18.aud.mccue.82843.sbeok.flac16</identifier>
-      <credit role="recordist">Mark McCue</credit>
-      <lineage>MAC; Sennheiser 421s &gt; Sony TC-MD5 &gt; Maxell MX90s | MAC &gt; Nakamichi Cassette Deck 2 (azimuth adjusted) &gt; Kind Kables RCA/XLR &gt; Lunatec V3(@2496) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; 24 bit WAV &gt; Wave L3 UltraMaximizer (dither to 16 bit 44.1kHz) &gt; CD Wave Editor &gt; Trader's Little Helper &gt; FLAC16.</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Alex Ford</note>
-    </recording>
-    <recording id="r-49456da44829d3e5bfe2" kind="unknown">
-      <identifier scheme="archive-org">gd1985-02-18.nak100.holtz.lmpp.105539.flac16</identifier>
-      <credit role="recordist">Greg Holtz</credit>
-      <lineage>Nakamichi CM-100's CP-4 caps &gt; Sony WM-D5 &gt; mac | mac &gt; Tascam 122B &gt; Tascam HD-P2 &gt; 24/48 wav &gt; Adobe Audition 1.5 &gt; Wavelab 6 (with iZotope Ozone 4) &gt; iZotope RX Advanced &gt; 16/44.1 wav &gt; CD Wave &gt; flac 16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Brion Green and SIRMick</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-f2a0fc83de67bed18cc2" kind="soundboard">
-      <identifier scheme="archive-org">gd85-02-18.sbd.willy.7588.sbeok.shnf</identifier>
-      <lineage>SBD&gt;CM&gt;DAT&gt;SoundForge&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1977-05-05" date="1977-05-05">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1977-05-05" date="1977-05-05">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770505-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-671" nameAsBilled="New Haven Coliseum Veterans Memorial Coliseum"/>
   <program coverage="partial">
@@ -35,77 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-12c6652e71919b615eeb" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-05.123485.sbd.miller.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel (DBX-1 Encoded) -&gt; PCM (Sony PCM501ES/44.055k) | PCM (Sony PCM501ES/Analog Out) -&gt; Dat (Panasonic SV-3700/48k) -&gt;Db 924 (96k/24bit) D/A -&gt; Dolby 361 Module w/ DBX K9-22 Cards(DBX Decoded) -&gt;Db 1225 (96k/24bit) A/D -&gt; Db 3000s Noise Shaper (SBM) -&gt; Dat (48k) -&gt;Sound Forge -&gt; CD Wave -&gt; SHNMastering Info:SHN -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1977-05-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-f7956c16ed06f1e3e7aa" kind="audience">
-      <identifier scheme="archive-org">gd1977-05-05.139355.unk-aud.ebel.flac1644</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>Audience (Mic's ?) -&gt;Cassette -&gt;DAT | Cassette transfered to DAT in the mid 90's... DAT-&gt; Marantz CDR 615 (late 90's)-&gt; extract wav -&gt; Flaced with Traders little helper Level 8-&gt;Tagged. (16/44.1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1977-05-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-43bb5eef47d50ecdd01d" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-05.148735.SBD.Betty.Anon.Noel.t-flac2448</identifier>
-      <credit role="recordist">Betty Cantor</credit>
-      <lineage>Source: Betty Cantor's SBD Reel Master &gt; PCM &gt; Beta PCM clone &gt; cloned to wav file on computer by Sony SLHF300 Betamax and modified Sony PCM601esd via spdif output &gt; VX pocket SPDIF input &gt; emphasis decoded in software and played out of computer via SPDIF out into Myteck Stereo DAC96 (balanced analog out with Superclock on) &gt; DBX150X Type I dbx decode (balanced analog in and out) &gt; Korg MR2000 (1 bit) &gt; rendered to 24 48 in Audiogate</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1977-05-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Source &amp; Transfer by Anonymous;Edited &amp; Mastered using Adobe Audition by Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
-    </recording>
-    <recording id="r-f6a0c077ce7e0fcc8101" kind="unknown">
-      <identifier scheme="archive-org">gd1977-05-05.152100.aud.ebel.remaster.of.shnid.139355.clugston.flac16</identifier>
-      <credit role="recordist">Pete Ebel</credit>
-      <lineage>Patched, pitch corrected and remastered version of Pete Ebel's shnid139355</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1977-05-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Mastered by Scott Clugston March 2021</note>
-    </recording>
-    <recording id="r-8742a03efe1ca410e944" kind="audience">
-      <identifier scheme="archive-org">gd1977-05-05.152101.aud.lamarre.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Doug Lamarre's 2nd gen cassettes</credit>
-      <lineage>Audience source of unknown provenance; Doug Lamarre's 2nd gen cassettes | 2nd generation cassettes(Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1977-05-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-fc5f7c4c910eea0a679f" kind="audience">
-      <identifier scheme="archive-org">gd1977-05-05.152102.aud.lamarre.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Doug Lamarre's 2nd gen cassettes</credit>
-      <lineage>Audience source of unknown provenance; Doug Lamarre's 2nd gen cassettes | 2nd generation cassettes(Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1977-05-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9bc4f971a5e93b80c6ea" kind="matrix">
-      <identifier scheme="archive-org">gd1977-05-05.171014.mtx.dusborne.flac1644</identifier>
-      <lineage>2 Source Matrix by dusborne</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans Memorial Coliseum on 1977-05-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
-    </recording>
-    <recording id="r-a36258a298c834ce67c6" kind="unknown">
-      <identifier scheme="archive-org">gd1977-05-05.sbd.cantor.7725.shnf</identifier>
-      <lineage>master reels &gt; dat | tascam dap1 &gt; zefiro za2 &gt; soundforge &gt;cdwave &gt; shn</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at New Haven Coliseum on 1977-05-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Troy Wallwork</note>
-    </recording>
-    <recording id="r-cbc32371325d82e28823" kind="soundboard">
-      <identifier scheme="archive-org">gd1977-05-05.sbd.unknown.261.shnf</identifier>
-      <lineage>Soundboard</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at New Haven Coliseum on 1977-05-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Unknown</note>
-    </recording>
-    <recording id="r-b5da301c2abe5de49b03" kind="soundboard">
-      <identifier scheme="archive-org">gd77-05-05.sbd.stephens.8832.sbeok.shnf</identifier>
-      <lineage>Soundboard | 7in 2-track BBD reel w/DBX-1 @ 7.5 ips &gt; PCM501ES@ 44.055 kHz</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Veterans' Memorial Coliseum on 1977-05-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

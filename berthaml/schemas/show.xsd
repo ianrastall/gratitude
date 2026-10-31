@@ -8,17 +8,15 @@
         -> performance <personnel> (replaces) or <personnelChanges> (delta)
   Each level starts from the effective result of the level above.
 
-  Durations do not live on performances. A duration is a property of a
-  track on a specific recording or release, and one track can span several
-  performances (e.g. Good Lovin' > Drums > Good Lovin' on one CD track).
-  Tracks reference performance IDs.
+  Show files record what happened on stage and are edited by hand. Durations
+  and everything else about a specific tape live in recordings.xsd.
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:b="urn:berthaml:1"
            targetNamespace="urn:berthaml:1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.0">
+           version="1.1">
 
   <xs:include schemaLocation="common.xsd"/>
 
@@ -27,11 +25,6 @@
        ============================================================ -->
 
   <xs:element name="show" type="b:Show">
-    <!-- Recording IDs referenced by tracks must exist in this file. -->
-    <xs:key name="recordingKey">
-      <xs:selector xpath="b:sources/b:recording"/>
-      <xs:field xpath="@id"/>
-    </xs:key>
     <!-- Performance IDs referenced by @continues must exist in this file. -->
     <xs:key name="performanceKey">
       <xs:selector xpath="b:program/b:set/b:performance"/>
@@ -68,7 +61,7 @@
     <xs:attribute name="id" type="b:ShowId" use="required"/>
     <xs:attribute name="date" type="b:EraDate" use="required"/>
     <xs:attribute name="dateCertainty" type="b:Certainty"/>
-    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.1"/>
   </xs:complexType>
 
   <xs:simpleType name="Slot">
@@ -188,14 +181,6 @@
     <xs:attribute name="coverage" type="b:Coverage" use="required"/>
   </xs:complexType>
 
-  <xs:simpleType name="Coverage">
-    <xs:restriction base="xs:token">
-      <xs:enumeration value="complete"/>
-      <xs:enumeration value="partial"/>
-      <xs:enumeration value="none"/>
-    </xs:restriction>
-  </xs:simpleType>
-
   <xs:complexType name="Set">
     <xs:sequence>
       <xs:group ref="b:PersonnelOverride" minOccurs="0"/>
@@ -269,115 +254,15 @@
   </xs:simpleType>
 
   <!-- ============================================================
-       Sources: circulating recordings (owned by this show) and
-       references to official releases (owned by the release registry).
+       Sources: references to official releases, which the release
+       registry owns. Circulating recordings are in recordings.xsd.
        ============================================================ -->
 
   <xs:complexType name="Sources">
     <xs:sequence>
-      <xs:element name="recording" type="b:Recording" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="release" type="b:ReleaseUse" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
-
-  <xs:complexType name="Recording">
-    <xs:sequence>
-      <xs:element name="identifier" type="b:Identifier" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="credit" type="b:RecordingCredit" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="lineage" type="xs:string" minOccurs="0"/>
-      <xs:element name="track" type="b:Track" minOccurs="0" maxOccurs="unbounded"/>
-      <!-- Different original-file formats or source editions may have different boundaries. -->
-      <xs:element name="playlist" type="b:RecordingPlaylist" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
-    </xs:sequence>
-    <xs:attribute name="id" type="xs:ID" use="required"/>
-    <xs:attribute name="kind" type="b:RecordingKind" use="required"/>
-    <xs:attribute name="coverage" type="b:Coverage"/>
-  </xs:complexType>
-
-  <xs:simpleType name="RecordingKind">
-    <xs:restriction base="xs:token">
-      <xs:enumeration value="soundboard"/>
-      <xs:enumeration value="audience"/>
-      <xs:enumeration value="matrix"/>
-      <xs:enumeration value="fm"/>
-      <xs:enumeration value="video"/>
-      <xs:enumeration value="unknown"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:complexType name="Identifier">
-    <xs:simpleContent>
-      <xs:extension base="xs:token">
-        <xs:attribute name="scheme" type="b:IdentifierScheme" use="required"/>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
-
-  <xs:simpleType name="IdentifierScheme">
-    <xs:restriction base="xs:token">
-      <!-- archive.org item identifier -->
-      <xs:enumeration value="archive-org"/>
-      <!-- etree.org SHN database ID -->
-      <xs:enumeration value="shnid"/>
-      <xs:enumeration value="other"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <!-- Tapers and transferrers are usually not in the people registry, so names are text. -->
-  <xs:complexType name="RecordingCredit">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-        <xs:attribute name="role" type="b:RecordingRole" use="required"/>
-        <xs:attribute name="certainty" type="b:Certainty"/>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
-
-  <xs:simpleType name="RecordingRole">
-    <xs:restriction base="xs:token">
-      <xs:enumeration value="recordist"/>
-      <xs:enumeration value="taper"/>
-      <xs:enumeration value="transfer"/>
-      <xs:enumeration value="mastering"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <!-- A track on a recording. @covers lists performance and event IDs in this file. -->
-  <xs:complexType name="Track">
-    <xs:attribute name="n" type="xs:positiveInteger" use="required"/>
-    <!-- Omit covers until the actual source track has been mapped; do not invent a song. -->
-    <xs:attribute name="covers" type="xs:IDREFS"/>
-    <xs:attribute name="duration" type="b:Duration"/>
-    <xs:attribute name="disc" type="xs:positiveInteger"/>
-    <xs:attribute name="sourceNumber" type="xs:positiveInteger"/>
-    <xs:attribute name="title" type="xs:string"/>
-    <xs:attribute name="file" type="xs:string"/>
-    <xs:attribute name="mappingStatus" type="b:MappingStatus"/>
-    <xs:attribute name="certainty" type="b:Certainty"/>
-    <!-- Recording starts or ends inside this track's material. -->
-    <xs:attribute name="cut" type="b:Cut"/>
-  </xs:complexType>
-
-  <xs:complexType name="RecordingPlaylist">
-    <xs:sequence>
-      <xs:element name="track" type="b:Track" minOccurs="1" maxOccurs="unbounded"/>
-      <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
-    </xs:sequence>
-    <xs:attribute name="id" type="xs:ID" use="required"/>
-    <xs:attribute name="label" type="xs:string"/>
-    <xs:attribute name="format" type="xs:token"/>
-    <xs:attribute name="sourceHref" type="xs:anyURI"/>
-  </xs:complexType>
-
-  <xs:simpleType name="Cut">
-    <xs:restriction base="xs:token">
-      <xs:enumeration value="cut-in"/>
-      <xs:enumeration value="cut-out"/>
-      <xs:enumeration value="both"/>
-      <xs:enumeration value="gap"/>
-    </xs:restriction>
-  </xs:simpleType>
 
   <xs:complexType name="ReleaseUse">
     <xs:attribute name="ref" type="b:ReleaseRef" use="required"/>

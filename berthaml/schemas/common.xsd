@@ -14,7 +14,7 @@
            targetNamespace="urn:berthaml:1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.0">
+           version="1.1">
 
   <!-- ============================================================
        Identifiers
@@ -191,6 +191,25 @@
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
+
+  <!-- How much of a program or recording is known or present. "none" means nothing is listed. -->
+  <xs:simpleType name="Coverage">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="complete"/>
+      <xs:enumeration value="partial"/>
+      <xs:enumeration value="none"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Performance and event IDs in one show file, referred to from another document. -->
+  <xs:simpleType name="LocalIdList">
+    <xs:restriction>
+      <xs:simpleType>
+        <xs:list itemType="xs:NCName"/>
+      </xs:simpleType>
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
 
   <!-- Candidate links are machine proposals, not curated performance mappings. -->
   <xs:simpleType name="MappingStatus">

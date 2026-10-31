@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1993-02-21">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-17c2db720ca6ec1b02d2" kind="soundboard">
+    <identifier scheme="archive-org">gd1993-02-21.132376.sbd.flac16</identifier>
+    <lineage>SBD&gt; DAT&gt; Steve Block CAS master&gt; DAT&gt; CDR&gt; Sequoia 11-&gt; WAV</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+  </recording>
+  <recording id="r-70e9e591ba05756d987e" kind="soundboard">
+    <identifier scheme="archive-org">gd1993-02-21.138697.sbd.miller.flac1644</identifier>
+    <lineage>SBD &gt; Dat (44.1k) | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-488202f766552bdb3958" kind="unknown">
+    <identifier scheme="archive-org">gd1993-02-21.fob.copeland.evans.GEMS.86058.flac16</identifier>
+    <credit role="recordist">Chip Copeland</credit>
+    <lineage>Neumann km140 (110 deg. ORTF) -&gt; Neumann Supply -&gt; Panasonic sv255 | DAT(1) &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav May 2006</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): DAT Clone from Dat Master from collection of Todd Evans Editing Info- All editing and mastering by Jamie Waddell</note>
+    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  </recording>
+  <recording id="r-c5f24deab68e875e7f50" kind="audience">
+    <identifier scheme="archive-org">gd93-02-21.aud.seff.1055.sbeok.shnf</identifier>
+    <lineage>Audience: Unknown Mics | Unknown Mics (FOB) &gt; DAT (48khz) &gt; Tascam DA-20mkII &gt; Hosa S/PDIF &gt; Delta DiO 2496 &gt; Peak &gt; downsampled to 44.1k/normalized to 98% &gt; SHN (no DAE)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Jon Seff</note>
+  </recording>
+</recordings>

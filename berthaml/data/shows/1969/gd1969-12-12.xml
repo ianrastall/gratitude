@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1969-12-12" date="1969-12-12">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1969-12-12" date="1969-12-12">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19691212-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 de7b9e32c210a89466abbc31973ce74b938886b560fd00ee68d570b7490c44e8. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-262" nameAsBilled="Thelma"/>
   <program coverage="partial">
@@ -39,26 +38,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-35e895f7e074a0753eeb" kind="soundboard">
-      <identifier scheme="archive-org">gd1969-12-12.141917.sbd.composite.gastwirt.miller.clugston.flac1644</identifier>
-      <lineage>Source Info: Master Soundboard Reels &gt; Dat (16/44.1k); Transfer Info: Dat (Sony PCM-R500) &gt; Tascam DA-3000 (.wav 16/44.1k) &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Rich Gastwirt</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-23804085005cda5018cf" kind="soundboard">
-      <identifier scheme="archive-org">gd1969-12-12.sbd.clugston.2247.shnf</identifier>
-      <lineage>Master Soundboard Reel &gt; Reel to Reel &gt; DAT &gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston</note>
-    </recording>
-    <recording id="r-675fafdc4e72150b1068" kind="soundboard">
-      <identifier scheme="archive-org">gd69-12-12.sbd.gerland.10988.sbeok.shnf</identifier>
-      <lineage>Soundboard | MSR &gt; R &gt; D &gt; CD, plus MSR &gt; R &gt; C &gt; D</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dave Greenberg, Jack Warner, Scott Clugston, Jim Powell, Jay Gerland</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

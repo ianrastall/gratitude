@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1986-06-30" date="1986-06-30">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1986-06-30" date="1986-06-30">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19860630-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 859e0118134444b5e15767a698508f39e1975f3652750caf5f073ddf4d7b68d8. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-924" nameAsBilled="Riverbend Music Center"/>
   <program coverage="partial">
@@ -35,102 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-d653e6cd351a0aec17fb" kind="unknown">
-      <identifier scheme="archive-org">gd1986-06-30.132862.naks.datbrad-lynn.flac16</identifier>
-      <credit role="recordist">datbrad</credit>
-      <lineage>OTS - In pavilion/section 800; 2 Nakamichi CM300s/cP4 shotguns(PAS)&gt;Sony TCD5M&gt;Fuji Metal; | Nakamichi CR7A&gt;Lucid AD9624&gt;Fostex D5&gt;DAT&gt; Tascam DA20MKII&gt;Tascam CDRW700&gt;CDR&gt; Wavelab 6&gt;CDWave&gt;Flac Frontend(Level 6); Recording by DATBRAD; Master cassette transfer to DAT by Mark Lynn; DAT to CDR and conversion to wav&gt;flac by DATBRAD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at River Bend Music Center on 1986-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): mark lynn and datbrad</note>
-    </recording>
-    <recording id="r-8188e861e9bb58fe30cb" kind="soundboard">
-      <identifier scheme="archive-org">gd1986-06-30.139270.set2.sbd.miller.flac24</identifier>
-      <lineage>SBD &gt; Cassette Master (Tascam Deck/TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Riverbend Music Center on 1986-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9e7d5b00e79208cdbc84" kind="soundboard">
-      <identifier scheme="archive-org">gd1986-06-30.139282.set2.sbd.cm.miller.flac16</identifier>
-      <lineage>Recording Info: SBD &gt; Cassette Master (Tascam Deck/TDK SA-X90) | Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24 (1 Disc FLAC)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Riverbend Music Center on 1986-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-31eead1705cee79dcd11" kind="unknown">
-      <identifier scheme="archive-org">gd1986-06-30.157072.beyer-m88.holbrook.flac1644</identifier>
-      <credit role="recordist">Executive Crew: Tom Pinney, Kenny Davis, Mike Davis</credit>
-      <lineage>Source: Master AUDCA: Beyer M88's XY &gt; Sony TCD5M in line no nr &gt; Maxell MX 90s No Dolby Location: 80 feet from stage DFC, handheld | Original transfer: Sony TC-D5M &gt; Sony TC-D5M Maxell XLII 90 Transfer: Nakamichi CR-5A &gt; Benchmark Sonic AD2K @24|48 &gt; Marantz PMD 661|SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Riverbend Music Center on 1986-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-29632cb587baef31195b" kind="unknown">
-      <identifier scheme="archive-org">gd1986-06-30.157073.beyer-m88.holbrook.flac2448</identifier>
-      <credit role="recordist">Executive Crew: Tom Pinney, Kenny Davis, Mike Davis</credit>
-      <lineage>Source: Master AUDCA: Beyer M88's XY &gt; Sony TCD5M in line no nr &gt; Maxell MX 90s No Dolby Location: 80 feet from stage DFC, handheld | Original transfer: Sony TC-D5M &gt; Sony TC-D5M Maxell XLII 90 Transfer: Nakamichi CR-5A &gt; Benchmark Sonic AD2K @24|48 &gt; Marantz PMD 661|SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Riverbend Music Center on 1986-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-f9d285048556210d7b93" kind="audience">
-      <identifier scheme="archive-org">gd1986-06-30.164036.nak304.thomas.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Stephen Thomas</credit>
-      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Riverbend Music Center on 1986-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-f8151fdfeab73fe3e9ab" kind="audience">
-      <identifier scheme="archive-org">gd1986-06-30.164037.nak304.thomas.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Stephen Thomas</credit>
-      <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Riverbend Music Center on 1986-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0de2643ba8688e858809" kind="unknown">
-      <identifier scheme="archive-org">gd1986-06-30.aud.Taggart-Holtz.116720.flac16</identifier>
-      <credit role="recordist">Greg Holtz and Danny Taggart</credit>
-      <lineage>Recording: Nakamichi CM100/CP-4 &gt; Sony TC-D5M - OTS - Front of Lawn; | MAC &gt; Tascam 122 &gt; Edirol UA-5 &gt; PC &gt; Audacity &gt; TLH &gt; FLAC; Recorded by Greg Holtz and Danny Taggart; Transfer by Greg Holtz</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at River Bend Music Center on 1986-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: AUD</note>
-      <note>Source credit (transfer-mastering): Greg Holtz</note>
-    </recording>
-    <recording id="r-053d6829b7db6b436949" kind="audience">
-      <identifier scheme="archive-org">gd1986-06-30.beyerM88.connor.76473.flac16</identifier>
-      <credit role="recordist">Charlie Connor</credit>
-      <lineage>FOB&gt;Beyer Dynamic M88's&gt;Sony TCD5M (CM - TDK MA90's) | Nak DR-10&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt;Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to 16/44.1&gt;CDWav beta1.57(tracking only)&gt;flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at River Bend Music Center on 1986-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Connor</note>
-    </recording>
-    <recording id="r-7f51e2709c86b4f39975" kind="unknown">
-      <identifier scheme="archive-org">gd1986-06-30.mk4.miller.87521.sbeok.flac16</identifier>
-      <lineage>Schoeps CMC4/MK4 -&gt; Oade M118 -&gt; PCM -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at River Bend Music Center on 1986-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-3b880804ddfa3a139e48" kind="unknown">
-      <identifier scheme="archive-org">gd1986-06-30.nak100.cohen.105003.flac16</identifier>
-      <credit role="recordist">Dave Cohen</credit>
-      <lineage>2 Nakamichi CM100s/ CP4&gt;Sony WMD6 w/Teac MDX90 (Set 1) &amp; TDK MAR90 (Set 2) cassette masters. No Dolby was used on the Master Cassettes. Front Row Lawn DFC | The Master Cassettes were played back with Azimuth adjustment on a Nakamichi CD1 into a Korg MR1000 at DSF 1 bit 5.6MHz. Subsequent conversion to 24/96 AIFF done via Korg Audiogate software. Redbook CDR standard 16/44.1 files were created using Bias Peak, Izotope Ozone's MBIT+ (for all dithering), and Weiss Saracon SRC (all sample rate conversions).</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at River Bend Music Center on 1986-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Dave Cohen</note>
-    </recording>
-    <recording id="r-9a46d1d6ebeea176e920" kind="unknown">
-      <identifier scheme="archive-org">gd1986-06-30.schoepsmk4.miller.87348.sbeok.flac16</identifier>
-      <lineage>Schoeps CMC4/MK4 -&gt; Oade M118 -&gt; PCM -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at River Bend Music Center on 1986-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    </recording>
-    <recording id="r-b933de0bc20b126277ce" kind="audience">
-      <identifier scheme="archive-org">gd86-06-30.aud.eD.12935.sbeok.shnf</identifier>
-      <lineage>AUD&gt;MC&gt;CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at River Bend Music Center on 1986-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

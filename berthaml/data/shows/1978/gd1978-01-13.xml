@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1978-01-13" date="1978-01-13">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1978-01-13" date="1978-01-13">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780113-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-704" nameAsBilled="Arlington Theatre"/>
   <program coverage="partial">
@@ -36,36 +35,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-9002566f967f97130227" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-01-13.135500.sbd.miller.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master -&gt; AIFF (24bit/88.2k) | AIFF -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Arlington Theater on 1978-01-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b531d58be27030ee7b33" kind="soundboard">
-      <identifier scheme="archive-org">gd1978-01-13.135501.sbd.miller.flac24</identifier>
-      <lineage>SBD -&gt; Cassette Master -&gt; AIFF (24bit/88.2k) | AIFF -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Arlington Theater on 1978-01-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-ab93ca265fa031bb90da" kind="audience">
-      <identifier scheme="archive-org">gd1978-01-13.fob.akgd224e.holwein.menke.motb-0111.105208.flac16</identifier>
-      <credit role="recordist">Reinhart Holwein</credit>
-      <lineage>2 x AKG D224E &gt;&gt; Sony TC-158SD &gt;&gt; MAC; Analog Audience Source: FOB Master Cassettes (MAC) Medium Stock Brands: MAC = 2 x Maxell UDXL-II Analog | MAC &gt;&gt; Nakamichi CR7a =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Arlington Theater on 1978-01-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Bob Menke and Derek McCabe</note>
-      <note certainty="uncertain">Legacy name match: Reinhart Holwein; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0a6955e065d2a66ca522" kind="soundboard">
-      <identifier scheme="archive-org">gd78-01-13.sbd.clugston.4629.sbeok.shnf</identifier>
-      <lineage>Soundboard | Master Soundboard Cassette&gt; Cassette&gt; DAT&gt; CDR&gt; EAC&gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Arlington Theater on 1978-01-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1994-04-06" date="1994-04-06">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1994-04-06" date="1994-04-06">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19940406-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 60247f0d60c5ddb46dfb667867480d10defb67ef26f2fe28dd59223278bd064f. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-967" nameAsBilled="Miami Arena"/>
   <program coverage="partial">
@@ -40,51 +39,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-1e6ecd2220a75845efdc" kind="audience">
-      <identifier scheme="archive-org">gd1994-04-06.141427.OTS.AKG.Ackerman.Miller.Noel.t-flac.1648</identifier>
-      <credit role="recordist">Ray Ackerman</credit>
-      <lineage>flac16/48kHz ; Master Audience Recording &amp; Transfer by Ray Ackerman: AKG 460B/CK63 ULS &gt; AKG B18 phantom power unit &gt; Panasonic SV250 &gt; DAT (OTS); Transfer info: Tascam DA 30 mkii &gt; Microtrack ii &gt; wavelab 5 &gt; WAV 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1994-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-37c5adbec9a5b8054a11" kind="fm">
-      <identifier scheme="archive-org">gd1994-04-06.snchk.fm-sbd.koucky.91351.flac16</identifier>
-      <lineage>FM SB Monitor &gt; Sony D-6 Cassette &gt; 1st gen &gt; DAT | Panasonic SV-3700 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1994-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Bill Koucky</note>
-    </recording>
-    <recording id="r-b577f17daed7935ae9bf" kind="fm">
-      <identifier scheme="archive-org">gd1994-04-06.snchk.fm-sbd.miller.gmb-fixed.91391.flac16</identifier>
-      <lineage>FM SB Monitor &gt; Sony D-6 Cassette &gt; 1st gen &gt; DAT | Panasonic SV-3700 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1994-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FM</note>
-      <note>Source credit (transfer-mastering): Bill Koucky</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-719da9f7c3e18290ba18" kind="audience">
-      <identifier scheme="archive-org">gd94-04-06.schoeps.ladner.10311.sbeok.shnf</identifier>
-      <lineage>Audience: Schoeps MK4 | Schoeps MK4 (FOB) &gt; Panasonic SV-250 &gt; DAT &gt; CDR &gt; EAC0.9 beta 4 (secure) &gt; CD Wave &gt; shntool &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1994-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Paul and Chris L.</note>
-    </recording>
-    <recording id="r-7200f46e81ac5efda795" kind="soundboard">
-      <identifier scheme="archive-org">gd94-04-06.set1-fob.set2-sbd.miller.28358.sbeok.flacf</identifier>
-      <lineage>flac16 mixed sources, incl soundcheck: Set 1: (FOB) Schoeps MK4&gt; Dat&gt; CD, Set 2: SBD&gt; Dat&gt; CD, Encore: (FOB) Schoeps MK4&gt; Dat&gt; CD, Soundcheck: SBD&gt; Dat&gt; MiniDisc&gt; Cool Edit Pro&gt; CD | WAV&gt; Samplitude Professional v8.0&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1994-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-acb8848d4970f44ba002" kind="soundboard">
-      <identifier scheme="archive-org">gd94-04-06.sndchk.sbd.miller.13110.sbeok.shnf</identifier>
-      <lineage>SBD&gt;Dat&gt;MiniDisc&gt;Behringer UltraMatch SRC2000&gt;Dio2448&gt;Cool Edit Pro&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1994-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

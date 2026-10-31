@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1995-02-21">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-9387738e1e3107f01bbb" kind="audience">
+    <identifier scheme="archive-org">gd1995-02-21.140348.aud.miller.sirmick.flac1648</identifier>
+    <lineage>flac16/48kHz ; Source: unknown aud &gt; dat (48k); Transfer: dat &gt; Sony R500 &gt; Tascam DA-3000 &gt; wav 16/48; Lineage: wav &gt; iZotope RX6 Advanced &gt; Adobe Audition 1.5 &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 1648; edited and mastered SIRMick December 2017</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-9edfa4757fc67f5bae53" kind="unknown">
+    <identifier scheme="archive-org">gd1995-02-21.145492.akg460b.lerond.t-flac1648</identifier>
+    <credit role="recordist">Jean Lerond</credit>
+    <lineage>AKGC60B+CK8x shotgun in OTS, ~34’ to St.L of C (inline w/hanging PA; aimed at the PA) &gt; Panasonic SV-255 (Paul Tumolo’s rig) Analog or Digi out, possibly via custom patchbay built by Neil Sturtevant (detail not noted) &gt; Sony TCD-D3 DAT @ 48 kHz | Fostex D5 DAT (playback of DAT Master record) @ 16-bits, 48 kHz (S/PDIF optical out) &gt; M-Audio Firewire Audiophile external soundcard &gt; Magix Sound Forge Pro Suite 12.1 build 170 x64 Audacity used for tracking, tagging, flac8 conversion</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Jean Lerond</note>
+  </recording>
+  <recording id="r-7310b026783eb9403060" kind="soundboard">
+    <identifier scheme="archive-org">gd1995-02-21.sbd.miller.114144.flac16</identifier>
+    <lineage>SBD -&gt; Dat (44.1k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Delta Center on 1995-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-2610d4bb598f1a077b44" kind="soundboard">
+    <identifier scheme="archive-org">gd1995-02-21.sbd.serafin.walkerb.1524.shnf</identifier>
+    <lineage>SBD&gt;D&gt;CD-R&gt;EAC&gt;SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Jay Serafin</note>
+  </recording>
+  <recording id="r-9d528e58303819013349" kind="soundboard">
+    <identifier scheme="archive-org">gd95-02-21.dsbd.stephens.8840.sbeok.shnf</identifier>
+    <lineage>DSBD &gt; 1C &gt; DAT</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: DSBD</note>
+  </recording>
+</recordings>

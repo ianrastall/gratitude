@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1990-12-04" date="1990-12-04">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1990-12-04" date="1990-12-04">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19901204-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
   <program coverage="partial">
@@ -37,97 +36,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-89472ee383d3a016a074" kind="audience">
-      <identifier scheme="archive-org">gd1990-12-04.138093.BK4011.Darroch.Ammons.fob.t-flac16</identifier>
-      <credit role="recordist">Rob Darroch</credit>
-      <lineage>flac16/48kHz ; Rob Darroch FOB DFC Recording: B&amp;K 4011s at 110 degrees ORTF on Schoeps T-bar &gt; Neumann Power Supply &gt; Panasonic SV255; 1st set stand at 6'3", 2nd set at 6'4"; John Ammons | from his DAT clone of the master; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel T,F &amp; P: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): John Ammons and Joel Noel</note>
-    </recording>
-    <recording id="r-ffb22bba7d78926cd1bc" kind="matrix">
-      <identifier scheme="archive-org">gd1990-12-04.143376.sbd.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (Sony TC-D5M/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-ca3f5f3d9b9224e7ee3f" kind="soundboard">
-      <identifier scheme="archive-org">gd1990-12-04.143441.DSBD.Reutelhuber.Westcott.Noel.t-flac1648</identifier>
-      <credit role="recordist">Bill Reutelhuber</credit>
-      <lineage>Digital Soundboard &gt; DAT (clone) | DAT (clone) &gt; Sony PCM-R500 &gt; Marantz PMD661 (via SPDIF) &gt; FLAC 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-      <note>Source credit (transfer-mastering): Joe Noel and Kris Wescott</note>
-    </recording>
-    <recording id="r-d22e88a7e2758bf9facd" kind="matrix">
-      <identifier scheme="archive-org">gd1990-12-04.143517.UltraMatrix.sbd.cm.miller.flac1644</identifier>
-      <credit role="recordist">Don Pearson</credit>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (Sony TC-D5M/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-47dccb5ec16e5b87aa1b" kind="matrix">
-      <identifier scheme="archive-org">gd1990-12-04.143584.sbd.ebel.flac1644</identifier>
-      <lineage>Soundboard (Ultra-Matrix?) -&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Pete Ebel</note>
-    </recording>
-    <recording id="r-32f2a4804d0d1774cc37" kind="unknown">
-      <identifier scheme="archive-org">gd1990-12-04.145225.nak300.cp4.dalton.miller.sirmick.flac1648</identifier>
-      <credit role="recordist">Tim Dalton</credit>
-      <lineage>Nakamichi 300s (cp4) &gt; Oade p/s &gt; Panasonic SV255 &gt; DAT (48K) - Taped by Tim Dalton | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-be8ea4b78dad0272e672" kind="audience">
-      <identifier scheme="archive-org">gd1990-12-04.150654.FOB.NAK.700.DSD.Mow.Miller.Noel.t.flac2496</identifier>
-      <credit role="recordist">FOB Recording by Jonathan Mow</credit>
-      <lineage>(FOB) Nakamichi 700 &gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit-96k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition) by Joe Noel September 26, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-a5d219d53f3016752bdc" kind="audience">
-      <identifier scheme="archive-org">gd1990-12-04.150692.FOB.NAK.700.DSD.Mow.Miller.Noel.t.flac1644</identifier>
-      <credit role="recordist">FOB Recording by Jonathan Mow</credit>
-      <lineage>(FOB) Nakamichi 700 &gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit-96k)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition) by Joe Noel September 26, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-05b82f404dd4af64abf8" kind="unknown">
-      <identifier scheme="archive-org">gd1990-12-04.beyer-m160.d5scott.105425.flac16</identifier>
-      <credit role="recordist">D5scott</credit>
-      <lineage>Two Beyer M160 Mics &gt; Sony TC-D5M 25 feet from stage - center - mics @ 5.5 feet high on a stand &gt; analog cassette master | Analog cassette master (original record deck-Dolby off) &gt; PreSonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp file</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum on 1990-12-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-9231bc4c6abd30fe5621" kind="soundboard">
-      <identifier scheme="archive-org">gd90-12-04.sbd.ladner.9365.sbeok.shnf</identifier>
-      <lineage>SBD&gt;DAT&gt;CDR&gt;WAV&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1990-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-    <recording id="r-26525dfee7c9317927d9" kind="unknown">
-      <identifier scheme="other">etree-602554</identifier>
-      <note>Supplied catalogue listing: etree; gd1990-12-04.143517.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

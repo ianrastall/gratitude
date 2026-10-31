@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1968-10-13" date="1968-10-13">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1968-10-13" date="1968-10-13">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19681013-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 2d25718265bbf93e911ca094cd440c5bfa14493f4b08447a90a094af9c2bd20c. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-28" nameAsBilled="Avalon Ballroom"/>
   <program coverage="partial">
@@ -25,51 +24,5 @@
       <note>Source section label: Set 2</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-a6bc203aa70c62a05a8f" kind="unknown">
-      <identifier scheme="archive-org">gd1968-10-13.sbd.gans.miller.owen.9386.shnf</identifier>
-      <lineage>MSR &gt; DAT &gt; Sonic Solutions &gt; CD | CD &gt; EAC &gt; WAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1968-10-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): David Gans</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-573e961e0e1247e9c3e0" kind="soundboard">
-      <identifier scheme="archive-org">gd1968-10-13.sbd.miller.115606.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (48k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Avalon Ballroom on 1968-10-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-91e480b8c1650dc18326" kind="soundboard">
-      <identifier scheme="archive-org">gd1968-10-13.sbd.miller.86761.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1968-10-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/13/10-13-68-sf-ca-avalon-ballroom/</note>
-    </recording>
-    <recording id="r-178dcb093b99e7cff9bd" kind="unknown">
-      <identifier scheme="archive-org">gd1968-10-13.sbd.miller.owen.7772.sbeok.shnf</identifier>
-      <lineage>MR&gt;DAT&gt;CD | CD&gt;DC-Art Millennium&gt;CD&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1968-10-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Michael Owen</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-462b0138c9cbdb38ad73" kind="unknown">
-      <identifier scheme="archive-org">gd1968-10-13.sbd.oleynek.revell.1027.shnf</identifier>
-      <lineage>Unknown</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1968-10-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-    <recording id="r-6a7636f12b8675fdd538" kind="soundboard">
-      <identifier scheme="archive-org">gd68-10-13.sbd.eD.10910.sbeok.shnf</identifier>
-      <lineage>Soundboard | SBD &gt; MR &gt; DAT &gt; Sonic Solutions &gt; EAC &gt; CoolEdit &gt; CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1968-10-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): David Gans and Frisco</note>
-      <note>Recording reference: http://infinitedead.net/2021/10/13/10-13-68-sf-ca-avalon-ballroom/</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

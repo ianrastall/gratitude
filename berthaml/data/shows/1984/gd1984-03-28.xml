@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1984-03-28" date="1984-03-28">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1984-03-28" date="1984-03-28">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19840328-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-417" nameAsBilled="Marin Veterans Memorial Auditorium"/>
   <program coverage="partial">
@@ -38,89 +37,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-77a1f1a9d7f33de9c508" kind="unknown">
-      <identifier scheme="archive-org">gd1984-03-28.109259.beyer-senn.daweez.D5scott.flac16</identifier>
-      <credit role="recordist">Da Weez</credit>
-      <lineage>source: 2 Beyer M160 &amp; 1 Sennheiser 421 microphones &gt; Nak MX100 w/2001 &gt; Sony TC-D5M (Dolby on) - analog master cassettes | Sony TC-D5M (original record deck - Dolby on) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-6899f70f153246624c7c" kind="audience">
-      <identifier scheme="archive-org">gd1984-03-28.148337.fob.akg.d330bt.senn421.hecht.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Chris Hecht</credit>
-      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-7ce24954e7a4f019644e" kind="audience">
-      <identifier scheme="archive-org">gd1984-03-28.148338.fob.akg.d330bt.senn421.hecht.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Chris Hecht</credit>
-      <lineage>Chris Hecht's Master (FOB) Audience Cassettes; (2) AKG D330BT mics + (1) Sennheiser 421 &gt; Fostex Mixer &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-1af52cf349d65c906e2c" kind="audience">
-      <identifier scheme="archive-org">gd1984-03-28.170203.akg.clugston.flac1644</identifier>
-      <lineage>Master Audience Cassettes; AKG mics (unknown model) &gt; DAT (16/44) | Unknown equipment &gt; .wav (16/44) &gt; Adobe Audition 2024 &gt; TLH &gt; flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston</note>
-    </recording>
-    <recording id="r-dcbd6d415abb62d24840" kind="audience">
-      <identifier scheme="archive-org">gd1984-03-28.176069.neumann.km84i.bradt.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Bill Bradt</credit>
-      <lineage>Bill Bradt's Master Audience Cassettes: Neumann KM84i mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditoriu on 1984-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-9a4dd8fc77b30f8d8e78" kind="audience">
-      <identifier scheme="archive-org">gd1984-03-28.176070.neumann.km84i.bradt.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Bill Bradt</credit>
-      <lineage>Bill Bradt's Master Audience Cassettes: Neumann KM84i mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditoriu on 1984-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-73fd8c6a53ea2393fe11" kind="audience">
-      <identifier scheme="archive-org">gd1984-03-28.177914.akg.se5.wiseman.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Scott Wiseman</credit>
-      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassettes (Nakamichi BX-150) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b697593ede501a570f9f" kind="audience">
-      <identifier scheme="archive-org">gd1984-03-28.177915.akg.se5.wiseman.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Scott Wiseman</credit>
-      <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassettes (Nakamichi BX-150) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d29b7d06b0aac8bfbdbf" kind="unknown">
-      <identifier scheme="archive-org">gd1984-03-28.sonyecm.andrewf.cohen.28296.sbeok.shnf</identifier>
-      <credit role="recordist">Andrew F.</credit>
-      <lineage>2 Sony ECM 939LT stereo microphones &gt; Marantz PMD 340 &gt; TDK AD-X90 cassettes with Dolby B | master cassette &gt; Nakamichi Dragon (Dolby B) &gt; HHB CDR 830plus &gt; EAC &gt; Sound Forge 5.0 &gt; CD Wave Editor 1.71 &gt; WAV &gt; SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Anne Cohen</note>
-    </recording>
-    <recording id="r-e59cc3a5472ddf3f603b" kind="audience">
-      <identifier scheme="archive-org">gd84-03-28.fob-faintych.miller.27303.sbeok.shnf</identifier>
-      <lineage>(FOB/20th Row) Sony ECM 939LT&gt; Cassette Master (Marantz PMD430)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-    <recording id="r-71d3cc2284c846bd1871" kind="audience">
-      <identifier scheme="archive-org">gd84-03-28p.aud.dodd.16665.sbeok.shnf</identifier>
-      <lineage>unknown aud &gt; cass &gt; cdDiscs kindly provided by Mark HorvathEac &gt; cool edit pro &gt; shntool &gt; cdwav &gt; shnv3 by Ernie DoddPartial 2nd set Only</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

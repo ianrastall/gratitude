@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1976-07-16">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-5fa1629c18ff3c861860" kind="unknown">
+    <identifier scheme="archive-org">gd1976-07-16.123477.ecm270.menke.miller.flac16</identifier>
+    <credit role="recordist">Bob Menke</credit>
+    <lineage>(Front Row Balcony) Sony ECM-270 -&gt; Cassette Master (Sony TC-152SD) -&gt; Dat | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
+  </recording>
+  <recording id="r-75521894ff7fcc60aece" kind="unknown">
+    <identifier scheme="archive-org">gd1976-07-16.aud.menke.10377.sbeok.shnf</identifier>
+    <credit role="recordist">Bob Menke</credit>
+    <lineage>Sony ECM 280 Sony TC-152 Cm (taped by Bob Menke using Dr. Rob Bertrando's mics - Front of Balcony) &gt; R &gt; C &gt; DAT | DAT clone &gt; Tascam Da-p1 dat @48khz &gt; Sek'd Prodif+ card (48&gt;44.1khz) &gt; Sek'd Red Roaster (fades, edits*) &gt; Cool Edit (minor fixes) &gt; Cdwav (splits) &gt; Mkw</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: AUD</note>
+    <note>Source credit (transfer-mastering): Dale Shepherd and Matt Vernon</note>
+    <note certainty="uncertain">Legacy name match: Rob Bertrando; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
+  </recording>
+  <recording id="r-b93e06cfd5bdf3d8cb3a" kind="audience">
+    <identifier scheme="archive-org">gd1976-07-16.fob.sonyECM180.menke.ashley-bertha.8666.sbeok.shnf</identifier>
+    <credit role="recordist">Bob Menke</credit>
+    <lineage>AUD : MC (FOBalcony SonyECM-180 &gt; SonyTC-152 taped by Bob Menke using Rob Bertrando's mics - Front of Balcony) &gt; R &gt; DAT | DAW (Bertha by Jay Ashley) &gt; CD &gt; EAC &gt; SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: FOB</note>
+    <note>Source credit (transfer-mastering): Remastered by</note>
+    <note certainty="uncertain">Legacy name match: Rob Bertrando; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
+  </recording>
+  <recording id="r-b354672808864f87e30f" kind="matrix">
+    <identifier scheme="archive-org">gd1976-07-16.mtx.dan.28042.sbeok.flac16</identifier>
+    <lineage>SBD + AUD Matrix Mix (50%-SBD/50%-AUD)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Dan Haugh</note>
+    <note>Recording reference: http://infinitedead.net/2024/07/16/7-16-76-san-francisco-ca-orpheum-theater/</note>
+  </recording>
+  <recording id="r-3c6355946a618b0a6fd8" kind="matrix">
+    <identifier scheme="archive-org">gd1976-07-16.mtx.dts.dan.30698.flac16</identifier>
+    <credit role="recordist">See info file</credit>
+    <lineage>DTS-Audio-CD 5.1 Mix Soundboard/Aud Matrix | See info file</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source modifiers: DTS</note>
+    <note>Source credit (transfer-mastering): Dan Haugh</note>
+  </recording>
+  <recording id="r-da5aeee2dde81f23c271" kind="soundboard">
+    <identifier scheme="archive-org">gd1976-07-16.set-2.sbd.bertha-ashley.27488.sbeok.shnf</identifier>
+    <lineage>Bertha Remaster of the 2nd set Master Reel source | (*)SBD&gt;&gt;MR&gt;&gt;DAT&gt;&gt;SHN&gt;&gt;DAW(Bertha)&gt;&gt;CDA/SHN</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Remastered by</note>
+    <note>Recording reference: http://infinitedead.net/2024/07/16/7-16-76-san-francisco-ca-orpheum-theater/</note>
+  </recording>
+  <recording id="r-b855aa3f217fb97f925f" kind="audience">
+    <identifier scheme="archive-org">gd76-07-16.menke.cribbs.16943.sbeok.shnf</identifier>
+    <credit role="recordist">Bob Menke</credit>
+    <lineage>Audience Recording: Sony ECM-280 mics &gt; Sony TC-152 from front of balcony | MAC &gt; DAT &gt; CD and MAC &gt; R &gt; DAT &gt; CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
+    <note>Recording reference: http://infinitedead.net/2024/07/16/7-16-76-san-francisco-ca-orpheum-theater/</note>
+  </recording>
+  <recording id="r-27164b7f3b5960ebf582" kind="soundboard">
+    <identifier scheme="archive-org">gd76-07-16.set1aud-set2sbd.miller.23569.sbeok.shnf</identifier>
+    <lineage>Soundboard and Audience composite | Set 1 Recorded by Bob Menke using Sony ECM-280 mics &gt; Sony TC-152 from front of balcony. Set 2 : SBD -&gt; Master Reel -&gt; Master Dat (44.1k)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
+  </recording>
+</recordings>

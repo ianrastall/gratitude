@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recordings xmlns="urn:berthaml:1" schemaVersion="1.1" show="gd1979-12-03">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
+  </record>
+  <recording id="r-421c82e8dcc46f619574" kind="matrix">
+    <identifier scheme="archive-org">gd1979-12-03.135897.mtx.dusborne.flac16</identifier>
+    <lineage>2 source matrix by dusborne; Soundboard (shnid:29434), Recording Info: Set 1: SBD -&gt; Cassette Master (Sony TCD5M/UDXL-II) -&gt; Dat (Panasonic SV3800/48k); Set 2: SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat -&gt; CD; Transfer Info: Set 1: Dat (Sony D8) -&gt; M-Audio Dio2448 -&gt; Samplitude Professional v8.0 -&gt; FLAC; Set 2: CD -&gt; EAC -&gt; Samplitude Professional v8.0 -&gt; FLAC, Transferred and Edited By Charlie Miller and Audience (shnid:83611),Recording by Ira Frisch: Master Audience Cassette; 2 Sennheiser 421s + Sennheiser 441&gt; Nakamichi 550 Transfer and FLAC encoding by David Minches: Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition&gt; (dither/downsample)&gt; FLAC * from 1st generation cassette from same master; master played back on Nak 550&gt; Nak 250</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-3bf5f7cc1c8a2ee611e9" kind="unknown">
+    <identifier scheme="archive-org">gd1979-12-03.senn-frisch.minches.83611.flac16</identifier>
+    <credit role="recordist">Ira Frisch</credit>
+    <lineage>2 Sennheiser 421s + Sennheiser 441&gt; Nakamichi 550 | Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition&gt; (dither/downsample)&gt; FLAC encoding</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): David Minches</note>
+  </recording>
+  <recording id="r-9fc4848f363ae3dea009" kind="unknown">
+    <identifier scheme="archive-org">gd79-12-03.sbd.bongripper.1241.shnf</identifier>
+    <lineage>See comments</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  </recording>
+  <recording id="r-7f66171da6c318c45735" kind="soundboard">
+    <identifier scheme="archive-org">gd79-12-03.sbd.miller.29434.sbeok.flacf</identifier>
+    <lineage>Soundboard | Set 1: SBD -&gt; Cassette Master (Sony TCD5M/UDXL-II) -&gt; Dat (Panasonic SV3800/48k); Set 2: SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat -&gt; CD</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <note>Source credit (transfer-mastering): Charlie Miller</note>
+    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
+  </recording>
+  <recording id="r-e6ec7bcdebb89d8c481b" kind="soundboard">
+    <identifier scheme="archive-org">gd79-12-03.sbd.orf.320.sbeok.shnf</identifier>
+    <lineage>Soundboard | SBD &gt; Cassette Master &gt; C0 &gt; DAT &gt; SHN (Latvala vault leak)</lineage>
+    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
+  </recording>
+</recordings>

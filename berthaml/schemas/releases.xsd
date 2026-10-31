@@ -10,7 +10,7 @@
            targetNamespace="urn:berthaml:1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.0">
+           version="1.1">
 
   <xs:include schemaLocation="common.xsd"/>
 
@@ -21,7 +21,7 @@
       <xs:element name="record" type="b:Record"/>
       <xs:element name="release" type="b:Release" maxOccurs="unbounded"/>
     </xs:sequence>
-    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.0"/>
+    <xs:attribute name="schemaVersion" type="xs:token" use="required" fixed="1.1"/>
   </xs:complexType>
 
   <xs:complexType name="Release">
@@ -80,14 +80,5 @@
     <!-- Certainty of the track-to-performance mapping. -->
     <xs:attribute name="certainty" type="b:Certainty"/>
   </xs:complexType>
-
-  <xs:simpleType name="LocalIdList">
-    <xs:restriction>
-      <xs:simpleType>
-        <xs:list itemType="xs:NCName"/>
-      </xs:simpleType>
-      <xs:minLength value="1"/>
-    </xs:restriction>
-  </xs:simpleType>
 
 </xs:schema>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1993-09-12" date="1993-09-12">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1993-09-12" date="1993-09-12">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930912-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-187" nameAsBilled="Spectrum"/>
   <program coverage="partial">
@@ -35,41 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-5887650d2d606bedb15e" kind="unknown">
-      <identifier scheme="archive-org">gd1993-09-12.nak100-dipietro.wiley.18637.shnf</identifier>
-      <lineage>nak 100's w/ ck 4 &gt;d6&gt;cM (patched out of dhind's rig) | Remastering: SHN&gt;WAV&gt;Shntool(join)&gt;ADWS&gt;CD Wav&gt;Shntool(check)&gt;SHN(seekable)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Remastering by T. Wiley</note>
-    </recording>
-    <recording id="r-4cc9bcb49929ff631ca4" kind="unknown">
-      <identifier scheme="archive-org">gd1993-09-12.nak300.cousinit.24494.shnf</identifier>
-      <credit role="recordist">Cousinit</credit>
-      <lineage>Denon DTR80P DAT Deck w/ Nak 300 Shotguns&gt;MDAT&gt;WAV&gt;SHN</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Cousinit</note>
-    </recording>
-    <recording id="r-dddaf31ddd6c4e7364a9" kind="unknown">
-      <identifier scheme="archive-org">gd1993-09-12.schoeps-Litzenberger.watson.85663.flac16</identifier>
-      <credit role="recordist">Keith Litzenberger &amp; Ed K.</credit>
-      <lineage>Schoeps MK4's&gt;Reutelhuber Preamp&gt;Technics SVM-D1 | Dat master played back on Sony pcm-R500-&gt;vx pocket v2-&gt;WL5&gt;CDWAV&gt;FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Watson</note>
-    </recording>
-    <recording id="r-92a5ed4d7aa824e63756" kind="soundboard">
-      <identifier scheme="archive-org">gd93-09-12.dsbd.miller.28783.sbeok.flacf</identifier>
-      <lineage>flac16 SBD -&gt; Master Dat (48k) | Dat (Sony 500) -&gt; Behringer UltraMatch SRC2000 -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DSBD</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-0262f0809b9ed2e6b3b4" kind="audience">
-      <identifier scheme="archive-org">gd93-09-12.sony.vernon.18529.sbeok.shnf</identifier>
-      <lineage>Audience: Sony C-38B's | Sony C-38B's &gt; DAT &gt; CDR &gt; EAC (secure) &gt; Cool Edit Pro &gt; shntool &gt; mkwACT &gt; SHN (seekable)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Raoul Duke and Matt Vernon</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1992-05-19" date="1992-05-19">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1992-05-19" date="1992-05-19">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19920519-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 44d1b39e1ad19cb4216f350210d1af46c8065421deaeaa31d0befdf75ae0aba8. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-905" nameAsBilled="Cal Expo Amphitheatre"/>
   <program coverage="partial">
@@ -35,81 +34,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-efe728534de731a2b55b" kind="unknown">
-      <identifier scheme="archive-org">gd1992-05-19.118736.NeumannKMF4.daweez.d5scott.flac16</identifier>
-      <credit role="recordist">Da Weez</credit>
-      <lineage>Source: 2 Neumann KMF4 microphones - up front/center&gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-ef45bce5fa54703937cf" kind="soundboard">
-      <identifier scheme="archive-org">gd1992-05-19.150040.sbd.miller.flac2496</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 6, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-a4646869e4171dd8f837" kind="soundboard">
-      <identifier scheme="archive-org">gd1992-05-19.150294.sbd.cm.miller.flac16</identifier>
-      <credit role="recordist">Don Pearson and Dan Healy</credit>
-      <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 6, 2020</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-      <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    </recording>
-    <recording id="r-f2e0365c2712e32e227d" kind="unknown">
-      <identifier scheme="archive-org">gd1992-05-19.akg.swayne.86238.sbeok.flac16</identifier>
-      <credit role="recordist">Scott Swayne and Carl S.</credit>
-      <lineage>AKG 460/CK8s (25-foot split) &gt; Tascam DA-P20 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro (44.1k) &gt; CDWave &gt; FLAC (L8)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Swayne</note>
-    </recording>
-    <recording id="r-3a2b2a79085b03ef9ab2" kind="audience">
-      <identifier scheme="archive-org">gd1992-05-19.AKG451.Darby.119814.Flac2448</identifier>
-      <credit role="recordist">Mike Darby</credit>
-      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M, Tapes Maxell MX-S; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-4b557858b5d26a50465e" kind="audience">
-      <identifier scheme="archive-org">gd1992-05-19.AKG451.Darby.119815.Flac1644</identifier>
-      <credit role="recordist">Mike Darby</credit>
-      <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/Middle Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M, Tapes Maxell MX-S; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/28&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Keo</note>
-    </recording>
-    <recording id="r-549f73f1d2a1e7104de1" kind="unknown">
-      <identifier scheme="archive-org">gd1992-05-19.akg460.swayne.86251.flac1648</identifier>
-      <credit role="recordist">Scott Swayne and Carl S.</credit>
-      <lineage>AKG 460/CK8s (25-foot split) &gt; Tascam DA-P20 | Tascam DA-30 -[S/PDIF]-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Swayne</note>
-    </recording>
-    <recording id="r-99171f636238b24cd702" kind="soundboard">
-      <identifier scheme="archive-org">gd1992-05-19.sbd.miller.92286.sbeok.flac16</identifier>
-      <credit role="recordist">Unknown</credit>
-      <lineage>SBD -&gt; Dat (48k) | Dat (Sony D8) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.02 -&gt; FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo Amphitheatre on 1992-05-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-c14a4176db2c530be28d" kind="soundboard">
-      <identifier scheme="archive-org">gd1992-05-19.sbd.wiley.20003.sbeok.shnf</identifier>
-      <lineage>Source A:SBD&gt;DAT&gt;CDR&gt;EAC&gt;Cool Edit&gt;SHN; B:SBD&gt;CM&gt;CDR&gt;EAC&gt;Cool Edit&gt;SHN | See info file</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Tim Wiley</note>
-    </recording>
-    <recording id="r-22324d524ae9f737ac77" kind="soundboard">
-      <identifier scheme="archive-org">gd92-05-19.sbd.wiley.7856.sbefail.shnf</identifier>
-      <lineage>SBD&gt; DAT&gt; CDR</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cal Expo on 1992-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

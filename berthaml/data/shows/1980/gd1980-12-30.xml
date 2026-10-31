@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1980-12-30" date="1980-12-30">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1980-12-30" date="1980-12-30">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19801230-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-93" nameAsBilled="Oakland Auditorium"/>
   <program coverage="partial">
@@ -44,36 +43,5 @@
       <note>Source section label: Electric Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-3d5590f757c3bfc1ac92" kind="matrix">
-      <identifier scheme="archive-org">gd1980-12-30.121396.mtx.tobin.flac16</identifier>
-      <lineage>Source: Matrix (50/50) using mono sbd from video mixed with (shnid = 13300): AUD (nak 300's); Mixed by kevtobin@yahoo.com; FLAC conversion 17-JUL-2012</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-d91a2e0794dcdbe0c971" kind="audience">
-      <identifier scheme="archive-org">gd1980-12-30.146511.aud.flac2448</identifier>
-      <credit role="recordist">Unknown via Richie &amp; Rip</credit>
-      <lineage>Source: AUD of unknown lineage &gt; Lo-gen cassette via Richie &amp; Rip. | Transfer: SA-90's &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged, Andrew F. 05/2019</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Andrew F.</note>
-    </recording>
-    <recording id="r-05acb6dc33810a6da717" kind="unknown">
-      <identifier scheme="archive-org">gd1980-12-30.senn421-walker.scotton-miller.90468.sbeok.flac16</identifier>
-      <lineage>Sennheiser 421 -&gt; Cassette Master -&gt; Cassette D | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt;</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1980-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    </recording>
-    <recording id="r-abe36f8ce8d70c1fcf27" kind="audience">
-      <identifier scheme="archive-org">gd80-12-30.rolfe.munder.13300.sbeok.shnf</identifier>
-      <lineage>Audience Recording: Nak 300's | AUD (nak 300's)&gt;MC&gt;DAT&gt;CD</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1980-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy name match: Steve Rolfe; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

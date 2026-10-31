@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1984-04-30" date="1984-04-30">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1984-04-30" date="1984-04-30">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19840430-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-498" nameAsBilled="Nassau Veterans Memorial Coliseum"/>
   <program coverage="partial">
@@ -34,129 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-604fb149614a16bcd99c" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.109497.beyer-senn-daweez.D5scott.flac16</identifier>
-      <credit role="recordist">Da Weez</credit>
-      <lineage>source: 2 Beyer M160 &amp; 1 Sennheiser 421 microphones (17th row) &gt; Nak MX100 w/2001 &gt; Sony TCD5M (Dolby on) - analog master cassettes; | Sony TCD5M (original record deck - Dolby on) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): D5scott</note>
-    </recording>
-    <recording id="r-bfdc98b802087a975184" kind="audience">
-      <identifier scheme="archive-org">gd1984-04-30.123922.chasingwilma.flac24</identifier>
-      <credit role="recordist">chasingwilma</credit>
-      <lineage>lineage: (3)audio technica atm11 fob&gt; optimus&gt; d-5&gt; mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-    </recording>
-    <recording id="r-fe40f3c2c484d1d84bfe" kind="soundboard">
-      <identifier scheme="archive-org">gd1984-04-30.140354.fob.sbd.composite.eaton.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Rob Eaton</credit>
-      <lineage>1st Set: Rob Eaton's (FOB) Master Audience Cassette; Neumann U-87 mics &gt; Sony TC-D5M (21st Row, DFC)&gt; Panasonic SV-3800 16/482nd Set: Master Soundboard Cassette &gt; Technics Reel To Reel &gt; Panasonic SV-3800 Dat 16/48</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    </recording>
-    <recording id="r-4e80b5ec35ab664b6244" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.149176.mke2002.holbrook.flac1644</identifier>
-      <credit role="recordist">Executive Crew: Chris Kidwell; Sean Murtha; Tom Pinney; Kyle Holbrook; Gary Steele</credit>
-      <lineage>1st Gen AUDCA: Sennheiser MKE2002 Binaurals worn on head 40-50 feet from stage DFC &gt;Sony TCD5M &gt; TDK MA 90s No Dolby -lead deck run by CK. | Transfer: Nakamichi MR-2 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-a1db10fdd01bb2d3e305" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.149177.mke2002.holbrook.flac2448</identifier>
-      <credit role="recordist">Executive Crew: Chris Kidwell; Sean Murtha; Tom Pinney; Kyle Holbrook; Gary Steele</credit>
-      <lineage>1st Gen AUDCA: Sennheiser MKE2002 Binaurals worn on head 40-50 feet from stage DFC &gt;Sony TCD5M &gt; TDK MA 90s No Dolby -lead deck run by CK. | Transfer: Nakamichi MR-2 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-7f9a3e330453698de617" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.149692.beyerm201.holbrook.flac1644</identifier>
-      <credit role="recordist">Executive Crew; Chris Kidwell; Sean Murtha; Tom Pinney; Kyle Holbrook; Gary Steel</credit>
-      <lineage>Source: MAUD CA: Beyer M201's (Hypercardioid) 90 feet from stage 6'high DFC (1st row second section from stage)&gt; Sony TCD5M &gt; TDK MA90x2.5; No Dolby - Master copy from lead deck run by KH. | Transfer: Nakamichi MR-2 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-57619e68967160b6a7a7" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.149695.beyerm201.holbrook.flac2448</identifier>
-      <credit role="recordist">Executive Crew; Chris Kidwell; Sean Murtha; Tom Pinney; Kyle Holbrook; Gary Steel</credit>
-      <lineage>Source: MAUD CA: Beyer M201's (Hypercardioid) 90 feet from stage 6'high DFC (1st row second section from stage)&gt; Sony TCD5M &gt; TDK MA90x2.5; No Dolby - Master copy from lead deck run by KH. | Transfer: Nakamichi MR-2 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-52ba0dfffdad46816492" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.149982.mke2002.holbrook.flac1644</identifier>
-      <credit role="recordist">Executive Crew: Chris Kidwell; Sean Murtha; Tom Pinney; Kyle Holbrook; Gary Steel</credit>
-      <lineage>Master AUDCA: Sennheiser MKE2002 Binaurals worn on head 40-50 feet from stage DFC &gt;Sony TCD5M &gt; s1: Maxell UDXLIIS 90 s2:TDK MA 90 No Dolby -second deck inline run by SM. | Transfer: Nakamichi LX-5 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-d6b67886b839809b7e3e" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.149983.mke2002.holbrook.flac2448</identifier>
-      <credit role="recordist">Executive Crew: Chris Kidwell; Sean Murtha; Tom Pinney; Kyle Holbrook; Gary Steel</credit>
-      <lineage>Master AUDCA: Sennheiser MKE2002 Binaurals worn on head 40-50 feet from stage DFC &gt;Sony TCD5M &gt; s1: Maxell UDXLIIS 90 s2:TDK MA 90 No Dolby -second deck inline run by SM. | Transfer: Nakamichi LX-5 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    </recording>
-    <recording id="r-3303d02900c0dc9acb2c" kind="audience">
-      <identifier scheme="archive-org">gd1984-04-30.164612.senn441.vita.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Master Cassette (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-77af07fa03985342b463" kind="audience">
-      <identifier scheme="archive-org">gd1984-04-30.164613.senn441.vita.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Jim Vita</credit>
-      <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Master Cassette (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-04c6702296a9a6484859" kind="audience">
-      <identifier scheme="archive-org">gd1984-04-30.167104.neumann.u87.eaton.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Rob Eaton</credit>
-      <lineage>Rob Eaton's Master (FOB) Audience Cassettes (21st row, DFC); Neumann U87 mics &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; ProTools 12 &gt; .wav 24/96 &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    </recording>
-    <recording id="r-d5ef082ec79fd393f917" kind="audience">
-      <identifier scheme="archive-org">gd1984-04-30.167105.neumann.u87.eaton.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Rob Eaton</credit>
-      <lineage>Rob Eaton's Master (FOB) Audience Cassettes (21st row, DFC); Neumann U87 mics &gt; Sony D5M | Master Cassettes (Nakamichi Dragon) &gt; ProTools 12 &gt; .wav 24/96 &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    </recording>
-    <recording id="r-556b75b5ebe0d6351831" kind="unknown">
-      <identifier scheme="archive-org">gd1984-04-30.senn421.pauline.miller.91165.sbeok.flac16</identifier>
-      <credit role="recordist">Rick Pauline</credit>
-      <lineage>Sennheiser 421 -&gt; Cassette Master (Sony D5M/Maxell XLIIS-90) D | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt;</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b1ae5e9f6ea8397fb473" kind="audience">
-      <identifier scheme="archive-org">gd1984-04-30.senn441.koucky.ladner.34687.sbeok.flac16</identifier>
-      <credit role="recordist">Bill Koucky</credit>
-      <lineage>FOB/Row 11 Sennheiser 441s &gt; Sony D5 &gt; Maxell MX90 Type IV Cassettes &gt; Nakamichi DR-2 cassette deck &gt; gold RCAs &gt; Audiophile 24/96-Pentium IV PC &gt; recorded as 24 bit/96KHz WAV using Wavelab 5 &gt; mastered using Waves XNoise (learn mode) and L3 Multimaximizer, rendered to 16 bit/44.1 KHz WAV using hi-res CD settings &gt; CDWAV 1.9 (tracking) &gt; FLAC (level 8)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-    </recording>
-    <recording id="r-99b8beac1a26bd941fdb" kind="audience">
-      <identifier scheme="archive-org">gd84-04-30.senn.lai.5302.sbeok.shnf</identifier>
-      <lineage>aud&gt; senn 441&gt; cassette master&gt; cdr</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1984-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>

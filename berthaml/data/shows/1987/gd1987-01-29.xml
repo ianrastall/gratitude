@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<show xmlns="urn:berthaml:1" schemaVersion="1.0" id="gd1987-01-29" date="1987-01-29">
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1987-01-29" date="1987-01-29">
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870129-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
-    <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
   <venue ref="v-jb-617" nameAsBilled="San Francisco Civic Auditorium"/>
   <program coverage="partial">
@@ -34,117 +33,5 @@
       <note>Source section label: Encore</note>
     </set>
   </program>
-  <sources>
-    <recording id="r-2a434a4d5f32de866f5f" kind="matrix">
-      <identifier scheme="archive-org">gd1987-01-29.140690.ultramatrix.sbd.miller.flac2496</identifier>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-dd431b3bbe6dbee806be" kind="matrix">
-      <identifier scheme="archive-org">gd1987-01-29.140788.UltraMatrixSBD.cm.miller.flac1644</identifier>
-      <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-aa7a333bd0cc2d74ab6a" kind="audience">
-      <identifier scheme="archive-org">gd1987-01-29.141938.fob.oade.schoeps.cmc4.mk41.jacobs.miller.clugston.flac1644</identifier>
-      <credit role="recordist">Oade Brothers</credit>
-      <lineage>Source Info: Oade's Master (FOB) Audience PCM; Schoeps CMC4/MK41 mics &gt; Oade M118 &gt; Modified Sony F-1 PCM; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: FOB</note>
-      <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Blake Jacobs</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
-    </recording>
-    <recording id="r-87ab83815f81ee5c231a" kind="matrix">
-      <identifier scheme="archive-org">gd1987-01-29.142028.mtx.tobin.flac1644</identifier>
-      <lineage>flac16; Matrix 2 Source Mix - SBD (shnid = 83284)Recording Info: SBD -&gt; Cassette Master (Maxell MX90/Sony D5) Transfer Info: Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16 All Transfers and Mastering By Charlie Miller + AUD (shnid = 79467) Source: Nakamichi 100s, taper's section &gt; Sony D5 &gt; Maxell MX90s. Recorded by B.Koucky. | MAC playback on Nakamichi DR-2 &gt; Presonus Firebox/Neutrik Input &gt; firewire &gt; XP Pro PC/Wavelab 5 (recorded as 24bit/96 KHz WAV) &gt; Waves L3, rendered to 16/44.1 using Waves IDR hi res CD dither settings &gt; CDWAV 1.9 &gt; FLAC (level 8 encoding). Digital transfer, rendering and FLAC encoding by C.Ladner. - matrix mixing by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-5ead67614bf9ce836a25" kind="soundboard">
-      <identifier scheme="archive-org">gd1987-01-29.142029.dts.tobin.flac1644</identifier>
-      <lineage>DTS-Audio-CD 5.1 Mix; SBD (shnid = 83284)Recording Info: SBD -&gt; Cassette Master (Maxell MX90/Sony D5) Transfer Info: Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16 All Transfers and Mastering By Charlie Miller + AUD (shnid = 79467) Source: Nakamichi 100s, taper's section &gt; Sony D5 &gt; Maxell MX90s. Recorded by B.Koucky. | MAC playback on Nakamichi DR-2 &gt; Presonus Firebox/Neutrik Input &gt; firewire &gt; XP Pro PC/Wavelab 5 (recorded as 24bit/96 KHz WAV) &gt; Waves L3, rendered to 16/44.1 using Waves IDR hi res CD dither settings &gt; CDWAV 1.9 &gt; FLAC (level 8 encoding). Digital transfer, rendering and FLAC encoding by C.Ladner. - dts mixing by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: DTS</note>
-      <note>Source credit (transfer-mastering): Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-b9c11ca057c7d7c11369" kind="soundboard">
-      <identifier scheme="archive-org">gd1987-01-29.142030.5-1.tobin.flac1648</identifier>
-      <lineage>flac16/48kHz; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 83284)Recording Info: SBD -&gt; Cassette Master (Maxell MX90/Sony D5) Transfer Info: Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16 All Transfers and Mastering By Charlie Miller + AUD (shnid = 79467) Source: Nakamichi 100s, taper's section &gt; Sony D5 &gt; Maxell MX90s. Recorded by B.Koucky. | MAC playback on Nakamichi DR-2 &gt; Presonus Firebox/Neutrik Input &gt; firewire &gt; XP Pro PC/Wavelab 5 (recorded as 24bit/96 KHz WAV) &gt; Waves L3, rendered to 16/44.1 using Waves IDR hi res CD dither settings &gt; CDWAV 1.9 &gt; FLAC (level 8 encoding). Digital transfer, rendering and FLAC encoding by C.Ladner. - surround mixing by Kevin Tobin</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-e80f460b859106e1d2b6" kind="unknown">
-      <identifier scheme="archive-org">gd1987-01-29.167913.EC-7.OldNeumanntapr.flac1644</identifier>
-      <credit role="recordist">OldNeumanntapr</credit>
-      <lineage>OTS Balcony; Superscope EC-7 Cardioids (Near Coincident) &gt;Sony TC-153SD Cassette Master &gt;CDR &gt;FLAC | Transfer Via: Sony TC-D5M &gt;;HHb CDR 800 PRO. CD &gt;WAV &gt;Audacity (Combine Tracks To A One-Track File, Amplify By 8.4db, Re-Track On Original Index Points, Minor Edits [Tape Flips]) &gt;Fix SBE's &gt;FLAC (Level 8) + Tags Via xACT 2.53 (Audacity Post June 2024)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): OldNeumanntapr</note>
-    </recording>
-    <recording id="r-03fbff2f34506b9c9f8c" kind="audience">
-      <identifier scheme="archive-org">gd1987-01-29.177924.neumann.bradt.miller.clugston.flac1648</identifier>
-      <credit role="recordist">Bill Bradt</credit>
-      <lineage>Bill Bradt's Master Audience Cassettes: Neumann mics (likely KM84i's) &gt; Sony D5M (Denon HD-M 90) | Master Cassette (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-bdb0f5da635a99e4180f" kind="audience">
-      <identifier scheme="archive-org">gd1987-01-29.177925.neumann.bradt.miller.clugston.flac2496</identifier>
-      <credit role="recordist">Bill Bradt</credit>
-      <lineage>Bill Bradt's Master Audience Cassettes: Neumann mics (likely KM84i's) &gt; Sony D5M (Denon HD-M 90) | Master Cassette (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    </recording>
-    <recording id="r-13105fabf479f4f06723" kind="unknown">
-      <identifier scheme="archive-org">gd1987-01-29.ec7.bowen-foster.116280.flac</identifier>
-      <credit role="recordist">Jeff Bowen</credit>
-      <lineage>Source: (OTS/Balcony) Superscope EC-7's (ortf/cardioids) &gt; Sony TC-153SD; | Cass/M &gt; D5 &gt; HHb 800 &gt; EAC &gt; CDWav &gt; FLAC; Recorded/Transferred: Jeff Bowen; Extraction: Brad Foster</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Jeff Bowen and Brad Foster</note>
-    </recording>
-    <recording id="r-5f351d406fc830f31874" kind="unknown">
-      <identifier scheme="archive-org">gd1987-01-29.nak100.koucky.gmb.79467.sbeok.flac16</identifier>
-      <credit role="recordist">Bill Koucky</credit>
-      <lineage>Nakamichi 100s, taper's section &gt; Sony D5 &gt; Maxell MX90s | MAC playback on Nakamichi DR-2 &gt; Presonus Firebox/Neutrik Input &gt; firewire &gt; XP Pro PC/Wavelab 5 (recorded as 24bit/96 KHz WAV) &gt; Waves L3, rendered to 16/44.1 using Waves IDR hi res CD dither settings &gt; CDWAV 1.9 &gt; FLAC (level 8 encoding)</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Center on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Chris Ladner</note>
-    </recording>
-    <recording id="r-07e1c0a31c9401ef2894" kind="soundboard">
-      <identifier scheme="archive-org">gd1987-01-29.sbd.walker-scotton.miller.83284.sbeok.flac16</identifier>
-      <lineage>SBD -&gt; Cassette Master (Maxell MX90/Sony D5) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Center on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source credit (transfer-mastering): Charlie Miller</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-      <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-      <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    </recording>
-    <recording id="r-c242037520addda2e756" kind="unknown">
-      <identifier scheme="archive-org">gd87-01-29.sbd.bobh.10535.sbeok.shnf</identifier>
-      <lineage>Healey ultramix: PCM -&gt; Cassette Master &gt; wav &gt; mkw &gt; shn</lineage>
-      <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Francisco Civic Auditorium on 1987-01-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-      <note certainty="uncertain">Legacy inferred type: SBD</note>
-    </recording>
-    <recording id="r-634bd7e9ce67d595c8fe" kind="unknown">
-      <identifier scheme="other">etree-600999</identifier>
-      <note>Supplied catalogue listing: etree; gd87-01-29.140788.sbd-UltraMatrix.cm.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-      <note>Source modifiers: ULTRAMATRIX</note>
-      <note certainty="uncertain">Legacy inferred type: MTX</note>
-      <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    </recording>
-  </sources>
   <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
 </show>
