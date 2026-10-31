@@ -15,3 +15,5 @@ Core additions are in `core/domain/src/shows.rs`, typed messages in `proto/show_
 Local CLI helpers: `cargo run -p show-player-harness -- --inspect-show <folder>`, `--resolve-etree <torrent-id>`, `--resolve-archive <identifier>`. Resolver helpers retrieve metadata only. The original interactive playback test protocol remains available.
 
 Pending work is explicit in the brief. No full concert transfer is claimed as verified until it actually completes. Do not label the historical catalogue a live search. Preserve original audio and notes when creating MKA files.
+
+Current version: 0.3.0. Gratitude is Grateful Dead only, through 9 August 1995. `song_title` in `core/domain/src/shows.rs` is the single title rule for TXT, tags, file names and manual edits. Both outputs write exactly title, album, date, track, artist, comment and genre; `tag_files` writes a new album-named folder and leaves sources alone. SHN decodes for its duration and becomes FLAC in both outputs. `tests/make_shn.py` writes the Shorten fixture, since no real SHN was on hand. Clicking a show plays it. See `docs/validation-0.3.0.md`.

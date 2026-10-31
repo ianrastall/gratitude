@@ -67,6 +67,7 @@ public partial class App : Application
         Directory.CreateDirectory(DataDirectory);
         AppLog.Open(DataDirectory);
         Settings = AppSettings.Load(DataDirectory);
+        Settings.AvoidRedAccent(new Windows.UI.ViewManagement.UISettings().GetColorValue(Windows.UI.ViewManagement.UIColorType.Accent));
         Accent = new AccentService(Settings);
         Theme = new ThemeService(Settings);
         _window = new MainWindow(Options);

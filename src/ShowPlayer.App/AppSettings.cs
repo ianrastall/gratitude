@@ -20,6 +20,7 @@ public sealed class AppSettings : Jupiter.UI.IAccentPreferences, Jupiter.UI.IThe
     public const double DefaultZoom = 1.0;
     public static readonly int[] SkipChoices = [10, 15, 30, 60];
     public const int DefaultSkipSeconds = 30;
+    private const string NeutralAccent = "#2E7D9A";
 
     private string _file = "";
 
@@ -37,6 +38,9 @@ public sealed class AppSettings : Jupiter.UI.IAccentPreferences, Jupiter.UI.IThe
     public bool UseCustomAccent { get; set; }
 
     public string? CustomAccent { get; set; }
+
+    /// <summary>The red accent check below has run; a later return to the Windows accent stands.</summary>
+    public bool AccentChecked { get; set; }
 
     /// <summary>The folder the Books pane lists. Null means the folder of the last book opened.</summary>
     public string? LibraryFolder { get; set; }
@@ -90,6 +94,35 @@ public sealed class AppSettings : Jupiter.UI.IAccentPreferences, Jupiter.UI.IThe
         }
         settings.BooksPaneWidth = Math.Clamp(settings.BooksPaneWidth, 240, 800);
         return settings;
+    }
+
+    /// <summary>
+    /// Selection and primary actions are tinted with the accent, and a red tint here reads
+    /// as an error. A red-family Windows accent is replaced once; Settings can restore it.
+    /// See docs/jupiter-exceptions.md.
+    /// </summary>
+    public void AvoidRedAccent(Windows.UI.Color windows)
+    {
+        if (AccentChecked)
+        {
+            return;
+        }
+        AccentChecked = true;
+        int max = Math.Max(windows.R, Math.Max(windows.G, windows.B));
+        int spread = max - Math.Min(windows.R, Math.Min(windows.G, windows.B));
+        if (!UseCustomAccent && spread * 10 >= max * 3)
+        {
+            double sector = max == windows.R ? (double)(windows.G - windows.B) / spread
+                : max == windows.G ? 2 + (double)(windows.B - windows.R) / spread
+                : 4 + (double)(windows.R - windows.G) / spread;
+            double hue = (sector * 60 + 360) % 360;
+            if (hue is >= 285 or <= 40)
+            {
+                UseCustomAccent = true;
+                CustomAccent = NeutralAccent;
+            }
+        }
+        Save();
     }
 
     /// <summary>Writes through a temporary file, so a failed write leaves the old settings whole.</summary>

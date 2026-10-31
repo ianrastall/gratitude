@@ -111,6 +111,7 @@ message Request {
     Empty cancel_job = 21;
     Empty get_priorities = 22;
     RecordingPriorities set_priorities = 23;
+    TagShow tag_show = 24;
   }
 }
 
@@ -254,6 +255,8 @@ message ShowDraft {
   string source_summary = 9;
   string credits = 10;
   string reference_info = 11;
+  string album = 12;
+  string comment = 13;
 }
 message Recording {
   string title = 1;
@@ -287,3 +290,4 @@ message ShowJob {
 message InspectShow { string folder = 1; string notes_path = 2; }
 message SearchRecordings { string query = 1; string source = 2; }
 message PackageShow { ShowDraft draft = 1; string output = 2; bool copy_audio = 3; }
+message TagShow { ShowDraft draft = 1; string folder = 2; }

@@ -66,6 +66,7 @@ public sealed partial class MainWindow : Window
     private ulong _generation;          // newest generation seen in an event
     private ulong _chaptersGeneration;  // generation the chapter list belongs to
     private ulong _startupRequest;      // the open issued at startup
+    private ulong _playRequest;         // the open that plays once loaded
     private PlaybackState _state = PlaybackState.Idle;
     private int _chapter = -1;
     private double _position, _duration, _volume = 100;
@@ -192,6 +193,10 @@ public sealed partial class MainWindow : Window
                     break;
                 case EventType.BookLoaded:
                     reread = reloadChapters = loaded = true;
+                    if (e.RequestId == _playRequest)
+                    {
+                        _core.Play();
+                    }
                     if (e.RequestId == _startupRequest)
                     {
                         if (_options.SeekTo is { } seconds)
@@ -579,7 +584,29 @@ public sealed partial class MainWindow : Window
     {
         if (e.ClickedItem is BookRow row)
         {
-            OpenBook(row.Path);
+            PlayBook(row.Path);
+        }
+    }
+
+    /// <summary>
+    /// A click on a show plays it. The last show reopens paused at launch, so opening
+    /// alone would leave a click on it with nothing to do.
+    /// </summary>
+    private void PlayBook(string path)
+    {
+        if (_core is null)
+        {
+            return;
+        }
+        if (!SamePath(path, _bookPath) || _state is not (PlaybackState.Paused or PlaybackState.Playing or PlaybackState.Loading))
+        {
+            _chapters = [];
+            ChapterList.ItemsSource = null;
+            _core.Open(path, out _playRequest);
+        }
+        else if (_state == PlaybackState.Paused)
+        {
+            _core.Play();
         }
     }
 

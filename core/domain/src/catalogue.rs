@@ -1,5 +1,5 @@
 //! Attributed, offline show facts and personal recording priorities.
-use crate::shows::Recording;
+use crate::shows::{Place, Recording};
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
@@ -253,6 +253,12 @@ pub fn classify(source: &str, identifier: &str, taper: &str, transfer: &str, lin
         inferred: explicit.is_none() && primary != "UNKNOWN",
     }
 }
+/// People in a profile known for recording rather than transfer: audience tapers and the
+/// sound engineers who ran the board.
+pub fn known_tapers(profile: &Profile) -> Vec<String> {
+    let recorded = |name: &str| SBD_TIERS[0].contains(&name) || AUD_TIERS.iter().any(|tier| tier.contains(&name));
+    profile.people.iter().filter(|p| recorded(p)).cloned().collect()
+}
 impl Profile {
     pub fn summary(&self) -> String {
         std::iter::once(self.kind.as_str())
@@ -281,6 +287,7 @@ pub fn rank(x: &Profile, p: &Priorities) -> (usize, usize, usize) {
 struct Catalogue {
     records: Vec<Recording>,
     shows: HashMap<String, String>,
+    places: HashMap<String, Place>,
 }
 impl Catalogue {
     fn parse(text: &str) -> Result<Self, String> {
@@ -330,6 +337,25 @@ impl Catalogue {
                 detail += &format!("\n\nSources:\n{}", refs.join("\n"));
             }
             result.shows.insert(date.into(), detail);
+            // Dates known only from recording metadata hold "City, ST" in the city field.
+            let city = show.attribute("city").unwrap_or_default();
+            let (city, listed_state) = city.split_once(", ").unwrap_or((city, ""));
+            let region = [
+                show.attribute("state").unwrap_or_default(),
+                listed_state,
+                show.attribute("country").unwrap_or_default(),
+            ]
+            .into_iter()
+            .find(|s| !s.is_empty())
+            .unwrap_or_default();
+            result.places.insert(
+                date.into(),
+                Place {
+                    venue: venue.into(),
+                    city: if city == "Unknown" { String::new() } else { city.into() },
+                    region: region.into(),
+                },
+            );
             for r in show.children().filter(|n| n.has_tag_name("recording")) {
                 let key = r.attribute("key").unwrap_or_default();
                 let provider = r.attribute("provider").unwrap_or_default();
@@ -406,6 +432,10 @@ pub fn profile(r: &Recording) -> Profile {
 /// Offline show reference for a local import; does not replace the folder's notes.
 pub fn show_info(path: &Path, date: &str) -> Result<Option<String>, String> {
     Ok(load(path)?.shows.get(date).cloned())
+}
+/// Where a date's show took place, when the catalogue knows its venue.
+pub fn show_place(path: &Path, date: &str) -> Result<Option<Place>, String> {
+    Ok(load(path)?.places.get(date).filter(|p| !p.venue.is_empty()).cloned())
 }
 pub fn search(path: &Path, query: &str, provider: &str, priorities: &Priorities) -> Result<Vec<Recording>, String> {
     let data = load(path)?;

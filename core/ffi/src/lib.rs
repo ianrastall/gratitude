@@ -220,12 +220,13 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
     match req.command {
         Some(C::InspectShow(s)) => match show_player_core::shows::inspect(Path::new(&s.folder), &s.notes_path) {
             Ok(mut d) => {
-                if d.artist.eq_ignore_ascii_case("Grateful Dead") {
-                    let catalogue =
-                        std::env::current_exe().ok().and_then(|p| p.parent().map(|p| p.join("data/gd-shows.xml")));
-                    if let Some(path) = catalogue {
-                        d.reference_info =
-                            show_player_core::catalogue::show_info(&path, &d.date).ok().flatten().unwrap_or_default();
+                let catalogue =
+                    std::env::current_exe().ok().and_then(|p| p.parent().map(|p| p.join("data/gd-shows.xml")));
+                if let Some(path) = catalogue {
+                    d.reference_info =
+                        show_player_core::catalogue::show_info(&path, &d.date).ok().flatten().unwrap_or_default();
+                    if let Ok(Some(place)) = show_player_core::catalogue::show_place(&path, &d.date) {
+                        d.set_place(&place);
                     }
                 }
                 ok(response::Result::ShowDraft(d.into()))
@@ -256,6 +257,13 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
         },
         Some(C::PackageShow(s)) => match s.draft {
             Some(d) => match core.shows.package(d.into(), PathBuf::from(s.output), s.copy_audio) {
+                Ok(j) => ok(response::Result::Job(j.into())),
+                Err(e) => error_response(id, ErrorKind::InvalidArgument, e),
+            },
+            None => error_response(id, ErrorKind::InvalidArgument, "No show draft was provided."),
+        },
+        Some(C::TagShow(s)) => match s.draft {
+            Some(d) => match core.shows.tag_files(d.into(), PathBuf::from(s.folder)) {
                 Ok(j) => ok(response::Result::Job(j.into())),
                 Err(e) => error_response(id, ErrorKind::InvalidArgument, e),
             },

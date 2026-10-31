@@ -62,7 +62,9 @@ try {
     Invoke-Step 'build binding check' { dotnet build tests/ShowPlayer.BindingCheck -c Release --nologo -v q }
     if (-not $SkipChecks) {
         $fixture = Join-Path $root ('work/verification-' + [guid]::NewGuid().ToString('N'))
-        Invoke-Step 'show workflow verification' { dotnet run --project tests/ShowPlayer.WorkflowCheck -c Release -- $fixture }
+        $shn = Join-Path $fixture 'shn-show'
+        Invoke-Step 'SHN fixture' { python tests/make_shn.py $shn }
+        Invoke-Step 'show workflow verification' { dotnet run --project tests/ShowPlayer.WorkflowCheck -c Release -- $fixture $shn }
     }
     if ($Books) {
         Invoke-Step 'stage 2 chapters' { python tests/stage2_chapters.py @Books }

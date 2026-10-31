@@ -166,6 +166,8 @@ impl From<show_player_core::shows::Draft> for crate::messages::ShowDraft {
             notes: d.notes,
             warnings: d.warnings,
             tracks: d.tracks.into_iter().map(Into::into).collect(),
+            album: d.album,
+            comment: d.comment,
         }
     }
 }
@@ -183,6 +185,8 @@ impl From<crate::messages::ShowDraft> for show_player_core::shows::Draft {
             notes: d.notes,
             warnings: d.warnings,
             tracks: d.tracks.into_iter().map(Into::into).collect(),
+            album: d.album,
+            comment: d.comment,
         }
     }
 }

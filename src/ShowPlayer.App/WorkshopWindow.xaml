@@ -9,7 +9,7 @@
         <NavigationView Grid.Row="1" x:Name="Navigation" PaneDisplayMode="Left" OpenPaneLength="224" CompactPaneLength="48" IsBackButtonVisible="Collapsed" IsSettingsVisible="True" SelectionChanged="OnNavigation">
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="Import a show" Tag="import" Icon="OpenFile" />
-                <NavigationViewItem Content="MKA job" Tag="job" Icon="Save" />
+                <NavigationViewItem Content="Job" Tag="job" Icon="Save" />
             </NavigationView.MenuItems>
             <Grid>
                 <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
@@ -42,7 +42,6 @@
                         <StackPanel Grid.Row="4" Spacing="8">
                             <StackPanel Orientation="Horizontal" Spacing="8"><Button Content="Move up" Click="OnMoveUp"/><Button Content="Move down" Click="OnMoveDown"/></StackPanel>
                             <TextBox x:Name="TrackTitleBox" Header="Selected song title" TextChanged="OnTrackEdited" LostFocus="OnTrackEditFinished" IsEnabled="False"/>
-                            <TextBox x:Name="TrackSetBox" Header="Selected set or encore" TextChanged="OnTrackEdited" LostFocus="OnTrackEditFinished" IsEnabled="False"/>
                         </StackPanel>
                     </Grid>
                     <ScrollViewer Grid.Column="1" Background="{ThemeResource JupiterSurfaceBrush}" BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="1,0,0,0">
@@ -50,14 +49,17 @@
                             <TextBlock Text="Recording details" Style="{StaticResource JupiterPaneHeadingTextStyle}"/>
                             <local:SourceBadgesControl x:Name="ImportSourceInfo"/>
                             <TextBlock x:Name="ImportCredits" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
-                            <TextBox x:Name="ArtistBox" Header="Artist"/>
+                            <TextBox x:Name="AlbumBox" Header="Album" PlaceholderText="YYMMDD_region-city-venue" TextWrapping="Wrap"/>
                             <TextBox x:Name="DateBox" Header="Date" PlaceholderText="YYYY-MM-DD"/>
-                            <TextBox x:Name="VenueBox" Header="Venue" TextWrapping="Wrap"/>
+                            <TextBox x:Name="CommentBox" Header="Comment (taper and equipment)" TextWrapping="Wrap" AcceptsReturn="True"/>
+                            <TextBlock Text="Artist is always Grateful Dead and genre is always Psychedelic Rock. Tracks number from 1 across the whole show. All other tags are removed." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <TextBlock x:Name="WarningsText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
-                            <CheckBox x:Name="ReviewedBox"><TextBlock Text="I reviewed the track order and titles" TextWrapping="Wrap"/></CheckBox>
+                            <CheckBox x:Name="ReviewedBox"><TextBlock Text="I reviewed the track order, titles and tags" TextWrapping="Wrap"/></CheckBox>
                             <CheckBox x:Name="CopyAudioBox" IsChecked="True"><TextBlock Text="Copy compressed audio unchanged" TextWrapping="Wrap"/></CheckBox>
-                            <TextBlock Text="With this unchecked, lossless 16-bit or 24-bit audio is encoded as FLAC at its original rate and depth. Formats must match. No resampling, gap insertion, trimming or crossfading. Sets are included in chapter names." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
+                            <TextBlock Text="With this unchecked, lossless 16-bit or 24-bit audio is encoded as FLAC at its original rate and depth. SHN always becomes FLAC. Formats must match. No resampling, gap insertion, trimming or crossfading." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <Button x:Name="CreateButton" Content="Create MKA…" Style="{StaticResource AccentButtonStyle}" Click="OnCreate" IsEnabled="False"/>
+                            <Button x:Name="TagButton" Content="Write tagged files…" Click="OnWriteTags" IsEnabled="False"/>
+                            <TextBlock Text="Writes a new folder named after the album. FLAC, MP3, Ogg, Opus and M4A keep their format; SHN, WAV and AIFF become FLAC. Source files are not changed." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <Expander Header="Original show notes"><ScrollViewer MaxHeight="320"><TextBlock x:Name="NotesText" Style="{StaticResource JupiterMonoTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/></ScrollViewer></Expander>
                             <Expander Header="Offline show reference"><ScrollViewer MaxHeight="400"><TextBlock x:Name="ReferenceText" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/></ScrollViewer></Expander>
                         </StackPanel>
@@ -68,7 +70,13 @@
                     <StackPanel Spacing="4"><TextBlock x:Name="JobState" Text="No job running" Style="{StaticResource JupiterSectionHeadingTextStyle}"/><TextBlock x:Name="JobPhase" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap"/></StackPanel>
                     <ProgressBar x:Name="JobProgress" Grid.Row="1" IsIndeterminate="True" Visibility="Collapsed"/>
                     <TextBox x:Name="JobOutput" Grid.Row="2" Header="Output" IsReadOnly="True" TextWrapping="Wrap"/>
-                    <TextBox x:Name="JobLog" Grid.Row="3" Header="Activity" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap"/>
+                    <Grid Grid.Row="3" RowSpacing="8">
+                        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                        <TextBlock Text="Activity" Style="{StaticResource JupiterBodyTextStyle}"/>
+                        <ScrollViewer x:Name="JobLogScroller" Grid.Row="1" Padding="8" Background="{ThemeResource JupiterSurfaceBrush}" BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="1" AutomationProperties.Name="Activity">
+                            <TextBlock x:Name="JobLog" Style="{StaticResource JupiterMonoTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/>
+                        </ScrollViewer>
+                    </Grid>
                     <StackPanel Grid.Row="4" Orientation="Horizontal" Spacing="8"><Button x:Name="CancelButton" Content="Cancel job" Click="OnCancel" IsEnabled="False"/><Button x:Name="UseOutputButton" Content="Open result" Click="OnUseOutput" IsEnabled="False"/></StackPanel>
                 </Grid>
             </Grid>

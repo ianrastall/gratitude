@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Jupiter.ShowPlayer.Interop;
 using Jupiter.ShowPlayer.Interop.Messages;
 using Microsoft.UI.Windowing;
@@ -96,7 +97,7 @@ public sealed partial class WorkshopWindow : Window
     {
         if (_inspecting) return;
         _inspecting = true;
-        ImportButton.IsEnabled = NotesButton.IsEnabled = CreateButton.IsEnabled = false;
+        ImportButton.IsEnabled = NotesButton.IsEnabled = CreateButton.IsEnabled = TagButton.IsEnabled = false;
         ImportProgress.Visibility = Visibility.Visible;
         ImportSummary.Text = "Reading notes and inspecting audio files…";
         Notice.IsOpen = false;
@@ -107,9 +108,9 @@ public sealed partial class WorkshopWindow : Window
             _draft = draft;
             FolderBox.Text = draft.Folder;
             NotesPathBox.Text = draft.NotesPath;
-            ArtistBox.Text = draft.Artist;
+            AlbumBox.Text = draft.Album;
             DateBox.Text = draft.Date;
-            VenueBox.Text = draft.Venue;
+            CommentBox.Text = draft.Comment;
             NotesText.Text = draft.Notes;
             ImportSourceInfo.Labels = draft.SourceSummary;
             ImportCredits.Text = draft.Credits;
@@ -126,7 +127,7 @@ public sealed partial class WorkshopWindow : Window
             if (!_closed)
             {
                 ImportButton.IsEnabled = true;
-                NotesButton.IsEnabled = CreateButton.IsEnabled = _draft is not null;
+                NotesButton.IsEnabled = CreateButton.IsEnabled = TagButton.IsEnabled = _draft is not null;
                 ImportProgress.Visibility = Visibility.Collapsed;
             }
         }
@@ -135,7 +136,8 @@ public sealed partial class WorkshopWindow : Window
     private void RenderTracks(int selected)
     {
         if (_draft is null) return;
-        TracksList.ItemsSource = _draft.Tracks.Select((t, i) => new ImportTrackRow(i, $"{i+1}. {t.Title}", $"{t.Set} · {Path.GetFileName(t.Path)} · {t.Duration / 60:F1} min · {t.Codec} {t.SampleRate} Hz / {t.BitDepth} bit / {t.Channels} ch")).ToList();
+        int digits = _draft.Tracks.Count.ToString().Length;
+        TracksList.ItemsSource = _draft.Tracks.Select((t, i) => new ImportTrackRow(i, $"{(i + 1).ToString().PadLeft(digits, '0')} {t.Title}", $"{t.Set} · {Path.GetFileName(t.Path)} · {t.Duration / 60:F1} min · {t.Codec} {t.SampleRate} Hz / {t.BitDepth} bit / {t.Channels} ch")).ToList();
         TracksList.SelectedIndex = selected;
     }
 
@@ -144,9 +146,8 @@ public sealed partial class WorkshopWindow : Window
         _editing = true;
         _trackIndex = TracksList.SelectedIndex;
         bool valid = _draft is not null && _trackIndex >= 0 && _trackIndex < _draft.Tracks.Count;
-        TrackTitleBox.IsEnabled = TrackSetBox.IsEnabled = valid;
+        TrackTitleBox.IsEnabled = valid;
         TrackTitleBox.Text = valid ? _draft!.Tracks[_trackIndex].Title : "";
-        TrackSetBox.Text = valid ? _draft!.Tracks[_trackIndex].Set : "";
         _editing = false;
     }
 
@@ -154,7 +155,6 @@ public sealed partial class WorkshopWindow : Window
     {
         if (_editing || _draft is null || _trackIndex < 0) return;
         _draft.Tracks[_trackIndex].Title = TrackTitleBox.Text;
-        _draft.Tracks[_trackIndex].Set = TrackSetBox.Text;
         ReviewedBox.IsChecked = false;
     }
 
@@ -173,18 +173,37 @@ public sealed partial class WorkshopWindow : Window
     private void OnMoveDown(object sender, RoutedEventArgs e) => Move(1);
     private void OnTrackEditFinished(object sender, RoutedEventArgs e) { if (_draft is not null && _trackIndex >= 0) RenderTracks(_trackIndex); }
 
+    private bool ReadReview()
+    {
+        if (_draft is null) return false;
+        if (ReviewedBox.IsChecked != true) { Error(new InvalidOperationException("Review the song titles, order and tags, then check the review box.")); return false; }
+        _draft.Date = DateBox.Text.Trim(); _draft.Album = AlbumBox.Text.Trim(); _draft.Comment = CommentBox.Text.Trim();
+        return true;
+    }
+
     private async void OnCreate(object sender, RoutedEventArgs e)
     {
-        if (_draft is null) return;
-        if (ReviewedBox.IsChecked != true) { Error(new InvalidOperationException("Review the song titles and order, then check the review box.")); return; }
+        if (!ReadReview()) return;
         try
         {
-            _draft.Artist = ArtistBox.Text.Trim(); _draft.Date = DateBox.Text.Trim(); _draft.Venue = VenueBox.Text.Trim();
-            var picker = new FileSavePicker(AppWindow.Id) { SuggestedFileName = "show" };
+            var picker = new FileSavePicker(AppWindow.Id) { SuggestedFileName = _draft!.Album };
             picker.FileTypeChoices.Add("Matroska audio", new List<string> { ".mka" });
             var result = await picker.PickSaveFileAsync();
             if (result is null || _closed) return;
             _job = _core.PackageShow(_draft, result.Path, CopyAudioBox.IsChecked == true);
+            ShowJob(); Navigate("job");
+        }
+        catch (Exception ex) { Error(ex); }
+    }
+
+    private async void OnWriteTags(object sender, RoutedEventArgs e)
+    {
+        if (!ReadReview()) return;
+        try
+        {
+            string? parent = await MainWindow.PickFolderAsync(AppWindow.Id, Path.GetDirectoryName(_draft!.Folder));
+            if (parent is null || _closed) return;
+            _job = _core.TagShow(_draft, parent);
             ShowJob(); Navigate("job");
         }
         catch (Exception ex) { Error(ex); }
@@ -203,11 +222,21 @@ public sealed partial class WorkshopWindow : Window
         JobState.Text = string.IsNullOrEmpty(_job.State) ? "No job running" : _job.State;
         JobPhase.Text = _job.Phase;
         JobOutput.Text = _job.Output;
-        if (JobLog.Text != _job.Log) JobLog.Text = _job.Log;
+        if (JobLog.Text != _job.Log)
+        {
+            // Follows new output unless the person has scrolled up to read.
+            bool following = JobLogScroller.VerticalOffset >= JobLogScroller.ScrollableHeight - 1;
+            JobLog.Text = _job.Log;
+            if (following)
+            {
+                JobLogScroller.UpdateLayout();
+                JobLogScroller.ChangeView(null, JobLogScroller.ScrollableHeight, null, true);
+            }
+        }
         JobProgress.Visibility = running ? Visibility.Visible : Visibility.Collapsed;
         CancelButton.IsEnabled = running;
         UseOutputButton.IsEnabled = _job.State == "Completed";
-        CreateButton.IsEnabled = !running && !_inspecting && _draft is not null;
+        CreateButton.IsEnabled = TagButton.IsEnabled = !running && !_inspecting && _draft is not null;
     }
     private void OnCancel(object sender, RoutedEventArgs e)
     {
@@ -217,6 +246,7 @@ public sealed partial class WorkshopWindow : Window
     private void OnUseOutput(object sender, RoutedEventArgs e)
     {
         if (_job is null || _job.State != "Completed") return;
-        if (File.Exists(_job.Output)) { _main.OpenShow(_job.Output); _main.ShowAndActivate(); }
+        if (Directory.Exists(_job.Output)) Process.Start(new ProcessStartInfo(_job.Output) { UseShellExecute = true });
+        else if (File.Exists(_job.Output)) { _main.OpenShow(_job.Output); _main.ShowAndActivate(); }
     }
 }
