@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19870128-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 77114296246ac1d96937f5fd3c80496d45699b5d91d1fe294eb4b88fe8f16be9. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-617" nameAsBilled="San Francisco Civic Auditorium"/>
+  <venue ref="v-san-francisco-civic-auditorium" nameAsBilled="San Francisco Civic Auditorium"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-shakedown-street" transition="unknown"/>
@@ -11,7 +11,7 @@
       <performance id="p01-03" song="s-peggy-o" transition="unknown"/>
       <performance id="p01-04" song="s-walkin-blues" transition="unknown"/>
       <performance id="p01-05" song="s-it-must-have-been-the-roses" transition="unknown"/>
-      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-06" song="s-its-all-over-now" transition="unknown"/>
       <performance id="p01-07" song="s-row-jimmy" transition="unknown"/>
       <performance id="p01-08" song="s-my-brother-esau" transition="unknown"/>
       <performance id="p01-09" song="s-bird-song" transition="unknown"/>
@@ -22,7 +22,7 @@
       <performance id="p02-01" song="s-when-push-comes-to-shove" transition="segue"/>
       <performance id="p02-02" song="s-samson-and-delilah" transition="segue"/>
       <performance id="p02-03" song="s-black-muddy-river" transition="segue"/>
-      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-04" song="s-hes-gone" transition="segue"/>
       <performance id="p02-05" song="s-spoonful" transition="segue"/>
       <performance id="p02-06" song="s-drums" transition="segue"/>
       <performance id="p02-07" song="s-jam" transition="segue"/>
@@ -33,7 +33,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

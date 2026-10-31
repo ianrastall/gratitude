@@ -1,3 +1,17 @@
+# Schema revision and ID freeze validation
+
+Validated on Windows on 30 October 2026 by comparing the working tree with the previous commit, read from git rather than from the migration.
+
+- Shows: 2,234 of 2,234 are identical once IDs are translated through the ledger. The only content change is `titleVariant="Jordan"` on performances merged into Cold Jordan.
+- IDs: 712 retired (556 venues, 115 shows, 41 songs), 3,216 issued, no collisions. Every venue has exactly one source reference.
+- Recordings: all 18,611 survive with the same kind, provider key and show. Every old note was rebuilt from the new fields and compared; nothing was invented or lost except named placeholders such as "Unknown" and "See info file": 75 transfer credits, 382 recordist credits and 40 whole lineages, plus 113 placeholder parts of lineages. These remain in the pinned sources.
+- Fields: 4,678 recordings have modifiers, 1,979 an inferred kind, and all but 104 at least one shnid (18,373 probable, 269 uncertain).
+- Track lists: file names, boundaries and timings are unchanged. Linked tracks rose from 433 to 546 of 654 with no existing link altered, once a matching bug that this comparison caught was fixed.
+- Issues: the same 5,061 of the earlier 5,067, under translated subjects. The six that closed are `playlist-mappings` issues whose tracks now all link. `releases.xml` is unchanged.
+- Drift is now empty: the one earlier row is resolved by the Jordan merge.
+- Band membership dates were checked against the sources cited in `people.xml`.
+- Regression suite: 31 tests pass. Python XSD/semantic validation and .NET `System.Xml.Schema` pass all 4,125 XML files, the audit has zero errors, and the unpacked data ZIP rebuilds and audits offline.
+
 # Corpus restructure validation
 
 Validated on Windows on 30 October 2026 by comparing the working tree with the committed 0.1.0 corpus. This moved recordings out of the show files and made the show files hand-owned. It changed no fact.

@@ -26,6 +26,7 @@ Exit code 0 when there are no errors (and no warnings with --strict),
 
 import argparse
 import calendar
+import json
 import re
 import sys
 from datetime import date
@@ -121,6 +122,9 @@ def check_people(path, root, report):
             if lo > hi:
                 report.error(path, m.sourceline, f"{pid}: membership 'from' is after 'to'")
             periods.append((lo, hi, m.get("role")))
+            for absence in m.findall("b:absence", NSMAP):
+                if fuzzy_bounds(absence.get("from"))[0] > fuzzy_bounds(absence.get("to"))[1]:
+                    report.error(path, absence.sourceline, f"{pid}: absence 'from' is after 'to'")
         people[pid] = periods
     return people
 
@@ -411,6 +415,29 @@ def check_track_list(path, tracks, report, label):
             report.error(path, track.sourceline, f'{label}: unmapped track requires a source title or filename')
 
 
+def check_ledger(data, ctx, report):
+    """Issued IDs are permanent: each still exists, or a retirement says what replaced it."""
+    path = data.parent / "curated" / "id-ledger.json"
+    if not path.is_file():
+        return
+    ledger = json.loads(path.read_text("utf-8"))
+    current = {*ctx["people"], *ctx["songs"], *ctx["venues"], *ctx["releases"], *ctx["shows"]}
+    retired = ledger["retired"]
+    for old, new in retired.items():
+        if old in current:
+            report.error(path, None, f"retired id '{old}' is in use again")
+        seen = {old}
+        while new in retired and new not in seen:
+            seen.add(new)
+            new = retired[new]
+        if new not in current:
+            report.error(path, None, f"retired id '{old}' does not lead to a current id")
+    for kind, values in ledger["issued"].items():
+        for value in values:
+            if value not in current and value not in retired:
+                report.error(path, None, f"issued {kind} id '{value}' is gone with no retirement; see tools/issue_ids.py")
+
+
 # ---------------------------------------------------------------------------
 
 def validate_memory(files, schema_path, data):
@@ -463,6 +490,7 @@ def validate_memory(files, schema_path, data):
             check_recordings(data / name, node, ctx, report)
     if 'releases' in roots:
         check_release_tracks(*roots['releases'], ctx, report)
+    check_ledger(data, ctx, report)
     print(f'{len(names)} show file(s), {len(recording_names)} recording file(s), {len(roots)} registries: '
           f'{report.errors} error(s), {report.warnings} warning(s)')
     return report
@@ -535,6 +563,7 @@ def main():
 
     if "releases" in roots:
         check_release_tracks(*roots["releases"], ctx, report)
+    check_ledger(data, ctx, report)
 
     print(f"{len(show_files)} show file(s), {len(recording_files)} recording file(s), "
           f"{len(roots)} registr{'y' if len(roots) == 1 else 'ies'}: "

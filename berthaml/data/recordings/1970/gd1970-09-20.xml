@@ -3,96 +3,101 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-ff346024ad58cc971fb7" kind="unknown">
+  <recording id="r-ff346024ad58cc971fb7" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1970-09-20.135798.sbd.smith.droncit.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135798</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Droncit</credit>
     <lineage>This is a restored version of shind: 97364; MR &gt; R (Buddy Miller) HEAVILY EDITED &gt; R @ 71/2ips (Will Boswell) &gt; CD; Transfer info: reel &gt; AKAI GX625 &gt; Apogee Mini Me (24/96) &gt; Apogee Mini Dac (monitoring) &gt; Wavelab 5.0 (dithered to 16/44) &gt; CD &gt; EAC &gt; Wav &gt; Flac16Restoration completed with Diamond Cut Forensics 10.2.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Droncit</note>
   </recording>
-  <recording id="r-b2a56cbd2338abb57fda" kind="unknown">
+  <recording id="r-b2a56cbd2338abb57fda" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1970-09-20.136729.sbd.GEMS.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136729</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">PO and Stucco TINA Holmes</credit>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Set One: Sony L-750ESX-HFB Dynamicron SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; Set Two: DAT-&gt; PANASONIC SV-3700-&gt; TASCAM DA-30 (Spring 1996)-&gt; DAT-&gt; Panasonic SV-3800-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; Adobe Audition 3.0.1; Wavelab 7.1 mastering by Jamie Waddell; Track, FLAC and Pack by John Wenzel; a project **GEMS**</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-506e784532ba2a6131c4" kind="soundboard">
     <identifier scheme="archive-org">gd1970-09-20.140664.sbd.boswell.smith.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140664</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index"/>
     <credit role="recordist">Will Boswell</credit>
+    <credit role="transfer-mastering">Charlie Miller and Matt Smith and Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source Info: Master Soundboard Reels (borrowed by Peter Kafer) &gt; Will Boswell's reel @ 7 1/2 ips; Transfer Info: Reel (Technics RS1506) &gt; Tascam DA-3000 (DSF 1bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition 3.0 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Matt Smith and Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f92f72a41161786db43e" kind="soundboard">
     <identifier scheme="archive-org">gd1970-09-20.140665.sbd.boswell.smith.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140665</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Will Boswell</credit>
+    <credit role="transfer-mastering">Charlie Miller and Matt Smith and Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source Info: Master Soundboard Reels (borrowed by Peter Kafer) &gt; Will Boswell's reel @ 7 1/2 ips; Transfer Info: Reel (Technics RS1506) &gt; Tascam DA-3000 (DSF 1bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition 3.0 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Matt Smith and Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-47bc7abe708586fdf840" kind="audience">
     <identifier scheme="archive-org">gd1970-09-20.179320.aud.NSB-only.andrewf.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">179320</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index"/>
+    <credit role="transfer-mastering">Andrew F</credit>
     <lineage>AUD (mono) &gt; ? &gt; mid-1970's reel via the John Pape tape collection. | TDK SD-1800 &gt; Technics 1506 &gt; Komplete-6 &gt; Audacity 2448 &gt; Izotope-RX &gt; Wavelab &gt; WAV 2448.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F</note>
   </recording>
-  <recording id="r-4babe0d7d3d4f1aff3b7" kind="unknown">
+  <recording id="r-4babe0d7d3d4f1aff3b7" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1970-09-20.aud.weinberg.bunjes.81728.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81728</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Marty Weinberg</credit>
+    <credit role="transfer-mastering">Jack Warner and Hanno Bunjes</credit>
+    <personMatch name="Marty Weinberg" role="recordist"/>
     <lineage>recorded by Marty Weinberg on a 5" Uher open-reel deck. | AUD: reel master &gt; CDR &gt; EAC &gt; CDR, 46:19</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Jack Warner and Hanno Bunjes</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
   </recording>
-  <recording id="r-7edb4989f01aa929c7dc" kind="unknown">
+  <recording id="r-7edb4989f01aa929c7dc" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1970-09-20.sbd.smith.97364.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">97364</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matt Smith</credit>
     <lineage>MR &gt; R Heavily Edited &gt; R @ 71/2ips &gt; CD | reel &gt; AKAI GX625 &gt; Apogee Mini Me (24/96) &gt; Apogee Mini Dac (monitoring) &gt; Wavelab 5.0 (dithered to 16/44) &gt; CD &gt; EAC &gt; Wav &gt; Flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Matt Smith</note>
   </recording>
   <recording id="r-421112dcebe1b974d665" kind="soundboard">
     <identifier scheme="archive-org">gd70-09-20.aud.remaster.sirmick.27583.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">27583</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jim Wise, Darrin Sacks and SirMick</credit>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Remastered Soundboard | iZotope Ozone</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jim Wise, Darrin Sacks and SirMick</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-7984fba63c3bb4cc12cc" kind="soundboard">
     <identifier scheme="archive-org">gd70-09-20.sbd.sacks.1190.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1190</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1970-09-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jim Wise and Darrin Sacks</credit>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>Soundboard | SBD &gt; MR &gt; 7inch Reel (2nd Gen) &gt; Revox A-77 Alesis Masterlink ML-9600 (24/96) &gt; CDR (16/44.1) &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1970-09-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jim Wise and Darrin Sacks</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
-  <recording id="r-bce3a64f99bebcd584e0" kind="unknown">
-    <identifier scheme="other">etree-597475</identifier>
-    <note>Supplied catalogue listing: etree; gd1970-09-20.140664.sbd.boswell.smith.miller.clugston.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-bce3a64f99bebcd584e0" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">597475</identifier>
+    <identifier scheme="shnid" certainty="probable">140664</identifier>
+    <listing provider="etree" title="gd1970-09-20.140664.sbd.boswell.smith.miller.clugston.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-56d372d923a405632b4d" kind="unknown">
-    <identifier scheme="other">etree-597474</identifier>
-    <note>Supplied catalogue listing: etree; gd1970-09-20.140665.sbd.boswell.smith.miller.clugston.flac2496. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-56d372d923a405632b4d" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">597474</identifier>
+    <identifier scheme="shnid" certainty="probable">140665</identifier>
+    <listing provider="etree" title="gd1970-09-20.140665.sbd.boswell.smith.miller.clugston.flac2496" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-9e0664dc97804998c51e" kind="unknown">
-    <identifier scheme="other">etree-588256</identifier>
-    <note>Supplied catalogue listing: etree; gd1970-09-20.136729.sbd.GEMS.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  <recording id="r-9e0664dc97804998c51e" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">588256</identifier>
+    <identifier scheme="shnid" certainty="probable">136729</identifier>
+    <listing provider="etree" title="gd1970-09-20.136729.sbd.GEMS.flac16" references="etree-snapshot"/>
+    <personMatch name="GEMS" role="unspecified"/>
   </recording>
-  <recording id="r-84f0338ff95343e42aec" kind="unknown">
-    <identifier scheme="other">etree-587065</identifier>
-    <note>Supplied catalogue listing: etree; gd70-09-20.sbd.135798.smith.droncit.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  <recording id="r-84f0338ff95343e42aec" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">587065</identifier>
+    <identifier scheme="shnid" certainty="probable">135798</identifier>
+    <listing provider="etree" title="gd70-09-20.sbd.135798.smith.droncit.flac16" references="etree-snapshot"/>
   </recording>
 </recordings>

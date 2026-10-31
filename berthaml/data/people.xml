@@ -1,10 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <people xmlns="urn:berthaml:1" schemaVersion="1.1">
-  <record status="draft" updated="2026-10-30"/>
+  <record status="draft" updated="2026-10-30">
+    <cite title="Wikipedia: List of Grateful Dead members" href="https://en.wikipedia.org/wiki/List_of_Grateful_Dead_members" accessed="2026-10-30">Membership periods, gaps, Pigpen's and Donna Godchaux's leaves.</cite>
+    <cite title="JamBase: Bruce Hornsby Plays First Show As Member Of Grateful Dead" href="https://www.jambase.com/article/bruce-hornsby-grateful-dead-first-show-1990-madison-square-garden" accessed="2026-10-30">Hornsby's first show and the end of his run; he missed 22 shows within it.</cite>
+    <cite title="JamBase: Remembering Keith Godchaux &amp; Brent Mydland: Final Grateful Dead Shows" href="https://www.jambase.com/article/remembering-keith-godchaux-brent-mydland-final-grateful-dead-shows" accessed="2026-10-30">Last shows of Keith and Donna Godchaux and Brent Mydland.</cite>
+    <cite title="Wikipedia: Vince Welnick" href="https://en.wikipedia.org/wiki/Vince_Welnick" accessed="2026-10-30">Welnick's first show.</cite>
+    <cite title="NYS Music: The Dead Begin Their Lone Drummer Era at The Cap" href="https://nysmusic.com/?p=494473" accessed="2026-10-30">Hart's last show before leaving and his return on 20 October 1974.</cite>
+  </record>
   <!--
-    Membership dates are seed values entered from general knowledge, not
-    yet checked against a cited source. They drive lineup pre-fill and
-    warnings only; show files remain authoritative.
+    Membership periods give the roster for a date. A roster is a default, not a
+    fact about a show; show files remain authoritative.
   -->
   <person id="p-garcia">
     <name>Jerry Garcia</name>
@@ -45,8 +50,9 @@
       <instrument>organ</instrument>
       <instrument>harmonica</instrument>
       <instrument>vocals</instrument>
+      <absence from="1971-09" to="1971-11" certainty="probable"/>
     </membership>
-    <note>Missed a run of shows in late 1971 through illness; show files must reflect absences.</note>
+    <note>On sick leave in late 1971; the sources give months, not shows.</note>
   </person>
   <person id="p-hart">
     <name>Mickey Hart</name>
@@ -59,6 +65,7 @@
       <instrument>drums</instrument>
       <instrument>percussion</instrument>
     </membership>
+    <note>Returned at the last show of October 1974; sources differ on when he was formally reinstated, by 1976.</note>
   </person>
   <person id="p-constanten">
     <name>Tom Constanten</name>
@@ -79,7 +86,9 @@
     <sortName>Godchaux, Donna Jean</sortName>
     <membership from="1971-12-31" to="1979-02-17" role="member">
       <instrument>vocals</instrument>
+      <absence from="1973-11" to="1973-12" certainty="probable"/>
     </membership>
+    <note>On maternity leave in late 1973; the sources give months, not shows.</note>
   </person>
   <person id="p-mydland">
     <name>Brent Mydland</name>
@@ -101,12 +110,12 @@
   <person id="p-hornsby">
     <name>Bruce Hornsby</name>
     <sortName>Hornsby, Bruce</sortName>
-    <membership from="1990-09-15" to="1992-03" role="touring-member" certainty="probable">
+    <membership from="1990-09-15" to="1992-03-24" role="touring-member" certainty="probable">
       <instrument>piano</instrument>
       <instrument>accordion</instrument>
       <instrument>vocals</instrument>
     </membership>
-    <note>Also sat in as a guest on scattered dates outside this period.</note>
+    <note>Missed 22 shows within this period and sat in as a guest on scattered dates outside it, so a roster cannot settle whether he played a given show.</note>
   </person>
   <person id="p-hunter">
     <name>Robert Hunter</name>

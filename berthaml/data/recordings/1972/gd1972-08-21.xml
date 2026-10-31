@@ -5,72 +5,78 @@
   </record>
   <recording id="r-3d778d04c9906d7e0f1c" kind="soundboard">
     <identifier scheme="archive-org">gd1972-08-21.139581.sbd.miller.sirmick.fixed.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">139581</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick</credit>
+    <personMatch name="Betty Cantor-Jackson" role="unspecified"/>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: SBD &gt; Master Reels @ 7.5ips (10 Inch half-track ) &gt; PCM &gt; DAT (44.1k) - Recorded by Betty Cantor-Jackson, provided by Charlie Miller; Transfer: Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 . wav 16/44.1 - Transferred by Charlie Miller; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick October 2017; the original version of this had pitch correction incorrectly applied</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-5d9ea170bf2c2d579ef6" kind="soundboard">
     <identifier scheme="archive-org">gd1972-08-21.139581.sbd.miller.sirmick.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">139581</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Betty Cantor-Jackson</credit>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick</credit>
+    <personMatch name="Betty Cantor-Jackson" role="recordist"/>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: SBD &gt; Master Reels @ 7.5ips (10 Inch half-track ) &gt; PCM &gt; DAT (44.1k) - Recorded by Betty Cantor-Jackson, provided by Charlie Miller; Transfer: Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 . wav 16/44.1 - Transferred by Charlie Miller; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick October 2017</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d172b9201b82ef275fbc" kind="audience">
+  <recording id="r-d172b9201b82ef275fbc" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1972-08-21.171524.sonytc124.menke.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">171524</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Menke</credit>
+    <credit role="transfer-mastering">Recording and Transfer by Bob Menke Mastered by Charlie Miller May 25, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Menke" role="recordist"/>
     <lineage>(FOB) Sony TC-124 &gt; Cassette Master (Maxell UD-120) | Cassette Master (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (FLAC 24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Recording and Transfer by Bob Menke Mastered by Charlie Miller May 25, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
   </recording>
   <recording id="r-956cedfd0be71e9326ce" kind="audience">
     <identifier scheme="archive-org">gd1972-08-21.171731.PandP-aud.menke.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">171731</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Bob Menke" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Patched &amp; Pitch Corrected Audience - (original shnid = 171524)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9d7c61cb78a643d343dc" kind="unknown">
+  <recording id="r-9d7c61cb78a643d343dc" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1972-08-21.171731.PandP.aud.menke.flac1648</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
+    <identifier scheme="shnid" certainty="probable">171731</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index"/>
+    <personMatch name="Bob Menke" role="unspecified"/>
   </recording>
   <recording id="r-2af9d55678c85d58c527" kind="matrix">
     <identifier scheme="archive-org">gd1972-08-21.171736.mtx.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">171736</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (48/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-a2fedafab45fa5e6d516" kind="unknown">
+  <recording id="r-a2fedafab45fa5e6d516" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1972-08-21.171744.dts.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">171744</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS Audio 5.1 Mix (16/48)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-bc23c65cf92fb898be11" kind="unknown">
     <identifier scheme="archive-org">gd1972-08-21.171758.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">171758</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-e4b79f107a4ff1b82797" kind="soundboard">
     <identifier scheme="archive-org">gd72-08-21.sbd.hamilton.150.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">150</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Berkeley Community Theater on 1972-08-21" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | S:MR &gt; PCM &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Berkeley Community Theater on 1972-08-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

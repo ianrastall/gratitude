@@ -3,55 +3,56 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-8c6ecef7e5c3c5be7c92" kind="audience">
+  <recording id="r-8c6ecef7e5c3c5be7c92" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1993-05-15.137246.mk41.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">137246</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>(FOB) Schoeps MK41 -&gt; Dat (Panasonic SV-255/48k) | Dat (Sony R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 &gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-acd19b046d1cc31bdf20" kind="soundboard">
     <identifier scheme="archive-org">gd1993-05-15.140130.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140130</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-a420f7b23f47f688a238" kind="soundboard">
     <identifier scheme="archive-org">gd1993-05-15.140225.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140225</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b014f40e272f6cfc4631" kind="soundboard">
     <identifier scheme="archive-org">gd1993-05-15.141493.OTS.s2.AKG.Ackerman.Miller.Noel.t-flac.1648</identifier>
+    <identifier scheme="shnid" certainty="probable">141493</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ray Ackerman</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Set 2 Master Audience Recording &amp; Transfer by Ray Ackerman: AKG 460/61 B18 &gt; AKG B18 phantom power unit &gt; Panasonic SV255 &gt; DAT (OTS); Location: on the rail behind the soundboard dead center; Transfer info: Tascam DA 30 mkii &gt; Microtrack ii &gt; wavelab 5 &gt; WAV 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-c0c0a27f4087af7d90db" kind="unknown">
+  <recording id="r-c0c0a27f4087af7d90db" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1993-05-15.fob.schoeps.unknown.32091.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">32091</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl on 1993-05-15" references="archive-index archive-url-snapshot"/>
     <lineage>FOBH 30' center Schoeps Mk-41 3.5" @ 90* ( 1/2 O.R.T.F ) &gt; Schoeps KC5 Actives &gt; CMC 4 &gt; Canare Star Quad &gt; Kock Power Supply &gt; Canare Star Quad &gt; Koch Modified Panasonic SV-255. | DAT x 3 48k &gt; Hosa ODL-276 &gt; Nomad Jukebox 3 &gt; USB &gt; Dell Home Computer &gt; R8t Brain 48K to 44.1k &gt; CD Wave &gt; Flac Frontend.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl on 1993-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): unknown</note>
   </recording>
   <recording id="r-efa834a065c6d33a34f1" kind="audience">
     <identifier scheme="archive-org">gd93-05-15.schoeps.fink.17955.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17955</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Paul B. and Alan J. Fink</credit>
     <lineage>Audience: Schoeps MK21's | Schoeps MK21's &gt; CMC5 &gt; DAT &gt; CDR &gt; EAC 0.9 beta 4 (secure) &gt; Cool Edit Pro 2.0 &gt; shntool &gt; mkwACT &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1993-05-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Paul B. and Alan J. Fink</note>
   </recording>
-  <recording id="r-00a4504ce6268a7906db" kind="unknown">
-    <identifier scheme="other">etree-597190</identifier>
-    <note>Supplied catalogue listing: etree; gd1993-05-15.140130.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-00a4504ce6268a7906db" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">597190</identifier>
+    <identifier scheme="shnid" certainty="probable">140130</identifier>
+    <listing provider="etree" title="gd1993-05-15.140130.sbd.cm.miller.flac24" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

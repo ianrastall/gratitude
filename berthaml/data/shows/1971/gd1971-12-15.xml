@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19711215-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 226898176e918bd72dc4b2bece317a256914b2873939e05b113c52b17929caa7. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-420" nameAsBilled="Hill Auditorium"/>
+  <venue ref="v-hill-auditorium" nameAsBilled="Hill Auditorium"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-bertha" transition="unknown"/>
@@ -31,8 +31,8 @@
       <performance id="p02-02" song="s-deal" transition="unknown"/>
       <performance id="p02-03" song="s-sugar-magnolia" transition="unknown"/>
       <performance id="p02-04" song="s-turn-on-your-lovelight" transition="segue"/>
-      <performance id="p02-05" song="s-i-m-a-king-bee" transition="segue"/>
-      <performance id="p02-06" song="s-mannish-boy-i-m-a-man" transition="segue"/>
+      <performance id="p02-05" song="s-im-a-king-bee" transition="segue"/>
+      <performance id="p02-06" song="s-mannish-boy-im-a-man" transition="segue"/>
       <performance id="p02-07" song="s-turn-on-your-lovelight" transition="unknown"/>
       <note>Source section label: Set 2</note>
     </set>

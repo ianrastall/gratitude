@@ -6,7 +6,8 @@
   </record>
   <recording id="r-fa88fde45fc6e8d7494f" kind="soundboard">
     <identifier scheme="archive-org">gd1995-02-20.138045.set2.sbd.shnf</identifier>
-    <credit role="recordist">unknown</credit>
+    <identifier scheme="shnid" certainty="probable">138045</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Delta Center on 1995-02-20" references="archive-index archive-url-snapshot"/>
     <lineage>Set 2 Source: SBD &gt; ? &gt;SHN</lineage>
     <playlist id="pl-87f0976dcc3f75996dea" label="Archive original SHN files" format="shn" sourceHref="https://archive.org/metadata/gd1995-02-20.138045.set2.sbd.shnf">
       <track n="1" title="95-02-20 201 Box Of Rain" file="95-02-20201BoxOfRain.shn" mappingStatus="unreviewed" sourceNumber="1" duration="PT290.4S"/>
@@ -23,29 +24,30 @@
       <track n="12" title="95-02-20 212 Rain" file="95-02-20212Rain.shn" mappingStatus="unreviewed" sourceNumber="12" duration="PT299.5S"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Unknown</note>
-    <note>Archive source metadata (source): Set 2 Source: SBD &gt; ? &gt;SHN</note>
-    <note>Archive source metadata (taper): unknown</note>
-    <note>Archive source metadata (transferer): Unknown</note>
+    <captured field="source">Set 2 Source: SBD &gt; ? &gt;SHN</captured>
+    <captured field="taper">unknown</captured>
+    <captured field="transferer">Unknown</captured>
   </recording>
   <recording id="r-4be2846057791173a563" kind="soundboard">
     <identifier scheme="archive-org">gd1995-02-20.144300.sbd.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">144300</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Delta Center on 1995-02-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Master Soundboard Dat &gt; 1st generation cassettes &gt; Dat &gt; HDD (.wav 16/44.1) | HDD (.wav)&gt; Adobe Audition CC 2019 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-94ada24ac47773e8415f" kind="unknown">
     <identifier scheme="archive-org">gd1995-02-20.145491.akg460b.lerond.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">145491</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Delta Center on 1995-02-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jean Lerond</credit>
+    <credit role="transfer-mastering">Jean Lerond</credit>
     <lineage>AKGC60B+CK8x shotgun in OTS, ~34’ to St.L of C (inline w/hanging PA; aimed at the PA) &gt; Panasonic SV-255 (Paul Tumolo’s rig) Analog or Digi out, possibly via custom patchbay built by Neil Sturtevant (detail not noted) &gt; Sony TCD-D3 DAT @ 48 kHz | Fostex D5 DAT (playback of DAT Master record) @ 16-bits, 48 kHz (S/PDIF optical out) &gt; M-Audio Firewire Audiophile external soundcard &gt; Magix Sound Forge Pro Suite 12.1 build 170 x64 Audacity used for tracking, tagging, flac8 conversion</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jean Lerond</note>
   </recording>
   <recording id="r-148f7fb129124f91af6d" kind="soundboard">
     <identifier scheme="archive-org">gd95-02-20.sbd.1297.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1297</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Delta Center on 1995-02-20" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; D &gt; CD-R &gt; EAC &gt;SHN (note no cass gen)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Delta Center on 1995-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

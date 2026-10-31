@@ -3,14 +3,14 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820921-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <venue ref="v-madison-square-garden" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-playing-in-the-band" transition="segue"/>
       <performance id="p01-02" song="s-crazy-fingers" transition="segue"/>
       <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
       <performance id="p01-04" song="s-big-river" transition="unknown"/>
-      <performance id="p01-05" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-05" song="s-west-la-fadeaway" transition="unknown"/>
       <performance id="p01-06" song="s-beat-it-on-down-the-line" transition="segue"/>
       <performance id="p01-07" song="s-loser" transition="unknown"/>
       <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
@@ -23,7 +23,7 @@
       <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
       <performance id="p02-03" song="s-high-time" transition="unknown"/>
       <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
-      <performance id="p02-05" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-hes-gone" transition="segue"/>
       <performance id="p02-06" song="s-drums" transition="segue"/>
       <performance id="p02-07" song="s-space" transition="segue"/>
       <performance id="p02-08" song="s-throwing-stones" transition="segue"/>
@@ -33,7 +33,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

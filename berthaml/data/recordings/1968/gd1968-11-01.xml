@@ -3,58 +3,60 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-56d0beff788f2b58adb6" kind="unknown">
+  <recording id="r-56d0beff788f2b58adb6" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1968-11-01.131661.sbd.restore.droncit.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131661</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Silver Dollar Fair on 1968-11-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">droncit</credit>
     <lineage>This is a restoration/rework using shnid 18100 (Cotsman) and 09580 (Axelrod); Diamond Cut Forensics versions 8.5 and Alpha 9 for the editing.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Silver Dollar Fair on 1968-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): droncit</note>
   </recording>
   <recording id="r-307e717b48e4e07c11e6" kind="soundboard">
     <identifier scheme="archive-org">gd1968-11-01.150968.sbd.eaton-latvala.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150968</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Silver Dollar Fair on 1968-11-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Original Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 28, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="transfer-mastering"/>
+    <personMatch name="Dick Latvala" role="unspecified"/>
     <lineage>SBD &gt; (8-track) Master Reel (10in 15ips) &gt; DAT (Panasonic SV-3700) &gt; DAT (Panasonic SV-3700) | DAT (Panasonic SV-3800) &gt; Avid MBox Pro &gt; Pro Tools 12 &gt; WAV (16-bit/44.1k) Additional Mastering: WAV &gt; Samplitude Pro X5 Suite &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Silver Dollar Fair on 1968-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Original Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 28, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
   </recording>
   <recording id="r-cb23bf927864de45d0b6" kind="soundboard">
     <identifier scheme="archive-org">gd1968-11-01.sbd.axelrod.9580.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9580</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Silver Dollar Fair on 1968-11-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Mike Axelrod, Matt Vernon, Raoul Duke</credit>
     <lineage>SBD&gt;MSR&gt;C&gt;DAT&gt;CDR | CDR &gt; EAC(secure) &gt; CDWav(retracking) &gt; mkwact(seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silver Dollar Fair on 1968-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mike Axelrod, Matt Vernon, Raoul Duke</note>
   </recording>
-  <recording id="r-84b7460e466147f21efb" kind="unknown">
+  <recording id="r-84b7460e466147f21efb" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1968-11-01.sbd.kaplan.17080.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17080</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Silver Dollar Fair on 1968-11-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jim Powell and J Barnes</credit>
     <lineage>MSR &gt; R &gt; D &gt; CD | CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silver Dollar Fair on 1968-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Jim Powell and J Barnes</note>
   </recording>
-  <recording id="r-f6df719fa0120ac56463" kind="unknown">
+  <recording id="r-f6df719fa0120ac56463" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1968-11-01.sbd.kaplan.20008.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20008</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Silver Dollar Fair on 1968-11-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">MSR &gt; R &gt; D &gt; CD by Jim Powell. EAC &gt; SHN by J.Barnes. Track 5a edited by Seth Kaplan</credit>
     <lineage>MSR &gt; R &gt; D &gt; CD &gt; EAC (secure) &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silver Dollar Fair on 1968-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): MSR &gt; R &gt; D &gt; CD by Jim Powell. EAC &gt; SHN by J.Barnes. Track 5a edited by Seth Kaplan</note>
   </recording>
-  <recording id="r-cbab6ae0b6050a04ae2e" kind="unknown">
+  <recording id="r-cbab6ae0b6050a04ae2e" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1968-11-01.sbd.kaplan.9965.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9965</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Silver Dollar Fair on 1968-11-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Seth Kaplan</credit>
     <lineage>MSR&gt;C&gt;D&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Silver Dollar Fair on 1968-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Seth Kaplan</note>
   </recording>
   <recording id="r-8407b7955e058b284ba0" kind="soundboard">
     <identifier scheme="archive-org">gd68-11-01.sbd.cotsman.18100.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18100</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Silver Dollar Fair on 1968-11-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">David Litfin, Jim Powell, J. Barnes, and JCotsman</credit>
     <lineage>Soundboard | SBD &gt; MR &gt; C &gt; D &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Silver Dollar Fair on 1968-11-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Litfin, Jim Powell, J. Barnes, and JCotsman</note>
   </recording>
-  <recording id="r-d4f8d2767b2d990eecf6" kind="unknown">
-    <identifier scheme="other">etree-611342</identifier>
-    <note>Supplied catalogue listing: etree; GD1968-11-01 Chico 8-track Master Reel SBD (NEW). Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  <recording id="r-d4f8d2767b2d990eecf6" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">611342</identifier>
+    <listing provider="etree" title="GD1968-11-01 Chico 8-track Master Reel SBD (NEW)" references="etree-snapshot"/>
   </recording>
 </recordings>

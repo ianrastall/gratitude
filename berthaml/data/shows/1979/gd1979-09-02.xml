@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19790902-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 244541981127a73147e8fdda6b91e421ba19f85b81dc365db475f4d8c4a2c85a. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-777" nameAsBilled="Augusta Civic Center"/>
+  <venue ref="v-augusta-civic-center" nameAsBilled="Augusta Civic Center"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
@@ -28,12 +28,12 @@
       <performance id="p02-07" song="s-space" transition="segue"/>
       <performance id="p02-08" song="s-stella-blue" transition="segue"/>
       <performance id="p02-09" song="s-truckin" transition="segue"/>
-      <performance id="p02-10" song="s-nobody-s-fault-but-mine" transition="segue"/>
+      <performance id="p02-10" song="s-nobodys-fault-but-mine" transition="segue"/>
       <performance id="p02-11" song="s-around-and-around" transition="unknown"/>
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

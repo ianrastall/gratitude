@@ -6,17 +6,21 @@ Ian made BerthaML the next phase of Gratitude: the corpus is to become the sourc
 
 `data/shows/` and the four registries are now hand-owned; `tools/build_corpus.py` reads them and generates `data/recordings/`, `playlists/` and `reports/`. Recordings moved out of the show files, which had been 71% recording data. Sources no longer flow into show files: `reports/source-drift.jsonl` and `--propose` report differences for a person to weigh. `curated/shows/` and the curated registries are gone, folded into `data/`. Language version is 1.1. `imported_show` is the old importer, kept for comparing and for drafting new events.
 
-The split was verified against the committed 0.1.0 corpus: all 2,234 shows have identical stage content and all 18,611 recordings are unchanged. See [VALIDATION.md](VALIDATION.md). The only drift row is `gd1970-05-02`, and it is title aliases (Jordan for Cold Jordan), not a disagreement.
+The split was verified against the committed 0.1.0 corpus: all 2,234 shows have identical stage content and all 18,611 recordings are unchanged. See [VALIDATION.md](VALIDATION.md).
+
+Step 2 then made recording facts into fields, froze IDs, added title aliases, and added derived corroboration levels and era rosters. Two things differ from the plan as first told to Ian, for the same reason: `corroborated` is not a stored status, and rosters are not written into show files. Both are derived at every build, because the build never writes show files and a stored value would go stale at the next edit. See [README.md](README.md).
 
 Remaining steps:
 
 1. Done: split recordings out and hand over the show files.
-2. Schema revision: turn recording notes into real fields (transfer credits, modifiers, shnid, inferred kind), add the song alias table, add a machine-checked `corroborated` status, and freeze IDs. Freezing must happen before the app stores any ID: 114 show IDs carry source hash suffixes, venues use `v-jb-N`, and performance IDs are positional.
-3. Compile the XML into a read-only `berthaml.db` shipped with Gratitude, replacing `data/gd-shows.xml`. Compare album names and the 129 recording-only dates first.
+2. Done: schema revision and ID freeze. `curated/id-ledger.json` holds 712 retirements from the first freeze.
+3. Compile the XML into a read-only `berthaml.db` shipped with Gratitude, replacing `data/gd-shows.xml`. Compare album names and the 129 recording-only dates first. Use `reports/corroboration.jsonl` and `roster-eras.json` for confidence and labelled default lineups.
 4. Link local folders to shows and recordings: identifier, shnid, then file names and durations against track lists. Needs a store schema migration that preserves saved positions.
 5. New UI against the Jupiter style standard: show browser, setlists in playback, every owned performance of a song.
 
-Decided unless Ian objects: era rosters are added with a label saying they are roster-derived, reversing the current no-derived-lineups rule, and 1965-66 is a later capture. Before the roughly 18,000 Archive track lists are fetched, stop committing the TXT/JSON/M3U8 exports, which would reach about 54,000 files, and store the captures in a few bundled archives rather than one file each. File count is what costs here: `git add` of this 4,150-file change took about 30 minutes on Ian's hard disk, roughly 120 to 300 files a minute, despite being only about 30 MB. `sources/recording-playlists/index.json` and `cache_name` assume one file per capture and will need changing.
+Still to do with the track lists: order-aware linking, because exact title matching cannot place a song played twice in a show (St. Stephen at Cornell), and a non-song status for tuning and banter tracks. 535 recordings have `sbd` in the identifier but are typed matrix; some are right, and `gd77-05-08.sbd.hicks.4982.sbeok.shnf` looks wrong. Both setlist sources date the Ohio University show of November 1968 to the 25th, though published member lists give Tom Constanten's start as the 23rd, which is worth a look during early-show research.
+
+1965-66 is a later capture. Before the roughly 18,000 Archive track lists are fetched, stop committing the TXT/JSON/M3U8 exports, which would reach about 54,000 files, and store the captures in a few bundled archives rather than one file each. File count is what costs here: `git add` of this 4,150-file change took about 30 minutes on Ian's hard disk, roughly 120 to 300 files a minute, despite being only about 30 MB. `sources/recording-playlists/index.json` and `cache_name` assume one file per capture and will need changing.
 
 ## Dataset implementation, 30 October 2026
 

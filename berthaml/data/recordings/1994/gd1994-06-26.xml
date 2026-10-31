@@ -5,34 +5,36 @@
   </record>
   <recording id="r-9ba695b6116158de5d2e" kind="soundboard">
     <identifier scheme="archive-org">gd1994-06-26.138699.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">138699</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl on 1994-06-26" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat (44.1k) | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl on 1994-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-7175f564b05bca90eb81" kind="soundboard">
     <identifier scheme="archive-org">gd1994-06-26.encore.sbd.unknown.85864.sbefail.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">85864</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl on 1994-06-26" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt;???&gt;C | C&gt;WAV(on Toshiba Satellite HD)&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl on 1994-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-45a6f559c2d88054e19d" kind="unknown">
+  <recording id="r-45a6f559c2d88054e19d" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1994-06-26.fob.schoeps.byron.dauria.106225.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106225</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1994-06-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Eliot Byron</credit>
+    <credit role="transfer-mastering">Frank D'Auria</credit>
     <lineage>Schoeps CMC5 MK4-&gt;Sonosax SX-M2-&gt;Sony D10 Pro | Tascam DA20 MKII-&gt;Edirol R44-&gt;SD-&gt;PC-&gt;Audacity-&gt;CD Wave Editor-&gt;Flac Frontend</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1994-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Frank D'Auria</note>
   </recording>
   <recording id="r-b52abf496a52e316681e" kind="soundboard">
     <identifier scheme="archive-org">gd94-06-26.sbd.ladner.14943.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14943</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1994-06-26" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; CASSETTE &gt; DAT @48k | DA-20mkII &gt; Hosa S/PDIF &gt; Delta DiO 2496 &gt; Peak &gt; WAV @44.1k &gt; SHN (no extraction)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sam Boyd Silver Bowl, U.N.L.V. on 1994-06-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-1ee458faf01b2535616c" kind="unknown">
-    <identifier scheme="other">etree-593999</identifier>
-    <note>Supplied catalogue listing: etree; gd1994-06-26.138699.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-1ee458faf01b2535616c" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">593999</identifier>
+    <identifier scheme="shnid" certainty="probable">138699</identifier>
+    <listing provider="etree" title="gd1994-06-26.138699.sbd.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

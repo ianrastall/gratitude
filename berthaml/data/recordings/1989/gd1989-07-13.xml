@@ -3,131 +3,138 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-cbd3d25eb9ccb1e957ab" kind="unknown">
+  <recording id="r-cbd3d25eb9ccb1e957ab" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-07-13.133784.akg414btl-fob-dantepper.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">133784</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dan Tepper</credit>
+    <credit role="transfer-mastering">Dan Tepper</credit>
     <lineage>Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Dan Tepper</note>
   </recording>
   <recording id="r-932bafde721c7b4205cf" kind="matrix">
     <identifier scheme="archive-org">gd1989-07-13.136568.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136568</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Matrix 3 Source Mix - Source 1: SBD (shnid=95939) Set 1 &amp; Encore, Recording Info: SBD -&gt; Master Cassette -&gt; CD; Transfer Info: CD -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC + Source 2: AUD1 (shn id 133784) Set 2, Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper + Source 3: AUD2 (shnid 125363) Complete show, Master Audience Recorded By Fitzy; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename - matrix mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/</note>
+    <reference href="http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/"/>
   </recording>
-  <recording id="r-55b460659d488c190c00" kind="soundboard">
+  <recording id="r-55b460659d488c190c00" kind="soundboard" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-07-13.136570.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136570</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix ; Source 1: SBD (shnid=95939) Set 1 &amp; Encore, Recording Info: SBD -&gt; Master Cassette -&gt; CD; Transfer Info: CD -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC + Source 2: AUD1 (shn id 133784) Set 2, Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper + Source 3: AUD2 (shnid 125363) Complete show, Master Audience Recorded By Fitzy; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-04ec00294e7dcd9476b9" kind="soundboard">
     <identifier scheme="archive-org">gd1989-07-13.136662.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">136662</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - Source 1: SBD (shnid=95939) Set 1 &amp; Encore, Recording Info: SBD -&gt; Master Cassette -&gt; CD; Transfer Info: CD -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC + Source 2: AUD1 (shn id 133784) Set 2, Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper + Source 3: AUD2 (shnid 125363) Complete show, Master Audience Recorded By Fitzy; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename - mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-5aae836941b5d42c4e6f" kind="matrix">
+  <recording id="r-5aae836941b5d42c4e6f" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-07-13.140352.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140352</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f19da6528d796542f2c4" kind="matrix">
+  <recording id="r-f19da6528d796542f2c4" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-07-13.140397.UltraMatrix.sbd.mc.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140397</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/</note>
+    <reference href="http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/"/>
   </recording>
   <recording id="r-8c307315ef272e962fbd" kind="unknown">
     <identifier scheme="archive-org">gd1989-07-13.140446.TS-BeyerCM101.ebel.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140446</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index"/>
     <credit role="recordist">Pete Ebel</credit>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac24/96 Source Info: TS Beyer CM 101-&gt; Sony D6-&gt; Cassette Master (Maxell XL-II's 90's). Transfer Info: Master Cassette-&gt; Nakamichi CR-5A -&gt; Grace Lunatec V3 (Analong-&gt; Digital Converter) (SPDIF out) 24/96-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; WAV-&gt; FLAC Level 8-&gt; Tagged (24/96). Transfers by Pete Ebel.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
   <recording id="r-1e93576f09efc22569db" kind="matrix">
     <identifier scheme="archive-org">gd1989-07-13.163770.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">163770</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f062f6f82cb84014dfc8" kind="unknown">
+  <recording id="r-f062f6f82cb84014dfc8" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-07-13.163771.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">163771</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-8c7f2540c7f8ec7b135d" kind="unknown">
     <identifier scheme="archive-org">gd1989-07-13.163772.tobin.5-1.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163772</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-87c684cf20fe0f60fda8" kind="audience">
     <identifier scheme="archive-org">gd1989-07-13.nak100.mchugh.hanscom-.32897.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32897</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1989-07-13" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Boyd McHugh</credit>
+    <credit role="transfer-mastering">Dave Hanscom</credit>
     <lineage>NAK-100s &gt; Sony D-5, using Dolby B. | MC &gt; standalone TDK DA-5800 CD recorder, via Nak BX-300 cassette deck, as long multi-song tracks.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Hanscom</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/</note>
+    <reference href="http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/"/>
   </recording>
   <recording id="r-555d9ecc563c83b2b211" kind="audience">
     <identifier scheme="archive-org">gd1989-07-13.Nak300CP4.Fitzy.Keo.125363.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">125363</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index"/>
     <credit role="recordist">fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-a55596526f5be056036a" kind="audience">
     <identifier scheme="archive-org">gd1989-07-13.Nak300CP4.Fitzy.Keo.125364.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">125364</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index"/>
     <credit role="recordist">fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-d04e633d65fc3812cbaf" kind="soundboard">
     <identifier scheme="archive-org">gd1989-07-13.sbd.miller.95939.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95939</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1989-07-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Cassette -&gt; CD | CD -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ce0fca4039a252be9204" kind="audience">
     <identifier scheme="archive-org">gd89-07-13.schoeps.9046.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9046</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>(Schoeps)AUD&gt;PCM&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1989-07-13. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/</note>
+    <reference href="http://infinitedead.net/2024/07/13/7-13-89-washington-dc-rfk-stadium/"/>
   </recording>
-  <recording id="r-b5ef130f2ac78b9f755c" kind="unknown">
-    <identifier scheme="other">etree-597529</identifier>
-    <note>Supplied catalogue listing: etree; gd1989-07-13.140397.UltraMatrix.sbd.mc.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-b5ef130f2ac78b9f755c" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">597529</identifier>
+    <identifier scheme="shnid" certainty="probable">140397</identifier>
+    <listing provider="etree" title="gd1989-07-13.140397.UltraMatrix.sbd.mc.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-1eddbac46df57ba2599a" kind="unknown">
-    <identifier scheme="other">etree-597381</identifier>
-    <note>Supplied catalogue listing: etree; gd1989-07-13.140352.ultramatrix.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-1eddbac46df57ba2599a" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">597381</identifier>
+    <identifier scheme="shnid" certainty="probable">140352</identifier>
+    <listing provider="etree" title="gd1989-07-13.140352.ultramatrix.miller.flac24" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

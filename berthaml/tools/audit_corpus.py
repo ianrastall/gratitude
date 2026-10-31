@@ -7,6 +7,7 @@ from pathlib import Path
 import sys
 
 from lxml import etree
+import issue_ids
 from playlist_data import cache_name
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,6 +57,14 @@ def audit(require_complete=False, directory=None):
         errors.append('Duplicate issue IDs')
     if sum(r['state'] == 'open' for r in queue) != stats['open_issues']:
         errors.append('Open issue accounting disagrees with coverage report')
+    ledger_path = directory / 'curated/id-ledger.json'
+    if ledger_path.exists():
+        issued = {value for values in json.loads(ledger_path.read_text('utf-8'))['issued'].values() for value in values}
+        unissued = issue_ids.current(directory)
+        unissued = {value for values in unissued.values() for value in values} - issued
+        if unissued:
+            errors.append(f'{len(unissued)} IDs have not been issued; run tools/issue_ids.py: '
+                          + ', '.join(sorted(unissued)[:5]))
     for show in shows:
         rec = show.find('b:record', N)
         if not rec.findall('b:cite', N):

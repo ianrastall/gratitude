@@ -5,34 +5,38 @@
   </record>
   <recording id="r-419f41b1794fc95b1a4b" kind="unknown">
     <identifier scheme="archive-org">gd1970-05-06.156178.msr.zootype.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">156178</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kresge Plaza, M.I.T. on 1970-05-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Zootype</credit>
     <lineage>MSR (MIT Reels) &gt; Sonic Solutions Digital Editing (gans) &gt; DATs &gt; CDRs &gt; EAC &gt; SHN | 2022 reseed: SBE repaired in track 04, SHN files re-encoded to FLAC-8: SHN&gt;WAV&gt;FLAC-8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kresge Plaza, M.I.T. on 1970-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Zootype</note>
   </recording>
-  <recording id="r-19274e03148bab1aab19" kind="unknown">
+  <recording id="r-19274e03148bab1aab19" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1970-05-06.sbd.gans-hall.95.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">95</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kresge Plaza, Massachusetts Institute of Technology on 1970-05-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">David Gans and Mike Hall</credit>
     <lineage>MSR (MIT Reels) 1/2 Track Mono -&gt; Otari MX 55 2 track (playback) -&gt; TC 2000 Studio Effects Processor (using only the A-&gt;D converter, no effects) -&gt;Sonic Solutions (at 20 bits resolution) -&gt; mastered to CD using Sony SBM 2(No DAT generations) -&gt; CD (from Gans) &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kresge Plaza, Massachusetts Institute of Technology on 1970-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): David Gans and Mike Hall</note>
   </recording>
   <recording id="r-fe2ba446e36729360a20" kind="soundboard">
     <identifier scheme="archive-org">gd1970-05-06.sbd.gmb.95816.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95816</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kresge Plaza - MIT on 1970-05-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Koucky</credit>
     <lineage>Master Soundboard Reels 10", 2-sided, 1/2 Track Mono &gt; DAT x 1 | Panasonic SV-3700 &gt; Cardas cable S/PDIF &gt; Edirol UA-5 &gt; analog out &gt; Korg MR-1 DFF @ [1bit/2.8 mhz] Rate Conversion: AudioGate to [24bit/96 khz] Mastering: In WaveLab with Nomad Factory Plugins Rate Conversion with r8brain to [16bit/44.1 mhz] &gt; TLH &gt; Flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kresge Plaza - MIT on 1970-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Koucky</note>
   </recording>
   <recording id="r-51ce0dc82b730f816bd3" kind="soundboard">
     <identifier scheme="archive-org">gd1970-05-06.sbd.gmb.95817.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">95817</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kresge Plaza - MIT on 1970-05-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Koucky</credit>
     <lineage>Source: Master Soundboard Reels 10", 2-sided, 1/2 Track Mono &gt; DAT x 1 | Panasonic SV-3700 &gt; Cardas cable S/PDIF &gt; Edirol UA-5 &gt; analog out &gt; Korg MR-1 DFF @ [1bit/2.8 mhz] Rate Conversion: AudioGate to [24bit/96 khz] Mastering: In WaveLab with Nomad Factory Plugins &gt; TLH &gt; Flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kresge Plaza - MIT on 1970-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Koucky</note>
   </recording>
   <recording id="r-92ceedcc1dc642c9bb17" kind="soundboard">
     <identifier scheme="archive-org">gd70-05-06.sbd.gans.94.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">94</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kresge Plaza, M.I.T. on 1970-05-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Eli Polonsky, Rango Keshavan and Darrin Sacks</credit>
+    <personMatch name="Rango Keshavan" role="transfer-mastering"/>
     <lineage>Soundboard | MSR (MIT Reels) 1/2 Track Mono &gt; Otari MX 55 2 track (playback) &gt; TC 2000 Studio Effects Processor (A&gt;D only, no effects) &gt; Sonic Solutions (20bits) &gt; Sony SBM-2 &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kresge Plaza, M.I.T. on 1970-05-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Eli Polonsky, Rango Keshavan and Darrin Sacks</note>
-    <note certainty="uncertain">Legacy name match: Rango Keshavan; role transfer-mastering.</note>
   </recording>
 </recordings>

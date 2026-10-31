@@ -5,25 +5,27 @@
   </record>
   <recording id="r-50da87e8448f66452edf" kind="soundboard">
     <identifier scheme="archive-org">gd1987-11-08.122167.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">122167</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-08" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;Samplitude Professional v9.02 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2bcc1c1919866c509c30" kind="soundboard">
     <identifier scheme="archive-org">gd1987-11-08.sbd.walker-scotton.miller.85587.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">85587</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
-  <recording id="r-5c72d52e3025e4ddd200" kind="audience">
+  <recording id="r-5c72d52e3025e4ddd200" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd87-11-08.schoeps-webber-small.gardner.12039.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12039</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-08" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>FOB, Schoeps CMC44 (110' ORTF) on stand --&gt; Oade Power Supply --&gt; Sony PCM-F1 | PCM Master, Sony PCM 601ES -&gt; RME Hammerfall &gt; Soundforge 4.5/CD Architect &gt; CDR; Recording and Transfer: Sean Weber-small; EAC and minor edits by Bill Gardner; ; QC by &lt;a href= "htt</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
 </recordings>

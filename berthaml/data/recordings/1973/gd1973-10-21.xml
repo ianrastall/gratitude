@@ -5,22 +5,24 @@
   </record>
   <recording id="r-e0013d1118189339c8ec" kind="soundboard">
     <identifier scheme="archive-org">gd1973-10-21.sbd.fishman.8191.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8191</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Omaha Civic Auditorium on 1973-10-21" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">JR Fishman</credit>
     <lineage>MSR-&gt;C-&gt;D-&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Omaha Civic Auditorium on 1973-10-21. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): JR Fishman</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/21/10-21-73-omaha-ne-civic-auditorium/</note>
+    <reference href="http://infinitedead.net/2021/10/21/10-21-73-omaha-ne-civic-auditorium/"/>
   </recording>
   <recording id="r-84da586b5cece1ce4ede" kind="soundboard">
     <identifier scheme="archive-org">gd73-10-21.sbd.miller.17413.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17413</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Omaha Civic Auditorium on 1973-10-21" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Soundboard | SBD -&gt; Rm -&gt; ? -&gt; Dat -&gt; Sound Forge -&gt; CD -&gt; EAC -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Omaha Civic Auditorium on 1973-10-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
-  <recording id="r-90dca0a5fd1a0fa94361" kind="unknown">
+  <recording id="r-90dca0a5fd1a0fa94361" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd73-10-21.sbd.miller.17413.sbeok.shnf&amp;</identifier>
-    <note>Supplied catalogue listing: Archive.org; gd73-10-21.sbd.miller.17413.sbeok.shnf&amp;. Source references: infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/21/10-21-73-omaha-ne-civic-auditorium/</note>
+    <identifier scheme="shnid" certainty="probable">17413</identifier>
+    <listing provider="Archive.org" title="gd73-10-21.sbd.miller.17413.sbeok.shnf&amp;" references="infinite-dead"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <reference href="http://infinitedead.net/2021/10/21/10-21-73-omaha-ne-civic-auditorium/"/>
   </recording>
 </recordings>

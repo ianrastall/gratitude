@@ -3,10 +3,10 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950621-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-986" nameAsBilled="Knickerbocker Arena"/>
+  <venue ref="v-knickerbocker-arena" nameAsBilled="Knickerbocker Arena"/>
   <program coverage="partial">
     <set kind="soundcheck" n="1" mode="unknown">
-      <performance id="p01-01" song="s-it-s-all-too-much" transition="unknown"/>
+      <performance id="p01-01" song="s-its-all-too-much" transition="unknown"/>
       <note>Source section label: Soundcheck</note>
     </set>
     <set kind="set" n="1" mode="unknown">
@@ -22,7 +22,7 @@
       <performance id="p03-01" song="s-scarlet-begonias" transition="segue"/>
       <performance id="p03-02" song="s-fire-on-the-mountain" transition="unknown"/>
       <performance id="p03-03" song="s-man-smart-woman-smarter" transition="unknown"/>
-      <performance id="p03-04" song="s-it-s-all-too-much" transition="unknown"/>
+      <performance id="p03-04" song="s-its-all-too-much" transition="unknown"/>
       <performance id="p03-05" song="s-playing-in-the-band" transition="segue"/>
       <performance id="p03-06" song="s-supplication" transition="segue"/>
       <performance id="p03-07" song="s-drums" transition="segue"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p04-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

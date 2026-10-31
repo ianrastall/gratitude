@@ -5,34 +5,37 @@
   </record>
   <recording id="r-70b2b13a6e430d71e9cd" kind="soundboard">
     <identifier scheme="archive-org">gd1972-09-15.133998.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">133998</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Music Hall on 1972-09-15" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Adobe Audition CC 2015 -&gt;Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Music Hall on 1972-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f312e3391d0448ec2ab5" kind="unknown">
+  <recording id="r-f312e3391d0448ec2ab5" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1972-09-15.aud-degen.sirmick.31990.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">31990</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1972-09-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bill Degen</credit>
-    <lineage>Source 1: MAC &gt; Reel &gt; Cassette &gt; DAT &gt; CD Recorded by Bill Degen from balcony front row; Source 2: MAC &gt; ? &gt; DAT (supplied by Dave Minor) &gt; CD | See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1972-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
+    <lineage>Source 1: MAC &gt; Reel &gt; Cassette &gt; DAT &gt; CD Recorded by Bill Degen from balcony front row; Source 2: MAC &gt; ? &gt; DAT (supplied by Dave Minor) &gt; CD</lineage>
   </recording>
   <recording id="r-2e4b4bfed26d1494d370" kind="audience">
     <identifier scheme="archive-org">gd72-09-15.degen.weiner.7924.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7924</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1972-09-15" references="archive-index archive-url-snapshot"/>
     <lineage>Audience | MAC &gt; Reel &gt; Cassette &gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1972-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-b0e8429a41399795cc55" kind="soundboard">
     <identifier scheme="archive-org">gd72-09-15.psdb.kaplan.8046.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8046</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1972-09-15" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | S:MR &gt; cassette &gt; DAT &gt; CD &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1972-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-ffa8e474fdd6f41d83d7" kind="unknown">
-    <identifier scheme="other">etree-581603</identifier>
-    <note>Supplied catalogue listing: etree; gd1972-09-15.sbd.miller.133998.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-ffa8e474fdd6f41d83d7" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">581603</identifier>
+    <identifier scheme="shnid" certainty="probable">133998</identifier>
+    <listing provider="etree" title="gd1972-09-15.sbd.miller.133998.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

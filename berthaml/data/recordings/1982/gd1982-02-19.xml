@@ -3,81 +3,85 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-9caaf5dc2b65b7682a74" kind="audience">
+  <recording id="r-9caaf5dc2b65b7682a74" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1982-02-19.136426.nak300.schley.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">136426</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Brian Schley</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>flac 16 ; AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Hitachi ME-Metal. FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 10/2015</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
-  <recording id="r-92f103529ba8ba5c1cf0" kind="audience">
+  <recording id="r-92f103529ba8ba5c1cf0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1982-02-19.149019.fob.nak700.severson.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">149019</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Severson's Master (FOB) Audience Cassettes; 3 x Nakamichi 700 cardioids (center mic 6db EQ), X/Y 85 degrees &gt; Sony D5 (55' from stage, 10' right of center, section 201, row 10, seat 4) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-5097a177ffa69a95fd73" kind="audience">
+  <recording id="r-5097a177ffa69a95fd73" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1982-02-19.149020.fob.nak700.severson.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">149020</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Severson's Master (FOB) Audience Cassettes; 3 x Nakamichi 700 cardioids (center mic 6db EQ), X/Y 85 degrees &gt; Sony D5 (55' from stage, 10' right of center, section 201, row 10, seat 4) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-81092dd95308153b044e" kind="unknown">
+  <recording id="r-81092dd95308153b044e" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1982-02-19.151131.aud.lohr.vernon.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">151131</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index"/>
     <credit role="recordist">Gesine Lohr</credit>
+    <credit role="transfer-mastering">Matt Vernon</credit>
     <lineage>Nak CM700 &gt; TC-D5 &gt; MAC &gt; This copy | his copy &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification) &gt; dbpoweramp &gt; 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Matt Vernon</note>
   </recording>
-  <recording id="r-7130b972aee774367dfe" kind="unknown">
+  <recording id="r-7130b972aee774367dfe" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1982-02-19.151132.aud.lohr.vernon.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">151132</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index"/>
     <credit role="recordist">Gesine Lohr</credit>
+    <credit role="transfer-mastering">Matt Vernon</credit>
     <lineage>Nak CM700 &gt; TC-D5 &gt; MAC &gt; This copy | his copy &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Matt Vernon</note>
   </recording>
   <recording id="r-5365c953599ddb293901" kind="unknown">
     <identifier scheme="archive-org">gd1982-02-19.156326.beyer.tompkins.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">156326</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">oncert recording by Rip Tompkins, &amp; with thanks to Richie Stankiewicz!</credit>
+    <credit role="transfer-mastering">Transferred by Andrew F. 04/2022</credit>
     <lineage>Source: BeyerDynamic mics &gt; Sony TC-D5M &gt; Maxell-MX. | Transfer: MAC &gt; Nakamichi CR-5A (Dolby-B in) &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transferred by Andrew F. 04/2022</note>
   </recording>
-  <recording id="r-dd40c83026cd5e0d1aa2" kind="audience">
+  <recording id="r-dd40c83026cd5e0d1aa2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1982-02-19.fob.sonyecm220t.keshavan.miller.94395.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94395</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall - San Diego Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rango Keshavan</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rango Keshavan" role="recordist"/>
     <lineage>(FOB/6th Row) Sony ECM-220T -&gt; Cassette Master (Sony TC-D5M/Fuji FeCr Tape/Dolby DB) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall - San Diego Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
   </recording>
   <recording id="r-13731e9548e1d60f0b0c" kind="audience">
     <identifier scheme="archive-org">gd82-02-19.nak700_martin.warner.28382.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">28382</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steven Martin</credit>
     <lineage>Audience Recording: Nak CM700's | MAC (Recorded by Steven Martin, modified Nakamichi CM-700 mics &gt; Sony TC-D5M on Maxell metal tape) &gt; Nak Dragon playback &gt; Cardas audiophile cables &gt; HHB CDR 800 master CD &gt; Plextor PX-708A extraction (EAC v0.95 prebeta 5) &gt; tracking (CD Wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-2911a4df91e1e89b0051" kind="audience">
     <identifier scheme="archive-org">gd82-02-19.sony-rango.unknown.28732.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">28732</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rango Keshavan</credit>
+    <personMatch name="Rango Keshavan" role="recordist"/>
     <lineage>Audience Recording: Sony ECM 200T | 6th row center: Sony ECM 220T mics on hats &gt; Sony TCDM5 Cassette tape on Sony FeCr Type III tapes with Dolby B OnPlayback by Rango Keshavan Nak DR1 EQ Type II, Dolby B On &gt; Sony PCMR500 DAT deck SBM On &gt; Monster Digital Coax Cab</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Rango Keshavan; role recording.</note>
   </recording>
   <recording id="r-c725f36cc070fa8d331f" kind="audience">
     <identifier scheme="archive-org">gd82-02-19.sony-unk.willy.13570.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13570</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Sony ECM 200T | Sony ECM200T&gt; SonyTCD5&gt; C&gt; NakDR1&gt; PCM&gt; PC&gt; CoolEditBass Boost&gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Golden Hall, Community Concourse on 1982-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

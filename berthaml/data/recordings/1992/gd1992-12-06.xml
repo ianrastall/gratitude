@@ -3,99 +3,108 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-f666183a4b9830be1123" kind="unknown">
+  <recording id="r-f666183a4b9830be1123" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1992-12-06.117301.aud.homes.krw_co.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">117301</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Homes</credit>
+    <credit role="transfer-mastering">krw_co</credit>
     <lineage>dave homes dat master; | audience dat master to cdr krw_co transfer to eac to tlh flac level 8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): krw_co</note>
   </recording>
   <recording id="r-f80555e58c4bed21ea14" kind="unknown">
     <identifier scheme="archive-org">gd1992-12-06.125410.schoeps441.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">125410</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
     <lineage>Shoeps 441 &gt; DAT &gt; CM | DAT&gt;CM&gt;WAV; NAKCR1&gt;TEAC CRW250&gt;WAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-88580b058a9338ac26f1" kind="audience">
+  <recording id="r-88580b058a9338ac26f1" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-12-06.141065.fob.akg460.ebel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141065</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac16/44.1khz Source Info:FOB AKG 460-&gt; Panasonic SV255-&gt; DATTransfer Info:Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Transfers by Pete Ebel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
   <recording id="r-6372310859dc288a7917" kind="soundboard">
     <identifier scheme="archive-org">gd1992-12-06.165886.sbd.miller.flac2448</identifier>
-    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <identifier scheme="shnid" certainty="probable">165886</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller September 30, 2023</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette (Tascam 122mkIII/TDK SA-X100) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite (24-bit/48k) &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 30, 2023</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-5e5e9b1408f545432f02" kind="soundboard">
     <identifier scheme="archive-org">gd1992-12-06.166299.sbd.miller.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">166299</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller September 30, 2023</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette (Tascam 122mkIII/TDK SA-X100) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite (24-bit/48k) &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller September 30, 2023</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-3e569d137391fae03632" kind="unknown">
     <identifier scheme="archive-org">gd1992-12-06.akg-c61.fink-barnett-ifthir.114526.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">114526</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Fink and Marcus Barnett</credit>
+    <credit role="transfer-mastering">ifthir</credit>
     <lineage>Source DAT labeled AKG C-61's w/ Hyper-Cardiod caps &gt; Denon DTR-80P ; Source taped by Steve Fink and Marcus Barnett Tascam DA-40 &gt; S/PDIF &gt; M-Audio 2496 @ 48khz &gt; 44khz sample rate conversion via iZotope SRC 64 bit SRC Tracking performed in Adobe Audition 3.0 FLAC conversion via Trader's Little Helper; All transfers by ifthir@hotmail.com 7/8/2011</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): ifthir</note>
   </recording>
   <recording id="r-9163b7d694ff4c254cff" kind="audience">
     <identifier scheme="archive-org">gd1992-12-06.AKG451.Darby.117626.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">117626</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/First Row Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes Set 1 Maxell MX-s,Set 2 Maxell MX; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-a584fa94d0a249acbd2a" kind="audience">
     <identifier scheme="archive-org">gd1992-12-06.AKG451.Darby.117627.Flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">117627</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/DFC/First Row Of OTS/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes Set 1 Maxell MX-s,Set 2 Maxell MX; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
-  <recording id="r-bde08ac3fc3c09e7cf9b" kind="matrix">
+  <recording id="r-bde08ac3fc3c09e7cf9b" kind="matrix" modifiers="DSBD">
     <identifier scheme="archive-org">gd1992-12-06.mtx.hansokolow.97819.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">97819</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">hansokolow</credit>
     <lineage>matrix of DSBD: shnid=94107 and DAUD: shnid=33956 by hansokolow using ProTools</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): hansokolow</note>
   </recording>
   <recording id="r-1965d811fd3c36cca6f4" kind="soundboard">
     <identifier scheme="archive-org">gd1992-12-06.sbd.miller.94107.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94107</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-4e0f7b1d574fce909e65" kind="unknown">
     <identifier scheme="archive-org">gd1992-12-06.schoeps.evans.gems.33956.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">33956</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1992-12-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Todd Evans</credit>
+    <credit role="transfer-mastering">**_**</credit>
+    <personMatch name="GEMS" role="unspecified"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Schoeps CMC32 Split Omnis -&gt; Monster M1000 Jumpers -&gt; -&gt; Oade Pre -&gt; MonsterM1000 Cable -&gt; 7ft Stand -&gt; Panasonic sv255 | MASTER DAT &gt; TASCAM DA-20 &gt; M-Audio FireWire solo &gt; Soundforge 8.0 wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): **_**</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-673af1999bbe832e13a5" kind="audience">
     <identifier scheme="archive-org">gd92-12-06.aud.vernon.10381.sbeok.shnf</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">10381</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording | Unknown aud &gt; ? &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-a9002990cfb24e6fbafa" kind="soundboard">
     <identifier scheme="archive-org">gd92-12-06.sbd.wiley.8706.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8706</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06" references="archive-index"/>
     <lineage>Soundboard | SBD&gt;D&gt; Delta Dio 2496 &gt; Cool Edit &gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1992-12-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

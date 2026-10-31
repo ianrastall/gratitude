@@ -5,57 +5,61 @@
   </record>
   <recording id="r-2fd994fe0226edc0ed3b" kind="audience">
     <identifier scheme="archive-org">gd1982-12-27.147919.senn421.hecht.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">147919</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium on 1982-12-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chris Hecht</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Chris Hecht's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b91f36dbd54a24eb1c85" kind="audience">
     <identifier scheme="archive-org">gd1982-12-27.147920.senn421.hecht.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">147920</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium on 1982-12-27" references="archive-index"/>
     <credit role="recordist">Chris Hecht</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Chris Hecht's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-1619c37b9f39ac16df56" kind="unknown">
+  <recording id="r-1619c37b9f39ac16df56" kind="unknown" inferredKind="matrix">
     <identifier scheme="archive-org">gd1982-12-27.mtx.sb18a.34705.sbeok.flac16</identifier>
-    <lineage>See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): Bill Koucky and Chris Ladner and Chris Chappell</note>
-    <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">34705</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1982-12-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Koucky and Chris Ladner and Chris Chappell</credit>
+    <personMatch name="Chris Chappell" role="transfer-mastering"/>
   </recording>
   <recording id="r-93a5dda8c14cc188b104" kind="soundboard">
     <identifier scheme="archive-org">gd1982-12-27.sbd.ladner.32134.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32134</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1982-12-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Koucky and Chris Ladner</credit>
     <lineage>SBD &gt; MC(?) &gt; Cx &gt; DAT &gt; DAT from Dr. Bruce Fried | 4/96 &gt; Panasonic SV 3700 DAT&gt; Tascam CD-RW 700&gt; EAC &gt; WAV/FLAC &gt; WAV (depopping/retracking, see below)&gt; FLAC (level 5).</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1982-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Koucky and Chris Ladner</note>
   </recording>
-  <recording id="r-706a1c6dfb76544a7681" kind="audience">
+  <recording id="r-706a1c6dfb76544a7681" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1982-12-27.senn441.koucky.ladner.77463.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">77463</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium on 1982-12-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bill Koucky</credit>
+    <credit role="transfer-mastering">Bill Koucky and Chris Ladner</credit>
     <lineage>FOB Sennheiser 441s &gt; Sony D5 &gt; Sony D5 (first gen CM) | Playback on Nakamich BX-100 &gt; Panasonic SV 3700 DAT&gt; Tascam CD-RW 700&gt; EAC &gt; WAV &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Bill Koucky and Chris Ladner</note>
   </recording>
   <recording id="r-a539b74af23f69783f55" kind="soundboard">
     <identifier scheme="archive-org">gd1982-12-27.set-2.sbd.miller.81515.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81515</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium on 1982-12-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Cassettes provided by Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Nakamichi 550/Maxell XLIIS-90) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-b911492054b23e5ad06c" kind="soundboard">
     <identifier scheme="archive-org">gd1982-12-27.set2.sbd.miller.95954.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95954</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium on 1982-12-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; PCM | PCM -&gt; Peak -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1982-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

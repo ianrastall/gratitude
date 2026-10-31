@@ -5,37 +5,41 @@
   </record>
   <recording id="r-cc523fbf5db8edd8059a" kind="unknown">
     <identifier scheme="archive-org">gd1993-12-17.122840.neumann.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">122840</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum Arena on 1993-12-17" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">D5scott</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Source: * microphones - up front/center &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files; * - see info file regarding microphones</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1993-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-22331e06c2fcf9582d7f" kind="soundboard">
     <identifier scheme="archive-org">gd1993-12-17.sbd.miller.91961.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91961</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-17" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Thanks to Paul Scotton for the discs</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-ac4bc6abf0ade412bf14" kind="unknown">
     <identifier scheme="archive-org">gd1993-12-17.schoeps.litzenberger.86014.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">86014</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-17" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Keith Litzenberger</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Schoeps MK4's&gt;Reutelhuber PreAmp&gt;Technics SVM-D1 | Sony TCD-D10PROII&gt;Edirol R-4&gt;WL5&gt;CDWAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-12-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
-  <recording id="r-3025f7581d2fd5ba9087" kind="audience">
+  <recording id="r-3025f7581d2fd5ba9087" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd93-12-17.neumann.vernon.7348.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7348</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum Arena on 1993-12-17" references="archive-index"/>
+    <credit role="transfer-mastering">Matt Vernon</credit>
     <lineage>Audience: Neumann KM140's | Neumann KM140's (FOB) &gt; DAT &gt; ? &gt; CDR &gt; EAC(secure) &gt; Cool Edit &gt; mkwACT &gt; SHN (seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1993-12-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Matt Vernon</note>
   </recording>
   <recording id="r-3a8983d3404253131f95" kind="soundboard">
     <identifier scheme="archive-org">gd93-12-17.sbd.cole.19287.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">19287</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum Arena on 1993-12-17" references="archive-index"/>
     <lineage>SBD&gt;DAT&gt;C&gt;DAT&gt;CDR (via Chris Laughlin). Patch Source: shnid=7348 . Mastered &amp; seeded by MattMan.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1993-12-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

@@ -5,17 +5,18 @@
   </record>
   <recording id="r-3b2843a601d0fe8ed480" kind="soundboard">
     <identifier scheme="archive-org">gd1971-10-19.sbd.miller.114351.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">114351</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Northrop Auditorium, U. of Minn. on 1971-10-19" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Reel Master (7 inch 1/4 track) -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Northrop Auditorium, U. of Minn. on 1971-10-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/19/10-19-71-minneapolis-mn-university-of-minnesota-northrop-auditorium/</note>
+    <reference href="http://infinitedead.net/2021/10/19/10-19-71-minneapolis-mn-university-of-minnesota-northrop-auditorium/"/>
   </recording>
-  <recording id="r-7ce29dbebf8e31d638a1" kind="soundboard">
+  <recording id="r-7ce29dbebf8e31d638a1" kind="soundboard" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd71-10-19.orefm.clugston.3301.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3301</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Northrop Auditorium, U. of Minn. on 1971-10-19" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>PreFM Soundboard Reels &gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Northrop Auditorium, U. of Minn. on 1971-10-19. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/19/10-19-71-minneapolis-mn-university-of-minnesota-northrop-auditorium/</note>
+    <reference href="http://infinitedead.net/2021/10/19/10-19-71-minneapolis-mn-university-of-minnesota-northrop-auditorium/"/>
   </recording>
 </recordings>

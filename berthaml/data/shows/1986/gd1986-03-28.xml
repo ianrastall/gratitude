@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19860328-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 859e0118134444b5e15767a698508f39e1975f3652750caf5f073ddf4d7b68d8. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-768" nameAsBilled="Cumberland County Civic Center"/>
+  <venue ref="v-cumberland-county-civic-center" nameAsBilled="Cumberland County Civic Center"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-iko-iko" transition="unknown"/>
@@ -18,7 +18,7 @@
     </set>
     <set kind="set" n="2" mode="unknown">
       <performance id="p02-01" song="s-playing-in-the-band" transition="segue"/>
-      <performance id="p02-02" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-02" song="s-franklins-tower" transition="segue"/>
       <performance id="p02-03" song="s-i-need-a-miracle" transition="segue"/>
       <performance id="p02-04" song="s-playing-in-the-band" transition="segue"/>
       <performance id="p02-05" song="s-drums" transition="segue"/>
@@ -31,7 +31,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p03-01" song="s-its-all-over-now-baby-blue" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

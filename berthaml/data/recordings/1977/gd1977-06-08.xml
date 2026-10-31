@@ -5,54 +5,60 @@
   </record>
   <recording id="r-f757448b2b77c2b48959" kind="unknown">
     <identifier scheme="archive-org">gd1977-06-08.141359.akg-d224.troy.miller.smith.sirmick.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141359</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-06-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Sandy Troy</credit>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick and Matt Smith</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: AKG D224s &gt; Tandberg 10X &gt; 10 in Master Reel @ 7.5 ips - Taped by Sandy Troy and provided by Charlie Miller; Transfer: Master reel &gt; Technics 1506 w/Lamb Labs Dolby decoder &gt; Apogee Mini Me &gt; wav 24/96 - Transferred by Matt Smith; Lineage: Wav &gt; Adobe Audition 1.5 &gt; iZotope RX6 Advanced &gt;iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24; edited and mastered SIRMick 2018</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-06-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick and Matt Smith</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-96797417b0284c37eb5b" kind="unknown">
     <identifier scheme="archive-org">gd1977-06-08.144923.akg.d224.bertrando.troy.miller.smith.sirmick.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">144923</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-06-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Sandy Troy</credit>
+    <credit role="transfer-mastering">Matt Smith, Rob Bertrando, Charlie Miller, Sirmick</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Bertrando" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>AKG D224s &gt; Tandberg 10X &gt; 10 in Master Reel @ 7.5 ips - Taped by Sandy Troy and provided by Charlie Miller | Transfer: Master reel &gt; Technics 1506 w/Lamb Labs Dolby decoder &gt; Apogee Mini Me &gt; wav 24/96 - Transferred by Matt Smith Lineage: Wav &gt; Adobe Audition 1.5 &gt; iZotope RX6 Advanced &gt;iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-06-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Smith, Rob Bertrando, Charlie Miller, Sirmick</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Bertrando; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-87a582c5118e3846dcdb" kind="matrix">
     <identifier scheme="archive-org">gd1977-06-08.mtx.seamons.95361.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95361</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-06-08" references="archive-index"/>
+    <credit role="transfer-mastering">Hunter Seamons</credit>
+    <personMatch name="Hunter Seamons" role="transfer-mastering"/>
     <lineage>Matrix mix (SBD/AUD)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-06-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hunter Seamons</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f1c49087f8362691cc10" kind="unknown">
+  <recording id="r-f1c49087f8362691cc10" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1977-06-08.sbd.parmer.4184.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4184</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-06-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">EAC &gt; SHN by Jason Parmer</credit>
     <lineage>SBDMR &gt; PCM &gt; DAT &gt; CDR &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-06-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): EAC &gt; SHN by Jason Parmer</note>
   </recording>
   <recording id="r-e7bda2c282e683128b29" kind="audience">
     <identifier scheme="archive-org">gd77-06-08.bertrando-Hollwein.winters.26342.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">26342</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-06-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Menke, Reinhardt Hollwein</credit>
+    <personMatch name="Rob Bertrando" role="unspecified"/>
+    <personMatch name="Bob Menke" role="recordist"/>
     <lineage>Audience Recording: AKGD220s | AUD&gt; MR&gt; Reel&gt; DAT&gt; CD(s)&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-06-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Rob Bertrando; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
   </recording>
   <recording id="r-80472fb156540af7c79a" kind="soundboard">
     <identifier scheme="archive-org">gd77-06-08.sbd.clugston.15421.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">15421</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-06-08" references="archive-index archive-url-snapshot"/>
     <lineage>Master Soundboard Reel &gt; Reel to Reel &gt; PCM&gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-06-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-31cbacf1c6096018d492" kind="soundboard">
     <identifier scheme="archive-org">gd77-06-08.sbd.miller.25621.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">25621</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-06-08" references="archive-index"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Recording Info: SBD -&gt; Master Reel (7 inch Master Reels @ 7.5ips 1/2trk) -&gt; Dat -&gt; CD Transfer Info: CD -&gt; EAC -&gt; Samplitude v7.02 Profesional -&gt; SHNTransferred and Edited By Charlie Miller</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-06-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
 </recordings>

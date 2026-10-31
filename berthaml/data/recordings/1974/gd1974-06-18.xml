@@ -5,32 +5,36 @@
   </record>
   <recording id="r-186b0708079d5d75c08e" kind="soundboard">
     <identifier scheme="archive-org">gd1974-06-18.sbd.bertha-ashley.18150.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18150</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freedom Hall on 1974-06-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jay Ashley</credit>
     <lineage>SBD&gt;&gt;MR&gt;&gt;DAT&gt;&gt;ZA2&gt;&gt;SHN&gt;&gt;DAW(Bertha)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1974-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jay Ashley</note>
   </recording>
   <recording id="r-00b1dec5538cf6c3159e" kind="soundboard">
     <identifier scheme="archive-org">gd1974-06-18.sbd.miller.89690.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89690</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freedom Hall on 1974-06-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; SHN -&gt; Cool Edit Pro -&gt; CD | CD -&gt; Samplitude Professional v10.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1974-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-c0c2c8b24231305fd617" kind="soundboard">
     <identifier scheme="archive-org">gd1974-06-18.sbd.pitch-fixed-sacks.32528.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32528</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freedom Hall on 1974-06-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">JoshD</credit>
     <lineage>SPEED-CORRECTED VERSION of SBD&gt;MR&gt;1 cass&gt;DAT&gt;ZA2&gt;SHN | SHN (id=209) &gt; WAV &gt; Cool Edit Pro (see notes) &gt; FLAC(8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1974-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): JoshD</note>
   </recording>
   <recording id="r-d4a1349eea235c60de34" kind="soundboard">
     <identifier scheme="archive-org">gd74-06-18.sbd.sacks.209.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">209</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freedom Hall on 1974-06-18" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt; MR&gt;1 cass&gt; DAT&gt; ZA2&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freedom Hall on 1974-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-2047500f4ddaadb159f7" kind="unknown">
-    <identifier scheme="other">etree-512723</identifier>
-    <note>Supplied catalogue listing: etree; gd74-06-18.sbd.miller.89690.sbeok.flac16 *New Seed*. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-2047500f4ddaadb159f7" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">512723</identifier>
+    <identifier scheme="shnid" certainty="probable">89690</identifier>
+    <listing provider="etree" title="gd74-06-18.sbd.miller.89690.sbeok.flac16 *New Seed*" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

@@ -4,37 +4,43 @@
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
     <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1988-02-13.sbd.walker-scotton.miller.102929.flac16" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 d4aeb044a182ec1709ed88cf9e99340c02a3db7b51e54a5346389574bcff1e81</cite>
   </record>
-  <recording id="r-2f2a4d9b3330a1dd11af" kind="audience">
+  <recording id="r-2f2a4d9b3330a1dd11af" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1988-02-13.163694.fob.schoeps.unknown.ebel.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">163694</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-02-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>FOB Schoeps CMC 3 MK4-&gt; PCM-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coaxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
   <recording id="r-0b4458caea1588d152ac" kind="unknown">
     <identifier scheme="archive-org">gd1988-02-13.168627.SuperscopeEC-7.ont.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">168627</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-02-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">OldNeumanntapr</credit>
+    <credit role="transfer-mastering">OldNeumanntapr</credit>
     <lineage>OTS; Superscope EC-7 Cardioids (Near Coincident) &gt;Sony TC-153SD [XLIIS] | Cassette Masters Transferred Via Denon DR-M12HR &gt;Tascam DR100mkII (24bit/48kHz) WAV &gt;Audacity (Amplify By 11db, Track Splits, Down Sample To 16bit/44.1kHz, Minor Edits [Tape Flips] &amp; Fades) Fix SBEs &gt;FLAC (Level 8) + Tags Via xACT 2.53</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): OldNeumanntapr</note>
   </recording>
-  <recording id="r-a2a0e421de40611ccfe1" kind="unknown">
+  <recording id="r-a2a0e421de40611ccfe1" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1988-02-13.aud.schoepsCMC3.miller.14952.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14952</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Schoeps CMC3/MK41&gt;Dat&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-e7e44b42886cfc064117" kind="soundboard">
     <identifier scheme="archive-org">gd1988-02-13.sbd.walker-scotton.miller.102929.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102929</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13" references="archive-index"/>
     <credit role="recordist">Paul Scotton and Joani Walker</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MA-R90) | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.1.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</lineage>
     <playlist id="pl-3ade322e6b4d8462a90a" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1988-02-13.sbd.walker-scotton.miller.102929.flac16">
       <track n="1" title="Tuning" file="gd88-02-13d1t01.flac" mappingStatus="unreviewed" disc="1" sourceNumber="1" duration="PT104.66S"/>
       <track n="2" title="Hell In A Bucket -&gt;" file="gd88-02-13d1t02.flac" mappingStatus="candidate" disc="1" sourceNumber="2" duration="PT369.65S" covers="p01-01" certainty="probable"/>
       <track n="3" title="Sugaree" file="gd88-02-13d1t03.flac" mappingStatus="candidate" disc="1" sourceNumber="3" duration="PT690.78S" covers="p01-02" certainty="probable"/>
-      <track n="4" title="New Minglewood Blues" file="gd88-02-13d1t04.flac" mappingStatus="unreviewed" disc="1" sourceNumber="4" duration="PT547.32S"/>
+      <track n="4" title="New Minglewood Blues" file="gd88-02-13d1t04.flac" mappingStatus="candidate" disc="1" sourceNumber="4" duration="PT547.32S" covers="p01-03" certainty="probable"/>
       <track n="5" title="Friend Of The Devil" file="gd88-02-13d1t05.flac" mappingStatus="candidate" disc="1" sourceNumber="5" duration="PT584.72S" covers="p01-04" certainty="probable"/>
       <track n="6" title="Mama Tried -&gt;" file="gd88-02-13d1t06.flac" mappingStatus="candidate" disc="1" sourceNumber="6" duration="PT154.04S" covers="p01-05" certainty="probable"/>
       <track n="7" title="Big River" file="gd88-02-13d1t07.flac" mappingStatus="candidate" disc="1" sourceNumber="7" duration="PT405.52S" covers="p01-06" certainty="probable"/>
@@ -52,50 +58,47 @@
       <track n="19" title="Black Muddy River" file="gd88-02-13d2t11.flac" mappingStatus="candidate" disc="2" sourceNumber="11" duration="PT383.36S" covers="p03-01" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
-    <note>Archive source metadata (lineage): Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.1.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</note>
-    <note>Archive source metadata (source): SBD -&gt; Cassette Master (Sony D5/TDK MA-R90)</note>
-    <note>Archive source metadata (taper): Paul Scotton and Joani Walker</note>
-    <note>Archive source metadata (transferer): Charlie Miller</note>
+    <captured field="lineage">Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.1.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</captured>
+    <captured field="source">SBD -&gt; Cassette Master (Sony D5/TDK MA-R90)</captured>
+    <captured field="taper">Paul Scotton and Joani Walker</captured>
+    <captured field="transferer">Charlie Miller</captured>
   </recording>
   <recording id="r-568e1162cc18a2aee23a" kind="soundboard">
     <identifier scheme="archive-org">gd1988-02-13.sbd.walker-scotton.miller.85908.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">85908</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MA-R90) D | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-f566a34dcdf172aaa305" kind="audience">
     <identifier scheme="archive-org">gd1988-02-13.sen441.andrewf.96634.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">96634</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F.</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>OTS AUD: Sennheiser MD-441's &gt; patched thru one Sony D5 &gt; Sony WM-D6C &gt; Maxell MX-90's with no Dolby. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1644</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
-  <recording id="r-0e749ce397d02a41024d" kind="unknown">
+  <recording id="r-0e749ce397d02a41024d" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd88-02-13.aud.wiley.15126.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">15126</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13" references="archive-index archive-url-snapshot"/>
     <lineage>Schoeps CMC3/MK41&gt;Dat&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
   </recording>
   <recording id="r-8b0a6302cff084c18611" kind="soundboard">
     <identifier scheme="archive-org">gd88-02-13.sbd.hinko.24292.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">24292</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13" references="archive-index"/>
     <lineage>SBD &gt; MC &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-02-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-78f86d822211a490791e" kind="unknown">
-    <identifier scheme="other">etree-603848</identifier>
-    <note>Supplied catalogue listing: etree; gd88-02-13.102929.sbd-UltraMatrix.walker.scotton-miller-remaster-85908.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
+  <recording id="r-78f86d822211a490791e" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">603848</identifier>
+    <identifier scheme="shnid" certainty="probable">102929</identifier>
+    <listing provider="etree" title="gd88-02-13.102929.sbd-UltraMatrix.walker.scotton-miller-remaster-85908.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
   </recording>
 </recordings>

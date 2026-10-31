@@ -5,16 +5,18 @@
   </record>
   <recording id="r-aac16e430cfe5c0a5b69" kind="soundboard">
     <identifier scheme="archive-org">gd1972-10-02.sbd.gans.miller.112864.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">112864</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Springfield Civic Center on 1972-10-02" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; Data DVD | Data DVD -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1972-10-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/02/10-2-72-springfield-ma-springfield-civic-center/</note>
+    <reference href="http://infinitedead.net/2021/10/02/10-2-72-springfield-ma-springfield-civic-center/"/>
   </recording>
   <recording id="r-46c1476925653aac1e95" kind="soundboard">
     <identifier scheme="archive-org">gd72-10-02.sbd.lai.158.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">158</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Springfield Civic Center on 1972-10-02" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Soundboard | master reel sdb&gt; cass&gt; dat&gt; cdr</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Springfield Civic Center on 1972-10-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/02/10-2-72-springfield-ma-springfield-civic-center/</note>
+    <reference href="http://infinitedead.net/2021/10/02/10-2-72-springfield-ma-springfield-civic-center/"/>
   </recording>
 </recordings>

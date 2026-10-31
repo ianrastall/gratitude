@@ -5,26 +5,29 @@
   </record>
   <recording id="r-29407e2f538757e09400" kind="soundboard">
     <identifier scheme="archive-org">gd1972-04-26.136637.sbd.mr.sirmickflac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">136637</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Jahrhundert Halle on 1972-04-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Anonomous</credit>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Source: Soundboard &gt; Master Reel &gt; Dat (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jahrhundert Halle on 1972-04-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-b0db3fbbf8979c72f86e" kind="unknown">
+  <recording id="r-b0db3fbbf8979c72f86e" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1972-04-26.sbd.backus.12884.sbeok.shnf</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jahrhunderthalle on 1972-04-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <identifier scheme="shnid" certainty="probable">12884</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Jahrhunderthalle on 1972-04-26" references="archive-index archive-url-snapshot"/>
   </recording>
   <recording id="r-e3ac32894c8054e9a552" kind="soundboard">
     <identifier scheme="archive-org">gd1972-04-26.sbd.vernon.9197.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9197</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Jahrhunderthalle on 1972-04-26" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matt Vernon</credit>
     <lineage>SBD&gt;MR&gt;DAT&gt;SS&gt;CDR | CDR &gt; EAC(secure) &gt; mkwact(seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jahrhunderthalle on 1972-04-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Vernon</note>
   </recording>
   <recording id="r-649606db8f16ab55eca2" kind="soundboard">
     <identifier scheme="archive-org">gd72-04-26.sbd.vernon.12849.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12849</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Jahrhundert Halle on 1972-04-26" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD &gt; ? &gt; CE2K (minor cleanup) &gt; mkwact &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Jahrhundert Halle on 1972-04-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

@@ -5,56 +5,61 @@
   </record>
   <recording id="r-7c1c19d4e5ff904ac031" kind="unknown">
     <identifier scheme="archive-org">gd1993-03-20.111267.naks.DATBRAD.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">111267</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1993-03-20" references="archive-index archive-url-snapshot"/>
     <lineage>2 NAK300s/CP4s(PAS) + 1 NAK300/CP1(CTR)&gt;NAK MX100&gt;TC-D5m(line out)&gt;TCD-D3(16/48); Digital | (TCD-D8&gt;PMD670&gt;CF&gt;HDD); MDAT&gt;Wav&gt;Wavelab-6(44.1)&gt;CDWave(splits)&gt;Flac Frontend(Level 6);</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1993-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-635bb331fbd147543f70" kind="unknown">
     <identifier scheme="archive-org">gd1993-03-20.147585.nak300CP4.ebel.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">147585</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1993-03-20" references="archive-index"/>
     <credit role="recordist">Pete Ebel</credit>
+    <credit role="transfer-mastering">Transfers by Pete Ebel March 29, 2018</credit>
     <lineage>TS Nak 300-&gt; Casio DA-7-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1993-03-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transfers by Pete Ebel March 29, 2018</note>
   </recording>
-  <recording id="r-a40b0f3ea7c0a87ce8b3" kind="audience">
+  <recording id="r-a40b0f3ea7c0a87ce8b3" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1993-03-20.149271.fob.ams.ebel.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">149271</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1993-03-20" references="archive-index"/>
     <credit role="recordist">Must be Jamie Young &amp; Clay</credit>
+    <credit role="transfer-mastering">Taped &amp; Transfers by Pete Ebel</credit>
     <lineage>FOB AMS ST-250-&gt; Sony D10 Pro II-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1993-03-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Taped &amp; Transfers by Pete Ebel</note>
   </recording>
   <recording id="r-e83146e3b0de3e14ec2b" kind="soundboard">
     <identifier scheme="archive-org">gd1993-03-20.151158.sbd.miller.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">151158</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1993-03-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller December 11, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; DAT Master (48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite (24-bit/48k) &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1993-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 11, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-59b21d05580d0fa4791a" kind="soundboard">
     <identifier scheme="archive-org">gd1993-03-20.151663.sbd.cm.miller.t.flac16</identifier>
-    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <identifier scheme="shnid" certainty="probable">151663</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1993-03-20" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller December 11, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; DAT Master (48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite (24-bit/48k) &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1993-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 11, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-9659ba3a780a1729afcf" kind="audience">
     <identifier scheme="archive-org">gd93-03-20.akg586.gardner.3385.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3385</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1993-03-20" references="archive-index"/>
+    <credit role="transfer-mastering">Tony Gardner</credit>
     <lineage>Audience: AKG 568's | AKG 568 (shotguns) &gt; Sony D3 &gt; DAT &gt; Panasonic SV-3800 &gt; HHb CDR-850 &gt; CDR &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1993-03-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tony Gardner</note>
   </recording>
-  <recording id="r-b386f8735d66a0633855" kind="soundboard">
+  <recording id="r-b386f8735d66a0633855" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd93-03-20.sbd.miller.28428.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">28428</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1993-03-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD&gt; Dat&gt; Cassette Master&gt; Dat&gt; CD&gt; EAC&gt; SHN&gt; WAV&gt; Samplitude Professional v8.0&gt; FLAC; plus patch from FOB Soundfield AMS ST250 source; Edited By Charlie Miller | SHN -&gt; WAV -&gt; Samplitude Professional v8.0 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1993-03-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

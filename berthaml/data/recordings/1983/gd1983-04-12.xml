@@ -3,154 +3,164 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-58c17d2e2e408c945f18" kind="matrix">
+  <recording id="r-58c17d2e2e408c945f18" kind="matrix" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.124253.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">124253</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by dusborne</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>3 Source Matrix by Dusborne: Soundboard (shnid:17264) Set 1SBD &gt; Cassette master &gt; Dats &gt; CDR &gt; SHN by drgseeds, Soundboard (shnid:30808) Set 2 Recording Info: SBD -&gt; PCM Master -&gt; PCM Clone -&gt; Sonic Solutions -&gt; Dat; Transfer Info: Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.0 -&gt; FLAC; Transferred and Edited By Charlie Miller and Audience (shnid:93961) Source: MAC; (FOB) 2 x Sennheiser 421 &gt; Sony D5 &gt; 2 x Maxell UDXL II C90 Location: 20th Row center. Recorded by Rick "Coyote" Colyard. Transfer and mastering by Alex Ford.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Matrix by dusborne</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d4e09efebc2e4bae3fef" kind="audience">
+  <recording id="r-d4e09efebc2e4bae3fef" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.134998.nak300.schley.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">134998</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <credit role="recordist">Brian Schley</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Fuji Metal (S1) and TDK MA-Metal (S2). Set up FOB, recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain SRC &gt; Wavelab (adding 16-bit patches) &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 01/2016</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-b1fbe828e237b7461ccf" kind="unknown">
     <identifier scheme="archive-org">gd1983-04-12.137356</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
+    <identifier scheme="shnid" certainty="probable">137356</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
   </recording>
-  <recording id="r-847cb8ea404b9df900ce" kind="audience">
+  <recording id="r-847cb8ea404b9df900ce" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.138560.Senn421.FOB.Gastwirt.Miller.Noel.t-flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">138560</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Rick Gastwirt;Charlie Miller;Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Unknown Taper (FOB): Sennheiser 421 &gt; cassette master* &gt; dat; Charlie Miller | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; wav 16/48; Joe Noel Edits: Track, Flac, Patch &amp; Pack : Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Rick Gastwirt;Charlie Miller;Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-cad9262287c71e2076b0" kind="soundboard">
     <identifier scheme="archive-org">gd1983-04-12.140047.set2.sbd.pcm.gans.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140047</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">David Gans</credit>
+    <credit role="transfer-mastering">Charlie Miller and Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Master Soundboard PCM &gt; PCM</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b90d9d5a99481ece05e3" kind="audience">
     <identifier scheme="archive-org">gd1983-04-12.140086.aud.lamarre.berger.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">140086</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>aud cassette master; nak 300 shotguns&gt;sony d5; taped by Doug Lamarre; transferred &amp; seeded by Rob Berger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-c885a5e4620a1e3c8fc0" kind="audience">
     <identifier scheme="archive-org">gd1983-04-12.140087.aud.lamarre.berger.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">140087</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>aud cassette master; nak 300 shotguns&gt;sony d5; taped by Doug Lamarre; transferred &amp; seeded by Rob Berger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-1d244055f2121eb2b4b9" kind="audience">
     <identifier scheme="archive-org">gd1983-04-12.141632.senn421.executive-crew.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141632</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew: Kyle Holbrook, Olvy Johnson, Mike Yacavone, Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
+    <personMatch name="Jim Wise" role="unspecified"/>
     <lineage>flac16/44.1 Location: 80ft from Stacks Dead center First Gen AUD: Master was:Sennheiser MD421's-&gt; Sony TCD5M (2nd in line)|TDK MA Marked as patched out of Jim Wise. | JVC -&gt; Sony TCD5MTransfer: Nakamichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
   </recording>
   <recording id="r-44317c6bf82eab301e5b" kind="audience">
     <identifier scheme="archive-org">gd1983-04-12.141633.senn421.executive-crew.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">141633</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <credit role="recordist">Executive Crew: Kyle Holbrook, Olvy Johnson, Mike Yacavone, Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
+    <personMatch name="Jim Wise" role="unspecified"/>
     <lineage>flac24/48 Location: 80ft from Stacks Dead center First Gen AUD: Master was:Sennheiser MD421's-&gt; Sony TCD5M (2nd in line)|TDK MA Marked as patched out of Jim Wise. | JVC -&gt; Sony TCD5MTransfer: Nakamichi CR-5A-&gt;Dogstar cables-&gt; Tascam DR-680|SD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
   </recording>
-  <recording id="r-22f9e9ca8cd610de6071" kind="audience">
+  <recording id="r-22f9e9ca8cd610de6071" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.162699.senn421.blend.vita.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">162699</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master (FOB) Audience Cassettes; 3 x Sennheiser 421 mics (20th row, center) &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-7036b405215db7083470" kind="audience">
+  <recording id="r-7036b405215db7083470" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.162700.senn421.blend.vita.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">162700</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master (FOB) Audience Cassettes; 3 x Sennheiser 421 mics (20th row, center) &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-864a59b0c1e08bc1db1d" kind="audience">
+  <recording id="r-864a59b0c1e08bc1db1d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.163637.senn441.neumann.u87.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163637</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Rob Eaton, Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) Sennheiser 441's (left + right) + (1) Neumann U87 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
   </recording>
-  <recording id="r-d9caacc6639c9d928825" kind="audience">
+  <recording id="r-d9caacc6639c9d928825" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.163638.senn441.neumann.u87.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163638</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Rob Eaton, Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) Sennheiser 441's (left + right) + (1) Neumann U87 (center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
   </recording>
-  <recording id="r-f1533fc5ce652a0b97be" kind="audience">
+  <recording id="r-f1533fc5ce652a0b97be" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1983-04-12.fob.senn421.colyard.ford.93961.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">93961</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <credit role="recordist">Rick "Coyote" Colyard</credit>
+    <credit role="transfer-mastering">Alex Ford</credit>
     <lineage>(FOB) 2 x Sennheiser 421 &gt; Sony D5 &gt; 2 x Maxell UDXL II C90 Location: 20th Row center. | Master Audience Cassettes &gt; Nakamichi Dragon &gt; Kind Kables RCA/XLR &gt; Lunatec V3 (@ 24/96) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; .wav @ 24/96 &gt; Waves L3 UltraMaximizer &gt; .wav @ 16/44.1 &gt; CD Wave Editor &gt; TLH &gt; FLAC16 (level eight)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Alex Ford</note>
   </recording>
   <recording id="r-44f49b322b94a85d3bf1" kind="soundboard">
     <identifier scheme="archive-org">gd1983-04-12.nak300.barfield-lane.103166.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">103166</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Barfield and David Lane</credit>
+    <credit role="transfer-mastering">Dave Barfield</credit>
     <lineage>nakamichi 300 &gt; tcd5m (udxl IIs, dolby on, @ soundboard) &gt; master cassette | master cassette/tcd5m (original recorder, +dolby) &gt; minime (24/96) &gt; sd744t &gt; audacity &gt; xact (flac24)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Barfield</note>
   </recording>
   <recording id="r-2e76c9371e97b948d6c7" kind="soundboard">
     <identifier scheme="archive-org">gd1983-04-12.sbd.drgseeds.17264.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17264</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <lineage>SBD &gt; Cassette master &gt; Dats &gt; CDR &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-780433ee2e874c7fe9f6" kind="soundboard">
     <identifier scheme="archive-org">gd83-04-12.sbd.dodd.10075.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10075</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
     <lineage>SBD&gt;PCM&gt;DAT&gt;CDR (Has Analog Gen)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-74404ed3f06d3025adf0" kind="audience">
     <identifier scheme="archive-org">gd83-04-12.set2-aud.dodd.9764.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9764</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
     <lineage>AUD&gt;MC&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-1908948ddfde9d4b4e92" kind="soundboard">
     <identifier scheme="archive-org">gd83-04-12.set2.pcm-sbd.miller.30808.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">30808</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16 SBD -&gt; PCM Master -&gt; PCM Clone -&gt; Sonic Solutions -&gt; Dat | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.0 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-75b2eaf7057120bf3fea" kind="audience">
+  <recording id="r-75b2eaf7057120bf3fea" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd83-04-12.wise.sacks.9947.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9947</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Broome County Arena on 1983-04-12" references="archive-index"/>
+    <personMatch name="Jim Wise" role="unspecified"/>
     <lineage>Jim Wise recording, FOB Sennheuser 421s&gt;Sony D5&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Broome County Arena on 1983-04-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
   </recording>
 </recordings>

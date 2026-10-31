@@ -5,129 +5,138 @@
   </record>
   <recording id="r-e4e7b76b82a0e8ac4e37" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-11.125661.AT835.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">125661</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index"/>
     <credit role="recordist">M.Laurentus</credit>
+    <credit role="transfer-mastering">M.Laurentus</credit>
     <lineage>Taper: M. Laurentus; Taper Section 2, Row T, Seat 8; AT835B's- AT 8202’s-SONY WM D6-C; Cassette-Tascam DR-5 Line In-CD Wave- Flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): M.Laurentus</note>
   </recording>
   <recording id="r-bd535e24d9c92c60fede" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-11.135411.bltz.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">135411</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index"/>
     <credit role="recordist">bltz</credit>
     <lineage>Source: Nakamichi CM-300s/CP-4 super-directional shotgun capsule -&gt; Sony Walkman Pro, TDK MA 90 -&gt; JVC TD-W354 -&gt; Zoom H6 96/24 WAV -&gt; Audacity -&gt; FLAC 96/24 | bltz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-749f1356d342dfde8c2e" kind="audience">
+  <recording id="r-749f1356d342dfde8c2e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-11.138157.Schoeps.fob.unknown.Ammons.t-flac</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">138157</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">John Ammons and Joe Noel</credit>
     <lineage>flac16/48kHz ; Schoeps CMC521 &gt; Panasonic SV250; FOB Taper unknown; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel T,F &amp; P: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
   </recording>
-  <recording id="r-2bde5d8fdddfd226a643" kind="matrix">
+  <recording id="r-2bde5d8fdddfd226a643" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-11.147618.sbd.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147618</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index infinite-dead"/>
     <credit role="recordist">Don Pearson</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/11/10-11-89-east-rutherford-nj-brendan-byrne-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/11/10-11-89-east-rutherford-nj-brendan-byrne-arena/"/>
   </recording>
-  <recording id="r-768e18f4a82529cc16c0" kind="matrix">
+  <recording id="r-768e18f4a82529cc16c0" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-11.147652.UltraMatrix.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147652</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-6acfc43cf93cff6df887" kind="audience">
     <identifier scheme="archive-org">gd1989-10-11.147677.pp-aud.bltz.tobin.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147677</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowkands Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Patched and pitch corrected audience (96/24) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Patched and pitch corrected audience (96/24)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowkands Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Patched and pitch corrected audience (96/24) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-a7dd7f245a95e13894b2" kind="matrix">
     <identifier scheme="archive-org">gd1989-10-11.147678.mtx.tobin.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147678</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index"/>
+    <credit role="transfer-mastering">SBD + AUD Matrix 2 Source Mix (96/24) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (96/24)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (96/24) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-9fd00c794a3d8ef3563d" kind="matrix">
     <identifier scheme="archive-org">gd1989-10-11.147679.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147679</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9aee1cd06989ea9badeb" kind="unknown">
+  <recording id="r-9aee1cd06989ea9badeb" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-10-11.147680.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147680</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-af647da2f41d553cc259" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-11.147681.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">147681</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-1a51ca165b624fc5eb38" kind="matrix">
     <identifier scheme="archive-org">gd1989-10-11.mtx.hansokolow.96599.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">96599</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Brendan Byrne Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">hansokolow</credit>
     <lineage>Matrix mix (SBD/AUD)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): hansokolow</note>
   </recording>
   <recording id="r-78ce59bb8ee4ec2c598b" kind="soundboard">
     <identifier scheme="archive-org">gd1989-10-11.sbd.koehler.13572.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13572</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Brendan Byrne Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">dave koehler</credit>
     <lineage>Sbd&gt;Cas(m)&gt;Dat&gt;ZA2/PC&gt;SF&gt;CD Architect&gt;CDR?s</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): dave koehler</note>
   </recording>
   <recording id="r-e40ea7214ba0c123cc4b" kind="soundboard">
     <identifier scheme="archive-org">gd1989-10-11.sbd.walker-scotton.miller.83292.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83292</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Brendan Byrne Arena on 1989-10-11" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1989-10-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-02b164fafccbe4c73b7f" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-11.senn421.andrewf.89613.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89613</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Brendan Byrne Arena on 1989-10-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F.</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>Sennheiser MD-421's &gt; patched thru one D5 &gt; Sony TC-D5M &gt; Maxell MX-90's, with no Dolby. Mics on 8-foot stand, front row of OTS | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 analog-in &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1989-10-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-9dee3aee3093c3a2908c" kind="soundboard">
     <identifier scheme="archive-org">gd89-10-11.sbd.clugston.6668.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6668</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1989-10-11" references="archive-index archive-url-snapshot infinite-dead"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>Master Soundboard DAT &gt; Cassette &gt; DAT&gt; CDR, with numerous ticks fixed (see notes)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1989-10-11. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/11/10-11-89-east-rutherford-nj-brendan-byrne-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/11/10-11-89-east-rutherford-nj-brendan-byrne-arena/"/>
   </recording>
-  <recording id="r-de15d5eb119484f539d5" kind="unknown">
-    <identifier scheme="other">etree-607150</identifier>
-    <note>Supplied catalogue listing: etree; gd1989-10-11.147652.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-de15d5eb119484f539d5" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">607150</identifier>
+    <identifier scheme="shnid" certainty="probable">147652</identifier>
+    <listing provider="etree" title="gd1989-10-11.147652.UltraMatrix.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-d492babe2b19623c9726" kind="unknown">
+  <recording id="r-d492babe2b19623c9726" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd89-10-11.sbd.clugston.6668.sbeok.shn</identifier>
-    <note>Supplied catalogue listing: Archive.org; gd89-10-11.sbd.clugston.6668.sbeok.shn. Source references: infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/11/10-11-89-east-rutherford-nj-brendan-byrne-arena/</note>
+    <identifier scheme="shnid" certainty="probable">6668</identifier>
+    <listing provider="Archive.org" title="gd89-10-11.sbd.clugston.6668.sbeok.shn" references="infinite-dead"/>
+    <reference href="http://infinitedead.net/2021/10/11/10-11-89-east-rutherford-nj-brendan-byrne-arena/"/>
   </recording>
 </recordings>

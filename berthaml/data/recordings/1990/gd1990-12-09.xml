@@ -3,98 +3,103 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-72db58cdd00c65e365e4" kind="audience">
+  <recording id="r-72db58cdd00c65e365e4" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-12-09.130925.set1.cmc32S.fob.katzeff.jwpetty.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">130925</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1990-12-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">R. Katzeff</credit>
+    <credit role="transfer-mastering">jwpetty</credit>
     <lineage>Set 1 Master Audience Recording by R. Katzeff/Schoeps CMC32S (fob/spaced 8.5 feet Section D &amp; E/Row 6/Seats 2 &amp; 2)&gt; pro-link&gt; sv-250&gt; clone; | Fostex D-5 (spdif out)&gt; M-Audio USB Transit&gt; Audacity @ 16/48&gt; 16/44&gt; CDWave (tracking)&gt; TLH (SBE/Flac16/ffp)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1990-12-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): jwpetty</note>
   </recording>
-  <recording id="r-05143188b439adff18cf" kind="matrix">
+  <recording id="r-05143188b439adff18cf" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1990-12-09.141607.sbd.miller.2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141607</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1990-12-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1990-12-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-2c3a97116fd561e30cd4" kind="matrix">
+  <recording id="r-2c3a97116fd561e30cd4" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1990-12-09.141701.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141701</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1990-12-09" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1990-12-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b37c25c5fedc07046d45" kind="unknown">
     <identifier scheme="archive-org">gd1990-12-09.157407.s1.s2p.nak-akg.miller.katz.flac24</identifier>
-    <credit role="recordist">Recorded by Michael Katz patched out of my mixer</credit>
+    <identifier scheme="shnid" certainty="probable">157407</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1990-12-09" references="archive-index"/>
+    <credit role="recordist">Michael Katz patched out of my mixer</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller July 15, 2022</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Nakamichi CM100/CP4 + AKG C1000S &gt; Boss BX-4 Mixer &gt; Cassette Master (Sony Boombox/TDK XLII-100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1990-12-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller July 15, 2022</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-4763a0a6e471919e328a" kind="unknown">
     <identifier scheme="archive-org">gd1990-12-09.157408.s1.s2p.nak-akg.cm.katz.miller.t.flac1644</identifier>
-    <credit role="recordist">Recorded by Michael Katz patched out of my mixer</credit>
+    <identifier scheme="shnid" certainty="probable">157408</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1990-12-09" references="archive-index"/>
+    <credit role="recordist">Michael Katz patched out of my mixer</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller July 15, 2022</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Nakamichi CM100/CP4 + AKG C1000S &gt; Boss BX-4 Mixer &gt; Cassette Master (Sony Boombox/TDK XLII-100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1990-12-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller July 15, 2022</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-dce550380112dbfd198c" kind="audience">
     <identifier scheme="archive-org">gd1990-12-09.AKG451.Darby.117609.Flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">117609</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1990-12-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/50 Feet From Center Lawn Stack/6 Feet High)&gt; Sony TC-D5M&gt;Tapes:Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With AudioGate Software By Keo</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1990-12-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-98bb335bb5697c360383" kind="audience">
     <identifier scheme="archive-org">gd1990-12-09.AKG451.Darby.117610.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">117610</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace on 1990-12-09" references="archive-index"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/50 Feet From Center Lawn Stack/6 Feet High)&gt; Sony TC-D5M&gt;Tapes:Sony Metal-ES; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/fixed With Trader's Little Helper; Metadata Tagging With AudioGate Software</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace on 1990-12-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
-  <recording id="r-9f682009164111231d91" kind="unknown">
+  <recording id="r-9f682009164111231d91" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1990-12-09.aud.gardner.4182.shnf</identifier>
-    <lineage>Unknown</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Tony Gardener</note>
+    <identifier scheme="shnid" certainty="probable">4182</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Tony Gardener</credit>
   </recording>
-  <recording id="r-06efd80d5eb91b3ae7f7" kind="soundboard">
+  <recording id="r-06efd80d5eb91b3ae7f7" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1990-12-09.dsbd.evans.76351.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">76351</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Todd Evans and Jamie Waddell</credit>
     <lineage>SBD &gt; DAT(x?) | DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
   </recording>
   <recording id="r-b7ed7ad2a2a82914fc50" kind="unknown">
     <identifier scheme="archive-org">gd1990-12-09.nak300.laporte.89799.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89799</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09" references="archive-index"/>
     <credit role="recordist">Chris LaPorte</credit>
+    <credit role="transfer-mastering">Chris LaPorte</credit>
     <lineage>Nak 300's &gt; Unknown Deck &gt; Marantz pmd430 | PMD430 &gt; SB Audigy Line IN&gt; Adobe Audition @ 24bit/48khz &gt; dithering &gt; CDWave &gt; TLH &gt; Flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris LaPorte</note>
   </recording>
   <recording id="r-650b706e3ccb81dc6714" kind="soundboard">
     <identifier scheme="archive-org">gd1990-12-09.sbd.gems.76477.sbeok.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">76477</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Todd Evans and Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>SBD &gt; DAT(x?) | DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-7e87aff3f9384a56b8bf" kind="soundboard">
     <identifier scheme="archive-org">gd90-12-09.sbd.ladner.5155.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5155</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; DAT &gt; CDR &gt; WAV &gt; SHNv3</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Compton Terrace Amphitheatre on 1990-12-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-29fba2246bb427f3eb93" kind="unknown">
-    <identifier scheme="other">etree-599055</identifier>
-    <note>Supplied catalogue listing: etree; gd1990-12-09.141701.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-29fba2246bb427f3eb93" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">599055</identifier>
+    <identifier scheme="shnid" certainty="probable">141701</identifier>
+    <listing provider="etree" title="gd1990-12-09.141701.UltraMatrix.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

@@ -5,66 +5,75 @@
   </record>
   <recording id="r-56f0589154238a533cbe" kind="unknown">
     <identifier scheme="archive-org">gd1980-08-19.127497.set1.senn421.stankiewicz.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">127497</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index"/>
     <credit role="recordist">Richie Stankiewicz</credit>
+    <credit role="transfer-mastering">Richie Stankiewicz</credit>
     <lineage>Set 1 Recorded 1st row balcony Sennheiser 421&gt;Sony TCD-5M&gt;Nak 550; Patched into Neil (aka froggy RIP); transfered by Richie Stankiewicz; 1st Gen&gt;DAT Cakewalk UA-1G</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Richie Stankiewicz</note>
   </recording>
   <recording id="r-86a037964d2bd188073f" kind="audience">
     <identifier scheme="archive-org">gd1980-08-19.140366.set2.aud.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">140366</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index"/>
     <lineage>flac16/48kHz ; Set 2 Audience Cassette of unknown lineage &gt; PC &gt; Soundforge</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-f290872126b5b77e9ff7" kind="audience">
+  <recording id="r-f290872126b5b77e9ff7" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-08-19.150366.FOB.Nak700.Willy.Lindenbaum.Noel.reMaster.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">150366</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index"/>
+    <credit role="transfer-mastering">EAC/SHN by Willy Seeded to etree 04/08/02. Edited &amp; reMastered using Adobe Audition by Joe Noel July 09, 2020</credit>
     <lineage>Source: FOB Balcony Nak 700's w/shotgun caps &gt; Master Cassette (Sony TC-158) &gt; DAT &gt; CD | Audio discs provided by Mark Lindenbaum</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): EAC/SHN by Willy Seeded to etree 04/08/02. Edited &amp; reMastered using Adobe Audition by Joe Noel July 09, 2020</note>
   </recording>
-  <recording id="r-cb9597f2a78dd2d2d2ac" kind="unknown">
+  <recording id="r-cb9597f2a78dd2d2d2ac" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1980-08-19.151796.aud.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">151796</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">tapes from the collection of Brian Schley.</credit>
+    <credit role="transfer-mastering">Transferred by Andrew F. 02/2021</credit>
     <lineage>Source: Sennheiser MD-421's (1st row balcony) &gt; TC-D5 &gt; MAC &gt; Low-Gen (1st or 2nd) tapes from the collection of Brian Schley. | Transfer: TDK-SA (Set1) &amp; Maxell-XLII (Set2) &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain SRC &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Transferred by Andrew F. 02/2021</note>
   </recording>
   <recording id="r-01e9d1d58dad3aca0003" kind="unknown">
     <identifier scheme="archive-org">gd1980-08-19.174751.nak700.08739.remaster.donaldson.munder.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">174751</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index"/>
+    <credit role="transfer-mastering">Remastered by Charlie Miller October 22, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>(Balcony) Nakamichi CM700/CP704 &gt; Cassette Master &gt; DAT &gt; CD &gt; FLAC | Mastering Info: FLAC &gt; Adobe Audition 2025 &gt; DDi Codec &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Remastered by Charlie Miller October 22, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-02ded1ee37ee7c79f0c6" kind="soundboard">
     <identifier scheme="archive-org">gd1980-08-19.174765.sbd.88172.remaster.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="uncertain">174765</identifier>
+    <identifier scheme="shnid" certainty="uncertain">88172</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller October 23, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 1: SBD &gt; Cassette Master &gt; ? &gt; Cassette Set 2: SBD &gt; Cassette Master &gt; Cassette &gt; Reel &gt; DAT | Transfer Info: Set 1: Cassette &gt; Apogee MiniMe &gt; Samplitude Professional v9.11 &gt; FLAC Set 2: DAT (Sony PCM-R500) &gt; Samplitude Professional v9.11 &gt; FLAC Remastering Info: FLAC &gt; Adobe Audition 2025 &gt; iZotope RX11 Advacnced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller October 23, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3692b73f7e65cedb8f94" kind="unknown">
     <identifier scheme="archive-org">gd1980-08-19.naks.mason.partial.131445.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131445</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index"/>
     <credit role="recordist">Mason B. Taylor</credit>
     <lineage>Partial; Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-ead290f2a76e740692b8" kind="soundboard">
     <identifier scheme="archive-org">gd1980-08-19.sbd.miller.88172.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88172</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Upltown Theater on 1980-08-19" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 1: SBD -&gt; Cassette Master -&gt; ? -&gt; Cassette ; Set 2: SBD -&gt; Cassette Master -&gt; ? -&gt; Dat (48k) | Set 1: Cassette -&gt; Apogee MiniMe -&gt; Samplitude Professional v9.11 -&gt; FLAC ; Set 2: Dat (Sony R500) -&gt; Samplitude Professional v9.11 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Upltown Theater on 1980-08-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-43a3dc959d6b33965a26" kind="soundboard">
     <identifier scheme="archive-org">gd1980-08-19.sbd.unknown.28043.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">28043</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theatre on 1980-08-19" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt;Cass(m)&gt;Cass&gt;reel&gt;DAT | fostex d-5&gt;zoltrix nightingale&gt;cdwave&gt;resample to 44.1khz&gt;shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theatre on 1980-08-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-25b61fee78e67f9ad1c3" kind="audience">
     <identifier scheme="archive-org">gd80-08-19.naks.munder.8739.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8739</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1980-08-19" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Nak 700's w/shotgun caps | FOBalcony Nak 700's w/shotgun caps&gt;Sony TC-158 MC&gt;DAT&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1980-08-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

@@ -5,117 +5,126 @@
   </record>
   <recording id="r-23baaeee6a97bbaa686e" kind="unknown">
     <identifier scheme="archive-org">gd1987-03-30.134853.bltz.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">134853</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">bltz</credit>
+    <credit role="transfer-mastering">bltz</credit>
     <lineage>Source: Nakamichi CM-300s/Shotguns -&gt; Sony Walkman Pro/Maxell MX 90 -&gt; JVC TD-W354 -&gt; Zoom H6 96/24 WAV -&gt; Audacity -&gt; FLAC 96/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): bltz</note>
   </recording>
   <recording id="r-16e53d87a7a681a02a1b" kind="unknown">
     <identifier scheme="archive-org">gd1987-03-30.135570.chasingwilma.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">135570</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">chasingwilma</credit>
+    <credit role="transfer-mastering">chasingwilma</credit>
     <lineage>source: nakamichi 3 + cp4&gt; tcd-d5&gt; tcd-d5&gt; mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): chasingwilma</note>
   </recording>
-  <recording id="r-f2ee39dbaf969ecdd450" kind="matrix">
+  <recording id="r-f2ee39dbaf969ecdd450" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1987-03-30.139720.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">139720</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-7e94164af167a971a643" kind="matrix">
+  <recording id="r-7e94164af167a971a643" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1987-03-30.139805.UltraMatrix.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">139805</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-cb279f5e3f58098d052a" kind="audience">
     <identifier scheme="archive-org">gd1987-03-30.163486.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163486</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-4cc1ead0bbb0b8b19956" kind="audience">
     <identifier scheme="archive-org">gd1987-03-30.163487.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163487</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-06a2c136b169e5d7835d" kind="audience">
     <identifier scheme="archive-org">gd1987-03-30.167564.senn441.lamarre.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">167564</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 &gt; Tascam Hi-Res Editor (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-331e6303400b1f35dc71" kind="audience">
     <identifier scheme="archive-org">gd1987-03-30.167565.senn441.lamarre.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">167565</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 &gt; Tascam Hi-Res Editor (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-7acd9d3efa88e01dc5a3" kind="soundboard">
     <identifier scheme="archive-org">gd1987-03-30.176966.set1.sbd.gryzbowski.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">176966</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index"/>
     <credit role="recordist">Paul E. Gryzbowski</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller April 9, 2026</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; ? &gt; Cassette (Maxell XLII-S90/Dolby B) | Cassette (Nakamichi CR-7A/Dolby B) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2025 &gt; DDi Codec &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 9, 2026</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-09ed284b2b1bde5f1a2b" kind="unknown">
     <identifier scheme="archive-org">gd1987-03-30.nak300.damico.89341.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89341</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joe D'Amico</credit>
+    <credit role="transfer-mastering">Joe D'Amico</credit>
     <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe D'Amico</note>
   </recording>
-  <recording id="r-7504b7a8453f03554a53" kind="matrix">
+  <recording id="r-7504b7a8453f03554a53" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1987-03-30.sbd-mtx.clugston.tetzeli.fix-18255.34394.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">34394</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Clugston and Bill Tetzeli</credit>
     <lineage>MSC (Ultra-Matrix) &gt; Reel to Reel &gt; PCM &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Bill Tetzeli</note>
   </recording>
   <recording id="r-a1492db6c05c333e38a2" kind="matrix">
     <identifier scheme="archive-org">gd87-03-30.matrix.18255.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18255</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <lineage>Master Soundboard Cassette (Ultr-Matrix Mix) &gt; Reel to Reel &gt; PCM &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-3f61efaae92f07f6a260" kind="audience">
     <identifier scheme="archive-org">gd87-03-30.nak.braverman.10922.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10922</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Master Cassette (Nak 300/Sony D5) | Nakamichi BX-300&gt; CD&gt; SHN; via Stephen B. Porter; Seeded to etree by Peter Braverman</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-1de27dde2a7f9d59dcfe" kind="audience">
     <identifier scheme="archive-org">gd87-03-30.sony.kerbel.5572.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5572</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1987-03-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tony Cirella</credit>
+    <credit role="transfer-mastering">Nakamichi DR-10&gt; Monster analog cables&gt; Tascam CD-RW700 CD burner&gt; CD, transfer by Paul Bottiglio; EAC&gt;SHN by Greg Kerbel</credit>
     <lineage>AUD&gt; Sony microphones&gt; Nakamichi BX-300 deck&gt; Maxell metal cassette</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1987-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Nakamichi DR-10&gt; Monster analog cables&gt; Tascam CD-RW700 CD burner&gt; CD, transfer by Paul Bottiglio; EAC&gt;SHN by Greg Kerbel</note>
   </recording>
-  <recording id="r-90457b01ab13121272da" kind="unknown">
-    <identifier scheme="other">etree-602186</identifier>
-    <note>Supplied catalogue listing: etree; gd87-03-30.139805.sbd-UltraMatrix.cm.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-90457b01ab13121272da" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">602186</identifier>
+    <identifier scheme="shnid" certainty="probable">139805</identifier>
+    <listing provider="etree" title="gd87-03-30.139805.sbd-UltraMatrix.cm.miller.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-30e5d418162409733eb7" kind="unknown">
-    <identifier scheme="other">etree-596344</identifier>
-    <note>Supplied catalogue listing: etree; gd1987-03-30.139805.UltraMatrix.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-30e5d418162409733eb7" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">596344</identifier>
+    <identifier scheme="shnid" certainty="probable">139805</identifier>
+    <listing provider="etree" title="gd1987-03-30.139805.UltraMatrix.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

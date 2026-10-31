@@ -5,56 +5,61 @@
   </record>
   <recording id="r-0e8abbdd6d3d3f2e7921" kind="unknown">
     <identifier scheme="archive-org">gd1984-06-29.111502.beyer-senn.daweez.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">111502</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Blossom Music Center on 1984-06-29" references="archive-index"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>source: 2 Beyer M160 and 1 Sennheiser 421 Microphones (18th row-center) &gt; Nak MX100 w/2001 &gt; Sony TCD5M - analog master cassettes; | Sony TCD5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Blossom Music Center on 1984-06-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
-  <recording id="r-7ce6f5cbe150ce30416e" kind="audience">
+  <recording id="r-7ce6f5cbe150ce30416e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-06-29.140004.FOB.s1.Schoeps.Oade.Bryant.Miller.Noel.t-flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140004</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Blossom Music Center on 1984-06-29" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant patched out of Oade Brothers - from the Gastwirt collection</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Set 1 Robert Bryant recording (patched out of Oade Bros) Schoeps CMC4/MK41 -&gt; Oade M118 -&gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) (FOB); Charlie Miller DSD | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt; KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Blossom Music Center on 1984-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
-  <recording id="r-ab44b5559feedb2e3db0" kind="audience">
+  <recording id="r-ab44b5559feedb2e3db0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-06-29.141140.FOB.s1.Schoeps.Oade.Bryant.Miller.Noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141140</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Blossom Music Center on 1984-06-29" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant patched out of Oade Brothers</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Set 1 Robert Bryant recording (patched out of Oade Bros) Schoeps CMC4/MK41 -&gt; Oade M118 -&gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) (FOB); Charlie Miller DSD | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt; KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Blossom Music Center on 1984-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
   <recording id="r-c8113e36c2caeb1475c2" kind="unknown">
     <identifier scheme="archive-org">gd1984-06-29.150222.beyerm160.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">150222</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Blossom Music Center on 1984-06-29" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew - Tom Pinney, Kyle Holbrook, Sean Murtha, Eddie Wahba</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD CA: Beyer M160's PAS &gt; Sony TCD5M|s1 Maxell UDXLIIS90; s2 Maxell MX90 Location: 80 feet from stage DFC 7 feet up | Transfer: Nakamichi LX5 &gt; Marantz PMD661|SD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Blossom Music Center on 1984-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-ab4d8dc57261ef64d35b" kind="unknown">
     <identifier scheme="archive-org">gd1984-06-29.150223.beyerm160.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150223</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Blossom Music Center on 1984-06-29" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew - Tom Pinney, Kyle Holbrook, Sean Murtha, Eddie Wahba</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD CA: Beyer M160's PAS &gt; Sony TCD5M|s1 Maxell UDXLIIS90; s2 Maxell MX90 Location: 80 feet from stage DFC 7 feet up | Transfer: Nakamichi LX5 &gt; Marantz PMD661|SD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Blossom Music Center on 1984-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-401b2e87d97598b3f6b2" kind="soundboard">
     <identifier scheme="archive-org">gd1984-06-29.sbd-set2.miller.32781.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32781</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Blossom Music Center on 1984-06-29" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat (48k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Blossom Music Center on 1984-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3b74481bdc03fb95239b" kind="unknown">
     <identifier scheme="archive-org">gd84-06-29.senn.willy.14682.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14682</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Blossom Music Center on 1984-06-29" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Jim Wise" role="unspecified"/>
     <lineage>Jim Wise Senn 421Âs&gt;Sony TC-D5M&gt;MC&gt;DAT&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Blossom Music Center on 1984-06-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
   </recording>
 </recordings>

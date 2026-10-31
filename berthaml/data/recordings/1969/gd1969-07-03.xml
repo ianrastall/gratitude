@@ -5,29 +5,32 @@
   </record>
   <recording id="r-eb49f8c7f5baa9d7cdd5" kind="soundboard">
     <identifier scheme="archive-org">gd1969-07-03.121879.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">121879</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Reed's Ranch on 1969-07-03" references="archive-index infinite-dead"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Dat (48k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Reed's Ranch on 1969-07-03. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/</note>
+    <reference href="http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/"/>
   </recording>
   <recording id="r-b0c81fb40f7aa0b8e594" kind="soundboard">
     <identifier scheme="archive-org">gd1969-07-03.132377.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132377</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Reed's Ranch on 1969-07-03" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Dat (48k) | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Pro X Suite -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Reed's Ranch on 1969-07-03. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/</note>
+    <reference href="http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/"/>
   </recording>
   <recording id="r-e0c2a3c8e6378b7195d1" kind="soundboard">
     <identifier scheme="archive-org">gd1969-07-03.sbd.miller.92771.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">92771</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Reed's Ranch on 1969-07-03" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Rob Eaton and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master | Cassette Master -&gt; Dat (48k) &gt; Dat (Sony R500) -&gt; VXPocket v2 -&gt; Samplitude Professional v10.1 -&gt; FLAC (1 Disc Audio / 1 Disc FLAC)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Reed's Ranch on 1969-07-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Eaton and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/</note>
+    <reference href="http://infinitedead.net/2024/07/03/7-3-69-colorado-springs-co-reeds-ranch/"/>
   </recording>
 </recordings>

@@ -6,6 +6,9 @@
   </record>
   <recording id="r-0fe28d79a8516843cb91" kind="soundboard">
     <identifier scheme="archive-org">gd69-01-17.sbd.clugston.3115.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3115</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Auditorium on 1969-01-17" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Clugston</credit>
     <lineage>Soundboard | Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDR &gt; EAC &gt; SHN</lineage>
     <playlist id="pl-9f87fb179c3921e6b304" label="Archive original SHN files" format="shn" sourceHref="https://archive.org/metadata/gd69-01-17.sbd.clugston.3115.sbeok.shnf">
       <track n="1" title="Turn On Your Lovelight" file="gd69-01-17d1t01.shn" mappingStatus="candidate" disc="1" sourceNumber="1" duration="PT599.79S" covers="p01-01" certainty="probable"/>
@@ -20,17 +23,16 @@
       <track n="10" title="Cosmic Charlie" file="gd69-01-17d2t05.shn" mappingStatus="candidate" disc="2" sourceNumber="5" duration="PT260.99S" covers="p01-10" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Auditorium on 1969-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston</note>
-    <note>Archive source metadata (lineage): Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDR &gt; EAC &gt; SHN</note>
-    <note>Archive source metadata (source): Soundboard</note>
-    <note>Archive source metadata (transferer): Scott Clugston</note>
+    <captured field="lineage">Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDR &gt; EAC &gt; SHN</captured>
+    <captured field="source">Soundboard</captured>
+    <captured field="transferer">Scott Clugston</captured>
   </recording>
   <recording id="r-497062353693eb90bf35" kind="soundboard">
     <identifier scheme="archive-org">gd69-01-17.sbd.miller.89798.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89798</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Auditorium on 1969-01-17" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller and Joe B. Jones</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v10.02 -&gt; Cool Edit Pro v2.0 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Auditorium on 1969-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe B. Jones</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

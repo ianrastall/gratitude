@@ -5,20 +5,21 @@
   </record>
   <recording id="r-0803ab7921381f14f180" kind="soundboard">
     <identifier scheme="archive-org">gd1971-06-21.sbd.miller.94356.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94356</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Chateau d'Herouville on 1971-06-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Chateau d'Herouville on 1971-06-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-25fba680539d603db124" kind="soundboard">
     <identifier scheme="archive-org">gd71-06-21.sbd.hanno.4643.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4643</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Chateau d'HerouvilIe on 1971-06-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Uli Tuete and Hanno Bunjes</credit>
     <lineage>Soundboard | SBD MR &gt; ? &gt; DAT &gt; CD &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Chateau d'HerouvilIe on 1971-06-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Uli Tuete and Hanno Bunjes</note>
   </recording>
-  <recording id="r-16c7884f4f9bb87799d7" kind="unknown">
-    <identifier scheme="other">etree-518339</identifier>
-    <note>Supplied catalogue listing: etree; Grateful Dead - 1971-06-21 - Chateau d'Herouville - New CM SBD. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  <recording id="r-16c7884f4f9bb87799d7" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">518339</identifier>
+    <listing provider="etree" title="Grateful Dead - 1971-06-21 - Chateau d'Herouville - New CM SBD" references="etree-snapshot"/>
   </recording>
 </recordings>

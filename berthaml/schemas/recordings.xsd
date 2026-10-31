@@ -32,18 +32,79 @@
 
   <xs:complexType name="Recording">
     <xs:sequence>
+      <!-- The first identifier is the provider's own key. -->
       <xs:element name="identifier" type="b:Identifier" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="listing" type="b:CatalogueListing" minOccurs="0"/>
       <xs:element name="credit" type="b:RecordingCredit" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="personMatch" type="b:PersonMatch" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="lineage" type="xs:string" minOccurs="0"/>
+      <xs:element name="reference" type="b:Reference" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="track" type="b:Track" minOccurs="0" maxOccurs="unbounded"/>
       <!-- Different original-file formats or source editions may have different boundaries. -->
       <xs:element name="playlist" type="b:RecordingPlaylist" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="captured" type="b:CapturedField" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="id" type="xs:ID" use="required"/>
+    <!-- As the source states it. "unknown" with @inferredKind means only inference suggests a kind. -->
     <xs:attribute name="kind" type="b:RecordingKind" use="required"/>
+    <xs:attribute name="inferredKind" type="b:RecordingKind"/>
+    <xs:attribute name="modifiers" type="b:RecordingModifiers"/>
     <xs:attribute name="coverage" type="b:Coverage"/>
   </xs:complexType>
+
+  <!-- How the source lists a recording. Listed attribution is unreviewed. -->
+  <xs:complexType name="CatalogueListing">
+    <xs:attribute name="provider" type="xs:token" use="required"/>
+    <xs:attribute name="title" type="xs:string" use="required"/>
+    <!-- Which supplied snapshots contained the listing. -->
+    <xs:attribute name="references" type="xs:NMTOKENS"/>
+  </xs:complexType>
+
+  <!-- A name the catalogue recognised in the credits. A possible match, not an attribution. -->
+  <xs:complexType name="PersonMatch">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="role" type="b:MatchRole" use="required"/>
+    <xs:attribute name="certainty" type="b:Certainty" default="uncertain"/>
+  </xs:complexType>
+
+  <xs:simpleType name="MatchRole">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="recordist"/>
+      <xs:enumeration value="transfer-mastering"/>
+      <xs:enumeration value="unspecified"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="Reference">
+    <xs:attribute name="href" type="xs:anyURI" use="required"/>
+  </xs:complexType>
+
+  <!-- A provider's metadata field, kept in the provider's own words. -->
+  <xs:complexType name="CapturedField">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="field" type="xs:token" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="RecordingModifier">
+    <xs:restriction base="xs:token">
+      <!-- front of board microphone position -->
+      <xs:enumeration value="FOB"/>
+      <xs:enumeration value="FM"/>
+      <xs:enumeration value="PRE-FM"/>
+      <!-- digital soundboard -->
+      <xs:enumeration value="DSBD"/>
+      <xs:enumeration value="ULTRAMATRIX"/>
+      <xs:enumeration value="DTS"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="RecordingModifiers">
+    <xs:list itemType="b:RecordingModifier"/>
+  </xs:simpleType>
 
   <xs:simpleType name="RecordingKind">
     <xs:restriction base="xs:token">
@@ -60,6 +121,8 @@
     <xs:simpleContent>
       <xs:extension base="xs:token">
         <xs:attribute name="scheme" type="b:IdentifierScheme" use="required"/>
+        <!-- Absent means stated by the provider. A shnid read from a name is "probable". -->
+        <xs:attribute name="certainty" type="b:Certainty"/>
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
@@ -70,6 +133,8 @@
       <xs:enumeration value="archive-org"/>
       <!-- etree.org SHN database ID -->
       <xs:enumeration value="shnid"/>
+      <!-- bt.etree.org torrent number, which is not a shnid -->
+      <xs:enumeration value="etree-torrent"/>
       <xs:enumeration value="other"/>
     </xs:restriction>
   </xs:simpleType>
@@ -90,6 +155,8 @@
       <xs:enumeration value="taper"/>
       <xs:enumeration value="transfer"/>
       <xs:enumeration value="mastering"/>
+      <!-- The source combines transfer and mastering, so no single role can be chosen. -->
+      <xs:enumeration value="transfer-mastering"/>
     </xs:restriction>
   </xs:simpleType>
 

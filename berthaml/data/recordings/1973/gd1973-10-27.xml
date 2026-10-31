@@ -5,26 +5,29 @@
   </record>
   <recording id="r-4e72cde08e56e9b46bb0" kind="soundboard">
     <identifier scheme="archive-org">gd1973-10-27.142772.set2p.sbd.eaton.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142772</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27" references="archive-index infinite-dead"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>flac16/48kHz ; Source Info: Master Soundboard Reels &gt; 2 cassette generations &gt; Dat (16/48k)&gt; Dat (16/48k); Transfer Info: Dat (Sony PCM-R500)&gt; Apogee aes/ebu cable &gt; Tascam DA-3000 (16/48k)&gt; Adobe Audition 3.01 &gt; TLH flac1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
+    <reference href="http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/"/>
   </recording>
   <recording id="r-fa13358d85e2f58083ad" kind="audience">
     <identifier scheme="archive-org">gd1973-10-27.aud.boswell.motb-0141.107323.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">107323</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">David Boswell</credit>
+    <credit role="transfer-mastering">Matt Smith and Derek McCabe</credit>
     <lineage>Unknown Mics &gt;&gt; Unknown Deck &gt;&gt; MAC | MAC &gt;&gt; Reel 7.5 ips Revox A77 Reel @ 7.5 ips &gt;&gt; Revox A77 &gt;&gt; Akai GX636&gt;Apogee Mini Me(24/96)&gt;Apogee Mini Dac(monitoring/mastering)&gt;Lynx One soundcard&gt;Wavelab 5.0&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Smith and Derek McCabe</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
+    <reference href="http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/"/>
   </recording>
   <recording id="r-a86780ded0717c434015" kind="soundboard">
     <identifier scheme="archive-org">gd73-10-27.sbd.wier.16583.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16583</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Soundboard with aud patches | MSR &gt; R &gt; C &gt; D &gt; CD patched with MAC &gt; ? &gt; D</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Indianapolis State Fair Coliseum on 1973-10-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/</note>
+    <reference href="http://infinitedead.net/2021/10/27/10-27-73-indianapolis-in-state-fair-coliseum/"/>
   </recording>
 </recordings>

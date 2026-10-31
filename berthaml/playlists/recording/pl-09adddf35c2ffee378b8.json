@@ -269,12 +269,15 @@
       "n": 20,
       "title": "Keep Your Day Job",
       "file": "gd84-03-29d2t09.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "disc": 2,
       "sourceNumber": 9,
       "duration": "PT274.13S",
+      "certainty": "probable",
       "show": "gd1984-03-29",
-      "covers": []
+      "covers": [
+        "p03-01"
+      ]
     }
   ],
   "citations": [
@@ -296,16 +299,16 @@
   ],
   "notes": [
     "Lineage: SBD -> Cassette Master (Sony D5) -> Cassette (Sony D5/Maxell XLIIS-90) | Cassette (Nakamichi DR-1) -> Sound Devices 744T (24bit/96k) -> Adobe Audition v3.0 -> Samplitude Professional v11.03 -> FLAC/16",
-    "Supplied catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-29. Source references: archive-index. Metadata attribution is unreviewed.",
-    "Source credit (transfer-mastering): Charlie Miller",
-    "Legacy name match: Charlie Miller; role transfer-mastering.",
-    "Legacy name match: Joani Walker; role recording.",
-    "Legacy name match: Paul Scotton; role recording.",
-    "Archive source metadata (lineage): Cassette  (Nakamichi DR-1) -> Sound Devices 744T (24bit/96k) -> Adobe Audition v3.0 -> Samplitude Professional v11.03 -> FLAC/16",
-    "Archive source metadata (source): SBD -> Cassette Master (Sony D5) -> Cassette (Sony D5/Maxell XLIIS-90)",
-    "Archive source metadata (taper): Paul Scotton and Joani Walker",
-    "Archive source metadata (transferer): Charlie Miller",
-    "recordist: Paul Scotton and Joani Walker"
+    "Catalogue listing: Archive.org; Grateful Dead Live at Marin County Veterans Auditorium on 1984-03-29",
+    "recordist: Paul Scotton and Joani Walker",
+    "transfer-mastering: Charlie Miller",
+    "Possible match: Charlie Miller (transfer-mastering)",
+    "Possible match: Joani Walker (recordist)",
+    "Possible match: Paul Scotton (recordist)",
+    "Archive metadata (lineage): Cassette  (Nakamichi DR-1) -> Sound Devices 744T (24bit/96k) -> Adobe Audition v3.0 -> Samplitude Professional v11.03 -> FLAC/16",
+    "Archive metadata (source): SBD -> Cassette Master (Sony D5) -> Cassette (Sony D5/Maxell XLIIS-90)",
+    "Archive metadata (taper): Paul Scotton and Joani Walker",
+    "Archive metadata (transferer): Charlie Miller"
   ],
   "date": "1984-03-29",
   "venue": "Marin Veterans Memorial Auditorium",

@@ -5,64 +5,68 @@
   </record>
   <recording id="r-77ac869fc86c3ffa77bf" kind="unknown">
     <identifier scheme="archive-org">gd1989-02-07.124838.AT835.laurentis.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">124838</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">M.Laurentus</credit>
+    <credit role="transfer-mastering">M.Laurentus</credit>
     <lineage>AT835B's- AT 8202’s-SONY WM D6-C Cassette-Tascam DR-5 Line In-CD Wave- Flac; Taper: M. Laurentus</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): M.Laurentus</note>
   </recording>
-  <recording id="r-6bb3d4eac2b1d321e71d" kind="audience">
+  <recording id="r-6bb3d4eac2b1d321e71d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-02-07.138907.FOB.Schoeps.Mattes.Donaldson.Ammons.Noel.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138907</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">John Ammons and Joe Noel and Dougal Donaldson</credit>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Ted Mattes Recording; Schoeps CMC 44 &gt; Sony PCM F1 (110 degrees ORTF - FOB); Dougal Donaldson Transfer from his PCM clone of the master; Sony Beta SL-HF360 &gt; Sony PCM501 &gt; analog outputs &gt; MAudio soundcard &gt; Soundforge &gt; CD Architect &gt; CD @44.1 kHz. Subsequent transfer from CD &gt; SFDIF &gt; MAudio &gt; Soundforge, WAV file converted to FLAC; Mastered, ReTracted &amp; Packed in Audacity &amp; seeded by Joe Noel &gt; flac 16/44; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): John Ammons and Joe Noel and Dougal Donaldson</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-faad3d2b44880eb2efef" kind="matrix">
+  <recording id="r-faad3d2b44880eb2efef" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-02-07.149648.ultramatrix.sbd.pearson-healy.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">149648</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07" references="archive-index"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering By Charlie Miller April 22 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 22 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-da741b480241bfa46258" kind="matrix">
+  <recording id="r-da741b480241bfa46258" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-02-07.149698.UltraMatrix.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">149698</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07" references="archive-index"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering By Charlie Miller April 22 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 22 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-ebddec8415243ff886e2" kind="soundboard">
     <identifier scheme="archive-org">gd1989-02-07.sbd.walker-scotton.miller.106929.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106929</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Sony TC-D5M/TDK MA-X90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/48k) -&gt; Samplitude Professional v11.03 -&gt; Adobe Audition v3.0 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-69108af3fdc29efc121e" kind="soundboard">
     <identifier scheme="archive-org">gd1989-02-07.sbd.walker-scotton.miller.32543.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32543</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1989-02-07" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-X90) D | Cassette Master (Sony TC-WE475) -&gt; Sony R500 (Pass Through w/ SBM On) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1989-02-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-baa48c2d311a993b1727" kind="soundboard">
     <identifier scheme="archive-org">gd89-02-07.sbd.wiley.9202.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9202</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07" references="archive-index"/>
     <lineage>SBD&gt;MC&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1989-02-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

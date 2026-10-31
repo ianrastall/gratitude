@@ -12,7 +12,7 @@ from lxml import etree, html
 
 import build_corpus as corpus
 from collect_jerrybase_facts import program
-from validate import validate_memory
+from validate import Report, check_ledger, validate_memory
 
 
 def gd(key, venue='Fillmore East', titles=()):
@@ -140,8 +140,87 @@ class CorpusTests(unittest.TestCase):
                                 b'<creditText role="recording">Taper</creditText></recording>')
         result = corpus.recording(item)
         self.assertEqual(result.get('kind'), 'unknown')
-        self.assertEqual(len(result.findall('b:credit', corpus.N)), 1)
-        self.assertIn('transfer-mastering', ''.join(result.itertext()))
+        self.assertEqual(result.get('inferredKind'), 'soundboard')
+        self.assertEqual([c.get('role') for c in result.findall('b:credit', corpus.N)],
+                         ['recordist', 'transfer-mastering'])
+
+    def test_recording_facts_are_fields_and_placeholders_are_not_credits(self):
+        item = etree.fromstring(b'<recording provider="Archive.org" key="gd77-05-08.sbd.hicks.4982.sbeok.shnf" '
+                                b'inferredType="false" type="SBD" modifiers="FOB DTS" title="t" sourceRefs="a b">'
+                                b'<creditText role="recording">See info file</creditText>'
+                                b'<creditText role="transfer-mastering">Unknown</creditText>'
+                                b'<person name="Rob Eaton" role="recording"/><lineage>see info file</lineage>'
+                                b'<reference url="https://example.com/x"/></recording>')
+        result = corpus.recording(item)
+        self.assertEqual(result.get('modifiers'), 'FOB DTS')
+        self.assertEqual(result.findall('b:credit', corpus.N), [])
+        self.assertIsNone(result.find('b:lineage', corpus.N))
+        self.assertEqual(result.find('b:personMatch', corpus.N).get('role'), 'recordist')
+        self.assertEqual(result.find('b:reference', corpus.N).get('href'), 'https://example.com/x')
+        self.assertEqual(result.find('b:listing', corpus.N).get('references'), 'a b')
+        self.assertIsNone(result.find('b:note', corpus.N))
+        shnid = result.find('b:identifier[@scheme="shnid"]', corpus.N)
+        self.assertEqual((shnid.text, shnid.get('certainty')), ('4982', 'probable'))
+
+    def test_shnids_come_from_dotted_tokens_only(self):
+        archive = lambda key: corpus.shnids('Archive.org', key, '')
+        self.assertEqual(archive('gd1977-05-08.137569.mtx.dusborne.flac24'), ['137569'])
+        self.assertEqual(archive('gd1967-11-10.116171.sbd.motb-0172.flac16'), ['116171'])
+        self.assertEqual(archive('gd1970-01-16.131910.sbd.droncit-restore-7111.flac16'), ['131910'])
+        self.assertEqual(archive('gd1967-09-03.sbd.miller.43.sbeok.shnf'), ['43'])
+        self.assertEqual(archive('gd1990-01-01.sbd.2448.flac'), [])
+        self.assertEqual(archive('gd-1995-03-17MVBtapes'), [])
+        self.assertEqual(corpus.shnids('etree', 'etree-508026', 'O\'Keefe Centre 8/4/67 [SBD.10355]'), ['10355'])
+        self.assertEqual(corpus.shnids('etree', 'etree-1', 'gd77-05-08.97274.mtx.seamons.t-flac16'), ['97274'])
+        self.assertEqual(corpus.shnids('etree', 'etree-1', 'A show with no number'), [])
+
+    def test_issued_ids_cannot_vanish_or_return(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'curated').mkdir()
+            ledger = root / 'curated/id-ledger.json'
+            ctx = dict(people={}, songs={'s-new': None}, venues=set(), releases=set(), shows={})
+
+            def errors(issued, retired):
+                ledger.write_text(json.dumps(dict(issued=dict(songs=issued), retired=retired)))
+                report = Report(root)
+                with redirect_stdout(io.StringIO()):
+                    check_ledger(root / 'data', ctx, report)
+                return report.errors
+            self.assertEqual(errors(['s-new'], {}), 0)
+            self.assertEqual(errors(['s-old'], {}), 1)
+            self.assertEqual(errors(['s-old'], {'s-old': 's-new'}), 0)
+            self.assertEqual(errors([], {'s-old': 's-gone'}), 1)
+            self.assertEqual(errors([], {'s-new': 's-new'}), 1)
+
+    def test_roster_follows_periods_and_absences(self):
+        people = etree.parse(str(corpus.ROOT / 'data/people.xml')).getroot()
+        band = lambda day: corpus.roster(day, people)
+        self.assertIn('p-mckernan', band('1971-08-01'))
+        self.assertNotIn('p-mckernan', band('1971-10-15'))
+        self.assertIn('p-mckernan', band('1971-12-05'))
+        self.assertNotIn('p-godchaux-donna', band('1973-11-20'))
+        self.assertNotIn('p-hart', band('1973-05-01'))
+        self.assertEqual(sorted(band('1995-07-09')), ['p-garcia', 'p-hart', 'p-kreutzmann', 'p-lesh',
+                                                      'p-weir', 'p-welnick'])
+
+    def test_corroboration_never_outranks_a_disagreement_or_a_review(self):
+        def show(sid, status='draft', songs=('s-a',)):
+            sets = ''.join(f'<performance id="p{i}" song="{s}"/>' for i, s in enumerate(songs))
+            return etree.fromstring(f'<show xmlns="{corpus.NS}" id="{sid}"><record status="{status}"/>'
+                                    f'<program><set>{sets}</set></program></show>')
+        shows = {s: show(s) for s in ['agreed', 'alone', 'disputed', 'differs']}
+        shows['checked'] = show('checked', 'reviewed')
+        shows['empty'] = show('empty', songs=())
+        walk = [dict(show='agreed', sequence_agrees=True), dict(show='alone'), dict(show='empty'),
+                dict(show='disputed', sequence_agrees=True), dict(show='differs', sequence_agrees=True),
+                dict(show='checked', sequence_agrees=False)]
+        issues = [dict(subject='disputed', state='open', kind='venue-disagreement'),
+                  dict(subject='checked', state='open', kind='setlist-disagreement')]
+        drift = [dict(kind='changed', show='differs', fields=['songs'])]
+        rows = {r['show']: r['level'] for r in corpus.corroboration(shows, {}, walk, issues, drift)}
+        self.assertEqual(rows, dict(agreed='sources-agree', alone='single-source', disputed='disputed',
+                                    differs='differs-from-sources', checked='reviewed', empty='no-setlist'))
 
     def test_publish_refuses_local_changes_before_any_mutation(self):
         with tempfile.TemporaryDirectory() as directory, patch.object(corpus, 'ROOT', Path(directory)):

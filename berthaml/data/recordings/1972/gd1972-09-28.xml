@@ -3,77 +3,84 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-297831791fd65d2a36ad" kind="unknown">
+  <recording id="r-297831791fd65d2a36ad" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1972-09-28.110020.sbd.BEAR.gem.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">110020</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Owsley Stanley</credit>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="Owsley Stanley" role="recordist"/>
     <lineage>Bear's Cassette Copies Nakamichi Dr-1 &gt; Lynx Studio Interface at 24 bit 96 kHz Weiss-Saracon for 16 bit 44.1 kHz Transfered and Lightly Mastered by Jamie Waddell</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: Owsley Stanley; role recording.</note>
   </recording>
   <recording id="r-2ee458c8fc9e20acea4d" kind="soundboard">
     <identifier scheme="archive-org">gd1972-09-28.136692.sbd.sirmick.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136692</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Anonomous</credit>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: Soundboard &gt; Master-Reel &gt; Reel (1st gen) &gt; DAT (44.1k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-99413365b863cc2d6464" kind="audience">
     <identifier scheme="archive-org">gd1972-09-28.170831.aud.AndrewF.flac2448</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">170831</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1972-09-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Andrew F</credit>
     <lineage>Unknown AUD from the tape collection of Rich Petrunis &amp; with thanks to John Petrunis | Transfer: TDK SD-90 (c.1975) &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit) &gt; TLH &gt; FLAC 2448 tagged.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F</note>
   </recording>
   <recording id="r-0f9aa50ed8c6eb1fbbc3" kind="soundboard">
     <identifier scheme="archive-org">gd1972-09-28.170880.sbd.patched.flegel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">170880</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Brian Flegel</credit>
     <lineage>Patched soundboard</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brian Flegel</note>
   </recording>
   <recording id="r-359b4d3948ef024bba47" kind="audience">
     <identifier scheme="archive-org">gd1972-09-28.aud.berger.99843.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">99843</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>AUD &gt; ? | ?&gt;7" reel @ 3.75 ips, dolby b technics rs-1506&gt;teac an-180&gt;hd-p2 24/96&gt;hd&gt;cd wave&gt;adobe 2.0 16/44&gt;flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-103c1cefc03901e8e9d6" kind="soundboard">
     <identifier scheme="archive-org">gd1972-09-28.sbd.bertha.34162.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">34162</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bertha Remaster of the patched master reel source</credit>
     <lineage>SBD-&gt;MR-&gt;DAT-&gt;CDA-&gt;WAV-&gt;SHN-&gt;FLAC | FLAC-&gt;DAW(Bertha)-&gt;SHN/CDA</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bertha Remaster of the patched master reel source</note>
   </recording>
   <recording id="r-2823ca321019cdc71f3e" kind="soundboard">
     <identifier scheme="archive-org">gd1972-09-28.sbd.bertha.ashley.27584.sbefail.shnf</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">27584</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">J. Ashely</credit>
     <lineage>SBD &gt; Master Reel | MR &gt; DAT &gt; CDA &gt; WAV &gt; SHN &gt; FLAC &gt; DAW(Bertha) &gt; SHN/CDA</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): J. Ashely</note>
   </recording>
-  <recording id="r-2910c69a568ccb8586a9" kind="unknown">
+  <recording id="r-2910c69a568ccb8586a9" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1972-09-28.sbd.lai.157.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">157</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Mike Lai</credit>
     <lineage>master reel&gt;&gt;pcm&gt;&gt;dat&gt;&gt;cdr</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Mike Lai</note>
   </recording>
   <recording id="r-fe40590ae12a8c51112a" kind="soundboard">
     <identifier scheme="archive-org">gd1972-09-28.sbd.miller.94268.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94268</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-e799f82ce0dc5d580e4f" kind="soundboard">
     <identifier scheme="archive-org">gd72-09-28.sbd-patched.chrisl.26933.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">26933</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard with Audience patches | Primary Source: SBD&gt; MR&gt; DAT&gt; CDR&gt; WAV&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-e689c2a71824516044a2" kind="soundboard">
     <identifier scheme="archive-org">gd72-09-28.sbd.bill.12657.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12657</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1972-09-28" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD (probably sbd&gt;mr&gt;dat&gt;cdr)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1972-09-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

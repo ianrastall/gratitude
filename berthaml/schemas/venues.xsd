@@ -29,9 +29,15 @@
       <xs:element name="altName" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="locality" type="b:Locality"/>
       <xs:element name="coordinates" type="b:Coordinates" minOccurs="0"/>
+      <!-- The venue's page in a source. This is how a source event finds its venue entry. -->
+      <xs:element name="sourceRef" type="b:SourceRef" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="note" type="b:Note" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="id" type="b:VenueId" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="SourceRef">
+    <xs:attribute name="href" type="xs:anyURI" use="required"/>
   </xs:complexType>
 
   <xs:complexType name="VenueName">

@@ -3,30 +3,31 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-f74120eda82386fb13bd" kind="unknown">
+  <recording id="r-f74120eda82386fb13bd" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1977-04-22.152296.aud.petrunis.andrewf.flac1644</identifier>
-    <credit role="recordist">Recording by Rich Petrunis.</credit>
+    <identifier scheme="shnid" certainty="probable">152296</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1977-04-22" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Rich Petrunis</credit>
+    <credit role="transfer-mastering">Transferred by Andrew F. 04/2021</credit>
     <lineage>Mono Sony hand-held recorder (model unknown) &gt; Maxell-UD Set 1 &amp; TDK-SD Set 2 (normal bias). | Transfer: MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain SRC &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1977-04-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Transferred by Andrew F. 04/2021</note>
   </recording>
   <recording id="r-1993b056c4e1694b0988" kind="soundboard">
     <identifier scheme="archive-org">gd77-04-22.sbd.cotsman.10148.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10148</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1977-04-22" references="archive-index"/>
     <lineage>Soundboard and Audience</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1977-04-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-362f76fd68a1ca9e8b53" kind="soundboard">
+  <recording id="r-362f76fd68a1ca9e8b53" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd77-04-22.sbd.miller.27747.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">27747</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1977-04-22" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Soundboard | 7 inch Master Reels @ 7.5ips 1/2trk&gt; Dat&gt; Dat (44.1k), plus patches from FOB Sony ECM99A&gt; Cassette;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1977-04-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
-  <recording id="r-569a4f731c806dc14b48" kind="audience">
+  <recording id="r-569a4f731c806dc14b48" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd77-04-22.sony.unknown.8673.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8673</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1977-04-22" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Sony ECM 99A mics | FOB Sony ECM99A mics &gt; Sony TC152 &gt; Cass &gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1977-04-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
   </recording>
 </recordings>

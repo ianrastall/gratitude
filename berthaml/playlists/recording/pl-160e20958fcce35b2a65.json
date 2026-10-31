@@ -9,12 +9,15 @@
       "n": 1,
       "title": "New Minglewood Blues ->",
       "file": "gd82-02-17d1t01.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "disc": 1,
       "sourceNumber": 1,
       "duration": "PT416.28S",
+      "certainty": "probable",
       "show": "gd1982-02-17",
-      "covers": []
+      "covers": [
+        "p01-01"
+      ]
     },
     {
       "n": 2,
@@ -272,12 +275,15 @@
       "n": 20,
       "title": "(I Can't Get No) Satisfaction",
       "file": "gd82-02-17d3t06.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "disc": 3,
       "sourceNumber": 6,
       "duration": "PT392.09S",
+      "certainty": "probable",
       "show": "gd1982-02-17",
-      "covers": []
+      "covers": [
+        "p03-01"
+      ]
     }
   ],
   "citations": [
@@ -299,12 +305,12 @@
   ],
   "notes": [
     "Lineage: Set 1: SBD -> Cassette Master (TDK MA-R90) Set 2: SBD -> Cassette Master -> Cassette (Dolby C) | Set 1: Cassette Master (Nakamichi DR-1) -> Sound Devices 744T (24bit/48k) -> FLAC/16",
-    "Supplied catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1982-02-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.",
-    "Source credit (transfer-mastering): Charlie Miller",
-    "Legacy name match: Charlie Miller; role transfer-mastering.",
-    "Archive source metadata (lineage): Set 1: Cassette Master (Nakamichi DR-1) -> Sound Devices 744T (24bit/48k) -> FLAC/16",
-    "Archive source metadata (source): Set 1: SBD -> Cassette Master (TDK MA-R90) Set 2: SBD -> Cassette Master -> Cassette (Dolby C)",
-    "Archive source metadata (transferer): Charlie Miller"
+    "Catalogue listing: Archive.org; Grateful Dead Live at Warfield Theater on 1982-02-17",
+    "transfer-mastering: Charlie Miller",
+    "Possible match: Charlie Miller (transfer-mastering)",
+    "Archive metadata (lineage): Set 1: Cassette Master (Nakamichi DR-1) -> Sound Devices 744T (24bit/48k) -> FLAC/16",
+    "Archive metadata (source): Set 1: SBD -> Cassette Master (TDK MA-R90) Set 2: SBD -> Cassette Master -> Cassette (Dolby C)",
+    "Archive metadata (transferer): Charlie Miller"
   ],
   "date": "1982-02-17",
   "venue": "Warfield Theatre",

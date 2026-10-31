@@ -5,134 +5,140 @@
   </record>
   <recording id="r-ae9b4709dcfd95f8c594" kind="audience">
     <identifier scheme="archive-org">gd1991-03-28.133616.Nak300s-Senn441s.Fitzy.Keo.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">133616</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index"/>
     <credit role="recordist">Fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns + Sennheiser 441's&gt; Unknown Radio Shack Mixer &gt; Sony D5,Tapes:Maxell MX 90 + 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.0.2 To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-57bb4542674ba95c0262" kind="audience">
     <identifier scheme="archive-org">gd1991-03-28.133617.Nak300s-Senn441s.Fitzy.Keo.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">133617</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns + Sennheiser 441's&gt; Unknown Radio Shack Mixer &gt; Sony D5,Tapes:Maxell MX 90 + 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.0.2 To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-d46ca5e2f62ac375ed3e" kind="unknown">
     <identifier scheme="archive-org">gd1991-03-28.140091.OTS.Schoeps.Gastwirt.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">140091</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rich Gastwirt</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Rich Gastwirt recording: (OTS) Schoeps CMC4 MK4 (ortf)&gt; DAT (Panasonic SV-255); Charlie Miller | Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 &gt; wav 16/48; Edited &amp; Mastered in Audacity by Joe Noel: wav 16/48 &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-4877f9407e63ada95c64" kind="audience">
     <identifier scheme="archive-org">gd1991-03-28.141408.OTS.AKG.Ackerman.Miller.Noel.t-flac.1648</identifier>
+    <identifier scheme="shnid" certainty="probable">141408</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ray Ackerman</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Master Audience Recording &amp; Transfer by Ray Ackerman: AKG 460B/CK63 ULS &gt; AKG B18 phantom power unit &gt; Panasonic SV250 &gt; DAT (OTS); Transfer info: Tascam DA 30 mkii &gt; Microtrack ii &gt; wavelab 5 &gt; WAV 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d30bb470ade27daffb54" kind="matrix">
+  <recording id="r-d30bb470ade27daffb54" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1991-03-28.142161.sbd.ultramatrix.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">142161</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-97f61e57077d498b7c7c" kind="matrix">
+  <recording id="r-97f61e57077d498b7c7c" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1991-03-28.142169.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142169</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-18e4bed8907a04f7a300" kind="matrix">
+  <recording id="r-18e4bed8907a04f7a300" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1991-03-28.142213.sbd.ultramatrix.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">142213</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9d04cdb7fc51f1292161" kind="matrix">
+  <recording id="r-9d04cdb7fc51f1292161" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1991-03-28.142428.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142428</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-fbd8f5612b5a1d2f731f" kind="soundboard">
+  <recording id="r-fbd8f5612b5a1d2f731f" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1991-03-28.146430.neuman-skm150.dalton.miller.sirmick.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">146430</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Dalton</credit>
+    <credit role="transfer-mastering">Sirmick and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: (FOB) Neuman SKM150 (90 Deg X-Y) &gt; Oade p/s &gt; Panasonic SV255 &gt; DAT (48K) - Taped by Tim Daltoneg: SBD &gt; DAT | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-18fdad85d789ce4e0d59" kind="audience">
+  <recording id="r-18fdad85d789ce4e0d59" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1991-03-28.149560.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">149560</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-28" references="archive-index"/>
     <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
+    <credit role="transfer-mastering">Transfer by Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel April 01, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Recording: Schoeps CMC3 MK4’s (ORTF) &gt; Panasonic SV-255 (16/48) Location: FOB mics hand held, section B1, row 19, seat 8 | Transfer: Dat &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Transfer by Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel April 01, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-22031a943a70acf58213" kind="audience">
     <identifier scheme="archive-org">gd1991-03-28.nak300.andrewf.107569.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">107569</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index"/>
     <credit role="recordist">Andrew F.</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>AUD: 2x Nakamichi CM300/CP4 shotguns &gt; Casio DA-7 &gt; Maxell DM Dat. Mics on 7-foot stand, front row OTS. | MAD &gt; Sony TCD-D10P &gt; SPDIF &gt; Audiophile 2496 &gt; Wavelab &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 Tagged. Taped &amp; transferred by Andrew F. 05/2010</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-97eb3469ec3298857ad7" kind="soundboard">
     <identifier scheme="archive-org">gd1991-03-28.sbd.miller.87732.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">87732</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat -&gt; Cassette Master (TDK SA-X100) D | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-fa2c486a7cb894d6af70" kind="unknown">
     <identifier scheme="archive-org">gd1991-03-28.wklitz.me80.91713.flac</identifier>
+    <identifier scheme="shnid" certainty="probable">91713</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Keith Litzenberger</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 from Taper's Section | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades &amp; Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
-  <recording id="r-121f61cee8703a3d90be" kind="audience">
+  <recording id="r-121f61cee8703a3d90be" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd91-03-28.fob-schoeps-mahoney-oneill.miller.28391.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">28391</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-28" references="archive-index"/>
     <credit role="recordist">JC Mahoney, Dan O'Neill</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>FOB Schoeps CMC3/MK4 (ORTF)&gt; Oade Preamp&gt; Dat (Panasonic SV255/48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1991-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-ac4f6a975308d6e5698e" kind="soundboard">
     <identifier scheme="archive-org">gd91-03-28.sbd.barbella.7287.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7287</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1991-03-28" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt; DAT&gt; CDR&gt; EAC&gt; SHN (seekable) via Steve Barbella</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1991-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-915db491336f814d422b" kind="unknown">
-    <identifier scheme="other">etree-600041</identifier>
-    <note>Supplied catalogue listing: etree; gd1991-03-28.142428.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-915db491336f814d422b" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">600041</identifier>
+    <identifier scheme="shnid" certainty="probable">142428</identifier>
+    <listing provider="etree" title="gd1991-03-28.142428.UltraMatrix.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-4a5234866f2525f22e8d" kind="unknown">
-    <identifier scheme="other">etree-599721</identifier>
-    <note>Supplied catalogue listing: etree; gd1991-03-28.142169.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-4a5234866f2525f22e8d" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">599721</identifier>
+    <identifier scheme="shnid" certainty="probable">142169</identifier>
+    <listing provider="etree" title="gd1991-03-28.142169.UltraMatrix.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

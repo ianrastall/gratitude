@@ -5,118 +5,128 @@
   </record>
   <recording id="r-f2f99428ebfac4ed1b0d" kind="unknown">
     <identifier scheme="archive-org">gd1990-10-22.131001.cmc521.deal.jwpetty.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131001</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Lance Deal</credit>
+    <credit role="transfer-mastering">jwpetty</credit>
     <lineage>Schoeps CMC 521's&gt; Schoeps VMS 52 UB&gt; Technics SVMD1; Master DAT provided by Lance Deal; | Fostex D-5&gt; Luminous Monarch cable&gt; M-Audio Audiophile 2496&gt; Audacity @ 16/48&gt; 16/44&gt; CDWave (tracking)&gt; TLH (SBE/Flac 16-Level 8/md5); Transfer completed August 18, 2014 by jwpetty</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): jwpetty</note>
   </recording>
   <recording id="r-0bee010c5160eb5bf050" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.143528.nak300-cp4.dalton.miller.sirmick.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">143528</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Tim Dalton</credit>
+    <credit role="transfer-mastering">Charlie Miller and Sirmick</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Nakamichi 300s (cp4) &gt; Oade p/s &gt; Panasonic SV255 &gt; DAT (48K) - Taped by Tim Dalton | Transfer: DAT &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller Lineage: wav &gt; iZotope RX7 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; flac 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Sirmick</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/</note>
+    <reference href="http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/"/>
   </recording>
   <recording id="r-16e4caabf4076da38499" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.144925.aud.lamarre.berger.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">144925</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell mx-90/100's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transfer - Rob Berger 2019</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-169216afed1b98886e1d" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.144926.aud.lamarre.berger.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">144926</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell mx-90/100's, dolby b | nakamichi dragon/b &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transfer - Rob Berger 2019</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
-  <recording id="r-a53bacefef500f76cc3a" kind="matrix">
+  <recording id="r-a53bacefef500f76cc3a" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1990-10-22.165451.ultramatrix.miller.flac2496</identifier>
-    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <identifier scheme="shnid" certainty="probable">165451</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller August 11, 2023</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>Ultramatrix SBD &gt; Cassette Master (Maxell MX100/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 11, 2023</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-1642c8d0f4d5a2ccea15" kind="matrix">
+  <recording id="r-1642c8d0f4d5a2ccea15" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1990-10-22.165843.UltraMatrix.sbd.cm.miller.t-flac1644</identifier>
-    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <identifier scheme="shnid" certainty="probable">165843</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller August 11, 2023</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>Ultramatrix SBD &gt; Cassette Master (Maxell MX100/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 11, 2023</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-697e7e2af703fd7b5263" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.167568.nak700.blend.vita.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">167568</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 700 mics x3 &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-a7575616aed8db66b4e8" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.167569.nak700.blend.vita.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">167569</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master Audience Cassettes; Nakamichi 700 mics x3 &gt; unknown mixer &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2dc61a163feb0da83304" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.nak300.houck-wright.gmb.90745.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">90745</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index infinite-dead"/>
     <credit role="recordist">Alf Houck and Robert Wright</credit>
+    <credit role="transfer-mastering">Bill Koucky</credit>
     <lineage>Audience Master Cassette Nakamichi 300�s Cardioids &gt; Marantz PMD-430 &gt; Dolby B | Nakamichi DR-1 &gt; Edirol UA-5 &gt; USB &gt; WaveLab 5.0 @ [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Koucky</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/</note>
+    <reference href="http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/"/>
   </recording>
   <recording id="r-f1f922c90174987c0830" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.Nak300CP4.Floater.Keo.114392.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">114392</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index"/>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D7&gt;Sony D6 (Patched Out Of D7); Tapes:Maxell XLII 90,XLII-S 100 Taper:Friend Of Floater; Tapes From Floater,Transfer By Keo; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Metadata Tagging; With AudioGate Software To 32 Bit Float/96 kHz Dithered/Flacked With Korg Aqua To 16/44 SBE's Checked/Fixed With Trader's Little Helper</lineage>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-416779e461c2dc57b038" kind="audience">
     <identifier scheme="archive-org">gd1990-10-22.Nak300CP4.Floater.Keo.114393.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">114393</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index"/>
     <credit role="recordist">Floater</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D7&gt;Sony D6 (Patched Out Of D7) Tapes:Maxell XLII 90,XLII-S 100; Taper:Friend Of Floater Tapes From Floater,Transfer By Keo Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz Tracking/Sample Rate Conversion/Flacked/Metadata Tagging With AudioGate Software To 24 Bit/96 kHz</lineage>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
-  <recording id="r-9c91a61917ffca37afb8" kind="unknown">
+  <recording id="r-9c91a61917ffca37afb8" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd90-10-22.beyer-fob.unknown.12833.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12833</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot"/>
     <lineage>2 Beyer M160&gt; Sony TCD5M Front Of Board Master Cassette&gt; CDR via walstib</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
   </recording>
-  <recording id="r-09385366a3bc72bc8972" kind="soundboard">
+  <recording id="r-09385366a3bc72bc8972" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd90-10-22.dsbd.hinko.22315.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">22315</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | DSBD &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
   </recording>
   <recording id="r-4ca7aab52280f99f02a8" kind="soundboard">
     <identifier scheme="archive-org">gd90-10-22.sbd.fishman.13466.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13466</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index infinite-dead"/>
     <lineage>SBD&gt;CM&gt;D&gt;CD&gt;EAC&gt;SHN, transcribed by JR Fishman</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/</note>
+    <reference href="http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/"/>
   </recording>
   <recording id="r-f21b759c3b483ec6ddf8" kind="soundboard">
     <identifier scheme="archive-org">gd90-10-22.sbd.gardner.8722.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8722</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Festhalle on 1990-10-22" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>SBD&gt;DAT&gt;C&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Festhalle on 1990-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/</note>
+    <reference href="http://infinitedead.net/2021/10/22/10-22-90-frankfurt-germany-festhalle/"/>
   </recording>
 </recordings>

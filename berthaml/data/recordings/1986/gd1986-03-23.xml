@@ -5,207 +5,229 @@
   </record>
   <recording id="r-d06e63f3da6992376d79" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.111956.beyer-senn.daweez.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">111956</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Source: 2 Beyer M160 &amp; 1 Sennheiser 421 Microphones (up front-center) &gt; Nak MX100 w/2001 &gt; Sony TC-D5M (dolby off) - master analog cassettes; | Sony TC-D5M (original record deck-dolby off) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-87ace178de840c13972e" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.127536.chasingwilma.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">127536</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">chasingwilma</credit>
+    <credit role="transfer-mastering">chasingwilma</credit>
     <lineage>source: schoeps CMC 44&gt; tcd-d5&gt; mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): chasingwilma</note>
   </recording>
-  <recording id="r-005cc1c758acac4f5c2a" kind="audience">
+  <recording id="r-005cc1c758acac4f5c2a" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-03-23.132708.fob-schoeps.datbrad.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">132708</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">mark lynn and datbrad</credit>
     <lineage>FOB Schoeps CMC3s/MK4s&gt;PCM&gt;DAT; | DAT&gt;CDR&gt;Wavelab 6&gt;CDWave&gt;Flac Frontend(Level 6); Recording by Unknown; CDRs provided by Mark Lynn; Conversion to wav&gt;flac by DATBRAD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): mark lynn and datbrad</note>
   </recording>
-  <recording id="r-45d283d0b6ba25722293" kind="audience">
+  <recording id="r-45d283d0b6ba25722293" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-03-23.133873.cmc34-fob.deemph.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">133873</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
+    <credit role="transfer-mastering">Mark Lynn, Datbrad;</credit>
     <lineage>FOB Schoeps CMC3s/MK4s&gt;PCM&gt;DAT; | DAT&gt;CDR&gt;Wavelab 6&gt;CDWave&gt;Flac Frontend(Level 6); Recording by Unknown; de-emphasis version of source ID 132708 using xACT 2.34 by chillwig</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Mark Lynn, Datbrad;</note>
   </recording>
   <recording id="r-a210407db021ff66db6d" kind="soundboard">
     <identifier scheme="archive-org">gd1986-03-23.133940.sbd.set2partial.andrewf.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">133940</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
+    <credit role="transfer-mastering">Andrew F. and Andrew F</credit>
     <lineage>Partial Set 2 Source: SBD &gt; ? &gt; Cassette. | Hitachi ME-Metal &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Andrew F. 08/2015</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F. and Andrew F</note>
   </recording>
-  <recording id="r-6d4cdd6d81095db8849e" kind="audience">
+  <recording id="r-6d4cdd6d81095db8849e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-03-23.141998.fob.oade.schoeps.cmc4.mk41.wise.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141998</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Oade Brothers</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Jim Wise</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>Source Info: Oade's Master (FOB) Audience PCM; Schoeps CMC4/MK41 mics &gt; Oade M118 &gt; Oade modified Sony PCM-F1; Transfer Info: Master Oade PCM &gt; Sek'd Prodif &gt; Samplitude (.wav 16-bit/44.1k)&gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
   <recording id="r-6e9e481f159f48f83551" kind="soundboard">
     <identifier scheme="archive-org">gd1986-03-23.142392.sbd.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142392</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master &gt; Reel (Technics) &gt; Dat (Panasonic SV-3800/48k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-01bcf0b4a192be05588d" kind="matrix">
     <identifier scheme="archive-org">gd1986-03-23.145702.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">145702</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-4d48967c0c2025024226" kind="unknown">
+  <recording id="r-4d48967c0c2025024226" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1986-03-23.145703.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">145703</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-20aee5dc68f0c878fc45" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.145705.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">145705</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-14f93feebdd1158f0adf" kind="audience">
     <identifier scheme="archive-org">gd1986-03-23.148872.senn441.mattes.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">148872</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
   <recording id="r-5c5580262aba826fdb98" kind="audience">
     <identifier scheme="archive-org">gd1986-03-23.148873.senn441.mattes.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">148873</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
   <recording id="r-6eb54316ade2bf3d82e2" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.156076.beyerm201-murtha.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">156076</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Sean Murtha, Gary Steel? Kyle Holbrook? Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Microphones: Beyer m201 (hypercardioid) XY 90º Recorder: Sony TC-D5M No Dolby Location: 40' from stage; DFC; chest height on stand This Source: 1st Gen AUDCA Maxell MX90 No NR [KH; SM master] | Transfer: Nakamichi LX-5 &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-c0e1d5509d6f15e3bb93" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.156077.beyerm201-murtha.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">156077</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
     <credit role="recordist">Executive Crew; Mike Davis, Kenny Davis, Sean Murtha, Gary Steel? Kyle Holbrook? Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Microphones: Beyer m201 (hypercardioid) XY 90º Recorder: Sony TC-D5M No Dolby Location: 40' from stage; DFC; chest height on stand This Source: 1st Gen AUDCA Maxell MX90 No NR [KH; SM master] | Transfer: Nakamichi LX-5 &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-75a89c6d41728778ad6b" kind="audience">
     <identifier scheme="archive-org">gd1986-03-23.156622.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">156622</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3c067704ee9d71321f22" kind="audience">
     <identifier scheme="archive-org">gd1986-03-23.156623.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">156623</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-cd28e261641dc2db1083" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.159372.OTS-Nak300.pasterrnak.vernon.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">159372</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jon Pasternak</credit>
+    <credit role="transfer-mastering">Jon Pasternak</credit>
     <lineage>OTS Nak CM300/CP-4/Marantz PMD 420/TDK MA 90 | All transfers made from Nakamchii DR-3 to SD 722 at 24/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jon Pasternak</note>
   </recording>
   <recording id="r-54ed28aee8ef1a09bee2" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.159373.OTS-Nak300.pasterrnak.vernon.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">159373</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
     <credit role="recordist">Jon Pasternak</credit>
+    <credit role="transfer-mastering">Jon Pasternak</credit>
     <lineage>OTS Nak CM300/CP-4/Marantz PMD 420/TDK MA 90 | All transfers made from Nakamchii DR-3 to SD 722 at 24/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jon Pasternak</note>
   </recording>
   <recording id="r-57277bdeb5214e929ecc" kind="audience">
     <identifier scheme="archive-org">gd1986-03-23.172447.nak304.thomas.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">172447</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-4947094d267bbb869115" kind="audience">
     <identifier scheme="archive-org">gd1986-03-23.172448.nak304.thomas.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">172448</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-26a45c8ab63021147a63" kind="soundboard">
     <identifier scheme="archive-org">gd1986-03-23.179299.senn.441.strizak.flac2448</identifier>
+    <identifier scheme="shnid" certainty="uncertain">179299</identifier>
+    <identifier scheme="shnid" certainty="uncertain">441</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index"/>
     <credit role="recordist">Tom Strizak</credit>
+    <credit role="transfer-mastering">Tom Strizak</credit>
+    <personMatch name="Dan Healy" role="unspecified"/>
     <lineage>Tom Strizak Master Cassettes (2) Senn. 441 mics at approx. 7’ height standard stereo configuration &gt; Sony TC-D5M (2-Maxell Metal MX90 / Dolby-B). Location: Taper Section approx. 25’ behind Sbd, 10’ R of Dan Healy mix position. | Analog Master Cassette &gt; playback on Harmon Kardon TD-262 Ultra Wideband Linear Phase) &gt; Behringer XR-18 digital audio mixer &gt; Reaper *DAW (master digitization @ 24 bit 48Khz WAV / export (rendered at 14LUFS) &gt; Audacity *DAW (for track labeling, audio edits, and file conversion to Tracked and Labeled FLAC file set) (*DAW = Digital Audio Workstation)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tom Strizak</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
   </recording>
   <recording id="r-809ae05896de64d4412d" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.nak100.holtz.jaz.102167.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102167</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">JAZ</credit>
     <lineage>Nakamichi cm 100's w/shotguns -&gt; Sony TC-D5 | Master Cassettes (Maxell MX90 Metaxial) Tascam 112MKII -&gt; Korg MR-1, 1bit 2.8MHz -&gt; USB -&gt; Korg Audio Gate Software 24bit 48KHz -&gt; Wave Lab 5.0 w/UAD -&gt; R8brain for 16bit 44.1KHz sample rate convertion -&gt; Traders Little Helper flac8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): JAZ</note>
   </recording>
   <recording id="r-5e635f14856e0dba2e71" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.nak300.damico.87649.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">87649</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joe D'Amico</credit>
+    <credit role="transfer-mastering">Joe D'Amico</credit>
     <lineage>nak 300 mics w/cp4 shotguns &gt; sony d-5 | nak dragon tape deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe D'Amico</note>
   </recording>
   <recording id="r-7d1b9bd70d02a0aee711" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.nak300.mandel.79565.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">79565</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Brian Mandel</credit>
+    <credit role="transfer-mastering">Brian Mandel</credit>
     <lineage>Nakamichi 300 Shotguns CP4's &amp; Sony TCD5M | Master Casssette Transfer: Nakamichi BX300-&gt; Macintosh -&gt;Peak Bias-&gt;JAM-&gt;cdr-&gt;EAC-&gt;MKW-&gt;shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brian Mandel</note>
   </recording>
   <recording id="r-17cd883cd1ccfe0e6b03" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.nakcm304.suraci.sbeok.79879.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">79879</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tony Suraci</credit>
+    <credit role="transfer-mastering">Tony Suraci</credit>
     <lineage>Nak CM304's&gt;SonyD5 | Nak CR5A&gt;Lunatec V3&gt;Sd722</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tony Suraci</note>
   </recording>
   <recording id="r-fa8f1c3dc27ea8910cb8" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-23.senn.unknown.15244.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">15244</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <lineage>MAC (Sony TCD5M 2Sennheiser ME-80 &amp; 2 Sennheiser 441's) | MAC &gt; wav &gt; shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-59b14575af936c58cb47" kind="unknown">
     <identifier scheme="archive-org">gd86-03-23.senn.unknown.15203.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">15203</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1986-03-23" references="archive-index archive-url-snapshot"/>
     <lineage>MAC (Sony TCD5M 2Sennheiser ME-80 &amp; 2 Sennheiser 441's) &gt; wav &gt; shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1986-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-89e7ec1589d2fa6d3315" kind="unknown">
-    <identifier scheme="other">etree-600645</identifier>
-    <note>Supplied catalogue listing: etree; gd86-03-23.142392.sbd.miller.t-flac1648. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-89e7ec1589d2fa6d3315" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">600645</identifier>
+    <identifier scheme="shnid" certainty="probable">142392</identifier>
+    <listing provider="etree" title="gd86-03-23.142392.sbd.miller.t-flac1648" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

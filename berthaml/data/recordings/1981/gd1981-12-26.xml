@@ -3,87 +3,95 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-9386e4200744fa7ff7a7" kind="audience">
+  <recording id="r-9386e4200744fa7ff7a7" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1981-12-26.136898.nak300.schley.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">136898</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Brian Schley</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell XL-II (S1 + Encore) and Sony UCX-S (S2), FOB recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain SRC &gt; Wavelab (adding 16-bit patches) &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 09/2016</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-ccd52793d52f53e9ceb2" kind="soundboard">
     <identifier scheme="archive-org">gd1981-12-26.143444.sbd.set2.walker.scotton.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">143444</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Paul Scotton</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="transfer-mastering"/>
     <lineage>Joani Walker's Master Soundboard Cassettes; Nakamichi 550(Maxell UDXLII-90) | Transfer Info: Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp 2496 &gt; Adobe Audition 3.01 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Paul Scotton</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role transfer-mastering.</note>
   </recording>
   <recording id="r-7ba37844e54c31b8131b" kind="soundboard">
     <identifier scheme="archive-org">gd1981-12-26.143445.sbd.set2.walker.scotton.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">143445</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Paul Scotton</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="transfer-mastering"/>
     <lineage>Joani Walker's Master Soundboard Cassettes; Nakamichi 550(Maxell UDXLII-90) | Transfer Info: Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp 2496 &gt; Adobe Audition 3.01 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Paul Scotton</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role transfer-mastering.</note>
   </recording>
   <recording id="r-44b6a45512e63d9168b4" kind="soundboard">
     <identifier scheme="archive-org">gd1981-12-26.143446.senn421.walker.scotton.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">143446</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker patched out of Jim Voss</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Paul Scotton</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="transfer-mastering"/>
     <lineage>1st Set: Joani Walker's Master Audience Cassettes; Sennheiser 421 mics &gt; Nakamichi 550(Maxell UDXLII-90)(patched out of Jim Voss, located at the soundboard)) 2nd Set: Joani Walker's 1st generation Audience Cassettes; Sennheiser 421 mics &gt; Nakamichi 550 (Maxell UDXLII-90)(copy of Jim Voss's Sennheiser 421 master, located at the soundboard) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp 2496 &gt; Adobe Audition 3.01 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Paul Scotton</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role transfer-mastering.</note>
   </recording>
   <recording id="r-cd120a2104e5fef31b5d" kind="soundboard">
     <identifier scheme="archive-org">gd1981-12-26.143447.senn421.walker.scotton.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">143447</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker patched out of Jim Voss</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Paul Scotton</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="transfer-mastering"/>
     <lineage>1st Set: Joani Walker's Master Audience Cassettes; Sennheiser 421 mics &gt; Nakamichi 550(Maxell UDXLII-90)(patched out of Jim Voss, located at the soundboard)) 2nd Set: Joani Walker's 1st generation Audience Cassettes; Sennheiser 421 mics &gt; Nakamichi 550 (Maxell UDXLII-90)(copy of Jim Voss's Sennheiser 421 master, located at the soundboard) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp 2496 &gt; Adobe Audition 3.01 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Paul Scotton</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role transfer-mastering.</note>
   </recording>
   <recording id="r-19cec85f121a10478a0d" kind="audience">
     <identifier scheme="archive-org">gd1981-12-26.menke.glyde.10533.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10533</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Menke</credit>
+    <personMatch name="Bob Menke" role="recordist"/>
     <lineage>Audience Recording: Sennheiser 421's | AUD&gt; MC&gt; R&gt; DAT&gt; CDR&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
   </recording>
-  <recording id="r-ad9b57ed757cc05dd406" kind="audience">
+  <recording id="r-ad9b57ed757cc05dd406" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1981-12-26.nak300.nhoey.120368.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">120368</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">n hoey</credit>
+    <credit role="transfer-mastering">n hoey</credit>
     <lineage>Audience Cassette Master, Recorded, Transferred and Mastered by N. Hoey; 2 Nakamichi CM 300's &gt; Sony TC D-5m (Dolby B)(Set 1-encore Maxell UDXL-IIS 90)(Set II TDK MA C 90)(FOB center); Nakamichi Dragon (Dolby B decoded) &gt; A/D Apogee Mini Me (firewire)(transferred @ 44.1/24[soft limit] dithered to 44.1/16 bit) &gt; (Peak 7 OS X editing-dithering) &gt; xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): n hoey</note>
   </recording>
   <recording id="r-85bac7f6eb127bb551e5" kind="soundboard">
     <identifier scheme="archive-org">gd1981-12-26.sbd.miller.83996.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83996</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium on 1981-12-26" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 1: SBD -&gt; Cassette Master -&gt; Cassette -&gt; LynxOne -&gt; CD DSet 2: SBD -&gt; Cassette Master (Maxell UDXLII-90) D | CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b5b673f068df04e2f5ab" kind="soundboard">
     <identifier scheme="archive-org">gd1981-12-26.sbd.miller.84265.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">84265</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium on 1981-12-26" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 1: SBD -&gt; Cassette Master -&gt; Cassette -&gt; LynxOne -&gt; CD DSet 2: SBD -&gt; Cassette Master (Maxell UDXLII-90) D | CD -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-d437b2f3f9fa5df2d396" kind="audience">
     <identifier scheme="archive-org">gd81-12-26.nak700-martin.23897.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">23897</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steven Martin</credit>
     <lineage>Audience Recording: Nak CM700's | Master audience cassette (2 modified Nakamichi CM-700 mics with boost + 1 Shure mic without boost &gt; Sony TC-D5M on Maxell metal tape, about 20' in front of the soundboard) &gt; Nak Dragon playback &gt; Cardas audiophile cables &gt; HHB CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Auditorium Arena on 1981-12-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

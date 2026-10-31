@@ -5,68 +5,73 @@
   </record>
   <recording id="r-c8086eda0c361cc8608b" kind="audience">
     <identifier scheme="archive-org">gd1988-03-16.136272.aud.bernstein.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">136272</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jon Bernstein</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>AUD: Unknown mics &amp; lead deck &gt; Sony TC-D5M &gt; Maxell MX-Metal 90's. Recording by Jon Bernstein. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 06/2016</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
-  <recording id="r-00424e3f6d53a640afbf" kind="audience">
+  <recording id="r-00424e3f6d53a640afbf" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1988-03-16.141645.fob.cmc4-mk4.weber-small.mattes.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141645</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes and Sean Weber-Small</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Source Info: Master (FOB) Audience PCM; Schoeps CMC4/MK4 (ORTF) &gt; Oade P/S &gt; Sony PCM-F1 &gt; PCM Clone (Sony SL-2000); Tansfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-41eb5e26ebf1e3cd04f3" kind="matrix">
+  <recording id="r-41eb5e26ebf1e3cd04f3" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-03-16.141899.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141899</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-23a0e38ce4f31e9af715" kind="matrix">
+  <recording id="r-23a0e38ce4f31e9af715" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-03-16.141950.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141950</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1988-03-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f348c27be7cc3ada442d" kind="matrix">
     <identifier scheme="archive-org">gd1988-03-16.mtx.seamons.113434.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">113434</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1988-03-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Hunter Seamons</credit>
+    <personMatch name="Hunter Seamons" role="transfer-mastering"/>
     <lineage>flac16: Matrix by Jubal H. Seamons using Final Cut Pro (SHN &amp; FLAC &gt; AIFF &gt; Final Cut &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hunter Seamons</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
   </recording>
   <recording id="r-73f17f154160eaacf34a" kind="unknown">
     <identifier scheme="archive-org">gd1988-03-16.nak700.yamaguchi.russjcan.102670.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102670</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1988-03-16" references="archive-index"/>
     <credit role="recordist">Tazuo Yamaguchi</credit>
+    <credit role="transfer-mastering">Russ Cansler</credit>
     <lineage>Nak 700&gt;dbx II&gt;D5 40 ft dfc | MAC&gt;NakCR-3A&gt;HD&gt;Audacity&gt;CDwave&gt;TLH</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-03-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Russ Cansler</note>
   </recording>
   <recording id="r-b69a5bbb26b4cd2575cf" kind="unknown">
     <identifier scheme="archive-org">gd1988-03-16.pzm.russjcan.92985.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">92985</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-03-16" references="archive-index"/>
     <credit role="recordist">Russjcan</credit>
+    <credit role="transfer-mastering">Russjcan</credit>
     <lineage>Hat-Mounted Realistic pzm's with Sony WMD6-C TDK MA-X90 No nr 5 feet away, dead center | Master &gt; D6 &gt; HD &gt; Audacity &gt; CDWave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1988-03-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Russjcan</note>
   </recording>
   <recording id="r-d8c1337d20558461bbdd" kind="soundboard">
     <identifier scheme="archive-org">gd88-03-16.sbd.willy.8864.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8864</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1988-03-16" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt;DAT&gt;CDR&gt;EAC&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1988-03-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-2f1c692014d5e840deb1" kind="unknown">
-    <identifier scheme="other">etree-603919</identifier>
-    <note>Supplied catalogue listing: etree; gd88-03-16.113434.mtx.seamons.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
+  <recording id="r-2f1c692014d5e840deb1" kind="unknown" inferredKind="matrix">
+    <identifier scheme="etree-torrent">603919</identifier>
+    <identifier scheme="shnid" certainty="probable">113434</identifier>
+    <listing provider="etree" title="gd88-03-16.113434.mtx.seamons.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Hunter Seamons" role="unspecified"/>
   </recording>
 </recordings>

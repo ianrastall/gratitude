@@ -3,72 +3,76 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-69094e76cddd26c9e87e" kind="audience">
+  <recording id="r-69094e76cddd26c9e87e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-05-14.111136.aud.glassberg.motb-0163.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">111136</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1980-05-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
     <lineage>Analog Audience Source: FOB Master Cassettes (MAC); Analog | 2 x Nakamichi CM700 =&gt; Sony TC-D5 &gt;&gt; MAC; Analog Sound Preservation: MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3 &gt;&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96] &gt; ? &gt; flac/16; Taped By: Barry Glassberg</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1980-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
   </recording>
   <recording id="r-de4185cfdba8ef6a661d" kind="soundboard">
     <identifier scheme="archive-org">gd1980-05-14.125962.naks.wise.minches.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">125962</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1980-05-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">David Minches</credit>
+    <personMatch name="Jim Wise" role="recordist"/>
     <lineage>Recording by Jim Wise: Master Audience Cassette; 2 Nakamichi 700's with 1 Nakamichi 300 Blend&gt; Nak 550&gt; Sony D-5 at the SBD; Transfer and FLAC encoding by David Minches: October 25 2013; Master played back on: Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0 &gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1980-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
   </recording>
   <recording id="r-bfc04286dc186d2ad7ef" kind="matrix">
     <identifier scheme="archive-org">gd1980-05-14.126608.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">126608</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1980-05-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="unspecified"/>
     <lineage>2 source matrix by dusborne; Soundboard (shnid:3295) Master Soundboard Cassette &gt; Reel to Reel &gt; DAT &gt; CDR; CD Mastering by Scott Clugston and Audience (shnid:125962) Recording by Jim Wise: Master Audience Cassette 2 Nakamichi 700's with 1 Nakamichi 300 Blend&gt; Nak 550&gt; Sony D-5 at the SBD; Transfer and FLAC encoding by David Minches</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1980-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
   </recording>
   <recording id="r-926afb126f3abd5b290e" kind="soundboard">
     <identifier scheme="archive-org">gd1980-05-14.141890.sbd.nixon.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141890</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1980-05-14" references="archive-index"/>
+    <credit role="transfer-mastering">Scott Clugston</credit>
     <lineage>Source Info: Master Soundboard Cassettes &gt; Reel to Reel &gt; Dat &gt; HHB-CDR 850 &gt; EAC &gt; Cool Edit Pro; This is a remaster of shnid 3295 from 2001</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1980-05-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston</note>
   </recording>
-  <recording id="r-0a003260f5513441322e" kind="audience">
+  <recording id="r-0a003260f5513441322e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-05-14.150723.fob.nak700.wagner.clugston.miller.flac16</identifier>
-    <credit role="recordist">Recorded by Bob Wagner</credit>
-    <lineage>FOB Nakamichi CM700 &gt; Cassette Master (Maxell UDXLII) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition &gt; Samplitude Pro X5 Suite &gt; WAV (24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1980-05-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Mastered by Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-  </recording>
-  <recording id="r-2f2e3044d6983c505875" kind="audience">
-    <identifier scheme="archive-org">gd1980-05-14.150724.fob.nak700.wagner.clugston.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">150723</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1980-05-14" references="archive-index"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Mastered by Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>FOB Nakamichi CM700 &gt; Cassette Master (Maxell UDXLII) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition &gt; Samplitude Pro X5 Suite &gt; WAV (24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1980-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
-  <recording id="r-d112e2f5ff736551b3d4" kind="unknown">
+  <recording id="r-2f2e3044d6983c505875" kind="audience" modifiers="FOB">
+    <identifier scheme="archive-org">gd1980-05-14.150724.fob.nak700.wagner.clugston.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">150724</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1980-05-14" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
+    <lineage>FOB Nakamichi CM700 &gt; Cassette Master (Maxell UDXLII) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition &gt; Samplitude Pro X5 Suite &gt; WAV (24-bit/96k)</lineage>
+  </recording>
+  <recording id="r-d112e2f5ff736551b3d4" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1980-05-14.aud.morris.111028.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">111028</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1980-05-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Morris</credit>
     <lineage>Sony ECM-990 stereo microphone &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII); Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; CD Wave Editor; Recorded by Bob Morris (from a not-so-good location -- sorry)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1980-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
   </recording>
-  <recording id="r-6265f9d0e520886796fc" kind="fm">
+  <recording id="r-6265f9d0e520886796fc" kind="fm" modifiers="FM">
     <identifier scheme="archive-org">gd1980-05-14.thru.05-16.fm.kbfh.34685.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">34685</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1980-05-14" references="archive-index"/>
     <lineage>FM broadcast &gt; cassette (TDK SA-90) | cassette &gt; Sony TC-D5M (no Dolby) &gt; Soundblastercassette &gt; Sony TC-D5M (no Dolby) &gt; Soundblaster &gt; Soundforge &gt; CD-Wave &gt; TLH (for SBE check, checksums, and flac compression) &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Veterans Memorial Coliseum on 1980-05-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
   </recording>
   <recording id="r-f28363be15590f1af4f4" kind="soundboard">
     <identifier scheme="archive-org">gd80-05-14.sbd.clugston.3295.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3295</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nassau Coliseum on 1980-05-14" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | Master Soundboard Cassette &gt; Reel to Reel &gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1980-05-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

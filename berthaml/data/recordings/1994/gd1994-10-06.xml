@@ -5,40 +5,44 @@
   </record>
   <recording id="r-3e632399c5f4f8fdfdc9" kind="unknown">
     <identifier scheme="archive-org">gd1994-10-06.124411.C38B.roberts.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">124411</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1994-10-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">stan roberts</credit>
     <lineage>flac16/48kHz ; Source: Sony C38B &gt; Pan SV-250; Conversion: DAP-1 &gt; PMD661 &gt; Audacity (normalize and dither) &gt; CDWave &gt; TLH &gt; Foobar2000 (tagging); Recorded By Stan Roberts</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1994-10-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-39d8fffe84bd2742460f" kind="unknown">
     <identifier scheme="archive-org">gd1994-10-06.akg460.mcminn.davis.95371.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95371</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1994-10-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tom McMinn</credit>
+    <credit role="transfer-mastering">Chris Davis</credit>
     <lineage>(OTS) AKG 460/ck61 -&gt; custom pre-amp -&gt; Teac DAP-20 | DAT (master) -&gt; DA-20mkII -&gt; AR coax -&gt; Audiophile 24/96 -&gt; Wavelab 5.0 -&gt; CD Wave -&gt; FLAC(6)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1994-10-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Davis</note>
   </recording>
   <recording id="r-23c7fc6414b70d5ac28b" kind="audience">
     <identifier scheme="archive-org">gd1994-10-06.aud.bleich-sirmick.79554.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">79554</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1994-10-06" references="archive-index"/>
     <credit role="recordist">John Bleich (taper section row 1 seat 19 Section 107)</credit>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>aud &gt; WMD-6 with Nak 300 shotguns &gt; mac &gt; wav &gt; flac | Sony TC-FX2 &gt; Wavelab &gt; wav 24/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1994-10-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-77b1e430db51cbdc30bc" kind="audience">
+  <recording id="r-77b1e430db51cbdc30bc" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1994-10-06.fob.schoeps.byron.dauria.97286.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">97286</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1994-10-06" references="archive-index infinite-dead"/>
     <credit role="recordist">Eliot Byron and Bill R.</credit>
+    <credit role="transfer-mastering">Frank D'Auria</credit>
     <lineage>Schoeps CMC5/MK4-&gt;Sonosax SX-M2-&gt;Sony D10 F.O.B. D.F.C.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1994-10-06. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Frank D'Auria</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/06/10-6-94-philadelphia-pa-the-spectrum/</note>
+    <reference href="http://infinitedead.net/2021/10/06/10-6-94-philadelphia-pa-the-spectrum/"/>
   </recording>
   <recording id="r-4a50d365112a25654294" kind="audience">
     <identifier scheme="archive-org">gd94-10-06.nak300.ericb.7743.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7743</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1994-10-06" references="archive-index infinite-dead"/>
     <credit role="recordist">mark &amp; julie lonski</credit>
+    <credit role="transfer-mastering">ericB</credit>
     <lineage>Audience: Nakamichi 300's | Nakamichi 300's &gt; ? &gt; Sony D7 &gt; Tascam DA-P1 &gt; Egosys U2A Waveterminal USB &gt; Soundforge4.5xp &gt; CD Wave</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1994-10-06. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): ericB</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/06/10-6-94-philadelphia-pa-the-spectrum/</note>
+    <reference href="http://infinitedead.net/2021/10/06/10-6-94-philadelphia-pa-the-spectrum/"/>
   </recording>
 </recordings>

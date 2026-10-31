@@ -5,50 +5,55 @@
   </record>
   <recording id="r-9a4ff4b7157e8c51f6ff" kind="soundboard">
     <identifier scheme="archive-org">gd1978-01-11.135498.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135498</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shrine Auditorium on 1978-01-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; AIFF (24bit/96k) | AIFF -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-681c3ac1c0c9771de68d" kind="soundboard">
     <identifier scheme="archive-org">gd1978-01-11.135499.sbd.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">135499</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shrine Auditorium on 1978-01-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; AIFF (24bit/96k) | AIFF -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-574009aaa335a4921aaf" kind="unknown">
+  <recording id="r-574009aaa335a4921aaf" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1978-01-11.aud.unknown.89475.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89475</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shrine Auditorium on 1978-01-11" references="archive-index"/>
+    <credit role="transfer-mastering">Pantagruel</credit>
     <lineage>Senn404 &gt; unknown recorder &gt; master cassette | master cassette &gt; reel @ 3.75 ips &gt; reel @ 3.75 ips &gt; HD &gt; CDWave &gt; flac frontend &gt; flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Pantagruel</note>
   </recording>
-  <recording id="r-7343879782b626007ee4" kind="soundboard">
+  <recording id="r-7343879782b626007ee4" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1978-01-11.mtx.mccabe.motb0152.110959.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">110959</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shrine Auditorium on 1978-01-11" references="archive-index"/>
     <credit role="recordist">Rheinhart Holwein</credit>
+    <credit role="transfer-mastering">Transfer By: Bob Menke Mastering By: Derek McCabe Matrix By: Derek McCabe</credit>
+    <personMatch name="Reinhart Holwein" role="recordist"/>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
     <lineage>Analog Audience Source: FOB Master Cassettes (MAC) Analog Soundboard Source: Master Soundboard Cassette (MSC) | Medium Stock Brands: MAC = 2 x Maxell UDXL-II Analog Lineage: 2 x AKG D224E &gt;&gt; Sony TC-158SD &gt;&gt; MAC Analog Sound Preservation: MAC &gt;&gt; Nakamichi CR7a =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96] Soundboard Lineage: SBD &gt;&gt; MSC (dolby C) Soundboard Sound Preservation: MSC &gt;&gt; Nakamichi CR7a =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Transfer By: Bob Menke Mastering By: Derek McCabe Matrix By: Derek McCabe</note>
-    <note certainty="uncertain">Legacy name match: Reinhart Holwein; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
   </recording>
   <recording id="r-6395d7f563cb5c1fddd4" kind="matrix">
     <identifier scheme="archive-org">gd1978-01-11.mtx.sirmick.92086.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">92086</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shrine Auditorium on 1978-01-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Matrix by Sir Mick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-22cfacc924b7a3c16068" kind="soundboard">
     <identifier scheme="archive-org">gd1978-01-11.sbd.unknown.12894.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12894</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shrine Auditorium on 1978-01-11" references="archive-index"/>
     <lineage>SBD master reel &gt; Cass &gt; DAT &gt; CD-R &gt; EAC &gt; .SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-72357a9c0905fcd55368" kind="soundboard">
     <identifier scheme="archive-org">gd78-01-11.sbd.cotsman.13190.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13190</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shrine Auditorium on 1978-01-11" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt;MC&gt;R&gt;PCM&gt;D&gt;CD&gt;EAC&gt;SHN (??)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shrine Auditorium on 1978-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

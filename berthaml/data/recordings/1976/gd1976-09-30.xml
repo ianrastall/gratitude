@@ -3,39 +3,41 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-f293fba01b90f0ca9fcf" kind="matrix">
+  <recording id="r-f293fba01b90f0ca9fcf" kind="matrix" modifiers="FOB">
     <identifier scheme="archive-org">gd1976-09-30.137537.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">137537</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Mershon Auditorium, OSU on 1976-09-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>3 Source Matrix by Dusborne; Soundboard (shnid:030225+018107), Disc 1 &amp; 3 | (30225) SBD &gt; MR &gt; DAT &gt; CD &gt; EAC &gt; SHN, Disc 2 Lineage:(18107) SBD &gt; Rm &gt; Dat &gt; Sonic Solutions&gt;CD &gt; EAC &gt; SHN; Audience (shnid:11939) FOB - AUD master cass &gt; Cass &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Mershon Auditorium, OSU on 1976-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-10f2f16d59c73c06ee80" kind="soundboard">
     <identifier scheme="archive-org">gd1976-09-30.sbd.18107.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18107</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Mershon Auditorium, OSU on 1976-09-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Andy Lemieux, Sean Ribss, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="David Lemieux" role="transfer-mastering"/>
     <lineage>SBD&gt;Rm&gt;Dat&gt;Sonic Solutions&gt;CD | CD&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Mershon Auditorium, OSU on 1976-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andy Lemieux, Sean Ribss, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: David Lemieux; role transfer-mastering.</note>
   </recording>
   <recording id="r-0ac5ab346a5855d32bac" kind="soundboard">
     <identifier scheme="archive-org">gd1976-09-30.sbd.gans-cribbs.30225.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">30225</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Mershon Auditorium - Ohio State University on 1976-09-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Andy Lemieux and Sean Cribbs</credit>
+    <personMatch name="David Lemieux" role="transfer-mastering"/>
     <lineage>SBD&gt;MR&gt;DAT&gt;CD | CD&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Mershon Auditorium - Ohio State University on 1976-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andy Lemieux and Sean Cribbs</note>
-    <note certainty="uncertain">Legacy name match: David Lemieux; role transfer-mastering.</note>
   </recording>
-  <recording id="r-c417f731a50215fcae14" kind="audience">
+  <recording id="r-c417f731a50215fcae14" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd76-09-30.fob-patched.unknown.11939.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11939</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Mershon Auditorium, OSU on 1976-09-30" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording | FOB - AUD master cass &gt; Cass &gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Mershon Auditorium, OSU on 1976-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
   </recording>
-  <recording id="r-9b0d3d5e937122d1b467" kind="unknown">
-    <identifier scheme="other">etree-590757</identifier>
-    <note>Supplied catalogue listing: etree; gd1976-09-30.137537.mtx.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+  <recording id="r-9b0d3d5e937122d1b467" kind="unknown" inferredKind="matrix">
+    <identifier scheme="etree-torrent">590757</identifier>
+    <identifier scheme="shnid" certainty="probable">137537</identifier>
+    <listing provider="etree" title="gd1976-09-30.137537.mtx.dusborne.flac16" references="etree-snapshot"/>
+    <personMatch name="Dave Usborne" role="unspecified"/>
   </recording>
 </recordings>

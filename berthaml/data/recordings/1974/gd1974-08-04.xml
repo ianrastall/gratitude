@@ -5,44 +5,48 @@
   </record>
   <recording id="r-b9b427df133e1738e664" kind="audience">
     <identifier scheme="archive-org">gd1974-08-04.157364.s1.unk-aud.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">157364</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Philadelphia Civic Arena on 1974-08-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">from the tape collection of Rich Petrunis &amp; with thanks to John Petrunis.</credit>
+    <credit role="transfer-mastering">Transferred by Andrew F. 07/2022</credit>
     <lineage>Lo-Fi mono AUD | TDK SD-90 (c.1975) &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; R8Brain &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Philadelphia Civic Arena on 1974-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transferred by Andrew F. 07/2022</note>
   </recording>
-  <recording id="r-0ee38c3099a8b88cf53e" kind="unknown">
+  <recording id="r-0ee38c3099a8b88cf53e" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1974-08-04.aud.moore.weiner.gdADT.9112.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9112</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Convention Hall Auditorium on 1974-08-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jerry Moore</credit>
+    <credit role="transfer-mastering">Noah Weiner</credit>
+    <personMatch name="Jerry Moore" role="recordist"/>
     <lineage>AudMC &gt; DAT &gt; WAV &gt; SHN and AudMC &gt; R? &gt; Beta Hi-Fi PCM &gt; CASS &gt; WAV &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Convention Hall Auditorium on 1974-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Noah Weiner</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
   </recording>
   <recording id="r-2f4f6e9e3ef433c0c6f0" kind="matrix">
     <identifier scheme="archive-org">gd1974-08-04.mtx.seamons.100653.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">100653</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Convention Hall Auditorium on 1974-08-04" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Hunter Seamons</credit>
+    <personMatch name="Hunter Seamons" role="transfer-mastering"/>
     <lineage>Matrix mix (SBD/AUD)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Convention Hall Auditorium on 1974-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hunter Seamons</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
   </recording>
   <recording id="r-23ca3514632066c01af7" kind="soundboard">
     <identifier scheme="archive-org">gd1974-08-04.sbd.unknown.1631.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1631</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Convention Hall Auditorium on 1974-08-04" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt;MR&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Convention Hall Auditorium on 1974-08-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Unknown</note>
   </recording>
   <recording id="r-c9c56999f68169d49a63" kind="audience">
     <identifier scheme="archive-org">gd74-08-04.aud-moore.weiner.20369.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20369</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Philadelphia Civic Arena on 1974-08-04" references="archive-index"/>
     <credit role="recordist">Jerry Moore</credit>
+    <credit role="transfer-mastering">Mark Cohen and Noah Weiner</credit>
+    <personMatch name="Jerry Moore" role="recordist"/>
     <lineage>Audience Recording | AUDMC(2 AKG D-1000E mics &gt; Sony 152 deck.Maxell UD-120 cassettes, with Dolby B ON) &gt; DAT &gt; WAV &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Philadelphia Civic Arena on 1974-08-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mark Cohen and Noah Weiner</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
   </recording>
   <recording id="r-98b0996198f4143ada80" kind="soundboard">
     <identifier scheme="archive-org">gd74-08-04.sbd.sacks.1574.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1574</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Philadelphia Civic Arena on 1974-08-04" references="archive-index"/>
     <lineage>Soundboard | MSR&gt; DATs&gt; CDRs&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Philadelphia Civic Arena on 1974-08-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

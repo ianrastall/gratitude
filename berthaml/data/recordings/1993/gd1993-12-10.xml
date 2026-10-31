@@ -5,48 +5,53 @@
   </record>
   <recording id="r-27f2c206ca03ca09f7da" kind="unknown">
     <identifier scheme="archive-org">gd1993-12-10.156919.akg460-ck8.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">156919</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sports Arena on 1993-12-10" references="archive-index archive-url-snapshot"/>
     <lineage>AKG460 w/CK8 shotguns Location: Taping section</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1993-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-1cb0c128280185ed45cf" kind="unknown">
+  <recording id="r-1cb0c128280185ed45cf" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1993-12-10.sbd.fix-1599.tetzeli.74212.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">74212</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10" references="archive-index"/>
     <lineage>Fix of shnid 1599</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
   <recording id="r-d41d4aa39fc22a04f00e" kind="soundboard">
     <identifier scheme="archive-org">gd1993-12-10.sbd.miller.83770.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83770</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat D | Dat -&gt; Samplitude Professional v9.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3a9910647d5c3b4c1b95" kind="unknown">
     <identifier scheme="archive-org">gd1993-12-10.schoeps-copeland.jamese.GEMS.86407.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">86407</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10" references="archive-index"/>
     <credit role="recordist">Chip Copeland</credit>
+    <credit role="transfer-mastering">James E</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Schoeps MK-4 Cardiod Capsule in Hat &gt; Panasonic sv255 | DAT(1) &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): James E</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-6d7d8c1a92e467b95cc3" kind="unknown">
     <identifier scheme="archive-org">gd1993-12-10.senn.swayne.85695.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">85695</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Likely Neil Sturtevant + others</credit>
+    <credit role="transfer-mastering">Scott Swayne</credit>
     <lineage>Sennheiser K3U/ME40's &gt; Panasonic sv-255 &gt; (clone) Teac DA-P20 | Tascam DA-30 -*-&gt; Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Swayne</note>
   </recording>
   <recording id="r-71a0fc5f4b081298365e" kind="unknown">
     <identifier scheme="archive-org">gd1993-12-10.senn.swayne.85696.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">85696</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Likely Neil Sturtevant + others</credit>
+    <credit role="transfer-mastering">Scott Swayne</credit>
     <lineage>OTS Sennheiser K3U/ME40's &gt; Panasonic sv-255 &gt; (clone) Teac DA-P20 | Tascam DA-30 -*-&gt; (48k) Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8) * via coax S/PDIF</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Los Angeles Sports Arena on 1993-12-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Swayne</note>
   </recording>
-  <recording id="r-574d5f13db1906154e2e" kind="soundboard">
+  <recording id="r-574d5f13db1906154e2e" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd93-12-10.sbd.georges.1599.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1599</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sports Arena on 1993-12-10" references="archive-index"/>
     <lineage>DSBD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sports Arena on 1993-12-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
   </recording>
 </recordings>

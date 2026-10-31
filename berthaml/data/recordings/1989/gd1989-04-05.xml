@@ -5,77 +5,82 @@
   </record>
   <recording id="r-1b95b7c92fa196d7720c" kind="soundboard">
     <identifier scheme="archive-org">gd1989-04-05.111957.aud.dak5245-pzm.annarbor-mi.w.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">111957</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena on 1989-04-05" references="archive-index"/>
     <credit role="recordist">Robert Mullen</credit>
     <lineage>Source: Master Audience Cassettes; Transfer Date: 2011-02-16; Equipment/Lineage: 2 DAK 5245 Microphones and 2 Realistic PZM Mics(Mounted on 1'x 1'x 3/8" plexiglass)&gt;Realistic 4 Channel Mixer&gt;Sony D6C Portable Stereo Cassette Recorder&gt; Master cassette(Sony UX-Pro-90's)&gt;Yamaha Natural Sound Stereo Cassette Deck K-902&gt;SigmaTel Audio Sound Card/CD Wave Editor(tracking)&gt;Traders Little Helper(flac level 8); Note: This was recorded with 2 sets of mics, 4 channels, mixed down to 2 channels. The mics were mounted on a stand 8' in height. We were located in the designated "taper" section of seats directly behind the soundboard | Robert Mullen</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena on 1989-04-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-d7649e7ba4051c79dced" kind="audience">
     <identifier scheme="archive-org">gd1989-04-05.141802.schoeps.cmc4.mk4.pcm.mattes.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141802</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena on 1989-04-05" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Source Info: Ted Mattes' Master Audience PCM (Nakamichi DMP-100 deck, Sony ESX-HiFi/L750 tape); Schoeps CMC4/MK4 mics, ortf (OTS); Transfer Info: Master PCM (Sony SL-10)&gt; Sony PCM 601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (16 bit/44.1k)&gt; Samplitude &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena on 1989-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-af492613ce829a7e3414" kind="matrix">
+  <recording id="r-af492613ce829a7e3414" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-04-05.144913.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">144913</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena on 1989-04-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena on 1989-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-b67d8229cedf4100f99d" kind="matrix">
+  <recording id="r-b67d8229cedf4100f99d" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-04-05.145037.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">145037</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena on 1989-04-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena on 1989-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-659dcc94b4e509438bed" kind="audience">
     <identifier scheme="archive-org">gd1989-04-05.aud.bleich.sirmick.83800.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83800</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena - University of Michigan on 1989-04-05" references="archive-index"/>
     <credit role="recordist">John Bleich</credit>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>aud &gt; Nak 300 shotguns &gt; WMD-6 &gt; mac | mac &gt; AIWA HX PRO AD-F410 &gt; Creative Extigy &gt; Wavelab &gt; wav &gt; flac transfered at 24/48, downsampled to 16/44.1 and dithered with iZotope Ozone</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena - University of Michigan on 1989-04-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-b69644e8681ccc08f0c0" kind="unknown">
     <identifier scheme="archive-org">gd1989-04-05.nak100.holtz.jaz.100671.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">100671</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena - University of Michigan on 1989-04-05" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">JAZ</credit>
     <lineage>Nakamichi CM-100 mics with CP-4 shotgun caps -&gt; Sony D-5 | Master Cassettes (Maxell MX90 Metal) Tascam 112 -&gt; Korg MR-1, @ 1bit 2.8MHz -&gt; USB -&gt; Korg Audio Gate Software 24bit 48KHz -&gt; Wave Lab 5.0 w/UAD -&gt; r8brain PRO for Sample Rate Conversion 16/44.1KHz -&gt; Traders Little Helper flac8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena - University of Michigan on 1989-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): JAZ</note>
   </recording>
   <recording id="r-514483c4e616896bb705" kind="soundboard">
     <identifier scheme="archive-org">gd1989-04-05.sbd.walker-scotton.miller.83501.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83501</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena - University of Michigan on 1989-04-05" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena - University of Michigan on 1989-04-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-81323cf818a543d7f2c1" kind="matrix">
     <identifier scheme="archive-org">gd89-04-05.sbd-matrix.kowalski.1091.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1091</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena on 1989-04-05" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Dan Healy" role="unspecified"/>
     <lineage>Healy Ultra Mix - sbd+aud&gt; cm&gt; dat&gt; cd</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena on 1989-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
   </recording>
-  <recording id="r-71310724d516b6de49f2" kind="unknown">
+  <recording id="r-71310724d516b6de49f2" kind="unknown" inferredKind="matrix">
     <identifier scheme="archive-org">gd89-04-05.sbd-matrix.unknown.5491.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5491</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Crisler Arena on 1989-04-05" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Dan Healy" role="unspecified"/>
     <lineage>Healy Ultra Mix Cassette Master-&gt; DAT-&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Crisler Arena on 1989-04-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
   </recording>
-  <recording id="r-bb875a95f75a45c0a087" kind="unknown">
-    <identifier scheme="other">etree-604220</identifier>
-    <note>Supplied catalogue listing: etree; gd1989-04-05.145037.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-bb875a95f75a45c0a087" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">604220</identifier>
+    <identifier scheme="shnid" certainty="probable">145037</identifier>
+    <listing provider="etree" title="gd1989-04-05.145037.UltraMatrix.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

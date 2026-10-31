@@ -3,140 +3,144 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-fb5d7acb622159b7c0ba" kind="audience">
+  <recording id="r-fb5d7acb622159b7c0ba" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-25.124034.mk4.48khz.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">124034</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Lenny Stubbe and Craig Hillwig</credit>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>flac16/48kHz ; Source: Schoeps CMC3/MK4 &gt; Aerco P/S &gt; Panasonic SV250 (48 khz); Config/Location: ORTF/FOB on a stand; | Sony PCM-2600(Apogee AES/EBU)&gt;Sound Devices 722 (16/48)&gt;Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt;xACT 2.21(encode, tag, fingerprint)&gt;flac16 (level 8 ); Taped by: Ted Mattes; Transferred and seeded by: Lenny Stubbe</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Lenny Stubbe and Craig Hillwig</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-a4c145a7da649885717c" kind="audience">
+  <recording id="r-a4c145a7da649885717c" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-25.124035.mk4.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">124035</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Lenny Stubbe and Craig Hillwig</credit>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Source: Schoeps CMC3/MK4 &gt; Aerco P/S &gt; Panasonic SV250 (48 khz); Config/Location: ORTF/FOB on a stand; | Sony PCM-2600(Apogee AES/EBU)&gt;Sound Devices 722 (16/48)&gt;Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt;Wave Editor 1.5.7 (iZotope Resampler)&gt;xACT 2.21(align on sector boundaries, encode, tag, fingerprint)&gt;flac16 (level 8 ); Taped by: Ted Mattes; Transferred and seeded by: Lenny Stubbe</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Lenny Stubbe and Craig Hillwig</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-919a72962c4756fa182b" kind="matrix">
+  <recording id="r-919a72962c4756fa182b" kind="matrix" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-25.125645.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">125645</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by dusborne</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="unspecified"/>
     <lineage>2 Source Matrix bu dusborne Soundboard (shinid:83398) Recording Info: SBD -&gt; Cassette Master (TDK MA-XG90); Transfer Info: Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v8.01 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller and Audience (shnid:124034) Source: Schoeps CMC3/MK4 &gt; Aerco P/S &gt; Panasonic SV250 (48 khz) Config/Location: ORTF/FOB on a stand | Sony PCM-2600(Apogee ES/EBU)&gt;Sound Devices 722 (16/48)&gt; Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; xACT 2.21(encode, tag, fingerprint)&gt;flac16 (level 8 ) Taped by: Ted Mattes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Matrix by dusborne</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
   </recording>
-  <recording id="r-43cc69b233d651db7bbb" kind="matrix">
+  <recording id="r-43cc69b233d651db7bbb" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-25.140815.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140815</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-cf3831b0457459e5396b" kind="matrix">
+  <recording id="r-cf3831b0457459e5396b" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-25.140917.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140917</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-6859a8fb5ebf3a518ccf" kind="audience">
+  <recording id="r-6859a8fb5ebf3a518ccf" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-25.142606.fob.schoeps.cmc4.mk4.mattes.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142606</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>flac16/48kHz ; Source Info: Ted Mattes' Master (FOB)Audience Dat; Schoeps CMC4/MK4 mics @ 110 degrees, ORTF, Schoeps t-bar, hand held, chin high &gt; Monster Cable Interlinks &gt; Oade capacitor P/S &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Master Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-3036e1f4ebd0602fcf8e" kind="matrix">
+  <recording id="r-3036e1f4ebd0602fcf8e" kind="matrix" modifiers="FOB ULTRAMATRIX DTS">
     <identifier scheme="archive-org">gd1989-10-25.143025.mtx.tobin.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">143025</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Matrix 2 Source Mix - SBD (shnid = 140815) Recording Info: Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; All Transfers and Mastering By Charlie Miller + AUD (shnid = 142606) Source Info: Ted Mattes' Master (FOB)Audience Dat; Schoeps CMC4/MK4 mics @ 110 degrees, ORTF, Schoeps t-bar, hand held, chin high &gt; Monster Cable Interlinks &gt; Oade capacitor P/S &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Master Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648 - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB ULTRAMATRIX DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/"/>
   </recording>
-  <recording id="r-3edcda2ad7447c898984" kind="matrix">
+  <recording id="r-3edcda2ad7447c898984" kind="matrix" modifiers="FOB ULTRAMATRIX DTS">
     <identifier scheme="archive-org">gd1989-10-25.143027.dts.tobin.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">143027</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix; - SBD (shnid = 140815) Recording Info: Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; All Transfers and Mastering By Charlie Miller + AUD (shnid = 142606) Source Info: Ted Mattes' Master (FOB)Audience Dat; Schoeps CMC4/MK4 mics @ 110 degrees, ORTF, Schoeps t-bar, hand held, chin high &gt; Monster Cable Interlinks &gt; Oade capacitor P/S &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Master Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648 - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB ULTRAMATRIX DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9fc49a32a183ed7dfbfa" kind="matrix">
+  <recording id="r-9fc49a32a183ed7dfbfa" kind="matrix" modifiers="FOB ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-25.143028.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">143028</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 140815) Recording Info: Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90); Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24; All Transfers and Mastering By Charlie Miller + AUD (shnid = 142606) Source Info: Ted Mattes' Master (FOB)Audience Dat; Schoeps CMC4/MK4 mics @ 110 degrees, ORTF, Schoeps t-bar, hand held, chin high &gt; Monster Cable Interlinks &gt; Oade capacitor P/S &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Master Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648 - surround mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9b5da854b8acf22a4d08" kind="matrix">
+  <recording id="r-9b5da854b8acf22a4d08" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-25.143033.sbd.miller.fixed.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">143033</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-dd9f0f53962f731cb981" kind="matrix">
+  <recording id="r-dd9f0f53962f731cb981" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-25.143511.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">143511</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-a26854316cd18032a0c6" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-25.nak300s.alexander.79611.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">79611</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index infinite-dead"/>
     <credit role="recordist">Tim Alexander</credit>
+    <credit role="transfer-mastering">Bill Tetzeli</credit>
     <lineage>Nakamichi 300 shotguns &gt; Sony D5 &gt; MAC | MAC playback on Nakamichi DR-1 &gt; Tascam HD-P2 (16 bit/44.1 khz) &gt; WAV &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Tetzeli</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/"/>
   </recording>
   <recording id="r-8b806cca1be2b751b192" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-25.nak300s.alexander.79637.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">79637</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Alexander</credit>
+    <credit role="transfer-mastering">Bill Tetzeli</credit>
     <lineage>Nakamichi 300 shotguns &gt; Sony D5 (Dolby B) &gt; MAC | MAC playback on Nakamichi DR-1 (Dolby B) &gt; Tascam HD-P2 (24 bit/48 khz) &gt; WAV &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Tetzeli</note>
   </recording>
   <recording id="r-f98b3cc4a84563c2f05e" kind="soundboard">
     <identifier scheme="archive-org">gd1989-10-25.sbd.walker-scotton.miller.83398.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83398</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/"/>
   </recording>
   <recording id="r-2290b869c1dca19cf09b" kind="soundboard">
     <identifier scheme="archive-org">gd89-10-25.sbd.sacks.1828.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1828</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1989-10-25" references="archive-index infinite-dead"/>
     <lineage>Cassette SBD&gt; DATs&gt; CDRs&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1989-10-25. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/25/10-25-89-miami-fl-miami-arena/"/>
   </recording>
 </recordings>

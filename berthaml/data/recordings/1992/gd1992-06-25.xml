@@ -3,74 +3,76 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-abfe15cdc6bd73639905" kind="audience">
+  <recording id="r-abfe15cdc6bd73639905" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-06-25.138876.set2.FOB.BK4011.Ammons.Noel.t-flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">138876</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">John Ammons and Joe Noel</credit>
     <lineage>flac16/48kHz ; Set 2, unknown taper: B&amp;K 4011 at 110 degrees ORTF &gt; Neumann PS &gt; Sony D10Pro - FOB; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Edited &amp; Mastered in Audacity by Joe Noel &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
   </recording>
   <recording id="r-94ba5783af91bf6edde6" kind="unknown">
     <identifier scheme="archive-org">gd1992-06-25.139264.set1.nakcm300.cohen-lee.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">139264</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Cohen and Justin Lee</credit>
+    <credit role="transfer-mastering">Dave Cohen</credit>
     <lineage>flac16 44.1khz Set 1 only. Recorded by David Cohen &amp; Justin Lee. OTS 8 foot stand. 2 Nakamichi CM300 Omnis spaced 2 meters &gt;Sony D10Pro II DAT48K Master sample rate converted to 44.1 in Wavelab</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Cohen</note>
   </recording>
-  <recording id="r-44a459f05945ed88bc2f" kind="audience">
+  <recording id="r-44a459f05945ed88bc2f" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-06-25.139368.cmc32.ebel.flac1644</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">139368</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>FOB Schoeps CMC3 MK2-&gt; DAT | Dat (Panasonic SV-3700) -&gt; Marantz CDR-615 -&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
-  <recording id="r-3749fcc377b3a05c3459" kind="audience">
+  <recording id="r-3749fcc377b3a05c3459" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-06-25.139369.bk4011.ebel.flac1644</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">139369</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>FOB B&amp;K 4011-&gt; DAT | Dat (Panasonic SV-3700) -&gt; Marantz CDR-615 -&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
-  <recording id="r-e61b21cc8aa3d6afa4f9" kind="soundboard">
+  <recording id="r-e61b21cc8aa3d6afa4f9" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1992-06-25.dsbd.miller.32496.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32496</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index"/>
     <credit role="recordist">Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller and Paul Scotton</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Dat -&gt; CD | CD -&gt; EAC -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Paul Scotton</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-bce3ced9c8107ed9e7bc" kind="soundboard">
     <identifier scheme="archive-org">gd1992-06-25.sbd.fix-8959.tetzeli.34801.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">34801</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Fix of shnid 8959 by Bill Tetzeli</credit>
     <lineage>SBD &gt; RF Digital Earpiece Monitor Mix Buss (mix was fed to Kreutzman/Hart) &gt; Vault Archive ADAT &gt; 24-bit/96 kHz 2-track Mixdown DAT (Marin County Source) &gt; SSSB</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Fix of shnid 8959 by Bill Tetzeli</note>
   </recording>
   <recording id="r-44a289235e709a3d7884" kind="soundboard">
     <identifier scheme="archive-org">gd1992-06-25.sbd.omalley.22794.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">22794</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index"/>
     <credit role="recordist">Jim O'Malley</credit>
     <lineage>Soundboard (was labeled Shure Beta 57's &gt; Tascam Porta 5 DBX Analog Deck &gt; Cass Master &gt; DAT &gt; CDR) | EAC &gt; CDR &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-35b61c9ef130c9686aae" kind="soundboard">
     <identifier scheme="archive-org">gd1992-06-25.sbd.shiffman.548.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">548</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index archive-url-snapshot"/>
     <lineage>SBD-&gt;CASS0-&gt;DAT @ 44.1 Khz (encore 48 Khz, resampled via CoolEdit Pro @ 999 qs) | DAT-&gt;PC (S/PDIF, TB Fiji), SHNs</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-379c6d8ef79ce5fcb46a" kind="unknown">
+  <recording id="r-379c6d8ef79ce5fcb46a" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1992-06-25.sbd.zei.2258.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2258</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index"/>
+    <credit role="transfer-mastering">John Zei</credit>
     <lineage>S:D-&gt;CDR-&gt;(eac'd)SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): John Zei</note>
   </recording>
   <recording id="r-6ca56f90425555ef32fc" kind="soundboard">
     <identifier scheme="archive-org">gd92-06-25.sbd.serrafin.8959.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8959</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Soldier Field on 1992-06-25" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; RF Digital Earpiece Monitor Mix Buss (mix was fed to Kreutzman/Hart) &gt;Vault Archive ADAT &gt; 24-bit/96 kHz 2-track Mixdown DAT (Marin County Source) &gt; SSSB</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Soldier Field on 1992-06-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

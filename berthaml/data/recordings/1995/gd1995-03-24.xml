@@ -3,38 +3,40 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-aa8f077912762d7c3d58" kind="audience">
+  <recording id="r-aa8f077912762d7c3d58" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-03-24.141194.FOB-cmc5-mk4.ebel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141194</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-24" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Pete Ebel</credit>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac16/44.1 Source Info:FOB Schoeps CMC 5 Mk4-&gt; Aerco P/S-&gt; Casio DTR 100-&gt; DATSec CTR, Row R, Seat 7Transfer Info:Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Taped &amp; Transfers by Pete Ebel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
-  <recording id="r-865f1a0183f2a3c3bdb4" kind="unknown">
+  <recording id="r-865f1a0183f2a3c3bdb4" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1995-03-24.aud.laporte.98107.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">98107</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-24" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chris LaPorte</credit>
+    <credit role="transfer-mastering">Chris LaPorte</credit>
     <lineage>Unknown mics &gt; Unknown deck &gt; Marantz PMD 430 [Taper's Section, 117, row g, seat 9] | Master Cassettes &gt; SB Audigy &gt; Adobe Audition @24bit/48khz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Chris LaPorte</note>
   </recording>
-  <recording id="r-d23290fa3b4dfd983205" kind="unknown">
+  <recording id="r-d23290fa3b4dfd983205" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1995-03-24.sbd.hiroki.35182.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">35182</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Hiroki Shibata</credit>
     <lineage>S: D&gt; C&gt; D&gt; C2&gt; D&gt; CDR&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Hiroki Shibata</note>
   </recording>
   <recording id="r-ec3063b2816bb3394876" kind="soundboard">
     <identifier scheme="archive-org">gd1995-03-24.sbd.tetzeli.fix-35182.83900.flac16</identifier>
-    <lineage>SBD &gt; D&gt; C&gt; D&gt; C2&gt; D&gt; CDR&gt; FLAC | ?</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hiroki Shibata and Bill Tetzeli</note>
+    <identifier scheme="shnid" certainty="probable">83900</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Hiroki Shibata and Bill Tetzeli</credit>
+    <lineage>SBD &gt; D&gt; C&gt; D&gt; C2&gt; D&gt; CDR&gt; FLAC</lineage>
   </recording>
   <recording id="r-6a7bd36054cb91c983b2" kind="audience">
     <identifier scheme="archive-org">gd95-03-24.akg.5668.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5668</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-24" references="archive-index"/>
     <lineage>Audience: AKG 460s | AKG 460's &gt; Technics 260 &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

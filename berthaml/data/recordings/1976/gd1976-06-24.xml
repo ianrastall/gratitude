@@ -3,77 +3,78 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-344ad417afb749943b90" kind="matrix">
+  <recording id="r-344ad417afb749943b90" kind="matrix" modifiers="FM">
     <identifier scheme="archive-org">gd1976-06-24.135606.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135606</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>3 source matrix by Dusborne; Soundboard 1(Shnid:011937) set 1, WMMR FM Broadcast &gt; RTR &gt; DAT &gt; CD-R &gt; EAC &gt; .SHN; Soundboard 2(Shnid:14498) set 2, Source: SBD&gt;MR&gt;DAT&gt;CDR, Conversion/Edit/Seeded to Etree by T. Wiley 01/14/2003; Audience (Shnid:76290), Source: [Shure mics&gt; Sony TC-152 master cassette &gt; dat's &gt;] cdr's &gt; EAC &gt; Cool Edit 2K &gt; CDwav &gt; mkwact,eac, Cool Edit's, shns done by mvernon54@attbi.com,- Mixed by kevtobin@yahoo.com</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-ceeecc39c255457fe1a9" kind="soundboard">
     <identifier scheme="archive-org">gd1976-06-24.140031.sbd.digitalbrb.miller.sirmick.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140031</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">digitalrbb</credit>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: Soundboard &gt; Nakamichi 350 &gt; Cassette Master &gt; Dat (44k); Transfer: Master Cassette &gt; Nakamichi CR-7A &gt; Apogee Ensemble &gt; Peak &gt; AIFF - Transferred By Digitalrbb; Lineage : AIFF &gt; Samplitude Professional v10.1 &gt; FLAC &gt; Adobe Audition 1.5 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick November 2017</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-6c2414bbe19842376d66" kind="unknown">
+  <recording id="r-6c2414bbe19842376d66" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1976-06-24.aud.digitalrbb.miller.112290.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">112290</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Tower Theatre on 1976-06-24" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller;digitalrbb</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stereo Microphone (Possibly Sony Microphone) -&gt; Cassette Master (Nakamichi 550) | Cassette Master (Nakamichi CR-7A) -&gt; Apogee Ensemble -&gt; AIFF -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Tower Theatre on 1976-06-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller;digitalrbb</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d9fae8801308a83656bf" kind="unknown">
+  <recording id="r-d9fae8801308a83656bf" kind="unknown" inferredKind="matrix" modifiers="DTS">
     <identifier scheme="archive-org">gd1976-06-24.mtx.dts.tobin.76286.flac16</identifier>
-    <credit role="recordist">See info file</credit>
-    <lineage>DTS-Audio-CD 5.1 Mix | See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): DTS mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">76286</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
+    <lineage>DTS-Audio-CD 5.1 Mix</lineage>
   </recording>
   <recording id="r-7c9ab10aa0bb0aebdf37" kind="matrix">
     <identifier scheme="archive-org">gd1976-06-24.mtx.tobin.87163.sbeok.flac16</identifier>
-    <credit role="recordist">See info file</credit>
-    <lineage>SBD + AUD Matrix 2 Source Mix(65%-SBD/35%-AUD) | See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">87163</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
+    <lineage>SBD + AUD Matrix 2 Source Mix(65%-SBD/35%-AUD)</lineage>
   </recording>
   <recording id="r-2870c79876488c011fde" kind="unknown">
     <identifier scheme="archive-org">gd1976-06-24.shure.tobin.76290.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">76290</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pitch Correction by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>[Shure mics&gt; Sony TC-152 master cassette &gt; dat's &gt;] cdr's &gt; EAC &gt; Cool Edit 2K &gt; CDwav &gt; mkwact (seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Pitch Correction by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-beb4ea850b37e2e5ebef" kind="audience">
     <identifier scheme="archive-org">gd76-06-24.aud.vernon.6682.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6682</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Shure | Shure mics&gt; Sony TC-152 master cassette &gt; dat's &gt; cdr's &gt; EAC &gt; Cool Edit 2K &gt; CDwav &gt; mkwact (seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-1c49ffe967f768d17b85" kind="soundboard">
+  <recording id="r-1c49ffe967f768d17b85" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd76-06-24.fm.unknown.11937.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11937</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard - FM | WMMR FM Broadcast &gt; RTR &gt; DAT &gt; CD-R</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
   </recording>
-  <recording id="r-2ea35d062b0bdeb71b53" kind="soundboard">
+  <recording id="r-2ea35d062b0bdeb71b53" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd76-06-24.sbd.dudeman.25478.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">25478</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Tower Theatre on 1976-06-24" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard and FM | WMMR FM Broadcast &gt; RTR &gt; DAT &gt; CD-R &gt; EAC &gt; .SHN; SBD&gt; MR&gt; DAT&gt; CDR&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
   </recording>
   <recording id="r-89141d6f15ae8cded2ae" kind="soundboard">
     <identifier scheme="archive-org">gd76-06-24.set2-sbd.wiley.14498.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14498</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Tower Theatre on 1976-06-24" references="archive-index"/>
     <lineage>Soundboard | SBD&gt; MR&gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Tower Theatre on 1976-06-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

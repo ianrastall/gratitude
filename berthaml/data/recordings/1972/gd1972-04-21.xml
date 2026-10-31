@@ -5,14 +5,15 @@
   </record>
   <recording id="r-5e495e436ac508a00652" kind="soundboard">
     <identifier scheme="archive-org">gd1972-04-21.116404.sbd.berger.sndchk.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">116404</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Beat Club on 1972-04-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>Source: SBD -&gt; ? (Remaster of shinid 9380 soundcheck portion). | CDR&gt;EAC&gt;Adobe Audition 2.0 pitch adjusted +78 cents&gt;CD Wave&gt;FLAC. Seeded by Rob Berger.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beat Club on 1972-04-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
-  <recording id="r-c33e6961620a3a953226" kind="soundboard">
+  <recording id="r-c33e6961620a3a953226" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd72-04-21.fm.vernon.9380.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9380</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Beat Club on 1972-04-21" references="archive-index"/>
     <lineage>Soundboard | SBD&gt;FM&gt;MR&gt;PCM&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Beat Club on 1972-04-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
   </recording>
 </recordings>

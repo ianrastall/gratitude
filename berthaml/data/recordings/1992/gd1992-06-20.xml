@@ -5,66 +5,66 @@
   </record>
   <recording id="r-26c9194e338a20256f21" kind="unknown">
     <identifier scheme="archive-org">gd1992-06-20.94214.wklitz.sennheiserME80.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94214</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1992-06-20" references="archive-index"/>
     <credit role="recordist">Keith Litzenberger</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 from front of OTS DAT Master&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9(Fades, Sample Rate Conversion)&gt;CDWAV&gt;FLAC Recorded, Transferred &amp; Uploaded By Keith Litzenberger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1992-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
-  <recording id="r-1a739c9791713d56a7cf" kind="soundboard">
+  <recording id="r-1a739c9791713d56a7cf" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1992-06-20.dsbd.lynn.33953.sbeok.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">33953</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1992-06-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Lynn</credit>
+    <credit role="transfer-mastering">Mark Lynn</credit>
     <lineage>Master Soundboard DAT @ 48KHZ-&gt;DAT x 4.Conversion | Sony R500 -&gt;M Audio Audiophile 2496 -&gt;Soundforge (record)-&gt;CDWAV (track) -&gt;FLAC.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1992-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Mark Lynn</note>
   </recording>
-  <recording id="r-1ffcf39385a0c1cae57e" kind="soundboard">
+  <recording id="r-1ffcf39385a0c1cae57e" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1992-06-20.dsbd.miller.32488.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32488</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1992-06-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller and Paul Scotton</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Dat -&gt; CD | CD -&gt; EAC -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1992-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Paul Scotton</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
-  <recording id="r-b61bf8081667209ef30d" kind="soundboard">
+  <recording id="r-b61bf8081667209ef30d" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1992-06-20.dsbd.unknown.546.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">546</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1992-06-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Darrin Sacks</credit>
     <lineage>DSBD&gt;DATs&gt;CDRs&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1992-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Darrin Sacks</note>
   </recording>
-  <recording id="r-65369c36435e4104cc78" kind="unknown">
+  <recording id="r-65369c36435e4104cc78" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-06-20.fob.schoeps.evans.gems.34827.sbeok.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">34827</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1992-06-20" references="archive-index archive-url-snapshot"/>
+    <personMatch name="GEMS" role="unspecified"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Schoeps CMC34 -&gt; Oade Power Supply -&gt; Panasonic sv255 - 7' Stand</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1992-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
-  <recording id="r-29baa829974d4e151ab8" kind="unknown">
+  <recording id="r-29baa829974d4e151ab8" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-06-20.fob.schoeps.gems.34817.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">34817</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1992-06-20" references="archive-index"/>
     <credit role="recordist">Todd Evans</credit>
+    <credit role="transfer-mastering">Mike Hughey</credit>
+    <personMatch name="GEMS" role="unspecified"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Schoeps CMC34 -&gt; Oade Power Supply -&gt; Panasonic sv255 - 7' Stand | DAT Master &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1992-06-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Mike Hughey</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-f0df44b04fc746e2848c" kind="soundboard">
     <identifier scheme="archive-org">gd1992-06-20.sbd.fix.leavy.93996.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">93996</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at RFK Stadium on 1992-06-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Edited by Tim Leavy</credit>
     <lineage>SBD -&gt; Dat -&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at RFK Stadium on 1992-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Edited by Tim Leavy</note>
   </recording>
-  <recording id="r-88e7e5ee65fa2f3347ab" kind="soundboard">
+  <recording id="r-88e7e5ee65fa2f3347ab" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd92-06-20.dsbd.gardner.2207.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2207</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Robert F. Kennedy Stadium on 1992-06-20" references="archive-index archive-url-snapshot"/>
     <lineage>DSBD has same change in level in Corinna as mentioned on the other shn set in circulation</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Robert F. Kennedy Stadium on 1992-06-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
   </recording>
 </recordings>

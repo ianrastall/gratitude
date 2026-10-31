@@ -5,31 +5,33 @@
   </record>
   <recording id="r-49699ac833ac51d45b13" kind="soundboard">
     <identifier scheme="archive-org">gd1980-10-18.133594.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">133594</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Saenger Performing Arts Center on 1980-10-18" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Dat -&gt; AIFF | AIFF -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1980-10-18. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-80-new-orleans-la-saenger-theatre/</note>
+    <reference href="http://infinitedead.net/2021/10/18/10-18-80-new-orleans-la-saenger-theatre/"/>
   </recording>
   <recording id="r-e41834805013686c8242" kind="soundboard">
     <identifier scheme="archive-org">gd1980-10-18.135529.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135529</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Saenger Performing Arts Center on 1980-10-18" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Dat -&gt; AIFF | AIFF -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1980-10-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-80-new-orleans-la-saenger-theatre/</note>
+    <reference href="http://infinitedead.net/2021/10/18/10-18-80-new-orleans-la-saenger-theatre/"/>
   </recording>
-  <recording id="r-8f3a00e3f498a0d3b8c4" kind="audience">
+  <recording id="r-8f3a00e3f498a0d3b8c4" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd80-10-18.neumann.vernon.13596.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13596</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Saenger Performing Arts Center on 1980-10-18" references="archive-index infinite-dead"/>
     <lineage>Audience Recording: Neumann KM84 | FOB Neumann km84&gt; Cm&gt; Dat&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Saenger Performing Arts Center on 1980-10-18. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-80-new-orleans-la-saenger-theatre/</note>
+    <reference href="http://infinitedead.net/2021/10/18/10-18-80-new-orleans-la-saenger-theatre/"/>
   </recording>
-  <recording id="r-b419a6f06ba14d67e5a6" kind="unknown">
-    <identifier scheme="other">etree-586106</identifier>
-    <note>Supplied catalogue listing: etree; gd1980-10-18.135529.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-b419a6f06ba14d67e5a6" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">586106</identifier>
+    <identifier scheme="shnid" certainty="probable">135529</identifier>
+    <listing provider="etree" title="gd1980-10-18.135529.sbd.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19761001-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-654" nameAsBilled="Market Square Arena"/>
+  <venue ref="v-market-square-arena" nameAsBilled="Market Square Arena"/>
   <program coverage="partial">
     <set kind="soundcheck" n="1" mode="unknown">
       <performance id="p01-01" song="s-cosmic-charlie" transition="unknown"/>
@@ -17,7 +17,7 @@
       <performance id="p02-05" song="s-friend-of-the-devil" transition="unknown"/>
       <performance id="p02-06" song="s-big-river" transition="unknown"/>
       <performance id="p02-07" song="s-brown-eyed-women" transition="unknown"/>
-      <performance id="p02-08" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p02-08" song="s-its-all-over-now" transition="unknown"/>
       <performance id="p02-09" song="s-scarlet-begonias" transition="unknown"/>
       <performance id="p02-10" song="s-promised-land" transition="unknown"/>
       <note>Source section label: Set 1</note>
@@ -27,7 +27,7 @@
       <performance id="p03-02" song="s-samson-and-delilah" transition="unknown"/>
       <performance id="p03-03" song="s-help-on-the-way" transition="segue"/>
       <performance id="p03-04" song="s-slipknot" transition="segue"/>
-      <performance id="p03-05" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p03-05" song="s-franklins-tower" transition="unknown"/>
       <performance id="p03-06" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
       <performance id="p03-07" song="s-drums" transition="segue"/>
       <performance id="p03-08" song="s-the-wheel" transition="segue"/>
@@ -39,7 +39,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p04-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

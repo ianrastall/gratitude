@@ -5,147 +5,155 @@
   </record>
   <recording id="r-9cde407ab62bb3d8d09d" kind="unknown">
     <identifier scheme="archive-org">gd1989-12-31.117749.NeumannKMF4.daweez.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">117749</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Source: 2 Neumann KMF4 microphones &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
-  <recording id="r-651b96d22bceb0e1c66b" kind="audience">
+  <recording id="r-651b96d22bceb0e1c66b" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-12-31.142693.fob.bk4011.mattes.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142693</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>flac16/48kHz ; Source Info: Master (FOB)Audience Dat; B&amp;K 4011 mics (ORTF, 110 degrees)(16-bit/48k); Transfer Info: Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-39248081c2720b940ebb" kind="unknown">
+  <recording id="r-39248081c2720b940ebb" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1989-12-31.154085.sbd.walker.scotton.miller.pitch.corrected.87784.flac16</identifier>
+    <identifier scheme="shnid" certainty="uncertain">154085</identifier>
+    <identifier scheme="shnid" certainty="uncertain">87784</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>Pitch corrected version of shnid 87784</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
-  <recording id="r-707e03a9764c212ad25c" kind="matrix">
+  <recording id="r-707e03a9764c212ad25c" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-12-31.154970.ultramatrix.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">154970</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller December 28, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD (Broadcast Mix) &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 28, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f521bd5d2f9677640177" kind="matrix">
+  <recording id="r-f521bd5d2f9677640177" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-12-31.155442.UltraMatrix.sbd.broadcast-mix.cm.miller.t.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">155442</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller December 28, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD (Broadcast Mix) &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2020 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 28, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-973ce989233231cbf37e" kind="matrix">
     <identifier scheme="archive-org">gd1989-12-31.165046.mtx.seamons.ht161.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">165046</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index"/>
+    <personMatch name="Hunter Seamons" role="unspecified"/>
     <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) July 4, 2023</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
   </recording>
   <recording id="r-c39d7c65c8dc4afc88c5" kind="matrix">
     <identifier scheme="archive-org">gd1989-12-31.167251.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">167251</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-a6f368cde17c3d54776a" kind="unknown">
+  <recording id="r-a6f368cde17c3d54776a" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-12-31.167252.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">167252</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-0a2a527976ee9edc57ab" kind="unknown">
     <identifier scheme="archive-org">gd1989-12-31.167253.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">167253</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d7b79db6bad4566652da" kind="unknown">
+  <recording id="r-d7b79db6bad4566652da" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1989-12-31.aud.mpmgumby.105224.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">105224</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Mahoney</credit>
+    <credit role="transfer-mastering">Mike Mahoney</credit>
     <lineage>Nakamichi Shotgun Mics&gt;Sony D-5&gt;Marantz PMD430</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Mike Mahoney</note>
   </recording>
   <recording id="r-a17b399c5ea540768290" kind="matrix">
     <identifier scheme="archive-org">gd1989-12-31.mtx.hansokolow.96560.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">96560</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-31" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">hansokolow</credit>
     <lineage>Matrix mix (SBD/AUD)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): hansokolow</note>
   </recording>
   <recording id="r-5a7d5fcc0bc23d5ed0e7" kind="unknown">
     <identifier scheme="archive-org">gd1989-12-31.nak300.bowen.109949.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">109949</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jeff Bowen</credit>
+    <credit role="transfer-mastering">Brad Foster</credit>
     <lineage>(OTS) Nakamichi CM-300/CP-4 &gt; TCD-D10 | DAT-M &gt; Tascam DA-30 &gt; HHb CDR 800 Recorded/Transferred: Jeff Bowen Extraction [CD&gt;EAC&gt;WAV&gt;FLAC]: Brad Foster</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brad Foster</note>
   </recording>
-  <recording id="r-700330d9c545982a0ac4" kind="unknown">
+  <recording id="r-700330d9c545982a0ac4" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1989-12-31.sbd.gillis.gorinsky.6116.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6116</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-31" references="archive-index"/>
     <credit role="recordist">Glenn Gillis</credit>
+    <credit role="transfer-mastering">G. Gorinsky</credit>
     <lineage>FMS &gt; DAT &gt; CDR &gt; EAC (secure mode, test and copy) &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): G. Gorinsky</note>
   </recording>
   <recording id="r-9106836e8d2fbb630a04" kind="soundboard">
     <identifier scheme="archive-org">gd1989-12-31.sbd.walker-scotton.miller.87784.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">87784</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum Arena on 1989-12-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">-- Thanks to Joani Walker and Paul Scotton for the tapes</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Maxell MX90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Samplitude Professional v9.11 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-ffb71b43cd98f8679317" kind="unknown">
     <identifier scheme="archive-org">gd1989-12-31.sennME80.wklitz.92896.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">92896</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Keith Litzenberger</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 (1st few row of OTS) | DAT MASTER&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5(Fades)&gt;CDWAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
-  <recording id="r-3b20aa6a45100f6b4b08" kind="fm">
+  <recording id="r-3b20aa6a45100f6b4b08" kind="fm" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd89-12-31.prefm.miller.23574.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">23574</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Pre-FM -&gt; Dat -&gt; Samplitude -&gt; CD -&gt; EAC -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
-  <recording id="r-093850286868ff82aa53" kind="soundboard">
+  <recording id="r-093850286868ff82aa53" kind="soundboard" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd89-12-31.sbd.bertha-ashley.18674.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18674</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index"/>
     <lineage>SBD&gt;&gt;PreFM&gt;&gt;DAT&gt;&gt;CDA&gt;&gt;WAV(EAC)&gt;&gt;SHN&gt;&gt;DAW(Bertha)&gt;&gt;CDA/SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
   </recording>
-  <recording id="r-819a8ef1c558036ebb32" kind="fm">
+  <recording id="r-819a8ef1c558036ebb32" kind="fm" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd89-12-31.sbd.hinko.28735.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">28735</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Pre-FM -&gt; Dat -&gt; Samplitude -&gt; CD -&gt; EAC -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1989-12-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-4549bdc8e4ec95be62a6" kind="unknown">
-    <identifier scheme="other">etree-614950</identifier>
-    <note>Supplied catalogue listing: etree; gd1989-12-31.155442.UltraMatrix.sbd.cm.miller.t.flac16 (Broadcast Mix). Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-4549bdc8e4ec95be62a6" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">614950</identifier>
+    <identifier scheme="shnid" certainty="probable">155442</identifier>
+    <listing provider="etree" title="gd1989-12-31.155442.UltraMatrix.sbd.cm.miller.t.flac16 (Broadcast Mix)" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

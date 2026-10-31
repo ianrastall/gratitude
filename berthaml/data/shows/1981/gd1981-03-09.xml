@@ -3,12 +3,12 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19810309-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 e0424d7d06a5aec9b364dba31054525cea4a9d7acad628dfaaddb6e46c8bbc10. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <venue ref="v-madison-square-garden" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
       <performance id="p01-02" song="s-althea" transition="segue"/>
-      <performance id="p01-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-03" song="s-cc-rider" transition="unknown"/>
       <performance id="p01-04" song="s-ramble-on-rose" transition="segue"/>
       <performance id="p01-05" song="s-el-paso" transition="unknown"/>
       <performance id="p01-06" song="s-deep-elem-blues" transition="unknown"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

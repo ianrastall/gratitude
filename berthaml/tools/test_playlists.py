@@ -8,7 +8,7 @@ from lxml import etree
 
 from collect_playlists import extract
 from playlist_data import (N, NS, cache_name, candidate_covers, duration, export_playlists,
-                           recording_date, safe_file, plain)
+                           recording_date, safe_file, plain, title_key, track_title)
 from validate import check_track_list
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -68,6 +68,24 @@ class PlaylistTests(unittest.TestCase):
                  for sid, name in [('s-bertha', 'Bertha'), ('s-drums', 'Drums')]}
         self.assertEqual(candidate_covers('Bertha', show, songs), [])
         self.assertEqual(candidate_covers('Bertha > Drums > Bertha', show, songs), ['p1', 'p2', 'p3'])
+
+    def test_titles_compare_past_numbering_and_spelling(self):
+        self.assertEqual(track_title('12 Cold Jordon ->'), 'Cold Jordon')
+        self.assertEqual(track_title('gd81-02-26 03 Little Red Rooster'), 'Little Red Rooster')
+        self.assertEqual(track_title("E: Uncle John's Band~~"), "Uncle John's Band")
+        self.assertEqual(track_title('Scarlet Begonias > Fire'), 'Scarlet Begonias > Fire')
+        self.assertEqual(title_key('The Promised Land'), title_key('Promised Land'))
+        self.assertEqual(title_key('Around & Around'), title_key('Around And Around'))
+        self.assertEqual(title_key("Goin' Down The Road Feelin' Bad"), title_key('Going Down The Road Feeling Bad'))
+        self.assertEqual(title_key("Franklin's Tower"), title_key('Franklins Tower'))
+        self.assertNotEqual(title_key('Other One'), title_key('Other Ones'))
+
+    def test_alternate_titles_link_tracks(self):
+        show = etree.fromstring(f'<show xmlns="{NS}"><program><set>'
+                                '<performance id="p1" song="s-minglewood-blues"/></set></program></show>')
+        songs = {'s-minglewood-blues': etree.fromstring(
+            f'<song xmlns="{NS}"><title>Minglewood Blues</title><altTitle>New Minglewood Blues</altTitle></song>')}
+        self.assertEqual(candidate_covers('03 New Minglewood Blues ->', show, songs), ['p1'])
 
     def test_candidate_mapping_requires_real_performance_refs(self):
         class Report:

@@ -5,31 +5,34 @@
   </record>
   <recording id="r-3487a92ad0fa9310c2d7" kind="audience">
     <identifier scheme="archive-org">gd1977-10-12.121616.set2.aud.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">121616</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Manor Downs on 1977-10-12" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Jonathan Rozes</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Unknown Mics -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Adobe Audition v3.0 -&gt;Samplitude Professional v11.2.1 -&gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/12/10-12-77-austin-tx-manor-downs/</note>
+    <reference href="http://infinitedead.net/2021/10/12/10-12-77-austin-tx-manor-downs/"/>
   </recording>
-  <recording id="r-013ff2b4938796b0dccd" kind="unknown">
+  <recording id="r-013ff2b4938796b0dccd" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1977-10-12.121618.set2.aud.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">121618</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Manor Downs on 1977-10-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Unknown Mics -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Adobe Audition v3.0 -&gt;Samplitude Professional v11.2.1 -&gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-8bc933acfdd9118082a8" kind="soundboard">
     <identifier scheme="archive-org">gd1977-10-12.sbd.goodbear.3919.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3919</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Manor Downs on 1977-10-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Teddy Goodbear</credit>
     <lineage>Soundboard</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Teddy Goodbear</note>
   </recording>
   <recording id="r-7819b08beeccefd0dfe3" kind="soundboard">
     <identifier scheme="archive-org">gd77-10-12.sbd.cotsman.19291.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">19291</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Manor Downs on 1977-10-12" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Soundboard | SBD&gt; MR&gt; C&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Manor Downs on 1977-10-12. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/12/10-12-77-austin-tx-manor-downs/</note>
+    <reference href="http://infinitedead.net/2021/10/12/10-12-77-austin-tx-manor-downs/"/>
   </recording>
 </recordings>

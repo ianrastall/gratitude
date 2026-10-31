@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830621-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-885" nameAsBilled="Merriweather Post Pavilion"/>
+  <venue ref="v-merriweather-post-pavilion" nameAsBilled="Merriweather Post Pavilion"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-alabama-getaway" transition="segue"/>
@@ -13,7 +13,7 @@
       <performance id="p01-05" song="s-cumberland-blues" transition="unknown"/>
       <performance id="p01-06" song="s-cassidy" transition="unknown"/>
       <performance id="p01-07" song="s-big-railroad-blues" transition="unknown"/>
-      <performance id="p01-08" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-08" song="s-its-all-over-now" transition="unknown"/>
       <performance id="p01-09" song="s-loser" transition="unknown"/>
       <performance id="p01-10" song="s-looks-like-rain" transition="segue"/>
       <performance id="p01-11" song="s-might-as-well" transition="unknown"/>
@@ -34,7 +34,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

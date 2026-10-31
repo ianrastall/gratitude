@@ -3,13 +3,13 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850309-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-64" nameAsBilled="Berkeley Community Theater"/>
+  <venue ref="v-berkeley-community-theater" nameAsBilled="Berkeley Community Theater"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-bertha" transition="segue"/>
       <performance id="p01-02" song="s-one-more-saturday-night" transition="segue"/>
       <performance id="p01-03" song="s-sugaree" transition="unknown"/>
-      <performance id="p01-04" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-04" song="s-its-all-over-now" transition="unknown"/>
       <performance id="p01-05" song="s-row-jimmy" transition="unknown"/>
       <performance id="p01-06" song="s-let-it-grow" transition="unknown"/>
       <note>Source section label: Set 1</note>
@@ -27,7 +27,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p03-01" song="s-its-all-over-now-baby-blue" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

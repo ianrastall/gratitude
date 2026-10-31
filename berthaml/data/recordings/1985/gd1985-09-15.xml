@@ -5,104 +5,113 @@
   </record>
   <recording id="r-4f8e59761baa6e2b3104" kind="unknown">
     <identifier scheme="archive-org">gd1985-09-15.150271.senn441.schnetlage.blackwood.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">150271</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Doug Schnetlage</credit>
+    <credit role="transfer-mastering">Transferred and Mastered by Jim Blackwood aka gsarchivist</credit>
     <lineage>Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 &gt; Flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transferred and Mastered by Jim Blackwood aka gsarchivist</note>
   </recording>
   <recording id="r-8e21929badc373833244" kind="unknown">
     <identifier scheme="archive-org">gd1985-09-15.150272.set2.senn421.lukosky.blackwood.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">150272</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ben Lukosky's Master Audience Cassette</credit>
+    <credit role="transfer-mastering">Transferred and Mastered by Jim Blackwood aka gsarchivist</credit>
     <lineage>Sennheiser 421 mics &gt; Sony D5 (TDK HX-S90) 33 foot microphone spacing | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 &gt; Flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transferred and Mastered by Jim Blackwood aka gsarchivist</note>
   </recording>
-  <recording id="r-73ad4b9e263ce73ee19d" kind="unknown">
+  <recording id="r-73ad4b9e263ce73ee19d" kind="unknown" inferredKind="matrix">
     <identifier scheme="archive-org">gd1985-09-15.151233.mtx.seamons.ht125.flac16</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) December 24, 2020</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">151233</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) December 24, 2020</credit>
+    <personMatch name="Hunter Seamons" role="transfer-mastering"/>
   </recording>
-  <recording id="r-de2bf00072846a01d02e" kind="audience">
+  <recording id="r-de2bf00072846a01d02e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-09-15.155725.nak700.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">155725</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller February 14, 2022</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>(FOB) Nakamichi CM700 &gt; Cassette Master (Sony TC-D5M) &gt; DAT (48k) | DAT (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition &gt; Samplitude Pro X6 Suite &gt; FLAC/48k</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 14, 2022</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-21e445df9c0dc543e8e0" kind="audience">
+  <recording id="r-21e445df9c0dc543e8e0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-09-15.177922.beyer.m88.terry.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">177922</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index"/>
     <credit role="recordist">Mark Terry</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Terry's Master FOB Audience Cassettes; Beyer M88 mics &gt; Sony WM-D6C (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24/96) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-2ed1d1dfb362676aa8be" kind="audience">
+  <recording id="r-2ed1d1dfb362676aa8be" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-09-15.177923.beyer.m88.terry.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">177923</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index"/>
     <credit role="recordist">Mark Terry</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Terry's Master FOB Audience Cassettes; Beyer M88 mics &gt; Sony WM-D6C (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24/96) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3ad542251fcaa75e863f" kind="unknown">
     <identifier scheme="archive-org">gd1985-09-15.beyerM88.connor.76992.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">76992</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Charlie Connor</credit>
+    <credit role="transfer-mastering">Charlie Connor</credit>
     <lineage>Beyer Dynamic M88's&gt;Sony TCD5M (CM - TDK MA90's) | Nak DR-10&gt;Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to 16/44.1&gt;CDWav beta1.57 (tracking only)&gt;flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Connor</note>
   </recording>
   <recording id="r-148be0ca1231d4a388bc" kind="unknown">
     <identifier scheme="archive-org">gd1985-09-15.md421.coyotte.muletaper.88814.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88814</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field - Southwestern College on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rick "Coyotte" Colyard</credit>
+    <credit role="transfer-mastering">Muletaper</credit>
     <lineage>Sennheiser-MD421's&gt;Sony D5&gt;MAC | MAC&gt; Sony TCW-21(Analog out)&gt;Edirol Digi-Mod UA5@44.1khz&gt;Digital-Optical out&gt;&gt;Nomad JB3@44.1khz&gt;WAV&gt;Poulderbits Sound Editor for (fades/cuts)&gt;FlacFrontend (level-8)&gt;flac-16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field - Southwestern College on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Muletaper</note>
   </recording>
   <recording id="r-49304eed979c69357d0e" kind="soundboard">
     <identifier scheme="archive-org">gd1985-09-15.sbd.miller.34722.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">34722</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Paul Scotton and Joani Walker</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; PCM -&gt; Dat (44.1k) | Dat (Sony D8) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; Cool Edit Pro v2.0 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-9d891d0e2d3279cdf606" kind="soundboard">
     <identifier scheme="archive-org">gd1985-09-15.Senn421.Darby.120921.Flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">120921</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; SennheiserMD421s (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tapes Maxell MX; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed,Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-9d29e1d6b1eb376c3db1" kind="soundboard">
     <identifier scheme="archive-org">gd1985-09-15.Senn421.Darby.120922.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">120922</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; SennheiserMD421s (PAS/DFC Behind Soundboard/6 Feet High)&gt; Sony TC-D5M,Tapes Maxell MX; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
-  <recording id="r-61e228482814566bf7ea" kind="unknown">
+  <recording id="r-61e228482814566bf7ea" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd85-09-15.aud.zelner.13600.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13600</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <lineage>Unknown Mics (parabolic reflectors, 40</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
   </recording>
   <recording id="r-fa122299f91f01411dd2" kind="soundboard">
     <identifier scheme="archive-org">gd85-09-15.sbd-set1.aj.376.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">376</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
     <lineage>SBD -&gt; ? -&gt; DAT -&gt; CD -&gt; EAC -&gt; SHN conversion by AJ</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-7d6e3798447d9e34a21f" kind="soundboard">
     <identifier scheme="archive-org">gd85-09-15.sbd.set2.walker.378.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">378</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
     <lineage>reportedly SBD&gt;CM&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Devore Field, Southwestern U on 1985-09-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
   </recording>
 </recordings>

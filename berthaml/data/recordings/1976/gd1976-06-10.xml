@@ -5,90 +5,97 @@
   </record>
   <recording id="r-f4c70655f9d47d8335fc" kind="soundboard">
     <identifier scheme="archive-org">gd1976-06-10.141690.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141690</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Lineage: SBD &gt; Master Reel (7in 7.5ips 1/2trk) &gt; PCM; Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16; All Transfers and Mastering by Charlie Miller</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-9bd7ec2ea52e2006749f" kind="unknown">
     <identifier scheme="archive-org">gd1976-06-10.143003.akg1000.warburton.smith.sirmick.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">143003</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jimmy Warburton</credit>
+    <credit role="transfer-mastering">SIRMick and Matt Smith</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: AKG 1000Es &gt; Sony TC-152 (Dolby b) &gt; MAC - Recorded by Jimmy Warburton from right-hand side of log; | MAC (played back on Sony TC-152) &gt; TEAC A-2300SD &gt; Reel &gt; Technics 1506 &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; FLAC 2496; Lineage: wav 24/96 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; Flac 24; edited and mastered SIRMick August 2018</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick and Matt Smith</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-798828247bd987a96d41" kind="unknown">
     <identifier scheme="archive-org">gd1976-06-10.145134.akg1000.warburton.smith.sirmick.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">145134</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Music Hall on 1976-06-10" references="archive-index"/>
     <credit role="recordist">Jimmy Warburton</credit>
+    <credit role="transfer-mastering">Matt Smith &amp; Sirmick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>AKG 1000Es &gt; Sony TC-152 (Dolby b) &gt; MAC - Recorded by Jimmy Warburton from right-hand side of loge. | Transfer: MAC (played back on Sony TC-152) &gt; TEAC A-2300SD &gt; Reel &gt; Technics 1506 &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; FLAC 2496 Lineage: wav 24/96 &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; Flac 24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Music Hall on 1976-06-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Smith &amp; Sirmick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-9b7b6abf3f016f68ae86" kind="matrix">
     <identifier scheme="archive-org">gd1976-06-10.matrix.tobin.84985.sbeok.flac16</identifier>
-    <credit role="recordist">See info file</credit>
-    <lineage>SBD + AUD Matrix 2 Source Mix(65%-SBD/35%-AUD) | See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">84985</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
+    <lineage>SBD + AUD Matrix 2 Source Mix(65%-SBD/35%-AUD)</lineage>
   </recording>
-  <recording id="r-80ca31bec5f6dde6fa75" kind="unknown">
+  <recording id="r-80ca31bec5f6dde6fa75" kind="unknown" inferredKind="matrix" modifiers="DTS">
     <identifier scheme="archive-org">gd1976-06-10.mtx.dts.tobin.85004.sbeok.flac16</identifier>
-    <credit role="recordist">See info file</credit>
-    <lineage>DTS-Audio-5.1 Mix by Kevin Tobin | See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">85004</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
+    <lineage>DTS-Audio-5.1 Mix by Kevin Tobin</lineage>
   </recording>
   <recording id="r-748060df90a3a66f5c47" kind="soundboard">
     <identifier scheme="archive-org">gd1976-06-10.sbd.gems.82921.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82921</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">DAT from the collection of Todd Evans</credit>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>SBD Master Reel -&gt; PCM -&gt; Dat (44.1k) | DAT &gt; TASCAM DA-20 (S/PDIF out) -&gt; Apogee Wide Eye S/PDIF interconnect -&gt; LynxTWO-A Audio Reference Interface (S/PDIF in) -&gt; Wavelab 6.0</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-8e594885a68cbbf0458b" kind="soundboard">
     <identifier scheme="archive-org">gd1976-06-10.unk.dunahee-stube.237.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">237</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index"/>
+    <credit role="transfer-mastering">S. Dunahee and W. Stube</credit>
     <lineage>Soundboard | ??? &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): S. Dunahee and W. Stube</note>
   </recording>
-  <recording id="r-11c2299467a473ed7ce3" kind="audience">
+  <recording id="r-11c2299467a473ed7ce3" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd76-06-10.hopkins.vernon.5918.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5918</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Hopkins</credit>
     <lineage>Audience Recording: Sony ECM 99a stereo mic | FOB Sony 152 cassette deck with Sony ecm 99a stereo mic; Audience Master Cassettes &gt; DAT &gt; DAT clone &gt; CDR &gt; WAV's (EAC secure with offsets enabled) &gt; add fades with Cool Edit 2K &gt; track boundaries CDWave &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
   </recording>
   <recording id="r-3ef76d259e2f25e30964" kind="audience">
     <identifier scheme="archive-org">gd76-06-10.moore.minches.18425.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18425</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jerry Moore</credit>
+    <credit role="transfer-mastering">Mark Cohen, David Minches</credit>
+    <personMatch name="Jerry Moore" role="recordist"/>
     <lineage>Audience Recording: AKG 200Es | AKG 200Es&gt; Sony TC-153, close to stage in orchestra mics hand held. AUDMC &gt; DAT &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mark Cohen, David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
   </recording>
   <recording id="r-e4f985989e1d26fc536c" kind="soundboard">
     <identifier scheme="archive-org">gd76-06-10.sbd.bertha-ashley.23370.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">23370</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index"/>
     <lineage>Soundboard | SBD&gt; MR&gt; PCM&gt; DAT&gt; WAV&gt; SHN&gt; DAW (Bertha)&gt; WAV/SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-4c9dbb2037af3e8619bf" kind="soundboard">
     <identifier scheme="archive-org">gd76-06-10.sbd.miller.14264.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14264</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Soundboard | SBD -&gt; Rm -&gt; PCM -&gt; Dat -&gt; Prodif Plus -&gt; Samplitude v6.0 -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-acba6cc2d76b48a41dcb" kind="audience">
     <identifier scheme="archive-org">gd76-06-10.warburton.minches.18426.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18426</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1976-06-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jimmy Warburton</credit>
+    <credit role="transfer-mastering">Mark Cohen, David Minches</credit>
     <lineage>Audience Recording: AKG 1000Es | AKG 1000Es&gt; Sony TC-152. Reel -&gt; DAT -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1976-06-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mark Cohen, David Minches</note>
   </recording>
 </recordings>

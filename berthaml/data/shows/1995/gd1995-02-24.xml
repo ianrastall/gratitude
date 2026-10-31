@@ -3,12 +3,12 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950224-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <venue ref="v-oakland-alameda-county-coliseum-arena" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-help-on-the-way" transition="segue"/>
       <performance id="p01-02" song="s-slipknot" transition="segue"/>
-      <performance id="p01-03" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-franklins-tower" transition="unknown"/>
       <performance id="p01-04" song="s-the-same-thing" transition="unknown"/>
       <performance id="p01-05" song="s-althea" transition="unknown"/>
       <performance id="p01-06" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
@@ -29,7 +29,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

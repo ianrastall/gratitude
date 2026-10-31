@@ -5,28 +5,31 @@
   </record>
   <recording id="r-690e2abf1c62514b2e51" kind="soundboard">
     <identifier scheme="archive-org">gd1971-04-21.141116.sbd.pcm.dalton.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141116</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rhode Island Auditorium on 1971-04-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Dalton</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source Info: Master Soundboard Reels &gt; 1st generation reels &gt; 2nd generation reels &gt; PCM (Sony HG tape); Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rhode Island Auditorium on 1971-04-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-af1aa58fd31e1e308908" kind="soundboard">
     <identifier scheme="archive-org">gd1971-04-21.sbd.130598.MrBill.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">130598</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rhode Island Auditorium on 1971-04-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Guarneri</credit>
     <lineage>Recording Info: SBD &gt; R &gt; DAT &gt;CD; Transfer Info: CD &gt;WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC; Remastered, retracked version of shnid 8227</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rhode Island Auditorium on 1971-04-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Guarneri</note>
   </recording>
-  <recording id="r-140442828c45fe03aa2a" kind="unknown">
+  <recording id="r-140442828c45fe03aa2a" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1971-04-21.sbd.lai.2578.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2578</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rhode Island Auditorium on 1971-04-21" references="archive-index archive-url-snapshot"/>
     <lineage>sdb&gt;&gt;MR&gt;&gt;PCM&gt;&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rhode Island Auditorium on 1971-04-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
   <recording id="r-1b28b117ac322933b15a" kind="soundboard">
     <identifier scheme="archive-org">gd71-04-21.sbd.kaplan.8227.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8227</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rhode Island Auditorium on 1971-04-21" references="archive-index"/>
+    <credit role="transfer-mastering">Michael Lai and Seth Kaplan</credit>
     <lineage>Soundboard | SBD &gt; MR &gt; R &gt; DAT &gt; CD &gt; DAE &gt; SHN &gt; shntool &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rhode Island Auditorium on 1971-04-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Michael Lai and Seth Kaplan</note>
   </recording>
 </recordings>

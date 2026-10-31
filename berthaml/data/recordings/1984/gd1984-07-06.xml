@@ -5,138 +5,153 @@
   </record>
   <recording id="r-1b44d37c94b754b604ab" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.109746.beyer-senn-daweez.D5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">109746</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>source: 2 Beyer M160 &amp; 1 Sennheiser 421 microphones &gt; Nak MX100 w/2001 &gt; Sony TC-D5M (Dolby on) - analog master cassettes; | Sony TC-D5M (original record deck - Dolby on) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac and ffp files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-60fd8bfebac07cc3f1a3" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-06.139531.sbd.pcm.miller-eaton.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">139531</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>Recording Info: SBD &gt; PCM Master &gt; Dat; Transfer Info: Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC; All Transfers and Mastering By Charlie Miller</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/06/7-6-84-east-troy-wi-alpine-valley-music-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/06/7-6-84-east-troy-wi-alpine-valley-music-theater/"/>
   </recording>
-  <recording id="r-595e0e3d1faef1821edd" kind="audience">
+  <recording id="r-595e0e3d1faef1821edd" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-07-06.140032.FOB.Schoeps.Oade.Bryant.Miller.Noel.t-flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140032</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant patched out of Oade Brothers - from the Gastwirt collection</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Robert Bryant recording (patched out of Oade Bros) Schoeps CMC4/MK41 -&gt; Oade M118 -&gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) (FOB); Charlie Miller DSD | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt; KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC 24/96; Edited &amp; Mastered with Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
-  <recording id="r-e6db6db4fce4aa0bbc01" kind="audience">
+  <recording id="r-e6db6db4fce4aa0bbc01" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-07-06.141154.FOB.Schoeps.Oade.Bryant.Miller.Noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141154</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index"/>
     <credit role="recordist">Robert Bryant patched out of Oade Brothers</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Robert Bryant recording (patched out of Oade Bros) Schoeps CMC4/MK41 -&gt; Oade M118 -&gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) (FOB); Charlie Miller DSD | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt; KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC 24/96; Edited &amp; Mastered with Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
   <recording id="r-5206669df7f54c69f5c0" kind="audience">
     <identifier scheme="archive-org">gd1984-07-06.142540.Lawn.Nak.Reutelhuber.PhillyCrew.Noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142540</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Bill Reutelhuber</credit>
+    <credit role="transfer-mastering">Joe Noel and Philly Crew</credit>
     <lineage>Bill Reutelhuber Master Recording: Nakamichi cm100 shotguns (spread on lawn) &gt; master cassette (Maxell MX - Sony tcd5m Dolby B); A Philly Crew | Master Cassette &gt; Nak CR7a &gt; Korg MR1000 5.6 mhz 1 bit &gt; Audiogate render &gt; Flac 16/44</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe Noel and Philly Crew</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/06/7-6-84-east-troy-wi-alpine-valley-music-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/06/7-6-84-east-troy-wi-alpine-valley-music-theater/"/>
   </recording>
   <recording id="r-9333eb36f5784de4b40b" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.150326.beyerm88.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150326</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew;Sean Murtha;Tom Pinney;Gary Steel;Kyle Holbrook</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD: Beyer M88's XY 90' &gt; Sony TCD-5M|Maxell MX90 x2 no NR Location: 75 feet from stage DFC- pavilion | Nakamichi LX5 &gt; Marantz PMD661|SD &gt;WIN10 Audacity|cdwav|TLH Flac level8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-27fd941a2986ba73c29b" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.150327.beyerm88.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">150327</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index"/>
     <credit role="recordist">Executive Crew;Sean Murtha;Tom Pinney;Gary Steel;Kyle Holbrook</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD: Beyer M88's XY 90' &gt; Sony TCD-5M|Maxell MX90 x2 no NR Location: 75 feet from stage DFC- pavilion | Nakamichi LX5 &gt; Marantz PMD661|SD &gt;WIN10 Audacity|cdwav|TLH Flac level8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-f412ee6aa35590b84e01" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.150328.beyerm201.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150328</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew;Sean Murtha;Tom Pinney;Gary Steel;Kyle Holbrook</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD: Beyer M201's XY 90' &gt; Sony TCD-5M|s1:Maxell MX60; s2:Maxell MX90 no NR Location: 60 feet from outside stacks, 310 feet from stage DFC, 9 feet up- lawn | Nakamichi LX5 &gt; Marantz PMD661|SD &gt;WIN10 Audacity|cdwav|TLH Flac level8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-f464842fe6b586993efd" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.150329.beyerm201.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">150329</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew;Sean Murtha;Tom Pinney;Gary Steel;Kyle Holbrook</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD: Beyer M201's XY 90' &gt; Sony TCD-5M|s1:Maxell MX60; s2:Maxell MX90 no NR Location: 60 feet from outside stacks, 310 feet from stage DFC, 9 feet up- lawn | Nakamichi LX5 &gt; Marantz PMD661|SD &gt;WIN10 Audacity|cdwav|TLH Flac level8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-98bb902df5fae6ecd4c8" kind="audience">
     <identifier scheme="archive-org">gd1984-07-06.163415.nak304.thomas.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163415</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 capsules &gt; Sony D5M | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (24-bit/96k .wav)&gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-74d10e1f5da1883c4a1f" kind="audience">
     <identifier scheme="archive-org">gd1984-07-06.163416.nak304.thomas.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163416</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 capsules &gt; Sony D5M | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (24-bit/96k .wav)&gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-7acac88cf74aab03a451" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.165101.nak100.Reutelhuber.photoleon.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">165101</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Master Audience Recording by Bill Reutelhuber</credit>
+    <credit role="transfer-mastering">Transfer by Anon Edited &amp; Mastered (Adobe Audition) by Joe Noel January 19, 2023</credit>
     <lineage>(Lawn, Spaced 10') Nakamichi 100 Shotguns &gt; Sony TC-D5m &gt; Master Cassette (TDK MA90s, Dolby B On) | Master Cassette &gt; Nakamichi CR7A (no dolby, azimuth adjusted) &gt; Korg MR2000 (1 bit 5.6 Mhz) &gt; AudioGate &gt; dbx software decode &gt; dolby b software decode &gt; WAV24/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transfer by Anon Edited &amp; Mastered (Adobe Audition) by Joe Noel January 19, 2023</note>
   </recording>
   <recording id="r-1bf009167fd65a63e8f8" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.176473.AKG-460B.PCM-F1.RB.flac24192</identifier>
+    <identifier scheme="shnid" certainty="probable">176473</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index"/>
     <credit role="recordist">RB</credit>
+    <credit role="transfer-mastering">RB</credit>
     <lineage>AKG 460B w/ ck1 capsules &gt;: Sony PCM-F Sony SL2000 Beta 2 channel digital recorder | Master Sony L-500 Beta Tape played back on SAME GEAR analog out &gt;Naim NAC 52 Preamplifier &gt; Recorded to Nagra Seven @ 24b/192khz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): RB</note>
   </recording>
   <recording id="r-35d62ac842ee86c18f8c" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-06.nak300.carpenter.andrewf.86943.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">86943</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Carpenter</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>Nakamichi CM-300's w/CP-4 shotgun capsules &gt; Sony TC-D5M &gt; Maxell XL-II's, with no Dolby | MAC &gt; Nakamichi BX-125 (Dolby off) &gt; Audiophile-2496 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-d3b8eae263c65837ac84" kind="audience">
     <identifier scheme="archive-org">gd1984-07-06.Tascam120.Darby.121095.Flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">121095</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; Tascam PE120/SP1's (PAS/Back Of Left Pavilion/6 Feet High)&gt; Sony TC-D5M, Tapes Sony Metallic; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed, Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-707f7d12952c07b7862e" kind="audience">
     <identifier scheme="archive-org">gd1984-07-06.Tascam120.Darby.121096.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">121096</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; Tascam PE120/SP1's (PAS/Back Of Left Pavilion/6 Feet High)&gt; Sony TC-D5M, Tapes Sony Metallic; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
-  <recording id="r-a9abdd43a830139f3f5f" kind="audience">
+  <recording id="r-a9abdd43a830139f3f5f" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd84-07-06.senn441.dodd.13898.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13898</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Fob: Sennheiser 441's &gt; MC &gt; Dat &gt; CdEac &gt;cool edit &gt; shntool &gt; cdwav &gt;shnv3Eac &gt;shn (secure with proper offsets) by Ernie Dodd</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1984-07-06. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/06/7-6-84-east-troy-wi-alpine-valley-music-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/06/7-6-84-east-troy-wi-alpine-valley-music-theater/"/>
   </recording>
   <recording id="r-25db9f7aaf51de065b51" kind="unknown">
-    <identifier scheme="other">etree-595855</identifier>
-    <note>Supplied catalogue listing: etree; gd1984-07-06.139531.pcm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+    <identifier scheme="etree-torrent">595855</identifier>
+    <identifier scheme="shnid" certainty="probable">139531</identifier>
+    <listing provider="etree" title="gd1984-07-06.139531.pcm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

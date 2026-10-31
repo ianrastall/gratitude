@@ -5,46 +5,51 @@
   </record>
   <recording id="r-bf930bf758d89d62d9a8" kind="matrix">
     <identifier scheme="archive-org">gd1973-11-21.133522.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">133522</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Denver Coliseum on 1973-11-21" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>flac ; 2 Source Matrix by Dusborne; Soundboard(shnid:97468) SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD; CD -&gt; Cool Edit Pro v2.0 -&gt; Samplitude Professional v9.12 -&gt; FLAC and Audience(shnid:22096) Sony 1-point stereo mic &gt; Sony TC-124) &gt; Nak Dragon playback &gt; ART DI/O &gt; HD &gt; Cool Edit 2000 &gt; master CD &gt; Samsung SW-232B extraction (EAC v0.95 prebeta 4) &gt; sector boundary verification (shntool v1.01) &gt; .shn encoding (mkwACT v0.97 beta 1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Denver Coliseum on 1973-11-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-dec9d33099b8f3cd8375" kind="soundboard">
     <identifier scheme="archive-org">gd1973-11-21.sbd.fix.miller.97468.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">97468</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Denver Coliseum on 1973-11-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Cool Edit Pro v2.0 -&gt; Samplitude Professional v9.12 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Denver Coliseum on 1973-11-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-730bb9c56a8712c3c795" kind="soundboard">
     <identifier scheme="archive-org">gd1973-11-21.sbd.miller.88612.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88612</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Denver Coliseum on 1973-11-21" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD D | CD -&gt; Cool Edit Pro v2.0 -&gt; Samplitude Professional v9.12 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Denver Coliseum on 1973-11-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ff6f8749b6f4176f2e48" kind="audience">
     <identifier scheme="archive-org">gd73-11-21.finley.warner.22096.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">22096</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Denver Coliseum on 1973-11-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Glen Finley</credit>
     <lineage>Audience Recording | MAC ( Sony 1-point stereo mic &gt; Sony TC-124) &gt; Nak Dragon playback &gt; ART DI/O &gt; HD &gt; Cool Edit 2000 &gt; master CD &gt; EAC &gt; .shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Denver Coliseum on 1973-11-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-41063879fcfe565d1163" kind="unknown">
+  <recording id="r-41063879fcfe565d1163" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd73-11-21.sbd-patched.warner.22097.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">22097</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Denver Coliseum on 1973-11-21" references="archive-index"/>
     <lineage>MSR &gt; DAT &gt; CD &gt; Samsung SW-232B extraction (EAC v0.95 prebeta 4) &gt; CDWave v1.71 (tracking) &gt; sector boundary verification (shntool v1.01) &gt; .shn encoding (mkwACT v0.97 beta 1) Patches: MAC (Taped Taped by Glen Finley, Sony 1-point stereo mic &gt; Sony TC-12</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Denver Coliseum on 1973-11-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
   <recording id="r-08d281f0975ec9cb8885" kind="soundboard">
     <identifier scheme="archive-org">gd73-11-21.sbd.barrick.192.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">192</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Denver Coliseum on 1973-11-21" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Denver Coliseum on 1973-11-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-e5783844cade1b3d211b" kind="unknown">
-    <identifier scheme="other">etree-580367</identifier>
-    <note>Supplied catalogue listing: etree; gd73-11-21.133522.mtx.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+  <recording id="r-e5783844cade1b3d211b" kind="unknown" inferredKind="matrix">
+    <identifier scheme="etree-torrent">580367</identifier>
+    <identifier scheme="shnid" certainty="probable">133522</identifier>
+    <listing provider="etree" title="gd73-11-21.133522.mtx.dusborne.flac16" references="etree-snapshot"/>
+    <personMatch name="Dave Usborne" role="unspecified"/>
   </recording>
 </recordings>

@@ -5,22 +5,25 @@
   </record>
   <recording id="r-fc227f9b208083fc19a6" kind="soundboard">
     <identifier scheme="archive-org">gd1994-09-16.136859.set2.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136859</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1994-09-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat (44.1k) | Dat (Tascam DA-20) -&gt; Tascam DA-3000 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1994-09-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f84021348ea927312245" kind="unknown">
     <identifier scheme="archive-org">gd1994-09-16.141688.OTS.s2.Neumann.Silberman.Ammons.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">141688</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1994-09-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jeff Silberman</credit>
+    <credit role="transfer-mastering">Joe Noel and John Ammons</credit>
     <lineage>flac16/48kHz ; Set 2 Jeff Silberman Digital Recording; Neumann U89 &gt; StellaDAT &gt; DAT (mics spaced 40', front row, OTS); John Ammons Transfer; DAT clone &gt; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1994-09-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe Noel and John Ammons</note>
   </recording>
   <recording id="r-7f2d19903c85d6ed27c3" kind="audience">
     <identifier scheme="archive-org">gd94-09-16.akg.seff.2642.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2642</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1994-09-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jon Seff</credit>
     <lineage>Audience: AKG C61 Tubes | AKG C61 Tube mics &gt; DAT (48khz) &gt; Tascam DA-20 mkII &gt; Hosa S/PDIF &gt; Delta DiO 2496 &gt; Peak &gt; WAV @44.1k &gt; SHN (no DAE)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1994-09-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jon Seff</note>
   </recording>
 </recordings>

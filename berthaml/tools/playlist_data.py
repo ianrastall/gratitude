@@ -21,6 +21,19 @@ def norm(value):
                   .encode('ascii', 'ignore').decode().lower())
 
 
+def title_key(value):
+    """Compare titles past case, punctuation, a leading The, an ampersand and a dropped g."""
+    text = re.sub(r"(?<=[a-z])in['\u2019](?![a-z])", 'ing', (value or '').lower()).replace('&', ' and ')
+    return norm(re.sub(r'^\s*the\s+', '', text))
+
+
+def track_title(value):
+    """A source track title without its numbering, set label or trailing segue mark."""
+    text = re.sub(r'(?i)^\s*gd\d{2,4}[-.]\d\d[-.]\d\d\s+', '', value or '')
+    text = re.sub(r'^\s*(?:[Ee]\d?:|\d{1,3}(?:[.\s]|\s*-\s))\s*', '', text)
+    return re.sub(r'[\s>~*#-]+$', '', text)
+
+
 def plain(value):
     if isinstance(value, list):
         return '; '.join(plain(item) for item in value)
@@ -97,12 +110,12 @@ def cache_name(identifier):
 
 
 def candidate_covers(title, show, songs):
-    pieces = [norm(x) for x in re.split(r'\s*(?:>| / )\s*', title or '') if norm(x)]
+    pieces = [title_key(x) for x in re.split(r'\s*(?:>| / )\s*', track_title(title)) if title_key(x)]
     performances = show.findall('.//b:performance', N)
     names = []
     for item in performances:
         song = songs[item.get('song')]
-        names.append({norm(item.get('titleVariant')), *[norm(n.text) for n in
+        names.append({title_key(item.get('titleVariant')), *[title_key(n.text) for n in
                       song.findall('b:title', N) + song.findall('b:altTitle', N)]} - {''})
     starts = [i for i in range(len(names) - len(pieces) + 1)
               if pieces and all(piece in names[i + j] for j, piece in enumerate(pieces))]
@@ -116,6 +129,31 @@ def sub(parent, tag, text=None, **attrs):
     node = etree.SubElement(parent, f'{{{NS}}}{tag}', **{k: str(v) for k, v in attrs.items()})
     node.text = text
     return node
+
+
+def after_tracks(recording):
+    return next((i for i, child in enumerate(recording)
+                 if child.tag in (f'{{{NS}}}captured', f'{{{NS}}}note')), len(recording))
+
+
+def recording_notes(recording):
+    """A recording's structured facts as the plain lines of a companion file."""
+    lines = []
+    if recording.findtext('b:lineage', namespaces=N):
+        lines.append('Lineage: ' + recording.findtext('b:lineage', namespaces=N))
+    listing = recording.find('b:listing', N)
+    if listing is not None:
+        lines.append(f'Catalogue listing: {listing.get("provider")}; {listing.get("title")}')
+    if recording.get('modifiers'):
+        lines.append('Modifiers: ' + recording.get('modifiers'))
+    if recording.get('inferredKind'):
+        lines.append('Inferred kind, unconfirmed: ' + recording.get('inferredKind'))
+    lines.extend(f'{c.get("role")}: {c.text}' for c in recording.findall('b:credit', N))
+    lines.extend(f'Possible match: {p.get("name")} ({p.get("role")})' for p in recording.findall('b:personMatch', N))
+    lines.extend('Reference: ' + r.get('href') for r in recording.findall('b:reference', N))
+    lines.extend(f'Archive metadata ({c.get("field")}): {c.text}' for c in recording.findall('b:captured', N))
+    lines.extend(n.text or '' for n in recording.findall('b:note', N))
+    return lines
 
 
 def apply_recording_playlists(document, show, root, songs, manifest):
@@ -163,11 +201,12 @@ def apply_recording_playlists(document, show, root, songs, manifest):
                 'Order basis: ' + variant['order_basis'] + '. Performance links are review candidates.')
             if variant.get('order_uncertain'):
                 issues.append(('playlist-order', pid, dict(source=fact['url'])))
-            position = next((i for i, child in enumerate(recording) if child.tag == f'{{{NS}}}note'), len(recording))
-            recording.insert(position, playlist)
+            recording.insert(after_tracks(recording), playlist)
             imported += 1
         for name, value in fact.get('credits', {}).items():
-            sub(recording, 'note', text=f'Archive source metadata ({name}): {plain(value)}')
+            node = etree.Element(f'{{{NS}}}captured', field=name)
+            node.text = plain(value)
+            recording.insert(after_tracks(recording) + len(recording.findall('b:captured', N)), node)
         rec = document.find('b:record', N)
         if not any(c.get('href') == fact['url'] for c in rec.findall('b:cite', N)):
             sub(rec, 'cite', title='Archive original-file playlist metadata', href=fact['url'],
@@ -268,12 +307,8 @@ def export_playlists(shows, documents, regs):
                                   identifier=identifier, playlists=len(variants),
                                   status='acquired-unreviewed' if variants else 'missing'))
             for pid, fmt, tracks in variants:
-                notes = [n.text or '' for n in rec.findall('b:note', N)]
-                if rec.findtext('b:lineage', namespaces=N):
-                    notes.insert(0, 'Lineage: ' + rec.findtext('b:lineage', namespaces=N))
-                notes.extend(f'{c.get("role")}: {c.text}' for c in rec.findall('b:credit', N))
                 emit('recording', pid, f'Grateful Dead — {show.get("date")} — {identifier}',
-                     [track_data(t, show.get('id')) for t in tracks], citations, notes,
+                     [track_data(t, show.get('id')) for t in tracks], citations, recording_notes(rec),
                      date=show.get('date'), venue=venue_names[venue.get('ref')], identifier=identifier,
                      format=fmt, show=show.get('id'), recording=rec.get('id'),
                      review_status=document.find('b:record', N).get('status'))

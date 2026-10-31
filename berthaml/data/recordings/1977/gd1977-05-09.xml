@@ -5,52 +5,57 @@
   </record>
   <recording id="r-baa71ee3d514a0c910dd" kind="soundboard">
     <identifier scheme="archive-org">gd1977-05-09.123480.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123480</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel (DBX-1 Encoded) -&gt; Sony PCM501ES (44.055k) | Sony PCM501ES (Analog Out) -&gt; DBX-1 Decoder&gt; Sony PCM501ES (Analog In) -&gt;Dat (48k/Analog In) -&gt; Sound Forge -&gt; SHNMastering Info:SHN -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-9c83bbd33048c7ca2267" kind="matrix">
     <identifier scheme="archive-org">gd1977-05-09.135189.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135189</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Dave Usborne" role="unspecified"/>
     <lineage>2 Source Matrix by Dusborne;Soundboard(shnid:123480)SBD -&gt; Master Reel (DBX-1 Encoded) -&gt; Sony PCM501ES (44.055k),Transfer Info:Sony PCM501ES (Analog Out) -&gt; DBX-1 Decoder&gt; Sony PCM501ES (Analog In) -&gt;Dat (48k/Analog In) -&gt; Sound Forge -&gt; SHN,Mastering Info:SHN -&gt; FLAC -&gt; Samplitude Professional v11.2.1 -&gt; FLAC,Original Mastering By Charlie ConnorRemastered By Charlie Miller;Audience (shnid:008036)Recorded by Steve Maizner Sony ECM-33Ps &gt; Nak 550 | MAC&gt;R&gt;D&gt;CD source cdr mastering by Jack Warner</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
   </recording>
   <recording id="r-77ce0f3c3f95b260ccfc" kind="matrix">
     <identifier scheme="archive-org">gd1977-05-09.mtx.seamons.98168.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">98168</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Hunter Seamons" role="unspecified"/>
     <lineage>Matrix by Hunter Seamons</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
   </recording>
   <recording id="r-246be0d600d1c354a717" kind="soundboard">
     <identifier scheme="archive-org">gd1977-05-09.sbd.painoman.77462.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">77462</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09" references="archive-index"/>
+    <credit role="transfer-mastering">Chris Paino</credit>
     <lineage>SBD&gt;REEL&gt;PCM&gt;DAT&gt;CDR | CDR&gt;EAC&gt;SHN&gt;Sound Forge&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Paino</note>
   </recording>
-  <recording id="r-6ad156b8e54432de634e" kind="unknown">
+  <recording id="r-6ad156b8e54432de634e" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1977-05-09.sbd.trick-jason.268.shnf</identifier>
-    <lineage>Unknown</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial on 1977-05-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <identifier scheme="shnid" certainty="probable">268</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at War Memorial on 1977-05-09" references="archive-index archive-url-snapshot"/>
   </recording>
   <recording id="r-50c05621182a156c3bbb" kind="audience">
     <identifier scheme="archive-org">gd77-05-09.aud.maizner.vernon.8036.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8036</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Maizner</credit>
     <lineage>Audience Recording: Sony ECM-33Ps | Sony ECM-33Ps &gt; Nak 550&gt; MAC&gt; R&gt; D&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-8d9b8f56e04f59b6ebb7" kind="soundboard">
     <identifier scheme="archive-org">gd77-05-09.sbd.connor.8304.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8304</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09" references="archive-index"/>
+    <personMatch name="Betty Cantor-Jackson" role="unspecified"/>
     <lineage>Soundboard with patches from Audience | Betty Cantor 7in two track reel w/DBX-1 @ 7 1/2 ips&gt; PCM501ES @ 44.055 kHz PCM501ES analog out&gt; DBX-1 decoder&gt; analog in PCM501ES analog out&gt; Dat @ 48 kHz&gt; Soundforge&gt; Shn; patch from Master Audience Cassette&gt; Sony ecm-33pmics&gt; nak550&gt; reel to reel&gt; cd</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Buffalo Memorial Auditorium on 1977-05-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role unspecified.</note>
   </recording>
-  <recording id="r-6b451e219d3ba2d63ea2" kind="unknown">
-    <identifier scheme="other">etree-585028</identifier>
-    <note>Supplied catalogue listing: etree; gd1977-05-09.135189.mtx.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+  <recording id="r-6b451e219d3ba2d63ea2" kind="unknown" inferredKind="matrix">
+    <identifier scheme="etree-torrent">585028</identifier>
+    <identifier scheme="shnid" certainty="probable">135189</identifier>
+    <listing provider="etree" title="gd1977-05-09.135189.mtx.dusborne.flac16" references="etree-snapshot"/>
+    <personMatch name="Dave Usborne" role="unspecified"/>
   </recording>
 </recordings>

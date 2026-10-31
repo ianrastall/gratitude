@@ -6,6 +6,10 @@
   </record>
   <recording id="r-b8b87e9dee03034a2901" kind="soundboard">
     <identifier scheme="archive-org">gd1972-01-02.161838.sbd.anon.gems.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">161838</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1972-01-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Mastered by Jim Blackwood Speed/pitch adjusted by Jason Chastain Minor repairs, track, FLAC, and pack by Steve Gravel</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>SBD &gt; Master Reel &gt; DAT</lineage>
     <playlist id="pl-ca78bc5cf343530504df" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1972-01-02.161838.sbd.anon.gems.flac16">
       <track n="1" title="intro" file="01 - intro.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT41.32S"/>
@@ -45,15 +49,13 @@
       <track n="35" title="One More Saturday Night" file="35 - One More Saturday Night.flac" mappingStatus="candidate" sourceNumber="35" duration="PT298.15S" covers="p03-01" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-01-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mastered by Jim Blackwood Speed/pitch adjusted by Jason Chastain Minor repairs, track, FLAC, and pack by Steve Gravel</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    <note>Archive source metadata (source): SBD &gt; Master Reel &gt; DAT</note>
-    <note>Archive source metadata (transferer): Mastered by Jim Blackwood Speed/pitch adjusted by Jason Chastain Minor repairs, track, FLAC, and pack by Steve Gravel</note>
+    <captured field="source">SBD &gt; Master Reel &gt; DAT</captured>
+    <captured field="transferer">Mastered by Jim Blackwood Speed/pitch adjusted by Jason Chastain Minor repairs, track, FLAC, and pack by Steve Gravel</captured>
   </recording>
   <recording id="r-978f54599af27d6716a7" kind="soundboard">
     <identifier scheme="archive-org">gd72-01-02.sbd.eD.8709.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8709</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1972-01-02" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt; Reel Master&gt; Reel&gt; CD&gt; Sonic Solutions Workstation&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-01-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

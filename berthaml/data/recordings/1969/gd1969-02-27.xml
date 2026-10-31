@@ -3,78 +3,84 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-2d117c0068141a962952" kind="unknown">
+  <recording id="r-2d117c0068141a962952" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1969-02-27.132573.sbd.16track.healy-latvala-wise.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132573</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dan Healy</credit>
+    <credit role="transfer-mastering">Dick Latvala and Jim Wise</credit>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Dick Latvala" role="transfer-mastering"/>
+    <personMatch name="Rob Bertrando" role="unspecified"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>Ampex MM-1000 16 Track Master Two Inch Wide Tape; Multi Track Mix-down To DAT By Dan Healy @ 44.1KHz) circa 1995?; DAT x ONE by Dick Latvala- DAT x TWO via either Dick or Rob Bertrando; Editing (Adobe Audition CC)-FLAC encoding(dBpoweramp)-Tagging(Tag &amp; Re-name); Jim Wise; This is a 100% Flat transfer from the DAT no signal processing what-so-ever</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Dick Latvala and Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Bertrando; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
   <recording id="r-66df9d744b6d0baba8dc" kind="audience">
     <identifier scheme="archive-org">gd1969-02-27.153331.aud.martin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">153331</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Steve Martin and Kevin Tobin</credit>
+    <personMatch name="Dick Latvala" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Aud Master &gt; ??? &gt; Latvala's Reel @3 3/4 ips Mastered to CDR by Steve Martin: "I transfered Dicks reel on a revox A77 onto a Sony F2 PCM unit. My Beta Pcm I transfered to CD-R directly Using Cardas cables" | Conversion: CDR &gt; EAC (secure) &gt; Adobe Audition &gt; CDWav(tracking) &gt; TTD &gt; FLAC by Kevin Tobin 9/12/21</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Steve Martin and Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-8ef052d78dc43c1395c7" kind="audience">
     <identifier scheme="archive-org">gd1969-02-27.153339.PandP-aud.martin.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">153339</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Martin</credit>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Patched and pitch corrected audience (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-f6e5ab7dc849e29c5d02" kind="matrix">
     <identifier scheme="archive-org">gd1969-02-27.153340.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">153340</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Martin</credit>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f1d531d266ca747b042a" kind="unknown">
+  <recording id="r-f1d531d266ca747b042a" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1969-02-27.153341.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">153341</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-a10e0596f0534a406345" kind="unknown">
     <identifier scheme="archive-org">gd1969-02-27.153342.5-1.tobin.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">153342</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (44k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (44k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (44k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-d20c8e9fb973737d801d" kind="soundboard">
     <identifier scheme="archive-org">gd1969-02-27.sbd.orp.58.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">58</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Orp</credit>
     <lineage>SBD reels &gt; PCM &gt; DAT &gt; CD-R</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Orp</note>
   </recording>
-  <recording id="r-e2f49ae73d1deb976101" kind="unknown">
+  <recording id="r-e2f49ae73d1deb976101" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1969-02-27.sbd.serafin.16248.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16248</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jay Serafin</credit>
     <lineage>RTR @ 15 I.P.S. &gt; MCS MASTER D &gt; SSSB</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Jay Serafin</note>
   </recording>
   <recording id="r-883814b2897ae53dd23f" kind="soundboard">
     <identifier scheme="archive-org">gd69-02-27.sbd.16track.kaplan.6315.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6315</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1969-02-27" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD 16-Track Master Reel &gt; Rough Mix DAT &gt; DATx3 &gt; Digital Sound Card &gt; WAV &gt; SHN &gt; WAV &gt; Cool Edit &gt; CDWAV &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1969-02-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-935a7fc9d06336d1d519" kind="unknown">
-    <identifier scheme="other">etree-550443</identifier>
-    <note>Supplied catalogue listing: etree; gd69-02-27.16248.sbd.serafin.sbefail.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  <recording id="r-935a7fc9d06336d1d519" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">550443</identifier>
+    <identifier scheme="shnid" certainty="probable">16248</identifier>
+    <listing provider="etree" title="gd69-02-27.16248.sbd.serafin.sbefail.t-flac16" references="etree-snapshot"/>
   </recording>
 </recordings>

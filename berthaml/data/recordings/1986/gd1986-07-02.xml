@@ -3,136 +3,143 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-a36b3cbbcd012ca1ac04" kind="audience">
+  <recording id="r-a36b3cbbcd012ca1ac04" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-07-02.135055.chasingwilma.flac24</identifier>
-    <credit role="recordist">unknown</credit>
+    <identifier scheme="shnid" certainty="probable">135055</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">chasingwilma</credit>
     <lineage>lineage: sennheiser 421 fob&gt; tcd-d5&gt; mc &gt; c sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): chasingwilma</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/</note>
+    <reference href="http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/"/>
   </recording>
   <recording id="r-502e83e532043a1a0baf" kind="soundboard">
     <identifier scheme="archive-org">gd1986-07-02.139271.sbd.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">139271</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (Tascam Deck/TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/</note>
+    <reference href="http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/"/>
   </recording>
   <recording id="r-9f510f8f7d331641c225" kind="soundboard">
     <identifier scheme="archive-org">gd1986-07-02.139284.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">139284</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Recording Info: SBD &gt; Cassette Master (Tascam Deck/TDK SA-X90) | Transfer Info: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-943ce4ef2ee491207829" kind="audience">
+  <recording id="r-943ce4ef2ee491207829" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-07-02.139414.FOB.SennME80.Hessberg.Miller.Noel.t-flac.24</identifier>
+    <identifier scheme="shnid" certainty="uncertain">139414</identifier>
+    <identifier scheme="shnid" certainty="uncertain">24</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg FOB Recording: Sennheiser ME80 &gt; Cassette Master (Sony TC-D5M) | Charlie Miller DSD Transfer: Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96 Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-3d9b5055760d0d969928" kind="audience">
+  <recording id="r-3d9b5055760d0d969928" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-07-02.139580.set1.FOB.Schoeps.Oade.Gastwirt.Miller.Noel.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">139580</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Oade Brothers - From The Rich Gastwirt Collection</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>flac16/48kHz ; Oade Brothers Recording: Schoeps &gt; spaced omnis &gt; PCM &gt; DAT (FOB); Charlie Miller | DAT (Sony PCM-R500) &gt; Sound Devices 744T &gt; wav 16/44; Edited &amp; Mastered in Audacity by Joe Noel &gt; flac 16/44; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
-  <recording id="r-11ba80c5a71fd40a6bdf" kind="audience">
+  <recording id="r-11ba80c5a71fd40a6bdf" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-07-02.141053.FOB.SennME80.Hessberg.Miller.Noel.t-flac.1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141053</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg FOB Recording: Sennheiser ME80 &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ac403a4fbbe09c020b69" kind="unknown">
     <identifier scheme="archive-org">gd1986-07-02.157074.akg-c422.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">157074</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Davis, Kenny Davis, Tom Pinney, Eddie Wahba</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>1st GEN AUDCA Microphones: AKG c422|AKG B18 X-Y handheld Recorder: Sony TC-D5M| Maxell MX-90's Location: 45' from stage DFC | 1st transfer: Sony TC-D5M to Sony TC-D5M (Maxell XLII 90 x2) no nr Digital Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2k &gt; Marantz PMD-661</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-643c43984f5170d7193f" kind="unknown">
     <identifier scheme="archive-org">gd1986-07-02.157075.akg-c422.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">157075</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Davis, Kenny Davis, Tom Pinney, Eddie Wahba</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>1st GEN AUDCA Microphones: AKG c422|AKG B18 X-Y handheld Recorder: Sony TC-D5M| Maxell MX-90's Location: 45' from stage DFC | 1st transfer: Sony TC-D5M to Sony TC-D5M (Maxell XLII 90 x2) no nr Digital Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2k &gt; Marantz PMD-661</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-43832cd24cd2a8945e1f" kind="unknown">
     <identifier scheme="archive-org">gd1986-07-02.157076.beyer-m88.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">157076</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index"/>
     <credit role="recordist">Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>1st GEN AUDCA Microphones: Beyer M88's X-Y handheld Recorder: Sony TC-D5M| Maxell MX-90's Location: 45' from stage DFC | 1st transfer: Sony TC-D5M to Sony TC-D5M (Maxell XLII 90 x2) no nr Digital Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2k &gt; Marantz PMD-661</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-dbce2932ab8177e3ea29" kind="unknown">
     <identifier scheme="archive-org">gd1986-07-02.157077.beyer-m88.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">157077</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>1st GEN AUDCA Microphones: Beyer M88's X-Y handheld Recorder: Sony TC-D5M| Maxell MX-90's Location: 45' from stage DFC | 1st transfer: Sony TC-D5M to Sony TC-D5M (Maxell XLII 90 x2) no nr Digital Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2k &gt; Marantz PMD-661</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
-  <recording id="r-1d76b33469ffeab7fcc7" kind="audience">
+  <recording id="r-1d76b33469ffeab7fcc7" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-07-02.fob.thompson.motb.82519.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82519</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl - University of Akron on 1986-07-02" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">D. Thompson</credit>
+    <credit role="transfer-mastering">A. Egert and M. Hughey</credit>
     <lineage>AKG C460b preís with Ck61uls capsules &gt; Uher CR260AV &gt; MAC | MAC &gt; Nak DR-1 &gt; Apogee 200 Rosetta &gt; Firewire &gt; Apple G5 &gt; Bias Peak &gt; WAV &gt; (Adobe Audition 1.5, low-shelf filter -3 dB/octave below 150 hz, Waves L2 high-res CD Master (thresh. 2.0), 16-bit version was rendered using MBIT+) &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl - University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): A. Egert and M. Hughey</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/</note>
+    <reference href="http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/"/>
   </recording>
-  <recording id="r-ff30f7f9d199bfd06c14" kind="unknown">
+  <recording id="r-ff30f7f9d199bfd06c14" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-07-02.fob.thompson.motb.82520.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">82520</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl - University of Akron on 1986-07-02" references="archive-index"/>
     <credit role="recordist">D. Thompson</credit>
+    <credit role="transfer-mastering">A. Egert and M. Hughey</credit>
     <lineage>AKG C460b pre�s with Ck61uls capsules &gt; Uher CR260AV &gt; MAC | Nak DR-1 &gt; Apogee 200 Rosetta &gt; Firewire &gt; Apple G5 &gt; Bias Peak &gt; WAV</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl - University of Akron on 1986-07-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): A. Egert and M. Hughey</note>
   </recording>
   <recording id="r-17e38d879fee09af9eee" kind="unknown">
     <identifier scheme="archive-org">gd1986-07-02.me80.hessberg.miller.124587.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">124587</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Sennheiser ME80 -&gt; Cassette Master (Sony TC-DD5M/Maxell XLII-S90) | Cassette Master (Sony TC-K677ES) -&gt; Sound Devices 744T (24bit/48k) -&gt;Adobe Audition v3.0 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-54a96b6930bcf4fc1846" kind="audience">
+  <recording id="r-54a96b6930bcf4fc1846" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-07-02.nak100.cohen.105444.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">105444</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Cohen</credit>
+    <credit role="transfer-mastering">Dave Cohen</credit>
     <lineage>2 Nakamichi CM100s/ CP1&gt;Sony WMD6 Maxell XLII cassette masters. No Dolby was used on the Master Cassettes. FOB Phil's side about 35 yards from stage chest high mic stand | The Master Cassettes were played back with Azimuth adjustment on a Nakamichi CD1 into a Korg MR1000 at DSF 1 bit 5.6MHz. Subsequent conversion to 24/96 AIFF done via Korg Audiogate software. Redbook CDR standard 16/44.1 files were created using Bias Peak, Izotope Ozone's MBIT+ (for all dithering), and Weiss Saracon SRC (all sample rate conversions).</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Dave Cohen</note>
   </recording>
   <recording id="r-8c65764b2bd3c9f2b4e9" kind="audience">
     <identifier scheme="archive-org">gd86-07-02.aud.eD.12934.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12934</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index infinite-dead"/>
     <lineage>AUD&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/</note>
+    <reference href="http://infinitedead.net/2024/07/02/7-2-86-akron-oh-university-of-akron-the-rubber-bowl/"/>
   </recording>
-  <recording id="r-1e0e1b4e4b67394a6a95" kind="audience">
+  <recording id="r-1e0e1b4e4b67394a6a95" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd86-07-02.beyer160.walstib.22381.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">22381</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02" references="archive-index"/>
     <lineage>2 Beyer M160 FOB&gt; Sony TCD5M Master Cassette&gt;shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rubber Bowl, University of Akron on 1986-07-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
   </recording>
-  <recording id="r-1073188db0f6eae0699c" kind="unknown">
-    <identifier scheme="other">etree-595105</identifier>
-    <note>Supplied catalogue listing: etree; gd1986-07-02.139271.sbd.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-1073188db0f6eae0699c" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">595105</identifier>
+    <identifier scheme="shnid" certainty="probable">139271</identifier>
+    <listing provider="etree" title="gd1986-07-02.139271.sbd.miller.flac24" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

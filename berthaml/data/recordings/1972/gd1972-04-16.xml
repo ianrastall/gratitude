@@ -5,26 +5,28 @@
   </record>
   <recording id="r-19fbec98e56070d5b230" kind="soundboard">
     <identifier scheme="archive-org">gd1972-04-16.pset2-sbd.vernon.9196.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9196</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Aarhus University on 1972-04-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matt Vernon</credit>
     <lineage>SBD&gt;MR&gt;??&gt;CDR | CDR &gt; EAC(secure) &gt; Cool Edit(see notes) &gt; mkwact(seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Aarhus University on 1972-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Vernon</note>
   </recording>
   <recording id="r-222272c133515144578a" kind="soundboard">
     <identifier scheme="archive-org">gd1972-04-16.sbd.schnell-sweeney-cotsman.10528.shnf</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">10528</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Aarhus University on 1972-04-16" references="archive-index"/>
+    <credit role="transfer-mastering">J. Cotsman</credit>
     <lineage>SBD &gt; Master Reel | Source 1: MR&gt;?&gt;C&gt;Sound Forge&gt;SHN, Source 2: MR&gt;D&gt;CD&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Aarhus University on 1972-04-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): J. Cotsman</note>
   </recording>
   <recording id="r-851839e6300e2465f8f4" kind="soundboard">
     <identifier scheme="archive-org">gd72-04-16.sbd.miller.18103.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18103</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stakladen, Aarhus University on 1972-04-16" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>SBD&gt;MR&gt;?&gt;C&gt;Sound Forge&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stakladen, Aarhus University on 1972-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
-  <recording id="r-d97f17c1ecf38985ca63" kind="unknown">
+  <recording id="r-d97f17c1ecf38985ca63" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd72-04-16.sbd.pset1.hanno.19861.sbeok.shnf</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stakladen, Aarhus University on 1972-04-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <identifier scheme="shnid" certainty="probable">19861</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stakladen, Aarhus University on 1972-04-16" references="archive-index archive-url-snapshot"/>
   </recording>
 </recordings>

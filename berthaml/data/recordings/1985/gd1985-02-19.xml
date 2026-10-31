@@ -5,40 +5,44 @@
   </record>
   <recording id="r-4be6ca11e5c21763939a" kind="unknown">
     <identifier scheme="archive-org">gd1985-02-19.112126.BeyerM160.daweez.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">112126</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19" references="archive-index"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Source: 2 Beyer M160 microphones (up front-center) &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-3a77369a38896d1e6abf" kind="soundboard">
     <identifier scheme="archive-org">gd1985-02-19.176146.sbd1.donaldson.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">176146</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19" references="archive-index"/>
     <credit role="recordist">Dougal Donaldson</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller January 29, 2026</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; VHS Master (Sony Handycam) &gt; Cassette (Sony TC-D5M/Maxell XLII-S90) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition 2025 &gt; iZotope RX11 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller January 29, 2026</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f45a0587689972a83b31" kind="unknown">
     <identifier scheme="archive-org">gd1985-02-19.akgC422.walker-scotton.miller.106685.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106685</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19" references="archive-index"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>AKG C422 (M/S) -&gt; Cassette Master (Sony D5) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
-  <recording id="r-463877dde7b93d1f8311" kind="audience">
+  <recording id="r-463877dde7b93d1f8311" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-02-19.fob.mccue.82946.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82946</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19" references="archive-index"/>
     <credit role="recordist">Mark McCue</credit>
+    <credit role="transfer-mastering">Alex Ford</credit>
     <lineage>MAC; (FOB) Sennheiser 421s &gt; Sony D5 &gt; Maxell MX 90s | MAC &gt; Nakamich Cassette Deck 2 (azimuth adjusted) &gt; Kind Kables RCA/XLR &gt; Lunatec V3(@2496) &gt; coax &gt; Audiophile 2496 &gt; WaveLab 5.0 &gt; 24 bit WAV &gt; Waves L3 UltraMaximizer &gt; 16 bit WAV &gt; CD Wave Editor &gt; TLH &gt; FLAC16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Alex Ford</note>
   </recording>
   <recording id="r-9e016927c6107da298c6" kind="soundboard">
     <identifier scheme="archive-org">gd85-02-19.sbd.barbella.9879.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9879</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt;MC&gt;C&gt;DAT&gt;C&gt;C&gt;ZA2&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1985-02-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

@@ -5,94 +5,101 @@
   </record>
   <recording id="r-2369622a6d32a4a0d856" kind="audience">
     <identifier scheme="archive-org">gd1970-11-08.125659.bergercomposite.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">125659</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Marty Weinberg</credit>
+    <credit role="transfer-mastering">Rob Berger and Morgan Evans</credit>
+    <personMatch name="Jerry Moore" role="unspecified"/>
+    <personMatch name="Marty Weinberg" role="recordist"/>
+    <personMatch name="Ken and Judy Lee" role="unspecified"/>
     <lineage>source: aud reel master taped by Marty Weinberg; akg d190e &gt; uher 4000L; transferred by Michael Parish; the following were used as patch sources: Jerry Moore's 1st gen reel of Marty's mar and Ken Lee's aud cassette master; assembled by Rob Berger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger and Morgan Evans</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Ken and Judy Lee; role unspecified.</note>
   </recording>
   <recording id="r-036c5413a73b19154ef9" kind="unknown">
     <identifier scheme="archive-org">gd1970-11-08.154243.partial.weinberg.martin.smith.sirmick.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">154243</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index"/>
     <credit role="recordist">Marty Weinberg</credit>
+    <credit role="transfer-mastering">Steve Martin,Matt SMith, Sirmick</credit>
+    <personMatch name="Marty Weinberg" role="recordist"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>AKG 190E mic &gt; Uher 4000 Report-L &gt; Master Reels - recorded by Marty Weinberg and from the collection of Steve Martin | Transfer Master Reels &gt; Akai GX625 &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; wav 24/96 - transferred by Matt Smith Lineage: Wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX 9 Advanced &gt; iZotope Neutron 2 Advanced &gt; CD Wave &gt; flac24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Steve Martin,Matt SMith, Sirmick</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-75b71d482fa20ab98cb1" kind="unknown">
     <identifier scheme="archive-org">gd1970-11-08.176470.sony.tc110.toner.vadnais.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">176470</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index"/>
     <credit role="recordist">Jack Toner</credit>
+    <credit role="transfer-mastering">Transferred By Clinton Vadnais (2002) Speed Corrected And Remastered By Clinton Vadnais (jan 2026) From The Collection Of An In Memory Of Don Schneier</credit>
     <lineage>Assumed To Be Recorded By Jack Toner With Sony Tc-110 Cassette Deck With Built In Microphone. | 1st Gen Reel &gt; Teac A-2300sx &gt; Rca Out &gt; Audiophile 2496 &gt; Wavelab Lineage: Wavelab&gt; Cd Wave &gt; Mkwact &gt; Wav &gt; Cd</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transferred By Clinton Vadnais (2002) Speed Corrected And Remastered By Clinton Vadnais (jan 2026) From The Collection Of An In Memory Of Don Schneier</note>
   </recording>
-  <recording id="r-2690e96a56cd861f5280" kind="unknown">
+  <recording id="r-2690e96a56cd861f5280" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1970-11-08.aud-weinberg.cousinit.18639.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18639</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">CousinIt</credit>
+    <personMatch name="Marty Weinberg" role="unspecified"/>
     <lineage>MAR source seems to be from Marty Weinberg's master, recorded from the floor, AKG 190E mic &gt; Uher 4000 Report-L 5" reel machine. | C&gt;SHN Conversion by Cousinit</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): CousinIt</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role unspecified.</note>
   </recording>
   <recording id="r-51e63ace5097b1d36139" kind="audience">
     <identifier scheme="archive-org">gd1970-11-08.aud.garrett-evans.3339.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3339</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Miles Garrett and Morgan Evans</credit>
     <lineage>Audience</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Miles Garrett and Morgan Evans</note>
   </recording>
-  <recording id="r-a09b2d450394aa3f8c12" kind="unknown">
+  <recording id="r-a09b2d450394aa3f8c12" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1970-11-08.aud.lee.pcrp.26975.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">26975</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index"/>
     <credit role="recordist">Ken and Judy Lee</credit>
-    <lineage>See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): PCRP</note>
-    <note certainty="uncertain">Legacy name match: Ken and Judy Lee; role recording.</note>
+    <credit role="transfer-mastering">PCRP</credit>
+    <personMatch name="Ken and Judy Lee" role="recordist"/>
   </recording>
   <recording id="r-daad23b2e2ff83fbced5" kind="audience">
     <identifier scheme="archive-org">gd1970-11-08.aud.weinberg.moore-berger.119787.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">119787</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jerry Moore and Marty Weinberg</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
+    <personMatch name="Jerry Moore" role="recordist"/>
+    <personMatch name="Marty Weinberg" role="recordist"/>
     <lineage>aud 1st gen reel, Jery Moore's reel copy of Marty Weinberg's reel; | mar &gt; 7" reel @ 3.75 ips, dolby b; master: akg d190e &gt; uher 4000L 5" open reel deck taped by Marty Weinberg technics rs-1506 &gt; teac an-180/b &gt; tascam hd-p2 24/96 &gt; pc &gt; cd wave &gt; adobe audition 2.0 &gt; flac; transferred &amp; seeded by Rob Berger april 2012</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
   </recording>
   <recording id="r-ebeed79d346c94837c4b" kind="audience">
     <identifier scheme="archive-org">gd1970-11-08.aud.weiner.28609.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">28609</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ken &amp; Judy Lee</credit>
+    <credit role="transfer-mastering">Noah Weiner</credit>
+    <personMatch name="Ken and Judy Lee" role="recordist"/>
     <lineage>Audience - Ken &amp; Judy Lee | Dynamic Mics &gt; Sony TC124 (AudMC) &gt; Tascam 122 MK-III &gt; Lucid ADA1000 &gt; Tascam DA30-II (DAT) &gt; Tascam CDRW 700 &gt; CDR &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Noah Weiner</note>
-    <note certainty="uncertain">Legacy name match: Ken and Judy Lee; role recording.</note>
   </recording>
-  <recording id="r-920f72423cf8e071d0fe" kind="unknown">
+  <recording id="r-920f72423cf8e071d0fe" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1970-11-08.partial.aud.unknown.fix-28609.94500.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94500</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ken and Judy Lee</credit>
+    <personMatch name="Ken and Judy Lee" role="recordist"/>
     <lineage>Unknown Mic &gt; Sony TC124 (4 Ampex C361-90). Recorded with unknown dynamic mics, spread approx. 25-30 ft. | Master Cassette &gt; DAT &gt; CD &gt; EAC &gt; SHN &gt; Remastering &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note certainty="uncertain">Legacy name match: Ken and Judy Lee; role recording.</note>
   </recording>
   <recording id="r-8be3236f2bb49dcc0f4c" kind="audience">
     <identifier scheme="archive-org">gd70-11-08.aud.owens.23474.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">23474</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ken Lee and Marty Weinberg</credit>
+    <credit role="transfer-mastering">The Wizard</credit>
+    <personMatch name="Marty Weinberg" role="recordist"/>
+    <personMatch name="Ken and Judy Lee" role="recordist"/>
     <lineage>Audience</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): The Wizard</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Ken and Judy Lee; role recording.</note>
   </recording>
   <recording id="r-dd6fc58bb628147b4d2c" kind="audience">
     <identifier scheme="archive-org">gd70-11-08.aud.warner.17184.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17184</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Marty Weinberg and Ken Lee</credit>
-    <lineage>Audience - Marty Weinberg and Ken Lee | See Notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jack Warner</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Ken and Judy Lee; role recording.</note>
+    <credit role="transfer-mastering">Jack Warner</credit>
+    <personMatch name="Marty Weinberg" role="recordist"/>
+    <personMatch name="Ken and Judy Lee" role="recordist"/>
+    <lineage>Audience - Marty Weinberg and Ken Lee</lineage>
   </recording>
 </recordings>

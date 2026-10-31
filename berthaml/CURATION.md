@@ -19,12 +19,13 @@ Completion requires every event identity and edition in the agreed inventory to 
 - `data/shows/` and `data/people.xml`, `songs.xml`, `venues.xml` and `releases.xml` are the source of truth. Edit them directly and rebuild; git is the review log. The build reads them and never writes them, and sources never change them.
 - `data/recordings/`, `playlists/` and `reports/` are generated. A hand edit to one of these is detected and refused at the next rebuild. To undo an accidental edit, restore the file with git.
 - `curated/recordings/YYYY/<show-id>.xml` holds hand-entered recordings in the normal `<recordings>` form. They come first in the generated file; acquired recordings with other identifiers follow, and a curated playlist with the same ID replaces the acquired one.
-- `curated/identities.json` assigns IDs to source events that no show file cites yet. Existing unambiguous show IDs were retained through `sources/legacy-identity-map.json`; a source suffix is never interpreted as early/late without evidence.
+- `curated/identities.json` assigns IDs to source events that no show file cites yet; a source suffix is never interpreted as early/late without evidence.
+- `curated/id-ledger.json` lists every issued ID and retirement, maintained by `tools/issue_ids.py`. See [IDs are permanent](README.md#ids-are-permanent).
 - `reports/review-queue.jsonl` contains stable issue IDs, evidence hashes, states and subjects. `reports/coverage.json` is the machine-readable progress summary. `reports/source-drift.jsonl` lists where a pinned source differs from a show file.
 
 Each show file's `<cite>` of its Jerrybase event is how the build pairs the file with its source, so keep it when editing. Recordings attach by date: correcting a show's date, or giving a date a second show, reassigns them at the next rebuild. Automated track links are recalculated at every rebuild; if you renumber performances, the validator reports any link in `releases.xml` or `curated/recordings/` that no longer resolves.
 
-To review a show, check it, cite what you checked, and set its `<record status>` to `reviewed` or `verified`. That closes its `show-review` issue with no further bookkeeping. The schema defines `reviewed` as checked by a person and `verified` as checked against multiple independent sources; imports retain `draft` or `skeleton`.
+To review a show, check it, cite what you checked, and set its `<record status>` to `reviewed` or `verified`. That closes its `show-review` issue with no further bookkeeping. The schema defines `reviewed` as checked by a person and `verified` as checked against multiple independent sources; imports retain `draft` or `skeleton`. `reports/corroboration.jsonl` is the machine's view and is a good place to choose what to review next, but no level it reports counts as review, and tools never set a review status.
 
 For any other resolved issue, add an entry to `curated/resolutions.json` containing its `id`, current `evidence_sha256`, `state` (`resolved`, `accepted-unknown` or `excluded`), `reason`, `reviewed` date and `citations`. Stale evidence hashes fail the build.
 
@@ -34,7 +35,7 @@ A circulating `<recording>` is keyed to its actual provider identifier. Its `<pl
 
 An official `<edition id="...">` can contain its own `<track>` list, preserving different CD/LP/digital boundaries. A release-level track list is a reference list whose edition is unassigned; it is not automatically applied to every edition. This prevents digital timing observations from becoming asserted CD timings. The first researched example is the 24-track 1997 three-CD edition of Dick's Picks 8; its source did not supply durations, so those timings remain blank.
 
-`covers` links a track to one or more canonical performances/events. It may be absent while research is pending. Automated exact-title matches are marked `mappingStatus="candidate"` and `certainty="probable"`; repeated ambiguous songs stay unmapped. A researched but unrecoverable mapping may be marked `unknown`, with cited reasoning in the curation record. A studio or otherwise inapplicable show mapping may be explicitly marked `not-applicable`. A tape cut does not become an on-stage stop.
+`covers` links a track to one or more canonical performances/events. It may be absent while research is pending. Automated title matches, through `<altTitle>` and the rules in the README, are marked `mappingStatus="candidate"` and `certainty="probable"`; repeated ambiguous songs stay unmapped. A researched but unrecoverable mapping may be marked `unknown`, with cited reasoning in the curation record. A studio or otherwise inapplicable show mapping may be explicitly marked `not-applicable`. A tape cut does not become an on-stage stop.
 
 `playlists/recording/` and `playlists/official/` contain generated JSON and human-readable TXT companion files. The TXT includes playlist identity, numbered tracks, source-specific timings, mapping status, available lineage/credits and citations. M3U8 is emitted only when all real relative filenames are known. Copy it beside its matching audio files to play it. An official track list with no filenames produces no invented playable paths. Original TXT bytes and source audio remain untouched.
 
@@ -43,7 +44,7 @@ An official `<edition id="...">` can contain its own `<track>` list, preserving 
 1. Reconcile the early ambiguous identities and 186 events whose setlists are currently absent. Compare source disagreements before promoting facts.
 2. Resume original-file playlist metadata acquisition in bounded batches. Review uncertain ordering, damaged/mislabeled source dates, unmatched tracks and medley boundaries.
 3. Work the official release candidates into specific edition records and track lists, including bonus discs, compilations, edits and box sets. Establish a reviewed inventory before claiming full release coverage.
-4. Research personnel/guests, per-performance instruments/vocals, song identity/authorship and physical venue identities. Membership periods supply warnings, not automatic stage lineups.
+4. Research personnel/guests, per-performance instruments/vocals, song identity/authorship and physical venue identities. Membership periods supply warnings and clearly labelled roster defaults, not asserted stage lineups.
 5. Resolve remaining unknowns with evidence, review the registries and individual records, and run the completion gate before a canonical data release.
 
 No scheduled background acquisition is installed. Fetching, review, rebuilding and publishing are explicit, resumable steps.

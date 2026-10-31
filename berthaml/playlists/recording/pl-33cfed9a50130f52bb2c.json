@@ -19,11 +19,14 @@
       "n": 2,
       "title": "The Promised Land",
       "file": "gd1978-01-06s1t02.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "sourceNumber": 2,
       "duration": "PT274.99S",
+      "certainty": "probable",
       "show": "gd1978-01-06",
-      "covers": []
+      "covers": [
+        "p01-01"
+      ]
     },
     {
       "n": 3,
@@ -117,11 +120,14 @@
       "n": 10,
       "title": "New Minglewood Blues",
       "file": "gd1978-01-06s1t10.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "sourceNumber": 10,
       "duration": "PT431.37S",
+      "certainty": "probable",
       "show": "gd1978-01-06",
-      "covers": []
+      "covers": [
+        "p01-08"
+      ]
     },
     {
       "n": 11,
@@ -140,11 +146,14 @@
       "n": 12,
       "title": "Lazy Lightnin' >",
       "file": "gd1978-01-06s1t12.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "sourceNumber": 12,
       "duration": "PT203.01S",
+      "certainty": "probable",
       "show": "gd1978-01-06",
-      "covers": []
+      "covers": [
+        "p01-10"
+      ]
     },
     {
       "n": 13,
@@ -277,13 +286,13 @@
   ],
   "notes": [
     "Lineage: Sbd > Cassette Master > Cassette (1st gen) | Transfer: Cassette (1st gen) > Nakamichi CR7A > PCM > wav 16/44.1 via: Bob Menke Lineage: wav > Adobe Audition 3 > iZotope RX8 Advanced > iZotope Neutron 2 Advanced > Cd Wave > Flac16",
-    "Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.",
-    "Source credit (transfer-mastering): Bob Menke, SIRMick",
-    "Legacy name match: Bob Menke; role transfer-mastering.",
-    "Legacy name match: SIRMick; role transfer-mastering.",
-    "Archive source metadata (lineage): Transfer: Cassette (1st gen) > Nakamichi CR7A > PCM > wav 16/44.1 via: Bob Menke Lineage:  wav > Adobe Audition 3 > iZotope RX8 Advanced > iZotope Neutron 2 Advanced > Cd Wave > Flac16",
-    "Archive source metadata (source): Sbd > Cassette Master  > Cassette (1st gen)",
-    "Archive source metadata (transferer): Bob Menke, SIRMick"
+    "Catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1978-01-06",
+    "transfer-mastering: Bob Menke, SIRMick",
+    "Possible match: Bob Menke (transfer-mastering)",
+    "Possible match: SIRMick (transfer-mastering)",
+    "Archive metadata (lineage): Transfer: Cassette (1st gen) > Nakamichi CR7A > PCM > wav 16/44.1 via: Bob Menke Lineage:  wav > Adobe Audition 3 > iZotope RX8 Advanced > iZotope Neutron 2 Advanced > Cd Wave > Flac16",
+    "Archive metadata (source): Sbd > Cassette Master  > Cassette (1st gen)",
+    "Archive metadata (transferer): Bob Menke, SIRMick"
   ],
   "date": "1978-01-06",
   "venue": "Swing Auditorium",

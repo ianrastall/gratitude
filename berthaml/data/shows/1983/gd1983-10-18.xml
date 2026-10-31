@@ -3,15 +3,15 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19831018-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-768" nameAsBilled="Cumberland County Civic Center"/>
+  <venue ref="v-cumberland-county-civic-center" nameAsBilled="Cumberland County Civic Center"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
       <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
       <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
       <performance id="p01-04" song="s-mexicali-blues" transition="unknown"/>
-      <performance id="p01-05" song="s-dupree-s-diamond-blues" transition="unknown"/>
-      <performance id="p01-06" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-05" song="s-duprees-diamond-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-cc-rider" transition="unknown"/>
       <performance id="p01-07" song="s-althea" transition="unknown"/>
       <performance id="p01-08" song="s-lazy-lightning" transition="segue"/>
       <performance id="p01-09" song="s-supplication" transition="segue"/>
@@ -22,7 +22,7 @@
       <performance id="p02-01" song="s-china-cat-sunflower" transition="segue"/>
       <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
       <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
-      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-04" song="s-hes-gone" transition="segue"/>
       <performance id="p02-05" song="s-drums" transition="segue"/>
       <performance id="p02-06" song="s-space" transition="segue"/>
       <performance id="p02-07" song="s-not-fade-away" transition="segue"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

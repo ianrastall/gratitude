@@ -8,13 +8,13 @@ The working roster is the public GD event list in the pinned Jerrybase capture. 
 | --- | ---: |
 | shows | 2,234 |
 | performances | 39,639 |
-| songs | 411 |
+| songs | 410 |
 | venues | 557 |
 | people | 14 |
 | official releases | 1 |
 | assigned recording references | 18,611 |
 | unassigned recording references | 686 |
-| open issues | 5,067 |
+| open issues | 5,061 |
 
 ## Review status
 
@@ -29,7 +29,7 @@ Schema validity and source agreement do not constitute historical verification. 
 - dangling-segue: 1
 - event-identity: 17
 - official-release-editions: 317
-- playlist-mappings: 28
+- playlist-mappings: 22
 - playlist-order: 1
 - playlist-review: 30
 - recording-date-assignment: 413
@@ -39,7 +39,17 @@ Schema validity and source agreement do not constitute historical verification. 
 - show-review: 2,234
 - venue-disagreement: 29
 
-Machine-readable evidence: coverage.json, review-queue.jsonl, source-crosswalk.jsonl, source-drift.jsonl, recordings-unassigned.jsonl and event-exclusions.jsonl in this directory.
+Machine-readable evidence: coverage.json, review-queue.jsonl, source-crosswalk.jsonl, source-drift.jsonl, corroboration.jsonl, roster-eras.json, recordings-unassigned.jsonl and event-exclusions.jsonl in this directory.
+
+## Corroboration
+
+- disputed: 95
+- no-setlist: 186
+- recording-backed: 23
+- single-source: 9
+- sources-agree: 1,921
+
+These levels are derived at every build and are not review. `sources-agree` means both setlist sources give the show file's song order, and those sources may share upstream research. `recording-backed` adds a track list reaching most of the show.
 
 ## Shows by year
 

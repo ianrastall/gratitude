@@ -5,114 +5,124 @@
   </record>
   <recording id="r-5a5bc40f84f537fd684e" kind="matrix">
     <identifier scheme="archive-org">gd1988-10-14.134022.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">134022</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Matrix 2 Source Mix - SBD (shnid=22289) Recording Info: SBD -&gt; Cassette Master (TDK SA-X90) Transfer Info: Cassette (Sony TC-WE475/Azimuth Adjusted) -&gt; Apogee Mini-Me (16/44.1k) -&gt; USB -&gt; Samplitude v7.02 Professional -&gt; SHN Transferred By Charlie Miller + AUD (shn id 83676) Nak100's (w/ CP-4 shotgun capsules) -&gt; Sony D-6 Tansfer/Mastering: Nak MR-2 -&gt; Behringer DI-800 DI-Box; Mains balanced -&gt; Behringer MDX4600 Pro-XL Composer - &gt; Sidechain Looped; Behringer Ultragraph Pro -&gt; Behringer Ultrafex Pro -&gt; Presonus Tube Pre-Amp -&gt; BBE 882i -&gt; DBX 231 EQ -&gt; FW-410 -&gt; Appogee SPDIF Cable -&gt; M-Audio 1010LT -&gt; wavelab @24/96 Re-Mastered - Wavelab5(minor edits / crossfades and bit rate reduction w/ L3 multimaxer 16bit/44.1khz) -&gt; CDwave -&gt; flacfrontend L8 -&gt; Checksums/shntool via. Traders Little Helper Taper: G. Holtz - matrix mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/14/10-14-88-miami-fl-miami-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/14/10-14-88-miami-fl-miami-arena/"/>
   </recording>
-  <recording id="r-eb4355c9eefab573abd0" kind="soundboard">
+  <recording id="r-eb4355c9eefab573abd0" kind="soundboard" modifiers="DTS">
     <identifier scheme="archive-org">gd1988-10-14.134023.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">134023</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=22289) Recording Info: SBD -&gt; Cassette Master (TDK SA-X90) Transfer Info: Cassette (Sony TC-WE475/Azimuth Adjusted) -&gt; Apogee Mini-Me (16/44.1k) -&gt; USB -&gt; Samplitude v7.02 Professional -&gt; SHN Transferred By Charlie Miller + AUD (shn id 83676) Nak100's (w/ CP-4 shotgun capsules) -&gt; Sony D-6 Tansfer/Mastering: Nak MR-2 -&gt; Behringer DI-800 DI-Box; Mains balanced -&gt; Behringer MDX4600 Pro-XL Composer - &gt; Sidechain Looped; Behringer Ultragraph Pro -&gt; Behringer Ultrafex Pro -&gt; Presonus Tube Pre-Amp -&gt; BBE 882i -&gt; DBX 231 EQ -&gt; FW-410 -&gt; Appogee SPDIF Cable -&gt; M-Audio 1010LT -&gt; wavelab @24/96 Re-Mastered - Wavelab5(minor edits / crossfades and bit rate reduction w/ L3 multimaxer 16bit/44.1khz) -&gt; CDwave -&gt; flacfrontend L8 -&gt; Checksums/shntool via. Traders Little Helper Taper: G. Holtz - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-63cc8c789492eff42445" kind="unknown">
+  <recording id="r-63cc8c789492eff42445" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1988-10-14.134024.upd-aud.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">134024</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>(original shnid = 83676) Nak100's (w/ CP-4 shotgun capsules) -&gt; Sony D-6 Tansfer/Mastering: Nak MR-2 -&gt; Behringer DI-800 DI-Box; Mains balanced -&gt; Behringer MDX4600 Pro-XL Composer - &gt; Sidechain Looped; Behringer Ultragraph Pro -&gt; Behringer Ultrafex Pro -&gt; Presonus Tube Pre-Amp -&gt; BBE 882i -&gt; DBX 231 EQ -&gt; FW-410 -&gt; Appogee SPDIF Cable -&gt; M-Audio 1010LT -&gt; wavelab @24/96 Re-Mastered - Wavelab5(minor edits / crossfades and bit rate reduction w/ L3 multimaxer 16bit/44.1khz) -&gt; CDwave -&gt; flacfrontend L8 -&gt; Checksums/shntool via. Traders Little Helper Taper: G. Holtz - pitch correction and patches by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-186452892d56a1d90894" kind="audience">
     <identifier scheme="archive-org">gd1988-10-14.138829.aud.lamarre.berger.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138829</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>source: aud cassette master; taped by Doug Lamarre; sennheiser 441’s &gt; sony d5; maxell mx90’s, dolby b; taper section, section 101, row t, seat 7; nakamichi dragon/b &gt; benchmark adc1 @ 24/96; transferred - Rob Berger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-5eac3b86d03a11a65c1d" kind="audience">
     <identifier scheme="archive-org">gd1988-10-14.138830.aud.lamarre.berger.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">138830</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>source: aud cassette master; taped by Doug Lamarre; sennheiser 441’s &gt; sony d5; maxell mx90’s, dolby b; taper section, section 101, row t, seat 7; nakamichi dragon/b &gt; benchmark adc1 @ 24/96; transferred - Rob Berger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-61c06b3847ce7790e3bd" kind="audience">
     <identifier scheme="archive-org">gd1988-10-14.141625.schoeps.cmc3.mk41.pcm.mattes.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141625</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Source Info: Ted Mattes' Master Audience PCM (OTS); Scoeps CMC3/MK41 &gt; Oade P/S &gt; Sony PCM-F1 &gt; Sony SL-2000; Tansfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-aa0645b30f30abc40696" kind="matrix">
+  <recording id="r-aa0645b30f30abc40696" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-10-14.141626.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141626</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (Sony WM-D6C/TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-b2e440cc2d6681640bef" kind="matrix">
+  <recording id="r-b2e440cc2d6681640bef" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-10-14.141685.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141685</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (Sony WM-D6C/TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-05604c9ab41dfbba4806" kind="unknown">
     <identifier scheme="archive-org">gd1988-10-14.146317.OTS-NAK300.Hessberg.Miller.Noel.t-flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">146317</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Nakamichi 300 &gt; Cassette Master (Sony TC-D5M/Maxell XLII-S100) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-dcedaff82ebb0147980b" kind="audience">
     <identifier scheme="archive-org">gd1988-10-14.148492.nak300.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">148492</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index infinite-dead"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Cassettes; Nakamichi 300 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/14/10-14-88-miami-fl-miami-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/14/10-14-88-miami-fl-miami-arena/"/>
   </recording>
   <recording id="r-f9d3abbdcde02a5dd3f9" kind="unknown">
     <identifier scheme="archive-org">gd1988-10-14.148493.nak300.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">148493</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Cassettes; Nakamichi 300 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-318d0f192d9814df633c" kind="unknown">
     <identifier scheme="archive-org">gd1988-10-14.nak100.holtz.gems.83676.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83676</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">G. Holtz</credit>
+    <credit role="transfer-mastering">mtownshend</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Nak100's (w/ CP-4 shotgun capsules) -&gt; Sony D-6 | Nak MR-2 -&gt; Behringer DI-800 DI-Box; Mains balanced -&gt; Behringer MDX4600 Pro-XL Composer - &gt; Sidechain Looped; Behringer Ultragraph Pro -&gt; Behringer Ultrafex Pro -&gt; Presonus Tube Pre-Amp -&gt; BBE 882i -&gt; DBX 231 EQ -&gt; FW-410 -&gt; Appogee SPDIF Cable -&gt; M-Audio 1010LT -&gt; wavelab @24/96</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): mtownshend</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-321af32e5f6200787359" kind="soundboard">
     <identifier scheme="archive-org">gd1988-10-14.sbd.miller.22289.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">22289</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (TDK SA-X90) | Cassette (Sony TC-WE475/Azimuth Adjusted) -&gt; Apogee Mini-Me (16/44.1k) -&gt; USB -&gt; Samplitude v7.02 Professional -&gt; SHN (2 Discs Audio / 2 Discs SHN)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3dda324207013140002b" kind="soundboard">
     <identifier scheme="archive-org">gd88-10-14.sbd.fishman.22791.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">22791</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Miami Arena on 1988-10-14" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Soundboard</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Miami Arena on 1988-10-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/14/10-14-88-miami-fl-miami-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/14/10-14-88-miami-fl-miami-arena/"/>
   </recording>
 </recordings>

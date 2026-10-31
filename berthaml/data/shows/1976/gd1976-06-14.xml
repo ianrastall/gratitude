@@ -3,10 +3,10 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19760614-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 31c9dcec539cb21e257106b1251f1d81577dbcd3f5eb1e4c9d978ab6963ef569. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-626" nameAsBilled="Beacon Theatre"/>
+  <venue ref="v-beacon-theatre" nameAsBilled="Beacon Theatre"/>
   <program coverage="partial">
     <set kind="soundcheck" n="1" mode="unknown">
-      <performance id="p01-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p01-01" song="s-us-blues" transition="unknown"/>
       <performance id="p01-02" song="s-not-fade-away" transition="unknown"/>
       <performance id="p01-03" song="s-cold-rain-and-snow" transition="unknown"/>
       <note>Source section label: Partial Soundcheck</note>
@@ -35,12 +35,12 @@
       <performance id="p03-07" song="s-cosmic-charlie" transition="unknown"/>
       <performance id="p03-08" song="s-help-on-the-way" transition="segue"/>
       <performance id="p03-09" song="s-slipknot" transition="segue"/>
-      <performance id="p03-10" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p03-10" song="s-franklins-tower" transition="unknown"/>
       <performance id="p03-11" song="s-around-and-around" transition="unknown"/>
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p04-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

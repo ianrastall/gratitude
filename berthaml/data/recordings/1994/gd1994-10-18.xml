@@ -5,37 +5,41 @@
   </record>
   <recording id="r-ffb973b42f3d84a6c3b2" kind="unknown">
     <identifier scheme="archive-org">gd1994-10-18.akg460.flaschner.sobel.85384.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">85384</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Madison Square Garden on 1994-10-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Flaschner</credit>
+    <credit role="transfer-mastering">Jason Sobel</credit>
     <lineage>AKG 460B/ck61 &gt; custom pre-amp &gt; Sony D7 (@ 48 kHz) | Tascam DA-20MKII &gt; Tascam HD-P2 &gt; CF card &gt; usb 2.0 &gt; pc &gt; WaveLab 5.01b (fades) &gt; r8brain v1.9 (resample to 44.1 kHz) &gt; CD Wave v1.95.1 &gt; FLAC v1.1.4 (Level 8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jason Sobel</note>
   </recording>
-  <recording id="r-24ced80536bb49c4533d" kind="unknown">
+  <recording id="r-24ced80536bb49c4533d" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1994-10-18.aud.laporte.97711.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">97711</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Madison Square Garden on 1994-10-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chris LaPorte</credit>
+    <credit role="transfer-mastering">Chris LaPorte</credit>
     <lineage>(Tapers Section) unknown Mics &gt; unknown Deck &gt; sony D5 &gt; PMD430 1st set recorded on a Maxell XLIIs-90, 2nd set recorded on a Maxell MX-110 | Master Cassettes &gt; SB Audigy &gt; Adobe Audition @24bit/44.1Khz Adobe Audition: Noise Reduction, fade ins/outs, pop/click eliminator CDwave: tracking Trader's little Helper: md5, ffp, flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Chris LaPorte</note>
   </recording>
   <recording id="r-4a6e63fa9669bf32f6c3" kind="soundboard">
     <identifier scheme="archive-org">gd1994-10-18.sbd.miller.119523.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">119523</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Madison Square Garden on 1994-10-18" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat -&gt; Cassette Master -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-94-ny-ny-madison-square-garden/</note>
+    <reference href="http://infinitedead.net/2021/10/18/10-18-94-ny-ny-madison-square-garden/"/>
   </recording>
   <recording id="r-d206d3215f2b5d444467" kind="soundboard">
     <identifier scheme="archive-org">gd1994-10-18.sbd.wiley.8708.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8708</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Madison Square Garden on 1994-10-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Tim Wiley</credit>
     <lineage>SBD&gt;DAT&gt;C*&gt;CDR | CDR&gt;EAC&gt;WAV&gt;SHNv3&gt;Cool Edit Pro&gt;CD WAV&gt;SHN(seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tim Wiley</note>
   </recording>
   <recording id="r-036be3393ede650208e6" kind="audience">
     <identifier scheme="archive-org">gd94-10-18.schoeps.ladner.10086.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10086</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Madison Square Garden on 1994-10-18" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Audience: Schoeps CMC521's | Schoeps CMC 521's &gt; DAT &gt; EAC v0.9 beta 4 (secure) &gt; Soundforge 5 &gt; CD Wave &gt; mkwACT &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1994-10-18. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/18/10-18-94-ny-ny-madison-square-garden/</note>
+    <reference href="http://infinitedead.net/2021/10/18/10-18-94-ny-ny-madison-square-garden/"/>
   </recording>
 </recordings>

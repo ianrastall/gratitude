@@ -3,86 +3,93 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-9c410e22cdc274ae5750" kind="audience">
+  <recording id="r-9c410e22cdc274ae5750" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-04-02.141253.FOB.s1-cmc6mk4-s2-mk4v.ebel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141253</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac16/44.1 Source Info: Set #1: FOB Schoeps CMC6 MK4-&gt; Apogee A/D500-&gt; Casio-&gt; DAT (Todd Evens &amp; Adam Gross)Set #2: FOB Schoeps MK 4V-&gt; Reutelhuber P/S-&gt; Sony D-10 Pro II-&gt; DAT (Clete)Transfer Info: Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1).Transfers by Pete Ebel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
-  <recording id="r-1297210d27e0c825fe2e" kind="audience">
+  <recording id="r-1297210d27e0c825fe2e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-04-02.141431.s2.FOB.Neumann.Vasseur.Ammons.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">141431</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chuck Vasseur</credit>
+    <credit role="transfer-mastering">Joe Noel and John Ammons</credit>
     <lineage>flac16/48kHz ; Set 2 Chuck Vasseur FOB Recording: Neumann KM54 modified tube mics, hand held on t-bar &gt; Custom PS &gt; TEAC Deck &gt; DAT; John Ammons | DAT master &gt; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Joe Noel and John Ammons</note>
   </recording>
   <recording id="r-0fe73fb8014e5ed71fdb" kind="unknown">
     <identifier scheme="archive-org">gd1995-04-02.143095.nak300-cp4.Boedicker.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">143095</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Boedicker</credit>
+    <credit role="transfer-mastering">Dave Boedicker</credit>
     <lineage>Nakamichi 300 Mics W/CP4 Shotguns&gt;Sony TC-D5M Cassette Deck(Lead Deck)&gt;Sony WM-D6C Cassette Deck&gt; Master Tape(Maxell XL-II S 90 And 100 Minute Tapes)&gt;Sony TC-D5M Cassette Deck(Playback)&gt; Edirol R-09 HR(24/44.1 KHZ)&gt;CD Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Boedicker</note>
   </recording>
-  <recording id="r-3aad87ffa5511466826a" kind="audience">
+  <recording id="r-3aad87ffa5511466826a" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-04-02.149956.set2.KM-56s.weber.small.oade.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">149956</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index"/>
     <credit role="recordist">Sean Webber-Small &amp; Jim Oade</credit>
+    <credit role="transfer-mastering">transfer by Dave Cohen tracked by John Wenzel</credit>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Neumann KM56s FOB&gt;Grace Custom P/S&gt;SonyD7 recorded by Sean Weber-Small and Jim Oade DAT&gt;Tascam DA-3000</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): transfer by Dave Cohen tracked by John Wenzel</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
   <recording id="r-57052c91f17f34fa80a2" kind="soundboard">
     <identifier scheme="archive-org">gd1995-04-02.156418.s2.sbd.mrachek.flac1648</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">156418</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Chris Mrachek</credit>
     <lineage>SBD : ? &gt; DAT @ 16bit/48kHz | Transfer TascamDA-20mkII &gt; S/PDIF &gt; MarantzPMD-661pro @ 16bit/48kHz Mastering SDHC &gt; WavelabPro9.5 &gt; CDWav &gt; TLH (FLAC level8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Mrachek</note>
   </recording>
   <recording id="r-1c9a735829f26f861135" kind="unknown">
     <identifier scheme="archive-org">gd1995-04-02.nak300.holtz.91056.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91056</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Pyramid on 1995-04-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">JAZ</credit>
     <lineage>Nakamichi CM300s CP4 Shotguns-&gt; D3 @ 16/48kHz | DAT Master-&gt; PCM-R300-&gt; Coax-&gt; M-Audio Delta 1010Lt-&gt; Wave Lab 5.0, Izotope Ozone 3, Fades, L2 Dither 16/44.1 kHz, Traders Little Helper flac8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Pyramid on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): JAZ</note>
   </recording>
   <recording id="r-f1f583b176c7300fe412" kind="unknown">
     <identifier scheme="archive-org">gd1995-04-02.nak300.unknown.larson.28853.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">28853</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Pyramid on 1995-04-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Chris Larson</credit>
     <lineage>A(tapers section):NAK CM300 Cardioid CP1 Caps&gt;Sony TCD-D10 | D(48kHz)&gt;ZA2(S/PDIF)&gt;Samplitude2496&gt;CD-r</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Pyramid on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Larson</note>
   </recording>
   <recording id="r-2c7c9958328640c878c9" kind="soundboard">
     <identifier scheme="archive-org">gd1995-04-02.sbd-monitor.unknown.93209.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">93209</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Pyramid on 1995-04-02" references="archive-index archive-url-snapshot"/>
     <lineage>SBD (possible monitor mix) &gt; ? | ? &gt; CD &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Pyramid on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-f2d017d8234612b92c03" kind="soundboard">
     <identifier scheme="archive-org">gd1995-04-02.sbd.larson.leavy.93736.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">93736</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Pyramid on 1995-04-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Tim Leavy</credit>
     <lineage>SBD -&gt; DAT | DAT -&gt; Cassette/? -&gt; CD-R -&gt; Audigy 2 -&gt; Audition 3.0 -&gt; 16/44.1k -&gt; TLH -&gt; Flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Pyramid on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tim Leavy</note>
   </recording>
-  <recording id="r-b3a3c97dd301ab95dace" kind="soundboard">
+  <recording id="r-b3a3c97dd301ab95dace" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1995-04-02.sbd.unknown.5226.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5226</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Justin Snyder</credit>
     <lineage>DSBD?&gt;Bootleg CD&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Justin Snyder</note>
   </recording>
   <recording id="r-2cdd0feed2ebfaaecc23" kind="unknown">
     <identifier scheme="archive-org">gd1995-04-02.shureBG4.0.richart.118440.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">118440</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Christian Richart</credit>
+    <credit role="transfer-mastering">Brad Foster</credit>
     <lineage>Source: Shure BG4.0's &gt; Sony D6; | Cass/M &gt; Nak DR-3 &gt; CD &gt; EAC &gt; CDWav &gt; FLAC; Location: OTS/sec 5; row Q, seat 8; Recorded/transferred: Christian Richart; Extraction/seed: Brad Foster</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brad Foster</note>
   </recording>
   <recording id="r-ff8b0e73fc9bccbd2ba0" kind="soundboard">
     <identifier scheme="archive-org">gd95-04-02.sbd.11622.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11622</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pyramid Arena on 1995-04-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Chris Larson</credit>
     <lineage>Soundboard | SBD &gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pyramid Arena on 1995-04-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Larson</note>
   </recording>
 </recordings>

@@ -3,66 +3,71 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-d92187ffd2315dc7170b" kind="audience">
+  <recording id="r-d92187ffd2315dc7170b" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-06-02.141532.cmc4-mk41.ebel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141532</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac16/44.1khz Source Info: FOB Schoeps CMC 4 MK 41-&gt; Koch P/S-&gt; Panasonic SV255-&gt; DATTransfer Info: Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Transfers by Pete Ebel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
   <recording id="r-7383c029b35d4d25faec" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-02.153192.sony.bregman.miller.vernon.f1648</identifier>
+    <identifier scheme="shnid" certainty="probable">153192</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chris Bregman</credit>
+    <credit role="transfer-mastering">Transfer by Charlie Miller Tracking/Tagging by Matt Vernon August 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Chris Bregman's Master DATs; stereo sony mic &gt; dat master | Master DAT Sony PCM-R500 &gt; Tascam DA-3000 (16-bit/48k) &gt; Audacity &gt; Xact &gt; flac1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transfer by Charlie Miller Tracking/Tagging by Matt Vernon August 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f981b035d557651beb26" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-02.akgc61.unknown.31105.flac16</identifier>
-    <credit role="recordist">unknown</credit>
+    <identifier scheme="shnid" certainty="probable">31105</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
     <lineage>AKG C61 tube mics (circa 1943) spaced omnis-&gt;DAT @ 48kHz | DA-20 MKII&gt;Waveterminal 2496&gt;Wavelab 5 (recording and 48&gt;44.1 resampling)&gt;CD Wave&gt;FLAC Frontend</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): unknown</note>
   </recording>
   <recording id="r-74feebddd62e6036123c" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-02.nak300.bowen.116927.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">116927</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jeff Bowen</credit>
+    <credit role="transfer-mastering">Brad Foster</credit>
     <lineage>Source: Nakamichi cm300/cp1's &gt; Sony TCD-D7; | DAT/M &gt; DA-P1 &gt; HHb 800 &gt; EAC &gt; CDWav &gt; FLAC; Recorded/Transferred: Jeff Bowen; Extraction: Brad Foster</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brad Foster</note>
   </recording>
   <recording id="r-e39961f69150c36db9d6" kind="soundboard">
     <identifier scheme="archive-org">gd1995-06-02.sbd.damico.92520.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">92520</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index"/>
+    <credit role="transfer-mastering">Joe D'Amico</credit>
     <lineage>SBD &gt; ? | 1st Gen Cassette &gt; tascam DA-P1 &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe D'Amico</note>
   </recording>
   <recording id="r-c3b0cd59b4081c97f347" kind="soundboard">
     <identifier scheme="archive-org">gd1995-06-02.sbd.miller.114337.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">114337</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat (44.1k) | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ccee0d1d0c2d4c2df0f8" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-02.sennME40.sturtevant-swayne.85513.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">85513</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Neil Sturtevant and Others</credit>
+    <credit role="transfer-mastering">Scott Swayne</credit>
     <lineage>Sennheiser K3U/ME40's &gt; Panasonic sv-255 &gt; (clone) Teac DA-P20 | Tascam DA-30 - (coax S/PDIF) -&gt; Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Swayne</note>
   </recording>
   <recording id="r-2f317a88e66a755922d6" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-02.sennME40.sturtevant-swayne.85533.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">85533</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Neil Sturtevant and Others</credit>
+    <credit role="transfer-mastering">Scott Swayne</credit>
     <lineage>Sennheiser K3U/ME40's &gt; Panasonic sv-255 &gt; (clone) Teac DA-P20 | Tascam DA-30 - (coax S/PDIF) -&gt; Diamond xTreme SC &gt; Cool Edit Pro &gt; CDWave &gt; FLAC (L8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Swayne</note>
   </recording>
   <recording id="r-77d0338f02eb4e6c47b2" kind="soundboard">
     <identifier scheme="archive-org">gd95-06-02.sbd.583.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">583</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; DAT &gt; CD &gt; extracted on a Mac using Toast Audio Extractor (overlap)&gt; SHN (note corrected info)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1995-06-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

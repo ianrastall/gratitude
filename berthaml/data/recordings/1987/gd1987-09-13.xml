@@ -5,53 +5,58 @@
   </record>
   <recording id="r-3805a3c0b95ef4220ffd" kind="unknown">
     <identifier scheme="archive-org">gd1987-09-13.117982.naks.pasternak.mallick.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">117982</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capital Centre on 1987-09-13" references="archive-index"/>
     <credit role="recordist">Jon Pasternak</credit>
+    <credit role="transfer-mastering">Dave Mallick</credit>
     <lineage>Master: Nakamichi CM100's/CP4's&gt;Marantz PMD-420&gt;Cass(m), Nak DR-2&gt;Tascam CDRW2000&gt;CD by Jon Pasternak; Extraction: CD&gt;xACT 2.13 (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors by Dave Mallick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1987-09-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Mallick</note>
   </recording>
   <recording id="r-f84457408b7100dc60e5" kind="unknown">
     <identifier scheme="archive-org">gd1987-09-13.138247.akg.414.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="uncertain">138247</identifier>
+    <identifier scheme="shnid" certainty="uncertain">414</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capital Centre on 1987-09-13" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Craig Hillwig &amp; Lenny Stubbe</credit>
     <lineage>Source: AKG 414 &gt; PCM &gt; DAT (44.1 khz); Location: | Sony PCM-2600(Apogee AES/EBU)&gt;Sound Devices 722 (16/44.1)&gt; Firewire&gt;Macbook&gt;SoX v14.4.2(remove emphasis)&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; xACT 2.39(align on sector boundaries, encode, tag, fingerprint)&gt;flac16 (level 8); Taped by: unknown; DAT seed provided by: Craig Hillwig; Transferred and seeded by: Lenny Stubbe</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1987-09-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Craig Hillwig &amp; Lenny Stubbe</note>
   </recording>
   <recording id="r-542dc5391d207a0e2c02" kind="audience">
     <identifier scheme="archive-org">gd1987-09-13.163690.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163690</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capital Centre on 1987-09-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1987-09-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-eab2f791c5ce75a4e65c" kind="audience">
     <identifier scheme="archive-org">gd1987-09-13.163691.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163691</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capital Centre on 1987-09-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1987-09-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-1f266d6896d2e7158cd0" kind="unknown">
+  <recording id="r-1f266d6896d2e7158cd0" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1987-09-13.aud.bandrofcheck.82399.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82399</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capital Centre on 1987-09-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Charles Bandrofcheck</credit>
+    <credit role="transfer-mastering">Charles Bandrofcheck</credit>
     <lineage>Unknown shotgun mics &gt; Sony D6 &gt; Maxell MX 90s (MC) | MC &gt; Playback on Marantz PRD505 (azimuth adjusted) &gt; Marantz Intergrated Stereo Amp MP-68 &gt; SB Audigy4 on new P4 machine &gt; Sound Forge normalization &gt; WAV &gt; CDWave &gt; WAVs &gt; Flacfrontend 1.7.1 (level 8) &gt; flacs</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1987-09-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Charles Bandrofcheck</note>
   </recording>
   <recording id="r-9ad39a6fd242cf4cca8a" kind="unknown">
     <identifier scheme="archive-org">gd1987-09-13.nak300.damico.90082.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">90082</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capital Centre on 1987-09-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joe D'Amico</credit>
+    <credit role="transfer-mastering">Joe D'Amico</credit>
     <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1987-09-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe D'Amico</note>
   </recording>
-  <recording id="r-3b93f9d3e46a8e205635" kind="audience">
+  <recording id="r-3b93f9d3e46a8e205635" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd87-09-13.schoeps.dipietro.8908.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8908</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capital Centre on 1987-09-13" references="archive-index archive-url-snapshot"/>
     <lineage>FOB Schoeps&gt; PCM&gt; D&gt; CDR&gt; mkw&gt; shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capital Centre on 1987-09-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
   </recording>
 </recordings>

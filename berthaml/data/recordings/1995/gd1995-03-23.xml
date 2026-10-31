@@ -3,47 +3,49 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-5ceee8a2827bbc8b4821" kind="audience">
+  <recording id="r-5ceee8a2827bbc8b4821" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-03-23.141183.I-FOB-cmc5-mk4-IIFOB-mk4.ebel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141183</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Pete Ebel</credit>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac16/44.1 Source Info:Set #1: FOB Schoeps CMC 5 Mk4-&gt; Aerco P/S-&gt; Casio DTR 100-&gt; DAT (Battery Failed During Days Between)Set #2: FOB Schoeps MK 4 Reutelhuber P/S-&gt; Teac-&gt; DAT (Carrion Crow Solo)Set #1: Sec CTR, Row R, Seat 10Set #2: Sec CTR, Row Q,Transfer Info:Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Taped &amp; Transfers by Pete Ebel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
-  <recording id="r-f7adb1db79043f390095" kind="soundboard">
+  <recording id="r-f7adb1db79043f390095" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1995-03-23.142397.dsbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142397</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-23" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat (44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-14a7b08a930c3f92005d" kind="audience">
+  <recording id="r-14a7b08a930c3f92005d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-03-23.168012.mk4.jbraveman.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">168012</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-23" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Transfer 7/13/24 by</credit>
     <lineage>FOB Schoeps MK4 &gt; Reutelhuber P/S &gt; D10 (48k) | Sony PCM-R500 &gt; Scarlett 8i6 (SPDIF) &gt; REAPER WAV 16/48 &gt; Goldwave &gt; FLAC1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Transfer 7/13/24 by</note>
   </recording>
-  <recording id="r-506ad3482b9001fbb1ff" kind="unknown">
+  <recording id="r-506ad3482b9001fbb1ff" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1995-03-23.aud.laporte.90975.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">90975</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-23" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chris LaPorte</credit>
+    <credit role="transfer-mastering">Chris LaPorte</credit>
     <lineage>Unknown Mic &gt; Unknown Deck &gt; Marantz PMD 430 | Master Cassettes &gt; SB Audigy(line in) &gt; Adobe Audition @24bit/48khz (Noise Reduction of analog hiss, fade ins/outs, pop/click eliminator, dithered and resampled to 16bit/44khz) &gt; CDWave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Chris LaPorte</note>
   </recording>
   <recording id="r-84e2a631c3456b656cec" kind="soundboard">
     <identifier scheme="archive-org">gd95-03-23.sbd.1369.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1369</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-23" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt; D&gt; cass&gt; D&gt; CD-R&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-a808588905bca9e7baf6" kind="soundboard">
     <identifier scheme="archive-org">gd95-03-23.sbd.miller.25273.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">25273</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1995-03-23" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Recording Info: Set 1: SBD -&gt; Dat -&gt; Cassette Master -&gt; Dat (44.1k) Set 2: SBD -&gt; Dat (44.1k) Transfer Info: Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC(3 Discs Audio / 2 Discs FLAC)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1995-03-23. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

@@ -5,24 +5,26 @@
   </record>
   <recording id="r-0ca59fd45ccbd153fe1c" kind="soundboard">
     <identifier scheme="archive-org">gd1971-10-29.sbd-set2.gardner.4090.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4090</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Allen Theatre on 1971-10-29" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Tony Gardner</credit>
     <lineage>SBD&gt;MR&gt;DAT&gt;CDR&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Allen Theatre on 1971-10-29. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tony Gardner</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/29/10-29-71-cleveland-oh-allen-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/29/10-29-71-cleveland-oh-allen-theater/"/>
   </recording>
-  <recording id="r-6abc920d325c0a2332da" kind="soundboard">
+  <recording id="r-6abc920d325c0a2332da" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd71-10-29.fm.cotsman.10357.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10357</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Allan Theater on 1971-10-29" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>1st set: SBD&gt;FM&gt;?&gt;C&gt;Sound Forge&gt;SHN2nd set: SBD&gt;MR&gt;D&gt;CD&gt;EAC&gt;SHNvia Walter Schnell, Tony Gardner &amp; Paul Bottiglio</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Allan Theater on 1971-10-29. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/29/10-29-71-cleveland-oh-allen-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/29/10-29-71-cleveland-oh-allen-theater/"/>
   </recording>
   <recording id="r-e731875aaa878421b451" kind="soundboard">
     <identifier scheme="archive-org">gd71-10-29.sbd.miller.24999.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">24999</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Allan Theater on 1971-10-29" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Recording Info: SBD (7inch Master Reels@7.5ips 1/2trk) -&gt; Cass (Tascam 122mkIII) -&gt; Dat (3800/48k) Transfer Info: Dat (Sony D8) -&gt; RME Hammerfall Digiface -&gt; Sharp MV10 -&gt; Samplitude v7.02 Professional -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Allan Theater on 1971-10-29. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/29/10-29-71-cleveland-oh-allen-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/29/10-29-71-cleveland-oh-allen-theater/"/>
   </recording>
 </recordings>

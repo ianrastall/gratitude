@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19740918-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3e1446bc543eee5edf4d38a234e0f587367494973cc03334af1abedbe8950463. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-587" nameAsBilled="Parc des Expositions"/>
+  <venue ref="v-parc-des-expositions" nameAsBilled="Parc des Expositions"/>
   <program coverage="partial">
     <set kind="soundcheck" n="1" mode="unknown">
       <performance id="p01-01" song="s-seastones" transition="unknown"/>
@@ -35,7 +35,7 @@
       <performance id="p03-05" song="s-me-and-my-uncle" transition="unknown"/>
       <performance id="p03-06" song="s-eyes-of-the-world" transition="segue"/>
       <performance id="p03-07" song="s-china-doll" transition="unknown"/>
-      <performance id="p03-08" song="s-he-s-gone" transition="segue"/>
+      <performance id="p03-08" song="s-hes-gone" transition="segue"/>
       <performance id="p03-09" song="s-truckin" transition="segue"/>
       <performance id="p03-10" song="s-drums" transition="segue"/>
       <performance id="p03-11" song="s-jam" transition="unknown"/>
@@ -44,7 +44,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p04-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

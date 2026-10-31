@@ -3,122 +3,130 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-61657c3b00fc4ec16ef1" kind="soundboard">
+  <recording id="r-61657c3b00fc4ec16ef1" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1991-09-25.138151.dsbd.GEMS.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138151</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">PO and Stucco TINA Holmes</credit>
+    <credit role="transfer-mastering">Mastering and editing by acetboy</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>DSBD Masters DAT-&gt; Panasonic SV-3700-&gt; SP/DIF-&gt; RME Fireface UC-&gt; USB 2.0-&gt; Hewlett-Packard EliteBook 8460p-&gt; Adobe Audition 3.0.1; Beta Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt;SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; Mastering and editing by acetboy on Pro Tools LE; 16 bit 48 kHz FLAC8 SBE Free March 2017</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Mastering and editing by acetboy</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
-  <recording id="r-7c8ff8a34218b6623ba0" kind="unknown">
+  <recording id="r-7c8ff8a34218b6623ba0" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1991-09-25.139839.aud.liff.lamarre.berger.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">139839</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index"/>
     <credit role="recordist">Dan Liff</credit>
+    <credit role="transfer-mastering">Rob Berger and Doug Lamarre</credit>
     <lineage>flac16/48kHz ; source: daud; neumann rsm 190iS &gt; sony tcd-d10 pro; taped by Dan Liff r.i.p; transferred &amp; seeded - Rob Berger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Rob Berger and Doug Lamarre</note>
   </recording>
   <recording id="r-238198e47fcd194b2f26" kind="unknown">
     <identifier scheme="archive-org">gd1991-09-25.148533.dak.boedicker.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">148533</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Boedicker</credit>
+    <credit role="transfer-mastering">Dave Boedicker</credit>
     <lineage>Source:DAK Shotgun Mics&gt;Sony WM-D6C Cassette Master&gt;1 Maxell XL-II-S Tapes(1 90 Minute For 1st Set,1TDK SA-X 100 Minute Tape For 2nd Set)&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR(34/44.1 KHZ)&gt;Cd Wav Editor&gt;Traders Little Helper&gt; Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper.Taped By Dave Boedicker,Official Taper Section,Section M, Row K,Seat 10.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Boedicker</note>
   </recording>
   <recording id="r-36632b2f729404e182cc" kind="unknown">
     <identifier scheme="archive-org">gd1991-09-25.148726.Neumann.Dalton-Miller-Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">148726</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Dalton</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Set I Neumann TLM 170 &gt; Oade Custom Pre Amp &gt; Panasonic SV-255 &gt; Master DAT Set II Neumann KMi86 &gt; Oade Custom Pre Amp &gt; Panasonic SV-255 &gt; Master DAT | Master DAT &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-74c918c41a878068ef47" kind="soundboard">
     <identifier scheme="archive-org">gd1991-09-25.149672.sbd.pearson-healy.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">149672</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden, Boston on 1991-09-25" references="archive-index"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering By Charlie Miller April 25, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden, Boston on 1991-09-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 25, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-fa9aed67f4c6de3642c9" kind="soundboard">
     <identifier scheme="archive-org">gd1991-09-25.149681.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">149681</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering By Charlie Miller April 25, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller April 25, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-fb36093c2120d7324bf5" kind="unknown">
     <identifier scheme="archive-org">gd1991-09-25.156464.sennME88.ragosa.miller.sirmick.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">156464</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dan Rogosa</credit>
+    <credit role="transfer-mastering">Sirmick and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Sennheiser ME88's &gt; Sony TCD-D3 &gt; DAT Master (48k) | Transfer: DAT &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller. Lineage: wav &gt; iZotope RX9 Advanced &gt; CD Wave &gt; flac 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Sirmick and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-d8947964202d6144591f" kind="unknown">
     <identifier scheme="archive-org">gd1991-09-25.177603.senn.me88.rogosa.goldey.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">177603</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index"/>
     <credit role="recordist">Dan Rogosa</credit>
+    <credit role="transfer-mastering">Mark Goldey</credit>
     <lineage>2x Sennheiser ME 88s (stand, OTS) &gt; TCD-D3 &gt; line out &gt; TCD-D5 (Dolby B) | Transfer: MC (MX-90, 100) &gt; Nak Dragon (no Dolby) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 12 (tracking, patches, DDI Codec (Dolby B @ -25.3 dBFS), resample, Lin dither) &gt; FLAC 1644</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mark Goldey</note>
   </recording>
   <recording id="r-fef51092a7f2ca26dc86" kind="unknown">
     <identifier scheme="archive-org">gd1991-09-25.177604.senn.me88.rogosa.goldey.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">177604</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index"/>
     <credit role="recordist">Dan Rogosa</credit>
+    <credit role="transfer-mastering">Mark Goldey</credit>
     <lineage>2x Sennheiser ME 88s (stand, OTS) &gt; TCD-D3 &gt; line out &gt; TCD-D5 (Dolby B) | Transfer: MC (MX-90, 100) &gt; Nak Dragon (no Dolby) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; EZ CD Audio Converter &gt; PCM @ 2496 Master: Wavelab 12 (tracking, patches, DDI Codec (Dolby B @ -25.3 dBFS)) &gt; FLAC 2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mark Goldey</note>
   </recording>
-  <recording id="r-19d1da97998470352643" kind="unknown">
+  <recording id="r-19d1da97998470352643" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1991-09-25.aud.andrewf.84857.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">84857</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F</credit>
+    <credit role="transfer-mastering">Andrew F</credit>
     <lineage>Schoeps CMC3/MK4 (ORTF) &gt; unknown power supply &gt; Panasonic SV-255 (lead deck) &gt; Coax SPDIF &gt; Casio DA-7 Dat (first deck out) &gt; Agfa Dat tape. Mics on 7-foot stand secured to hockey-wall at end of floor, behind lighting board, in the center. | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Andrew F</note>
   </recording>
-  <recording id="r-0c78f94939a2366cd0e6" kind="audience">
+  <recording id="r-0c78f94939a2366cd0e6" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1991-09-25.fob.bk4011.brennecke-young.gems.101442.flac</identifier>
+    <identifier scheme="shnid" certainty="probable">101442</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">James Young and Clay Brennecke</credit>
+    <credit role="transfer-mastering">Todd Evans and Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Lineage: Master DAT Recording Equipment: B&amp;K 4011 110º ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro Recording Location: FOB | 16 bit – 48kHz DAT Master &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0 (Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-eabcc64e24cd9810b44b" kind="unknown">
     <identifier scheme="archive-org">gd1991-09-25.schoeps.andrewf.84858.sbeok.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">84858</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F</credit>
+    <credit role="transfer-mastering">Andrew F</credit>
     <lineage>Schoeps CMC3/MK4 (ORTF) &gt; unknown power supply &gt; Panasonic SV-255 (lead deck) &gt; Coax SPDIF &gt; Casio DA-7 Dat (first deck out) &gt; Agfa Dat tape. Mics on 7-foot stand secured to hockey-wall at end of floor, behind lighting board, in the center. | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F</note>
   </recording>
   <recording id="r-4723daaed873f74032aa" kind="unknown">
     <identifier scheme="archive-org">gd91-09-25.nak.dodd.16667.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16667</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1991-09-25" references="archive-index"/>
     <lineage>Nakamichi CM300 + CP4REAR &gt; d-5&gt;cm &gt;cdrTaped and discs kindly provided by Mark HorvathEac &gt; cool edit pro &gt; shntool &gt; cdwav &gt; shnv3 By Ernie Dodd</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1991-09-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-4ba5c531a1d2d1cb6b9a" kind="unknown">
-    <identifier scheme="other">etree-609474</identifier>
-    <note>Supplied catalogue listing: etree; gd1991-09-25.149681.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-4ba5c531a1d2d1cb6b9a" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">609474</identifier>
+    <identifier scheme="shnid" certainty="probable">149681</identifier>
+    <listing provider="etree" title="gd1991-09-25.149681.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-013d918ec639bd940c4a" kind="unknown">
-    <identifier scheme="other">etree-592502</identifier>
-    <note>Supplied catalogue listing: etree; gd1991-09-25.138151.dsbd.GEMS.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  <recording id="r-013d918ec639bd940c4a" kind="unknown" inferredKind="soundboard" modifiers="DSBD">
+    <identifier scheme="etree-torrent">592502</identifier>
+    <identifier scheme="shnid" certainty="probable">138151</identifier>
+    <listing provider="etree" title="gd1991-09-25.138151.dsbd.GEMS.flac16" references="etree-snapshot"/>
+    <personMatch name="GEMS" role="unspecified"/>
   </recording>
 </recordings>

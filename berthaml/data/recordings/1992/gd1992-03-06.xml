@@ -5,68 +5,72 @@
   </record>
   <recording id="r-4242a4af72078cf9ca4d" kind="soundboard">
     <identifier scheme="archive-org">gd1992-03-06.131577.sbd.healy.wise.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">131577</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dan Healy</credit>
+    <credit role="transfer-mastering">Rob Eaton and Jim Wise</credit>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Rob Eaton" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; DAT soundboard master &gt; Cassette; Cassette &gt; DAT via Nakamichi Dragon to Sony PCM R-500 DAT 48khz; Digital Transfer and FLAC encoding by Jim Wise: October 2014; DAT played back on a Sony PCM R-500-&gt; Digital Audio Labs Carddeluxe-&gt; WAV [16/48]; Adobe Audition 3.0- FLAC encoding; Digital Transfer and FLAC encoding by Jim Wise: October 2014</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Eaton and Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
   <recording id="r-ebfcbadae181b2d94652" kind="soundboard">
     <identifier scheme="archive-org">gd1992-03-06.140254.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140254</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2c420f5c209877eb3c2a" kind="soundboard">
     <identifier scheme="archive-org">gd1992-03-06.140300.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140300</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-ee0a2877612a4c21ccdd" kind="unknown">
+  <recording id="r-ee0a2877612a4c21ccdd" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-03-06.148536.fob.BK4011.ebel.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">148536</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>B&amp;K 4011-&gt; DAT | DAT Tape (Panasonic SV-3700) -&gt; Coaxial SPDIF-&gt; Marantz PMD 661 MKII (Solid State Recorder)-&gt; SD Card-&gt; Wav-&gt; Flac Level 8-&gt; Tagged (16/48)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
-  <recording id="r-579307da1fb5d5dc8c1f" kind="audience">
+  <recording id="r-579307da1fb5d5dc8c1f" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-03-06.155827.FOB.SchoepsMasterDAT.BrotmanMetchickAnonNoel.t-flac1648</identifier>
-    <credit role="recordist">Recording by Dave Brotman &amp; Jeff Metchick</credit>
+    <identifier scheme="shnid" certainty="probable">155827</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Dave Brotman &amp; Jeff Metchick</credit>
+    <credit role="transfer-mastering">Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 08, 2022</credit>
     <lineage>Source: FOB Schoeps CMC3 MK4’s (ORTF) &gt; Tao Research &gt; M1000 cables &gt; Panasonic SV-255mod (16/48) &gt; Master DAT Location: 20th Row Center | Transfer: Master DAT &gt; Panasonic SV-3800 &gt; VX Pocket sound card &gt; Panasonic Toughbook &gt; Steinberg Nuendo &gt; WAV 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 08, 2022</note>
   </recording>
-  <recording id="r-7a0a8b901596b93ef29d" kind="audience">
+  <recording id="r-7a0a8b901596b93ef29d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-03-06.fob.schoeps.andrewf.85420.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">85420</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F.</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>Schoeps CMC3/MK4 (ORTF) &gt; unknown mic power &amp; lead dat deck &gt; Coax SPDIF &gt; Casio DA-7 &gt; Sony DT-Dat tape. FOB aprx 30-feet from stage, mics handheld at apprx 5-1/2 feet. | Master DAT &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; R8Brain v1.9 (downsample to 44.1kHz) &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-3effb3a1e13c0af3cdaa" kind="unknown">
     <identifier scheme="archive-org">gd1992-03-06.schoeps.andrewf.85418.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">85418</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F.</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>Schoeps CMC3/MK4 (ORTF) &gt; unknown mic power &amp; lead dat deck &gt; Coax SPDIF &gt; Casio DA-7 &gt; Sony DT-Dat tape | MAD &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-2811d6421e391dc309e5" kind="audience">
     <identifier scheme="archive-org">gd92-03-06.nak700.gardner.9472.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9472</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1992-03-06" references="archive-index"/>
     <lineage>AUD&gt;DAT&gt;CDR (Nak 700Âs&gt;Sony D-3)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1992-03-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-19ee5cd7271864a58dc0" kind="unknown">
-    <identifier scheme="other">etree-597310</identifier>
-    <note>Supplied catalogue listing: etree; gd1992-03-06.140254.sbd.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-19ee5cd7271864a58dc0" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">597310</identifier>
+    <identifier scheme="shnid" certainty="probable">140254</identifier>
+    <listing provider="etree" title="gd1992-03-06.140254.sbd.miller.flac24" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

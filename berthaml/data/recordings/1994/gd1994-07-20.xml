@@ -5,62 +5,66 @@
   </record>
   <recording id="r-9b2783a18b3f7ee57eb6" kind="unknown">
     <identifier scheme="archive-org">gd1994-07-20.139713.beyercmc101.ebel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">139713</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Pete Ebel</credit>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac16/44.1 Source Info: TS Beyer CMC 101 (Omni's)-&gt; Casio DA-7-&gt; DAT.Transfer Info: Dat (Panasonic SV-3700) -&gt; Marantz CDR-615 -&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1). Taped &amp; Transfers by Pete Ebel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
-  <recording id="r-93b70d692e3ada590f28" kind="audience">
+  <recording id="r-93b70d692e3ada590f28" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1994-07-20.140083.FOB.unknown.Gastwirt.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">140083</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Rich Gastwirt</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; taper &amp; equipment unknown: (FOB) AUD &gt; Dat (48k); Charlie Miller | Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 &gt; wav 16/48; Edited &amp; Mastered in Audacity by Joe Noel: wav 16/48 &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/20/7-20-94-noblesville-in-deer-creek-amphitheater/</note>
+    <reference href="http://infinitedead.net/2024/07/20/7-20-94-noblesville-in-deer-creek-amphitheater/"/>
   </recording>
-  <recording id="r-1e1b127b25622d591e35" kind="audience">
+  <recording id="r-1e1b127b25622d591e35" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1994-07-20.168519.akg391.jbraveman.flac1648</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">168519</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">July 2024</credit>
     <lineage>FOB AKG 391 &gt; DATs 16/48 (taper unknown) | Sony PCM-R500 DAT &gt; Scarlett 8i6 (SPDIF) &gt; REAPER WAV 16/48 &gt; Goldwave &gt; FLAC16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): July 2024</note>
   </recording>
   <recording id="r-f8b5f731a437b4e637af" kind="unknown">
     <identifier scheme="archive-org">gd1994-07-20.AT815A.unknown.larson.31805.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">31805</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Chris Larson</credit>
     <lineage>A: Audio Technica 815a Shotguns&gt;Panasonic sv250 (48kHz) | DAT&gt;ZA2(S/PDIF)&gt;Wavelab3.03&gt;CD-r</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Larson</note>
   </recording>
-  <recording id="r-b196a6322aafc208d440" kind="audience">
+  <recording id="r-b196a6322aafc208d440" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1994-07-20.fob.schoeps.jones.89561.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89561</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index"/>
     <credit role="recordist">Roger Jones w/ Keith Litzenberger's Schoeps</credit>
+    <credit role="transfer-mastering">Watson</credit>
     <lineage>Schoeps MK4's&gt;Rbox&gt;Sony TCD-D10PRO (mod) FOB | DAT MASTER&gt;Tascam DA-30&gt;Sony TCD-D10PRO (mod) DAT CLONE&gt;Sony pcm-R500-&gt;vx pocket v2-&gt;WL5&gt;CDWAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Watson</note>
   </recording>
   <recording id="r-f552459fca793bb4ab8a" kind="audience">
     <identifier scheme="archive-org">gd1994-07-20.nak300.bleich-sirmick.119553.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">119553</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">John Bleich</credit>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: Audience Recording &gt; Nakamichi 300's with CP-4 caps &gt; Sony WMD-6 &gt; MAC; | MAC &gt; Sony WMD-6 &gt; Edirol R-09HR &gt; wav 24/48; Lineage: wav 24/48 &gt; Adobe Audtion 1.5 &gt; Wavelab 6 (with iZoptope Ozone 5 Advanced) &gt; iZotope RX 2 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; TLH &gt; Flac 16; Taped and transferred by John Bleich</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-83bbbf039625fcf9c3eb" kind="unknown">
     <identifier scheme="archive-org">gd1994-07-20.nak300.holtz.jaz.91848.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91848</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">JAZ</credit>
     <lineage>Nakamichi Cm300's with Cp-4 guns/PZM 30D's mix-&gt; D3 DAT | DAT Master-&gt; PCM-R300-&gt; Coax-&gt; M-Audio Delta 1010Lt-&gt; Wave Lab 5.0, Mastering Software-&gt; Traders Little Helper flac8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): JAZ</note>
   </recording>
   <recording id="r-db64da993b5b43e67ef6" kind="soundboard">
     <identifier scheme="archive-org">gd94-07-20.sbd.darkstar.12596.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12596</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Deer Creek Music Center on 1994-07-20" references="archive-index infinite-dead"/>
     <lineage>SBD&gt; DAT&gt; WAV&gt; CDR&gt; WAV&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Deer Creek Music Center on 1994-07-20. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/20/7-20-94-noblesville-in-deer-creek-amphitheater/</note>
+    <reference href="http://infinitedead.net/2024/07/20/7-20-94-noblesville-in-deer-creek-amphitheater/"/>
   </recording>
 </recordings>

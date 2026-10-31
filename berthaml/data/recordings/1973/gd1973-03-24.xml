@@ -5,40 +5,44 @@
   </record>
   <recording id="r-6e106c6425efb6698f5e" kind="soundboard">
     <identifier scheme="archive-org">gd1973-03-24.139595.sbd.betty.composite.miller.clugston.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">139595</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1973-03-24" references="archive-index"/>
     <credit role="recordist">Betty Cantor</credit>
+    <credit role="transfer-mastering">Charlie Miller and Scott Clugston</credit>
+    <personMatch name="Betty Cantor-Jackson" role="recordist"/>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Primary Source: Betty's 10" MSR -&gt; PCM -&gt; DAT supplies the 2nd Set; Secondary Sources: MSR -&gt; C -&gt; DAT (gd73-03-24.sbd.hamilton.shnid1216) supplies the majority of the 1st set; Betty's 10" MSR -&gt; PCM -&gt; S/PDIF out -&gt; disk -&gt; digital noise reduction w/Sound Forge 6.0 (shnid83407) supplies from 7:38 of "Here Comes Sunshine" (t15)thru the end of the 1st Set; Transfer Info: DAT -&gt; Sony PCM R500-&gt; Tascam DA-3000-&gt; Adobe Audition 3.0-&gt; TLH flac16; Transfer by Charlie Miller; Mastered by Scott Clugston</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1973-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-81dad2cee7ba3b768efd" kind="soundboard">
     <identifier scheme="archive-org">gd1973-03-24.170828.sbd.patched.001216.flegel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">170828</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1973-03-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Brian Flegel</credit>
     <lineage>Patched soundboard</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1973-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brian Flegel</note>
   </recording>
-  <recording id="r-d11f46619c4da86d0282" kind="unknown">
+  <recording id="r-d11f46619c4da86d0282" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1973-03-24.sbd.cantor.deibert.83407.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83407</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1973-03-24" references="archive-index archive-url-snapshot"/>
     <lineage>10" Betty Board Reel &gt; PCM501ES &gt; Fostex D5 (Jace's tape) optical S/PDIF out &gt; disk</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1973-03-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
   <recording id="r-98bd6384755c06c5a192" kind="soundboard">
     <identifier scheme="archive-org">gd73-03-24.sbd.bertha-ashley.25508.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">25508</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1973-03-24" references="archive-index"/>
     <lineage>Soundboard | SBD&gt; MR&gt; CASS&gt; DAT&gt; CDA&gt; SHN&gt; DAW(Bertha)&gt; CDA/SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1973-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-48d2225900a2b21dd49a" kind="soundboard">
     <identifier scheme="archive-org">gd73-03-24.sbd.hamilton.1216.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1216</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1973-03-24" references="archive-index"/>
     <lineage>Soundboard | S:MR &gt; cassette &gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1973-03-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-7223c010419f5de8b9af" kind="unknown">
-    <identifier scheme="other">etree-595850</identifier>
-    <note>Supplied catalogue listing: etree; gd1973-03-24.139595.sbd.betty.composite.miller.clugston.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Betty Cantor-Jackson; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-7223c010419f5de8b9af" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">595850</identifier>
+    <identifier scheme="shnid" certainty="probable">139595</identifier>
+    <listing provider="etree" title="gd1973-03-24.139595.sbd.betty.composite.miller.clugston.flac16" references="etree-snapshot"/>
+    <personMatch name="Betty Cantor-Jackson" role="unspecified"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

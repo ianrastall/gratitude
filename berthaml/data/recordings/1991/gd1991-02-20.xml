@@ -5,52 +5,56 @@
   </record>
   <recording id="r-637ca4cf93a40f0b8e8b" kind="unknown">
     <identifier scheme="archive-org">gd1991-02-20.118255.BeyerM160.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">118255</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20" references="archive-index"/>
     <credit role="recordist">D5scott</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Source: 2 Beyer M160 microphones - up front/center &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
-  <recording id="r-ede6b2b66f2bb12ddbae" kind="audience">
+  <recording id="r-ede6b2b66f2bb12ddbae" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1991-02-20.138072.BK4011.FOB.Darroch.Ammons.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">138072</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rob Darroch</credit>
+    <credit role="transfer-mastering">John Ammons and Joe Noel</credit>
     <lineage>flac16/48kHz ; Rob Darroch recording [FOB DFC]: Hand held at 110 degrees ORTF on Schoeps T-bar with B&amp;K 4011 &gt; Pro-Link Mic Cables &gt; Modified Neumann PS &gt; Panasonic SV255. Set 1 hand held by Rob, set 2 on stand at 6'2"; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optcal) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel T,F &amp; P: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
   </recording>
   <recording id="r-464772527e6eabc38628" kind="soundboard">
     <identifier scheme="archive-org">gd1991-02-20.141769.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141769</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-d988713aa387699b48b7" kind="soundboard">
     <identifier scheme="archive-org">gd1991-02-20.141851.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141851</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9fe85f8fff1802967ad4" kind="unknown">
+  <recording id="r-9fe85f8fff1802967ad4" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd91-02-20.aud.Nak100-CP4.eD.11271.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11271</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Charlie Miller</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="recordist"/>
     <lineage>Nakamichi 300/cp4 + AKG C1000S -&gt; Boss BX4 Mixer -&gt; Cassette Master (Sony D5) | Cassette Master -&gt; Dat -&gt; CD -&gt; EAC -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role recording.</note>
   </recording>
   <recording id="r-80a4c5ee8694e944ff48" kind="soundboard">
     <identifier scheme="archive-org">gd91-02-20.sbd.hinko.28471.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">28471</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Darryl Hinko</credit>
     <lineage>flac16 SBD &gt; DAT &gt; CD &gt; EAC &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1991-02-20. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Darryl Hinko</note>
   </recording>
-  <recording id="r-1704cf9137c94ca2b998" kind="unknown">
-    <identifier scheme="other">etree-599309</identifier>
-    <note>Supplied catalogue listing: etree; gd1991-02-20.141851.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-1704cf9137c94ca2b998" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">599309</identifier>
+    <identifier scheme="shnid" certainty="probable">141851</identifier>
+    <listing provider="etree" title="gd1991-02-20.141851.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

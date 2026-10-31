@@ -3,119 +3,131 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-619e70849a35dfb5a702" kind="audience">
+  <recording id="r-619e70849a35dfb5a702" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-02-14.140227.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140227</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Oade Brothers</credit>
+    <credit role="transfer-mastering">Charlie Miller, Jim Wise, Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller, Jim Wise, Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
   <recording id="r-8fbed0936d9360129a79" kind="soundboard">
     <identifier scheme="archive-org">gd1986-02-14.142427.sbd.pcm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142427</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; PCM (Vault Master) &gt; Dat Clone (44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-0118af0175ae9adebee0" kind="matrix">
     <identifier scheme="archive-org">gd1986-02-14.150566.mtx.seamons.ht123.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">150566</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Hunter Seamons</credit>
+    <personMatch name="Hunter Seamons" role="transfer-mastering"/>
     <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Hunter Seamons</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
   </recording>
   <recording id="r-479580058bf86d69fdfe" kind="audience">
     <identifier scheme="archive-org">gd1986-02-14.166564.PandP-aud.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">166564</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Patched and pitch corrected audience (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-3b9d55eac39a797988fd" kind="matrix">
     <identifier scheme="archive-org">gd1986-02-14.166565.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">166565</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index"/>
+    <credit role="transfer-mastering">SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-02f3e86b37c848d1c836" kind="unknown">
+  <recording id="r-02f3e86b37c848d1c836" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1986-02-14.166566.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">166566</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-9efead4b2716c6004f57" kind="unknown">
     <identifier scheme="archive-org">gd1986-02-14.166567.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">166567</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-dcf6b6f22a2e0b09af25" kind="audience">
     <identifier scheme="archive-org">gd1986-02-14.178986.neumann.blend.bradt.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">178986</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index"/>
     <credit role="recordist">Bill Bradt</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Bill Bradt's Master Audience Cassettes: 2 x Neumann U89 mics (Left/Right) + 1 x Neumann KM88 mic (Center) &gt; unknown mixer &gt; Sony D5M (Maxell MX-90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-537a3e4628be59854fc8" kind="audience">
     <identifier scheme="archive-org">gd1986-02-14.178987.neumann.blend.bradt.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">178987</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index"/>
     <credit role="recordist">Bill Bradt</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Bill Bradt's Master Audience Cassettes: 2 x Neumann U89 mics (Left/Right) + 1 x Neumann KM88 mic (Center) &gt; unknown mixer &gt; Sony D5M (Maxell MX-90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24 bit-96k .wav) &gt; Adobe Audition CC 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-85eba1f8e51cc1cfc878" kind="soundboard">
     <identifier scheme="archive-org">gd1986-02-14.sbd.gans.miller.10921.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10921</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD&gt;PCM&gt;Dat&gt;Samplitude&gt;Cool Edit Pro&gt;CD | Sony R500&gt;Behringer SRC2000&gt;Dio 2448&gt;Compaq 5452</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b8717a40466871e97e77" kind="soundboard">
     <identifier scheme="archive-org">gd1986-02-14.sbd.lai.382.shnf</identifier>
-    <lineage>Soundboard | Unknown</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mike Lai</note>
+    <identifier scheme="shnid" certainty="probable">382</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Mike Lai</credit>
+    <lineage>Soundboard</lineage>
   </recording>
   <recording id="r-61c004658219035664e4" kind="audience">
     <identifier scheme="archive-org">gd1986-02-14.Senn421.Darby.119391.Flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">119391</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; SennheiserMD421's (PAS/DFC/Middle Of OTS/6 Feet High)&gt; Sony TC-D5M, Tapes Maxell XLII-S Set 1, Maxell MX Set 2; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-00f9ce5e9b005ca6510f" kind="audience">
     <identifier scheme="archive-org">gd1986-02-14.Senn421.Darby.119392.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">119392</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; SennheiserMD421's (PAS/DFC/Middle Of OTS/6 Feet High)&gt; Sony TC-D5M, Tapes Maxell XLII-S Set 1, Maxell MX Set 2; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
-  <recording id="r-3eaef14ef8549d686f10" kind="audience">
+  <recording id="r-3eaef14ef8549d686f10" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd86-02-14.beyerM88.connor.29477.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">29477</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index archive-url-snapshot"/>
     <lineage>Recording Info: FOB(DFC)&gt;Beyer Dynamic M88's&gt;Sony TCD5M (CM - Maxell MX90's); Secondary Source:</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
   </recording>
   <recording id="r-13201574bcdfb39bb0b8" kind="soundboard">
     <identifier scheme="archive-org">gd86-02-14.sbd.miller.11625.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11625</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14" references="archive-index"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>SBD&gt;PCM&gt;Dat&gt;Samplitude&gt;Cool Edit Pro&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1986-02-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
-  <recording id="r-e9ad9070891378af5517" kind="unknown">
-    <identifier scheme="other">etree-600629</identifier>
-    <note>Supplied catalogue listing: etree; gd86-02-14.142247.sbd.pcm.gans-miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-e9ad9070891378af5517" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">600629</identifier>
+    <identifier scheme="shnid" certainty="probable">142247</identifier>
+    <listing provider="etree" title="gd86-02-14.142247.sbd.pcm.gans-miller.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

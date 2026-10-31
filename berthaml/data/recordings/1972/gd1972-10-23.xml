@@ -5,16 +5,18 @@
   </record>
   <recording id="r-1c17cb8a7c3347ce3cb9" kind="audience">
     <identifier scheme="archive-org">gd1972-10-23.sonyecm250.unknown.miller.98958.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">98958</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Performing Arts Center on 1972-10-23" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Sony ECM-250 -&gt; Cassette Master (Sony TC-124/BASF Normal Bias 120 Min Tapes) | Cassette Master (Nakamichi Dragon) -&gt; Dat -&gt; CD; CD -&gt; Samplitude Professional v10.2 -&gt; Adobe Audition v1.5 -&gt; FLAC (3 Discs Audio / 2 Discs FLAC)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Performing Arts Center on 1972-10-23. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/23/10-23-72-milwaukee-wi-performing-arts-center/</note>
+    <reference href="http://infinitedead.net/2021/10/23/10-23-72-milwaukee-wi-performing-arts-center/"/>
   </recording>
   <recording id="r-20b860c15990263d8ff6" kind="audience">
     <identifier scheme="archive-org">gd72-10-23.aud.cotsman.10914.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10914</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Milwaukee Performing Arts Center on 1972-10-23" references="archive-index infinite-dead"/>
     <lineage>Audience | AUD&gt;MR&gt;?&gt;D&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Milwaukee Performing Arts Center on 1972-10-23. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/23/10-23-72-milwaukee-wi-performing-arts-center/</note>
+    <reference href="http://infinitedead.net/2021/10/23/10-23-72-milwaukee-wi-performing-arts-center/"/>
   </recording>
 </recordings>

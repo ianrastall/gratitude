@@ -5,191 +5,205 @@
   </record>
   <recording id="r-1e659541137717d43bc1" kind="matrix">
     <identifier scheme="archive-org">gd1990-07-10.128383.mtx.nicksmix.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">128383</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Nick Crump</credit>
     <lineage>3 source matrix mix of AUD shnid 126182, SBD shnid 106373 and AUD shnid 31790; Mixed by Nick Crump</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Nick Crump</note>
   </recording>
-  <recording id="r-a064281cc8c33748ab9a" kind="unknown">
+  <recording id="r-a064281cc8c33748ab9a" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-07-10.133954.akg414btl-fob-dantepper.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">133954</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dan Tepper</credit>
+    <credit role="transfer-mastering">Dan Tepper</credit>
     <lineage>Source: AKG 414-BTL (cardioid X-Y) &gt; Neuman BS945i &gt; Technics SVMD1 DAT; | Master DAT @ 48kHz &gt; Panasonic SV3700 &gt; 48kHz 16bit Wav &gt; Sample Manager &gt; 44.1kHz 24bit Wav &gt; Wavelab 8.5 / Izotope Ozone 6.1 / MBit+ Dither &gt; 44.1kHz 16bit wav; Recorded, Transferred and Digitally Mastered by Dan Tepper</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Dan Tepper</note>
   </recording>
   <recording id="r-82343d9996c2d61733d5" kind="unknown">
     <identifier scheme="archive-org">gd1990-07-10.135049.bltz.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">135049</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Richard Berner</credit>
+    <credit role="transfer-mastering">bltz</credit>
     <lineage>Source: Schoeps CMC-34 Cardioids, ORTF, Hand-held, 8 rows in front-of-board -&gt; ProLink Cables -&gt; Neumann Power Supply -&gt; DAT TCD-10 -&gt; Beta -&gt; Nak 682ZX -&gt; Maxell MX 90 Cassette Tape -&gt; JVC TD-W354 -&gt; Zoom H6 96/24 WAV -&gt; Audacity -&gt; FLAC 96/24; Set 2, Schoeps CMC-54 Cardioids, ORTF, on stand -&gt; SV-250 Up Front</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): bltz</note>
   </recording>
-  <recording id="r-75693363ba4ab77c4a04" kind="audience">
+  <recording id="r-75693363ba4ab77c4a04" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-07-10.142694.Schoeps.Brotman.Fanari.Katzeff.Mattes.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142694</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
     <credit role="recordist">Rick Katzeff and Dave Brotman and Marco Fanari and Ted Mattes</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>flac16/48kHz ; Rick Katzeff, Marco Fanari &amp; Dave Brotman Recording: (8 rows FOB) Schoeps CMC3 MK4 (ORTF) &gt; DAT. Set I; hand held. Set II; on stand @ 6'5"; Charlie Miller | Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-c9561e9be6c51f313ed0" kind="audience">
+  <recording id="r-c9561e9be6c51f313ed0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-07-10.143601.FOB.Schoeps.Brotman.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">143601</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Brotman</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Dave Brotman Master DAT Recording: (FOB 8 Rows) Schoeps CMC3/MK4 (ortf) &gt; M1000 Cables &gt; JE13 &gt; Dat (Panasonic SV-255/48k) Set I; hand held. Set II; on stand @ 6'5" | Charlie Miller Transfer: Dat &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ff9a7b78717573573d60" kind="unknown">
     <identifier scheme="archive-org">gd1990-07-10.149323.DAK-OTS.boedicker.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">149323</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
     <credit role="recordist">Dave Boedicker</credit>
+    <credit role="transfer-mastering">Dave Boedicker</credit>
     <lineage>Source:Dak Shotgun Mics&gt;Sony WM-D6C Cassette Deck&gt;2 Maxell MX-90 Minute Metal Cassette Master Tapes&gt;Sony TC-D5M Cassette Deck(Playback)&gt;Edirol R-09 HR(24/44.1KHZ)&gt;Cd Wav Editor&gt;Traders Little Helper&gt;Flac Level 8.Sector Boundaries Aligned Using Traders Little Helper.Taped By Dave Boedicker,Official Taper Section.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Boedicker</note>
   </recording>
-  <recording id="r-e0b351696ac6dee5b7a5" kind="matrix">
+  <recording id="r-e0b351696ac6dee5b7a5" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1990-07-10.150367.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">150367</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller July 14, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller July 14, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-60f557e7d875b51111c9" kind="matrix">
     <identifier scheme="archive-org">gd1990-07-10.150396.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">150396</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-336b8c063a5dee858f2b" kind="unknown">
+  <recording id="r-336b8c063a5dee858f2b" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1990-07-10.150397.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">150397</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-81a99f9c28d6dec090cd" kind="unknown">
     <identifier scheme="archive-org">gd1990-07-10.150398.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">150398</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-ba97774049e7231f267b" kind="matrix">
+  <recording id="r-ba97774049e7231f267b" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1990-07-10.150501.UltraMatrix.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">150501</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller July 14, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller July 14, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-6d32f8826df57a1c4627" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.164504.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">164504</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3e0e2c20d1200eb7484b" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.164505.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">164505</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-fab7862e6afc1b9f500c" kind="unknown">
     <identifier scheme="archive-org">gd1990-07-10.175481.5-1.fix.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">175481</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-28f5a034d380bed9cf15" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.AKG451.Currier.Keo.126181.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">126181</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mr. Currier</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Currier, Transfer By Keo; AKGC451EB/CK1's &gt; AKG 9V Phantom Power &gt; Marantz PDM 430 &gt; Probaly Dolby (Not Marked) &gt; Tapes Maxell MX 100; Transfer With Nakamichi MR-1 &gt; No Dolby &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-f2e49b5989088325f5fb" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.AKG451.Currier.Keo.126182.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">126182</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mr. Currier</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Currier, Transfer By Keo; AKGC451EB/CK1's &gt; AKG 9V Phantom Power &gt; Marantz PDM 430 &gt; Probaly Dolby (Not Marked) &gt; Tapes Maxell MX 100; Transfer With Nakamichi MR-1 &gt; No Dolby &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-29fcb8dca557d3e45c2c" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.Nak100sSenn421.Hill.Keo.130583.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">130583</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Hill</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; 2 Nakamichi CM100/CP4 Shotguns + 1 Sennheiser 421 &gt; Unknown Mixer (Either A Radio Shack Or Boss) 1/4 Inch In/RCA Out &gt; Sony TC-D5m, Tapes:Maxell MX 90 + 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-e8528ec18fac788637f8" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.Nak100sSenn421.Hill.Keo.130584.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">130584</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Steve Hill</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Steve Hill, Transfer By Keo; 2 Nakamichi CM100/CP4 Shotguns + 1 Sennheiser 421 &gt; Unknown Mixer (Either A Radio Shack Or Boss) 1/4 Inch In/RCA Out &gt; Sony TC-D5m, Tapes:Maxell MX 90 + 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-90-raleigh-nc-carter-finley-stadium/</note>
+    <reference href="http://infinitedead.net/2024/07/10/7-10-90-raleigh-nc-carter-finley-stadium/"/>
   </recording>
   <recording id="r-75aabd523ee70e0e6750" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.Nak300CP4.Baker.Keo.130402.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">130402</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Baker</credit>
+    <credit role="transfer-mastering">Keo</credit>
+    <personMatch name="Baker/Bruns" role="recordist"/>
     <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony D6, Tapes: Maxell MX 90, 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
-    <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
   </recording>
   <recording id="r-6e386fc593802e8b083c" kind="audience">
     <identifier scheme="archive-org">gd1990-07-10.Nak300CP4.Baker.Keo.130403.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">130403</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
     <credit role="recordist">Baker</credit>
+    <credit role="transfer-mastering">Keo</credit>
+    <personMatch name="Baker/Bruns" role="recordist"/>
     <lineage>Master Audience Recorded By Mr. Baker, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony D6, Tapes: Maxell MX 90, 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
-    <note certainty="uncertain">Legacy name match: Baker/Bruns; role recording.</note>
   </recording>
   <recording id="r-34d8ca12b877388e9088" kind="soundboard">
     <identifier scheme="archive-org">gd1990-07-10.sbd.miller.106373.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106373</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-90-raleigh-nc-carter-finley-stadium/</note>
+    <reference href="http://infinitedead.net/2024/07/10/7-10-90-raleigh-nc-carter-finley-stadium/"/>
   </recording>
-  <recording id="r-c7f833058e4cb10f5309" kind="audience">
+  <recording id="r-c7f833058e4cb10f5309" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-07-10.schoeps.lynn.31790.sbefail.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">31790</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index"/>
+    <credit role="transfer-mastering">Mark Lynn</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>FOB DFC Schoeps MK4s ORTF On Stand-&gt;Oade m118-&gt;Panasonic SV255@48 kHz | Sony R500 -&gt;M Audio Audiophile 2496 -&gt;Soundforge (record/resample) -&gt; CDWAV (track) -&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Mark Lynn</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-30704f5f63b006544e61" kind="soundboard">
     <identifier scheme="archive-org">gd90-07-10.sbd.unknown.8256.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8256</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carter-Finley Stadium on 1990-07-10" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>SBD &gt; MC &gt; DAT &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carter-Finley Stadium on 1990-07-10. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/10/7-10-90-raleigh-nc-carter-finley-stadium/</note>
+    <reference href="http://infinitedead.net/2024/07/10/7-10-90-raleigh-nc-carter-finley-stadium/"/>
   </recording>
-  <recording id="r-bd3a3399d2c16670aa99" kind="unknown">
-    <identifier scheme="other">etree-610273</identifier>
-    <note>Supplied catalogue listing: etree; gd1990-07-10.150367.UltraMatrix.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-bd3a3399d2c16670aa99" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">610273</identifier>
+    <identifier scheme="shnid" certainty="probable">150367</identifier>
+    <listing provider="etree" title="gd1990-07-10.150367.UltraMatrix.sbd.cm.miller.flac24" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

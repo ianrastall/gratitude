@@ -5,44 +5,48 @@
   </record>
   <recording id="r-12878969da31d94ae7dd" kind="audience">
     <identifier scheme="archive-org">gd1970-11-07.134083.aud.weinberg.parish.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">134083</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Marty Weinberg</credit>
+    <credit role="transfer-mastering">Michael Parish and Rob Berger</credit>
+    <personMatch name="Marty Weinberg" role="recordist"/>
     <lineage>source: aud reel master; taped by Marty Weinberg; akg d190e &gt; uher 4000L; transferred by Michael Parish; seeded by Rob Berger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Michael Parish and Rob Berger</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
   </recording>
   <recording id="r-4ede9d3115033188c896" kind="audience">
     <identifier scheme="archive-org">gd1970-11-07.aud.toner.berger.100330.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">100330</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jack Toner</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>AUD &gt; Master Cassette | MAC &gt; 7" reel@ 7.5 ips, no nr technics rs-1506&gt;hd-p2 24/96&gt; hd&gt;cd wave&gt;adobe 2.0 16/44&gt;flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-5dfe30ec4718947da42a" kind="audience">
     <identifier scheme="archive-org">gd1970-11-07.aud.weinberg.moore.berger.98263.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">98263</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theatre on 1970-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Marty Weinberg</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
+    <personMatch name="Jerry Moore" role="unspecified"/>
+    <personMatch name="Marty Weinberg" role="recordist"/>
     <lineage>aud reel master&gt;aud 1st gen 7" reel @ 3.75 ips, dolby b | technics rs-1506&gt;sony nr-335&gt;hd-p2 24/48&gt; cd wave&gt;flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theatre on 1970-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
   </recording>
-  <recording id="r-8a163e2496b4b66d5fa7" kind="unknown">
+  <recording id="r-8a163e2496b4b66d5fa7" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1970-11-07.aud.weinberg.moore.berger.98264.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">98264</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Marty Weinberg</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
+    <personMatch name="Jerry Moore" role="unspecified"/>
+    <personMatch name="Marty Weinberg" role="recordist"/>
     <lineage>mastered on uher reel w/akg d190e mics taped by Marty Weinberg | aud 1st gen 7" reel @ 3.75 ips, dolby b Jerry Moore's copy; technics rs-1506&gt;sony nr-335&gt;hd-p2 24/48&gt; cd wave&gt;adobe 2.0 16/44&gt;flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
   </recording>
   <recording id="r-347fb88e3541708163fa" kind="audience">
     <identifier scheme="archive-org">gd70-11-07.aud.warner.10306.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10306</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ken Leigh, Jack Toner and Marty Weinberg</credit>
-    <lineage>Audience | See Notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jack Warner</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
+    <credit role="transfer-mastering">Jack Warner</credit>
+    <personMatch name="Marty Weinberg" role="recordist"/>
+    <lineage>Audience</lineage>
   </recording>
 </recordings>

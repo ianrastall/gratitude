@@ -5,56 +5,62 @@
   </record>
   <recording id="r-2aeec82c2d5e37cba583" kind="matrix">
     <identifier scheme="archive-org">gd1974-09-14.131395.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131395</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympia Halle on 1974-09-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>2 Source Matrix by Dusborne; Soundboard (shnid:30653) Recording Info: SBD -&gt; Master Reel -&gt; Dat; Transfer Info: Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC; Transferred and Edited By Charlie Miller and Audience (shnid:9890) MAR &gt; CD. This audience tape was mastered by Gerhard Schinzel from mid-floor using a Philips mic and a Telefunken reel deck. The reel masters were transferred to CD by Uli Teute and were re-mastered by Dave Greenberg</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
-  <recording id="r-a9efd0fe00c11805c534" kind="unknown">
+  <recording id="r-a9efd0fe00c11805c534" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1974-09-14.177131.sbd.patched.flegel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">177131</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympiahalle on 1974-09-14" references="archive-index"/>
     <lineage>Remaster by Brian Flegel of shnid 30653</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
   <recording id="r-cc48de7b3f4502dfd8cc" kind="soundboard">
     <identifier scheme="archive-org">gd1974-09-14.177305.sbd.NEW.patched.flegel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">177305</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympiahalle on 1974-09-14" references="archive-index"/>
     <lineage>Patched soundboard by Brian Flegel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-ba76930e84c87cadd100" kind="soundboard">
     <identifier scheme="archive-org">gd1974-09-14.28353.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">28353</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympia Halle on 1974-09-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard - Set 2, plus Phil/Ned | SBD&gt; Master Reel (7in @ 7.5ips 1/2tr)&gt; Dat (3700/44.1k)&gt; Dat (3800/44.1k); Dat (Sony R500)&gt; SEK'D Prodif Plus&gt; Samplitude v7.02 Professional&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-248ccd86464358ea5b8b" kind="unknown">
+  <recording id="r-248ccd86464358ea5b8b" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1974-09-14.aud.sirmick.32641.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32641</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympiahalle on 1974-09-14" references="archive-index"/>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>This a remaster of shnid 6162 | aud mr &gt; dat &gt; cdr &gt; wav &gt; shn &gt; wav &gt; flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-4568ea5f73dfa9e30da6" kind="unknown">
     <identifier scheme="archive-org">gd1974-09-14.philips-Schinzel.teute-greenberg.9890.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9890</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympiahalle on 1974-09-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Gerhard Schinzel</credit>
+    <credit role="transfer-mastering">Uli Teute and David Greenberg</credit>
     <lineage>MAR &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympiahalle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Uli Teute and David Greenberg</note>
   </recording>
   <recording id="r-ae8117b26efd11ff336e" kind="audience">
     <identifier scheme="archive-org">gd74-09-14.aud.hanno.6162.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6162</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympia Halle on 1974-09-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Hanno Bunjes</credit>
     <lineage>Audience Recording | AUD MR&gt; D&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hanno Bunjes</note>
   </recording>
   <recording id="r-5d3876a46d92ffe1d42c" kind="soundboard">
     <identifier scheme="archive-org">gd74-09-14.sbd.miller.30653.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">30653</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympia Halle on 1974-09-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard | SBD -&gt; Master Reel -&gt; Dat</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Halle on 1974-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

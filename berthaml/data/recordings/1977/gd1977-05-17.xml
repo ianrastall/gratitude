@@ -5,34 +5,37 @@
   </record>
   <recording id="r-bd3d61ed71e3378091d4" kind="matrix">
     <identifier scheme="archive-org">gd1977-05-17.121485.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">121485</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Memorial Coliseum, U of Alabama on 1977-05-17" references="archive-index"/>
+    <credit role="transfer-mastering">matrix by dusborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>2 source matrix: Soundboard (shnid=18554): SBDMR &gt; DAT &gt; CD &gt; EAC &gt; SHN and Aud (shnid=88771): Recording by Steve Maizner: Sony ECM-990s&gt;Sony TC153; Transfer of 1st Generation Cassette (Thanks Alan Z.) Transfer and FLAC encoding by David Minches: 1st Generation Cassette played back on Nakamichi Dragon &gt; Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe soundcard&gt; HDEditing and downsampling performed in Adobe Audition; Flac Encoded</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Coliseum, U of Alabama on 1977-05-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): matrix by dusborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
-  <recording id="r-778a5b1a20184e7b28d7" kind="unknown">
+  <recording id="r-778a5b1a20184e7b28d7" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1977-05-17.aud.maizner.minches.88771.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88771</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Coliseum - University of Alabama on 1977-05-17" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Maizner</credit>
+    <credit role="transfer-mastering">David Minches</credit>
     <lineage>Sony ECM-990s&gt;Sony TC153 | 1st Generation Cassette played back on Nakamichi Dragon &gt; Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe soundcard&gt; HD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Coliseum - University of Alabama on 1977-05-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
   </recording>
   <recording id="r-c9f541b875a47a1788c6" kind="soundboard">
     <identifier scheme="archive-org">gd1977-05-17.sbd.leonard.1107.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1107</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Coliseum - University of Alabama on 1977-05-17" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Brian Leopard</credit>
     <lineage>SBD&gt;MR 7" (Baked)&gt;DAT&gt;Cass&gt;DAT&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Coliseum - University of Alabama on 1977-05-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brian Leopard</note>
   </recording>
-  <recording id="r-d26473742d822878fdb9" kind="unknown">
+  <recording id="r-d26473742d822878fdb9" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1977-05-17.sbd.stretch.5420.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5420</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Memorial Coliseum on 1977-05-17" references="archive-index"/>
     <lineage>S:Rm (7" - baked), D, C, D - 1x90Meter (and Potentially 2x60Meter?) | CDR&gt;EAC&gt;Shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Coliseum on 1977-05-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
   <recording id="r-ef65ccca0538efdc5b7b" kind="soundboard">
     <identifier scheme="archive-org">gd77-05-17.sbd.weiner.18554.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18554</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Memorial Coliseum, U of Alabama on 1977-05-17" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard and Audience composite | SBDMR &gt; DAT &gt; CD &gt; EAC &gt; SHN note: Sugar Magnolia encore supplied by AUD source</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Coliseum, U of Alabama on 1977-05-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

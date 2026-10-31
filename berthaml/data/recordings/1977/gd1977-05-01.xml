@@ -5,65 +5,70 @@
   </record>
   <recording id="r-3e860ecee25a1fd2b6c5" kind="audience">
     <identifier scheme="archive-org">gd1977-05-01.141830.sony.ecm33p.moore.dalton.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141830</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jerry Moore and Tim Dalton</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Jerry Moore" role="recordist"/>
     <lineage>Jerry Moore's Master Audience Cassettes; Sony ECM-33P mics &gt; Sony TC-158SD (Maxell UD-XLII with dolby B) &gt; PCM</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
   </recording>
   <recording id="r-5d411bb905d517980ba9" kind="audience">
     <identifier scheme="archive-org">gd1977-05-01.151748.1st.set.shure.sm57.sublette.mattes.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">151748</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index"/>
     <credit role="recordist">Kathy Sublette</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="unspecified"/>
     <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
   </recording>
   <recording id="r-05b3bc0fb987852abfae" kind="audience">
     <identifier scheme="archive-org">gd1977-05-01.151749.1st.set.shure.sm57.sublette.mattes.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">151749</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Kathy Sublette</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="unspecified"/>
     <lineage>Kathy Sublette's Master Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role unspecified.</note>
   </recording>
   <recording id="r-c6c25776a8bd2fb48169" kind="soundboard">
     <identifier scheme="archive-org">gd1977-05-01.set-2.sbd.miller.81739.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81739</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Disks provided by Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
-  <recording id="r-86e16ab1990f55c1b551" kind="unknown">
+  <recording id="r-86e16ab1990f55c1b551" kind="unknown" inferredKind="matrix">
     <identifier scheme="archive-org">gd1977-05-01set-2.mtx.sirmick.87285.sbeok.flac16</identifier>
-    <credit role="recordist">See info file</credit>
-    <lineage>See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): edited and matrixed by SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">87285</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">edited and matrixed by SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
   </recording>
   <recording id="r-20381f89f4f0ed3a4961" kind="audience">
     <identifier scheme="archive-org">gd77-05-01.aud.goodbear.11941.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11941</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording | Aud Cass master &gt; Reel &gt; PCM &gt; DAT &gt; CD-R &gt; EAC &gt; .SHN:(Loge 1st row AUD center&gt;Cm&gt;Blake Reel (maxell ??? @ 3.75ips) &gt; PCM R500 w/SBM &gt; DAT @ 48 kHz &gt; computer &gt; DAT @ 44.1 kHz or CDRs.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-f66a94a14ab461aea3a2" kind="audience">
     <identifier scheme="archive-org">gd77-05-01.moore.minches.17953.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17953</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jerry Moore</credit>
+    <credit role="transfer-mastering">David Minches</credit>
+    <personMatch name="Jerry Moore" role="recordist"/>
     <lineage>Audience Recording: Sony ECM-33Ps&gt;Sony TC-152 from first row loge | A&gt; D&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role recording.</note>
   </recording>
   <recording id="r-cf4d11033601ce43f992" kind="soundboard">
     <identifier scheme="archive-org">gd77-05-01.set2-sbd.unknown.4763.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4763</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palladium on 1977-05-01" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | MSR&gt; DAT&gt; CDR&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palladium on 1977-05-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

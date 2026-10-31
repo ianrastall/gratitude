@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900704-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-940" nameAsBilled="Sandstone Amphitheater"/>
+  <venue ref="v-sandstone-amphitheater" nameAsBilled="Sandstone Amphitheater"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-cold-rain-and-snow" transition="segue"/>
@@ -11,7 +11,7 @@
       <performance id="p01-03" song="s-mississippi-half-step" transition="unknown"/>
       <performance id="p01-04" song="s-queen-jane-approximately" transition="unknown"/>
       <performance id="p01-05" song="s-loose-lucy" transition="unknown"/>
-      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-06" song="s-its-all-over-now" transition="unknown"/>
       <performance id="p01-07" song="s-loser" transition="segue"/>
       <performance id="p01-08" song="s-promised-land" transition="unknown"/>
       <note>Source section label: Set 1</note>
@@ -31,7 +31,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

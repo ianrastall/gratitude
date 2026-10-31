@@ -5,30 +5,33 @@
   </record>
   <recording id="r-9192d0fabff6d07bf7eb" kind="soundboard">
     <identifier scheme="archive-org">gd1967-03-18.141400.sbd.dalton.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">141400</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1967-03-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Dalton</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Source Info: Master Soundboard Reels &gt; Cassette &gt; Reel to Reel &gt; Dat (16-bit/48k); Transfer Info: Dat (16/48)(Sony PCM-R500) &gt; Tascam DA-3000 (.wav 16/48) &gt; Adobe Audition (16/48) &gt; TLH flac1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1967-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-a125fa99715c09d40287" kind="soundboard">
     <identifier scheme="archive-org">gd1967-03-18.156086.sbd.Flegel.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">156086</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carousel Ballroom on 1967-03-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">This came from an anonymous source via CD.</credit>
+    <credit role="transfer-mastering">All post work done by Brian Flegel -</credit>
     <lineage>Master Soundboard Reels &gt; ?? &gt; CD &gt; .wav &gt; flac | --Converted raw wav files to 15Hkbps / 48khz using Roxio import Cd function of Roxio Music Creator suite (2009). Pitch Corrected using Adobe Audtion CC 2018. Retracked using Roxio Sound Editor (2009). Encoded .wav files to flac (level 8) using Trader's Little Helper.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1967-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All post work done by Brian Flegel -</note>
   </recording>
-  <recording id="r-2672f12c4141c64921db" kind="unknown">
+  <recording id="r-2672f12c4141c64921db" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1967-03-18.sbd.sacks.1594.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1594</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1967-03-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Darrin Sacks</credit>
     <lineage>MSR&gt;R&gt;DATs&gt;CDRs&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1967-03-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Darrin Sacks</note>
   </recording>
   <recording id="r-acc9e124e52a57ec5eeb" kind="soundboard">
     <identifier scheme="archive-org">gd67-03-18.sbd.fink.10282.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10282</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1967-03-18" references="archive-index"/>
+    <credit role="transfer-mastering">A.J. Fink</credit>
     <lineage>Soundboard | MR &gt; ? &gt; CD &gt; EAC &gt; Cool Edit 96 (Resampled to correct pitch) &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1967-03-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): A.J. Fink</note>
   </recording>
 </recordings>

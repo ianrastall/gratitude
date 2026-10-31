@@ -5,27 +5,29 @@
   </record>
   <recording id="r-19a71d4f86bbeb65b3b3" kind="soundboard">
     <identifier scheme="archive-org">gd1971-10-31.142426.sbd.gans.eaton.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142426</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ohio Theatre on 1971-10-31" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>SBD &gt; Master Reel (7in @ 7.5ips 1/2trk) &gt; Dat (Panasonic SV-3700/44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ohio Theatre on 1971-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-71-columbus-oh-ohio-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-71-columbus-oh-ohio-theater/"/>
   </recording>
   <recording id="r-57cf8ff67377651cfc07" kind="soundboard">
     <identifier scheme="archive-org">gd1971-10-31.sbd.miller.79011.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">79011</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ohio Theatre on 1971-10-31" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) D | Dat (Sony D8) -&gt; Samplitude Professional v7.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ohio Theatre on 1971-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-71-columbus-oh-ohio-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-71-columbus-oh-ohio-theater/"/>
   </recording>
-  <recording id="r-ae94b4fdc6b1317a6798" kind="soundboard">
+  <recording id="r-ae94b4fdc6b1317a6798" kind="soundboard" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd71-10-31.prefm.unknown.16781.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16781</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ohio Theatre on 1971-10-31" references="archive-index infinite-dead"/>
     <lineage>Soundboard</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ohio Theatre on 1971-10-31. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-71-columbus-oh-ohio-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-71-columbus-oh-ohio-theater/"/>
   </recording>
 </recordings>

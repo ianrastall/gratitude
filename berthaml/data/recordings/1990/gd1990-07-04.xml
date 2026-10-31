@@ -3,123 +3,132 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-328a7cef6999a96aaf48" kind="unknown">
+  <recording id="r-328a7cef6999a96aaf48" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-07-04.131537.cmc421.fob.deal.petty.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131537</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Lance Deal</credit>
+    <credit role="transfer-mastering">Willl Petty</credit>
     <lineage>Source info: Set 1: Schoeps CMC 421's&gt; Schoeps VMS 52 UB(?)&gt; Technics SVMD1; Set 2: Schoeps CMC 521's&gt; Schoeps VMS 52 UB&gt; Technics SVMD1; Master DAT's provided by Lance Deal; Transfer Info: Fostex D-5 (AES/BU)&gt; Luminuous Monarch&gt; (s/pdif) M-Audio Audiophile 2496&gt; Audacity @ 16/48&gt; 16/44&gt; CD Wav (tracking)&gt; TLH (SBE's/Flac16/md5); Transferred and liberated to etree on October 14, 2014 by Will Petty</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Willl Petty</note>
   </recording>
   <recording id="r-43eb916efd9b0560b246" kind="audience">
     <identifier scheme="archive-org">gd1990-07-04.133536.aud.Holtz.NakCM104.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">133536</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index infinite-dead"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">Greg Holtz</credit>
     <lineage>Field: 2x Nakamichi CM100 mics with CP-4 shotgun capsules &gt; Sony TC-D5M analog cassette recorder &gt; Maxell MX90 tapes; | MAC &gt; Tascam 112 analog cassette deck &gt; Edirol UA-5 USB Audio Interface &gt; 24/96 &gt; PC &gt; Audacity (tracks and fades) &gt; Trader's Little Helper &gt; flac 24/96</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Greg Holtz</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/"/>
   </recording>
   <recording id="r-ec325f8d01f261201002" kind="unknown">
     <identifier scheme="archive-org">gd1990-07-04.137897.dbx.hale.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">137897</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index"/>
     <credit role="recordist">Hale</credit>
+    <credit role="transfer-mastering">Hale</credit>
     <lineage>Front of lawn, dead center, 16' mic stand; NAK-CM-100 w/CP-4 shotgun capsules left &amp; right and Senheiser-441 panned to center &gt; Tascam PortaOne 4-track Cassette (dbx type II on) &gt; Maxell XLII-S 100's (without the 100's Fire would have cut, so glad they came out w/ 100's); Maxell XLII-S100 &gt; Onkyo TA-2027(I have 2 NAK's and neither one work, bought the Onkyo as it has 1/4" mic inputs L &amp; R) &gt; dbx 224x &gt; Sony M-10 (16 bit WAVE &amp; tracked) &gt; Soundforge 9 (fades at start and tape flipps) &gt; encoded to FLAC (level 8) w/TLH</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hale</note>
   </recording>
-  <recording id="r-c618a6593a2b247595e2" kind="audience">
+  <recording id="r-c618a6593a2b247595e2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-07-04.140955.OTS.FOB.Schoeps.Katzeff.Ammons.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">140955</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rick Katzeff</credit>
+    <credit role="transfer-mastering">John Ammons and Joe Noel</credit>
     <lineage>flac16/48kHz ; Recording by Rick Katzeff: Set I: Schoeps CMC32s (omni's spaced 8 1/2 feet) &gt; Panasonic SV255 (front row OTS); Set II: Schoeps CMC421 at "100 degrees RED" &gt; Panasonic SV255 (FOB); Transfer by John Ammons: DAT clone &gt; Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
   </recording>
-  <recording id="r-85c2fad7bb2c20368359" kind="audience">
+  <recording id="r-85c2fad7bb2c20368359" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1990-07-04.143599.FOB.Schoeps.Brotman.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">143599</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Brotman</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Dave Brotman (FOB) Recording: Schoeps CMC5/MK4 (ortf) &gt; Oade Pre-Amp &gt; Dat (Panasonic SV-255/48k) Location: Row V Seats 4 + 5 | Charlie Miller Transfer: DAT Master &gt; Sony PCM r500 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-e2c1616ae5b5804be81f" kind="audience">
     <identifier scheme="archive-org">gd1990-07-04.147811.mac.billtmcdee.t.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">147811</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Recorded and transfered by Allen Ryals (billtmcdee) Patched and Pitched by Jason Chastain Mastered by Jamie Waddell Tracked and Flac'd by Norm Bowen</credit>
     <lineage>Master Audience Recording Audio Technica 815a Mics &gt; Marantz PMD430 Recorder, DBX on &gt; Maxell XLII-S cassette | Transfer info: Cassette Master -&gt; Nakamichi Cassette Deck 1.5 &gt; DBX 224X-DS Noise Reduction System &gt; Sound Devices 722</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-4ffb3edf7dff052efe91" kind="audience">
     <identifier scheme="archive-org">gd1990-07-04.147812.mac.billtmcdee.t.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">147812</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Recorded and transfered by Allen Ryals (billtmcdee) Patched and Pitched by Jason Chastain Mastered by Jamie Waddell Tracked and Flac'd by Norm Bowen</credit>
     <lineage>Master Audience Recording Audio Technica 815a Mics &gt; Marantz PMD430 Recorder, DBX on &gt; Maxell XLII-S cassette | Transfer info: Cassette Master -&gt; Nakamichi Cassette Deck 1.5 &gt; DBX 224X-DS Noise Reduction System &gt; Sound Devices 722</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-4f9f470cde9ef8f0f606" kind="matrix">
+  <recording id="r-4f9f470cde9ef8f0f606" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1990-07-04.153738.ultramatrix.miller.flac2496</identifier>
-    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
-    <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller October 4, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-  </recording>
-  <recording id="r-9c280d1dec9cafd35d3a" kind="matrix">
-    <identifier scheme="archive-org">gd1990-07-04.154442.UltraMatrix.sbd.cm.miller.t.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">153738</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering By Charlie Miller October 4, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering By Charlie Miller October 4, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
+  </recording>
+  <recording id="r-9c280d1dec9cafd35d3a" kind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="archive-org">gd1990-07-04.154442.UltraMatrix.sbd.cm.miller.t.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">154442</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering By Charlie Miller October 4, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
+    <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
   </recording>
   <recording id="r-1a15f15fc6356654c5bf" kind="audience">
     <identifier scheme="archive-org">gd1990-07-04.AKG451.Darby.117549.Flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">117549</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (PAS/20 Feet Directly In Front Of Left Lawn Stack/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes (Sony Metal-ES); Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging By Keo With AudioGate Software</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/"/>
   </recording>
   <recording id="r-c963c8c750e4b802a0fb" kind="audience">
     <identifier scheme="archive-org">gd1990-07-04.AKG451.Darby.117550.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">117550</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (PAS/20 Feet Directly In Front Of Left Lawn Stack/6 Feet High)&gt; Whirlwind Phantoms&gt;Sony TC-D5M,Tapes (Sony Metal-ES); Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With AudiGate Software</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-8884d5e6c5b0775597a8" kind="unknown">
     <identifier scheme="archive-org">gd1990-07-04.s1.127374.josephsonC640.chuckm.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">127374</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Amphitheatre on 1990-07-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chuck Miller</credit>
+    <credit role="transfer-mastering">Chuck Miller</credit>
     <lineage>Source: Josephson C-640 w/ KA-20 (cardioid) capsules (NOS, OTS, 8' up) &gt; 5532 differential pre-amp (+21db) &gt; Panasonic AG6400 (Hi-Fi audio, VHS master) &gt; JVC HR-D725U (Hi-Fi audio, VHS Gen 1) | Transfer: JVC HR-D725U (Hi-Fi audio, VHS Gen 1) &gt; Tascam DR-680 &gt; SDHC card &gt; PC Digital editing: Steinberg CuBase SX (pre and post set fades, iZotope RX DeClick, WAVES Q10 Paragraphic EQ, WAVES L2 Ultramaximizer, a 1 second section of s1t06 was patched with the analog cassette master of the same source) Tracking &amp; processing: CD Wave Editor &gt; Trader's Little Helper/ FLAC, SBE check &amp; FLAC fingerprint &gt; AudioShell tag editor</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Amphitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chuck Miller</note>
   </recording>
   <recording id="r-d496756c0e3eff91c1dd" kind="soundboard">
     <identifier scheme="archive-org">gd1990-07-04.sbd.miller.tetzeli.fix-26351.81523.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81523</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Amphitheatre on 1990-07-04" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Bill Tetzeli</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Patched fix of shnid 26351</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Amphitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Tetzeli</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/"/>
   </recording>
   <recording id="r-02398abb50a608894ea8" kind="audience">
     <identifier scheme="archive-org">gd90-07-04.akg.ladner.8573.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8573</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>AUD (AKG 414) &gt; DAT (Sony D-3) &gt; CDR &gt; WAV &gt; SHNv3</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/"/>
   </recording>
   <recording id="r-e3b77991b7db5b2c3d8f" kind="soundboard">
     <identifier scheme="archive-org">gd90-07-04.sbd.miller.26351.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">26351</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04" references="archive-index archive-url-snapshot infinite-dead"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>SBD&gt; Dat&gt; Cassette Master | Cassette Master&gt; ART DIO (24bit/96k)&gt; Sound Forge 7&gt; CD&gt; EAC&gt; SHN; SHN Conversion By Charlie Miller</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Sandstone Ampitheatre on 1990-07-04. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-4-90-bonner-springs-kansas-sandstone-amphitheatre/"/>
   </recording>
 </recordings>

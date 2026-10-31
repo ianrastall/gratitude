@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930124-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <venue ref="v-oakland-alameda-county-coliseum-arena" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-jack-straw" transition="segue"/>
@@ -18,7 +18,7 @@
       <performance id="p02-01" song="s-playing-in-the-band" transition="segue"/>
       <performance id="p02-02" song="s-crazy-fingers" transition="segue"/>
       <performance id="p02-03" song="s-samson-and-delilah" transition="segue"/>
-      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-04" song="s-hes-gone" transition="segue"/>
       <performance id="p02-05" song="s-jam" transition="segue"/>
       <performance id="p02-06" song="s-drums" transition="segue"/>
       <performance id="p02-07" song="s-space" transition="segue"/>
@@ -28,7 +28,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <performance id="p03-01" song="s-knockin-on-heavens-door" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

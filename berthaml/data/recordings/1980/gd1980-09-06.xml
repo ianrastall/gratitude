@@ -3,187 +3,192 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-10d85eda6d2b8d886b19" kind="audience">
+  <recording id="r-10d85eda6d2b8d886b19" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.119726.fob.hance.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">119726</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">John Hance</credit>
+    <credit role="transfer-mastering">Michale Turi</credit>
     <lineage>FOB 3 mic blend taped by John Hance; FOB&gt;AMC&gt;DAT&gt;CD&gt;EAC&gt;TLH&gt;FLAC; extracted and flac encoded by Michale Turi</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Michale Turi</note>
   </recording>
   <recording id="r-581c675d263d802eaad1" kind="audience">
     <identifier scheme="archive-org">gd1980-09-06.126441.commander.berger.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">126441</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
     <credit role="recordist">The Commander</credit>
+    <credit role="transfer-mastering">Rob Berger and taperchuck</credit>
     <lineage>source: aud cassette master; taped by The Commander; audio-technica condensor mics &gt; sony tc-152, tdk sa-c90's, no nr; nak dragon &gt; benchmark adc1 24/96 &gt; adobe audition cs6 16/44.1 &gt; flac; transfer/seed by Rob Berger &amp; Taperchuck</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger and taperchuck</note>
   </recording>
   <recording id="r-2053d8bf9d6e6923d7af" kind="audience">
     <identifier scheme="archive-org">gd1980-09-06.126539.commander.berger.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">126539</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
     <credit role="recordist">The Commander</credit>
+    <credit role="transfer-mastering">Rob Berger and Taperchuck</credit>
     <lineage>source: aud cassette master taped by The Commander; audio-technica condensor mics &gt; sony tc-152, tdk sa-c90's, no nr; nak dragon &gt; benchmark adc1 24/96 &gt; adobe audition cs6 &gt; flac; transfer/seed by Rob Berger &amp; Taperchuck</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger and Taperchuck</note>
   </recording>
-  <recording id="r-53c3672e505f958af3ac" kind="audience">
+  <recording id="r-53c3672e505f958af3ac" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.127165.fob-nak700.rolfe-wise.minches.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">127165</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise and Steve Rolfe</credit>
+    <credit role="transfer-mastering">David Minches</credit>
+    <personMatch name="Jim Wise" role="recordist"/>
+    <personMatch name="Steve Rolfe" role="recordist"/>
     <lineage>Recording by Steve Rolfe &amp; Jim Wise: Master Audience Cassette; 2 NaKamichi 700s&gt; Sony D-5; Transfer and FLAC encoding by David Minches: February 20 , 2014; Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
   </recording>
-  <recording id="r-a9fa2879504382a156b0" kind="audience">
+  <recording id="r-a9fa2879504382a156b0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.136807.fob-nak700.rolfe-wise.minches.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136807</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
     <credit role="recordist">Jim Wise and Steve Rolfe</credit>
+    <credit role="transfer-mastering">David Minches</credit>
+    <personMatch name="Jim Wise" role="recordist"/>
+    <personMatch name="Steve Rolfe" role="recordist"/>
     <lineage>Recording by Steve Rolfe &amp; Jim Wise: Master Audience Cassette; 2 NaKamichi 700s&gt; Sony D-5; Transfer and FLAC encoding by David Minches; Master played back on Nakamichi Dragon &gt; Korg MR-1000(DSF [1-bit 5.6448 MHz Stereo]) Korg AudioGate &gt; WAV [24/96] &gt; Adobe Audition 3.0&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
   </recording>
-  <recording id="r-c4a1aed0727401eaffe6" kind="audience">
+  <recording id="r-c4a1aed0727401eaffe6" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.142971.fob.nak700.wise.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">142971</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="recordist"/>
+    <personMatch name="Steve Rolfe" role="unspecified"/>
     <lineage>Source Info: Jim Wise's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5 (Maxell UDXLII-C90)(patched out of Steve Rolfe); Transfer Info: Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Steve Rolfe; role unspecified.</note>
   </recording>
-  <recording id="r-1c15e8ab92c5584eebbd" kind="audience">
+  <recording id="r-1c15e8ab92c5584eebbd" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.142972.fob.nak700.wise.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142972</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="recordist"/>
+    <personMatch name="Steve Rolfe" role="unspecified"/>
     <lineage>flac16/48kHz ; Source Info: Jim Wise's Master (FOB) Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5 (Maxell UDXLII-C90)(patched out of Steve Rolfe); Transfer Info: Master Cassettes (Nakamichi Dragon)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24-bit/96 kHz) &gt; Adobe Audition 3.01 (24-bit/96 kHz) &gt; TLH flac2496; 24-bit &gt; 16-bit via dBpoweramp</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Steve Rolfe; role unspecified.</note>
   </recording>
-  <recording id="r-d4efc27d67c4f4d5735e" kind="audience">
+  <recording id="r-d4efc27d67c4f4d5735e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.147839.fob.shure.sm57.sublette.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">147839</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Kathy Sublette</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Kathy Sublette's Master (FOB) Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d1b5a81fd0aa710501b5" kind="audience">
+  <recording id="r-d1b5a81fd0aa710501b5" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.147840.fob.shure.sm57.sublette.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">147840</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
     <credit role="recordist">Kathy Sublette</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Kathy Sublette's Master (FOB) Audience Cassettes; Shure SM57 mics &gt; Sony-TC158 | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-372d953947b8964c230f" kind="audience">
     <identifier scheme="archive-org">gd1980-09-06.150980.aud.gems.flac1648</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">150980</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Transferred and Mastered by Jim Blackwood Speed Correction by Jason Chastain Listening Assistance and Track FLAC Pack by Steve Gravel</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>1st gen AUD Cassette (unknown source/taper) | 1st gen CAS (Nakamichi CR-7A) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 &gt; Flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transferred and Mastered by Jim Blackwood Speed Correction by Jason Chastain Listening Assistance and Track FLAC Pack by Steve Gravel</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-425d4e44d5c544b77e61" kind="audience">
     <identifier scheme="archive-org">gd1980-09-06.150981.aud.gems.flac2496</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">150981</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Transferred and Mastered by Jim Blackwood Speed Correction by Jason Chastain Listening Assistance and Track FLAC Pack by Steve Gravel</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>1st gen AUD Cassette (unknown source/taper) | 1st gen CAS (Nakamichi CR-7A) &gt; Tascam DA-3000 &gt; Samplitude Pro X5 &gt; Flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transferred and Mastered by Jim Blackwood Speed Correction by Jason Chastain Listening Assistance and Track FLAC Pack by Steve Gravel</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-2dd53f1b7b5e9c87204b" kind="soundboard">
     <identifier scheme="archive-org">gd1980-09-06.175072.tape1.sbd.remaster.browning.samaritano.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">175072</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
+    <credit role="transfer-mastering">Tape provided by Joey Browning Transfer by Joe Samaritano Mastering by Charlie Miller November 6, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master &gt; ? &gt; Cassette &gt; SHN &gt; FLAC | FLAC &gt; iZotope RX11 Advanced &gt; Adobe Audition 2025 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tape provided by Joey Browning Transfer by Joe Samaritano Mastering by Charlie Miller November 6, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-ae4a874b7ad966f9b4a4" kind="unknown">
+  <recording id="r-ae4a874b7ad966f9b4a4" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1980-09-06.aud.bass.16926.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16926</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Maine State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charles Bass</credit>
     <lineage>MAC &gt; ? &gt; CD &gt; EAC &gt; SHNv3</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Maine State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Charles Bass</note>
   </recording>
-  <recording id="r-e31d37d1875e1129b9a2" kind="audience">
+  <recording id="r-e31d37d1875e1129b9a2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.aud.morris.106620.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">106620</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
     <credit role="recordist">Bob Morris</credit>
+    <credit role="transfer-mastering">Bob Morris</credit>
     <lineage>(FOB) Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII-C90) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits) Recorded FOB by Bob Morris</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Bob Morris</note>
   </recording>
-  <recording id="r-2cec955a6ca6c91ecef7" kind="unknown">
+  <recording id="r-2cec955a6ca6c91ecef7" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1980-09-06.aud.rolfe.wise-cribbs.25471.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">25471</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Maine State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">Jim Wise</credit>
+    <personMatch name="Jim Wise" role="recordist"/>
+    <personMatch name="Steve Rolfe" role="unspecified"/>
     <lineage>OB Nak 700s &gt; Sony TC-D5 (Steve Rolfe?s) &gt; Sony TC-D5 (Jim Wise?s) &gt; MAC (Maxell XII; Dolby B encoded) | MAC (Maxell XII; Dolby B encoded) &gt; playback on Nakamichi Dragon (Dolby B decoded) &gt; Sony PCM R-700 (A&gt;D passthrough) &gt; Zefiro ZA2 &gt; WAV &gt; CD (untracked) &gt; EAC &gt; WAV &gt; CD Wave tracking &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Maine State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Steve Rolfe; role unspecified.</note>
   </recording>
-  <recording id="r-15d4062ce0a60112920d" kind="audience">
+  <recording id="r-15d4062ce0a60112920d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.fob.nak300.morris.102017.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102017</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
     <credit role="recordist">Bob Morris</credit>
+    <credit role="transfer-mastering">Bob Morris</credit>
     <lineage>(FOB) Nakamichi CM-300 (CP-1) x2 &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII-C90); | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Bob Morris</note>
   </recording>
-  <recording id="r-9b6e57b4accfae240073" kind="audience">
+  <recording id="r-9b6e57b4accfae240073" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.fob.nak700.rolfe.miller.93782.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">93782</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Maine State Fairgrounds on 1980-09-06" references="archive-index"/>
     <credit role="recordist">Steve Rolfe</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Steve Rolfe" role="recordist"/>
     <lineage>(FOB) Nakamichi 700 -&gt; Master Cassette (Sony D5/Maxell UDXL-II) | Master Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Maine State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
   </recording>
-  <recording id="r-0fa5782cef551a7b7d8a" kind="soundboard">
+  <recording id="r-0fa5782cef551a7b7d8a" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.nak300.friend.andrewf.101684.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">101684</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Friend</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>2x Nakamichi CM300 w/CP4 shotguns &gt; Nakamichi 550 &gt; Maxell XL-II 90's. Mics on stand FOB, near the soundboard. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
-  <recording id="r-9dddf22ac08a6f3b389b" kind="soundboard">
+  <recording id="r-9dddf22ac08a6f3b389b" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-09-06.nak300.friend.andrewf.101685.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">101685</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Friend</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>2x Nakamichi CM300 w/CP4 shotguns &gt; Nakamichi 550 &gt; Maxell XL-II 90's. Mics on stand FOB, near the soundboard. | MAC &gt; Nakamichi DR-2 &gt; Edirol FA-66 &gt; Wavelab &gt; CD-Wave &gt; R8Brain &gt; TLH &gt; FLAC 1644</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
-  <recording id="r-d03a8aefd961fccbb861" kind="soundboard">
+  <recording id="r-d03a8aefd961fccbb861" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd80-09-06.sbd_aud.miller.25560.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">25560</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Soundboard and Audience composite | (Source 1): SBD -&gt; Master Cassette -&gt; ? -&gt; Cass -&gt; Fostex D5 (pass-through only) -&gt; ZA2 -&gt; Samplitude v7.02 Professional -&gt; SHN; (Source 2): (FOB) Nakamichi 700 -&gt; Master Cassette (Sony D5) -&gt; Dat -&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-b7ebb80b246adaa6648d" kind="soundboard">
     <identifier scheme="archive-org">gd80-09-06.set1-sbd.samaritano.23371.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">23371</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Joe Samaritano</credit>
     <lineage>Soundboard | Set 1 Only; Soundboard-&gt; Unknown-&gt; Cassette.Cassette-&gt; Fostex D5 (pass-through only)-&gt; ZA2-&gt; Samplitude v7.02 Professional-&gt; .wav-&gt; mkw-&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe Samaritano</note>
   </recording>
   <recording id="r-77508d62dc9cd5614611" kind="audience">
     <identifier scheme="archive-org">gd80-09-06.wise.unknown.322.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">322</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at State Fairgrounds on 1980-09-06" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Jim Wise" role="unspecified"/>
     <lineage>Audience Recording | Nak Dragon &gt; Sony PCM r-500 DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at State Fairgrounds on 1980-09-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role unspecified.</note>
   </recording>
 </recordings>

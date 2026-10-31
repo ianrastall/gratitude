@@ -5,36 +5,41 @@
   </record>
   <recording id="r-81ee8d4e0288879b344a" kind="soundboard">
     <identifier scheme="archive-org">gd1971-04-25.sbd.bertha.ashley.96096.dvda</identifier>
+    <identifier scheme="shnid" certainty="probable">96096</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1971-04-25" references="archive-index"/>
+    <credit role="transfer-mastering">Jay Ashley</credit>
     <lineage>SBD&gt;&gt;MR | MR&gt;&gt;CD&gt;&gt;DAW(Bertha)&gt;&gt;Audio DVD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jay Ashley</note>
   </recording>
   <recording id="r-c1735793d1b7cba5d93a" kind="soundboard">
     <identifier scheme="archive-org">gd1971-04-25.sbd.matera.113038.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">113038</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1971-04-25" references="archive-index"/>
+    <credit role="transfer-mastering">Phil Matera**</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>This remaster uses Charlie Miller's gd71-04-25.sbd.miller.95625.sbeok.flac16 as a baseline. Amplitude and Equalization adjustments were made using Cool Edit 2000.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Phil Matera**</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-e7073c108aa03c970202" kind="soundboard">
     <identifier scheme="archive-org">gd1971-04-25.sbd.miller.95625.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95625</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1971-04-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; CD | CD -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3b22b7bc2a2eb983265f" kind="soundboard">
     <identifier scheme="archive-org">gd1971-04-25.sbd.vernon-minor.30886.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">30886</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1971-04-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Minor for the disks</credit>
+    <credit role="transfer-mastering">EAC/FLAC by Matt Vernon</credit>
     <lineage>SBD -&gt; ? -&gt; C -&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): EAC/FLAC by Matt Vernon</note>
   </recording>
   <recording id="r-5d736adb8c122b153039" kind="soundboard">
     <identifier scheme="archive-org">gd71-04-25.sbd.grote.8761.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8761</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore East on 1971-04-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard Partial - End of Set 2 Only | SBD &gt; RM &gt; ? &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore East on 1971-04-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

@@ -3,19 +3,19 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-56db4a768b06a80f54f6" kind="fm">
+  <recording id="r-56db4a768b06a80f54f6" kind="fm" modifiers="FM">
     <identifier scheme="archive-org">gd1971-10-26.176458.wcmf-fm.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">176458</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palestra, U. of Rochester on 1971-10-26" references="archive-index"/>
     <credit role="recordist">dubbed by David Bernis</credit>
+    <credit role="transfer-mastering">Doug Rice for expert transfer from Beta, Andrew F</credit>
     <lineage>WCMF-FM &gt; Reels &gt; ? &gt; Beta HiFi. | Beta HiFi (Sony L-750 ES, dubbed by David Bernis) &gt; Sony SL-HF400 Super Beta HiFi VCR &gt; Komplete-6 interface &gt; Audacity 2496 capture &gt; Izotope-RX (De-hum) &gt; Wavelab 2496 (gain &amp; speed adjustments, edits) &gt; R8Brain &gt; Wavelab 1644 (adding patches) &gt; CD-Wave &gt; TLH &gt; FLAC 1644 tagged.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palestra, U. of Rochester on 1971-10-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Doug Rice for expert transfer from Beta, Andrew F</note>
   </recording>
-  <recording id="r-05e9cb759f1d2ba81b29" kind="soundboard">
+  <recording id="r-05e9cb759f1d2ba81b29" kind="soundboard" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd71-10-26.sbd.cotsman.9761.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9761</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Palestra, U. of Rochester on 1971-10-26" references="archive-index infinite-dead"/>
     <lineage>Soundboard | Source 1: (all material on discs 1 &amp; 2)SBD&gt;MR&gt;R&gt;C&gt;D&gt;CD(pre FM) Source 2: (all material on disc 3)SBD&gt;MR&gt;?&gt;D&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Palestra, U. of Rochester on 1971-10-26. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/26/10-26-71-rochester-ny-university-of-rochester-the-palestra/</note>
+    <reference href="http://infinitedead.net/2021/10/26/10-26-71-rochester-ny-university-of-rochester-the-palestra/"/>
   </recording>
 </recordings>

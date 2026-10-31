@@ -5,23 +5,25 @@
   </record>
   <recording id="r-7190500291535901467e" kind="unknown">
     <identifier scheme="archive-org">gd1993-09-14.nak300.cousinit.19237.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">19237</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1993-09-14" references="archive-index"/>
     <credit role="recordist">Cousinit</credit>
+    <credit role="transfer-mastering">Cousinit</credit>
     <lineage>Denon DTR80P DAT Deck w/ Nak 300 Shotguns&gt;MDAT&gt;WAV&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Cousinit</note>
   </recording>
-  <recording id="r-eecbacb60242a7b251f4" kind="soundboard">
+  <recording id="r-eecbacb60242a7b251f4" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd93-09-14.dsbd.miller.28786.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">28786</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1993-09-14" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16 SBD -&gt; Master Dat (48k) | Dat (Sony 500) -&gt; Behringer UltraMatch SRC2000 -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-14. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f1d3fb05f05a278b84d9" kind="audience">
     <identifier scheme="archive-org">gd93-09-14.schoeps.wiley.13830.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13830</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1993-09-14" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">T. Wiley</credit>
     <lineage>Audience: Schoeps mk41's | Schoeps mk41's/CMC3 &gt; Tascam DA-P1 &gt; CDR &gt; EAC (secure) &gt; CD Wave &gt; Cool Edit Pro &gt; mkwACT &gt; SHN (seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1993-09-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): T. Wiley</note>
   </recording>
 </recordings>

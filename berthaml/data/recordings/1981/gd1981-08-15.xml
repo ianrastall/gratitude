@@ -3,17 +3,18 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-ff32e8669bfb66803dcc" kind="unknown">
+  <recording id="r-ff32e8669bfb66803dcc" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1981-08-15.aud.severson.91771.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91771</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Memorial Coliseum on 1981-08-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">David Minches</credit>
     <lineage>3 Nak 700s with 2 carcoid, center omni head&gt; Sony TC-D5 (2 Maxell UD XL-IIs) | Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Coliseum on 1981-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
   </recording>
   <recording id="r-7c60ab7c74d951b603f9" kind="audience">
     <identifier scheme="archive-org">gd81-08-15.severson.munder.11022.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11022</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Portland Memorial Coliseum on 1981-08-15" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Nak 700's | 3 Nak 700s&gt;Sony D5M&gt;MC&gt;Reel&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1981-08-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

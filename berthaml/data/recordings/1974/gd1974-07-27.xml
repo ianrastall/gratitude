@@ -5,48 +5,51 @@
   </record>
   <recording id="r-f719dc85a003e964ac0a" kind="audience">
     <identifier scheme="archive-org">gd1974-07-27.132188.southern.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">132188</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Center on 1974-07-27" references="archive-index archive-url-snapshot"/>
     <lineage>unknow gen audience recording &gt; ? &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1974-07-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Unknown</note>
   </recording>
   <recording id="r-11762352125fb04814ab" kind="matrix">
     <identifier scheme="archive-org">gd1974-07-27.136793.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136793</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Center on 1974-07-27" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>2 Source Matrix by Dusborne; Soundboard (Shnid:107804) Recording Info: SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD -&gt; EAC -&gt; SHN; Transfer Info: SHN-&gt; Adobe Audition v3.0-&gt; Samplitude Professional v11.03-&gt; FLAC; Audience (Shnid:132282) Source: Audience Recording &gt; AKG D200e's &gt; Sony TCC152 SD &gt; mac &gt; rr &gt; dat &gt; cdr,Lineage: cdr &gt; eac &gt; wav &gt; Adobe Audition 1.5 &gt; iZotope RX4 Advanced &gt; iZotope 5 Advanced &gt;CD Wave &gt; TLH &gt; Flac 16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1974-07-27. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/</note>
+    <reference href="http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/"/>
   </recording>
   <recording id="r-2ba7282588bbb05e9307" kind="soundboard">
     <identifier scheme="archive-org">gd1974-07-27.167055.sbd.patched.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">167055</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roanoke Civic Center on 1974-07-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">This is a patched version of shnid=107804</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller February 24, 2024</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Master Reel &gt; Cassette &gt; Dat &gt; CD | CD &gt; Adobe Audition v3.0 &gt; Samplitude Professional v11.03 &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roanoke Civic Center on 1974-07-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 24, 2024</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-05d9c883f84ae59ece7b" kind="audience">
     <identifier scheme="archive-org">gd1974-07-27.akgd200e.unk.sirmick.132282.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">132282</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Center on 1974-07-27" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: Audience Recording &gt; AKG D200e's &gt; Sony TCC152 SD &gt; mac &gt; rr &gt; dat &gt; cdr; | cdr &gt; eac &gt; wav &gt; Adobe Audition 1.5 &gt; iZotope RX4 Advanced &gt; iZotope 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1974-07-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/</note>
+    <reference href="http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/"/>
   </recording>
   <recording id="r-773d3b40747ed5e8ec69" kind="soundboard">
     <identifier scheme="archive-org">gd1974-07-27.sbd.miller.107804.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">107804</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Civic Center on 1974-07-27" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD -&gt; EAC -&gt; SHN | SHN -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Civic Center on 1974-07-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/</note>
+    <reference href="http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/"/>
   </recording>
   <recording id="r-352b9ff7adc8d6c4607b" kind="soundboard">
     <identifier scheme="archive-org">gd74-07-27.sbd.kaplan.2420.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2420</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roanoke Civic Center on 1974-07-27" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Soundboard | SBD&gt; MR&gt; C&gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roanoke Civic Center on 1974-07-27. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/</note>
+    <reference href="http://infinitedead.net/2024/07/27/7-27-74-roanoke-va-civic-center/"/>
   </recording>
 </recordings>

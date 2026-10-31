@@ -6,80 +6,84 @@
   </record>
   <recording id="r-98919e93c30f8026489d" kind="unknown">
     <identifier scheme="archive-org">gd1993-01-24.116031.NeumannKMF4.daweez.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">116031</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>source: 2 Neumann KMF4's up front-center&gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
-  <recording id="r-5100f1c9517af7c56d05" kind="audience">
+  <recording id="r-5100f1c9517af7c56d05" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1993-01-24.138078.SchoepsMK4.FOB.Darroch.Ammons.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138078</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24" references="archive-index"/>
     <credit role="recordist">Rob Darroch</credit>
+    <credit role="transfer-mastering">John Ammons and Joe Noel</credit>
     <lineage>flac16/48kHz ; Rob Darroch recording [FOB DFC]: Schoeps MK4 Capsules in hat &gt; Bill Reutelhuber PS &gt; Panasonic SV250. Mics worn in hat by Rob Darroch; John Ammons | from his DAT clone of the master. Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Joe Noel T,F &amp; P: Wave &gt; Audacity &gt; track/label &gt; export multiple &gt; flac 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): John Ammons and Joe Noel</note>
   </recording>
-  <recording id="r-d0e271626a832d9e8e7b" kind="audience">
+  <recording id="r-d0e271626a832d9e8e7b" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1993-01-24.141070.set2.cmc3-mk4.ebel.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141070</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>flac16/44.1 set 2 only. Source Info:FOB Schoeps CMC3 Mk4-&gt; DATTransfer Info:Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's)Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)Transfers by Pete Ebel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
   <recording id="r-d39b645d2c5c4e197cd3" kind="soundboard">
     <identifier scheme="archive-org">gd1993-01-24.142854.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">142854</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat Master &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
     <playlist id="pl-b805f20e3fddba7f3989" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1993-01-24.142854.sbd.miller.flac2496">
-      <track n="1" title="01 Jack Straw" file="01JackStraw.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT336.22S"/>
-      <track n="2" title="02 Sugaree" file="02Sugaree.flac" mappingStatus="unreviewed" sourceNumber="2" duration="PT653.85S"/>
-      <track n="3" title="03 Walkin' Blues" file="03WalkinBlues.flac" mappingStatus="unreviewed" sourceNumber="3" duration="PT429.51S"/>
-      <track n="4" title="04 Loser" file="04Loser.flac" mappingStatus="unreviewed" sourceNumber="4" duration="PT454.54S"/>
-      <track n="5" title="05 Queen Jane Approximately" file="05QueenJaneApproximately.flac" mappingStatus="unreviewed" sourceNumber="5" duration="PT425.18S"/>
-      <track n="6" title="06 Bird Song" file="06BirdSong.flac" mappingStatus="unreviewed" sourceNumber="6" duration="PT884.87S"/>
-      <track n="7" title="07 Playing In The Band" file="07PlayingInTheBand.flac" mappingStatus="unreviewed" sourceNumber="7" duration="PT476.9S"/>
-      <track n="8" title="08 Crazy Fingers" file="08CrazyFingers.flac" mappingStatus="unreviewed" sourceNumber="8" duration="PT468.83S"/>
-      <track n="9" title="09 Samson And Delilah" file="09SamsonAndDelilah.flac" mappingStatus="unreviewed" sourceNumber="9" duration="PT441.39S"/>
-      <track n="10" title="10 He's Gone" file="10HesGone.flac" mappingStatus="unreviewed" sourceNumber="10" duration="PT818.52S"/>
-      <track n="11" title="11 Drums" file="11Drums.flac" mappingStatus="unreviewed" sourceNumber="11" duration="PT321.07S"/>
-      <track n="12" title="12 Space" file="12Space.flac" mappingStatus="unreviewed" sourceNumber="12" duration="PT967.97S"/>
-      <track n="13" title="13 The Last Time" file="13TheLastTime.flac" mappingStatus="unreviewed" sourceNumber="13" duration="PT399.66S"/>
-      <track n="14" title="14 Black Peter" file="14BlackPeter.flac" mappingStatus="unreviewed" sourceNumber="14" duration="PT626.37S"/>
-      <track n="15" title="15 Sugar Magnolia" file="15SugarMagnolia.flac" mappingStatus="unreviewed" sourceNumber="15" duration="PT556.04S"/>
-      <track n="16" title="16 Knockin' On Heaven's Door" file="16KnockinOnHeavensDoor.flac" mappingStatus="unreviewed" sourceNumber="16" duration="PT393.7S"/>
+      <track n="1" title="01 Jack Straw" file="01JackStraw.flac" mappingStatus="candidate" sourceNumber="1" duration="PT336.22S" covers="p01-01" certainty="probable"/>
+      <track n="2" title="02 Sugaree" file="02Sugaree.flac" mappingStatus="candidate" sourceNumber="2" duration="PT653.85S" covers="p01-02" certainty="probable"/>
+      <track n="3" title="03 Walkin' Blues" file="03WalkinBlues.flac" mappingStatus="candidate" sourceNumber="3" duration="PT429.51S" covers="p01-03" certainty="probable"/>
+      <track n="4" title="04 Loser" file="04Loser.flac" mappingStatus="candidate" sourceNumber="4" duration="PT454.54S" covers="p01-04" certainty="probable"/>
+      <track n="5" title="05 Queen Jane Approximately" file="05QueenJaneApproximately.flac" mappingStatus="candidate" sourceNumber="5" duration="PT425.18S" covers="p01-05" certainty="probable"/>
+      <track n="6" title="06 Bird Song" file="06BirdSong.flac" mappingStatus="candidate" sourceNumber="6" duration="PT884.87S" covers="p01-06" certainty="probable"/>
+      <track n="7" title="07 Playing In The Band" file="07PlayingInTheBand.flac" mappingStatus="candidate" sourceNumber="7" duration="PT476.9S" covers="p02-01" certainty="probable"/>
+      <track n="8" title="08 Crazy Fingers" file="08CrazyFingers.flac" mappingStatus="candidate" sourceNumber="8" duration="PT468.83S" covers="p02-02" certainty="probable"/>
+      <track n="9" title="09 Samson And Delilah" file="09SamsonAndDelilah.flac" mappingStatus="candidate" sourceNumber="9" duration="PT441.39S" covers="p02-03" certainty="probable"/>
+      <track n="10" title="10 He's Gone" file="10HesGone.flac" mappingStatus="candidate" sourceNumber="10" duration="PT818.52S" covers="p02-04" certainty="probable"/>
+      <track n="11" title="11 Drums" file="11Drums.flac" mappingStatus="candidate" sourceNumber="11" duration="PT321.07S" covers="p02-06" certainty="probable"/>
+      <track n="12" title="12 Space" file="12Space.flac" mappingStatus="candidate" sourceNumber="12" duration="PT967.97S" covers="p02-07" certainty="probable"/>
+      <track n="13" title="13 The Last Time" file="13TheLastTime.flac" mappingStatus="candidate" sourceNumber="13" duration="PT399.66S" covers="p02-08" certainty="probable"/>
+      <track n="14" title="14 Black Peter" file="14BlackPeter.flac" mappingStatus="candidate" sourceNumber="14" duration="PT626.37S" covers="p02-09" certainty="probable"/>
+      <track n="15" title="15 Sugar Magnolia" file="15SugarMagnolia.flac" mappingStatus="candidate" sourceNumber="15" duration="PT556.04S" covers="p02-10" certainty="probable"/>
+      <track n="16" title="16 Knockin' On Heaven's Door" file="16KnockinOnHeavensDoor.flac" mappingStatus="candidate" sourceNumber="16" duration="PT393.7S" covers="p03-01" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Archive source metadata (lineage): Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</note>
-    <note>Archive source metadata (source): SBD &gt; Dat Master &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100)</note>
-    <note>Archive source metadata (transferer): Charlie Miller</note>
+    <captured field="lineage">Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</captured>
+    <captured field="source">SBD &gt; Dat Master &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100)</captured>
+    <captured field="transferer">Charlie Miller</captured>
   </recording>
   <recording id="r-491f62988cb8b902e947" kind="soundboard">
     <identifier scheme="archive-org">gd1993-01-24.142855.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142855</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat Master (Panasonic SV-3700) &gt; Dat Clone (44.1k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-9843757ea30b539d610c" kind="soundboard">
     <identifier scheme="archive-org">gd1993-01-24.142856.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142856</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat Master &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-1e5098f23faf511d3783" kind="audience">
+  <recording id="r-1e5098f23faf511d3783" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1993-01-24.set2.fob.schoeps.unknown.swayne.85009.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">85009</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-01-24" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Swayne</credit>
     <lineage>FOB Schoeps MK4s -&gt; Panasonic sv255 -&gt; (clone) Teac DA-P20 | Tascam DA-30 -&gt; Diamond xTreme Sound Card -&gt;Cool Edit Pro</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-01-24. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Swayne</note>
   </recording>
   <recording id="r-224b8c38bd1cdb1888af" kind="soundboard">
     <identifier scheme="archive-org">gd93-01-24.sbd.seff.5610.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5610</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24" references="archive-index"/>
     <lineage>SBD &gt; DAT &gt; C &gt; DAT &gt; CDR &gt; TAE (overlap) &gt; WAV &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-01-24. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

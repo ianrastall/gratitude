@@ -3,10 +3,11 @@
   BerthaML people registry. Everyone a show or song file refers to:
   band members, touring members, guests, and songwriters.
 
-  <membership> periods are used to pre-fill show lineups and to warn when
-  a show lists a member outside their membership dates. They are defaults,
-  not facts about any particular show: the show's own <lineup> is
-  authoritative (members missed shows, e.g. through illness).
+  <membership> periods give a roster for each date and warn when a show
+  lists a member outside their membership dates. A roster is a default, not
+  a fact about any particular show: it is worked out when needed and always
+  labelled as roster-derived. The show's own <lineup> is authoritative
+  (members missed shows, e.g. through illness).
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:b="urn:berthaml:1"
@@ -43,14 +44,22 @@
 
   <xs:complexType name="Membership">
     <xs:sequence>
-      <!-- Default instruments for lineup pre-fill during this period. -->
+      <!-- Default instruments during this period. -->
       <xs:element name="instrument" type="b:Instrument" maxOccurs="unbounded"/>
+      <!-- A known leave inside the period; rosters leave the person out. -->
+      <xs:element name="absence" type="b:Absence" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
     <!-- First show of the period, inclusive. -->
     <xs:attribute name="from" type="b:FuzzyDate" use="required"/>
     <!-- Last show of the period, inclusive. -->
     <xs:attribute name="to" type="b:FuzzyDate" use="required"/>
     <xs:attribute name="role" type="b:MemberRole" use="required"/>
+    <xs:attribute name="certainty" type="b:Certainty"/>
+  </xs:complexType>
+
+  <xs:complexType name="Absence">
+    <xs:attribute name="from" type="b:FuzzyDate" use="required"/>
+    <xs:attribute name="to" type="b:FuzzyDate" use="required"/>
     <xs:attribute name="certainty" type="b:Certainty"/>
   </xs:complexType>
 

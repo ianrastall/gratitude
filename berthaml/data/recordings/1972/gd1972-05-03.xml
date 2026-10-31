@@ -5,42 +5,48 @@
   </record>
   <recording id="r-1ab8245b184851e55796" kind="soundboard">
     <identifier scheme="archive-org">gd1972-05-03.139539.sbd.16.track.reels.miller.clugston.flac16</identifier>
+    <identifier scheme="shnid" certainty="uncertain">139539</identifier>
+    <identifier scheme="shnid" certainty="uncertain">16</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympia Theater on 1972-05-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller, Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="unspecified"/>
     <lineage>SBD -&gt; 16 Track Master Reels (purportedly Healy's rough mix)-&gt; DAT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Theater on 1972-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller, Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
   </recording>
   <recording id="r-898bd1452bbf017f8fd3" kind="soundboard">
     <identifier scheme="archive-org">gd1972-05-03.sbd.masse.6453.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6453</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at L'Olympia on 1972-05-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Mike Masse</credit>
     <lineage>SBD &gt; reel &gt; DAT &gt; CDR &gt; EAC &gt; shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at L'Olympia on 1972-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mike Masse</note>
   </recording>
   <recording id="r-75570ecdebadf0de7f47" kind="soundboard">
     <identifier scheme="archive-org">gd1972-05-03.sbd.samaritano.29082.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">29082</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at L'Olympia on 1972-05-03" references="archive-index"/>
+    <credit role="transfer-mastering">Joe Samaritano</credit>
     <lineage>SBD &gt; Master Reel (multi-track) | MR &gt; DAT x 5 &gt; Audiophile 2496 &gt; Samplitude v7.02 Professional &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at L'Olympia on 1972-05-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe Samaritano</note>
   </recording>
   <recording id="r-6af4b9ca6b768040f2a2" kind="soundboard">
     <identifier scheme="archive-org">gd72-05-03.sbd.masse.142.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">142</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympia Theater on 1972-05-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">J Norman and D Latvala</credit>
+    <personMatch name="Dick Latvala" role="transfer-mastering"/>
     <lineage>SBD &gt; multitrack 2" MR &gt; rough mix | DAT &gt; CDR &gt; EAC &gt; shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Theater on 1972-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): J Norman and D Latvala</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role transfer-mastering.</note>
   </recording>
   <recording id="r-4cff9dd04cb2b49ff4c4" kind="soundboard">
     <identifier scheme="archive-org">gd72-05-03.sbd.samaritano.21923.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">21923</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Olympia Theater on 1972-05-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Joe Samaritano</credit>
     <lineage>Soundboard&gt;Master Reel (multi-track)-&gt;DAT x 5 | DAT-&gt;ZA2-&gt;.wav-&gt;mkw-&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Olympia Theater on 1972-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe Samaritano</note>
   </recording>
-  <recording id="r-247e96e625f6838dc8a9" kind="unknown">
-    <identifier scheme="other">etree-595735</identifier>
-    <note>Supplied catalogue listing: etree; gd1972-05-03.139539.sbd.16.track.reels.miller.clugston.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-247e96e625f6838dc8a9" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">595735</identifier>
+    <identifier scheme="shnid" certainty="uncertain">139539</identifier>
+    <identifier scheme="shnid" certainty="uncertain">16</identifier>
+    <listing provider="etree" title="gd1972-05-03.139539.sbd.16.track.reels.miller.clugston.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

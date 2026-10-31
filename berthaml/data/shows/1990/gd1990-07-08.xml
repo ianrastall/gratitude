@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19900708-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 afccf499b3123b432e395d65bce791fffcfc251cc28a7e41711831ad8b01f9f1. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-994" nameAsBilled="Three Rivers Stadium"/>
+  <venue ref="v-three-rivers-stadium" nameAsBilled="Three Rivers Stadium"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-touch-of-grey" transition="segue"/>
@@ -13,7 +13,7 @@
       <performance id="p01-05" song="s-row-jimmy" transition="unknown"/>
       <performance id="p01-06" song="s-mama-tried" transition="segue"/>
       <performance id="p01-07" song="s-mexicali-blues" transition="unknown"/>
-      <performance id="p01-08" song="s-just-like-tom-thumb-s-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-just-like-tom-thumbs-blues" transition="unknown"/>
       <performance id="p01-09" song="s-let-it-grow" transition="unknown"/>
       <note>Source section label: Set 1</note>
     </set>
@@ -33,7 +33,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <performance id="p03-01" song="s-knockin-on-heavens-door" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

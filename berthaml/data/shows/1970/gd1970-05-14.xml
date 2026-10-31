@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19700514-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-300" nameAsBilled="Meramec Community College"/>
+  <venue ref="v-meramec-community-college" nameAsBilled="Meramec Community College"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="acoustic">
       <performance id="p01-01" song="s-dont-ease-me-in" transition="unknown"/>
@@ -30,7 +30,7 @@
       <performance id="p02-14" song="s-attics-of-my-life" transition="unknown"/>
       <performance id="p02-15" song="s-cumberland-blues" transition="unknown"/>
       <performance id="p02-16" song="s-new-speedway-boogie" transition="segue"/>
-      <performance id="p02-17" song="s-nobody-s-fault-but-mine" transition="segue"/>
+      <performance id="p02-17" song="s-nobodys-fault-but-mine" transition="segue"/>
       <performance id="p02-18" song="s-new-speedway-boogie" transition="segue"/>
       <performance id="p02-19" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
       <performance id="p02-20" song="s-not-fade-away" transition="segue"/>
@@ -38,7 +38,7 @@
       <note>Source section label: Electric Set</note>
     </set>
     <set kind="encore" n="1" mode="electric">
-      <performance id="p03-01" song="s-jordan" transition="unknown"/>
+      <performance id="p03-01" song="s-cold-jordan" transition="unknown" titleVariant="Jordan"/>
       <note>Source section label: Electric Encore</note>
     </set>
   </program>

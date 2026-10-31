@@ -5,62 +5,66 @@
   </record>
   <recording id="r-2cc58d03b2e6e30552eb" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-30.147145.walsh.suraci.at835.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147145</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Pat Walsh</credit>
+    <credit role="transfer-mastering">Tony Suraci</credit>
     <lineage>Source: Audio Technica 835b&gt;Sony D5 Location: OTS, Stand at 9 feet | Transfer: Nakamichi Cassette Deck 1&gt;Sound Devices 722&gt; Adobe Aud 3.0&gt;Cdwav&gt;flac 16(TLH) Release date: 07/08/2019</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tony Suraci</note>
   </recording>
   <recording id="r-f153ccfccf4741a61c66" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-30.147146.walsh.suraci.at835.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147146</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index"/>
     <credit role="recordist">Pat Walsh</credit>
+    <credit role="transfer-mastering">Tony Suraci</credit>
     <lineage>Source: Audio Technica 835b&gt;Sony D5 Location: OTS, Stand at 9 feet | Transfer: Nakamichi Cassette Deck 1&gt;Sound Devices 722&gt; Adobe Aud 3.0&gt;Cdwav&gt;flac 16(TLH) Release date: 07/08/2019</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tony Suraci</note>
   </recording>
-  <recording id="r-9644803098794df0a506" kind="audience">
+  <recording id="r-9644803098794df0a506" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-06-30.fob.nak300.holtz.jaz.92491.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">92491</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">JAZ</credit>
     <lineage>Way FOB -&gt; Nakamichi CM-300's with Cp-1 caps, in hat-&gt; Sony D-7 48kHz | DAT Master-&gt; PCM-R300-&gt; Coax-&gt; M-Audio Delta 1010Lt-&gt; Wave Lab 5.0 Mastering Software-&gt; r8brain 44.1kHz-&gt; Traders Little Helper flac8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): JAZ</note>
   </recording>
-  <recording id="r-310a120566a84eb9bb52" kind="unknown">
+  <recording id="r-310a120566a84eb9bb52" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-06-30.fob.schoeps.evans.GEMS.83144.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83144</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Todd Evans and Adam Gross</credit>
+    <credit role="transfer-mastering">GEMS</credit>
+    <personMatch name="GEMS" role="transfer-mastering"/>
     <lineage>Schoeps Mk4 (cardiod) &gt; Schoeps KC5 active Cable &gt; Schoeps CMC 6 mic body &gt; Monster M1000 Jumper cable &gt; Apogee AD1000 A / D Converter (UV16 enabled to use the UV22 process) S/PDIF Out &gt; CASIO DA-R100 S/PDIF IN &gt; DAT Master | DAT &gt; TASCAM DA-20 (S/PDIF out) -&gt; M-Audio Firewire Solo Interface -&gt; Soundforge 8.0 &gt; Wavelab 6.0 using Ozone and L2 for dither</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): GEMS</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role transfer-mastering.</note>
   </recording>
-  <recording id="r-a6687b33c8e4a52ea5c8" kind="audience">
+  <recording id="r-a6687b33c8e4a52ea5c8" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1995-06-30.schoeps.clemens.89393.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">89393</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jake Clemens</credit>
+    <credit role="transfer-mastering">Jake Clemens</credit>
     <lineage>Schoeps mk4-&gt;DAT @ 48 kHz (FOB) | Sony DTC-ZE700-&gt;Tascam HDP2-&gt;CD Wave-&gt;Flac Frontend-&gt;.flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Jake Clemens</note>
   </recording>
   <recording id="r-d777433cfc53af57197e" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-30.schoeps.jones.wklitz.95189.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95189</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Roger Jones</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Schoeps MK4's&gt;Reutelhuber Preamp&gt;Casio DAR-100 | DAT Clone&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9 (Fades)&gt;CDWAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
   <recording id="r-d4da67e029319a8966ea" kind="unknown">
     <identifier scheme="archive-org">gd1995-06-30.schoeps.jones.wklitz.95193.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">95193</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Roger Jones</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Schoeps MK4's&gt;Reutelhuber Preamp&gt;Casio DAR-100 | DAT Clone&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Soundforge 9 (Fades)&gt;CDWAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
   <recording id="r-ff0d491ea06f0039ef32" kind="audience">
     <identifier scheme="archive-org">gd95-06-30.schoeps.3376.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3376</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Three Rivers Stadium on 1995-06-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Ryan Burns</credit>
     <lineage>Audience: Schoeps MK4's | Schoeps CMC6/MK4s &gt; DAT &gt; Sony PCM-R500 &gt; Tascam CD-RW700 &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Three Rivers Stadium on 1995-06-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Ryan Burns</note>
   </recording>
 </recordings>

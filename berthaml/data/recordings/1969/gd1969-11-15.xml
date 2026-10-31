@@ -5,34 +5,39 @@
   </record>
   <recording id="r-404cbedfe8bad4163c52" kind="soundboard">
     <identifier scheme="archive-org">gd1969-11-15.141256.sbd.tiedrich.miller.clugston.pitch.corrected.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141256</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Lanai Theater on 1969-11-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jeff Tiedrich</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source Info: Master Soundboard Cassette &gt; PCM &gt; CDR &gt; iMac &gt; SHN; Transfer Info: SHN's &gt; TLH &gt; flac16 &gt; Samplitude (16/44 .wav)&gt; Adobe Audition 3.0 (16/44 .wav)&gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Lanai Theater on 1969-11-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-959b183bc03472ebfb30" kind="soundboard">
     <identifier scheme="archive-org">gd1969-11-15.sbd.tiedrich.9137.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9137</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Lanai Theater on 1969-11-15" references="archive-index"/>
+    <credit role="transfer-mastering">Jeff Tiedrich</credit>
     <lineage>SBD Cassette master &gt; PCM &gt; CDR | CDR &gt; iMac &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Lanai Theater on 1969-11-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jeff Tiedrich</note>
   </recording>
   <recording id="r-2afae6125a7f8cff43ad" kind="soundboard">
     <identifier scheme="archive-org">gd1969-11-15.sbd.tiedrich.fixed-9535.9538.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9538</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Lanai Theater on 1969-11-15" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jeff Tiedrich</credit>
     <lineage>Sound Board | SBD cassette master &gt; PCM &gt; CDR &gt; iMac &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Lanai Theater on 1969-11-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jeff Tiedrich</note>
   </recording>
   <recording id="r-bcee8b978aecbd94d386" kind="soundboard">
     <identifier scheme="archive-org">gd69-11-15.sbd.tiedrich.9535.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9535</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Lanai Theater on 1969-11-15" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Nathan Scott and Jeff Tiedrich</credit>
     <lineage>Soundboard | SBD cassette master &gt; PCM &gt; CDR &gt; iMac &gt; SHN &gt; shntool &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Lanai Theater on 1969-11-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Nathan Scott and Jeff Tiedrich</note>
   </recording>
-  <recording id="r-9e182e394813c5938a9d" kind="unknown">
-    <identifier scheme="other">etree-598434</identifier>
-    <note>Supplied catalogue listing: etree; gd1969-11-15.141256.sbd.tiedrich.miller.clugston.pitch.corrected.9538.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-9e182e394813c5938a9d" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">598434</identifier>
+    <identifier scheme="shnid" certainty="uncertain">141256</identifier>
+    <identifier scheme="shnid" certainty="uncertain">9538</identifier>
+    <listing provider="etree" title="gd1969-11-15.141256.sbd.tiedrich.miller.clugston.pitch.corrected.9538.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

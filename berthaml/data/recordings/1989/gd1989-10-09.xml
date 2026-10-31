@@ -5,217 +5,226 @@
   </record>
   <recording id="r-c6b79ca99affa097a9ce" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-09.099647</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
   </recording>
   <recording id="r-ddcf67dbe9eacaadcf32" kind="audience">
     <identifier scheme="archive-org">gd1989-10-09.120403.Nak300sSenn441.AlabamaBob.Currier.Keo.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">120403</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Alabama Bob,Mr. Currier</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Supplied By Mr. Currier; 2 Nakamichi CM300/CP4 And 1 Sennheiser 441&gt; Nakamichi 550,Ran By Alabama Bob&gt; Second Deck Marantz PMD-430 Dolby B, Ran By Mr. Currier; Tapes Maxell MX-90's; Transfer Information:Nakamichi MR-1&gt;No Dolby&gt;Korg MR-1000 @ 1 Bit/5.6 MHz By Keo; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 Khz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-4928c9b695e8029c5545" kind="audience">
     <identifier scheme="archive-org">gd1989-10-09.120404.Nak300sSenn441.AlabamaBob.Currier.Keo.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">120404</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Alabama Bob,Mr. Currier</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Supplied By Mr. Currier; 2 Nakamichi CM300/CP4 And 1 Sennheiser 441&gt; Nakamichi 550,Ran By Alabama Bob&gt; Second Deck Marantz PMD-430 Dolby B, Ran By Mr. Currier; Tapes Maxell MX-90's; Transfer Information:Nakamichi MR-1&gt;No Dolby B&gt;Korg MR-1000 @ 1 Bit/5.6 MHz By Keo; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 Khz; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
-  <recording id="r-482b8b07f553cd866f9c" kind="audience">
+  <recording id="r-482b8b07f553cd866f9c" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-09.125737.mk4.48khz.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">125737</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Lenny Stubbe and Craig Hillwig</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>flac16/48kHz ; Source: Schoeps CMC3/MK4 &gt; Oade P/S &gt; Panasonic SV250 (48 khz); Location: FOB; | Sony PCM-2600(Apogee AES/EBU)&gt;Sound Devices 722 (16/48)&gt; Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; xACT 2.21(encode, tag, fingerprint)&gt;flac16 (level 8 ); Taped by: Ted Mattes; DAT clone (2) provided by: Craig Hillwig; Transferred and seeded by: Lenny Stubbe</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Lenny Stubbe and Craig Hillwig</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-fdd0fdaa24e95a181b08" kind="audience">
+  <recording id="r-fdd0fdaa24e95a181b08" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-09.125738.mk4.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">125738</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Lenny Stubbe and Craig Hillwig</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Source: Schoeps CMC3/MK4 &gt; Oade P/S &gt; Panasonic SV250 (48 khz); Location: FOB; | Sony PCM-2600(Apogee AES/EBU)&gt;Sound Devices 722 (16/48)&gt; Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; Wave Editor 1.5.7 (iZotope Resampler)&gt; xACT 2.21(align on sector boundaries, encode, tag, fingerprint)&gt;flac16 (level 8 ); Taped by: Ted Mattes; DAT clone (2) provided by: Craig Hillwig; Transferred and seeded by: Lenny Stubbe</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Lenny Stubbe and Craig Hillwig</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-64be11c2df3299049b9d" kind="audience">
+  <recording id="r-64be11c2df3299049b9d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-09.131003.cmc521.fob.deal.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131003</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
     <credit role="recordist">Lance Deal</credit>
+    <credit role="transfer-mastering">Lance Deal and jwpetty</credit>
     <lineage>Master Digital FOB Recording by Lance Deal using Schoeps CMC521's&gt; Schoeps VMS 52 UB&gt; Technics SVMD1; | Fostex D-5 (optical)&gt; Luminous Monarch cable&gt; M-Audio Audiophile 2496 @ 16/48&gt; 16/44&gt; CDWave(tracking)&gt; TLH (SBE/Flac16/md5)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Lance Deal and jwpetty</note>
   </recording>
-  <recording id="r-7163f6de5106df2f08b1" kind="audience">
+  <recording id="r-7163f6de5106df2f08b1" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-09.142510.fob.schoeps.cmc4.mk4.mattes.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142510</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>flac16/48kHz ; Source Info: Ted Mattes' Master (FOB)Audience Dat; Schoeps CMC4/MK4 mics @ 110 degrees, ORTF, Schoeps t-bar stand, shoulder height &gt; Monster Cable Interlinks &gt; Oade capacitor P/S &gt; Panasonic SV-250 (16-bit/48k); Transfer Info: Master Dat (Sony PCM-R500)&gt; Tascam DA-3000 (16-bit/48k) &gt; .wav(16-bit/48k)&gt; Adobe Audition 3.0 &gt; TLH 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-f717c0f5af929975e8d7" kind="matrix">
+  <recording id="r-f717c0f5af929975e8d7" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-09.147611.ultramatrix.sbd.pearson.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147611</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index infinite-dead"/>
     <credit role="recordist">Don Pearson</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/</note>
+    <reference href="http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/"/>
   </recording>
-  <recording id="r-1716d9d9a1d6d961481c" kind="matrix">
+  <recording id="r-1716d9d9a1d6d961481c" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-10-09.147621.UltraMatrix.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147621</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-2a5b675ea8099a14f856" kind="matrix">
     <identifier scheme="archive-org">gd1989-10-09.154041.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">154041</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-5c45c039ef8edc4aebed" kind="unknown">
+  <recording id="r-5c45c039ef8edc4aebed" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-10-09.154042.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">154042</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-1817cff1e84901d9ea09" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-09.154043.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">154043</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-2c14429084dcb7cfa1a9" kind="matrix">
     <identifier scheme="archive-org">gd1989-10-09.158308.mtx.seamons.ht144.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">158308</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
+    <personMatch name="Hunter Seamons" role="unspecified"/>
     <lineage>Matrix by Hunter Seamons using Soundtrack Pro and Final Cut Pro (FLAC &gt; AIFF &gt; Soundtrack and Final Cut &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) October 9, 2022</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
   </recording>
-  <recording id="r-63c3e1dc4ffe44fef75f" kind="audience">
+  <recording id="r-63c3e1dc4ffe44fef75f" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-10-09.aud.fishman.17704.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17704</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">JR Fishman</credit>
     <lineage>Schoeps CMC421&gt;DAT&gt;CD&gt;EAC&gt;ADDAWAV&gt;CDWav&gt;WAV&gt;SHN (FOB)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): JR Fishman</note>
   </recording>
-  <recording id="r-5a240c636bec21db4bc1" kind="unknown">
+  <recording id="r-5a240c636bec21db4bc1" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1989-10-09.aud.robr.31211.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">31211</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rob R</credit>
     <lineage>3 Nak CM300 - 2 CP4's and 1 CP3 arrianged X/Y direct to dat &gt; ? &gt; .shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
   </recording>
-  <recording id="r-e4c0ab1472388cd92794" kind="unknown">
+  <recording id="r-e4c0ab1472388cd92794" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-10-09.dts-dvdaudio.haugh.92553.dvdf</identifier>
+    <identifier scheme="shnid" certainty="probable">92553</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
+    <credit role="transfer-mastering">Dan Haugh</credit>
     <lineage>- 4 Source Mix - DVD-Audio 5.1 Surround (6ch x 24/48)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Dan Haugh</note>
   </recording>
-  <recording id="r-0b3e8d148a58689356bf" kind="unknown">
+  <recording id="r-0b3e8d148a58689356bf" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-10-09.dts.dan.26235.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">26235</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Dan Haugh</credit>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Dan Haugh</note>
   </recording>
   <recording id="r-28ae23ec61c03ab233c0" kind="matrix">
     <identifier scheme="archive-org">gd1989-10-09.mtx.dan.26236.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">26236</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Dan Haugh</credit>
     <lineage>SBD + AUD Matrix Mix (60%-SBD/40%-AUD)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dan Haugh</note>
   </recording>
-  <recording id="r-b9c990119a045be46c24" kind="unknown">
+  <recording id="r-b9c990119a045be46c24" kind="unknown" inferredKind="matrix" modifiers="DTS">
     <identifier scheme="archive-org">gd1989-10-09.mtx.dts.haugh.92005.flac16</identifier>
-    <credit role="recordist">See Notes</credit>
-    <lineage>Three Source DTS-Audio-CD 5.1 Mix | See Notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): Dan Haugh</note>
+    <identifier scheme="shnid" certainty="probable">92005</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
+    <credit role="transfer-mastering">Dan Haugh</credit>
+    <lineage>Three Source DTS-Audio-CD 5.1 Mix</lineage>
   </recording>
   <recording id="r-51f00348e2b7c34f8290" kind="matrix">
     <identifier scheme="archive-org">gd1989-10-09.mtx.v2.haugh.92495.flac16</identifier>
-    <credit role="recordist">See Notes</credit>
-    <lineage>SBD + AUD Matrix - 4 Source Mix (60%-SBD, 10%-AUD1, 20%-AUD2, 10%-AUD3) | See Notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dan Haugh</note>
+    <identifier scheme="shnid" certainty="probable">92495</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Dan Haugh</credit>
+    <lineage>SBD + AUD Matrix - 4 Source Mix (60%-SBD, 10%-AUD1, 20%-AUD2, 10%-AUD3)</lineage>
   </recording>
   <recording id="r-66a0b750af7053ee6ea9" kind="unknown">
     <identifier scheme="archive-org">gd1989-10-09.nak300.juteau.116646.flac</identifier>
+    <identifier scheme="shnid" certainty="probable">116646</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jeff Bowen;Brad Foster</credit>
     <lineage>Source: (OTS) Nakamichi cm300/cp4's &gt; Sony TCD-D10; | DAT/M &gt; DA-P1 &gt; HHb 800 &gt; EAC &gt; CDWav &gt; FLAC; Recorded: Gene Juteau; Transferred: Jeff Bowen; Extraction: Brad Foster</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jeff Bowen;Brad Foster</note>
   </recording>
   <recording id="r-c3a4c183717260cd8be9" kind="soundboard">
     <identifier scheme="archive-org">gd1989-10-09.nak304.carpenter.89563.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89563</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
     <credit role="recordist">Ted Carpenter</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>Nakamichi CM300's w/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell MX-90's, with no Dolby. Mics on stand on the floor, near the soundboard | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 analog-in &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-59b7f1c4cdb1d9ed7a92" kind="soundboard">
     <identifier scheme="archive-org">gd1989-10-09.sbd.miller.32902.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32902</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat (48k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/</note>
+    <reference href="http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/"/>
   </recording>
   <recording id="r-19fb044734116800d6f7" kind="soundboard">
     <identifier scheme="archive-org">gd1989-10-09.sbd.miller.80840.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">80840</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat (48k) D | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-c1d929bda278ea40affb" kind="soundboard">
     <identifier scheme="archive-org">gd89-10-09.sbd.paino.2276.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2276</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index"/>
     <lineage>SBD&gt; CASS(x)&gt; DAT&gt; CDR&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-fdcb98f953cbab3a4e85" kind="soundboard">
     <identifier scheme="archive-org">gd89-10-09.sbd.serafin.7721.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7721</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Lineage: SBD &gt; PCM (analog output) &gt; D &gt; D &gt; D &gt; D | SBD &gt; PCM (analog output) &gt; D &gt; D &gt; D &gt; D; CD&gt; SHN&gt; Seeded to Etree by Patrick Murphy, from Jay Serafin seed discs; see info file for additional notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/</note>
+    <reference href="http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/"/>
   </recording>
   <recording id="r-aa128ac377bbdf1146b9" kind="audience">
     <identifier scheme="archive-org">gd89-10-09.schoeps.howland.443.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">443</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1989-10-09" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Schoeps CMC421 (note change from previous mic info)&gt; DAT &gt; SEK'D Prodif32 &gt; SoundForge 4.5 (Level Increase &amp; Resample - ) &gt; CDWav&gt;WAV &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1989-10-09. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/</note>
+    <reference href="http://infinitedead.net/2021/10/09/10-9-89-hampton-va-hampton-coliseum/"/>
   </recording>
-  <recording id="r-4b639c5a1bea234d7f7d" kind="unknown">
-    <identifier scheme="other">etree-607082</identifier>
-    <note>Supplied catalogue listing: etree; gd1989-10-09.147611.UltraMatrix.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-4b639c5a1bea234d7f7d" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">607082</identifier>
+    <identifier scheme="shnid" certainty="probable">147611</identifier>
+    <listing provider="etree" title="gd1989-10-09.147611.UltraMatrix.sbd.cm.miller.flac24" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-f3fca74f6ee8e650d41c" kind="unknown">
-    <identifier scheme="other">etree-607081</identifier>
-    <note>Supplied catalogue listing: etree; gd1989-10-09.147621.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-f3fca74f6ee8e650d41c" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">607081</identifier>
+    <identifier scheme="shnid" certainty="probable">147621</identifier>
+    <listing provider="etree" title="gd1989-10-09.147621.UltraMatrix.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

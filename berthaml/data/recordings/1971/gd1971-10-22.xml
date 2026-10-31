@@ -5,24 +5,26 @@
   </record>
   <recording id="r-f7f4507f7ca801cc60aa" kind="soundboard">
     <identifier scheme="archive-org">gd1971-10-22.sbd.gans.miller.112821.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">112821</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Auditorium Theatre on 1971-10-22" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat | Dat -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Auditorium Theatre on 1971-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-71-chicago-il-auditorium-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/22/10-22-71-chicago-il-auditorium-theater/"/>
   </recording>
   <recording id="r-6a043e62bdfa953071a5" kind="soundboard">
     <identifier scheme="archive-org">gd1971-10-22.set2.sbd.miller.86728.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">86728</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Auditorium Theatre on 1971-10-22" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat (48k) D | Dat (Sony R500) -&gt; Behringer Ultramatch SRC2000 -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1971-10-22. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/22/10-22-71-chicago-il-auditorium-theater/</note>
+    <reference href="http://infinitedead.net/2021/10/22/10-22-71-chicago-il-auditorium-theater/"/>
   </recording>
-  <recording id="r-78204ae9780eeafcfc54" kind="unknown">
-    <identifier scheme="other">etree-559238</identifier>
-    <note>Supplied catalogue listing: etree; gd71-10-22.112821.sbd.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-78204ae9780eeafcfc54" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">559238</identifier>
+    <identifier scheme="shnid" certainty="probable">112821</identifier>
+    <listing provider="etree" title="gd71-10-22.112821.sbd.miller.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

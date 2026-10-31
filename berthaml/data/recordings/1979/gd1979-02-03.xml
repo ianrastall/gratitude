@@ -5,41 +5,46 @@
   </record>
   <recording id="r-e5919c2d631e8d73c064" kind="audience">
     <identifier scheme="archive-org">gd1979-02-03.154522.aud.clugston.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
-    <lineage>Master Audience Cassettes; Unknown Equipment &gt; 1st generation cassettes &gt; .wav 1644 | Unknown</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Market Square Arena on 1979-02-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scot Clugston</note>
+    <identifier scheme="shnid" certainty="probable">154522</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Market Square Arena on 1979-02-03" references="archive-index"/>
+    <credit role="transfer-mastering">Scot Clugston</credit>
+    <lineage>Master Audience Cassettes; Unknown Equipment &gt; 1st generation cassettes &gt; .wav 1644</lineage>
   </recording>
   <recording id="r-05f300e77f873aab79f6" kind="soundboard">
     <identifier scheme="archive-org">gd1979-02-03.set1.sbd.fixed-102851.miller.102876.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102876</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Market Square Arena on 1979-02-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Market Square Arena on 1979-02-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-1b8a5f514055a64f21af" kind="soundboard">
     <identifier scheme="archive-org">gd1979-02-03.set1.sbd.miller.102445.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102445</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Market Square Arena on 1979-02-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Market Square Arena on 1979-02-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-a31af10f336f21b689e3" kind="soundboard">
     <identifier scheme="archive-org">gd1979-02-03.set1.sbd.miller.102851.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102851</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Market Square Arena on 1979-02-03" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5) -&gt; Cassette (Sony D5) | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Market Square Arena on 1979-02-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-8b562275b42f138d2bcc" kind="audience">
     <identifier scheme="archive-org">gd79-02-03.aud.set1.warner.19414.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">19414</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Market Square Arena on 1979-02-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Zarnegar and Jack Warner</credit>
     <lineage>Audience Recording | MAC (Unknown equipment) &gt; Unknown analog generations &gt; Cassette &gt; CD &gt; Samsung SW-232B extraction (EAC v0.9 beta 4) &gt; tracking (CD Wave) &gt; sector boundary verification (shntool v1.01) &gt; .shn encoding (mkwACT v0.97 beta 1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Market Square Arena on 1979-02-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Zarnegar and Jack Warner</note>
   </recording>
   <recording id="r-006ba977301e0bf2941a" kind="audience">
     <identifier scheme="archive-org">gd79-02-03.set2-nak.clugston.7116.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7116</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Market Square Arena on 1979-02-03" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Nakamichi CM700 mics | Nakamichi CM700 mics &gt; Nakamichi 550 cassette deck&gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Market Square Arena on 1979-02-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

@@ -3,97 +3,102 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-6aa2fa71f5863e19a0d5" kind="audience">
+  <recording id="r-6aa2fa71f5863e19a0d5" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1979-11-25.145601.fob.sony.ecm270.severson.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">145601</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Severson's Master (FOB) Audience Cassettes; Sony ECM-270 mics (DFC, 40' from stage)&gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-359735d314069e8b299f" kind="audience">
+  <recording id="r-359735d314069e8b299f" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1979-11-25.145602.fob.sony.ecm270.severson.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">145602</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Severson's Master (FOB) Audience Cassettes; Sony ECM-270 mics (DFC, 40' from stage)&gt; Sony TC-D5 (Maxell UDXLII) | Master Cassettes (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp 24/96 &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-d9d09f970cfe943c6f10" kind="soundboard">
     <identifier scheme="archive-org">gd1979-11-25.179231.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">179231</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25" references="archive-index"/>
+    <credit role="transfer-mastering">Mastered by Charlie Miller September 13, 2026</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (Maxell UDXL-II/Dolby B) | Transfer Info: Cassette Master (Nakamichi Dragon) &gt; WAV (24-bit/96k) Mastering Info: WAV &gt; DDi Codec &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mastered by Charlie Miller September 13, 2026</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-cacf9c57839cae3ce9e4" kind="soundboard">
     <identifier scheme="archive-org">gd1979-11-25.179232.sbd.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">179232</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25" references="archive-index"/>
+    <credit role="transfer-mastering">Mastered by Charlie Miller September 13, 2026</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (Maxell UDXL-II/Dolby B) | Transfer Info: Cassette Master (Nakamichi Dragon) &gt; WAV (24-bit/96k) Mastering Info: WAV &gt; DDi Codec &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mastered by Charlie Miller September 13, 2026</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-b6439a9c632596a444c7" kind="unknown">
+  <recording id="r-b6439a9c632596a444c7" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1979-11-25.aud.severson.minches.90720.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">90720</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">David Minches</credit>
     <lineage>2 Sony ECM-270s on stand 40' from stage&gt; Sony TC-D5 (2 Maxell UD XL-IIs) | Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
   </recording>
-  <recording id="r-79caded6a90078f3d0d1" kind="unknown">
+  <recording id="r-79caded6a90078f3d0d1" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1979-11-25.dts.tobin.90872.sbeok.flac</identifier>
+    <identifier scheme="shnid" certainty="probable">90872</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD (25069) + AUD (90636)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-2363d5d0e75df8c41208" kind="unknown">
+  <recording id="r-2363d5d0e75df8c41208" kind="unknown" inferredKind="matrix">
     <identifier scheme="archive-org">gd1979-11-25.mtx.tobin.90846.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">90846</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD (25069) + AUD (90636)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-e580c59a7481a65116c0" kind="audience">
+  <recording id="r-e580c59a7481a65116c0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1979-11-25.nak700.menke.motb.90636.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">90636</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25" references="archive-index"/>
     <credit role="recordist">Bob Menke</credit>
+    <credit role="transfer-mastering">Bob Menke, Derek McCabe mastering</credit>
+    <personMatch name="Bob Menke" role="recordist"/>
     <lineage>Master Cassettes [FOB, 60' from stage] (Maxell UD XL II) 2 x Nakamichi CM-700 =&gt; Sony TC-D5 &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-8 =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Derek McCabe mastering</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
   </recording>
-  <recording id="r-31b0cb247750013bcf46" kind="audience">
+  <recording id="r-31b0cb247750013bcf46" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1979-11-25.nak700.menke.motb.90638.sbeok.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">90638</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25" references="archive-index"/>
     <credit role="recordist">Bob Menke</credit>
+    <credit role="transfer-mastering">Bob Menke, Derek McCabe mastering</credit>
+    <personMatch name="Bob Menke" role="recordist"/>
     <lineage>Master Cassettes [FOB, 60' from stage] (Maxell UD XL II) 2 x Nakamichi CM-700 =&gt; Sony TC-D5 &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-8 =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion - University of California on 1979-11-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Derek McCabe mastering</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
   </recording>
   <recording id="r-e2137ae60057fad3a68a" kind="soundboard">
     <identifier scheme="archive-org">gd1979-11-25.sbd.miller.84489.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">84489</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauly Pavillion on 1979-11-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Cassette -&gt; PCM -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauly Pavillion on 1979-11-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-250856158852d24db9dc" kind="soundboard">
     <identifier scheme="archive-org">gd79-11-25.sbd.dan.7192.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7192</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25" references="archive-index"/>
     <lineage>Soundboard | SBD Cassmaster-&gt; PCM-&gt; DAT-&gt; CDRs-&gt; EAC-&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-50e0f892c6e1355971f8" kind="soundboard">
     <identifier scheme="archive-org">gd79-11-25.sbd.miller.25609.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">25609</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard | SBD -&gt; Master Cassette -&gt; PCM -&gt; Dat (44.1k) Transfer Info: Dat (Sony R500) -&gt; SEK'D Prodif Plus -&gt; Samplitude v7.02 Professional -&gt; SHN Patch Info: Nakamichi 700 -&gt; Master Cassette -&gt; Reel -&gt; CD (Possibly One More Reel Gen)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Pauley Pavilion, UCLA on 1979-11-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

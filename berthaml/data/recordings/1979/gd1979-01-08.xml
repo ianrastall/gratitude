@@ -5,17 +5,19 @@
   </record>
   <recording id="r-72251e58bddff8c54626" kind="unknown">
     <identifier scheme="archive-org">gd1979-01-08.nak300-wagner.miller.87657.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">87657</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Madison Square Garden on 1979-01-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Nakamichi 300/CP1 -&gt; Cassette Master (Maxell UDXL-II/Sony TC-158) | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.11 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-01-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
   <recording id="r-a54a5913b207c7598d8e" kind="audience">
     <identifier scheme="archive-org">gd79-01-08.gatto.glyde.10283.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10283</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Madison Square Garden on 1979-01-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Keith Gatto</credit>
     <lineage>Audience Recording: Shure SM57's | Shure SM57's &gt; MC &gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Madison Square Garden on 1979-01-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

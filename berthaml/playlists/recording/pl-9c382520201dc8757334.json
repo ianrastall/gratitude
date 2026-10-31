@@ -346,11 +346,14 @@
       "n": 29,
       "title": "Goin' Down The Road Feeling Bad",
       "file": "gd74-02-22s2t09.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "sourceNumber": 29,
       "duration": "PT385.37S",
+      "certainty": "probable",
       "show": "gd1974-02-22",
-      "covers": []
+      "covers": [
+        "p03-09"
+      ]
     },
     {
       "n": 30,
@@ -366,11 +369,14 @@
       "n": 31,
       "title": "Mississippi Half-Step Uptown Toodeloo",
       "file": "gd74-02-22s3t02.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "sourceNumber": 31,
       "duration": "PT488.37S",
+      "certainty": "probable",
       "show": "gd1974-02-22",
-      "covers": []
+      "covers": [
+        "p04-01"
+      ]
     },
     {
       "n": 32,
@@ -496,12 +502,12 @@
   ],
   "notes": [
     "Lineage: SBD -> Master Reel -> Dat | Dat (Tascam DA-20) -> Tascam SS-R05 -> Samplitude Professional v11.2 -> FLAC",
-    "Supplied catalogue listing: Archive.org; The Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.",
-    "Source credit (transfer-mastering): Charlie Miller",
-    "Legacy name match: Charlie Miller; role transfer-mastering.",
-    "Archive source metadata (lineage): Dat (Tascam DA-20) -> Tascam SS-R05 -> Samplitude Professional v11.2 -> FLAC",
-    "Archive source metadata (source): SBD -> Master Reel -> Dat",
-    "Archive source metadata (transferer): Charlie Miller"
+    "Catalogue listing: Archive.org; The Grateful Dead Live at Winterland Arena on 1974-02-22",
+    "transfer-mastering: Charlie Miller",
+    "Possible match: Charlie Miller (transfer-mastering)",
+    "Archive metadata (lineage): Dat (Tascam DA-20) -> Tascam SS-R05 -> Samplitude Professional v11.2 -> FLAC",
+    "Archive metadata (source): SBD -> Master Reel -> Dat",
+    "Archive metadata (transferer): Charlie Miller"
   ],
   "date": "1974-02-22",
   "venue": "Winterland",

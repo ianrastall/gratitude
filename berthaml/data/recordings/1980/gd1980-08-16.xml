@@ -5,32 +5,35 @@
   </record>
   <recording id="r-4409d453f5fb0d854e2d" kind="unknown">
     <identifier scheme="archive-org">gd1980-08-16.128616.naks.mason.partial.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">128616</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Southern Illinois University on 1980-08-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mason B. Taylor</credit>
     <lineage>Set 1 &amp; Partial Set 2 Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones; the original version had sector boundary errors; don't circulate the original version</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Southern Illinois University on 1980-08-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-cceb0cf91f2da4cc3d24" kind="unknown">
     <identifier scheme="archive-org">gd1980-08-16.SonyECM250.walker-scotton.miller.88959.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88959</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Mississippi River Festival on 1980-08-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>Sony ECM-250 -&gt; Cassette Master (Sony TC-158/Maxell UDXL-II90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v9.12 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Mississippi River Festival on 1980-08-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-3f2604408c90831fcdea" kind="audience">
     <identifier scheme="archive-org">gd80-08-16.aud.vernon.14044.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14044</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Mississippi River Festival on 1980-08-16" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording | MAC&gt;DAT&gt;CDR &amp; MAC&gt;Cass. x ?&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Mississippi River Festival on 1980-08-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-f072a3c199538d670fe9" kind="audience">
+  <recording id="r-f072a3c199538d670fe9" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd80-08-16.fob-walker.lemieux.20137.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20137</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Mississippi River Festival on 1980-08-16" references="archive-index"/>
     <credit role="recordist">Joani Walker</credit>
+    <personMatch name="David Lemieux" role="unspecified"/>
+    <personMatch name="Joani Walker" role="recordist"/>
     <lineage>Audience Recording: Sony ECM-250s | FOB MAC w/ Sony ECM-250s&gt;Sony TC-158&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Mississippi River Festival on 1980-08-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy name match: David Lemieux; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
   </recording>
 </recordings>

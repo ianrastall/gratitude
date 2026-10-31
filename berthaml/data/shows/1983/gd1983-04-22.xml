@@ -3,12 +3,12 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19830422-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c61bf34097cde858813510d6a3d151ae37ee9dba35857ec48acb2bbaa937e3f0. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-671" nameAsBilled="New Haven Coliseum Veterans Memorial Coliseum"/>
+  <venue ref="v-new-haven-coliseum-veterans-memorial-coliseum" nameAsBilled="New Haven Coliseum Veterans Memorial Coliseum"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
       <performance id="p01-02" song="s-bird-song" transition="segue"/>
-      <performance id="p01-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-03" song="s-cc-rider" transition="unknown"/>
       <performance id="p01-04" song="s-row-jimmy" transition="unknown"/>
       <performance id="p01-05" song="s-mama-tried" transition="segue"/>
       <performance id="p01-06" song="s-mexicali-blues" transition="unknown"/>
@@ -20,7 +20,7 @@
     <set kind="set" n="2" mode="unknown">
       <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
       <performance id="p02-02" song="s-slipknot" transition="segue"/>
-      <performance id="p02-03" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-03" song="s-franklins-tower" transition="segue"/>
       <performance id="p02-04" song="s-samson-and-delilah" transition="unknown"/>
       <performance id="p02-05" song="s-ship-of-fools" transition="segue"/>
       <performance id="p02-06" song="s-man-smart-woman-smarter" transition="segue"/>
@@ -35,7 +35,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p03-01" song="s-its-all-over-now-baby-blue" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

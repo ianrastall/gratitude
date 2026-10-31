@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1970-05-15-early" date="1970-05-15">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19700515-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+  </record>
+  <slot>early</slot>
+  <venue ref="v-fillmore-east" nameAsBilled="Fillmore East"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="acoustic">
+      <performance id="p01-01" song="s-dont-ease-me-in" transition="unknown"/>
+      <performance id="p01-02" song="s-i-know-you-rider" transition="unknown"/>
+      <performance id="p01-03" song="s-the-rub" transition="unknown"/>
+      <performance id="p01-04" song="s-friend-of-the-devil" transition="unknown"/>
+      <performance id="p01-05" song="s-long-black-limousine" transition="unknown"/>
+      <performance id="p01-06" song="s-candyman" transition="unknown"/>
+      <performance id="p01-07" song="s-cumberland-blues" transition="unknown"/>
+      <performance id="p01-08" song="s-new-speedway-boogie" transition="unknown"/>
+      <performance id="p01-09" song="s-cold-jordan" transition="unknown" titleVariant="Jordan"/>
+      <note>Source section label: Acoustic Set</note>
+    </set>
+    <set kind="set" n="2" mode="electric">
+      <performance id="p02-01" song="s-casey-jones" transition="unknown"/>
+      <performance id="p02-02" song="s-easy-wind" transition="unknown"/>
+      <performance id="p02-03" song="s-attics-of-my-life" transition="unknown"/>
+      <performance id="p02-04" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p02-05" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p02-06" song="s-drums" transition="segue"/>
+      <performance id="p02-07" song="s-the-other-one" transition="segue"/>
+      <performance id="p02-08" song="s-cryptical-envelopment" transition="segue"/>
+      <performance id="p02-09" song="s-cosmic-charlie" transition="unknown"/>
+      <note>Source section label: Electric Set</note>
+    </set>
+    <set kind="encore" n="1" mode="electric">
+      <performance id="p03-01" song="s-minglewood-blues" transition="unknown"/>
+      <note>Source section label: Electric Encore</note>
+    </set>
+  </program>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

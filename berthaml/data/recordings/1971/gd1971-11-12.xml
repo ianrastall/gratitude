@@ -5,48 +5,52 @@
   </record>
   <recording id="r-5d70510151d32ddcce6c" kind="audience">
     <identifier scheme="archive-org">gd1971-11-12.120716.d190e.weinberg-moore-berger.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">120716</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Marty Weinberg</credit>
+    <credit role="transfer-mastering">Jerry Moore and Rob Berger</credit>
+    <personMatch name="Jerry Moore" role="transfer-mastering"/>
+    <personMatch name="Marty Weinberg" role="recordist"/>
     <lineage>Partial aud 1st gen reel Jerry Moore's copy; | aud &gt; AKG d190e &gt; Marty Weinberg's Uher reel master &gt; JM's 1st gen reel @ 3.75 ips/dolby b &gt; dat; sony tc-765 reel &gt; teac an-180/b &gt; sbm1 &gt; sony d8 reel transferred to dat in 1999 by Rob Berger, seeded June 2012</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jerry Moore and Rob Berger</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Marty Weinberg; role recording.</note>
   </recording>
   <recording id="r-f484d306f92c12615076" kind="soundboard">
     <identifier scheme="archive-org">gd1971-11-12.137396.sbd.miller.sirmick.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">137396</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="unspecified"/>
+    <personMatch name="Dick Latvala" role="unspecified"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: Sbd &gt; master reel (vault) &gt; reel (dick latvala) &gt; dat 48k (rob Eaton); Transfer: Dat &gt; Sony R500 &gt; Sound Devices 744T &gt; wav 16/48; transfer by Charlie Miller; Lineage: wav 16/48 &gt; Adobe Audition 3.0.1 &gt; iZotope Ozone 5 Advanced &gt; iZotope RX4 advanced &gt; wav 16/44.1 &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-2fd31df6b8d06b8ff1ad" kind="soundboard">
     <identifier scheme="archive-org">gd1971-11-12.142439.partial.sbd.easton.miller.sirmick.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142439</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="unspecified"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Partial Set 2 Source: Sbd &gt; Master reel (vault) &gt; Dick's dat (44.1) - Provided by Rob Eaton; Transfer: Dat &gt; Sony PCM-R500 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller; Lineage: wav 16/44.1 &gt; iZotope RX6 advanced &gt; iZotope Ozone 5 Advanced &gt;CD Wave &gt;Flac 16; edited and mastered SIRMick June 2018</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-2d78809102cfb8194ecf" kind="unknown">
+  <recording id="r-2d78809102cfb8194ecf" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1971-11-12.sbd-set2.miller.14916.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14916</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller and Alan Fink</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>S : MC &gt; C &gt; SONIC SOLUTIONS &gt; CDR &gt; EAC &gt; COOL EDIT PRO &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Alan Fink</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-5668ba1055d01eda9413" kind="unknown">
+  <recording id="r-5668ba1055d01eda9413" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1971-11-12.sbd.lai.3347.sbefail.shnf</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <identifier scheme="shnid" certainty="probable">3347</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12" references="archive-index"/>
   </recording>
   <recording id="r-ed989a1896f8f24a817b" kind="soundboard">
     <identifier scheme="archive-org">gd71-11-12.sbd.clugston.4759.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4759</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12" references="archive-index"/>
     <lineage>Soundboard | Master Soundboard Reel &gt; Cassette &gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at San Antonio Civic Auditorium on 1971-11-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

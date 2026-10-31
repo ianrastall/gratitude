@@ -3,108 +3,116 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-f6fe5cbffc927f4efa6b" kind="soundboard">
+  <recording id="r-f6fe5cbffc927f4efa6b" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1979-12-01.148531.fob.nak700.wagner.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">148531</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master (FOB)Audience Cassettes ; Nakamichi 700 mics (mounted on railing in front of the soundboard)&gt; Sony TC-158 (see notes) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
-  <recording id="r-615e0f1448c936e91b2a" kind="soundboard">
+  <recording id="r-615e0f1448c936e91b2a" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1979-12-01.148532.fob.nak700.wagner.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">148532</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master (FOB)Audience Cassettes ; Nakamichi 700 mics (mounted on railing in front of the soundboard)&gt; Sony TC-158 (see notes) | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
   <recording id="r-38cf614dda9d2071ce40" kind="soundboard">
     <identifier scheme="archive-org">gd1979-12-01.150983.aud-sbd.eaton-miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150983</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Recording, Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 30, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>Set 1: AUD (Unknown Mics) &gt; Cassette Master (Nakamichi 350) Set 2: SBD &gt; Cassette Master (Nakamichi 350) | Cassette Master (Nakamichi Dragon) &gt; Avid MBox Pro &gt; Pro Tools 12 &gt; WAV (24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Recording, Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 30, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
   </recording>
   <recording id="r-00d59fc5bf8916973b29" kind="soundboard">
     <identifier scheme="archive-org">gd1979-12-01.151468.s1.aud.s2.sbd.cm.miller.t.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">151468</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index"/>
+    <credit role="transfer-mastering">Recording, Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 30, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="transfer-mastering"/>
     <lineage>Set 1: AUD (Unknown Mics) &gt; Cassette Master (Nakamichi 350) Set 2: SBD &gt; Cassette Master (Nakamichi 350) | Cassette Master (Nakamichi Dragon) &gt; Avid MBox Pro &gt; Pro Tools 12 &gt; WAV (24-bit/96k). Additional Mastering: WAV &gt; Adobe Auditon 2020 &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Recording, Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 30, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role transfer-mastering.</note>
   </recording>
   <recording id="r-b1ca36ab40be5b42c9d8" kind="matrix">
     <identifier scheme="archive-org">gd1979-12-01.161627.mtx.seamons.ht156.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">161627</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1979-12-01" references="archive-index"/>
+    <personMatch name="Hunter Seamons" role="unspecified"/>
     <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; Soundtrack Pro &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) December 31, 2022</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1979-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
   </recording>
   <recording id="r-7b22776bbc9a0cf5cb68" kind="audience">
     <identifier scheme="archive-org">gd1979-12-01.aud.unknown.120453.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">120453</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index"/>
+    <credit role="transfer-mastering">Bob Morris</credit>
     <lineage>Low-gen Audience Cassette (Maxell UDXLII-C90); Cassette (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; Soundforge 9 &gt; CD Wave Editor &gt; Trader's Little Helper &gt; Flac16 Transfer, edit, pitch correction by Bob Morris, May 2012</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Morris</note>
   </recording>
   <recording id="r-b380493f4149ffa3210b" kind="audience">
     <identifier scheme="archive-org">gd1979-12-01.aud.unknown.31330.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">31330</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index"/>
     <credit role="recordist">Unknown, perhpas Scott Jones</credit>
+    <credit role="transfer-mastering">Andrew F</credit>
     <lineage>AUD (unknown equipment and lineage, see note below) | CDR &gt; EAC &gt; WavMerge &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC Frontend</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F</note>
   </recording>
-  <recording id="r-42c899c341721cf5a750" kind="matrix">
+  <recording id="r-42c899c341721cf5a750" kind="matrix" modifiers="DTS">
     <identifier scheme="archive-org">gd1979-12-01.dts.haugh.34294.flac</identifier>
-    <credit role="recordist">See info files for details</credit>
+    <identifier scheme="shnid" certainty="probable">34294</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Dan Haugh</credit>
     <lineage>Soundboard and Audience Matrix (see info file) | DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Dan Haugh</note>
   </recording>
   <recording id="r-8b9f452cc0567bf53161" kind="soundboard">
     <identifier scheme="archive-org">gd1979-12-01.sbd.miller.96408.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">96408</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theatre on 1979-12-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (Sony TCD5M/UDXL-II) -&gt; Dat (Panasonic SV3800/48k) | Dat (Sony D8) -&gt; M-Audio Dio2448 -&gt; Samplitude Professional v8.0 -&gt; FLAC -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.2 -&gt; FLAC All Transfers and Mastering By Charlie Miller</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theatre on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-db8dc77e1b5f7edefe60" kind="unknown">
     <identifier scheme="archive-org">gd1979-12-01.senn-barnehama.minches.82489.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82489</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joel Barnehama</credit>
+    <credit role="transfer-mastering">David Minches</credit>
     <lineage>2 Sennheiser 421s&gt; Nakamichi 550 | Master played back on Nak Dragon&gt; Digital Audio Labs Card Deluxe (24/96)&gt;Adobe Audition&gt; (dither/downsample)&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
   </recording>
   <recording id="r-5b573c77c85c58970523" kind="matrix">
     <identifier scheme="archive-org">gd1979-12-01.sick-bits-15.matrix.chappell.31946.flac16</identifier>
-    <credit role="recordist">See info files for details</credit>
-    <lineage>Soundboard and Audience Matrix (see info file) | See info file for details</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Chappell</note>
-    <note certainty="uncertain">Legacy name match: Chris Chappell; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">31946</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Chris Chappell</credit>
+    <personMatch name="Chris Chappell" role="transfer-mastering"/>
+    <lineage>Soundboard and Audience Matrix (see info file)</lineage>
   </recording>
   <recording id="r-43d788d9e576f4a2192c" kind="soundboard">
     <identifier scheme="archive-org">gd79-12-01.sbd.barbella.6022.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6022</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | set 1: SBD&gt; Rm&gt; Cass&gt; Dat&gt; CD&gt; EAC&gt; SHN, Set 2: SBD&gt; Rm&gt; Dat&gt; CD&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-50cd4a725a0450262648" kind="soundboard">
     <identifier scheme="archive-org">gd79-12-01.sbd.miller.29429.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">29429</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard | SBD -&gt; Cassette Master (Sony TCD5M/UDXL-II) -&gt; Dat (Panasonic SV3800/48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-1ef70bd9e4d110e08249" kind="soundboard">
     <identifier scheme="archive-org">gd79-12-01.sbd.set2.clugston.319.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">319</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Stanley Theater on 1979-12-01" references="archive-index"/>
     <lineage>Soundboard | MSR &gt; Cassette &gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Stanley Theater on 1979-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

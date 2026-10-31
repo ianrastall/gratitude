@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1967-08-06-place" date="1967-08-06">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19670806-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 8eb0ce19c7a9e5471cf3e3b8d7b0aa5cca2765e660ec8b79f0be03b846627d4c. Imported, not independently verified.</cite>
+  </record>
+  <slot>unknown</slot>
+  <venue ref="v-place-ville-marie" nameAsBilled="Place Ville Marie"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-morning-dew" transition="unknown"/>
+      <performance id="p01-02" song="s-viola-lee-blues" transition="unknown"/>
+      <performance id="p01-03" song="s-alligator" transition="segue"/>
+      <performance id="p01-04" song="s-drums" transition="segue"/>
+      <performance id="p01-05" song="s-feedback" transition="unknown"/>
+      <performance id="p01-06" song="s-dancing-in-the-street" transition="unknown" titleVariant="Dancin' In The Streets"/>
+      <note>Source section label: Partial Show</note>
+    </set>
+    <set kind="encore" n="1" mode="unknown">
+      <performance id="p02-01" song="s-gloria" transition="unknown"/>
+      <note>Source section label: Encore</note>
+    </set>
+  </program>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

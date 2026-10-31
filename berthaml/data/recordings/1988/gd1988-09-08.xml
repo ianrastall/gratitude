@@ -5,152 +5,163 @@
   </record>
   <recording id="r-4ce3183dab3deeaec373" kind="unknown">
     <identifier scheme="archive-org">gd1988-09-08.109176.nakcm300-pasternak.mallick.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">109176</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index"/>
     <credit role="recordist">Jon Pasternak</credit>
+    <credit role="transfer-mastering">Dave Mallick</credit>
     <lineage>Master: Nakamichi CM300/cp4's&gt;Marantz PMD-420&gt;Cass(m), Nak DR-2&gt;Tascam CDRW2000&gt;CD Recorded from the taper section by Jon Pasternak Extraction: CD&gt;xACT 2.00a (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors by Dave Mallick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Mallick</note>
   </recording>
   <recording id="r-99e52e99f5d02d141687" kind="unknown">
     <identifier scheme="archive-org">gd1988-09-08.110021.beyer.Boeditaper.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">110021</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Boeditaper</credit>
     <lineage>Sony D6 Cassette Master&gt;Beyer M160 Mics&gt;Sony Tc-WE 325 Cassette Deck(Playback)&gt;Harmon Kardon CDR 20 Home Burner&gt;CDR&gt;EAC&gt;Flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-079aa85ae73d06f9a828" kind="unknown">
     <identifier scheme="archive-org">gd1988-09-08.120487.mk41.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">120487</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Craig Hillwig</credit>
+    <credit role="transfer-mastering">Lenny Stubbe</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Source: Schoeps CMC4/MK41 &gt; Oade P/S? &gt; PCM(Master) &gt; PCM (Clone1); Location: OTS first row 110 degrees; PCM | PCM (Clone1) &gt; Sony PCM 601ES &gt; Fostex D5 &gt; DAT (44.1khz); DAT Transfer: Sony PCM-2600(S/PDIF)&gt;Sound Devices 722 (16/44.1)&gt; Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; xACT 2.16(align on sector boundaries, encode, tag, fingerprint)&gt;flac16 (level 8 ); DAT provided by: Craig Hillwig; DAT transfer and seeded by: Lenny Stubbe</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Lenny Stubbe</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-a3c6acec5edbc7f99e8c" kind="soundboard">
     <identifier scheme="archive-org">gd1988-09-08.136886.upg-sbd.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136886</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>(original shnid = 1561) SBD&gt;Metal Cassette Master&gt;DAT; Tascam DA20&gt;HHb850&gt;CDR by Tom Donaldson et al; CDR&gt; EAC&gt; CDR&gt; EAC&gt; MKW Utility&gt; .shn files&gt; abgd by John A.; stemming from Uncirculated ?88 SBD Tree - pitch correction and patches by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-6ae9f29a0b9990435900" kind="matrix">
     <identifier scheme="archive-org">gd1988-09-08.136887.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136887</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Matrix 2 Source Mix - SBD (shnid=1561) SBD&gt;Metal Cassette Master&gt;DAT; Tascam DA20&gt;HHb850&gt;CDR by Tom Donaldson et al; CDR&gt; EAC&gt; CDR&gt; EAC&gt; MKW Utility&gt; .shn files + AUD (shn id 120487) Source: Schoeps CMC4/MK41 &gt; Oade P/S? &gt; PCM(Master) &gt; PCM (Clone1); Location: OTS first row 110 degrees; PCM | PCM (Clone1) &gt; Sony PCM 601ES &gt; Fostex D5 &gt; DAT (44.1khz); DAT Transfer: Sony PCM-2600(S/PDIF)&gt;Sound Devices 722 (16/44.1)&gt; Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; xACT 2.16(align on sector boundaries, encode, tag, fingerprint)&gt;flac16 (level 8 ); DAT provided by: Craig Hillwig; DAT transfer and seeded by: Lenny Stubbe - matrix mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-20c5aa88839d42367161" kind="soundboard">
+  <recording id="r-20c5aa88839d42367161" kind="soundboard" modifiers="DTS">
     <identifier scheme="archive-org">gd1988-09-08.136888.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136888</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix ; SBD (shnid=1561) SBD&gt;Metal Cassette Master&gt;DAT; Tascam DA20&gt;HHb850&gt;CDR by Tom Donaldson et al; CDR&gt; EAC&gt; CDR&gt; EAC&gt; MKW Utility&gt; .shn files&gt; abgd by John A.; stemming from Uncirculated ?88 SBD Tree + AUD (shn id 120487) Source: Schoeps CMC4/MK41 &gt; Oade P/S? &gt; PCM(Master) &gt; PCM (Clone1); Location: OTS first row 110 degrees; PCM | PCM (Clone1) &gt; Sony PCM 601ES &gt; Fostex D5 &gt; DAT (44.1khz); DAT Transfer: Sony PCM-2600(S/PDIF)&gt;Sound Devices 722 (16/44.1)&gt; Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; xACT 2.16(align on sector boundaries, encode, tag, fingerprint)&gt;flac16 (level 8 ); DAT provided by: Craig Hillwig; DAT transfer and seeded by: Lenny Stubbe - DTS mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-95b3b14d606201d4cd8e" kind="soundboard">
     <identifier scheme="archive-org">gd1988-09-08.136889.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">136889</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid=1561) SBD&gt;Metal Cassette Master&gt;DAT; Tascam DA20&gt;HHb850&gt;CDR by Tom Donaldson et al; CDR&gt; EAC&gt; CDR&gt; EAC&gt; MKW Utility&gt; .shn files&gt; abgd by John A.; stemming from Uncirculated ?88 SBD Tree + AUD (shn id 120487) Source: Schoeps CMC4/MK41 &gt; Oade P/S? &gt; PCM(Master) &gt; PCM (Clone1); Location: OTS first row 110 degrees; PCM | PCM (Clone1) &gt; Sony PCM 601ES &gt; Fostex D5 &gt; DAT (44.1khz); DAT Transfer: Sony PCM-2600(S/PDIF)&gt;Sound Devices 722 (16/44.1)&gt; Firewire&gt;Macbook&gt;Sound Studio 3.6(fades, normalize peak, +gain, track)&gt; xACT 2.16(align on sector boundaries, encode, tag, fingerprint)&gt;flac16 (level 8 ); DAT provided by: Craig Hillwig; DAT transfer and seeded by: Lenny Stubbe - mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-0a59d4ca2439597d448a" kind="audience">
     <identifier scheme="archive-org">gd1988-09-08.141741.OTS.AKG.Ackerman.Miller.Noel.t-flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141741</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ray Ackerman</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Recording Info: Ray Ackerman's Master Audience Cassettes; AKG 460 w/ck63 caps &gt; AKG B18 phantom power unit &gt; Sony D5; Transfer Info: Master Cassettes (Sony TCK71) &gt; Grace Design Lunatec V3 (Oade modified) &gt; M-Audio MicroTrack II (wav 24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-939dd239f9adc9d5ad44" kind="unknown">
     <identifier scheme="archive-org">gd1988-09-08.142147.OTS.Schoeps.PCM.Mattes.Miller.Noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142147</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index"/>
     <credit role="recordist">Ted Mattes and Don Crandall &amp; Chris Huron</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Don Crandall &amp; Chris Huron Recording (OTS): Schoeps CMC4/MK4 &gt; PCM (Nakamichi DMP-100) (Sony ESX-HiFi/L-750 Beta tape); Charlie Miller | Sony SL-HF66 &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (WAV 16-bit/44.1k) &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
   <recording id="r-ade1b0629cc4b0be9717" kind="audience">
     <identifier scheme="archive-org">gd1988-09-08.145670.ots.akg460.ackerman.miller.noel.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">145670</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ray Ackerman</credit>
+    <credit role="transfer-mastering">Joe Noel and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Ray Ackerman's Master Audience Cassettes; AKG 460 w/ck63 caps &gt; AKG B18 phantom power unit &gt; Sony D5 | Master Cassettes (Sony TCK71) &gt; Grace Design Lunatec V3 (Oade modified) &gt; M-Audio MicroTrack II (wav 24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe Noel and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
-  <recording id="r-3a8fd442a823ff030aea" kind="matrix">
+  <recording id="r-3a8fd442a823ff030aea" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-09-08.147775.sbd.ultramatrix.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147775</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-b630b3d8981bfcec42e8" kind="matrix">
+  <recording id="r-b630b3d8981bfcec42e8" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-09-08.147850.UltraMatrix.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147850</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-ecc3b3533e3faeb9bed6" kind="matrix">
+  <recording id="r-ecc3b3533e3faeb9bed6" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-09-08.147973.sbd.ultramatrix.miller.pc.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147973</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-0ce07de326916b6f7758" kind="matrix">
+  <recording id="r-0ce07de326916b6f7758" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-09-08.148085.sbd.ultramatrix.miller.pc.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">148085</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK SA-X90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Adobe Audition CC2015 &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-7861aef6c2c34ff67054" kind="audience">
     <identifier scheme="archive-org">gd1988-09-08.Nak300CP4.Floater.Keo.116062.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">116062</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Floater</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D5 Taper Flaoter,Transfer By Keo; Tapes Maxell XLII-S 90's; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz Tracking/Sample Rate Conversion/Metadata Tagging With AudioGate Software To 32 Bit Float/96 kHz Dithered/Flacked With Korg Aqua To 16/44 SBE's Checked/Fixed With Trader's Little Helper</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-b47ac1c5fc4532b9f08f" kind="audience">
     <identifier scheme="archive-org">gd1988-09-08.Nak300CP4.Floater.Keo.116063.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">116063</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index"/>
     <credit role="recordist">Floater</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Nakamichi CM300/CP4 Shotguns&gt;Sony D5; Taper Flaoter,Transfer By Keo; Tapes Maxell XLII-S 90's; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz Tracking/Sample Rate Conversion/Flacked/Metadata Tagging With AudioGate Software To 24 Bit/96 kHz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-18c51af3310d30ad5bac" kind="soundboard">
     <identifier scheme="archive-org">gd88-09-08.sbd.donaldson.1561.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1561</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Spectrum on 1988-09-08" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt;Metal Cassette Master&gt;DAT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Spectrum on 1988-09-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-53d4d65252ecb3ae8a62" kind="unknown">
-    <identifier scheme="other">etree-607475</identifier>
-    <note>Supplied catalogue listing: etree; gd1988-09-08.147850.UltraMatrix.sbd.cm.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-53d4d65252ecb3ae8a62" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">607475</identifier>
+    <identifier scheme="shnid" certainty="probable">147850</identifier>
+    <listing provider="etree" title="gd1988-09-08.147850.UltraMatrix.sbd.cm.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

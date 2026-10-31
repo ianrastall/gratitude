@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19851230-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-755" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
+  <venue ref="v-oakland-alameda-county-coliseum-arena" nameAsBilled="Oakland-Alameda County Coliseum Arena"/>
   <program coverage="partial">
     <set kind="soundcheck" n="1" mode="unknown">
       <performance id="p01-01" song="s-quinn-the-eskimo" transition="unknown"/>
@@ -13,7 +13,7 @@
     <set kind="set" n="1" mode="unknown">
       <performance id="p02-01" song="s-gimme-some-lovin" transition="segue"/>
       <performance id="p02-02" song="s-greatest-story-ever-told" transition="unknown"/>
-      <performance id="p02-03" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p02-03" song="s-west-la-fadeaway" transition="unknown"/>
       <performance id="p02-04" song="s-my-brother-esau" transition="unknown"/>
       <performance id="p02-05" song="s-stagger-lee" transition="unknown"/>
       <performance id="p02-06" song="s-little-red-rooster" transition="unknown"/>
@@ -25,7 +25,7 @@
     <set kind="set" n="2" mode="unknown">
       <performance id="p03-01" song="s-quinn-the-eskimo" transition="segue"/>
       <performance id="p03-02" song="s-samson-and-delilah" transition="segue"/>
-      <performance id="p03-03" song="s-he-s-gone" transition="segue"/>
+      <performance id="p03-03" song="s-hes-gone" transition="segue"/>
       <performance id="p03-04" song="s-i-need-a-miracle" transition="segue"/>
       <performance id="p03-05" song="s-crazy-fingers" transition="segue"/>
       <performance id="p03-06" song="s-drums" transition="segue"/>
@@ -36,7 +36,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p04-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p04-01" song="s-its-all-over-now-baby-blue" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

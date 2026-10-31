@@ -5,22 +5,24 @@
   </record>
   <recording id="r-ae65198bb9c180ca009f" kind="audience">
     <identifier scheme="archive-org">gd1972-06-17.shure-sony.melton.115839.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">115839</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hollywood Bowl on 1972-06-17" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave and Jim Melton</credit>
     <lineage>Audience</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hollywood Bowl on 1972-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-5c4784b76be962a5e3d3" kind="audience">
+  <recording id="r-5c4784b76be962a5e3d3" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1972-06-17.shure.melton.miller.116272.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">116272</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hollywood Bowl on 1972-06-17" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave and Jim Melton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>(FOB) Shure Unidyne III -&gt; Cassette Master (Sony TC-40) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt;Adobe Audition v3 -&gt; Samplitude Professional v11.2 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hollywood Bowl on 1972-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-31b899811fc42a18e542" kind="audience">
     <identifier scheme="archive-org">gd72-06-17.aud.hanno.16470.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16470</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hollywood Bowl on 1972-06-17" references="archive-index archive-url-snapshot"/>
     <lineage>Audience | AUD C/?</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hollywood Bowl on 1972-06-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

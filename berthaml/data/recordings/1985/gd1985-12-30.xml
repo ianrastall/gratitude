@@ -5,160 +5,171 @@
   </record>
   <recording id="r-02e3d7899ef06e782d8e" kind="unknown">
     <identifier scheme="archive-org">gd1985-12-30.118434.set2.BeyerM160.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">118434</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">D5scott</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Set 2 Only Source: 2 Sennheiser 421 microphones - up front/center &gt; Sony TC-D5M - analog master cassette; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-e88c430f3f7d1c95bd68" kind="soundboard">
     <identifier scheme="archive-org">gd1985-12-30.135393.aud.Holtz.NakCM104.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135393</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">Greg Holtz</credit>
     <lineage>Source: Nakamichi CM-100 mics w/CP-4 shotgun caps &gt; Sony TC-D5M &gt; MAC (Maxell MX-90's); Taper location: On floor at soundboard a few feet right of center, mics 8' high; | MAC &gt; Tascam 112 &gt; Edirol UA-5 &gt; Audacity 24/48 wavs &gt; R8 Brain 16/44 wavs &gt; TLH &gt; flac16; Recorded, transferred, edited, tracked and flac'd by Greg Holtz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Greg Holtz</note>
   </recording>
   <recording id="r-5b3c6e6b647a15b7ddd9" kind="unknown">
     <identifier scheme="archive-org">gd1985-12-30.140909.s1.unknown.Bryant.Miller.Noel.t-flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140909</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 1 from Robert Bryant recording: unknown mics &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Cassette Master (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96; Edited &amp; Mastered w/ Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-27d73f96e4c2a2f60d7a" kind="unknown">
     <identifier scheme="archive-org">gd1985-12-30.140958.s1.unknown.Bryant.Miller.Noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140958</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 1 from Robert Bryant recording: unknown mics &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Cassette Master (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96; Edited &amp; Mastered w/ Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-71d6ce188b0e04c1e7cb" kind="matrix">
+  <recording id="r-71d6ce188b0e04c1e7cb" kind="matrix" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-12-30.142098.mtx.tobin.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142098</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16; Matrix 2 Source Mix - SBD (shnid = 106019) Recording Info: SBD -&gt; Cassette Master (Sony D5/Maxell MX-90); Transfer Info: Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 81314) Source: Digital FOB Audience Tape - Taper Unknown Recording Info: Schoeps Hypercardiods &gt; PCM &gt; DAT; DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav Transfered September 2006 Editing Info: Editing and Mastering by Jamie Waddell Wavelab 6.0- Waves Tools(DC offset correction and EQ), BBE, L2(dither-type2,ultra)-16/44.1 Traders Lil Helper Flac Level 8 - matrix mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-0ec26629147c81880d0a" kind="soundboard">
+  <recording id="r-0ec26629147c81880d0a" kind="soundboard" modifiers="FOB DTS">
     <identifier scheme="archive-org">gd1985-12-30.142099.dts.tobin.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142099</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix; - SBD (shnid = 106019) Recording Info: SBD -&gt; Cassette Master (Sony D5/Maxell MX-90); Transfer Info: Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 81314) Source: Digital FOB Audience Tape - Taper Unknown Recording Info: Schoeps Hypercardiods &gt; PCM &gt; DAT; DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav Transfered September 2006 Editing Info: Editing and Mastering by Jamie Waddell Wavelab 6.0- Waves Tools(DC offset correction and EQ), BBE, L2(dither-type2,ultra)-16/44.1 Traders Lil Helper Flac Level 8 - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-b086a97ae6195856b6ac" kind="soundboard">
+  <recording id="r-b086a97ae6195856b6ac" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-12-30.142100.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142100</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16/48kHz; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 106019) Recording Info: SBD -&gt; Cassette Master (Sony D5/Maxell MX-90); Transfer Info: Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16; All Transfers and Mastering By Charlie Miller + AUD (shnid = 81314) Source: Digital FOB Audience Tape - Taper Unknown Recording Info: Schoeps Hypercardiods &gt; PCM &gt; DAT; DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav Transfered September 2006 Editing Info: Editing and Mastering by Jamie Waddell Wavelab 6.0- Waves Tools(DC offset correction and EQ), BBE, L2(dither-type2,ultra)-16/44.1 Traders Lil Helper Flac Level 8 - surround mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-3ca4dec963cdce6ac0fe" kind="audience">
     <identifier scheme="archive-org">gd1985-12-30.148709.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">148709</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-da2cb063a10f84281316" kind="audience">
     <identifier scheme="archive-org">gd1985-12-30.148710.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">148710</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-cdf21eb9ea007cad6906" kind="unknown">
     <identifier scheme="archive-org">gd1985-12-30.154650.akgc422.davis-holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">154650</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index"/>
     <credit role="recordist">Executive Crew; Mike Davis, Kyle Holbrook, Tom Pinney, Sean Murtha, Gary Steel</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Source: MAUD CA Microphones: AKG c422 crossed figure 8's (X-Y at 90') head level|AKG B18 Recorder: Sony TC-D5M| Maxell MX 90's no Dolby (fourth in line) Location: approximately 50 feet from stage; DFC | Transfer: Nakamichi 582Z &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC| foobar 2000 tagger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-67e806278e43f306dfee" kind="unknown">
     <identifier scheme="archive-org">gd1985-12-30.154651.akgc422.davis-holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">154651</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew; Mike Davis, Kyle Holbrook, Tom Pinney, Sean Murtha, Gary Steel</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Source: MAUD CA Microphones: AKG c422 crossed figure 8's (X-Y at 90') head level|AKG B18 Recorder: Sony TC-D5M| Maxell MX 90's no Dolby (fourth in line) Location: approximately 50 feet from stage; DFC | Transfer: Nakamichi 582Z &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC| foobar 2000 tagger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-e007f131ab6ccbdcc298" kind="soundboard">
     <identifier scheme="archive-org">gd1985-12-30.169533.sbd.marcus.menke.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">169533</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Marcus</credit>
+    <credit role="transfer-mastering">Bob Menke, Charlie Miller, Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
     <lineage>Steve Marcus' Master Soundboard Cassettes &gt; Sony WM-D6C (Maxell MX-90) | Master Cassettes (Nakamichi CR-7A)&gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (24-bit/96k .wav) &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
   </recording>
   <recording id="r-5078346dd7ab6f85377e" kind="soundboard">
     <identifier scheme="archive-org">gd1985-12-30.169534.sbd.marcus.menke.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">169534</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Marcus</credit>
+    <credit role="transfer-mastering">Bob Menke, Charlie Miller, Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
     <lineage>Steve Marcus' Master Soundboard Cassettes &gt; Sony WM-D6C (Maxell MX-90) | Master Cassettes (Nakamichi CR-7A)&gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (24-bit/96k .wav) &gt; Adobe Audition CC 2025 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f8393ae17e8a47ad0dee" kind="audience">
+  <recording id="r-f8393ae17e8a47ad0dee" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-12-30.175604.schoeps.mk41.pcm.oade.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">175604</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index"/>
     <credit role="recordist">Oade Brothers</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller December 11, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>(FOB) Schoeps CMC3/MK41 &gt; PCM Master &gt; PCM Clone | PCM (Sony SL-10) &gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 11, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
-  <recording id="r-7956709f273a63f06084" kind="audience">
+  <recording id="r-7956709f273a63f06084" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-12-30.beyerm88.connor.30208.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">30208</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Charlie Connor</credit>
+    <credit role="transfer-mastering">Charlie Connor</credit>
     <lineage>(FOB)AUD&gt;Beyer Dynamic M88's&gt;Sony TCD5M(CM Maxell MX90) &gt; Nak DR-10 | Midiman Flying Cow 24bit/48kHz A/D&gt;RME Digi96/8&gt; Steinberg's Wavelab 3.0 (bit resolution &amp; resampling to CDR redbook 16/44.1&gt;CDWav v1.6 (tracking only)&gt;flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Connor</note>
   </recording>
   <recording id="r-0606c3246445eb34b634" kind="soundboard">
     <identifier scheme="archive-org">gd1985-12-30.sbd.miller.77405.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">77405</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Paul Scotton and Joani Walker</credit>
+    <credit role="transfer-mastering">Charlie Connor</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5/Maxell MX-90) | Cassette Master (Sony TC-WE475) -&gt; Sony R500 (Pass Through) -&gt; SEK'D Prodif Plus -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Connor</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-7894175d8f396c5f1dfd" kind="soundboard">
     <identifier scheme="archive-org">gd1985-12-30.sbd.walker-scotton.miller.106019.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106019</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5/Maxell MX-90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
-  <recording id="r-a0b8c846d9b78cf11ba3" kind="audience">
+  <recording id="r-a0b8c846d9b78cf11ba3" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-12-30.schoeps.GEMS.evans-waddell.81314.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">81314</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum on 1985-12-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Digital FOB Audience Tape - Taper Unknown. Schoeps Hypercardiods &gt; PCM &gt; DAT | DAT &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum on 1985-12-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
-  <recording id="r-cc8abd4c23b64a3ce878" kind="unknown">
+  <recording id="r-cc8abd4c23b64a3ce878" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd85-12-30.sbd.georges.1223.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1223</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30" references="archive-index"/>
     <lineage>SBDmc&gt; DAT&gt; CD&gt; EAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1985-12-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
 </recordings>

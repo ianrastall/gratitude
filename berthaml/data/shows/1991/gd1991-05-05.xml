@@ -3,12 +3,12 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910505-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-905" nameAsBilled="Cal Expo Amphitheatre"/>
+  <venue ref="v-cal-expo-amphitheatre" nameAsBilled="Cal Expo Amphitheatre"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-help-on-the-way" transition="segue"/>
       <performance id="p01-02" song="s-slipknot" transition="segue"/>
-      <performance id="p01-03" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-franklins-tower" transition="unknown"/>
       <performance id="p01-04" song="s-little-red-rooster" transition="unknown"/>
       <performance id="p01-05" song="s-ramble-on-rose" transition="unknown"/>
       <performance id="p01-06" song="s-picasso-moon" transition="unknown"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <performance id="p03-01" song="s-knockin-on-heavens-door" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

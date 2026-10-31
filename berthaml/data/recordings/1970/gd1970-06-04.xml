@@ -5,49 +5,53 @@
   </record>
   <recording id="r-245f81a497ce994571c2" kind="soundboard">
     <identifier scheme="archive-org">gd1970-06-04.119921.sbd.acou.unk.miogi.flac16</identifier>
-    <credit role="recordist">unknown</credit>
+    <identifier scheme="shnid" certainty="probable">119921</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-04" references="archive-index"/>
+    <credit role="transfer-mastering">miogi</credit>
     <lineage>sbd &gt; ?? &gt; wav &gt; audacity(snaps,crackles,pops) &gt; wavmerge &gt; cdwav &gt; tlh(flaclevel8) &gt; flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): miogi</note>
   </recording>
   <recording id="r-88ed97beb32dcc4ee067" kind="audience">
     <identifier scheme="archive-org">gd1970-06-04.123798.gdnrps.sonyTC124.olsen.droncit.flat.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123798</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Gerry Olsen</credit>
+    <credit role="transfer-mastering">Dan McDonald and dusborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>Audience Recording by Gerry Olsen. Sony TC-124 single-capstan portable cassette deck equipped with Sony F-99S One Point Stereo Dynamic Microphone IMP LOW (hand-held). 120 minute BASF normal bias tape. Lineage via Dan McDonald (droncit@yahoo.com): Master Audience Cassette-&gt;Nakamichi BX-1 (modified for flat transfer)-&gt; Tascam DR-07MK2 (24-bit, 96kHz); DC8Forensics was used to apply the NAB curve for normal bias cassettes. Converted to 16-bit, 44.1kHz using 32-bit interpolation and a triangular high pass dither. After the NAB curve in a multifilter I applied a virtual vale and overtone generator for lost harmonics and used a channel blender to blend below 150 Hz to mono to minimize mic handling noise.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dan McDonald and dusborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-b2e3f886e8ab0885406a" kind="matrix">
     <identifier scheme="archive-org">gd1970-06-04.123799.mtx.olsen.droncit.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123799</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-04" references="archive-index"/>
     <credit role="recordist">Gerry Olsen</credit>
+    <credit role="transfer-mastering">Dan McDonald and dusborne</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>Matrix of Soundboard (shnid:119921) sbd &gt; ?? &gt; wav &gt; audacity(snaps,crackles,pops) &gt; wavmerge &gt; cdwav &gt; tlh(flaclevel8) &gt; flac16; conversion by: miogi; Soundboard (shnid:12135) SBD-&gt;Rm-&gt;Cass-&gt;?&gt;Dat&gt;CD&gt;EAC&gt;SHN CD&gt;EAC&gt;SHN done by charlie miller; The entire acoustic set has been matrixed. The last three songs of the electric set have been matrixed with (shnid:123798) Audience Recording by Gerry Olsen. Sony TC-124 single-capstan portable cassette deck equipped with Sony F-99S One Point Stereo Dynamic Microphone IMP LOW (hand-held). 120 minute BASF normal bias tape.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dan McDonald and dusborne</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-02184f9071ba762eb7b7" kind="soundboard">
     <identifier scheme="archive-org">gd1970-06-04.132790.sbd.bear-latvala-wise.reel.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132790</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bear</credit>
+    <credit role="transfer-mastering">Dick Latvala and Jim Wise</credit>
+    <personMatch name="Owsley Stanley" role="recordist"/>
+    <personMatch name="Dick Latvala" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>Partial SBD Recording; 7 Inch Half Track Reel Master @ 7.5 ips(Recorded By Bear on a Sony 770 Reel Deck)-1st Generation(TDK SAX-100 cassette)Dick Latvala(Master Reel Playback on a Technics 1506 Reel 2 Reel-Tascam 122 MK111 Cassette Deck No dolby); Analog to Digital(Cassettes on Nakamichi Dragon-Sony PCM-R700 DAT @ 44.1KHz by Jim Wise); DAT X Zero play back on a Sony PCM R-500-Digital Audio Labs Carddeluxe-WAV @ 16/44.1KHz; Editing(Adobe Audition CC)-Mastering &amp; Processing(iZotope Ozone 6)-FLAC encoding(dBpoweramp)-Tagging(Tag &amp; Re-name) Jim Wise</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dick Latvala and Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Owsley Stanley; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
   <recording id="r-904c0df6324cbe722ceb" kind="soundboard">
     <identifier scheme="archive-org">gd70-06-04.sbd.miller.12135.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12135</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-04" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard | SBD &gt; RM &gt; Cass &gt; ? &gt; DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-86a052f5946e06c37573" kind="unknown">
-    <identifier scheme="other">etree-562051</identifier>
-    <note>Supplied catalogue listing: etree; gd70-06-04.123799.mtx.olsen.droncit.dusborne.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
+  <recording id="r-86a052f5946e06c37573" kind="unknown" inferredKind="matrix">
+    <identifier scheme="etree-torrent">562051</identifier>
+    <identifier scheme="shnid" certainty="probable">123799</identifier>
+    <listing provider="etree" title="gd70-06-04.123799.mtx.olsen.droncit.dusborne.flac16" references="etree-snapshot"/>
+    <personMatch name="Dave Usborne" role="unspecified"/>
   </recording>
 </recordings>

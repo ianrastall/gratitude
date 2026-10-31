@@ -5,29 +5,33 @@
   </record>
   <recording id="r-06aff2448d5a20770ebd" kind="soundboard">
     <identifier scheme="archive-org">gd1969-03-29.123467.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123467</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ice Palace on 1969-03-29" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ice Palace on 1969-03-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-d99b98350cff5f6ce87c" kind="unknown">
     <identifier scheme="archive-org">gd1969-03-29.135885.teute.d1t04fix.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135885</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ice Palace on 1969-03-29" references="archive-index"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Fix for Charlie Miller source, patched with 4th-gen cassette.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ice Palace on 1969-03-29. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-5f9b227e1b81502cc2bf" kind="soundboard">
     <identifier scheme="archive-org">gd1969-03-29.141435.sbd.dalton.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">141435</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ice Palace on 1969-03-29" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Dalton</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Master Soundboard Reel &gt; Cassette &gt; Dat 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ice Palace on 1969-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-087575e99891852c54c9" kind="soundboard">
     <identifier scheme="archive-org">gd69-03-29.sbd.vinson.1764.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1764</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ice Palace on 1969-03-29" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Dan Vinson</credit>
     <lineage>Soundboard | SBD &gt; ? &gt; BOOT CD &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ice Palace on 1969-03-29. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dan Vinson</note>
   </recording>
 </recordings>

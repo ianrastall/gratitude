@@ -5,54 +5,59 @@
   </record>
   <recording id="r-ef8ce90b5cbbbcd2a4bd" kind="soundboard">
     <identifier scheme="archive-org">gd1994-09-27.136852.sbd.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">136852</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1994-09-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Dat -&gt; Cassette Master -&gt; Dat (48k) | Dat (Tascam DA-20) -&gt; Tascam DA-3000 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1994-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-6c00be2393f35e12f4c5" kind="audience">
+  <recording id="r-6c00be2393f35e12f4c5" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1994-09-27.140240.FOB.s2.Schoeps.Gastwirt.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">140240</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1994-09-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rich Gastwirt</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Set 2 Rich Gastwirt's Master Audience Dat recording: Schoeps CMC4 MK4&gt; Panasonic SV-255&gt; DAT (48k) (FOB); Charlie Miller | Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 &gt; wav 16/48; Edited &amp; Mastered in Audacity by Joe Noel: wav 16/48 &gt; flac 16/48; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1994-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3aa23d5e23048d003f1c" kind="unknown">
     <identifier scheme="archive-org">gd1994-09-27.150128.sennme88.ragosa.miller.sirmick.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">150128</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1994-09-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dan Ragosa</credit>
+    <credit role="transfer-mastering">Thanks to Charlie for doing the transfer. edited and mastered SIRMick June 2020</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Sennheiser ME 88's &gt; Sony Sony TCD-D7 &gt; Dat Master (48k)- Recorded from OST (mics on pole) by Dan Ragosa | Transfer: Transfer: DAT &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; wav 16/48 - Transferred by Charlie Miller. Lineage: wav &gt; iZotope RX7 Advanced &gt; Neutron 2 Advanced &gt; CD Wave &gt; flac 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1994-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Thanks to Charlie for doing the transfer. edited and mastered SIRMick June 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-d9449654bb23028fe394" kind="unknown">
     <identifier scheme="archive-org">gd1994-09-27.akg460.flaschner.sobel.83082.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83082</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1994-09-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Flaschner</credit>
+    <credit role="transfer-mastering">Jason Sobel</credit>
     <lineage>AKG 460B/ck61 &gt; custom pre-amp &gt; Sony D7 (@ 48kHz) | Tascam DA-20MKII &gt; Tascam HD-P2 &gt; CF card &gt; usb 2.0 &gt; pc &gt; WaveLab 5.01b (fades) &gt; r8brain v1.9 (resample to 44.1 kHz) &gt; CD Wave v1.95.1 &gt; FLAC v1.1.3 (Level 8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1994-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jason Sobel</note>
   </recording>
-  <recording id="r-a7cd1ab3aa47e3837412" kind="unknown">
+  <recording id="r-a7cd1ab3aa47e3837412" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1994-09-27.aud.unknown.georges.10182.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10182</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1994-09-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Nick Georges</credit>
     <lineage>unknown DAUD source. | DAT transfer via PCM-M1 &gt; Edirol UA-5 &gt; CoolEdit 2000 &gt; CD-WAv &gt; mkw-Act</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1994-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Nick Georges</note>
   </recording>
   <recording id="r-68ead394e721def868f4" kind="unknown">
     <identifier scheme="archive-org">gd1994-09-27.nak300.unknown.wiley.8480.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8480</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1994-09-27" references="archive-index"/>
+    <credit role="transfer-mastering">Tim WIley</credit>
     <lineage>DAUD Nakamichi 300(2) + cp 4&gt;D-7&gt;DAT&gt;CDR&gt;EAC(secure)&gt; Cool Edit Pro&gt;CD WAV&gt;SHN(seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1994-09-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tim WIley</note>
   </recording>
   <recording id="r-82594462578a90995f05" kind="audience">
     <identifier scheme="archive-org">gd94-09-27.pnb.pujol.14021.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14021</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Garden on 1994-09-27" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Minor</credit>
+    <credit role="transfer-mastering">Marc Pujol</credit>
     <lineage>Audience: PMB Microphones | PMB Mics &gt; DAT &gt; Sony PCM-R300 &gt; Monster S/PDIF digital cable &gt; RMEdigi96/8PAD &gt; SoundForge 6.0 (rec, resample) &gt; CD Wave (splits) &gt; mkwACT &gt; SHN (seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Garden on 1994-09-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Marc Pujol</note>
   </recording>
 </recordings>

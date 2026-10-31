@@ -1,13 +1,20 @@
 {
   "assigned_recording_references": 18611,
   "completion": "incomplete",
+  "corroboration": {
+    "disputed": 95,
+    "no-setlist": 186,
+    "recording-backed": 23,
+    "single-source": 9,
+    "sources-agree": 1921
+  },
   "gdshowsdb_records": 2233,
   "issues": {
     "context-review": 27,
     "dangling-segue": 1,
     "event-identity": 17,
     "official-release-editions": 317,
-    "playlist-mappings": 28,
+    "playlist-mappings": 22,
     "playlist-order": 1,
     "playlist-review": 30,
     "recording-date-assignment": 413,
@@ -20,7 +27,7 @@
   "legacy_unplaced_records": 531,
   "official_release_page_candidates": 317,
   "official_releases": 1,
-  "open_issues": 5067,
+  "open_issues": 5061,
   "people": 14,
   "performances": 39639,
   "playlists": {
@@ -46,8 +53,8 @@
     "skeleton": 186
   },
   "shows": 2234,
-  "songs": 411,
-  "source_drift": 1,
+  "songs": 410,
+  "source_drift": 0,
   "source_events": 3130,
   "source_exclusions": {
     "Canceled": 443,

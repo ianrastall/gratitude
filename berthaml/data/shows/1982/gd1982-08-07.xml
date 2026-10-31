@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820807-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-795" nameAsBilled="Alpine Valley Music Theatre"/>
+  <venue ref="v-alpine-valley-music-theatre" nameAsBilled="Alpine Valley Music Theatre"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-the-music-never-stopped" transition="segue"/>
@@ -12,7 +12,7 @@
       <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
       <performance id="p01-05" song="s-big-river" transition="unknown"/>
       <performance id="p01-06" song="s-it-must-have-been-the-roses" transition="unknown"/>
-      <performance id="p01-07" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-07" song="s-cc-rider" transition="unknown"/>
       <performance id="p01-08" song="s-ramble-on-rose" transition="unknown"/>
       <performance id="p01-09" song="s-beat-it-on-down-the-line" transition="segue"/>
       <performance id="p01-10" song="s-on-the-road-again" transition="unknown"/>
@@ -35,7 +35,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

@@ -5,63 +5,68 @@
   </record>
   <recording id="r-cd53584a8b7030310aa5" kind="soundboard">
     <identifier scheme="archive-org">gd1992-03-02.140255.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140255</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-6d8b14e212a38245e15d" kind="soundboard">
     <identifier scheme="archive-org">gd1992-03-02.140297.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140297</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-13d7002f8f7f54bf24e7" kind="audience">
+  <recording id="r-13d7002f8f7f54bf24e7" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-03-02.155823.FOB.OTS.SchoepsMasterDAT.Brotman.Metchick.Anon.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">155823</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Brotman &amp; Jeff Metchick</credit>
+    <credit role="transfer-mastering">Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 06, 2022</credit>
     <lineage>Recording (Set I): (FOB) Schoeps CMC3 MK4’s (ORTF) &gt; Tao Research &gt; M1000 cables &gt; Panasonic SV-255mod (16/48) &gt; Master DAT Location: Row FF Recording (Set II): (OTS) Schoeps CMC3 MK4’s (ORTF) &gt; Tao Research &gt; M1000 cables &gt; Panasonic SV-255mod (16/48) &gt; Master DAT Location: OTS | Transfer: Master DAT &gt; Panasonic SV-3800 &gt; VX Pocket sound card &gt; Panasonic Toughbook &gt; Steinberg Nuendo &gt; WAV 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 06, 2022</note>
   </recording>
-  <recording id="r-ad6738432d1396379b9e" kind="audience">
+  <recording id="r-ad6738432d1396379b9e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-03-02.155824.Set2.FOB.BK4011.DAT.Brennecke.Brotman.Anon.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">155824</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index"/>
     <credit role="recordist">Clay Brennecke</credit>
+    <credit role="transfer-mastering">Source provided by Dave Brotman Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 11, 2022</credit>
     <lineage>Recording: (FOB) B&amp;K4011 &gt; Sony D10 Pro II &gt; DAT &gt; Clone | Transfer: Clone &gt; Panasonic SV-3800 &gt; VX Pocket sound card &gt; Panasonic Toughbook &gt; Steinberg Nuendo &gt; WAV 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Source provided by Dave Brotman Transfer by Anonymous Edited &amp; Mastered (Adobe Audition) by Joe Noel January 11, 2022</note>
   </recording>
   <recording id="r-947304edc5d61ca095a7" kind="unknown">
     <identifier scheme="archive-org">gd1992-03-02.nak300.rickers.davis.105675.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">105675</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Trew Rickers</credit>
+    <credit role="transfer-mastering">Chris Davis</credit>
     <lineage>Nakamichi cm300/cp4 -&gt; Sony D8 [16/48] | dat [m] -&gt; Tascam DA20 mkII -&gt; R-44 -&gt; CD Wave 1.98 -&gt; Wavelab 5.01a [fades/Resampler 192] -&gt; FLAC [8]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Davis</note>
   </recording>
   <recording id="r-bdd9dbf1faafab97e97d" kind="unknown">
     <identifier scheme="archive-org">gd1992-03-02.schoeps.andrewf.92748.sbeok.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">92748</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F.</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Schoeps CMC3/MK4 (ORTF) &gt; Oade mic power supply &gt; Casio DA-7 &gt; Sony DT-Dat tape. Mics on 7-foot stand, next to lighting board area, stage right. | Master DAT &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-d5b61d6eb1925b7e45f2" kind="unknown">
     <identifier scheme="archive-org">gd1992-03-02.schoeps.andrewf.92749.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">92749</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Andrew F.</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Schoeps CMC3/MK4 (ORTF) &gt; Oade mic power supply &gt; Casio DA-7 &gt; Sony DT-Dat tape. Mics on 7-foot stand, next to lighting board area, stage right. | Master DAT &gt; Sony TCD-D10P &gt; Coax SPDIF &gt; Audiophile 2496 &gt; Soundforge (at 48kHz) &gt; CD-Wave &gt; R8Brain (to 44.1kHz) &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
-  <recording id="r-64ca654cf32dd3a2a399" kind="audience">
+  <recording id="r-64ca654cf32dd3a2a399" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd92-03-02.schoeps.gardner.4737.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4737</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1992-03-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Tony Gardner</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Audience: Schoeps CMC3/MK4's | Schoeps CMC3/MK4's (FOB) &gt; Oade M118 &gt; Panasonic SV-250</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1992-03-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Tony Gardner</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
 </recordings>

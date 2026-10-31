@@ -6,6 +6,9 @@
   </record>
   <recording id="r-c57b0deeca5130342bb5" kind="soundboard">
     <identifier scheme="archive-org">gd1968-01-17.sbd.cotsman.11795.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11795</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carousel Ballroom on 1968-01-17" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jeff Cotsman, Matt Vernon and Raoul Duke</credit>
     <lineage>SBD&gt;MR&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</lineage>
     <playlist id="pl-8d8bf25af8857ff8fe6d" label="Archive original SHN files" format="shn" sourceHref="https://archive.org/metadata/gd1968-01-17.sbd.cotsman.11795.shnf">
       <track n="1" title="Turn On Your Lovelight" file="gd68-01-17d1t01.shn" mappingStatus="candidate" disc="1" sourceNumber="1" duration="PT431.54S" covers="p01-01" certainty="probable"/>
@@ -25,21 +28,19 @@
       <track n="15" title="Good Morning Little Schoolgirl" file="gd68-01-17d2t06.shn" mappingStatus="candidate" disc="2" sourceNumber="6" duration="PT493.17S" covers="p02-06" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jeff Cotsman, Matt Vernon and Raoul Duke</note>
-    <note>Archive source metadata (source): SBD&gt;MR&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</note>
-    <note>Archive source metadata (transferer): Jeff Cotsman, Matt Vernon and Raoul Duke</note>
+    <captured field="source">SBD&gt;MR&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</captured>
+    <captured field="transferer">Jeff Cotsman, Matt Vernon and Raoul Duke</captured>
   </recording>
-  <recording id="r-2e55c063bcaedecf024a" kind="unknown">
+  <recording id="r-2e55c063bcaedecf024a" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1968-01-17.sbd.jeff.3927.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3927</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carousel Ballroom on 1968-01-17" references="archive-index archive-url-snapshot"/>
     <lineage>MSR&gt;cass&gt;dat&gt;cdrs | cdrs&gt;eac&gt;wav&gt;cooledit2000&gt;wav&gt;shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
-  <recording id="r-979a60c61ab7cb66c0ff" kind="unknown">
+  <recording id="r-979a60c61ab7cb66c0ff" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1968-01-17.sbd.jeff.fixed-3927.7995.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7995</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carousel Ballroom on 1968-01-17" references="archive-index archive-url-snapshot"/>
     <lineage>MSR&gt; cass&gt; dat&gt; cdrs | cdrs&gt;eac&gt;wav&gt;cooledit2000&gt;wav&gt;shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-01-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
 </recordings>

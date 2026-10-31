@@ -93,12 +93,15 @@
       "n": 7,
       "title": "New Minglewood Blues",
       "file": "gd79-01-11d1t07.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "disc": 1,
       "sourceNumber": 7,
       "duration": "PT445.76S",
+      "certainty": "probable",
       "show": "gd1979-01-11",
-      "covers": []
+      "covers": [
+        "p01-07"
+      ]
     },
     {
       "n": 8,
@@ -330,12 +333,12 @@
   ],
   "notes": [
     "Lineage: SBD -> Cassette Master (Sony D5) -> Cassette (Sony D5) | Cassette (Nakamichi DR-1) -> Sound Devices 744T (24bit/96k) -> Adobe Audition v1.5 -> Samplitude Professional v10.22 -> FLAC/16",
-    "Supplied catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1979-01-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.",
-    "Source credit (transfer-mastering): Charlie Miller",
-    "Legacy name match: Charlie Miller; role transfer-mastering.",
-    "Archive source metadata (lineage): Cassette (Nakamichi DR-1) -> Sound Devices 744T (24bit/96k) -> Adobe Audition v1.5 -> Samplitude Professional v10.22 -> FLAC/16",
-    "Archive source metadata (source): SBD -> Cassette Master (Sony D5) -> Cassette (Sony D5)",
-    "Archive source metadata (transferer): Charlie Miller"
+    "Catalogue listing: Archive.org; Grateful Dead Live at Nassau Coliseum on 1979-01-11",
+    "transfer-mastering: Charlie Miller",
+    "Possible match: Charlie Miller (transfer-mastering)",
+    "Archive metadata (lineage): Cassette (Nakamichi DR-1) -> Sound Devices 744T (24bit/96k) -> Adobe Audition v1.5 -> Samplitude Professional v10.22 -> FLAC/16",
+    "Archive metadata (source): SBD -> Cassette Master (Sony D5) -> Cassette (Sony D5)",
+    "Archive metadata (transferer): Charlie Miller"
   ],
   "date": "1979-01-11",
   "venue": "Nassau Veterans Memorial Coliseum",

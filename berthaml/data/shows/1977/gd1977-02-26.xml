@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19770226-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 bf1fdddc2e4f611eabf80b5a7258e19653661e04868300a1ff56a663b1a94024. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-264" nameAsBilled="Swing Auditorium"/>
+  <venue ref="v-swing-auditorium" nameAsBilled="Swing Auditorium"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-terrapin-station" transition="unknown"/>
@@ -24,7 +24,7 @@
       <performance id="p02-03" song="s-the-music-never-stopped" transition="unknown"/>
       <performance id="p02-04" song="s-help-on-the-way" transition="segue"/>
       <performance id="p02-05" song="s-slipknot" transition="segue"/>
-      <performance id="p02-06" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p02-06" song="s-franklins-tower" transition="unknown"/>
       <performance id="p02-07" song="s-promised-land" transition="unknown"/>
       <performance id="p02-08" song="s-eyes-of-the-world" transition="segue"/>
       <performance id="p02-09" song="s-dancing-in-the-street" transition="segue" titleVariant="Dancin' In The Streets"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

@@ -5,29 +5,33 @@
   </record>
   <recording id="r-ce792400dc3cf89a2642" kind="matrix">
     <identifier scheme="archive-org">gd1976-06-27.123462.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123462</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Auditorium Theatre on 1976-06-27" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by dusborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
+    <personMatch name="Jerry Moore" role="unspecified"/>
     <lineage>2 source matrix: Soundboard (shnid:112295) Recording Info: SBD -&gt; Cassette Master -&gt; Apogee Ensemble -&gt; Peak -&gt; AIFF; Transfer Info: AIFF -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.1 -&gt; FLAC and Audience (shnid:98796) Source: audience 1st generation reel (Jerry Moore's reel) | Master cassette audience&gt; sony tc-755 reel w/teac an-180 dolby b (10.5" @ 7.5 ips); 1st generation reel play back on Technics RS-1506&gt;Sony NR-335&gt;Tascam HD-P2 24/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1976-06-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by dusborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
   </recording>
   <recording id="r-bbb7d88f6112549a47ef" kind="audience">
     <identifier scheme="archive-org">gd1976-06-27.aud.moore.berger-minches.98796.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">98796</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Auditorium Theatre on 1976-06-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Rob Berger and David Minches</credit>
+    <personMatch name="Jerry Moore" role="unspecified"/>
     <lineage>Aud -&gt; Cassette Master | Master cassette &gt; sony tc-755 reel w/teac an-180 dolby b (10.5" @ 7.5 ips). 1st generation reel play back on Technics RS-1506&gt;Sony NR-335&gt;Tascam HD-P2 24/48 Editing, downsampling and FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1976-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger and David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jerry Moore; role unspecified.</note>
   </recording>
   <recording id="r-1f8f906cbad4384af31b" kind="soundboard">
     <identifier scheme="archive-org">gd1976-06-27.sbd.digitalrbb.miller.112295.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">112295</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Auditorium Theatre on 1976-06-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller;digitalrbb</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Apogee Ensemble -&gt; Peak -&gt; AIFF | AIFF -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1976-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller;digitalrbb</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-8532f7969eb819eb808e" kind="audience">
     <identifier scheme="archive-org">gd76-06-27.aud.vernon.7341.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7341</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Auditorium Theatre on 1976-06-27" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording | aud &gt; ?? &gt; cdr's &gt; EAC &gt; Cool Edit 2K &gt; CDwav &gt; mkwact (seekable)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Auditorium Theatre on 1976-06-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

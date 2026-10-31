@@ -3,92 +3,101 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-dae9b0160ecef1047432" kind="matrix">
+  <recording id="r-dae9b0160ecef1047432" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-03-28.147818.sbd.ultramatrix.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">147818</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-1c3d18d8c3a1738688d2" kind="matrix">
+  <recording id="r-1c3d18d8c3a1738688d2" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-03-28.148154.UltraMatrix.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">148154</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; Samplitude Pro X4 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-1934f5ba9196fae665c2" kind="unknown">
     <identifier scheme="archive-org">gd1989-03-28.156410.OTS-Schoeps-PCM-Master-Mattes-Anon-Noel.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">156410</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index"/>
     <credit role="recordist">Master Audience PCM recording by Ted Mattes</credit>
+    <credit role="transfer-mastering">Transfer by Anon Edited &amp; Mastered (Adobe Audition) by Joe Noel December 08, 2021</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>(OTS) Schoeps CMC4/MK4 mics (ORTF) &gt; Oade capacitor supply &gt; Monster Cable ProLink &gt; Sony pcm-f1 &gt; Sony sl-2000 &gt; PCM (Master) | PCM (Master) &gt; Sony PCM601esd spdif out &gt; VX Pocket/Laptop &gt; Nuendo &gt; WAV 16/44</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Transfer by Anon Edited &amp; Mastered (Adobe Audition) by Joe Noel December 08, 2021</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
   <recording id="r-e1c4d3990ee8730d68d3" kind="audience">
     <identifier scheme="archive-org">gd1989-03-28.164338.nak300.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">164338</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Nakamichi 300 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-8878d67a955f8d33b688" kind="audience">
     <identifier scheme="archive-org">gd1989-03-28.164339.nak300.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">164339</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Nakamichi 300 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-875fb8b8e14340033c62" kind="unknown">
     <identifier scheme="archive-org">gd1989-03-28.nak.rickers.111791.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">111791</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Trew Rickers</credit>
     <lineage>flac 16 ; source: [ots] Nakamichi CM300/CP4 -&gt; Sony WM-D6 [Maxell MX-90], recorded by: Trew Rickers; | cass [m] -&gt; Sony TC-W370 -&gt; R-44 [24/48] -&gt; Wavelab 6.1 [merge/fades] -&gt; CD Wave 1.98 -&gt; Wavelab 6.1 [Crystal/UV22HR] -&gt; TLH [flac/8] -&gt; FOOBAR [tags], transfer: Chris Davis [2/2/11]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-49a943e12898ad095f18" kind="unknown">
     <identifier scheme="archive-org">gd1989-03-28.nak.rickers.111792.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">111792</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Trew Rickers</credit>
+    <credit role="transfer-mastering">Chris Davis</credit>
     <lineage>flac 24 ; source: [ots] Nakamichi CM300/CP4 -&gt; Sony WM-D6 [Maxell MX-90], recorded by: Trew Rickers; | cass [m] -&gt; Sony TC-W370 -&gt; R-44 [24/48] -&gt; Wavelab 6.1 [merge/fades] -&gt; CD Wave 1.98 -&gt; TLH [flac/8] -&gt; FOOBAR [tags], transfer: Chris Davis [2/2/11]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Davis</note>
   </recording>
   <recording id="r-9f2e7a07832793289702" kind="audience">
     <identifier scheme="archive-org">gd1989-03-28.Nak300CP4.Fitzy.Keo.124993.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">124993</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate Software To 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-bcda8c563b92f59cf062" kind="audience">
     <identifier scheme="archive-org">gd1989-03-28.Nak300CP4.Fitzy.Keo.124994.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">124994</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes Maxell MX-90's; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate Software To 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-449f21827c801de5b8cb" kind="soundboard">
     <identifier scheme="archive-org">gd1989-03-28.sbd.walker-scotton.miller.81529.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81529</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-cbd56bce13fc6566a79d" kind="audience">
     <identifier scheme="archive-org">gd89-03-28.aud.wiley.9205.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9205</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at The Omni on 1989-03-28" references="archive-index archive-url-snapshot"/>
     <lineage>AUD&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at The Omni on 1989-03-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

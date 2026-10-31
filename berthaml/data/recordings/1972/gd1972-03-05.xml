@@ -5,34 +5,36 @@
   </record>
   <recording id="r-6e97a0c8c0998a49c7ca" kind="soundboard">
     <identifier scheme="archive-org">gd1972-03-05.sbd.jools.12152.sbeok.shnf</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">12152</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1972-03-05" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; Master Cassette | Master Cassette &gt; Cassette &gt; Cassette&gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Unknown</note>
   </recording>
   <recording id="r-fc3266dae97c67ece046" kind="soundboard">
     <identifier scheme="archive-org">gd1972-03-05.sbd.miller.103282.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">103282</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1972-03-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Cool Edit Pro v2.0 -&gt; Samplitude Professional v10.22 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-62a671981cdb875b9970" kind="audience">
     <identifier scheme="archive-org">gd72-03-05.aud.miller.20704.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20704</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1972-03-05" references="archive-index"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Audience Recording | AUD -&gt; ? -&gt; Reel (Mono) -&gt; DAT -&gt; WAV -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-4c37d2f3fb991bc73091" kind="soundboard">
     <identifier scheme="archive-org">gd72-03-05.sbd.miller.20739.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20739</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1972-03-05" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Soundboard | SBD -&gt; ?m -&gt; Cass -&gt; Cass -&gt; Cass -&gt; Cass -&gt; Dat -&gt; SHN Patched w/AUD -&gt; ? -&gt; Reel (Mono) -&gt; Dat -&gt; Samplitude -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1972-03-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
-  <recording id="r-3eabbf5e9490b66618ed" kind="unknown">
-    <identifier scheme="other">etree-559301</identifier>
-    <note>Supplied catalogue listing: etree; gd72-03-05.103282.sbd.miller.pitch-corrected.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-3eabbf5e9490b66618ed" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">559301</identifier>
+    <identifier scheme="shnid" certainty="probable">103282</identifier>
+    <listing provider="etree" title="gd72-03-05.103282.sbd.miller.pitch-corrected.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

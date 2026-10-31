@@ -5,160 +5,176 @@
   </record>
   <recording id="r-6ea80a2a17bf901c53fb" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-21.112806.beyer-senn.daweez.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">112806</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Source: 2 Beyer M160 &amp; 1 Sennheiser 421 Microphones (30 feet from stage-center) &gt; Nak MX100 W/2001 &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-1962d2135437c995d9ab" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.136717.sbd.GEMS.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136717</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">PO and Stucco TINA HolmesJamie's notes: - The mix in Shakedown Street was a live work in progress for the first 6 minutes. The levels here were adjusted for a more even listening experience. - Shnid 96394 provided patch material for a small blip in Rooster, a few seconds of crowd before China Cat, about 4 minutes of drums, a 10 second spot in space and a tiny dropout in The Other One Jason's notes: - 96394 and 88940 adjusted for the following additional patch points: s1t01: 0:00:00 - 0:01:51 - 88940 s1t02: 0:00:00 - 0:00:08 - 96394 s1t02: 0:00:08 - 0:00:20 - 88940 s1t02: 0:13:40 - 0:14:22 - 88940 s1t03: 0:00:00 - 0:00:04 - 88940 s1t03: 0:08:50 - 0:08:56 - 88940 s1t04: all - 88940 s1t05: 0:00:00 - 0:00:13 - 96394 s1t05: 0:08:14 - 0:08:27 - 88940 s1t06: all - 88940 s1t07: 0:00:00 - 0:00:02 - 88940 s1t12: 0:04:38 - 0:04:46 - 88940 s2t01: 0:00:00 - 0:00:26 - 88940 s2t10: 0:04:15 - 0:05:11 - 88940 s2t11: 0:00:00 - 0:00:10 - 88940 s2t11: 0:06:26 - 0:06:33 - 88940</credit>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Soundboard &gt; PCM copy; Sony L-750ESX-HFB Dynamicron SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; Wavelab 7.1 for minor edits by Jamie Waddell; Audition CC 2015 for patch edits by Jason Chastain; Tracked with Audition 1.5-&gt; shntool-&gt; flac level 8 and checksums with TLH-&gt; tagged with Mp3tag; 16bit 44.1kHz Track, FLAC and Pack by Jason Chastain</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
-  <recording id="r-4e77227faa8dba88efd2" kind="audience">
+  <recording id="r-4e77227faa8dba88efd2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-07-21.139444.fob.schoeps.mk41.oade.bryant.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">139444</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index"/>
     <credit role="recordist">Robert Bryant (patched out of Oade Brothers)</credit>
+    <credit role="transfer-mastering">Charlie Miller and Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>(FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition 3.0 &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
-  <recording id="r-4d3afcbf0abff5e86d4d" kind="audience">
+  <recording id="r-4d3afcbf0abff5e86d4d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-07-21.139445.fob.schoeps.mk41.oade.bryant.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">139445</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant (patched out of Oade Brothers)</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>(FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Adobe Audition 3.0 &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
   <recording id="r-f931049e64393a62fc5a" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-21.150379.beyerm88.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150379</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Executive Crew Sean Murtha, John Hance</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD Beyer M88 (Cardioid) XY 90' &gt; Sony TCD5M|Maxell MX 90 x2 no NR (SM mic master) Location: 90 feet from stage DFC | Lineage: Nakamichi LX5 &gt; Marantz PMD661|SD &gt;WIN10 Audacity|cdwav|TLH Flac level8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/21/7-21-84-ventura-ca-ventura-county-fairgrounds/</note>
+    <reference href="http://infinitedead.net/2024/07/21/7-21-84-ventura-ca-ventura-county-fairgrounds/"/>
   </recording>
   <recording id="r-707567dcbb17d390fc57" kind="unknown">
     <identifier scheme="archive-org">gd1984-07-21.150380.beyerm88.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">150380</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew Sean Murtha, John Hance</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>MAUD Beyer M88 (Cardioid) XY 90' &gt; Sony TCD5M|Maxell MX 90 x2 no NR (SM mic master) Location: 90 feet from stage DFC | Lineage: Nakamichi LX5 &gt; Marantz PMD661|SD &gt;WIN10 Audacity|cdwav|TLH Flac level8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-d99788c745634ff2985f" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.152178.sbd.walkler.scotton.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">152178</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller April 1, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD &gt; Cassette Master (Sony TC-D5M/TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 1, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-f5530d43e0dfb2f434cb" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.152322.sbd.cm.miller.t.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">152322</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller April 1, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD &gt; Cassette Master (Sony TC-D5M/TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller April 1, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-9432e2084a5a2e6601bb" kind="matrix">
     <identifier scheme="archive-org">gd1984-07-21.153529.mtx.seamons.ht135.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">153529</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Hunter Seamons" role="unspecified"/>
     <lineage>Matrix by Hunter Seamons using Soundtrack Pro (FLAC &gt; AIFF &gt; Soundtrack &gt; Final Cut Pro for EQ &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) July 4, 2021</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role unspecified.</note>
   </recording>
   <recording id="r-77be047d389b76b3fdc4" kind="audience">
     <identifier scheme="archive-org">gd1984-07-21.166980.senn441.vita.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">166980</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Master Audience Cassettes; Sennheiser 441 mics &gt; Jim Vita's 1st generation cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-174397af9f5d529fb703" kind="audience">
     <identifier scheme="archive-org">gd1984-07-21.166981.senn441.vita.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">166981</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Master Audience Cassettes; Sennheiser 441 mics &gt; Jim Vita's 1st generation cassettes | 1st Generation Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-aeb4c877b53457e39094" kind="audience">
     <identifier scheme="archive-org">gd1984-07-21.178896.senn815.wiseman.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">178896</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index"/>
     <credit role="recordist">Scott Wiseman</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Scott Wiseman's Master Audience Cassettes; Sennheiser 815 mics &gt; Sony TC-D5M (Maxell UDXLII 90) | Master Cassettes (Nakamichi 680ZX) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ddb4f1c1352ef0a52282" kind="audience">
     <identifier scheme="archive-org">gd1984-07-21.178897.senn815.wiseman.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">178897</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index"/>
     <credit role="recordist">Scott Wiseman</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Scott Wiseman's Master Audience Cassettes; Sennheiser 815 mics &gt; Sony TC-D5M (Maxell UDXLII 90) | Master Cassettes (Nakamichi 680ZX) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-24cb638bb9d5f1871b60" kind="unknown">
+  <recording id="r-24cb638bb9d5f1871b60" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.sbd.lai.1616.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1616</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Mike Lai</credit>
     <lineage>Master Reel-&gt;DAT-&gt;ZA2-&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Mike Lai</note>
   </recording>
   <recording id="r-be4c8c77f5d548136ae2" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.sbd.walker-scotton.miller.77327.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">77327</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MA-R90) D | Cassette Master (Sony TC-WE475) -&gt; Sony R500 (Pass Through) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/21/7-21-84-ventura-ca-ventura-county-fairgrounds/</note>
+    <reference href="http://infinitedead.net/2024/07/21/7-21-84-ventura-ca-ventura-county-fairgrounds/"/>
   </recording>
   <recording id="r-d0018b36f26e16fc2abd" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.sbd.walker-scotton.miller.96394.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">96394</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walkerand Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Sony D5/TDK MA-R90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; r8brain PRO v1.5 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-987719599038b21d2b77" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.sbd.walker-scotton.miller.96410.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">96410</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Sony TC-D5M/TDK MA-R90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-f89d6bca46c20cca851e" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-21.sonyecm.unknown.gale.88940.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88940</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dan Gale</credit>
+    <credit role="transfer-mastering">Dan Gale</credit>
     <lineage>Sony ECM-939LT (dead center, halfway between sbd and the stage) &gt; Cassette Master (Sony TC-D6C) | Cassette Master (Nakamichi RX-202) &gt; SBM &gt; Sony PCM R500 (pass-through only @ 48kHz) &gt; VXPocket v2 &gt; Dell Inspiron 9300 &gt; Sound Forge (v. 6.0) (editing, 48&gt;44.1kHz resample) &gt; WAV &gt; CDWAV (v.1.71) &gt; FLAC Frontend (v.1.7.0.1) &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dan Gale</note>
   </recording>
   <recording id="r-21b4a6d15a2b4184e028" kind="soundboard">
     <identifier scheme="archive-org">gd84-07-21.sbd.cole.14329.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14329</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Cool Edit fix of previous shn set SBD Master Reel-&gt; DAT-&gt;ZA2- &gt;CD, by Matthew Cole</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Ventura County Fairgrounds on 1984-07-21. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/21/7-21-84-ventura-ca-ventura-county-fairgrounds/</note>
+    <reference href="http://infinitedead.net/2024/07/21/7-21-84-ventura-ca-ventura-county-fairgrounds/"/>
   </recording>
 </recordings>

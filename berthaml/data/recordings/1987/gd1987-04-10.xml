@@ -5,148 +5,161 @@
   </record>
   <recording id="r-f1e4cfa1bc74877716e9" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-10.119029.NeumannKMF4.daweez.d5scott.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">119029</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
     <credit role="recordist">Da Weez</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>Source: 2 Neumann KMF4 microphones &gt; Sony TC-D5M - analog master cassettes; | Sony TC-D5M (original record deck) &gt; Pre Sonus Inspire GT &gt; Sound Forge &gt; .wav files &gt; Trader's Little Helper &gt; flac files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-7da6a56386d9fc4b9426" kind="soundboard">
     <identifier scheme="archive-org">gd1987-04-10.134675.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">134675</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Cassette | Cassette (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;Samplitude Professional v8.01 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-2ab5103aa7a46b58f522" kind="matrix">
+  <recording id="r-2ab5103aa7a46b58f522" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1987-04-10.140874.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140874</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-83f95da10a650c6d1afb" kind="matrix">
+  <recording id="r-83f95da10a650c6d1afb" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1987-04-10.140894.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140894</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Ultra Matrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3a346ffac52dc023c8f0" kind="matrix">
     <identifier scheme="archive-org">gd1987-04-10.146111.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">146111</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-309646023a5a2ea8c326" kind="unknown">
+  <recording id="r-309646023a5a2ea8c326" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1987-04-10.146112.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">146112</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-dad2554f9980e96b973d" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-10.146113.5-1.tobin.flac1648</identifier>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">146113</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
   </recording>
-  <recording id="r-00270910d4bec161dcbc" kind="audience">
+  <recording id="r-00270910d4bec161dcbc" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-04-10.150527.FOB.Nak.700.Dsd.Mow.Miller.Noel.t.flac2496</identifier>
+    <identifier scheme="shnid" certainty="uncertain">150527</identifier>
+    <identifier scheme="shnid" certainty="uncertain">700</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">FOB Recording by Jonathan Mow</credit>
+    <credit role="transfer-mastering">DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition 2020) by Joe Noel August 18, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>(FOB) Nakamichi 700 &gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit-96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition 2020) by Joe Noel August 18, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-14f5c9caf7f317e37f98" kind="audience">
+  <recording id="r-14f5c9caf7f317e37f98" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-04-10.150581.FOB.Nak.700.Dsd.Mow.Miller.Noel.t.flac1644</identifier>
+    <identifier scheme="shnid" certainty="uncertain">150581</identifier>
+    <identifier scheme="shnid" certainty="uncertain">700</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">FOB Recording by Jonathan Mow</credit>
+    <credit role="transfer-mastering">DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition 2020) by Joe Noel August 18, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>(FOB) Nakamichi 700 &gt; Cassette Master (Sony TC-D5M) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp &gt; WAV (24-bit-96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): DSD Transfer by Charlie Miller Edited &amp; Mastered (Adobe Audition 2020) by Joe Noel August 18, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-edea9f894cd006330174" kind="audience">
     <identifier scheme="archive-org">gd1987-04-10.167471.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">167471</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-fc7d18f68df84afa94b0" kind="audience">
     <identifier scheme="archive-org">gd1987-04-10.167472.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">167472</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-a3076a871bcba92185e7" kind="audience">
     <identifier scheme="archive-org">gd1987-04-10.176624.senn441.lamarre.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">176624</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-bfaf89ba581ce2eaf51f" kind="audience">
     <identifier scheme="archive-org">gd1987-04-10.176625.senn441.lamarre.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">176625</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Doug Lamarre's Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2c75b29c14aab2bb9a4c" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-10.nak100.cohen-lee.105529.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">105529</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Cohen and Justin Lee</credit>
+    <credit role="transfer-mastering">Dave Cohen</credit>
     <lineage>2 Nakamichi CM100/CP4s&gt;Nakamichi 550 w/Maxell XLIIS 90 cassettes. Dolby B was used on the Master Cassettes. Sec. 109 Row U Seat 17 8 ft. stand. | The Master Cassettes were played back with Azimuth adjustment and Dolby B decoding on a Nakamichi CD1 into a Korg MR1000 at DSF 1 bit 5.6MHz. Subsequent conversion to 24/96 AIFF done via Korg Audiogate software. Redbook CDR standard 16/44.1 files were created using Bias Peak, Izotope Ozone's MBIT+ (for all dithering), and Weiss Saracon SRC (all sample rate conversions).</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Cohen</note>
   </recording>
   <recording id="r-151c4e97c60a52ae1858" kind="audience">
     <identifier scheme="archive-org">gd1987-04-10.nak300.gidley.andrewf.93385.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">93385</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion - University of Illinois on 1987-04-10" references="archive-index"/>
     <credit role="recordist">Ted Gidley</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>OTS AUD: Nakamichi CM300's w/CP4 shotguns &gt; Sony TC-D5M &gt; Maxell MX-90's, with no Dolby. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2469 &gt; Soundforge &gt; CD-Wave &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion - University of Illinois on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-da88c93325178c2f268e" kind="soundboard">
     <identifier scheme="archive-org">gd1987-04-10.sbd.unknown.mtownshend.102188.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102188</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index"/>
+    <credit role="transfer-mastering">mtownsend</credit>
     <lineage>SBD Unknown | ? -&gt; CD-R (uncut waves) -&gt; CD Player (XLR out) -&gt; M-Audio Delta 66 -&gt; Flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): mtownsend</note>
   </recording>
   <recording id="r-f9fbf682a132532b6689" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-10.scheops.bennett.10156.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10156</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion - University of Illinois on 1987-04-10" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jim Bennett</credit>
     <lineage>Scheops CMC-441 Hyper Cartoid&gt;PCM-F1&gt;Panasonic 3700 DAT, CDR&gt;EAC&gt;MKWAct (taper location unknown to me)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion - University of Illinois on 1987-04-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jim Bennett</note>
   </recording>
   <recording id="r-dc83b32675f8d7d309c9" kind="audience">
     <identifier scheme="archive-org">gd87-04-10.nak.braverman.10537.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10537</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at UIC Pavilion on 1987-04-10" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Cassette (Nakamichi 300/Sony D5) | Nakamichi BX-300&gt; CD&gt; SHN; via Stephen B. Porter; Seeded to etree by Peter Braverman</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at UIC Pavilion on 1987-04-10. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-80fe0ed0ff7dfdd710c5" kind="unknown">
-    <identifier scheme="other">etree-602379</identifier>
-    <note>Supplied catalogue listing: etree; gd87-04-10.140894.sbd-UltraMatrix.cm.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-80fe0ed0ff7dfdd710c5" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">602379</identifier>
+    <identifier scheme="shnid" certainty="probable">140894</identifier>
+    <listing provider="etree" title="gd87-04-10.140894.sbd-UltraMatrix.cm.miller.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
-  <recording id="r-f75165521bfef93b7f12" kind="unknown">
-    <identifier scheme="other">etree-597769</identifier>
-    <note>Supplied catalogue listing: etree; gd1987-04-10.140874.UltraMatrix.sbd.cm.miller.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-f75165521bfef93b7f12" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">597769</identifier>
+    <identifier scheme="shnid" certainty="probable">140874</identifier>
+    <listing provider="etree" title="gd1987-04-10.140874.UltraMatrix.sbd.cm.miller.flac24" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

@@ -3,120 +3,129 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-d5ec53b90386fa2db9f6" kind="audience">
+  <recording id="r-d5ec53b90386fa2db9f6" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-08-11.138303.FOB.Schoeps.Ammons.t-flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138303</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index"/>
+    <credit role="transfer-mastering">John Ammons and Joe Noel and Dougal Donaldson</credit>
     <lineage>FOB Schoeps CMC32s, mics spaced 8' -&gt; Apogee mod Sony PCMF1 -&gt; Sony Betamax; Taper unknown; Dougal Donaldson Transfer from his PCM clone of the master; Sony Beta SL-HF360 &gt; Sony PCM501 &gt; analog outputs &gt; MAudio soundcard &gt; Soundforge &gt; CD Architect &gt; CD @44.1 kHz; Subsequent transfer from CD &gt; SFDIF &gt; MAudio &gt; Soundforge, WAV file converted to FLAC; Joe Noel: Label, Patch, Pack, re-Track in Audacity; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): John Ammons and Joe Noel and Dougal Donaldson</note>
   </recording>
-  <recording id="r-72c3f1ddff316178e770" kind="audience">
+  <recording id="r-72c3f1ddff316178e770" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-08-11.138972.upg-aud.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138972</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Patched/Pitch Corrected Audience (original shnid = 138303) FOB Schoeps CMC32s, mics spaced 8' -&gt; Apogee mod Sony PCMF1 -&gt; Sony Betamax; Taper unknown; Dougal Donaldson Transfer from his PCM clone of the master; Sony Beta SL-HF360 &gt; Sony PCM501 &gt; analog outputs &gt; MAudio soundcard &gt; Soundforge &gt; CD Architect &gt; CD @44.1 kHz; Subsequent transfer from CD &gt; SFDIF &gt; MAudio &gt; Soundforge, WAV file converted to FLAC; Joe Noel: Label, Patch, Pack, re-Track in Audacity; Checksum &amp; tags created in xACT - pitch correction and patches by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-68b6070b6f4379146ff2" kind="matrix">
+  <recording id="r-68b6070b6f4379146ff2" kind="matrix" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-08-11.138973.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138973</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Matrix 2 Source Mix - SBD (shnid = 92056) Recording Info:SBD -&gt; PCM -&gt; Sonic Solutions -&gt; CD; Transfer Info:CD -&gt; Samplitude Professional v10.02 -&gt; FLAC Original Transfer and Mastering by David Gans; Additional Transfer and Mastering By Charlie Miller + AUD (shnid = 138303) FOB Schoeps CMC32s, mics spaced 8' -&gt; Apogee mod Sony PCMF1 -&gt; Sony Betamax; Taper unknown; Dougal Donaldson Transfer from his PCM clone of the master; Sony Beta SL-HF360 &gt; Sony PCM501 &gt; analog outputs &gt; MAudio soundcard &gt; Soundforge &gt; CD Architect &gt; CD @44.1 kHz; Subsequent transfer from CD &gt; SFDIF &gt; MAudio &gt; Soundforge, WAV file converted to FLAC; Joe Noel: Label, Patch, Pack, re-Track in Audacity; Checksum &amp; tags created in xACT - matrix mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-2f56aa5d5a0a728c90cb" kind="soundboard">
+  <recording id="r-2f56aa5d5a0a728c90cb" kind="soundboard" modifiers="FOB DTS">
     <identifier scheme="archive-org">gd1987-08-11.138974.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138974</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix; SBD (shnid = 92056) Recording Info:SBD -&gt; PCM -&gt; Sonic Solutions -&gt; CD; Transfer Info:CD -&gt; Samplitude Professional v10.02 -&gt; FLAC Original Transfer and Mastering by David Gans; Additional Transfer and Mastering By Charlie Miller + AUD (shnid = 138303) FOB Schoeps CMC32s, mics spaced 8' -&gt; Apogee mod Sony PCMF1 -&gt; Sony Betamax; Taper unknown; Dougal Donaldson Transfer from his PCM clone of the master; Sony Beta SL-HF360 &gt; Sony PCM501 &gt; analog outputs &gt; MAudio soundcard &gt; Soundforge &gt; CD Architect &gt; CD @44.1 kHz; Subsequent transfer from CD &gt; SFDIF &gt; MAudio &gt; Soundforge, WAV file converted to FLAC; Joe Noel: Label, Patch, Pack, re-Track in Audacity; Checksum &amp; tags created in xACT - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-1748c68ad15d04aa7cfc" kind="soundboard">
+  <recording id="r-1748c68ad15d04aa7cfc" kind="soundboard" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-08-11.138975.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">138975</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 92056) Recording Info:SBD -&gt; PCM -&gt; Sonic Solutions -&gt; CD; Transfer Info:CD -&gt; Samplitude Professional v10.02 -&gt; FLAC Original Transfer and Mastering by David Gans; Additional Transfer and Mastering By Charlie Miller + AUD (shnid = 138303) FOB Schoeps CMC32s, mics spaced 8' -&gt; Apogee mod Sony PCMF1 -&gt; Sony Betamax; Taper unknown; Dougal Donaldson Transfer from his PCM clone of the master; Sony Beta SL-HF360 &gt; Sony PCM501 &gt; analog outputs &gt; MAudio soundcard &gt; Soundforge &gt; CD Architect &gt; CD @44.1 kHz; Subsequent transfer from CD &gt; SFDIF &gt; MAudio &gt; Soundforge, WAV file converted to FLAC; Joe Noel: Label, Patch, Pack, re-Track in Audacity; Checksum &amp; tags created in xACT - surround mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-5deef5d43ec8512f2f55" kind="audience">
+  <recording id="r-5deef5d43ec8512f2f55" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-08-11.142088.fob.oade.schoeps.cmc3.mk41.jacobs.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142088</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Oade Brothers</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Blake Jacobs</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Source Info: Oade's Master (FOB) Audience PCM; Schoeps CMC3/MK41 mics &gt; Oade M118 &gt; Oade modified Sony PCM-F1; Transfer Info: Master Oade PCM &gt; Sek'd Prodif &gt; Samplitude (.wav 16-bit/44.1k)&gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Blake Jacobs</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
   <recording id="r-816cd7312e91fdc91573" kind="unknown">
     <identifier scheme="archive-org">gd1987-08-11.160460.beyerm201.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">160460</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew: Tom Pinney, John Goode, Eric Britt, Kyle Holbrook, Phil Schuman</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Microphones: Beyer M201's X-Y Recorder: Sony TC-D5M| Maxell MX-90's Location: 110' from stage 25 feet ROC | 1st transfer: Sony TC-D5M to Sony TC-D5M (Maxell XLII 90 x2) no nr Digital Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2k &gt; Marantz PMD-661</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-e4de8b0a00d8b12d2759" kind="unknown">
     <identifier scheme="archive-org">gd1987-08-11.160462.beyerm201.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">160462</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Executive Crew: Tom Pinney, John Goode, Eric Britt, Kyle Holbrook, Phil Schuman</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Microphones: Beyer M201's X-Y Recorder: Sony TC-D5M| Maxell MX-90's Location: 110' from stage 25 feet ROC | 1st transfer: Sony TC-D5M to Sony TC-D5M (Maxell XLII 90 x2) no nr Digital Transfer: Nakamichi LX-5 &gt; Benchmark Sonic AD2k &gt; Marantz PMD-661</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-e030d678937b374633c6" kind="audience">
     <identifier scheme="archive-org">gd1987-08-11.163607.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163607</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f8066f9625566565d4f2" kind="audience">
     <identifier scheme="archive-org">gd1987-08-11.163608.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163608</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-72c3b5082cf03a338d04" kind="unknown">
     <identifier scheme="archive-org">gd1987-08-11.nak100.pasternak.81953.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81953</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jon Pasternak</credit>
     <lineage>Nakamichi CM-100's with CP-4 shotgun capsules &gt; Marantz 420 cassette deck, with Dolby On | MAC &gt; Nakamichi Dragon (Dolby on) &gt; Tascam CDRW-5000 &gt; CDR &gt; EAC &gt; Soundforge &gt; CD-Wave &gt; TLH v.1.0.0.72 (for SBE-OK, checksums and FLAC compression) &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-b5df923da486567b70e3" kind="unknown">
     <identifier scheme="archive-org">gd1987-08-11.nakcm304.beckham.suraci.82033.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82033</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheater on 1987-08-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Beckham, Tony Suraci</credit>
+    <credit role="transfer-mastering">Tony Suraci</credit>
     <lineage>Nak CM304's&gt;Sony D5M | Nak CR5A&gt;Lunatec V3&gt;SD722</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheater on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tony Suraci</note>
   </recording>
   <recording id="r-88347e4a4098705aaef2" kind="soundboard">
     <identifier scheme="archive-org">gd1987-08-11.sbd.gans.miller.92056.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">92056</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; PCM -&gt; Sonic Solutions -&gt; CD D | CD -&gt; Samplitude Professional v10.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-980a81008e421945fa55" kind="matrix">
     <identifier scheme="archive-org">gd87-08-11.sbd.4951.5247.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="uncertain">4951</identifier>
+    <identifier scheme="shnid" certainty="uncertain">5247</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Dan Healy" role="unspecified"/>
     <lineage>SBD&gt; PCM&gt; ??&gt; Dat&gt; CD (Healy Matrix)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
   </recording>
-  <recording id="r-b9c7ee3ecb27120cc9d4" kind="soundboard">
+  <recording id="r-b9c7ee3ecb27120cc9d4" kind="soundboard" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd87-08-11.sbd.miller.14944.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14944</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11" references="archive-index"/>
+    <credit role="transfer-mastering">PCM -&gt; CD -&gt; EAC -&gt; SHN (Grateful Dead Hour Pre-FM Discs) via Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; PCM</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Red Rocks Amphitheatre on 1987-08-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Source credit (transfer-mastering): PCM -&gt; CD -&gt; EAC -&gt; SHN (Grateful Dead Hour Pre-FM Discs) via Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

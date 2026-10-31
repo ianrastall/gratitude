@@ -3,43 +3,43 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-770fefcd1d4d8351f5b6" kind="audience">
+  <recording id="r-770fefcd1d4d8351f5b6" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1969-12-11.140676.partial.fob.sbeok.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140676</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Thelma Theater on 1969-12-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rion Brady</credit>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Partial Set 1 source: aud&gt;mac&gt;wav&gt;flac; fob recording by Rion Brady</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-15206aeb3cb4de32cf1d" kind="unknown">
+  <recording id="r-15206aeb3cb4de32cf1d" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1969-12-11.fob.brady.motb.91109.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91109</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Thelma Theater on 1969-12-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rion Brady</credit>
+    <credit role="transfer-mastering">Adam Egert and Derek McCabe and MOTB</credit>
     <lineage>1 x Sony Microphone =&gt; Sony Portable Cassette Recorder [Monophonic] &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3 [Pre-Only] =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96] &gt; (see notes)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Adam Egert and Derek McCabe and MOTB</note>
   </recording>
-  <recording id="r-963dd9c6e3b13c5dcbae" kind="unknown">
+  <recording id="r-963dd9c6e3b13c5dcbae" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1969-12-11.fob.brady.motb.91152.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91152</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Thelma Theater on 1969-12-11" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rion Brady</credit>
+    <credit role="transfer-mastering">Adam Egert and Derek McCabe and MOTB</credit>
     <lineage>1 x Sony Microphone =&gt; Sony Portable Cassette Recorder [Monophonic] &gt;&gt; MAC | MAC &gt;&gt; Nakamichi DR-1 =&gt; Grace Design Lunatec V3 [Pre-Only] =&gt; Korg MR-1000 &gt;&gt; DSF [1-bit 5.6448 MHz Stereo] &gt;&gt; Korg MR-1000 =&gt; Korg AudioGate &gt;&gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Adam Egert and Derek McCabe and MOTB</note>
   </recording>
   <recording id="r-a1349a7670bed0c63bf7" kind="soundboard">
     <identifier scheme="archive-org">gd69-12-11.sbd-aud.cotsman.8998.sbeok.shnf</identifier>
-    <lineage>Soundboard and Audience Composite | See notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Paul Bottiglio, Jack Warner, JCotsman</note>
+    <identifier scheme="shnid" certainty="probable">8998</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Thelma Theater on 1969-12-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Paul Bottiglio, Jack Warner, JCotsman</credit>
+    <lineage>Soundboard and Audience Composite</lineage>
   </recording>
   <recording id="r-35bbf6dd5afe2be9f960" kind="soundboard">
     <identifier scheme="archive-org">gd69-12-11.sbd.gerland.10987.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10987</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Thelma Theater on 1969-12-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Dave Greenberg, Jack Warner, Scott Clugston, Jim Powell, Jay Gerland</credit>
     <lineage>Soundboard | MSR &gt; R &gt; PCM &gt; CD, plus MSR &gt; ? &gt; Beta PCM &gt; D &gt; CD, plus MSR &gt; R &gt; C &gt; D &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Thelma Theater on 1969-12-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Greenberg, Jack Warner, Scott Clugston, Jim Powell, Jay Gerland</note>
   </recording>
 </recordings>

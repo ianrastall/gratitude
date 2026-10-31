@@ -6,6 +6,10 @@
   </record>
   <recording id="r-2bf22efdc268b8b1b385" kind="soundboard">
     <identifier scheme="archive-org">gd1974-02-22.114556.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">114556</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
     <playlist id="pl-9c382520201dc8757334" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1974-02-22.114556.sbd.miller.flac16">
       <track n="1" title="Let It Grow" file="gd74-02-22ckh01.flac" mappingStatus="candidate" sourceNumber="1" duration="PT291.21S" covers="p01-01" certainty="probable"/>
@@ -36,9 +40,9 @@
       <track n="26" title="I Know You Rider" file="gd74-02-22s2t06.flac" mappingStatus="candidate" sourceNumber="26" duration="PT331.22S" covers="p03-06" certainty="probable"/>
       <track n="27" title="Truckin' -&gt;" file="gd74-02-22s2t07.flac" mappingStatus="candidate" sourceNumber="27" duration="PT447.13S" covers="p03-07" certainty="probable"/>
       <track n="28" title="Nobody's Fault But Mine -&gt;" file="gd74-02-22s2t08.flac" mappingStatus="candidate" sourceNumber="28" duration="PT315.52S" covers="p03-08" certainty="probable"/>
-      <track n="29" title="Goin' Down The Road Feeling Bad" file="gd74-02-22s2t09.flac" mappingStatus="unreviewed" sourceNumber="29" duration="PT385.37S"/>
+      <track n="29" title="Goin' Down The Road Feeling Bad" file="gd74-02-22s2t09.flac" mappingStatus="candidate" sourceNumber="29" duration="PT385.37S" covers="p03-09" certainty="probable"/>
       <track n="30" title="Tuning" file="gd74-02-22s3t01.flac" mappingStatus="unreviewed" sourceNumber="30" duration="PT44.05S"/>
-      <track n="31" title="Mississippi Half-Step Uptown Toodeloo" file="gd74-02-22s3t02.flac" mappingStatus="unreviewed" sourceNumber="31" duration="PT488.37S"/>
+      <track n="31" title="Mississippi Half-Step Uptown Toodeloo" file="gd74-02-22s3t02.flac" mappingStatus="candidate" sourceNumber="31" duration="PT488.37S" covers="p04-01" certainty="probable"/>
       <track n="32" title="Promised Land" file="gd74-02-22s3t03.flac" mappingStatus="candidate" sourceNumber="32" duration="PT215.46S" covers="p04-02" certainty="probable"/>
       <track n="33" title="Brokedown Palace" file="gd74-02-22s3t04.flac" mappingStatus="candidate" sourceNumber="33" duration="PT330.76S" covers="p04-03" certainty="probable"/>
       <track n="34" title="Jack Straw" file="gd74-02-22s3t05.flac" mappingStatus="candidate" sourceNumber="34" duration="PT287.86S" covers="p04-04" certainty="probable"/>
@@ -49,81 +53,86 @@
       <track n="39" title="Uncle John's Band" file="gd74-02-22s3t10.flac" mappingStatus="candidate" sourceNumber="39" duration="PT404.17S" covers="p05-01" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Archive source metadata (lineage): Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</note>
-    <note>Archive source metadata (source): SBD -&gt; Master Reel -&gt; Dat</note>
-    <note>Archive source metadata (transferer): Charlie Miller</note>
+    <captured field="lineage">Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</captured>
+    <captured field="source">SBD -&gt; Master Reel -&gt; Dat</captured>
+    <captured field="transferer">Charlie Miller</captured>
   </recording>
   <recording id="r-df477cc85c2a9618cdbc" kind="soundboard">
     <identifier scheme="archive-org">gd1974-02-22.151721.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">151721</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller February 13, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Master Reel &gt; Dat | Dat (Tascam DA-20) &gt; Tascam SS-R05 &gt; Samplitude Professional v11.2 &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller February 13, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b88476faf8166870f00c" kind="audience">
     <identifier scheme="archive-org">gd1974-02-22.164447.aud.wolfe.smith.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">164447</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Louis Falanga?</credit>
+    <credit role="transfer-mastering">Don Wolfe;Matt Smith;Charlie Miller;Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Louis Falanga" role="recordist"/>
     <lineage>Audience source (a Louis Falanga master?); Unknown Equipment; Don Wolfe's Low Gen Reels (2nd/3rd generation?) | Low Gen Reels (Technics RS-1506) &gt; Apogee Mini-Me &gt; .wav 24/96 &gt; Adobe Audition 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Don Wolfe;Matt Smith;Charlie Miller;Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
   </recording>
   <recording id="r-11e00e901d8af750d362" kind="audience">
     <identifier scheme="archive-org">gd1974-02-22.164448.aud.wolfe.smith.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">164448</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Louis Falanga?</credit>
+    <credit role="transfer-mastering">Don Wolfe;Matt Smith;Charlie Miller;Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Louis Falanga" role="recordist"/>
     <lineage>Audience source (a Louis Falanga master?); Unknown Equipment; Don Wolfe's Low Gen Reels (2nd/3rd generation?) | Low Gen Reels (Technics RS-1506) &gt; Apogee Mini-Me &gt; .wav 24/96 &gt; Adobe Audition 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Don Wolfe;Matt Smith;Charlie Miller;Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
   </recording>
   <recording id="r-2e05082eb2a67f9abb22" kind="audience">
     <identifier scheme="archive-org">gd1974-02-22.176223.sony.ecm250.falanga.menke.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">176223</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index"/>
     <credit role="recordist">Louis Falanga</credit>
+    <credit role="transfer-mastering">Bob Menke, Charlie Miller, Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
+    <personMatch name="Louis Falanga" role="recordist"/>
     <lineage>Louis Falanga's Master Audience Cassettes; Sony ECM 250 mic &gt; Sony TC-110 (Maxell UD C120) | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (.wav 24-bit/96k) &gt; Adobe Audition CC2025 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
   </recording>
   <recording id="r-221fd148143e3e15a2c5" kind="audience">
     <identifier scheme="archive-org">gd1974-02-22.176224.sony.ecm250.falanga.menke.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">176224</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index"/>
     <credit role="recordist">Louis Falanga</credit>
+    <credit role="transfer-mastering">Bob Menke, Charlie Miller, Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
+    <personMatch name="Louis Falanga" role="recordist"/>
     <lineage>Louis Falanga's Master Audience Cassettes; Sony ECM 250 mic &gt; Sony TC-110 (Maxell UD C120) | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (.wav 24-bit/96k) &gt; Adobe Audition CC2025 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Louis Falanga; role recording.</note>
   </recording>
   <recording id="r-c907768b317394e47ab8" kind="soundboard">
     <identifier scheme="archive-org">gd1974-02-22.sbd-snchk.sirmick.21128.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">21128</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
+    <personMatch name="SIRMick" role="unspecified"/>
     <lineage>SBD &gt; D &gt; CD | CD &gt; SSSB</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
   </recording>
   <recording id="r-d5c6cdf2147fd42c5977" kind="soundboard">
     <identifier scheme="archive-org">gd1974-02-22.sbd.gans-latvala.samaritano.26763.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">26763</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Dick Latvala" role="unspecified"/>
     <lineage>Main Lineage: Soundboard-&gt;Vault Master Reel-&gt;DAT 48k, transferred 1991 Gans, 1st 45 minutes (US Blues-&gt;Big River); Soundboard-&gt;Master Reel-&gt;Cassette-&gt;DAT 44.1k, transferred 2/94 Dick, Rest of show (Loose Lucy-&gt;UJB)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): See info file</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role unspecified.</note>
   </recording>
   <recording id="r-fbf790bcbddf02de9915" kind="soundboard">
     <identifier scheme="archive-org">gd74-02-22.sbd.patched.sirmick.21539.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">21539</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Soundboard | Sources: 1 - sbd &gt; ? &gt; shn &gt; wav &gt; shn 2 - sbd &gt; cass? &gt; cdr &gt; wav &gt; shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-4ce24f65e9e438587477" kind="soundboard">
     <identifier scheme="archive-org">gd74-02-22.sbd.unknown.11654.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11654</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1974-02-22" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD &gt; ? &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1974-02-22. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

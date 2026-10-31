@@ -5,37 +5,40 @@
   </record>
   <recording id="r-787a626ecbe56a549bc9" kind="soundboard">
     <identifier scheme="archive-org">gd1973-09-17.150977.sbd.patched.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150977</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Onondaga County War Memorial on 1973-09-17" references="archive-index"/>
     <credit role="recordist">Rob Eaton and Dick Latvala</credit>
+    <credit role="transfer-mastering">Original Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 30, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
+    <personMatch name="Dick Latvala" role="recordist"/>
     <lineage>SBD &gt; Reel Master (7in 7.5ips 1/2trk) &gt; DAT (Panasonic SV-3700/44.1k) &gt; DAT (Panasonic SV-3700/44.1k) | DAT (Panasonic SV-3800) &gt; Avid MBox Pro &gt; Pro Tools 12 &gt; WAV (16-bit/44.1k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Original Transfer and Mastering by Rob Eaton Additional Mastering by Charlie Miller November 30, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role recording.</note>
   </recording>
-  <recording id="r-d5d2e0c54c1143f8777d" kind="unknown">
+  <recording id="r-d5d2e0c54c1143f8777d" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1973-09-17.sbd.jensen.10082.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10082</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Onondaga County War Memorial on 1973-09-17" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Tyler Jensen</credit>
     <lineage>MSR&gt;C&gt;DAT&gt;DAT | DA-40&gt;U2A&gt;CDWave&gt;MkW&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Tyler Jensen</note>
   </recording>
   <recording id="r-180d0d7160ff9f61ee2c" kind="soundboard">
     <identifier scheme="archive-org">gd1973-09-17.sbd.sirmick.107542.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">107542</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Onondaga County War Memorial on 1973-09-17" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>SBD &gt; Master Reel | MR &gt; C&gt;DAT&gt;DAT provided by Jeff Tiedrich&gt;Andrew Gustin Conversion: DA-40&gt;U2A&gt;CDWave&gt;MkW with seek tables appended Transferred by Tyler Jensen</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-78aea54ec844b82a9b71" kind="soundboard">
     <identifier scheme="archive-org">gd73-09-17.sbd.cotsman.14473.d3fixed.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14473</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Onondaga County War Memorial on 1973-09-17" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt;MR&gt;D&gt;CD&gt;EAC&gt;SHN ; SBD&gt;MR&gt;C&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Onondaga County War Memorial on 1973-09-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-fd55a1cc4d3a74825057" kind="unknown">
-    <identifier scheme="other">etree-559431</identifier>
-    <note>Supplied catalogue listing: etree; gd73-09-17.107542.sbd.sirmick.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
+  <recording id="r-fd55a1cc4d3a74825057" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">559431</identifier>
+    <identifier scheme="shnid" certainty="probable">107542</identifier>
+    <listing provider="etree" title="gd73-09-17.107542.sbd.sirmick.t-flac16" references="etree-snapshot"/>
+    <personMatch name="SIRMick" role="unspecified"/>
   </recording>
 </recordings>

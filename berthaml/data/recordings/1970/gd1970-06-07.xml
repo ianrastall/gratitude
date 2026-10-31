@@ -5,24 +5,25 @@
   </record>
   <recording id="r-795708cd5d82aa4ad8ff" kind="unknown">
     <identifier scheme="archive-org">gd1970-06-07.132325.bear.wise.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132325</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bear</credit>
+    <credit role="transfer-mastering">Dick Latvala and Jim Wise</credit>
+    <personMatch name="Owsley Stanley" role="recordist"/>
+    <personMatch name="Dick Latvala" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; 7 Inch Half Track Reel Master @ 7.5 ips(Recorded In Venue By Bear on a Sony 770 Reel 2 Reel)- 1st Generation Cassettes (TDK SA-X 100's) Taped By Dick Latvala(Technics 1506 Reel 2 Reel-Tascam 122 MK111 Cassette Deck no dolby); Analog to Digital Transfer(Dick's Cassettes played back on Nakamichi Dragon- Sony PCM-R500 DAT @ 44.1KHz by Jim Wise circa 1997); DAT play back on a Sony PCM R-500-Analog out-Sony PCM R-700 Analog in @ 48KHz-Digital Audio Labs Carddeluxe-WAV @ 16/48kHz; Editing(Adobe Audition 3.0)-Mastering(iZotope Ozone 6)-FLAC Encoding(dBpoweramp)-Tagging(Tag &amp; Re-name)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dick Latvala and Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Owsley Stanley; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
-  <recording id="r-3b4837b7b6acfd53e03f" kind="unknown">
+  <recording id="r-3b4837b7b6acfd53e03f" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd70-06-07.sbd.clevenger.fix-98.6185.shnf</identifier>
-    <lineage>unknown</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+    <identifier scheme="shnid" certainty="probable">6185</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-07" references="archive-index archive-url-snapshot"/>
   </recording>
   <recording id="r-55dd6f854bc78912cacd" kind="soundboard">
     <identifier scheme="archive-org">gd70-06-07.sbd.hollister.98.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">98</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-07" references="archive-index"/>
+    <credit role="transfer-mastering">David Hollister</credit>
     <lineage>Soundboard | SBD &gt; MR &gt; Cass &gt; DAT &gt; ZA2 &gt; SoundForge &gt; CD Architect &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Hollister</note>
   </recording>
 </recordings>

@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19780507-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 98600556bbe1e7240dda3d11296f5aa0b8f8bc4827bf9c25c336210d53aec4fd. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-722" nameAsBilled="RPI Fieldhouse, Rensselaer Polytechnic Institute"/>
+  <venue ref="v-rpi-fieldhouse-rensselaer-polytechnic-institute" nameAsBilled="RPI Fieldhouse, Rensselaer Polytechnic Institute"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-jack-straw" transition="unknown"/>
@@ -11,7 +11,7 @@
       <performance id="p01-03" song="s-mexicali-blues" transition="segue"/>
       <performance id="p01-04" song="s-mama-tried" transition="unknown"/>
       <performance id="p01-05" song="s-tennessee-jed" transition="unknown"/>
-      <performance id="p01-06" song="s-it-s-all-over-now" transition="unknown"/>
+      <performance id="p01-06" song="s-its-all-over-now" transition="unknown"/>
       <performance id="p01-07" song="s-friend-of-the-devil" transition="unknown"/>
       <performance id="p01-08" song="s-passenger" transition="unknown"/>
       <performance id="p01-09" song="s-brown-eyed-women" transition="unknown"/>
@@ -22,7 +22,7 @@
       <performance id="p02-01" song="s-scarlet-begonias" transition="segue"/>
       <performance id="p02-02" song="s-fire-on-the-mountain" transition="unknown"/>
       <performance id="p02-03" song="s-estimated-prophet" transition="segue"/>
-      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-04" song="s-hes-gone" transition="segue"/>
       <performance id="p02-05" song="s-drums" transition="segue"/>
       <performance id="p02-06" song="s-iko-iko" transition="segue"/>
       <performance id="p02-07" song="s-the-other-one" transition="segue"/>
@@ -31,7 +31,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

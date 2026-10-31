@@ -3,12 +3,12 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19840704-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 81615b3903ac2086c629be17e1729c4e43c07801cd9b2ee45b1a17d572fce869. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-909" nameAsBilled="Five Seasons Center"/>
+  <venue ref="v-five-seasons-center" nameAsBilled="Five Seasons Center"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-feel-like-a-stranger" transition="unknown"/>
       <performance id="p01-02" song="s-friend-of-the-devil" transition="unknown"/>
-      <performance id="p01-03" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-03" song="s-cc-rider" transition="unknown"/>
       <performance id="p01-04" song="s-cumberland-blues" transition="segue"/>
       <performance id="p01-05" song="s-beat-it-on-down-the-line" transition="unknown"/>
       <performance id="p01-06" song="s-row-jimmy" transition="unknown"/>
@@ -19,10 +19,10 @@
     <set kind="set" n="2" mode="unknown">
       <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
       <performance id="p02-02" song="s-slipknot" transition="segue"/>
-      <performance id="p02-03" song="s-franklin-s-tower" transition="segue"/>
+      <performance id="p02-03" song="s-franklins-tower" transition="segue"/>
       <performance id="p02-04" song="s-far-from-me" transition="segue"/>
       <performance id="p02-05" song="s-estimated-prophet" transition="segue"/>
-      <performance id="p02-06" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-06" song="s-hes-gone" transition="segue"/>
       <performance id="p02-07" song="s-drums" transition="segue"/>
       <performance id="p02-08" song="s-space" transition="segue"/>
       <performance id="p02-09" song="s-truckin" transition="segue"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

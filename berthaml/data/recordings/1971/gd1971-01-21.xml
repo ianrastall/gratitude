@@ -6,68 +6,74 @@
   </record>
   <recording id="r-995293303cc2a3c59ac7" kind="audience">
     <identifier scheme="archive-org">gd1971-01-21.131516.aud.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">131516</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Sandy Troy</credit>
+    <credit role="transfer-mastering">Charlie Miller, Matt Smith, Joe B. Jones</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>AUD (Unknown Gear) -&gt; ? -&gt; Reel (Maxell UD 35-90 @ 3.75ips) | Reel (Akai GX636) -&gt; Apogee Mini-Me (24bit/96k) -&gt; Apogee Mini-DAC -&gt; Wavelab v5 -&gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller, Matt Smith, Joe B. Jones</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-88190ab6cf73b1bb361d" kind="audience">
     <identifier scheme="archive-org">gd1971-01-21.131517.aud.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131517</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Sandy Troy</credit>
+    <credit role="transfer-mastering">Charlie Miller, Matt Smith, Joe B. Jones</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>AUD (Unknown Gear) -&gt; ? -&gt; Reel (Maxell UD 35-90 @ 3.75ips) | Reel (Akai GX636) -&gt; Apogee Mini-Me (24bit/96k) -&gt; Apogee Mini-DAC -&gt; Wavelab v5 -&gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller, Matt Smith, Joe B. Jones</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2548cd8f44d966df3b99" kind="soundboard">
     <identifier scheme="archive-org">gd1971-01-21.153406.sbd.partial.martin.smith.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">153406</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21" references="archive-index"/>
     <credit role="recordist">Steve Martin</credit>
+    <credit role="transfer-mastering">Matt Smith, Scott Clugston</credit>
     <lineage>Master Soundboard 1/2 Track Reels &gt; Steve Martin's cassette | 1st generation cassette (Nakamichi DR-10) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
     <playlist id="pl-9f241c6009b1d44e762f" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1971-01-21.153406.sbd.partial.martin.smith.clugston.flac1648">
       <track n="1" title="Mama Tried" file="gd71-01-21 partial s1t01 Mama Tried.flac" mappingStatus="candidate" sourceNumber="101" duration="PT269.2S" covers="p01-09" certainty="probable"/>
-      <track n="2" title="Around &amp; Around" file="gd71-01-21 partial s1t02 A &amp; A.flac" mappingStatus="unreviewed" sourceNumber="102" duration="PT257.47S"/>
+      <track n="2" title="Around &amp; Around" file="gd71-01-21 partial s1t02 A &amp; A.flac" mappingStatus="candidate" sourceNumber="102" duration="PT257.47S" covers="p01-10" certainty="probable"/>
       <track n="3" title="Cumberland Blues" file="gd71-01-21 partial s1t03 Cumberland.flac" mappingStatus="candidate" sourceNumber="103" duration="PT330.76S" covers="p01-11" certainty="probable"/>
       <track n="4" title="Casey Jones" file="gd71-01-21 partial s1t04 Casey Jones.flac" mappingStatus="candidate" sourceNumber="104" duration="PT306.47S" covers="p01-12" certainty="probable"/>
       <track n="5" title="Cryptical Envelopment &gt; Drums//" file="gd71-01-21 partial s2t01 Cryptical_Drums.flac" mappingStatus="candidate" sourceNumber="201" duration="PT239.81S" covers="p02-01 p02-02" certainty="probable"/>
       <track n="6" title="//I Know You Rider" file="gd71-01-21 partial s2t02 IKYR.flac" mappingStatus="candidate" sourceNumber="202" duration="PT274.07S" covers="p02-07" certainty="probable"/>
-      <track n="7" title="E: Uncle John's Band" file="gd71-01-21 partial s2t03 E_UJB.flac" mappingStatus="unreviewed" sourceNumber="203" duration="PT445.25S"/>
+      <track n="7" title="E: Uncle John's Band" file="gd71-01-21 partial s2t03 E_UJB.flac" mappingStatus="candidate" sourceNumber="203" duration="PT445.25S" covers="p02-08" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston</note>
-    <note>Archive source metadata (lineage): 1st generation cassette (Nakamichi DR-10) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</note>
-    <note>Archive source metadata (source): Master Soundboard 1/2 Track Reels &gt; Steve Martin's cassette</note>
-    <note>Archive source metadata (taper): Steve Martin</note>
-    <note>Archive source metadata (transferer): Matt Smith, Scott Clugston</note>
+    <captured field="lineage">1st generation cassette (Nakamichi DR-10) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</captured>
+    <captured field="source">Master Soundboard 1/2 Track Reels &gt; Steve Martin's cassette</captured>
+    <captured field="taper">Steve Martin</captured>
+    <captured field="transferer">Matt Smith, Scott Clugston</captured>
   </recording>
   <recording id="r-5497e1843d3f9c160e88" kind="soundboard">
     <identifier scheme="archive-org">gd1971-01-21.153417.sbd.partial.martin.smith.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">153417</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Martin</credit>
+    <credit role="transfer-mastering">Matt Smith, Scott Clugston</credit>
     <lineage>Master Soundboard 1/2 Track Reels &gt; Steve Martin's cassette | 1st generation cassette (Nakamichi DR-10) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Smith, Scott Clugston</note>
   </recording>
   <recording id="r-afe1b23c4b80028a8549" kind="matrix">
     <identifier scheme="archive-org">gd1971-01-21.153470.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">153470</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (44/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SBD + AUD Matrix 2 Source Mix (44/16) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-28a80c5cd63b705f9b3a" kind="unknown">
+  <recording id="r-28a80c5cd63b705f9b3a" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1971-01-21.153471.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">153471</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21" references="archive-index"/>
+    <credit role="transfer-mastering">DTS-Audio-CD 5.1 Mix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): DTS-Audio-CD 5.1 Mix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-b6f8d4e7663c97836b46" kind="unknown">
     <identifier scheme="archive-org">gd1971-01-21.153472.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">153472</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Freeborn Hall, University of California on 1971-01-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): 5.1 LPCM Surround Sound Mix (48k) by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
 </recordings>

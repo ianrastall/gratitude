@@ -5,35 +5,37 @@
   </record>
   <recording id="r-dffda6fc005106b3d85c" kind="audience">
     <identifier scheme="archive-org">gd1978-12-16.aud.stephens.8841.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8841</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16" references="archive-index"/>
     <lineage>AUD, unknown mics: CM &gt; 1C &gt; DAT | Tascam DA-20mkII &gt; M Audio Delta Audiophile 2496 &gt; SoundForge 4.5 (48-44.1, highest accuracy with anti-alias filter) &gt; CDWAV v1.71 &gt; MKW Audio Compression Tool v0.96f (no DAE) &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-209c7a0782b5e6e7e6cb" kind="audience">
+  <recording id="r-209c7a0782b5e6e7e6cb" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1978-12-16.sonyecm250-dolbyb.walker-scotton.miller.82211.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82211</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>(FOB) Sony ECM250 -&gt; Cassette Master (Maxell UD-XLII/Dolby B) D | Cassette Master (Tascam 122mkII/Dolby B) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
-  <recording id="r-bafa76fd217b58b4e9f3" kind="audience">
+  <recording id="r-bafa76fd217b58b4e9f3" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1978-12-16.sonyecm250-no-dolby.walker-scotton.miller.82212.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82212</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>(FOB) Sony ECM 250 -&gt; Cassette Master (Maxell UD-XLII/Dolby B) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-37333fa6fa972798754a" kind="audience">
     <identifier scheme="archive-org">gd78-12-16.wagner.wiley.9482.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9482</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Wagner</credit>
+    <personMatch name="Bob Wagner" role="unspecified"/>
     <lineage>Audience Recording: Nak 300's | Nak 300's&gt; Sony TC-158&gt; MC&gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Nashville Municipal Auditorium on 1978-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role unspecified.</note>
   </recording>
 </recordings>

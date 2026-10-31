@@ -5,21 +5,23 @@
   </record>
   <recording id="r-14d2d2f5dd7516a909ab" kind="soundboard">
     <identifier scheme="archive-org">gd1972-11-18.123077.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123077</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hofheinz Pavilion on 1972-11-18" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Cassette -&gt; Dat | Dat (Tascam DA-20) -&gt; Tascam SS-R05 -&gt; Adobe Audition v3.0 -&gt;Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hofheinz Pavilion on 1972-11-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f65db49cc1ce641b436f" kind="unknown">
+  <recording id="r-f65db49cc1ce641b436f" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1972-11-18.sbd-set2.lai.9182.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9182</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hofheinz Pavilion - University of Houston on 1972-11-18" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Owsley Stanley" role="unspecified"/>
     <lineage>Owsley MC &gt;&gt; ? &gt;&gt; D &gt;&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hofheinz Pavilion - University of Houston on 1972-11-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Owsley Stanley; role unspecified.</note>
   </recording>
   <recording id="r-84086ccdf03f3ab45e83" kind="soundboard">
     <identifier scheme="archive-org">gd72-11-18.set2-sbd.cotsman.9002.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9002</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hofheinz Pavilion on 1972-11-18" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt; MC&gt; C&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hofheinz Pavilion on 1972-11-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

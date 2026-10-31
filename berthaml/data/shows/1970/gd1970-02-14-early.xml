@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<show xmlns="urn:berthaml:1" schemaVersion="1.1" id="gd1970-02-14-early" date="1970-02-14">
+  <record status="draft" updated="2026-10-30">
+    <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19700214-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
+  </record>
+  <slot>early</slot>
+  <venue ref="v-fillmore-east" nameAsBilled="Fillmore East"/>
+  <program coverage="partial">
+    <set kind="set" n="1" mode="unknown">
+      <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
+      <performance id="p01-02" song="s-dark-star" transition="segue"/>
+      <performance id="p01-03" song="s-st-stephen" transition="segue" titleVariant="Saint Stephen"/>
+      <performance id="p01-04" song="s-the-eleven" transition="segue"/>
+      <performance id="p01-05" song="s-turn-on-your-lovelight" transition="unknown"/>
+      <note>Source section label: Show</note>
+    </set>
+  </program>
+  <note>Imported factual record. No membership-derived lineup, vocalists, reprises, track durations or release mappings are inferred. Program completeness requires review; an absent segue marker does not prove a stop.</note>
+</show>

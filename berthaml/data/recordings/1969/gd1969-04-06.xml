@@ -3,52 +3,52 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-fdc5fcc270ae10fc7842" kind="unknown">
+  <recording id="r-fdc5fcc270ae10fc7842" kind="unknown" inferredKind="fm" modifiers="FM">
     <identifier scheme="archive-org">gd1969-04-06.135956.FM.GEMS.Flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135956</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Avalon Ballroom on 1969-04-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">PO and Stucco TINA Holmes</credit>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Unknown analog recording &gt; PCM Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt;Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt;RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; tracked with Audacity-&gt; flac level 8 and checksums with TLH-&gt; tagged with Mp3tag; Editing and Mastering by Jamie Waddell in Wavelab 7.1; 16bit 44.1kHz Track, FLAC and Pack by John Wenzel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1969-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note certainty="uncertain">Legacy inferred type: FM</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
-  <recording id="r-98d582f8deb62b64e9c4" kind="fm">
+  <recording id="r-98d582f8deb62b64e9c4" kind="fm" modifiers="FM">
     <identifier scheme="archive-org">gd1969-04-06.142124.fm.ordon.smith.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142124</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Avalon Ballroom on 1969-04-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Matt Smith</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Source Info: FM Broadcast (KPFA/KPFB)&gt; Tom Ordon's Master FM Reels &gt; Matt Smith's 1st Generation Reels; Transfer Info: 1st Generation Reels (Technics RS-1506)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp .wav 24/96 &gt; Adobe Audition 3.0 24/96 &gt; TLH flac2496; This is a 16/48 fileset. 24-bit &gt; 16-bit via dBpoweramp</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1969-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Matt Smith</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-7e5fafb8d16ff6c936a9" kind="fm">
+  <recording id="r-7e5fafb8d16ff6c936a9" kind="fm" modifiers="FM">
     <identifier scheme="archive-org">gd1969-04-06.142125.fm.ordon.smith.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">142125</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Avalon Ballroom on 1969-04-06" references="archive-index"/>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller and Matt Smith</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source Info: FM Broadcast (KPFA/KPFB)&gt; Tom Ordon's Master FM Reels &gt; Matt Smith's 1st Generation Reels; Transfer Info: 1st Generation Reels (Technics RS-1506)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp .wav 24/96 &gt; Adobe Audition 3.0 24/96 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1969-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller and Matt Smith</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b04eb5f8b904dc702fe5" kind="soundboard">
     <identifier scheme="archive-org">gd1969-04-06.142814.sbd.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142814</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Avalon Ballroom on 1969-04-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Master Reel &gt; Cassette (Tascam 122mkIII) &gt; Dat (Panasonic SV-3800/48k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 Suite &gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1969-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-5c98ffb5bfd986b4c549" kind="soundboard">
+  <recording id="r-5c98ffb5bfd986b4c549" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd1969-04-06.fm.hunter-warner.fink.9389.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9389</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Avalon Ballroom on 1969-04-06" references="archive-index"/>
     <credit role="recordist">Keith Hunter and Jack Warner</credit>
+    <credit role="transfer-mastering">Alan Fink</credit>
     <lineage>SBD : FM &gt; MR &gt; C1 &gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1969-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Alan Fink</note>
   </recording>
-  <recording id="r-166612d80a00119f8162" kind="soundboard">
+  <recording id="r-166612d80a00119f8162" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd69-04-06.sbd.fm.cotsman.9492.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9492</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Avalon Ballroom on 1969-04-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Joe Jupille and J. Cotsman</credit>
     <lineage>Soundboard | SBD &gt; FM &gt; MR &gt; C &gt; D &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Avalon Ballroom on 1969-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Joe Jupille and J. Cotsman</note>
   </recording>
 </recordings>

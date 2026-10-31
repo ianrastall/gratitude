@@ -5,64 +5,70 @@
   </record>
   <recording id="r-b59046d0bc0db320b4e3" kind="unknown">
     <identifier scheme="archive-org">gd1992-05-25.149287.neumannKM84.ebel.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">149287</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Ampitheater on 1992-05-25" references="archive-index"/>
     <credit role="recordist">Pete Ebel</credit>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>Neumann KM84-&gt; DAT | Dat Tape (Panasonic SV-3700)-&gt; Marantz CDR-615-&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Ampitheater on 1992-05-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
   <recording id="r-c8be7e52719038104746" kind="soundboard">
     <identifier scheme="archive-org">gd1992-05-25.150463.sbd.miller.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">150463</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller August 13, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC (24-bit/48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 13, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
   <recording id="r-94826d5b215e03a17b15" kind="soundboard">
     <identifier scheme="archive-org">gd1992-05-25.150517.sbd.cm.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">150517</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller August 13, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>SBD &gt; DAT Master (Panasonic SV-3700/48k) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; dBpoweramp (24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC (24-bit/48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 13, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-358556107948c603ed9a" kind="unknown">
+  <recording id="r-358556107948c603ed9a" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1992-05-25.151071.aud.lohr.vernon.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">151071</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25" references="archive-index"/>
     <credit role="recordist">Gesine Lohr</credit>
+    <credit role="transfer-mastering">Matt Vernon</credit>
     <lineage>Nak shotguns &gt; D6 &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification) &gt; dbpoweramp &gt; 1648</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Matt Vernon</note>
   </recording>
-  <recording id="r-3c92fb104b2aea9cdb38" kind="unknown">
+  <recording id="r-3c92fb104b2aea9cdb38" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1992-05-25.151072.aud.lohr.vernon.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">151072</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25" references="archive-index"/>
     <credit role="recordist">Gesine Lohr</credit>
+    <credit role="transfer-mastering">Matt Vernon</credit>
     <lineage>Nak shotguns &gt; D6 &gt; MAC | MAC &gt; Nak CR-7A (azimuth adjusted) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor (DSF concatenate &amp; 2496 PCM) &gt; Audacity (Trim, tracking, amplification)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Matt Vernon</note>
   </recording>
   <recording id="r-29f175608512fb4467ca" kind="audience">
     <identifier scheme="archive-org">gd1992-05-25.AKG451.Darby.119932.Flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">119932</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/Loge Section 202 Row H Seat 23/6 Feet High)&gt; Whirlwind Phantoms&gt;Teac DA-P20&gt;Sony TC-D5M,Tapes Maxell MX-S; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Metadata Tagging With Tag&amp;Rename By Keo</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-aa88fb2932ae3df7ebca" kind="audience">
     <identifier scheme="archive-org">gd1992-05-25.AKG451.Darby.119933.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">119933</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mike Darby</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Mr. Darby; AKGC451EB/CK1's (DIN/Loge Section 202 Row H Seat 23/6 Feet High)&gt; Whirlwind Phantoms&gt;Teac DA-P20&gt;Sony TC-D5M,Tapes Maxell MX-S; Transfer Information:Tascam 112 MKII (XLR Out)&gt;Tascam HD-P2 @ 24/48&gt; HDD&gt;Amadeus Pro (Tracking/Fades/FLAC8); Tracks Renamed/Dithered/Flacked With Korg Aqua To 16/44 By Keo; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-5f76472d58c51b7fc51c" kind="soundboard">
     <identifier scheme="archive-org">gd92-05-25.sbd.wiley.16469.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16469</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt; DAT&gt; C&gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1992-05-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

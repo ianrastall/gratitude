@@ -39,7 +39,7 @@ playlists/        source-specific TXT, JSON and local M3U8 exports
 
 **The show files and registries are the source of truth.** Edit them directly; git is their history. The build reads them and never writes them. It generates `data/recordings/`, `playlists/` and `reports/`, and refuses to overwrite a generated file that was edited by hand. See [CURATION.md](CURATION.md).
 
-Namespace: `urn:berthaml:1`. Language version 1.1: show files no longer hold recordings. Schemas are XSD 1.0, so they load in .NET `System.Xml.Schema`, libxml2/lxml and Xerces.
+Namespace: `urn:berthaml:1`. Language version 1.1: show files no longer hold recordings, recording facts are fields rather than notes, and IDs are frozen. Schemas are XSD 1.0, so they load in .NET `System.Xml.Schema`, libxml2/lxml and Xerces.
 
 ## Setup
 
@@ -114,11 +114,28 @@ People, songs, venues and releases are open-ended (hundreds of guests, ~500 song
 | :---- | :---- | :---- |
 | Person | `p-...` | `p-garcia` |
 | Song | `s-...` | `s-dire-wolf` |
-| Venue | `v-...` | `v-harpur-college` |
+| Venue | `v-...` | `v-harpur-college`, `v-capitol-theatre-port-chester` |
 | Release | `rel-...` | `rel-dicks-picks-08` |
-| Show | `gdYYYY-MM-DD[-suffix]` | `gd1970-05-02`, `gd1966-xx-xx` |
+| Show | `gdYYYY-MM-DD[-suffix]` | `gd1970-05-02`, `gd1969-02-11-early`, `gd1967-06-01-tompkins`, `gd1970-08-xx` |
+| Recording | `r-` and a hash of provider and key | `r-59409a8caeb5abe038d9` |
 
 XSD 1.0 cannot check references across files, so `tools/validate.py` does.
+
+### IDs are permanent
+
+Gratitude will store these IDs, so an issued ID never changes meaning and never silently disappears. `curated/id-ledger.json` lists every issued ID and every retirement, including the 712 renames made before the first freeze. A second show on a date takes `-early` or `-late` when a source says so, otherwise a word from its venue; the suffix makes no claim about order.
+
+After adding a show, venue, song, person or release, run `python tools/issue_ids.py`. To rename or merge one, change the data, then record it so stored references can follow:
+
+```powershell
+python tools/issue_ids.py --retire s-old-title s-new-title
+```
+
+The validator refuses an issued ID that has gone with no retirement, and a retired ID that comes back into use. The audit refuses IDs that have not been issued.
+
+Performance IDs such as `p01-03` are opaque, not positions. Never renumber them: give an inserted song a fresh ID such as `p01-03a`, because tracks and releases point at them.
+
+A venue's `<sourceRef>` is how a source event finds its entry, as a show's `<cite>` of its event is how the build pairs the file with its source.
 
 Instruments, set kinds, modes, transitions and record status are genuinely closed and are enumerated in `common.xsd`.
 
@@ -132,7 +149,9 @@ show <lineup>
 
 `<personnelChanges>` holds `<remove>`, `<add>` and `<change>`. `<change>` replaces that person's instrument list. Use `<personnel>` where the stage empties out, e.g. Drums.
 
-The show's `<lineup>` is authoritative. An absent lineup means unresearched personnel. This importer does not generate on-stage lineups from membership periods; those periods support warnings and research only.
+The show's `<lineup>` is authoritative. An absent lineup means unresearched personnel, and nothing is written into a show file on its behalf.
+
+Membership periods and their `<absence>` entries give a roster for any date. A roster is derived when needed, listed by era in `reports/roster-eras.json`, and must always be presented as roster-derived rather than as who played. It cannot show a member who missed a night, or a guest: Bruce Hornsby, for one, missed 22 shows inside his period.
 
 ### Durations belong to tracks, not performances
 
@@ -153,16 +172,25 @@ A performance that resumes an earlier one sets `continues` to the earlier perfor
 
 `transition` on each performance is `segue`, `stop` or `unknown`. It describes what happened on stage. Tape cuts are recorded on recordings, not here.
 
+### Recording facts
+
+Everything a consumer needs is a field. `kind` is what the source states; `inferredKind` is a guess held apart from it. `modifiers` holds FOB, FM, PRE-FM, DSBD, ULTRAMATRIX and DTS. `<identifier>` gives the provider's key first, then any `shnid`, which is read from the collectors' dotted naming and so is `probable`, or `uncertain` when a name holds more than one. An etree key is a torrent number, not a shnid. `<credit>` keeps the source's combined `transfer-mastering` role rather than choosing one. `<personMatch>` is a name the catalogue recognised, not an attribution. Placeholders such as "See info file" and "Unknown" are not kept as credits or lineage; the original text stays in the pinned sources.
+
+### Song titles
+
+A song has one `<title>` and any number of `<altTitle>`. Matching ignores case, punctuation, a leading The, `&` for `and`, and a dropped g, so only real differences need an entry: New Minglewood Blues, Keep Your Day Job, GDTRFB. An alias is a claim that two titles are one song, so reprises and separate songs that share words stay separate.
+
 ### Uncertainty and provenance
 
-- Each file has `<record status="skeleton|draft|reviewed|verified">` with `<cite>` entries.
+- Each file has `<record status="skeleton|draft|reviewed|verified">` with `<cite>` entries. Only a person sets `reviewed` or `verified`.
+- `reports/corroboration.jsonl` gives each show a derived level: `reviewed`, `recording-backed`, `sources-agree`, `single-source`, `disputed`, `differs-from-sources` or `no-setlist`. It is recalculated at every build rather than stored, so it cannot go stale when a file is edited, and it is never a substitute for review. The two setlist sources may share upstream research, so only `recording-backed` adds independent evidence.
 - Most facts accept `certainty="certain|probable|uncertain"`.
 - Dates accept year or year-month precision when the day is unknown.
 - `<program coverage="complete|partial|none">` states how much of the setlist is known.
 
 ### Deliberately not stored
 
-Values derivable from the data are left out so they cannot drift: set totals, set counts, play counts, first and last played dates, era names, day of week, chronological index.
+Values derivable from the data are left out so they cannot drift: set totals, set counts, play counts, first and last played dates, era names, day of week, chronological index, rosters and corroboration levels.
 
 ## Validator checks
 
@@ -180,3 +208,4 @@ Schema validation, then:
 - release and recording tracks cover existing performance or event IDs
 - each recordings file names an existing show and agrees with its file name
 - song credits use either a person ID or a text name
+- every issued ID still exists or has a retirement that leads to a current ID

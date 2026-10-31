@@ -3,22 +3,23 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-d874bbddc9971dd30239" kind="soundboard">
+  <recording id="r-d874bbddc9971dd30239" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd1972-05-11.sbd.giles.3830.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3830</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rotterdam Civic Hall on 1972-05-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Giles</credit>
     <lineage>Discs 1 and 2 - SBD&gt;MR&gt;C&gt;DAT&gt;CDR&gt;EAC&gt;SHN Discs 3 and 4 - SBD&gt;MR&gt;??&gt;FM&gt;??&gt;CDR&gt;editing&gt;CDR&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rotterdam Civic Hall on 1972-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Bill Giles</note>
   </recording>
   <recording id="r-d86e117c2fc35195e86f" kind="soundboard">
     <identifier scheme="archive-org">gd72-05-11.sbd.ashley-bertha.7364.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7364</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rotterdam Civic Hall on 1972-05-11" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt;&gt;MR&gt;&gt;DAT&gt;&gt;CDA&gt;&gt;SHN&gt;&gt;DAW(Bertha)&gt;&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rotterdam Civic Hall on 1972-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-5dce7e5e380d199bdaa0" kind="unknown">
+  <recording id="r-5dce7e5e380d199bdaa0" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd72-05-11.sbd.samaritano.9357.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9357</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Rotterdam Civic Hall on 1972-05-11" references="archive-index archive-url-snapshot"/>
     <lineage>10" MR@7.5ips-&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Rotterdam Civic Hall on 1972-05-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
 </recordings>

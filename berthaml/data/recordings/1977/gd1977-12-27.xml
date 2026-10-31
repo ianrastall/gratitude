@@ -6,26 +6,30 @@
   </record>
   <recording id="r-5faafd70dc8cb3ae850d" kind="soundboard">
     <identifier scheme="archive-org">gd1977-12-27.137166.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">137166</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-12-27" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Master Reel &gt; Dat (44.1k) | Dat (Sony R500) &gt; Tascam DA-3000 &gt; Samplitude Pro X3 &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-0d34821f3fe55b1d4a29" kind="soundboard">
     <identifier scheme="archive-org">gd1977-12-27.sbd.ashley-bertha.24069.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">24069</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-12-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bertha Remaster of the Master Reel source by Jay Ashley</credit>
     <lineage>SBD&gt;&gt;MR&gt;&gt;SS&gt;&gt;DAT&gt;&gt;CDA&gt;&gt;WAV(EAC)&gt;&gt;DAW(Bertha)&gt;&gt;CDA/SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bertha Remaster of the Master Reel source by Jay Ashley</note>
   </recording>
-  <recording id="r-2057804e05fca784675b" kind="unknown">
+  <recording id="r-2057804e05fca784675b" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1977-12-27.sbd.redbeard.2989.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2989</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-12-27" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">David Gans and Redbeard</credit>
     <lineage>MSR&gt;&gt;DAT&gt;Sonic Solutions remastering&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): David Gans and Redbeard</note>
   </recording>
   <recording id="r-b639f20ffdebfc182bf6" kind="soundboard">
     <identifier scheme="archive-org">gd77-12-27.sbd.cotsman.19288.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">19288</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1977-12-27" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt; MR&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
     <playlist id="pl-8acc4c58ea2cd105ac1e" label="Archive original SHN files" format="shn" sourceHref="https://archive.org/metadata/gd77-12-27.sbd.cotsman.19288.sbeok.shnf">
       <track n="1" title="Bertha" file="gd77-12-27d1t01.shn" mappingStatus="candidate" disc="1" sourceNumber="1" duration="PT207.54S" covers="p01-01" certainty="probable"/>
@@ -53,8 +57,7 @@
       <track n="23" title="Samson and Delilah" file="gd77-12-27d3t04.shn" mappingStatus="candidate" disc="3" sourceNumber="4" duration="PT248.64S" covers="p03-01" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1977-12-27. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Archive source metadata (lineage): SBD&gt; MR&gt; D&gt; CD&gt; EAC&gt; SHN</note>
-    <note>Archive source metadata (source): Soundboard</note>
+    <captured field="lineage">SBD&gt; MR&gt; D&gt; CD&gt; EAC&gt; SHN</captured>
+    <captured field="source">Soundboard</captured>
   </recording>
 </recordings>

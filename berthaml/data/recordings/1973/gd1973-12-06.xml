@@ -5,80 +5,86 @@
   </record>
   <recording id="r-2a9851ff87097b9923e4" kind="soundboard">
     <identifier scheme="archive-org">gd1973-12-06.132361.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132361</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat | Dat -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-4f1d75ff5f883e867c55" kind="soundboard">
     <identifier scheme="archive-org">gd1973-12-06.147505.sbd.pc.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">147505</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Master Reel &gt; Dat | Dat &gt; Samplitude Professional v11.2.1 &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-24d9fc39695943edc76f" kind="audience">
     <identifier scheme="archive-org">gd1973-12-06.164390.s2.partial.164390.lamarre.vernon.sirmick.flac1644</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="uncertain">164390</identifier>
+    <identifier scheme="shnid" certainty="uncertain">164390</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matt Vernon, SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Unknown audience cassette from the collection of Doug Lamarre. | Transfer: cassette &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96 - transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX 10 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; Flac 16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Vernon, SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-b8aba533e693f5ff7fd0" kind="audience">
     <identifier scheme="archive-org">gd1973-12-06.164391.s2.partial.164391.lamarre.vernon.sirmick.flac2496</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="uncertain">164391</identifier>
+    <identifier scheme="shnid" certainty="uncertain">164391</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index"/>
+    <credit role="transfer-mastering">Matt Vernon, SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Unknown audience cassette from the collection of Doug Lamarre. | Transfer: cassette &gt; Nak CR-7A &gt; Tascam DA-3000 #2 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi Res Editor &gt;wav 24/96 - transferred by Matt Vernon Lineage: wav 24/96 &gt; Adobe Audition 3 &gt; iZotope RX 10 Advanced &gt; CD Wave &gt; Flac 24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matt Vernon, SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-bb0666c4a1d69a9a7bef" kind="unknown">
+  <recording id="r-bb0666c4a1d69a9a7bef" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1973-12-06.166462.aud.cubbedge.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">166462</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Cubbedge</credit>
     <lineage>Recorded by Dave Cubbedge on a Sony portable stereo recorder with a stereo mic. | LINEAGE: Master &gt; TDK SA copy &gt; WAV &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
   </recording>
-  <recording id="r-f4e202247787f13191a5" kind="unknown">
+  <recording id="r-f4e202247787f13191a5" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1973-12-06.partial.sbd.nayfield.195.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">195</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cleveland Public Hall on 1973-12-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Rod Nayfield</credit>
     <lineage>S:MR&gt;Cass&gt;SonicSolutions&gt;DAT&gt;ZA2&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Public Hall on 1973-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Rod Nayfield</note>
   </recording>
   <recording id="r-dbec8e18903b31d233f7" kind="soundboard">
     <identifier scheme="archive-org">gd1973-12-06.sbd.miller.105560.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">105560</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD | CD -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.22 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-15156c9e5cd9e2eac6c2" kind="soundboard">
     <identifier scheme="archive-org">gd1973-12-06.sbd.remaster.102750.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102750</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; MR &gt; cassette &gt; DAT &gt; CD | CD &gt; Wav &gt; Sound Forge 9 for compression, volume and EQ &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-e3548a2aa0bb2b654f07" kind="unknown">
+  <recording id="r-e3548a2aa0bb2b654f07" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd73-12-06.sbd-part.nayfield.clevenger.fix-195.6703.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6703</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cleveland Music Hall on 1973-12-06" references="archive-index"/>
     <lineage>S:MR&gt;Cass&gt;SonicSolutions&gt;DAT&gt;ZA2&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cleveland Music Hall on 1973-12-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
   <recording id="r-e0fe3a4199e414c64a63" kind="soundboard">
     <identifier scheme="archive-org">gd73-12-06.sbd.kaplan-fink-hamilton.4452.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4452</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Public Hall on 1973-12-06" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard with Audience Patches | SBD MR &gt; 1 cass gen &gt; DAT &gt; (AUD patching)&gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Public Hall on 1973-12-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-f7ee1f54425c36efda31" kind="unknown">
-    <identifier scheme="other">etree-620854</identifier>
-    <note>Supplied catalogue listing: etree; gd1973-12-06.aud.cubbedge.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
+  <recording id="r-f7ee1f54425c36efda31" kind="unknown" inferredKind="audience">
+    <identifier scheme="etree-torrent">620854</identifier>
+    <listing provider="etree" title="gd1973-12-06.aud.cubbedge.flac16" references="etree-snapshot"/>
   </recording>
-  <recording id="r-c59fe43df501909cc1aa" kind="unknown">
-    <identifier scheme="other">etree-531746</identifier>
-    <note>Supplied catalogue listing: etree; gd73-12-06.sbd.miller.105560.flac16  ** NEW MILLER **. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-c59fe43df501909cc1aa" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">531746</identifier>
+    <identifier scheme="shnid" certainty="probable">105560</identifier>
+    <listing provider="etree" title="gd73-12-06.sbd.miller.105560.flac16  ** NEW MILLER **" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

@@ -3,15 +3,15 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19820911-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 08ecf7fa2355fca39d377d44ff9907ed3cef80bb22b15d828db5d4e4ca19e543. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-857" nameAsBilled="West Palm Beach Auditorium"/>
+  <venue ref="v-west-palm-beach-auditorium" nameAsBilled="West Palm Beach Auditorium"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-minglewood-blues" transition="unknown"/>
       <performance id="p01-02" song="s-they-love-each-other" transition="unknown"/>
       <performance id="p01-03" song="s-me-and-my-uncle" transition="segue"/>
       <performance id="p01-04" song="s-big-river" transition="unknown"/>
-      <performance id="p01-05" song="s-dupree-s-diamond-blues" transition="unknown"/>
-      <performance id="p01-06" song="s-c-c-rider" transition="unknown"/>
+      <performance id="p01-05" song="s-duprees-diamond-blues" transition="unknown"/>
+      <performance id="p01-06" song="s-cc-rider" transition="unknown"/>
       <performance id="p01-07" song="s-loser" transition="unknown"/>
       <performance id="p01-08" song="s-looks-like-rain" transition="unknown"/>
       <performance id="p01-09" song="s-tennessee-jed" transition="unknown"/>
@@ -33,7 +33,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p03-01" song="s-its-all-over-now-baby-blue" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

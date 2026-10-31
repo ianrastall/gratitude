@@ -5,34 +5,39 @@
   </record>
   <recording id="r-fd62150da42b46783056" kind="soundboard">
     <identifier scheme="archive-org">gd1976-10-03.121945.s2.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">121945</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cobo Arena on 1976-10-03" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat (44.1k) | Dat (Tascam DA-20) -&gt; Tascm SS-R05 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cobo Arena on 1976-10-03. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-76-detroit-mi-cobo-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/03/10-3-76-detroit-mi-cobo-arena/"/>
   </recording>
   <recording id="r-70258b185b81cac4b8a1" kind="unknown">
     <identifier scheme="archive-org">gd1976-10-03.fmsbd.jerugim.248.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">248</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cobo Arena on 1976-10-03" references="archive-index archive-url-snapshot"/>
     <lineage>FMSBD -&gt; SBDCM -&gt; DAT -&gt; CD CD -&gt; EAC -&gt; SHN conversion by AJ</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cobo Arena on 1976-10-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-e5c49110726314e02bc8" kind="soundboard">
     <identifier scheme="archive-org">gd1976-10-03.set2.sbd.jim.12829.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12829</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cobo Arena on 1976-10-03" references="archive-index"/>
+    <credit role="transfer-mastering">Jim Bennett</credit>
     <lineage>SBD&gt;MR&gt;C&gt;DAT&gt;CDR&gt;WAV&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cobo Arena on 1976-10-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jim Bennett</note>
   </recording>
   <recording id="r-84bdc8d090998cc74b6e" kind="audience">
     <identifier scheme="archive-org">gd76-10-03.aud.weiner.19415.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">19415</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cobo Arena on 1976-10-03" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Humboldt? (see review)</credit>
     <lineage>Audience Recording: Sony 153TDC? | AUD &gt; ? &gt; CD &gt; EAC &gt; SHN and AUD &gt; ? &gt; CASS &gt; DAT &gt; WAV &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cobo Arena on 1976-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-76-detroit-mi-cobo-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/03/10-3-76-detroit-mi-cobo-arena/"/>
   </recording>
   <recording id="r-887040aa5fb7d37a5552" kind="soundboard">
     <identifier scheme="archive-org">gd76-10-03.sbd-aud.cotsman.12832.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12832</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cobo Arena on 1976-10-03" references="archive-index archive-url-snapshot infinite-dead"/>
     <lineage>Soundboard and Audience composite | 1st set: AUD&gt; ?&gt; CD&gt; EAC&gt; SHN; 2nd set: SBD&gt; MR&gt; D&gt; CD&gt; EAC&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cobo Arena on 1976-10-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/03/10-3-76-detroit-mi-cobo-arena/</note>
+    <reference href="http://infinitedead.net/2021/10/03/10-3-76-detroit-mi-cobo-arena/"/>
   </recording>
 </recordings>

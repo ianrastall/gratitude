@@ -5,33 +5,38 @@
   </record>
   <recording id="r-b526c7b5020a64c135eb" kind="matrix">
     <identifier scheme="archive-org">gd1979-12-04.135898.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">135898</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1979-12-04" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>2 source matrix by dusborne;Soundboard (shnid:34937), Master Soundboard Cassette -&gt; Cassette -&gt; DAT -&gt; CD -&gt; EAC -&gt; SHN; Audience (shnid:83593), Recording by Ira Frisch:Master Audience Cassette; 2 Sennheiser 421s + Sennheiser 441&gt; Nakamichi 550Transfer and FLAC encoding by David Minches:Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition&gt; (dither/downsample)&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-04. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-62fdd11be893e706ddd3" kind="unknown">
     <identifier scheme="archive-org">gd1979-12-04.frisch.minches.83593.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83593</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1979-12-04" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ira Frisch</credit>
+    <credit role="transfer-mastering">David Minches</credit>
     <lineage>2 Sennheiser 421s + Sennheiser 441&gt; Nakamichi 550 | Master played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition&gt; (dither/downsample)&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
   </recording>
   <recording id="r-5824ad0e9fa0dc8e456b" kind="soundboard">
     <identifier scheme="archive-org">gd1979-12-04.sbd.130387.MrBill.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">130387</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1979-12-04" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Guarneri</credit>
     <lineage>Recording Info: SBD &gt; MC &gt; C &gt; DAT &gt; CD; Transfer Info: CD &gt; WAV &gt; Sound Forge 10 &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Guarneri</note>
   </recording>
   <recording id="r-83da3dc3e5a70ef26550" kind="soundboard">
     <identifier scheme="archive-org">gd1979-12-04.sbd.clugston.tetzeli.fix-2535.34937.reflac.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">34937</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1979-12-04" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Scott Clugston and Bill Tetzeli</credit>
     <lineage>Master Soundboard Cassette -&gt; Cassette -&gt; DAT | DAT -&gt; CD -&gt; EAC -&gt; SHN -&gt; ? -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Bill Tetzeli</note>
   </recording>
   <recording id="r-309ed8389a3f9222c8e2" kind="soundboard">
     <identifier scheme="archive-org">gd79-12-04.sbd.clugston.2535.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">2535</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Uptown Theater on 1979-12-04" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | Master Soundboard Cassette -&gt; Cassette -&gt; DAT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Uptown Theater on 1979-12-04. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

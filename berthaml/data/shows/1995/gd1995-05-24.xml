@@ -3,11 +3,11 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19950524-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c3bbd9811716176f9334e0a58627edc5a5a58174a8b902b3294649d4c448183a. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-1021" nameAsBilled="Seattle Center Memorial Stadium"/>
+  <venue ref="v-seattle-center-memorial-stadium" nameAsBilled="Seattle Center Memorial Stadium"/>
   <program coverage="partial">
     <set kind="soundcheck" n="1" mode="unknown">
       <performance id="p01-01" song="s-tough-mama" transition="unknown"/>
-      <performance id="p01-02" song="s-childhood-s-end" transition="unknown"/>
+      <performance id="p01-02" song="s-childhoods-end" transition="unknown"/>
       <performance id="p01-03" song="s-rain" transition="unknown"/>
       <note>Source section label: Soundcheck</note>
     </set>
@@ -34,7 +34,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p04-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

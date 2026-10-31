@@ -5,58 +5,63 @@
   </record>
   <recording id="r-dd4609e3019d9b27effc" kind="audience">
     <identifier scheme="archive-org">gd1992-06-18.134975.Nak300CP4.Fitzy.Keo.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">134975</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes: Set 1 Maxell MX-S 90, Set 2 Maxell MX-S 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion With AudioGate V.3.0.4 32/96 kHz Wave; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-172ce793b4ba6ef95f66" kind="audience">
     <identifier scheme="archive-org">gd1992-06-18.134976.Nak300CP4.Fitzy.Keo.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">134976</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Fitzy</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>Master Audience Recorded By Fitzy, Transfer By Keo; Nakamichi CM300/CP4 Shotguns &gt; Sony TC-D5M, Tapes: Set 1 Maxell MX-S 90, Set 2 Maxell MX-S 100; Transfer With Nakamichi MR-1 &gt; Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked With AudioGate V.3.0.4 24/96 kHz; Metadata Tagging With Tag&amp;Rename</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-855ad52597cec5f32a12" kind="unknown">
     <identifier scheme="archive-org">gd1992-06-18.139446.nakcm300-cp4.flac2448</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">139446</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
     <lineage>Nakamichi CM-300, CP-4 Shotguns &gt; Casio DA-7 Portable DAT Deck -&gt; Sony PCM-R500 Deck -&gt; Hosa ODL-312 Optical AES/EBU Link -&gt; Audacity on a Macintosh</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Unknown</note>
   </recording>
   <recording id="r-c68d1d1383f56b91e455" kind="unknown">
     <identifier scheme="archive-org">gd1992-06-18.144379.nak300-cp4.MarkLynn.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">144379</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Lynn</credit>
+    <credit role="transfer-mastering">Mark Lynn and morst</credit>
     <lineage>Source: NAK 300s + CP4 shotguns &gt; Casio DA7 with emphasis &gt; DAT @48 kHz (on floor) | Mark Lynn: DAT master &gt; Sound Devices 722 morst: FLAC &gt; Audacity 2.1.0 &gt; WAVs &gt; xACT 2.47 &gt; FLACs @ 48kHz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mark Lynn and morst</note>
   </recording>
-  <recording id="r-8b686a97973cfdad1b2a" kind="soundboard">
+  <recording id="r-8b686a97973cfdad1b2a" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1992-06-18.dsbd.miller.32487.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32487</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller and Paul Scotton</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Dat -&gt; CD | CD -&gt; EAC -&gt; Samplitude Professional v8.01 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Paul Scotton</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-8766c4702bbd9e84c33d" kind="soundboard">
     <identifier scheme="archive-org">gd1992-06-18.s2.sbd.davis.29702.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">29702</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Chris Davis</credit>
     <lineage>Sbd &gt; ?? &gt; CD's (likely a cassette gen) | CD's &gt; EAC (secure) &gt; MKWACT &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Chris Davis</note>
   </recording>
   <recording id="r-c858de0647346486b3d8" kind="unknown">
     <identifier scheme="archive-org">gd1992-06-18.sennME80.wklitz.96087.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">96087</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Keith Litzenberger</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Sennheiser ME-80's&gt;Technics SV-MD1 | Dat Master&gt;Tascam DA-30MKII&gt;Sound Devices 702&gt;Wavelab 5 (Fades,Sample Rate Conversion)&gt;CDWAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
   <recording id="r-ec0cb61278b53e0efa2e" kind="audience">
     <identifier scheme="archive-org">gd92-06-18.schoeps.wier.4674.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4674</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1992-06-18" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording | AUD (CMC-31)&gt; DAT&gt; CDR&gt; EAC&gt; SHN (MKW)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1992-06-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

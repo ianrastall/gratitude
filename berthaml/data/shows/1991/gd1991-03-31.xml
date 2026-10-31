@@ -3,14 +3,14 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910331-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-787" nameAsBilled="Greensboro Coliseum"/>
+  <venue ref="v-greensboro-coliseum" nameAsBilled="Greensboro Coliseum"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
       <performance id="p01-02" song="s-wang-dang-doodle" transition="unknown"/>
       <performance id="p01-03" song="s-friend-of-the-devil" transition="unknown"/>
       <performance id="p01-04" song="s-queen-jane-approximately" transition="unknown"/>
-      <performance id="p01-05" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-05" song="s-west-la-fadeaway" transition="unknown"/>
       <performance id="p01-06" song="s-cassidy" transition="segue"/>
       <performance id="p01-07" song="s-might-as-well" transition="unknown"/>
       <note>Source section label: Set 1</note>
@@ -27,7 +27,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <performance id="p03-01" song="s-knockin-on-heavens-door" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

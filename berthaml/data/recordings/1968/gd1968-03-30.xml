@@ -5,21 +5,24 @@
   </record>
   <recording id="r-034e666513c585adc89b" kind="audience">
     <identifier scheme="archive-org">gd1968-03-30.aud.unknown.9375.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9375</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carousel Ballroom on 1968-03-30" references="archive-index archive-url-snapshot"/>
     <lineage>AUD&gt;MR&gt;D&gt;PCM&gt;D&gt;CD | CD&gt;EAC&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-7604e55e55cd6871bfdf" kind="soundboard">
     <identifier scheme="archive-org">gd1968-03-30.sbd.miller.108994.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">108994</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carousel Ballroom on 1968-03-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; (4 Track) Master Reels -&gt; Dat (44.1k) | Dat (Sony R500) -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2ff5cf890fe896685090" kind="audience">
     <identifier scheme="archive-org">gd68-03-30.aud.cotsman.14912.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14912</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Carousel Ballroom on 1968-03-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Andy Lemieux and J Cotsman</credit>
+    <personMatch name="David Lemieux" role="transfer-mastering"/>
     <lineage>Audience | AUD &gt; MR &gt; D &gt; PCM &gt; D &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Carousel Ballroom on 1968-03-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andy Lemieux and J Cotsman</note>
-    <note certainty="uncertain">Legacy name match: David Lemieux; role transfer-mastering.</note>
   </recording>
 </recordings>

@@ -3,59 +3,65 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-b24150e699f16a6556c3" kind="unknown">
+  <recording id="r-b24150e699f16a6556c3" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1974-05-19.115876.aud-patlee.cousinit.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">115876</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19" references="archive-index"/>
     <credit role="recordist">Pat Lee</credit>
+    <credit role="transfer-mastering">CousinIt</credit>
     <lineage>Source: Sony ECM18N mics&gt;Sony 152SD deck; Recorded by Pat Lee; | MAC&gt;R&gt;R&gt;C&gt;WAV&gt;FLAC; Transferred and Encoded by Cousinit</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): CousinIt</note>
   </recording>
   <recording id="r-3d23e59abfbb9cf00d3a" kind="matrix">
     <identifier scheme="archive-org">gd1974-05-19.131464.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131464</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>2 Source Matrix by Dusborne; Soundboard (shnid:116983) Recording Info: SBD -&gt; Master Reel -&gt; Dat; Transfer Info: Dat -&gt; Samplitude Professional v11.03 -&gt; FLAC; All Transfers and Mastering By Charlie Miller and Audience (shnid:115876) Source:Sony ECM18N mics&gt;Sony 152SD deck; Recorded by Pat Lee; | MAC&gt;R&gt;R&gt;C&gt;WAV&gt;FLAC Transferred and Encoded by Cousinit</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-f831949705d543659656" kind="soundboard">
     <identifier scheme="archive-org">gd1974-05-19.sbd.aj.203.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">203</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Memorial Coliseum on 1974-05-19" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">AJ</credit>
     <lineage>Soundboard | SBDMR -&gt; DAT-&gt; CD -&gt; EAC -&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Coliseum on 1974-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): AJ</note>
   </recording>
-  <recording id="r-6d64b44f43f6bd8ea853" kind="unknown">
+  <recording id="r-6d64b44f43f6bd8ea853" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1974-05-19.sbd.clugston.thir13en.remaster-6957.79781.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">79781</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Memorial Coliseum on 1974-05-19" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">thir13en Productions</credit>
     <lineage>Remastered version of shn id 6957</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Memorial Coliseum on 1974-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): thir13en Productions</note>
   </recording>
   <recording id="r-0fea2a95588c8faaea64" kind="soundboard">
     <identifier scheme="archive-org">gd1974-05-19.sbd.fix.miller.107165.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">107165</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source 1: SBD -&gt; Master Reel -&gt; Cassette (Maxell XLII-S90/Sony D6/Dolby C) Source 2: SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD (shnid=6957) Source 3: SBD -&gt; Master Reel -&gt; Dat (44.1k) | Source 1: Cassette (Nakamichi DR-1/Dolby C) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-9f6d4a6a8e1ca238273f" kind="soundboard">
     <identifier scheme="archive-org">gd1974-05-19.sbd.miller.106716.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106716</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source 1: SBD -&gt; Master Reel -&gt; Cassette (Maxell XLII-S90/Sony D6/Dolby C) Source 2: SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD (shnid=6957) Source 3: SBD -&gt; Master Reel -&gt; Dat (44.1k) | Source 1: Cassette (Nakamichi DR-1/Dolby C) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v3.0 -&gt; Samplitude Professional v11.03 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-6919805dd7ce3945389f" kind="soundboard">
     <identifier scheme="archive-org">gd1974-05-19.sbd.miller.116983.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">116983</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat | Dat -&gt; Samplitude Professional v11.03 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ccefbfe84e4d1b290671" kind="soundboard">
     <identifier scheme="archive-org">gd74-05-19.sbd.clugston.6957.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">6957</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | Master Soundboard Reel &gt; PCM &gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Portland Memorial Coliseum on 1974-05-19. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

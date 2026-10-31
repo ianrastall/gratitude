@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19920519-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 44d1b39e1ad19cb4216f350210d1af46c8065421deaeaa31d0befdf75ae0aba8. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-905" nameAsBilled="Cal Expo Amphitheatre"/>
+  <venue ref="v-cal-expo-amphitheatre" nameAsBilled="Cal Expo Amphitheatre"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-cold-rain-and-snow" transition="unknown"/>
@@ -29,7 +29,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-baba-o-riley" transition="segue"/>
+      <performance id="p03-01" song="s-baba-oriley" transition="segue"/>
       <performance id="p03-02" song="s-tomorrow-never-knows" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>

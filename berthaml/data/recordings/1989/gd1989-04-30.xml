@@ -5,56 +5,59 @@
   </record>
   <recording id="r-5168b9289814fcca0a8e" kind="audience">
     <identifier scheme="archive-org">gd1989-04-30.141010.s1.schoeps.cmc4.mk4.pcm.mattes.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141010</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Irvine Meadows on 1989-04-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Set 1 Source Info: Ted Mattes' Master Audience PCM (Nakamichi DMP-100 deck); Schoeps CMC4/MK4 mics, ortf (OTS); Transfer Info: Master PCM (Sony SL-10)&gt; Sony PCM 601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (16 bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1989-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
-  <recording id="r-989a2a58704cdabf75c6" kind="matrix">
+  <recording id="r-989a2a58704cdabf75c6" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-04-30.161419.ultramatrix.miller.flac2496</identifier>
-    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <identifier scheme="shnid" certainty="probable">161419</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Irvine Meadows on 1989-04-30" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller December 24, 2022</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1989-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 24, 2022</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-ed67b42e178faa2c63f0" kind="matrix">
+  <recording id="r-ed67b42e178faa2c63f0" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1989-04-30.164176.UltraMatrix.sbd.cm.miller.t.flac.1644</identifier>
-    <credit role="recordist">Recorded by Don Pearson and Dan Healy</credit>
+    <identifier scheme="shnid" certainty="probable">164176</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Irvine Meadows on 1989-04-30" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Don Pearson and Dan Healy</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller December 24, 2022</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Dan Healy" role="recordist"/>
+    <personMatch name="Don Pearson" role="recordist"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Tascam Hi-Res Editor (WAV 24-bit/96k) &gt; Adobe Audition CC 2022 &gt; Samplitude Pro X6 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1989-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller December 24, 2022</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Don Pearson; role recording.</note>
   </recording>
-  <recording id="r-8188bd1a6b5ae3d6341d" kind="audience">
+  <recording id="r-8188bd1a6b5ae3d6341d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1989-04-30.fob.alabamabob.andrewf.95853.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95853</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Irvine Meadows Amphitheatre on 1989-04-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Alabama Bob</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>(FOB) Nakamichi CM-300's with CP-1 cardioid capsules &gt; Sony TC-D5M &gt; Maxell MX-90's, 17th row. | MAC &gt; Nakamichi DR-8 (no Dolby) &gt; Audiophile 2496 &gt; Wavelab &gt; CD-Wave &gt; TLH &gt; FLAC 1644</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows Amphitheatre on 1989-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-b04642af6abc1cad318d" kind="soundboard">
     <identifier scheme="archive-org">gd1989-04-30.sbd.miller.88173.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88173</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Irvine Meadows on 1989-04-30" references="archive-index"/>
     <credit role="recordist">Joani Walker; (Paul Scotton)</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi DR-1) -&gt; Apogee MiniMe (24bit/48k) -&gt; Samplitude Professional v9.11 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1989-04-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-0c5f7c35e84b002de688" kind="soundboard">
     <identifier scheme="archive-org">gd89-04-30.sbd.clugston.13757.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13757</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Irvine Meadows on 1989-04-30" references="archive-index archive-url-snapshot"/>
     <lineage>Master Soundboard Cassette &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Irvine Meadows on 1989-04-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

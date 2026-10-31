@@ -5,33 +5,37 @@
   </record>
   <recording id="r-c6ac63f58f74b7e64852" kind="matrix">
     <identifier scheme="archive-org">gd1971-12-01.partial-set2-matrix.vernon.83164.flac16</identifier>
-    <credit role="recordist">See info file</credit>
-    <lineage>Matrix - see info file | See info file</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1971-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Matt Vernon</note>
+    <identifier scheme="shnid" certainty="probable">83164</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1971-12-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Matt Vernon</credit>
+    <lineage>Matrix - see info file</lineage>
   </recording>
   <recording id="r-cb3b521d4ec150356b97" kind="soundboard">
     <identifier scheme="archive-org">gd1971-12-01.sbd-set2.miller.32304.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32304</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1971-12-01" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Reel Master -&gt; Dat -&gt; Sonic Solutions -&gt; CD -&gt; EAC -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1971-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-847680ee529b3c89978d" kind="soundboard">
     <identifier scheme="archive-org">gd1971-12-01.sbd.set2.fixed.miller.76424.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">76424</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1971-12-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat -&gt; Sonic Solutions -&gt; CD -&gt; EAC -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1971-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-dcd961a66bd5c0b0a9c1" kind="audience">
     <identifier scheme="archive-org">gd71-12-01.aud.minches-vernon.24765.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">24765</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1971-12-01" references="archive-index archive-url-snapshot"/>
     <lineage>Audience | AUDMC &gt; C &gt; C &gt; CDR &gt; EAC &gt; Pitch Correction / editing &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1971-12-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-572504e834b5de856130" kind="soundboard">
     <identifier scheme="archive-org">gd71-12-01.set2-sbd.lai.3898.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3898</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boston Music Hall on 1971-12-01" references="archive-index"/>
     <lineage>Soundboard | Set 2 Soundboard</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boston Music Hall on 1971-12-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

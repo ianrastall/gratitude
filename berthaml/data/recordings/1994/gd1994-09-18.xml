@@ -5,30 +5,33 @@
   </record>
   <recording id="r-3d0706b0842cd073c508" kind="soundboard">
     <identifier scheme="archive-org">gd1994-09-18.136849.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136849</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 1: SBD -&gt; Dat -&gt; Cassette Master -&gt; Dat (48k)Set 1: SBD -&gt; Dat (44.1k) | Dat (Tascam DA-20) -&gt; Tascam DA-3000 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-b6a29746198d4d5807bf" kind="unknown">
+  <recording id="r-b6a29746198d4d5807bf" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1994-09-18.147727.aud.unknown.ebel.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147727</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18" references="archive-index"/>
     <credit role="recordist">Pete Ebel</credit>
+    <credit role="transfer-mastering">Pete Ebel</credit>
     <lineage>Unknown Microphones-&gt; DAT | Dat (Panasonic SV-3700) -&gt; Marantz CDR-615 -&gt; CD (Late 90's) Extract Wav-&gt; Flac Level 8-&gt; Tagged (16/44.1)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Pete Ebel</note>
   </recording>
   <recording id="r-ba2307beaf56c5d07221" kind="unknown">
     <identifier scheme="archive-org">gd1994-09-18.nak300.bowen.116926.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">116926</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jeff Bowen</credit>
+    <credit role="transfer-mastering">Brad Foster</credit>
     <lineage>Source: Nakamichi cm300/cp1's &gt; Sony TCD-D10; | DAT/M &gt; DA-30 &gt; HHb 800 &gt; EAC &gt; CDWav &gt; FLAC; Recorded/Transferred: Jeff Bowen; Extraction: Brad Foster</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Brad Foster</note>
   </recording>
   <recording id="r-ef79c94158a0daa81aea" kind="audience">
     <identifier scheme="archive-org">gd94-09-18.nak300.ladner.10069.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10069</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Paul B</credit>
     <lineage>Audience: Nakamichi 300's | Nak 300's &gt; Aiwa DAT &gt; CDR &gt; EAC v0.9 beta 4 (secure) &gt; CD Wave &gt; mkwACT &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1994-09-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Paul B</note>
   </recording>
 </recordings>

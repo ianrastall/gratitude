@@ -5,27 +5,30 @@
   </record>
   <recording id="r-1252c9f82d9f44489902" kind="soundboard">
     <identifier scheme="archive-org">gd1968-12-07.sbd.lai.20007.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20007</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Bellarmine College on 1968-12-07" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Mike Lai</credit>
     <lineage>SBD&gt;CM&gt;C1&gt;DAT&gt;CDR&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Bellarmine College on 1968-12-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Mike Lai</note>
   </recording>
   <recording id="r-cf140ec495f15da58bcf" kind="soundboard">
     <identifier scheme="archive-org">gd1968-12-07.sbd.miller.88674.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88674</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Bellarmine College on 1968-12-07" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Cassette -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v9.12 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Bellarmine College on 1968-12-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-8a8b6e3bb2425d7d6d11" kind="soundboard">
     <identifier scheme="archive-org">gd68-12-07.sbd.naines.16944.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16944</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Bellarmine College on 1968-12-07" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">D. Litfin and Wilbur Haines</credit>
     <lineage>Soundboard | SBD &gt; CM &gt; C1 &gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Bellarmine College on 1968-12-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D. Litfin and Wilbur Haines</note>
   </recording>
-  <recording id="r-c6ee8d2903694df3a81a" kind="unknown">
-    <identifier scheme="other">etree-550075</identifier>
-    <note>Supplied catalogue listing: etree; gd68-12-07.88674.sbd.miller.sbeok.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-c6ee8d2903694df3a81a" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">550075</identifier>
+    <identifier scheme="shnid" certainty="probable">88674</identifier>
+    <listing provider="etree" title="gd68-12-07.88674.sbd.miller.sbeok.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

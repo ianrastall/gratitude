@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19700604-02" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 07f693b72e889a82e735fee5e3c927700be173b5cc8f0b5b29565678c9b27e7f. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-165" nameAsBilled="Fillmore West"/>
+  <venue ref="v-fillmore-west" nameAsBilled="Fillmore West"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="acoustic">
       <performance id="p01-01" song="s-monkey-and-the-engineer" transition="unknown"/>
@@ -22,7 +22,7 @@
       <performance id="p02-01" song="s-casey-jones" transition="unknown"/>
       <performance id="p02-02" song="s-me-and-my-uncle" transition="unknown"/>
       <performance id="p02-03" song="s-hard-to-handle" transition="unknown"/>
-      <performance id="p02-04" song="s-i-know-it-s-a-sin" transition="unknown"/>
+      <performance id="p02-04" song="s-i-know-its-a-sin" transition="unknown"/>
       <performance id="p02-05" song="s-china-cat-sunflower" transition="segue"/>
       <performance id="p02-06" song="s-i-know-you-rider" transition="unknown"/>
       <performance id="p02-07" song="s-attics-of-my-life" transition="unknown"/>
@@ -37,7 +37,7 @@
       <note>Source section label: Electric Set</note>
     </set>
     <set kind="encore" n="1" mode="electric">
-      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p03-01" song="s-its-all-over-now-baby-blue" transition="unknown"/>
       <note>Source section label: Electric Encore</note>
     </set>
   </program>

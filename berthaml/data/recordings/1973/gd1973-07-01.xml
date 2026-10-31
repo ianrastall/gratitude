@@ -5,66 +5,68 @@
   </record>
   <recording id="r-2757fba49a3db619a043" kind="soundboard">
     <identifier scheme="archive-org">gd1973-07-01.127028.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">127028</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Sound Devices 744T (24bit/96k) | WAV (24bit/96k) -&gt; Samplitude Professional v11.2.1 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-1-73-universal-city-ca-universal-amphitheater/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-1-73-universal-city-ca-universal-amphitheater/"/>
   </recording>
   <recording id="r-459c207909d1bff2788d" kind="matrix">
     <identifier scheme="archive-org">gd1973-07-01.127232.mtx.seamons.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">127232</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Hunter Seamons</credit>
+    <personMatch name="Hunter Seamons" role="transfer-mastering"/>
     <lineage>Matrix of SBD (shnid=127028): SBD -&gt; Master Reel -&gt; Sound Devices 744T (24bit/96k) and AUD (shnid=88528): Sony ECM-22P &gt; Sony TC-770 &gt; MAR &gt; ?? [Dolby Encode] &gt; R1 | Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hunter Seamons</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-1-73-universal-city-ca-universal-amphitheater/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-1-73-universal-city-ca-universal-amphitheater/"/>
   </recording>
-  <recording id="r-bed81610583907251165" kind="unknown">
+  <recording id="r-bed81610583907251165" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1973-07-01.fob.kaslow-todd.motb-0055.88528.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88528</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Harv Kaslow and Craig Todd</credit>
+    <credit role="transfer-mastering">Rob Bertrando and A. Egert</credit>
+    <personMatch name="Rob Bertrando" role="transfer-mastering"/>
     <lineage>Sony ECM-22P &gt; Sony TC-770 &gt; MAR &gt; ?? [Dolby Encode] &gt; R1 | R1 &gt; Technics RS-1506 &gt; TEAC AN-300 [Dolby Decode] &gt; Grace Design Lunatec V3 [Pre-Only] &gt; Korg MR-1000 &gt; DSF [1-bit 5.6448 MHz Stereo] &gt; Korg AudioGate &gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Rob Bertrando and A. Egert</note>
-    <note certainty="uncertain">Legacy name match: Rob Bertrando; role transfer-mastering.</note>
   </recording>
-  <recording id="r-e0da0300e3b720e012ed" kind="unknown">
+  <recording id="r-e0da0300e3b720e012ed" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1973-07-01.fob.kaslow-todd.motb-0055.88608.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">88608</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Harv Kaslow and Craig Todd</credit>
+    <credit role="transfer-mastering">Rob Bertrando, Barry Glassberg, A. Egert, J. Waddell</credit>
+    <personMatch name="Rob Bertrando" role="transfer-mastering"/>
+    <personMatch name="Barry Glassberg" role="transfer-mastering"/>
     <lineage>Sony ECM-22P &gt; Sony TC-770 &gt; MAR &gt; ?? [Dolby Encode] &gt; R1 | R1 &gt; Technics RS-1506 &gt; TEAC AN-300 [Dolby Decode] &gt; Grace Design Lunatec V3 [Pre-Only] &gt; Korg MR-1000 &gt; DSF [1-bit 5.6448 MHz Stereo] &gt; Korg AudioGate &gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Rob Bertrando, Barry Glassberg, A. Egert, J. Waddell</note>
-    <note certainty="uncertain">Legacy name match: Rob Bertrando; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role transfer-mastering.</note>
   </recording>
-  <recording id="r-97dae98640bb3b75cced" kind="unknown">
+  <recording id="r-97dae98640bb3b75cced" kind="unknown" inferredKind="matrix" modifiers="DTS">
     <identifier scheme="archive-org">gd1973-07-01.mtx.dts.tobin.89853.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89853</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-7f770c1f85eea1840e83" kind="matrix">
     <identifier scheme="archive-org">gd1973-07-01.sbd.mtx.tobin.89848.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89848</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (60%-AUD/40%-SBD)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-6b35e58ed34dd9a8ae51" kind="soundboard">
     <identifier scheme="archive-org">gd1973-07-01.set1.sbd.unknown.30362.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">30362</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index"/>
     <lineage>SBD &gt; ? &gt; Ye Olde Cassette Tape</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-d678e3bf9c746ff23cae" kind="audience">
     <identifier scheme="archive-org">gd73-07-01.aud.lai.178.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">178</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Universal Amphitheatre on 1973-07-01" references="archive-index infinite-dead"/>
     <lineage>Audience Recording | aud&gt; Sony ec M22P mics &gt;Sony 770 MR&gt; R1&gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Universal Amphitheatre on 1973-07-01. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/01/7-1-73-universal-city-ca-universal-amphitheater/</note>
+    <reference href="http://infinitedead.net/2024/07/01/7-1-73-universal-city-ca-universal-amphitheater/"/>
   </recording>
 </recordings>

@@ -5,27 +5,29 @@
   </record>
   <recording id="r-36e025bc3a5fe3ab7873" kind="audience">
     <identifier scheme="archive-org">gd1978-07-03.aud.unknown.120130.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">120130</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at St. Paul Civic Center on 1978-07-03" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Bob Morris</credit>
     <lineage>Low-gen Audience Cassette (Set 1: TDK SA-90; Set 2: Maxell UDXL-II C90); Cassette (Nakamichi DR-1) &gt; Korg MR-1000 (DFF 1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; Soundforge 9 (pitch, edit) &gt; CD Wave Editor (track) &gt; Trader's Little Helper (wav &gt; flac) &gt; Flac16; Transfer, edit/patch, pitch correction by Bob Morris, May 2012</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Civic Center on 1978-07-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Morris</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-78-st-paul-mn-st-paul-civic-center/</note>
+    <reference href="http://infinitedead.net/2024/07/03/7-3-78-st-paul-mn-st-paul-civic-center/"/>
   </recording>
   <recording id="r-4e9c1214c91174c3c3d1" kind="audience">
     <identifier scheme="archive-org">gd1978-07-03.sonyecm54p.wagner.minches.97601.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">97601</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at St. Paul Civic Center Arena on 1978-07-03" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">David Minches</credit>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>2 Sony ECM-54 Ps &gt;Sony 158 | 1st Generation: Master played back on Sony 158&gt; Nak 550, 1st Generation cassette played back on Nak Dragon&gt; Grace Lunatec V3 (24/96)&gt; Digital Audio Labs Card Deluxe&gt; Adobe Audition 2.0&gt; (dither/downsample)&gt; FLAC encoding</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Civic Center Arena on 1978-07-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-78-st-paul-mn-st-paul-civic-center/</note>
+    <reference href="http://infinitedead.net/2024/07/03/7-3-78-st-paul-mn-st-paul-civic-center/"/>
   </recording>
   <recording id="r-d783a539b37032d633eb" kind="audience">
     <identifier scheme="archive-org">gd78-07-03.wagner.7356.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7356</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at St. Paul Civic Center on 1978-07-03" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Robert Wagner</credit>
+    <personMatch name="Bob Wagner" role="unspecified"/>
     <lineage>Audience Recording | Sony 54p's&gt;Sony TC-158, Aud&gt;MC&gt;Da&gt;Cdr</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at St. Paul Civic Center on 1978-07-03. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/03/7-3-78-st-paul-mn-st-paul-civic-center/</note>
+    <reference href="http://infinitedead.net/2024/07/03/7-3-78-st-paul-mn-st-paul-civic-center/"/>
   </recording>
 </recordings>

@@ -5,24 +5,26 @@
   </record>
   <recording id="r-cadbbdec6f44a59e0b2f" kind="audience">
     <identifier scheme="archive-org">gd1970-11-05.aud.harlan.9356.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9356</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Harlan</credit>
     <lineage>center lodge, mics mounted on rails-&gt;Sony cassette audience master-&gt; analog cassette XL II, no dolby-&gt;Sony TC D5M DAT-&gt;playback on Sony PCM R-700-&gt; HDD via za2-&gt;CDR master via CD Architect-&gt;EAC-&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Harlan</note>
   </recording>
-  <recording id="r-bf3d8abe50d6a1454f6d" kind="unknown">
+  <recording id="r-bf3d8abe50d6a1454f6d" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1970-11-05.aud.lee.sirmick.30115.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">30115</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-05" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ken Leigh</credit>
+    <credit role="transfer-mastering">SirMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Recorded by Ken Leigh with a Sony TC-110 with built-in microphone, from center loge | MAC&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;FLAC and MAC&gt;?&gt;C&gt;D&gt;CD&gt;EAC&gt;SHN&gt;WAV&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): SirMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-bf83cb7314c990501e2f" kind="audience">
     <identifier scheme="archive-org">gd70-11-05.aud.warner.17182.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">17182</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Capitol Theater on 1970-11-05" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ken Leigh</credit>
+    <credit role="transfer-mastering">Jack Warner</credit>
     <lineage>Audience | Sony TC-110 with built-in microphone &gt; MC &gt; Cass &gt;DAT &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Capitol Theater on 1970-11-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jack Warner</note>
   </recording>
 </recordings>

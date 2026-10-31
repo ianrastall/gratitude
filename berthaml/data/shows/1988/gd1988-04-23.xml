@@ -3,13 +3,13 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880423-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-874" nameAsBilled="Irvine Meadows Amphitheatre"/>
+  <venue ref="v-irvine-meadows-amphitheatre" nameAsBilled="Irvine Meadows Amphitheatre"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-hell-in-a-bucket" transition="unknown"/>
       <performance id="p01-02" song="s-cold-rain-and-snow" transition="unknown"/>
       <performance id="p01-03" song="s-hey-pocky-way" transition="unknown"/>
-      <performance id="p01-04" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-04" song="s-west-la-fadeaway" transition="unknown"/>
       <performance id="p01-05" song="s-me-and-my-uncle" transition="segue"/>
       <performance id="p01-06" song="s-big-river" transition="unknown"/>
       <performance id="p01-07" song="s-to-lay-me-down" transition="unknown"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-knockin-on-heaven-s-door" transition="unknown"/>
+      <performance id="p03-01" song="s-knockin-on-heavens-door" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

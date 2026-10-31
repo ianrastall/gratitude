@@ -5,28 +5,30 @@
   </record>
   <recording id="r-989accbd6f86d7247499" kind="soundboard">
     <identifier scheme="archive-org">gd1969-10-25.150136.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150136</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1969-10-25" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller June 16, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Reel Master &gt; DAT (44.1k) | DAT (Tascam DA-40) &gt; Tascam DA-3000 &gt; Samplitude Pro X4 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1969-10-25. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 16, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-ccd23c04226abb91f922" kind="soundboard">
     <identifier scheme="archive-org">gd69-10-25.sbd.jagla.81.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">81</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Winterland Arena on 1969-10-25" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Robert Jagla and David Gans</credit>
     <lineage>Soundboard | SBD &gt; MR &gt; DAT &gt; Sonic Solutions &gt; CDR &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Winterland Arena on 1969-10-25. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Robert Jagla and David Gans</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/25/10-25-69-sf-ca-winterland-ballroom/</note>
+    <reference href="http://infinitedead.net/2021/10/25/10-25-69-sf-ca-winterland-ballroom/"/>
   </recording>
-  <recording id="r-acd551f6ccb48d6153e1" kind="unknown">
-    <identifier scheme="other">etree-609946</identifier>
-    <note>Supplied catalogue listing: etree; gd1969-10-25.150136.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-acd551f6ccb48d6153e1" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">609946</identifier>
+    <identifier scheme="shnid" certainty="probable">150136</identifier>
+    <listing provider="etree" title="gd1969-10-25.150136.sbd.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
   <recording id="r-e30ff45401b69038c322" kind="soundboard">
     <identifier scheme="archive-org">gd1969-10-25.sbd.miller.flac1644</identifier>
-    <note>Supplied catalogue listing: Archive.org; gd1969-10-25.sbd.miller.flac1644. Source references: infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/25/10-25-69-sf-ca-winterland-ballroom/</note>
+    <listing provider="Archive.org" title="gd1969-10-25.sbd.miller.flac1644" references="infinite-dead"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
+    <reference href="http://infinitedead.net/2021/10/25/10-25-69-sf-ca-winterland-ballroom/"/>
   </recording>
 </recordings>

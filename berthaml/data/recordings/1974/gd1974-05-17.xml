@@ -5,22 +5,24 @@
   </record>
   <recording id="r-e2ee2ccc5eb42a1e3b50" kind="soundboard">
     <identifier scheme="archive-org">gd1974-05-17.sbd.miller.89972.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89972</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at P.N.E. Coliseum on 1974-05-17" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Cassette -&gt; Dat -&gt; CD D | CD -&gt; Samplitude Professional v10.02 -&gt; Cool Edit Pro v2.0 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at P.N.E. Coliseum on 1974-05-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f04488ccc5f785d9b738" kind="unknown">
+  <recording id="r-f04488ccc5f785d9b738" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd74-05-17.partial.aud.28041.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">28041</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at P.N.E. Coliseum on 1974-05-17" references="archive-index"/>
     <credit role="recordist">Mike Kent</credit>
+    <credit role="transfer-mastering">Pantagruel</credit>
     <lineage>flac16 set 1,2p; hand-held external stereo mic&gt; portable Sony cassette deck&gt; BASF LH C120 MC&gt; [1 cass gen for Promised only] &gt; HD&gt; CDWave &gt; flac frontend &gt; flac; | master cassette &gt; HD (except for "Promised Land," from the 1st gen safety copy)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at P.N.E. Coliseum on 1974-05-17. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Pantagruel</note>
   </recording>
   <recording id="r-4fec093be644f1e2f087" kind="soundboard">
     <identifier scheme="archive-org">gd74-05-17.sbd.gustin.202.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">202</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at P.N.E. Coliseum on 1974-05-17" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | possible SBD cass master&gt;1 cass&gt; DAT&gt; 1 cass gen&gt; DAT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at P.N.E. Coliseum on 1974-05-17. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

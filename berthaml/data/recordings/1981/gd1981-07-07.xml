@@ -5,69 +5,77 @@
   </record>
   <recording id="r-14ff60e5ef0d090ef904" kind="audience">
     <identifier scheme="archive-org">gd1981-07-07.134089.nak300.schley.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">134089</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Brian Schley</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Maxell XLII (S1) and Hitachi ME-Metal (S2). Recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; TLH &gt; FLAC 2448 tagged. Transferred by Andrew F. 08/2015</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/</note>
+    <reference href="http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/"/>
   </recording>
   <recording id="r-b349b8ca04dc0580d51d" kind="audience">
     <identifier scheme="archive-org">gd1981-07-07.134090.nak300.schley.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">134090</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Brian Schley</credit>
+    <credit role="transfer-mastering">Andrew F.</credit>
     <lineage>AUD: Nakamichi CM300/CP4 shotguns &gt; Sony TC-D5 &gt; Maxell XLII (S1) and Hitachi ME-Metal (S2). Recording by Brian Schley. | MAC &gt; Nakamichi CR-5A &gt; Edirol FA-66 &gt; Wavelab 2448 &gt; CD-Wave (24bit output) &gt; R8Brain &gt; TLH &gt; FLAC 1644 tagged. Transferred by Andrew F. 08/2015</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andrew F.</note>
   </recording>
   <recording id="r-12e088a4ef0824e39f71" kind="soundboard">
     <identifier scheme="archive-org">gd1981-07-07.175191.sbd.miller.phase.repair.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">175191</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller November 20, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master &gt; Reel &gt; DAT | Transfer Info: DAT (Sony PCM-R500) &gt; Samplitude Pro v11.1 &gt; Adobe Audition v3.0 &gt; FLAC Remastering Info: FLAC &gt; iZotope RX11 Advanced &gt; Samplitude Pro X6 Suite &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller November 20, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-efc61bcaf463a50c3b96" kind="unknown">
+  <recording id="r-efc61bcaf463a50c3b96" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1981-07-07.176356.aud.bernstein.ackerman.noel.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">176356</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index"/>
     <credit role="recordist">Jon Bernstein</credit>
+    <credit role="transfer-mastering">Transfer &amp; Mastering by Ray Ackerman Edited &amp; Processed w/ add'l Mastering by Joe Noel January 24, 2026</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>?? mics &gt; ?? lead deck &gt; Sony TC-D5 &gt; Master Cassettes (Maxell XLIIS-90's) | Transfer: Master Cassettes &gt; Nakamichi Cassette Deck 1 &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96 &gt; Adobe Audition &gt; FLAC 2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Transfer &amp; Mastering by Ray Ackerman Edited &amp; Processed w/ add'l Mastering by Joe Noel January 24, 2026</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-d09d45a55c069d52b34c" kind="matrix">
     <identifier scheme="archive-org">gd1981-07-07.mtx.sirmick.110637.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">110637</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Matrix 60% sbd/40% aud SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (shnid 109850) and Aud (Neumann KMi84's)&gt;MC&gt;DAT&gt;CD (shnid 13962)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/</note>
+    <reference href="http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/"/>
   </recording>
   <recording id="r-cb13b91329d9abbe77b3" kind="soundboard">
     <identifier scheme="archive-org">gd1981-07-07.sbd.miller.109850.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">109850</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat | Dat (Sony R500) -&gt; Samplitude Professional v11.1 -&gt; Adobe Audition v3.0 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/</note>
+    <reference href="http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/"/>
   </recording>
   <recording id="r-8cf02d5679a73b59c86a" kind="audience">
     <identifier scheme="archive-org">gd81-07-07.neumann.munder.13962.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13962</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Neumann KM184's | Aud (Neumann KM184's)&gt;MC&gt;DAT&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-867fd4eb746d3c29fc1b" kind="soundboard">
     <identifier scheme="archive-org">gd81-07-07.sbd.miller.30649.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">30649</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard | SBD -&gt; Master Cassette -&gt; Reel -&gt; Dat</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/</note>
+    <reference href="http://infinitedead.net/2024/07/07/7-7-81-kansas-city-mo-kansas-city-municipal-auditorium/"/>
   </recording>
   <recording id="r-0739ba765799a053028b" kind="soundboard">
     <identifier scheme="archive-org">gd81-07-07.set1-sbd.munder.7292.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7292</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Soundboard | SBD&gt; Cm&gt; Reel&gt; Dat&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Kansas City Municipal Auditorium Arena on 1981-07-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
 </recordings>

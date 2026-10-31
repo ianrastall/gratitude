@@ -5,61 +5,66 @@
   </record>
   <recording id="r-3f3db23430b47205ffbf" kind="unknown">
     <identifier scheme="archive-org">gd1991-06-12.132803.at835a.cdipietro.flac</identifier>
+    <identifier scheme="shnid" certainty="probable">132803</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index"/>
     <credit role="recordist">cdipietro</credit>
+    <credit role="transfer-mastering">cdipietro</credit>
     <lineage>record: Audio Technica at835b's &gt; Sony D5 pro II &gt; cassette master; | Aiwa ad-f810&gt;Tascam DA MK30II(a-d) &gt; coax &gt; M-Audio 24/96 Audiophile &gt; SoundForge 10 &gt; CDwav(track split); record and transfer by c dipietro</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): cdipietro</note>
   </recording>
   <recording id="r-67885733b0b190af2741" kind="soundboard">
     <identifier scheme="archive-org">gd1991-06-12.138334.sbd.miller.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">138334</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-907579f086d2c786fcae" kind="soundboard">
     <identifier scheme="archive-org">gd1991-06-12.138341.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138341</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK SA-X100/Tascam Deck) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-feee51d1aa38a5eb07f2" kind="audience">
+  <recording id="r-feee51d1aa38a5eb07f2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1991-06-12.150369.FOB.Schoeps.Brotman.Metchick.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">150369</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index"/>
     <credit role="recordist">Master Digital FOB Recording by Dave Brotman &amp; Jeff Metchick</credit>
+    <credit role="transfer-mastering">Transfer by Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel May 02, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Recording: FOB Schoeps CMC3 MK4’s (ortf) &gt; Oade PS &gt; MIT cables &gt; Master DAT (Panasonic SV-255mod) (16/48) Location: Set I; Center Orchestra Row R, Seat 7 (hand held) Location: Set II; Center Orchestra Row R, Seat 7 (on stand) | Transfer: Master DAT &gt; Tascam DA-40 &gt; Tascam DA-3000 &gt; Flac 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Transfer by Charlie Miller Edited &amp; Mastered using Adobe Audition by Joe Noel May 02, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
-  <recording id="r-1a631379434e265dbb29" kind="unknown">
+  <recording id="r-1a631379434e265dbb29" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1991-06-12.fob.brennecke-young.GEMS.95643.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">95643</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">James Young and Clay Brennecke</credit>
+    <credit role="transfer-mastering">Todd Evans and Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>B&amp;K 4011 110º ORTF &gt; Neumann BS 48i-2&gt; Modified Sony TCD D-10 Pro Recording Location: DFC Front Row Taper Section | 16 bit – 48kHz DAT Master &gt; TASCAM DA-20 (SPDIF out) -&gt; LynxTWO-B Audio Reference Interface (SPDIF in) -&gt; Wavelab 6.0. Weiss Saracon for 16 BIT – 44.1kHz SRC and POWR-3 Dither Tracked in CDwave, FLAC’d Flac Frontend level 8 Tag &amp; Rename for FLAC Meta-Tagging.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-31436a65c6757f3320f6" kind="soundboard">
     <identifier scheme="archive-org">gd1991-06-12.sbd.eD.9403.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9403</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">eD</credit>
     <lineage>SBD&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): eD</note>
   </recording>
   <recording id="r-726a71c8fd474fae4ae4" kind="unknown">
     <identifier scheme="archive-org">gd1991-06-12.sennME80.wklitz.94310.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94310</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index"/>
     <credit role="recordist">Keith Litzenberger</credit>
+    <credit role="transfer-mastering">Keith Litzenberger</credit>
     <lineage>Sennheiser ME-80's &gt; Technics SVM-D1 | DAT Master &gt; Sony TCD-D0PROII &gt; Edirol R-4 &gt; Wavelab 5 (Fades and Sample Rate Conversion) &gt; CDWAV &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keith Litzenberger</note>
   </recording>
   <recording id="r-9a76c226792e37647208" kind="soundboard">
     <identifier scheme="archive-org">gd91-06-12.sbd.oconnor-wier.13266.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13266</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Charlotte Coliseum on 1991-06-12" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt;DAT&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Charlotte Coliseum on 1991-06-12. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

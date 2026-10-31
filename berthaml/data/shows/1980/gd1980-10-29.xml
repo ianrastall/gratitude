@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19801029-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 c42f5e058aaf4d9877a052041398666c0d4ee777eb99b72b99afc8dab3d06278. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-801" nameAsBilled="Radio City Music Hall"/>
+  <venue ref="v-radio-city-music-hall" nameAsBilled="Radio City Music Hall"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="acoustic">
       <performance id="p01-01" song="s-dire-wolf" transition="unknown"/>
@@ -12,13 +12,13 @@
       <performance id="p01-04" song="s-the-race-is-on" transition="unknown"/>
       <performance id="p01-05" song="s-bird-song" transition="unknown"/>
       <performance id="p01-06" song="s-heaven-help-the-fool" transition="unknown"/>
-      <performance id="p01-07" song="s-oh-babe-it-ain-t-no-lie" transition="segue"/>
+      <performance id="p01-07" song="s-oh-babe-it-aint-no-lie" transition="segue"/>
       <performance id="p01-08" song="s-ripple" transition="unknown"/>
       <note>Source section label: Acoustic Set</note>
     </set>
     <set kind="set" n="2" mode="electric">
       <performance id="p02-01" song="s-feel-like-a-stranger" transition="segue"/>
-      <performance id="p02-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p02-02" song="s-franklins-tower" transition="unknown"/>
       <performance id="p02-03" song="s-me-and-my-uncle" transition="segue"/>
       <performance id="p02-04" song="s-big-river" transition="unknown"/>
       <performance id="p02-05" song="s-candyman" transition="segue"/>
@@ -43,7 +43,7 @@
       <note>Source section label: Electric Set 2</note>
     </set>
     <set kind="encore" n="1" mode="electric">
-      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p04-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Electric Encore</note>
     </set>
   </program>

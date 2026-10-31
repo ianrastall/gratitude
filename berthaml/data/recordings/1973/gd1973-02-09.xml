@@ -4,12 +4,16 @@
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
     <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1973-02-09.134398.sbd.menke-lee-smith.flac16" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 b105d1be82ba694a674d1ab33dff41d17cd2be631be1c25dfe53608b1ab4f92c</cite>
   </record>
-  <recording id="r-c8df1e8042276ffb3537" kind="unknown">
+  <recording id="r-c8df1e8042276ffb3537" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1973-02-09.134398.sbd.menke-lee-smith.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">134398</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion, Stanford on 1973-02-09" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Justin Lee</credit>
+    <credit role="transfer-mastering">Bob Menke and Matt Smith</credit>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
     <lineage>Recording Info: MR &gt; R (Bob Menke) &gt; R (Pat Lee); Transfer Info: Technics 1506 w/Lamb Labs Dolby decoder &gt; WAV (24bit/96k) &gt; Apogee Mini Me 24/96 &gt; Apogee Mini DAC monitoring and mastering &gt; FLAC; Mastered By Matt Smith</lineage>
     <playlist id="pl-94f1b75a27f1207364d8" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1973-02-09.134398.sbd.menke-lee-smith.flac16">
-      <track n="1" title="The Promised Land" file="gd1973-02-09s1t01.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT200.15S"/>
+      <track n="1" title="The Promised Land" file="gd1973-02-09s1t01.flac" mappingStatus="candidate" sourceNumber="1" duration="PT200.15S" covers="p01-01" certainty="probable"/>
       <track n="2" title="Row Jimmy" file="gd1973-02-09s1t02.flac" mappingStatus="candidate" sourceNumber="2" duration="PT475.88S" covers="p01-02" certainty="probable"/>
       <track n="3" title="Black Throated Wind" file="gd1973-02-09s1t03.flac" mappingStatus="candidate" sourceNumber="3" duration="PT398.37S" covers="p01-03" certainty="probable"/>
       <track n="4" title="Deal" file="gd1973-02-09s1t04.flac" mappingStatus="candidate" sourceNumber="4" duration="PT277.29S" covers="p01-04" certainty="probable"/>
@@ -43,63 +47,64 @@
       <track n="32" title="Casey Jones" file="gd1973-02-09s2t18.flac" mappingStatus="candidate" sourceNumber="32" duration="PT411.36S" covers="p03-01" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion, Stanford on 1973-02-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Bob Menke and Matt Smith</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
-    <note>Archive source metadata (source): Recording Info: MR &gt; R (Bob Menke) &gt; R (Pat Lee); Transfer Info: Technics 1506 w/Lamb Labs Dolby decoder &gt; WAV (24bit/96k) &gt; Apogee Mini Me 24/96 &gt; Apogee Mini DAC monitoring and mastering &gt; FLAC; Mastered By Matt Smith</note>
-    <note>Archive source metadata (taper): Justin Lee</note>
-    <note>Archive source metadata (transferer): Bob Menke and Matt Smith</note>
+    <captured field="source">Recording Info: MR &gt; R (Bob Menke) &gt; R (Pat Lee); Transfer Info: Technics 1506 w/Lamb Labs Dolby decoder &gt; WAV (24bit/96k) &gt; Apogee Mini Me 24/96 &gt; Apogee Mini DAC monitoring and mastering &gt; FLAC; Mastered By Matt Smith</captured>
+    <captured field="taper">Justin Lee</captured>
+    <captured field="transferer">Bob Menke and Matt Smith</captured>
   </recording>
-  <recording id="r-dd1b3b9557873f78b156" kind="unknown">
+  <recording id="r-dd1b3b9557873f78b156" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1973-02-09.134399.sbd.menke-lee-smith.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">134399</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion, Stanford on 1973-02-09" references="archive-index"/>
     <credit role="recordist">Pat Lee</credit>
+    <credit role="transfer-mastering">Bob Menke and Matt Smith</credit>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
     <lineage>Recording Info: MR &gt; R (Bob Menke) &gt; R (Pat Lee); Transfer Info: Technics 1506 w/Lamb Labs Dolby decoder &gt; WAV (24bit/96k) &gt; Apogee Mini Me 24/96 &gt; Apogee Mini DAC monitoring and mastering &gt; FLAC; Mastered By Matt Smith</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion, Stanford on 1973-02-09. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Bob Menke and Matt Smith</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
   </recording>
   <recording id="r-7ee5017f41fdb427478b" kind="soundboard">
     <identifier scheme="archive-org">gd1973-02-09.141001.sbd.14939-spdcor.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141001</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion, Stanford on 1973-02-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Roger Eichorn</credit>
     <lineage>SBD&gt;&gt;MR&gt;&gt;REEL&gt;&gt;DAT&gt;&gt;SS&gt;&gt;CDR&gt;&gt;DAW(Bertha)&gt;&gt;CDA&gt;&gt;SHN&gt;&gt;COOL EDIT PRO&gt;&gt;SHN; Speed-corrected using Celemony Capstan done for each track individually; Reencoded to flac (level 8); SBE's fixed using Trader's Little Helper</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion, Stanford on 1973-02-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Roger Eichorn</note>
   </recording>
   <recording id="r-7cc291a6ea8577ca9d63" kind="soundboard">
     <identifier scheme="archive-org">gd1973-02-09.150166.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">150166</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion on 1973-02-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller June 19, 2020</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Reel Master (7.5ips 1/2trk) &gt; Reel/1 (7.5ips/Dolby B) &gt; DAT/0 (44.1k) | DAT/0 (Tascam DA-40) &gt; Tascam DA-3000 &gt; Adobe Audition CC 2015 &gt; Samplitude Pro X5 Suite &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion on 1973-02-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller June 19, 2020</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-8b25222566d72ac7430d" kind="soundboard">
     <identifier scheme="archive-org">gd1973-02-09.sbd.ashley.12571.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">12571</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion - Stanford University on 1973-02-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bertha Remaster by</credit>
     <lineage>SBD&gt;&gt;MR&gt;&gt;REEL&gt;&gt;DAT&gt;&gt;SS&gt;&gt;CDR&gt;&gt;DAW(Bertha)&gt;&gt;CDA</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion - Stanford University on 1973-02-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bertha Remaster by</note>
   </recording>
-  <recording id="r-04519d948ced5166c368" kind="unknown">
+  <recording id="r-04519d948ced5166c368" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1973-02-09.sbd.finney.10361.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10361</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion - Stanford University on 1973-02-09" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Popi</credit>
     <lineage>MR 2 Track Reel &gt; 7.5 IPS 1/4 tack dolby B reel &gt; DAT &gt; Sonic Solutions &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion - Stanford University on 1973-02-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Popi</note>
   </recording>
   <recording id="r-da232c0607d48304ef9c" kind="soundboard">
     <identifier scheme="archive-org">gd73-02-09.sbd.allred.9888.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9888</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion, Stanford U. on 1973-02-09" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt; MR&gt; R&gt; DAT&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion, Stanford U. on 1973-02-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-c70d80da600eeb2ef5b8" kind="soundboard">
     <identifier scheme="archive-org">gd73-02-09.sbd.bertha-fink.14939.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">14939</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Roscoe Maples Pavilion, Stanford U. on 1973-02-09" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD&gt; MR&gt; REEL&gt; DAT&gt; SS&gt; CDR&gt; DAW (Bertha)&gt; CDA</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Roscoe Maples Pavilion, Stanford U. on 1973-02-09. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-b2986e6af6f8f356fd1c" kind="unknown">
-    <identifier scheme="other">etree-609947</identifier>
-    <note>Supplied catalogue listing: etree; gd1973-02-09.150166.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-b2986e6af6f8f356fd1c" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">609947</identifier>
+    <identifier scheme="shnid" certainty="probable">150166</identifier>
+    <listing provider="etree" title="gd1973-02-09.150166.sbd.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

@@ -5,37 +5,39 @@
   </record>
   <recording id="r-b5498d40919f8859e8c0" kind="audience">
     <identifier scheme="archive-org">gd1973-09-26.aud.tobin.80665.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">80665</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at War Memorial on 1973-09-26" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Unknown Audience</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial on 1973-09-26. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-6527ad7c165c3131f8b7" kind="soundboard">
+  <recording id="r-6527ad7c165c3131f8b7" kind="soundboard" modifiers="DSBD">
     <identifier scheme="archive-org">gd1973-09-26.sbd-repatched.miller.80198.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">80198</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at War Memorial on 1973-09-26" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat (48k) DSBD -&gt; Master Reel -&gt; Dat (48k) D | Dat (Sony R500) -&gt; Samplitude Profesional v7.02 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial on 1973-09-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DSBD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9a63ea3dab4802ff1e12" kind="unknown">
+  <recording id="r-9a63ea3dab4802ff1e12" kind="unknown" inferredKind="matrix" modifiers="DTS">
     <identifier scheme="archive-org">gd1973-09-26.sbd.matrix-DTS.tobin.80710.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">80710</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at War Memorial on 1973-09-26" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Kevin Tobin" role="unspecified"/>
     <lineage>DTS-Audio-CD 5.1 Mix</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial on 1973-09-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role unspecified.</note>
   </recording>
   <recording id="r-181183c3bbfd19f1443c" kind="matrix">
     <identifier scheme="archive-org">gd1973-09-26.sbd.mtx.tobin.82879.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">82879</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at War Memorial on 1973-09-26" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (65%-SBD/35%-AUD)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at War Memorial on 1973-09-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-d5027ebde62c73927ed1" kind="soundboard">
     <identifier scheme="archive-org">gd73-09-26.sbd.brame.16155.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">16155</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Community War Memorial Auditorium on 1973-09-26" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard | SBD: Rm &gt; DAT &gt; CD / Patched with unknown AUD &gt; WAV &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Community War Memorial Auditorium on 1973-09-26. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

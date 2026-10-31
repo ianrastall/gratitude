@@ -5,37 +5,37 @@
   </record>
   <recording id="r-35c239d0b031373946c6" kind="soundboard">
     <identifier scheme="archive-org">gd1971-12-05.131532.miller.sbd.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">131532</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Felt Forum, Madison Square Garden on 1971-12-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Master Reel -&gt; Dat | Dat -&gt; Samplitude Professional v11.1 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Felt Forum, Madison Square Garden on 1971-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-2740777f30a6803ea487" kind="unknown">
+  <recording id="r-2740777f30a6803ea487" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1971-12-05.147715.sbd.flegel-unknown.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">147715</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Felt Forum, Madison Square Garden on 1971-12-05" references="archive-index"/>
     <lineage>Patched, retracked by Brian Flegel</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Felt Forum, Madison Square Garden on 1971-12-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
-  <recording id="r-810bd29e970720ffc308" kind="fm">
+  <recording id="r-810bd29e970720ffc308" kind="fm" modifiers="FM">
     <identifier scheme="archive-org">gd1971-12-05.fm.matera.100316.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">100316</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Felt Forum - Madison Square Garden on 1971-12-05" references="archive-index"/>
     <credit role="recordist">Don Rohde</credit>
+    <credit role="transfer-mastering">Phil Matera</credit>
     <lineage>FM -&gt; Master Reel | Master Reel -&gt; CD -&gt; EAC -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Felt Forum - Madison Square Garden on 1971-12-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
-    <note>Source credit (transfer-mastering): Phil Matera</note>
   </recording>
-  <recording id="r-7a54ae373f53c6e03baa" kind="fm">
+  <recording id="r-7a54ae373f53c6e03baa" kind="fm" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd1971-12-05.sbd.unknown.18665.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18665</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Felt Forum - Madison Square Garden on 1971-12-05" references="archive-index archive-url-snapshot"/>
     <lineage>Pre-FM&gt;MR&gt;DAT&gt;CD&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Felt Forum - Madison Square Garden on 1971-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Source credit (transfer-mastering): Unknown</note>
   </recording>
-  <recording id="r-3b4a5586331bccf2f01d" kind="soundboard">
+  <recording id="r-3b4a5586331bccf2f01d" kind="soundboard" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd71-12-05.prefm.miller.3391.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3391</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Felt Forum, Madison Square Garden on 1971-12-05" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Soundboard | Pre-FM &gt; MR &gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Felt Forum, Madison Square Garden on 1971-12-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
 </recordings>

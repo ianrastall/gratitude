@@ -225,12 +225,15 @@
       "n": 17,
       "title": "The Promised Land",
       "file": "gd1977-02-26d2t06-fixed.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "disc": 2,
       "sourceNumber": 6,
       "duration": "PT277.88S",
+      "certainty": "probable",
       "show": "gd1977-02-26",
-      "covers": []
+      "covers": [
+        "p02-07"
+      ]
     },
     {
       "n": 18,
@@ -275,12 +278,15 @@
       "n": 21,
       "title": "Around & Around",
       "file": "gd1977-02-26d3t04-fixed.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "disc": 3,
       "sourceNumber": 4,
       "duration": "PT501.32S",
+      "certainty": "probable",
       "show": "gd1977-02-26",
-      "covers": []
+      "covers": [
+        "p02-10"
+      ]
     },
     {
       "n": 22,
@@ -327,14 +333,14 @@
   ],
   "notes": [
     "Lineage: Betty Soundboard | 7\" Betty Board Reel @ 7 1/2 ips > PCM501ES > DBX Type 1 decoder > PCM501ES analog out > Fostex D5 @ 48kHz > Fostex D5 optical S/PDIF out (Jace's tape) > disk (Tim Deibert)",
-    "Supplied catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1977-02-26. Source references: archive-index. Metadata attribution is unreviewed.",
-    "Source credit (transfer-mastering): Jace and Tim Diebert",
-    "Legacy name match: Betty Cantor-Jackson; role recording.",
-    "Archive source metadata (lineage): 7\" Betty Board Reel @ 7 1/2 ips > PCM501ES > DBX Type 1 decoder > PCM501ES analog out > Fostex D5 @ 48kHz > Fostex D5 optical S/PDIF out (Jace's tape) > disk (Tim Deibert)",
-    "Archive source metadata (source): Betty Soundboard",
-    "Archive source metadata (taper): Betty Cantor",
-    "Archive source metadata (transferer): Jace and Tim Diebert",
-    "recordist: Betty Cantor"
+    "Catalogue listing: Archive.org; Grateful Dead Live at Swing Auditorium on 1977-02-26",
+    "recordist: Betty Cantor",
+    "transfer-mastering: Jace and Tim Diebert",
+    "Possible match: Betty Cantor-Jackson (recordist)",
+    "Archive metadata (lineage): 7\" Betty Board Reel @ 7 1/2 ips > PCM501ES > DBX Type 1 decoder > PCM501ES analog out > Fostex D5 @ 48kHz > Fostex D5 optical S/PDIF out (Jace's tape) > disk (Tim Deibert)",
+    "Archive metadata (source): Betty Soundboard",
+    "Archive metadata (taper): Betty Cantor",
+    "Archive metadata (transferer): Jace and Tim Diebert"
   ],
   "date": "1977-02-26",
   "venue": "Swing Auditorium",

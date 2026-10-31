@@ -6,7 +6,7 @@
     <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1970-05-02.sbd.BEAR.gems.108673.flac24" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 291c00053c26bfc34b38acf6ba5a43ab0b400fad034753211c1cceda2c06a3af</cite>
     <cite title="Archive original-file playlist metadata" href="https://archive.org/metadata/gd1970-05-02.138227.sbd.miller.flac1648" accessed="2026-10-31">Track filenames, supplied titles and measured durations. Snapshot SHA-256 65c7539cb07b9f747f2100e0217d2481e6e75ae140a9f4509c091573d424d47a</cite>
   </record>
-  <recording id="rec-sbd-gems" kind="soundboard">
+  <recording id="r-187711c1cb3953122d2b" kind="soundboard">
     <identifier scheme="archive-org">gd1970-05-02.sbd.BEAR.gems.108673.flac24</identifier>
     <playlist id="pl-248e5456e7229fffc952" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1970-05-02.sbd.BEAR.gems.108673.flac24">
       <track n="1" title="Dont Ease Me / In" file="gd1970-05-02.BEAR.gems.track.01.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT226.41S"/>
@@ -18,7 +18,7 @@
       <track n="7" title="Black Peter/" file="gd1970-05-02.BEAR.gems.track.07.flac" mappingStatus="candidate" sourceNumber="7" duration="PT447.01S" covers="s1-06" certainty="probable"/>
       <track n="8" title="Candyman" file="gd1970-05-02.BEAR.gems.track.08.flac" mappingStatus="candidate" sourceNumber="8" duration="PT97.28S" covers="s1-07" certainty="probable"/>
       <track n="9" title="Cumberland Blues" file="gd1970-05-02.BEAR.gems.track.09.flac" mappingStatus="candidate" sourceNumber="9" duration="PT333.04S" covers="s1-08" certainty="probable"/>
-      <track n="10" title="Deep Elem" file="gd1970-05-02.BEAR.gems.track.10.flac" mappingStatus="unreviewed" sourceNumber="10" duration="PT339.26S"/>
+      <track n="10" title="Deep Elem" file="gd1970-05-02.BEAR.gems.track.10.flac" mappingStatus="candidate" sourceNumber="10" duration="PT339.26S" covers="s1-09" certainty="probable"/>
       <track n="11" title="Uncle John's Band" file="gd1970-05-02.BEAR.gems.track.11.flac" mappingStatus="candidate" sourceNumber="11" duration="PT383.42S" covers="s1-11" certainty="probable"/>
       <track n="12" title="St. Stephen &gt;" file="gd1970-05-02.BEAR.gems.track.12.flac" mappingStatus="candidate" sourceNumber="12" duration="PT205.65S" covers="s2-01" certainty="probable"/>
       <track n="13" title="Cryptical Envelopment &gt;" file="gd1970-05-02.BEAR.gems.track.13.flac" mappingStatus="unreviewed" sourceNumber="13" duration="PT116.65S"/>
@@ -28,26 +28,30 @@
       <track n="17" title="Cosmic Charlie!!" file="gd1970-05-02.BEAR.gems.track.17.flac" mappingStatus="candidate" sourceNumber="17" duration="PT424.41S" covers="s2-06" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Archive source metadata (source): reel&gt; cass &gt; cass Nak Dr-1 &gt; Lynx Studio Interface at 32 bit float / 96 kHz Weiss Saracon for BRC to 24 bit / 96 kHz by Jamie Waddell</note>
-    <note>Archive source metadata (transferer): Jamie Waddell</note>
+    <captured field="source">reel&gt; cass &gt; cass Nak Dr-1 &gt; Lynx Studio Interface at 32 bit float / 96 kHz Weiss Saracon for BRC to 24 bit / 96 kHz by Jamie Waddell</captured>
+    <captured field="transferer">Jamie Waddell</captured>
   </recording>
   <recording id="r-973c4299d33dcf5623b4" kind="soundboard">
     <identifier scheme="archive-org">gd1970-05-02.138227.sbd.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">138227</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Harpur College on 1970-05-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Master Reel (7inch @ 7.5ips 1/2trk) &gt; Dat/48k | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Adobe Audition CC 2015 &gt;Samplitude Pro X3 Suite &gt; FLAC/</lineage>
     <playlist id="pl-324a6b9ad065d7de0fc3" label="Archive original FLAC files" format="flac" sourceHref="https://archive.org/metadata/gd1970-05-02.138227.sbd.miller.flac1648">
       <track n="1" title="01 Tuning" file="01Tuning.flac" mappingStatus="unreviewed" sourceNumber="1" duration="PT107.08S"/>
-      <track n="2" title="02 Don't Ease Me In" file="02DontEaseMeIn.flac" mappingStatus="unreviewed" sourceNumber="2" duration="PT177.71S"/>
-      <track n="3" title="03 I Know You Rider" file="03IKnowYouRider.flac" mappingStatus="unreviewed" sourceNumber="3" duration="PT478.88S"/>
-      <track n="4" title="04 Friend Of The Devil" file="04FriendOfTheDevil.flac" mappingStatus="unreviewed" sourceNumber="4" duration="PT363.58S"/>
-      <track n="5" title="05 Dire Wolf" file="05DireWolf.flac" mappingStatus="unreviewed" sourceNumber="5" duration="PT301.38S"/>
-      <track n="6" title="06 Beat It On Down The Line" file="06BeatItOnDownTheLine.flac" mappingStatus="unreviewed" sourceNumber="6" duration="PT168.53S"/>
-      <track n="7" title="07 Black Peter" file="07BlackPeter.flac" mappingStatus="unreviewed" sourceNumber="7" duration="PT457.13S"/>
-      <track n="8" title="08 Candyman" file="08Candyman.flac" mappingStatus="unreviewed" sourceNumber="8" duration="PT112.73S"/>
+      <track n="2" title="02 Don't Ease Me In" file="02DontEaseMeIn.flac" mappingStatus="candidate" sourceNumber="2" duration="PT177.71S" covers="s1-01" certainty="probable"/>
+      <track n="3" title="03 I Know You Rider" file="03IKnowYouRider.flac" mappingStatus="candidate" sourceNumber="3" duration="PT478.88S" covers="s1-02" certainty="probable"/>
+      <track n="4" title="04 Friend Of The Devil" file="04FriendOfTheDevil.flac" mappingStatus="candidate" sourceNumber="4" duration="PT363.58S" covers="s1-03" certainty="probable"/>
+      <track n="5" title="05 Dire Wolf" file="05DireWolf.flac" mappingStatus="candidate" sourceNumber="5" duration="PT301.38S" covers="s1-04" certainty="probable"/>
+      <track n="6" title="06 Beat It On Down The Line" file="06BeatItOnDownTheLine.flac" mappingStatus="candidate" sourceNumber="6" duration="PT168.53S" covers="s1-05" certainty="probable"/>
+      <track n="7" title="07 Black Peter" file="07BlackPeter.flac" mappingStatus="candidate" sourceNumber="7" duration="PT457.13S" covers="s1-06" certainty="probable"/>
+      <track n="8" title="08 Candyman" file="08Candyman.flac" mappingStatus="candidate" sourceNumber="8" duration="PT112.73S" covers="s1-07" certainty="probable"/>
       <track n="9" title="09 Tuning" file="09Tuning.flac" mappingStatus="unreviewed" sourceNumber="9" duration="PT166.45S"/>
-      <track n="10" title="10 Cumberland Blues" file="10CumberlandBlues.flac" mappingStatus="unreviewed" sourceNumber="10" duration="PT353.21S"/>
-      <track n="11" title="11 Deep Elem Blues" file="11DeepElemBlues.flac" mappingStatus="unreviewed" sourceNumber="11" duration="PT458.21S"/>
-      <track n="12" title="12 Cold Jordon" file="12ColdJordon.flac" mappingStatus="unreviewed" sourceNumber="12" duration="PT157.36S"/>
-      <track n="13" title="13 Uncle John's Band" file="13UncleJohnsBand.flac" mappingStatus="unreviewed" sourceNumber="13" duration="PT394.05S"/>
+      <track n="10" title="10 Cumberland Blues" file="10CumberlandBlues.flac" mappingStatus="candidate" sourceNumber="10" duration="PT353.21S" covers="s1-08" certainty="probable"/>
+      <track n="11" title="11 Deep Elem Blues" file="11DeepElemBlues.flac" mappingStatus="candidate" sourceNumber="11" duration="PT458.21S" covers="s1-09" certainty="probable"/>
+      <track n="12" title="12 Cold Jordon" file="12ColdJordon.flac" mappingStatus="candidate" sourceNumber="12" duration="PT157.36S" covers="s1-10" certainty="probable"/>
+      <track n="13" title="13 Uncle John's Band" file="13UncleJohnsBand.flac" mappingStatus="candidate" sourceNumber="13" duration="PT394.05S" covers="s1-11" certainty="probable"/>
       <track n="14" title="14 Workin' Man Blues" file="14WorkinManBlues.flac" mappingStatus="unreviewed" sourceNumber="14" duration="PT228.58S"/>
       <track n="15" title="15 Brown Eyed Handsome Man" file="15BrownEyedHandsomeMan.flac" mappingStatus="unreviewed" sourceNumber="15" duration="PT281.42S"/>
       <track n="16" title="16 Truck Driving Man" file="16TruckDrivingMan.flac" mappingStatus="unreviewed" sourceNumber="16" duration="PT221.52S"/>
@@ -61,52 +65,51 @@
       <track n="24" title="24 Mama Tried" file="24MamaTried.flac" mappingStatus="unreviewed" sourceNumber="24" duration="PT207.51S"/>
       <track n="25" title="25 Me And My Uncle" file="25MeAndMyUncle.flac" mappingStatus="unreviewed" sourceNumber="25" duration="PT220.31S"/>
       <track n="26" title="26 The Weight" file="26TheWeight.flac" mappingStatus="unreviewed" sourceNumber="26" duration="PT393.79S"/>
-      <track n="27" title="27 Saint Stephen" file="27SaintStephen.flac" mappingStatus="unreviewed" sourceNumber="27" duration="PT215.43S"/>
+      <track n="27" title="27 Saint Stephen" file="27SaintStephen.flac" mappingStatus="candidate" sourceNumber="27" duration="PT215.43S" covers="s2-01" certainty="probable"/>
       <track n="28" title="28 That's It For The Other One" file="28ThatsItForTheOtherOne.flac" mappingStatus="unreviewed" sourceNumber="28" duration="PT1725.54S"/>
-      <track n="29" title="29 Cosmic Charlie" file="29CosmicCharlie.flac" mappingStatus="unreviewed" sourceNumber="29" duration="PT444.9S"/>
-      <track n="30" title="30 Casey Jones" file="30CaseyJones.flac" mappingStatus="unreviewed" sourceNumber="30" duration="PT277.83S"/>
+      <track n="29" title="29 Cosmic Charlie" file="29CosmicCharlie.flac" mappingStatus="candidate" sourceNumber="29" duration="PT444.9S" covers="s2-06" certainty="probable"/>
+      <track n="30" title="30 Casey Jones" file="30CaseyJones.flac" mappingStatus="candidate" sourceNumber="30" duration="PT277.83S" covers="s2-07" certainty="probable"/>
       <track n="31" title="31 Good Lovin'" file="31GoodLovin.flac" mappingStatus="unreviewed" sourceNumber="31" duration="PT1055.24S"/>
-      <track n="32" title="32 Cold Rain And Snow" file="32ColdRainAndSnow.flac" mappingStatus="unreviewed" sourceNumber="32" duration="PT519.43S"/>
-      <track n="33" title="33 It's A Man's World" file="33ItsAMansWorld.flac" mappingStatus="unreviewed" sourceNumber="33" duration="PT566.16S"/>
-      <track n="34" title="34 Dancing In The Street" file="34DancingInTheStreet.flac" mappingStatus="unreviewed" sourceNumber="34" duration="PT991.8S"/>
-      <track n="35" title="35 Morning Dew" file="35MorningDew.flac" mappingStatus="unreviewed" sourceNumber="35" duration="PT771.03S"/>
-      <track n="36" title="36 Viola Lee Blues" file="36ViolaLeeBlues.flac" mappingStatus="unreviewed" sourceNumber="36" duration="PT1016.96S"/>
-      <track n="37" title="37 And We Bid You Good Night" file="37AndWeBidYouGoodNight.flac" mappingStatus="unreviewed" sourceNumber="37" duration="PT304.84S"/>
+      <track n="32" title="32 Cold Rain And Snow" file="32ColdRainAndSnow.flac" mappingStatus="candidate" sourceNumber="32" duration="PT519.43S" covers="s2-11" certainty="probable"/>
+      <track n="33" title="33 It's A Man's World" file="33ItsAMansWorld.flac" mappingStatus="candidate" sourceNumber="33" duration="PT566.16S" covers="s2-12" certainty="probable"/>
+      <track n="34" title="34 Dancing In The Street" file="34DancingInTheStreet.flac" mappingStatus="candidate" sourceNumber="34" duration="PT991.8S" covers="s2-13" certainty="probable"/>
+      <track n="35" title="35 Morning Dew" file="35MorningDew.flac" mappingStatus="candidate" sourceNumber="35" duration="PT771.03S" covers="s3-01" certainty="probable"/>
+      <track n="36" title="36 Viola Lee Blues" file="36ViolaLeeBlues.flac" mappingStatus="candidate" sourceNumber="36" duration="PT1016.96S" covers="s3-02" certainty="probable"/>
+      <track n="37" title="37 And We Bid You Good Night" file="37AndWeBidYouGoodNight.flac" mappingStatus="candidate" sourceNumber="37" duration="PT304.84S" covers="s3-04" certainty="probable"/>
       <note>Captured original-file metadata, not an auditioned track list. No derivative MP3 files are mixed into the original source. Order basis: explicit disc/track numbers. Performance links are review candidates.</note>
     </playlist>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harpur College on 1970-05-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Archive source metadata (lineage): Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Adobe Audition CC 2015 &gt;Samplitude Pro X3 Suite &gt; FLAC/</note>
-    <note>Archive source metadata (source): SBD &gt; Master Reel (7inch @ 7.5ips 1/2trk) &gt; Dat/48k</note>
-    <note>Archive source metadata (transferer): Charlie Miller</note>
+    <captured field="lineage">Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Adobe Audition CC 2015 &gt;Samplitude Pro X3 Suite &gt; FLAC/</captured>
+    <captured field="source">SBD &gt; Master Reel (7inch @ 7.5ips 1/2trk) &gt; Dat/48k</captured>
+    <captured field="transferer">Charlie Miller</captured>
   </recording>
   <recording id="r-b5a29569cea867f2bf92" kind="unknown">
     <identifier scheme="archive-org">gd1970-05-02.BEAR.gems.120081.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">120081</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Harpur College on 1970-05-02" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
+    <personMatch name="Owsley Stanley" role="unspecified"/>
     <lineage>reel&gt; cass &gt; cass; Nak Dr-1 &gt; Lynx Studio Interface at 32 bit float / 96 kHz Weiss Saracon for BRC to 24 bit / 96 kHz by Jamie Waddell; Resampled from 96 to 44.1 khz in r8brain Pro &gt; dithered in Izotope Ozone 3 (MBIT+, high noise shaping, 16 bit depth, normal dither, DC offset filter on) &gt; exported to 16 bit in Audacity 2.0.0 &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harpur College on 1970-05-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Owsley Stanley; role unspecified.</note>
   </recording>
-  <recording id="r-f3bb57cf7d4ffb6f0973" kind="soundboard">
+  <recording id="r-f3bb57cf7d4ffb6f0973" kind="soundboard" modifiers="FM">
     <identifier scheme="archive-org">gd1970-05-02.sbd-fm-aud.unknown.108955.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">108955</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Harpur College on 1970-05-02" references="archive-index"/>
     <lineage>Gen 4 SBD Cassettes &gt; SonyTC-W320 &gt; Marantz 510 &gt; CD | CD &gt; EAC &gt; CD Wave Editor &gt; Flac level 8</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harpur College on 1970-05-02. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FM</note>
   </recording>
   <recording id="r-87ba4824857d55469fad" kind="soundboard">
     <identifier scheme="archive-org">gd1970-05-02.sbd.remaster.dp8outtake.100007.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">100007</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Harpur College on 1970-05-02" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; 3xcass (maxell XLII) | cassette &gt; Yamaha KX-W282 &gt; Monster digital cable &gt; Yamaha RX-530 &gt; Monster digital cable &gt; JVC XL-R5000 &gt; CDR &gt; EAC (offsets set) &gt; CDWav &gt; Flac (level 8)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Harpur College on 1970-05-02. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-816a24e35f475fb8f23e" kind="unknown">
-    <identifier scheme="other">etree-612567</identifier>
-    <note>Supplied catalogue listing: etree; GD1970-05-02 SBD 48k Charie Miller. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  <recording id="r-816a24e35f475fb8f23e" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">612567</identifier>
+    <listing provider="etree" title="GD1970-05-02 SBD 48k Charie Miller" references="etree-snapshot"/>
   </recording>
   <recording id="r-e58c69d2085159c4a051" kind="unknown">
-    <identifier scheme="other">etree-592751</identifier>
-    <note>Supplied catalogue listing: etree; gd70-05-02.138227.sbd48k. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
+    <identifier scheme="etree-torrent">592751</identifier>
+    <identifier scheme="shnid" certainty="probable">138227</identifier>
+    <listing provider="etree" title="gd70-05-02.138227.sbd48k" references="etree-snapshot"/>
   </recording>
 </recordings>

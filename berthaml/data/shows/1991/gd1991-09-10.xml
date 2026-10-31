@@ -3,11 +3,11 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19910910-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 1b940cf6b6fbb8f6cc64762410d47317829f85edeec83376994acade0cf556f2. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <venue ref="v-madison-square-garden" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-shakedown-street" transition="segue"/>
-      <performance id="p01-02" song="s-c-c-rider" transition="segue"/>
+      <performance id="p01-02" song="s-cc-rider" transition="segue"/>
       <performance id="p01-03" song="s-it-takes-a-lot-to-laugh-it-takes-a-train-to-cry" transition="unknown"/>
       <performance id="p01-04" song="s-black-throated-wind" transition="unknown"/>
       <performance id="p01-05" song="s-high-time" transition="unknown"/>
@@ -18,7 +18,7 @@
     <set kind="set" n="2" mode="unknown">
       <performance id="p02-01" song="s-help-on-the-way" transition="segue"/>
       <performance id="p02-02" song="s-slipknot" transition="segue"/>
-      <performance id="p02-03" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p02-03" song="s-franklins-tower" transition="unknown"/>
       <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
       <performance id="p02-05" song="s-dark-star" transition="segue"/>
       <performance id="p02-06" song="s-drums" transition="segue"/>
@@ -31,7 +31,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-it-s-all-over-now-baby-blue" transition="unknown"/>
+      <performance id="p03-01" song="s-its-all-over-now-baby-blue" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

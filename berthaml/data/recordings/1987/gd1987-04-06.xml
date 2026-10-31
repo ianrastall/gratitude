@@ -3,102 +3,109 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-71f300693cba7b38740e" kind="audience">
+  <recording id="r-71f300693cba7b38740e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1987-04-06.135913.chasingwilma.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">135913</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">chasingwilma</credit>
     <lineage>lineage: sennheiser 21 (fob)&gt; tcd-d5&gt; mc&gt; c&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; Note: Filesets from this seeder have been flagged as suspect because they are thought to have mislabeled lineage and/or re-sampled at a high bitrate</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): chasingwilma</note>
   </recording>
-  <recording id="r-8c216638797b971195db" kind="matrix">
+  <recording id="r-8c216638797b971195db" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1987-04-06.140339.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140339</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-06704ed940f73de9ba89" kind="matrix">
+  <recording id="r-06704ed940f73de9ba89" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1987-04-06.140376.UltraMatrix.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140376</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-c4243327374a0978be8a" kind="matrix">
     <identifier scheme="archive-org">gd1987-04-06.174115.mtx.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">174115</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>SBD + AUD Matrix 2 Source Mix (48/16)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-c0902cb6abed1e9ae187" kind="unknown">
+  <recording id="r-c0902cb6abed1e9ae187" kind="unknown" modifiers="DTS">
     <identifier scheme="archive-org">gd1987-04-06.174128.dts.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">174128</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS Audio 5.1 Mix (16/48)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-1a193183cc9563b1e41f" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-06.174147.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">174147</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>5.1 LPCM Surround Sound Mix (48k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-6d1c5d3f03bbe2402660" kind="unknown">
+  <recording id="r-6d1c5d3f03bbe2402660" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1987-04-06.aud.morris.106903.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106903</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Morris</credit>
+    <credit role="transfer-mastering">Bob Morris</credit>
     <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell MX 90); Recorded from Taper Section 2, Row L, Seat 14 | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Bob Morris</note>
   </recording>
   <recording id="r-68ccc124ff2972179c65" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-06.nak300.damico.89507.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89507</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Brendan Byrne Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joe D'Amico</credit>
+    <credit role="transfer-mastering">Joe D'Amico</credit>
     <lineage>nak 300 mics w/ cp4 shotguns &gt; sony d-5 D | nak dragon tape deck &gt; sony sbm1 &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend D</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendan Byrne Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe D'Amico</note>
   </recording>
   <recording id="r-af1c9e23f4417c2a2e51" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-06.nak300.pasternak.102655.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102655</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jon Pasternak</credit>
+    <credit role="transfer-mastering">Jon Pasternak and Dave Mallick</credit>
     <lineage>Nakamichi CM300's/CP4's&gt;Marantz PMD-420&gt;Cass(m), | Nak DR-2&gt;Tascam CDRW2000&gt;CD; Extraction: CD&gt;xACT 1.69 (cdparanoia)&gt;WAV&gt;FLAC, all tracks extracted with no errors</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jon Pasternak and Dave Mallick</note>
   </recording>
   <recording id="r-3e95081679223d8e5480" kind="unknown">
     <identifier scheme="archive-org">gd1987-04-06.nakcm304.suraci.81380.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81380</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Brendon Byrne Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tony Suraci</credit>
+    <credit role="transfer-mastering">Tony Suraci</credit>
     <lineage>Nak CM304&gt;Sony D5M | Nak CR5A&gt;Lunatec V3&gt;SD722</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Brendon Byrne Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Tony Suraci</note>
   </recording>
   <recording id="r-fd3f38a7475c17b90935" kind="matrix">
     <identifier scheme="archive-org">gd87-04-06.sbd-matrix.hinko.19848.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">19848</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Dan Healy" role="unspecified"/>
     <lineage>Healy Matrix TDK MA-90 cassette &gt; Dick's Reel (Technics 1506) &gt; PCM &gt; CD (HHB CDR 800) &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
   </recording>
   <recording id="r-a231c0439930d3adb8e7" kind="matrix">
     <identifier scheme="archive-org">gd87-04-06.sbd-patched.hinko-miller.25809.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">25809</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Patch for previous Matrix shn set , wherein d1t01 audience patch is from previous AUD shn set and SBEs fixed for d1t09, d2t01, and d2t11. Note- This is the complete show.</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-45dbf668e1857e9fcc6c" kind="audience">
     <identifier scheme="archive-org">gd87-04-06.schoeps.eD.10924.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10924</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Meadowlands Arena on 1987-04-06" references="archive-index"/>
     <lineage>AUD&gt;MC&gt;DAT&gt;CDRSchoeps CMC-441Âs&gt;Sony D-5</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Meadowlands Arena on 1987-04-06. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-45798ab0adc0280b1b67" kind="unknown">
-    <identifier scheme="other">etree-602306</identifier>
-    <note>Supplied catalogue listing: etree; gd87-04-06.140376.sbd-UltraMatrix.cm.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-45798ab0adc0280b1b67" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">602306</identifier>
+    <identifier scheme="shnid" certainty="probable">140376</identifier>
+    <listing provider="etree" title="gd87-04-06.140376.sbd-UltraMatrix.cm.miller.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

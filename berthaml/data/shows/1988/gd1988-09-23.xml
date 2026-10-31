@@ -3,11 +3,11 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19880923-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-745" nameAsBilled="Madison Square Garden"/>
+  <venue ref="v-madison-square-garden" nameAsBilled="Madison Square Garden"/>
   <program coverage="partial">
     <set kind="soundcheck" n="1" mode="unknown">
       <performance id="p01-01" song="s-every-time-you-go-away" transition="unknown"/>
-      <performance id="p01-02" song="s-what-s-going-on" transition="unknown"/>
+      <performance id="p01-02" song="s-whats-going-on" transition="unknown"/>
       <note>Source section label: Soundcheck</note>
     </set>
     <set kind="set" n="1" mode="unknown">
@@ -17,7 +17,7 @@
       <performance id="p02-04" song="s-walkin-blues" transition="unknown"/>
       <performance id="p02-05" song="s-loser" transition="unknown"/>
       <performance id="p02-06" song="s-stuck-inside-of-mobile-with-the-memphis-blues-again" transition="unknown"/>
-      <performance id="p02-07" song="s-dupree-s-diamond-blues" transition="unknown"/>
+      <performance id="p02-07" song="s-duprees-diamond-blues" transition="unknown"/>
       <performance id="p02-08" song="s-promised-land" transition="unknown"/>
       <note>Source section label: Set 1</note>
     </set>
@@ -36,7 +36,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p04-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p04-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

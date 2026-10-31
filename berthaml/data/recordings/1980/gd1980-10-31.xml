@@ -3,143 +3,152 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-94e8531482c1ffdcfc47" kind="unknown">
+  <recording id="r-94e8531482c1ffdcfc47" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-10-31.120839.fob.nak700.gatto-jaeger.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">120839</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index"/>
+    <personMatch name="Dave Usborne" role="unspecified"/>
     <lineage>Loge Dead front center Nak 700 &gt; sony D-5&gt; AMC&gt; DAT&gt; CDR&gt; EAC&gt; TLH&gt; Flac; Recorded by Keith Gatto &amp; Pete Jaeger; Extracted &amp; flac encoded by Michael Turi; Patched and Edited in Sound Forge Pro. 10.0; Tracked in Audacity 2.0 by dusborne 06-20-2012</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
   </recording>
-  <recording id="r-8a017db618aa46f3d530" kind="matrix">
+  <recording id="r-8a017db618aa46f3d530" kind="matrix" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd1980-10-31.122543.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">122543</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index infinite-dead"/>
+    <credit role="transfer-mastering">matrix by dusborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>3 Source Matrix: Soundboard (shnid=83158): Acoustic: PreFM&gt;MSR&gt;R&gt;C&gt;DAT&gt;WAV&gt;SHN; Electric: MSR&gt;R&gt;C&gt;DAT&gt;WAV&gt;SHN; Audience (shnid=94270): Transfer Info: Master Cassette (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16; Audience (shnid=120839): Nak 700 &gt; sony D-5&gt; AMC&gt; DAT&gt; CDR&gt; EAC&gt; TLH&gt; Flac; Recorded by Keith Gatto &amp; Pete Jaeger</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Source credit (transfer-mastering): matrix by dusborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/"/>
   </recording>
   <recording id="r-43e0231cad52ee979fec" kind="unknown">
     <identifier scheme="archive-org">gd1980-10-31.131907.stankiewicz.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">131907</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index"/>
     <credit role="recordist">Richie Stankiewicz</credit>
+    <credit role="transfer-mastering">Richie Stankiewicz</credit>
     <lineage>Partial Show; Beyer M-88&gt;Sony TCD-5M 4th row right center; Transfer MAC&gt;Nakamichi 1000II&gt;USBPre2; Recorded and transfered By Richie stankiewicz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Richie Stankiewicz</note>
   </recording>
   <recording id="r-93f280c23bb74732683d" kind="audience">
     <identifier scheme="archive-org">gd1980-10-31.132277.aud.sony.ecm-280.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132277</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">David Minches</credit>
+    <personMatch name="Jim Wise" role="recordist"/>
     <lineage>flac16/48kHz ; Cassette Audience Master recorded By Jim Wise; Sony ECM 280 Cardioid Condenser Microphones-Sony TC D-5 Cassette Recorder; Location:Mics placed Overhanging Rail Ledge Dead Center 1st Lodge; Analog to Digital: Dolby B Decoded Cassette Master played back on Nakamichi Dragon-Korg MR-1000(DSF[1-bit 5.6448 MHz Stereo])Korg AudioGate-WAV[24/96] Transfer by David Minches; Editing(Adobe Audition 3.0)-Mastering &amp; Processing(iZotope Ozone 6)-FLAC encodeing(dBpoweramp)-tagging(Tag &amp; Re-name)-Sample Rate Conversions(r8atebrain); All Editing &amp; Processing performed in the 24 bit digital domain By Jim Wise</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
   </recording>
   <recording id="r-026d78e2351ee2ca6a51" kind="audience">
     <identifier scheme="archive-org">gd1980-10-31.132278.aud.sony.ecm-280.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">132278</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">David Minches</credit>
+    <personMatch name="Jim Wise" role="recordist"/>
     <lineage>Cassette Audience Master recorded By Jim Wise; Sony ECM 280 Cardioid Condenser Microphones-Sony TC D-5 Cassette Recorder; Location:Mics placed Overhanging Rail Ledge Dead Center 1st Lodge; Analog to Digital: Dolby B Decoded Cassette Master played back on Nakamichi Dragon-Korg MR-1000(DSF[1-bit 5.6448 MHz Stereo])Korg AudioGate-WAV[24/96] Transfer by David Minches; Editing(Adobe Audition 3.0)-Mastering &amp; Processing(iZotope Ozone 6)-FLAC encodeing(dBpoweramp)-Tagging(Tag &amp; Re-name)-Sample Rate Conversions(r8atebrain); All Editing &amp; Processing performed in the 24 bit digital domain By Jim Wise</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minches</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
   </recording>
   <recording id="r-47e271d32abcf74319b5" kind="soundboard">
     <identifier scheme="archive-org">gd1980-10-31.137448.sbd.happyjack.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">137448</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Happy Jack</credit>
     <lineage>Updated source Info: Source: SBD Recording [This is A 2nd Generation]; | mixingboard [Line out Left/Right] &gt; TC-d5 [Line In recording level 3.5. No Dolbly] &gt; Master Cassettes [Sony UCX90]; tapes was dubbed on a Aiwa CX-NA555; Tape Transfer: Sharp RT100 Deck [Sony UCX90] &gt; Sony PCM-M10 &gt; Scandisc Ultra MicroSD 8gb [class 10]; Settings: Sharp RT100 Deck: Dolby NR - OFF &amp; CrO2 - OFF; Settings: Sony PCM-M10 manual record level at 6; Recording Mode: LPCM [wav] 96.00kHz/24bit; Mastering &amp; Editing: 96.00kHz/24bit wav &gt; AA3 was used for +/- db gains, removing some cable connection pops. Pitch correction &amp; speed correction. No music was Lost, Altered and/or Touched. Still some tape warble; CD Wave Editor To Split Tracks &amp; converted to Flac24 [Level 6]; the original seed of this source was marked as an AUD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Happy Jack</note>
   </recording>
   <recording id="r-bf98a53f1414294d1678" kind="soundboard">
     <identifier scheme="archive-org">gd1980-10-31.137449.sbd.happyjack.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">137449</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index"/>
+    <credit role="transfer-mastering">Happy Jack</credit>
     <lineage>Updated source Info: SBD Recording [This is A 2nd Generation]; | mixingboard [Line out Left/Right] &gt; TC-d5 [Line In recording level 3.5. No Dolbly] &gt; Master Cassettes [Sony UCX90]; tapes was dubbed on a Aiwa CX-NA555; Tape Transfer: Sharp RT100 Deck &gt; Sony PCM-M10 &gt; Scandisc Ultra MicroSD 8gb [class 10] on 12/27/2016; Settings: Sharp RT100 Deck: Dolby NR - OFF &amp; CrO2 - OFF; Settings: Sony PCM-M10 manual record level at 6; Recording Mode: LPCM [wav] 96.00kHz/24bit; Mastering &amp; Editing: 96.00kHz/24bit wav &gt; AA3 was used for +/- db gains, removing some cable connection pops. Pitch correction &amp; speed correction. No music was Lost, Altered and/or Touched. Still some tape warble; Converting Sample Rate: Adobe Audition 3.0 was also used to convert 96.00kHz/24bit.WAV to sample rate to 44.10kHz/16bit with High Qulaity at 100%, Pre Post Filter checked, Dither enabled, Dither Depth at 1, P.D.F set to Triangular and No Noise Shaping; CD Wave Editor To Split Tracks &amp; converted to Flac16 [Level 6]; TLH to fix SBE; the original seed of this source was marked as an AUD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Happy Jack</note>
   </recording>
   <recording id="r-e4d90ed577ca7aeff1ab" kind="soundboard">
     <identifier scheme="archive-org">gd1980-10-31.137839.partial.sbd.happyjack.sirmick.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">137839</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">HappyJack</credit>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: Soundboard (monitor mix) &gt; Sony TC-D5 &gt; cassette (2nd gen); Taped by Happy Jack and friend; | Cassette &gt; Nakamichi CD1 &gt; Sony PCM-M10 &gt; wav 24/96; Lineage: wav 24/96 &gt; Adobe Audition 3.0.1 &gt; iZotope RX4 Advanced &gt; iZotope 5 Advanced &gt; iZotope RX4 Advanced &gt; wav 16/44.1 &gt; CD Wave &gt; TLH &gt; Flac 16; transferred, edited and mastered SIRMick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-bb739195fa61fcac790d" kind="soundboard">
     <identifier scheme="archive-org">gd1980-10-31.137840.partial.sbd.happyjack.sirmick.sbeok.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">137840</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">HappyJack</credit>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Source: Soundboard (monitor mix) &gt; Sony TC-D5 &gt; cassette (2nd gen); Taped by Happy Jack and friend; | Cassette &gt; Nakamichi CD1 &gt; Sony PCM-M10 &gt; wav 24/96; Lineage: wav 24/96 &gt; Adobe Audition 3.0.1 &gt; iZotope RX4 Advanced &gt; iZotope 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 24; transferred, edited and mastered SIRMick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-fd24279cc30b0d7b0fc9" kind="soundboard">
     <identifier scheme="archive-org">gd1980-10-31.140416.sbd.bershaw.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">140416</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Alan Bershaw</credit>
+    <credit role="transfer-mastering">Alan Bershaw</credit>
     <lineage>Source: 10” 1/4 track SBD Feed Master Reels @ 7.5ips; | 10” 1/4 track Reels (Revox A-77 playback) -&gt; Lexicon Lambda (24/96) -&gt; Logic (mastering: speed correction, track indexing, dithering to 16/44.1) -&gt; AIFF -&gt; Xact (sbe correction) -&gt; wav -&gt; flac; Transfer (October 2009) and mastering (December 2017) by Alan Bershaw</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Alan Bershaw</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/"/>
   </recording>
-  <recording id="r-2c66741debb68e5397a3" kind="unknown">
+  <recording id="r-2c66741debb68e5397a3" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd1980-10-31.141354.sbd.pcm.dalton.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141354</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tim Dalton</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Source Info: Satellite Feed &gt; (McIntosh) 10" Master Reels @ 7.5 ips &gt; PCM; Transfer Info: PCM (Sony SL-10)&gt; Sony PCM-601ESD &gt; Behringer Ultramatch Pro &gt; Tascam DA-3000 (wav 16-bit/44.1k)&gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-840b2a668c6c063b1865" kind="audience">
+  <recording id="r-840b2a668c6c063b1865" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-10-31.fob.sonyecm280.wise.miller.101428.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">101428</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="recordist"/>
     <lineage>(FOB) Sony ECM-280 -&gt; Cassette Master (Sony TC-D5M/Maxell UDXLII-C90/Dolby B) | Cassette Master (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/96k) -&gt; Adobe Audition v1.5 -&gt; Samplitude Professional v10.21 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
   </recording>
   <recording id="r-9563943de11bc86ba2a1" kind="unknown">
     <identifier scheme="archive-org">gd1980-10-31.nak700.rolfe.miller.94270.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94270</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Steve Rolfe</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Steve Rolfe" role="recordist"/>
     <lineage>Nakamichi 700 -&gt; Master Cassette (Sony D5/Maxell UDXL-I &amp; UDXL-II/Dolby B) | Master Cassette (Nakamichi DR-1/Dolby B) -&gt; Sound Devices 744T (24bit/88.2k) -&gt; Samplitude Professional v10.1 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Steve Rolfe; role recording.</note>
   </recording>
-  <recording id="r-29c41c1b23fe10146b04" kind="fm">
+  <recording id="r-29c41c1b23fe10146b04" kind="fm" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd1980-10-31.prefm.cousinit-edited.patched.83158.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83158</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Bill Tetzeli</credit>
     <lineage>Acoustic: PreFM&gt;MSR&gt;R&gt;C&gt;DAT&gt;WAV&gt;SHN; Electric: MSR&gt;R&gt;C&gt;DAT&gt;WAV&gt;SHN | SHNs &gt; WAV &gt; Cool Edit 2000/Cool Edit Pro &gt; shntool &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Source credit (transfer-mastering): Bill Tetzeli</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/"/>
   </recording>
-  <recording id="r-7bb39a6426ee1ea53585" kind="soundboard">
+  <recording id="r-7bb39a6426ee1ea53585" kind="soundboard" modifiers="PRE-FM">
     <identifier scheme="archive-org">gd80-10-31.sbd-preFM.cousinit.20377.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20377</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Cousinit</credit>
     <lineage>Soundboard | PreFM&gt; MSR&gt; R&gt; C&gt; DAT&gt; WAV&gt; SHN and MSR&gt; R&gt; C&gt; DAT&gt; WAV&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: PRE-FM</note>
-    <note>Source credit (transfer-mastering): Cousinit</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/"/>
   </recording>
   <recording id="r-b94a946b234c4c955d49" kind="audience">
     <identifier scheme="archive-org">gd80-10-31.wise.larson.1955.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1955</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Radio City Music Hall on 1980-10-31" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Jim Wise</credit>
+    <personMatch name="Jim Wise" role="recordist"/>
     <lineage>Audience Recording: Sony ECM-280/D-5 | Master AUD (Sony ECM-280/D-5) Cass&gt; PCM&gt; ZA2&gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Radio City Music Hall on 1980-10-31. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/</note>
+    <reference href="http://infinitedead.net/2021/10/31/10-31-80-ny-ny-radio-city-music-hall/"/>
   </recording>
-  <recording id="r-24c431f59f1d3503bfbe" kind="unknown">
-    <identifier scheme="other">etree-597139</identifier>
-    <note>Supplied catalogue listing: etree; gd1980-10-31.140416.sbd.bershaw.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
+  <recording id="r-24c431f59f1d3503bfbe" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">597139</identifier>
+    <identifier scheme="shnid" certainty="probable">140416</identifier>
+    <listing provider="etree" title="gd1980-10-31.140416.sbd.bershaw.flac16" references="etree-snapshot"/>
   </recording>
-  <recording id="r-7e18799d9e179ae04a0a" kind="unknown">
-    <identifier scheme="other">etree-591746</identifier>
-    <note>Supplied catalogue listing: etree; gd1980-10-31.partial.sbd.happyjack.sirmick.137839.sbeok.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role unspecified.</note>
+  <recording id="r-7e18799d9e179ae04a0a" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">591746</identifier>
+    <identifier scheme="shnid" certainty="probable">137839</identifier>
+    <listing provider="etree" title="gd1980-10-31.partial.sbd.happyjack.sirmick.137839.sbeok.flac16" references="etree-snapshot"/>
+    <personMatch name="SIRMick" role="unspecified"/>
   </recording>
 </recordings>

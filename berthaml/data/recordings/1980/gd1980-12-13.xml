@@ -3,112 +3,122 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-54a62dea2739bd460a88" kind="unknown">
+  <recording id="r-54a62dea2739bd460a88" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1980-12-13.124551.aud.goldshine.sennheiser-mkh406.flyingm.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">124551</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ron Goldshine ;John Musgrave ;Mark the B-Man ;Mike Martin</credit>
+    <credit role="transfer-mastering">Mike Martin</credit>
     <lineage>Recorded from the 15th row dead center on the floor with the microphones about 10 feet apart; Source: 2 Sennheiser MKH 406 TUD microphones &gt; Sony D5M (w/ Dolby B, Bias @ 70us on 3 TDK MA C-90 tapes); Copy of masters: Sony D5M (w/ Dolby, Bias @ 120us) &gt; Akaii GX-570 D2 (w/ Dolby B, Bias @ 70us on 2 TDK SA C-90 tapes) | Nakamichi CR-7A (azimuth aligned to tape, Dolby B, Bias @ 70us) &gt; Korg MN-2000S 1 Bit DFF @ 2.822 MHz &gt; AudioGate (convert to 24-96) &gt; Audacity (clean up) &gt; AudioGate (convert to 16-44) &gt; NERO (bass extrapolation of -3dB @ 120 Hz used to restore low frequencies lost with incorrect playback bias setting) &gt; CD wav &gt; Flac (Level 8) &gt; Stamp ID3 Tag editor; Recorded by: Ron Goldshine and John Musgrave</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Mike Martin</note>
   </recording>
   <recording id="r-cd51c8f501e85454c869" kind="unknown">
     <identifier scheme="archive-org">gd1980-12-13.128617.naks.mason.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">128617</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index"/>
     <credit role="recordist">Mason B. Taylor</credit>
     <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-60fbe8df7851d4fa545f" kind="matrix">
     <identifier scheme="archive-org">gd1980-12-13.136725.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136725</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index"/>
+    <credit role="transfer-mastering">Matrix by Dave Usborne</credit>
+    <personMatch name="Dave Usborne" role="transfer-mastering"/>
     <lineage>3 source matrix by Dusborne;Soundboard (Shnid:91939) Recording Info: SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) Transfer Info: Dat (Sony D8) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.02 -&gt;Cool Edit Pro v2.0 -&gt; FLAC; Audience 1 (Shnid:88964) Recording Info: Nakamichi 300 -&gt; Cassette Master (Sony D5M/Maxell UDXL-II90) Transfer Info: Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt;Samplitude Professional v9.12 -&gt; FLAC/16; and Audience 2 (Shnid:124551) Recorded by: Ron Goldshine and John Musgrave; 2 Sennheiser MKH 406 TUD microphones &gt; Sony D5M (w/ Dolby B, Bias @ 70us on 3 TDK MA C-90 tapes)My Copy of masters: Sony D5M (w/ Dolby, Bias @ 120us) &gt; Akaii GX-570 D2 (w/ Dolby B, Bias @ 70us on 2 TDK SA C-90 tapes)) | Nakamichi CR-7A (azimuth aligned to tape, Dolby B, Bias @ 70us) &gt; Korg MN-2000S 1 Bit DFF @ 2.822 MHz &gt;AudioGate (convert to 24-96) &gt; Audacity (clean up) &gt; AudioGate (convert to 16-44) &gt;NERO (bass extrapolation of -3dB @ 120 Hz used to restore low frequencies lost with incorrect playback bias setting) &gt; CD wav &gt; Flac (Level 8) &gt; Stamp ID3 Tag editor</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Matrix by Dave Usborne</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role transfer-mastering.</note>
   </recording>
   <recording id="r-5c1800c16bbcc0ac2c28" kind="unknown">
     <identifier scheme="archive-org">gd1980-12-13.155955.akg451E.milliard.JEMS.vol127.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">155955</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index"/>
     <credit role="recordist">Mike Milliard</credit>
+    <credit role="transfer-mastering">JEMS</credit>
     <lineage>AKG 451E Microphones (CK-1 cardioid capsules) &gt; Nakamichi 550 Cassette Recorder | Mike Millard First Generation Cassettes &gt; Nakamichi Cassette Deck 1 azimuth-adjusted playback &gt; Sound Devices USBPre2 &gt; Sound Forge Audio Studio 13.0 capture &gt; Adobe Audition &gt; iZotope RX8 &gt; iZotope Ozone 8 &gt; MBIT+ resample to 16/44.1 &gt; Audacity &gt; TLH &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): JEMS</note>
   </recording>
   <recording id="r-6e0c10f69f769eab4ab9" kind="audience">
     <identifier scheme="archive-org">gd1980-12-13.157569.akg.se5.wiseman.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">157569</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Scott Wiseman</credit>
+    <credit role="transfer-mastering">Scott Wiseman and Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Wiseman and Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-cf265f952b035df9cd15" kind="audience">
     <identifier scheme="archive-org">gd1980-12-13.157570.akg.se5.wiseman.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">157570</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index"/>
     <credit role="recordist">Scott Wiseman</credit>
+    <credit role="transfer-mastering">Scott Wiseman and Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Scott Wiseman's Master Audience Cassettes; AKG SE-5E mics with CE-1 cardioid capsules &gt; Sony TC-D5 (Maxell UDXLII 90) | Master Cassette (Nakamichi LX-5) &gt; MOTU M4 &gt; Macbook Pro &gt; Audacity (.wav 24-bit/96k) &gt; Adobe Audition 2021 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Wiseman and Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-89b1275c64c12cd1e9a3" kind="unknown">
     <identifier scheme="archive-org">gd1980-12-13.171525.nak300.walker.scotton.miller.flac1644</identifier>
-    <credit role="recordist">Recorded By Joani Walker near the sbd area</credit>
+    <identifier scheme="shnid" certainty="probable">171525</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Joani Walker near the sbd area</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller May 25, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>Nakamichi CM300/CP1 &gt; Cassette Master (Sony TC-D5M/Maxell UDXL-II90) | Cassette Master (Nakamichi DR-1) &gt; Sound Devices 744T (24-bit/96k) &gt; Samplitude Professional v9.12 &gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller May 25, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
-  <recording id="r-f698d045db42f0f4c922" kind="audience">
+  <recording id="r-f698d045db42f0f4c922" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-12-13.171526.nak700.ellner.menke.miller.flac1648</identifier>
-    <credit role="recordist">Recorded by Ron Ellner with Bob Menke's gear</credit>
+    <identifier scheme="shnid" certainty="probable">171526</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index archive-url-snapshot"/>
+    <credit role="recordist">Ron Ellner with Bob Menke's gear</credit>
+    <credit role="transfer-mastering">Mastering Info: FLAC/24 &gt; Samplitude Pro X6 Suite (16-bit/48k) &gt; FLAC/16 (3 Discs Audio / 1 DVD FLAC) Patch Info: (FOB) Nakamichi CM700 &gt; Cassette Master (Dolby B) &gt; Reel &gt; DAT supplies: Drums (13:42-13:48) Transferred by Bob Menke Mastered by Charlie Miller May 25, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Menke" role="recordist"/>
     <lineage>(FOB) Nakamichi CM700 &gt; Cassette Master (Sony TC-D5M/Dolby B) | Cassette Master (Nakamichi CR-7A/Dolby B) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (FLAC 24-bit/96k)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Mastering Info: FLAC/24 &gt; Samplitude Pro X6 Suite (16-bit/48k) &gt; FLAC/16 (3 Discs Audio / 1 DVD FLAC) Patch Info: (FOB) Nakamichi CM700 &gt; Cassette Master (Dolby B) &gt; Reel &gt; DAT supplies: Drums (13:42-13:48) Transferred by Bob Menke Mastered by Charlie Miller May 25, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
   </recording>
-  <recording id="r-b660d2e6d0fbd1e81132" kind="audience">
+  <recording id="r-b660d2e6d0fbd1e81132" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-12-13.171527.nak700.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">171527</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index"/>
+    <credit role="transfer-mastering">Remastering Info: SHN &gt; FLAC &gt; Adobe Audition 2025 &gt; Samplitude Pro X6 Suite &gt; FLAC/16 (2 Discs Audio / 1 DVD FLAC) All Transfers and Mastering by Charlie Miller May 25, 2025</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>(FOB) Nakamichi CM700 &gt; Cassette Master (Dolby B) &gt; Reel &gt; DAT | DAT (Sony PCM-R500) &gt; Behringer UltraMatch SRC2000 &gt; Dio 2448 &gt; Samplitude v6.0 &gt; Cool Edit Pro v1.2 &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Remastering Info: SHN &gt; FLAC &gt; Adobe Audition 2025 &gt; Samplitude Pro X6 Suite &gt; FLAC/16 (2 Discs Audio / 1 DVD FLAC) All Transfers and Mastering by Charlie Miller May 25, 2025</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-19cc577a592d98660937" kind="unknown">
     <identifier scheme="archive-org">gd1980-12-13.nak300.walker-scotton.miller.88964.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88964</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>Nakamichi 300 -&gt; Cassette Master (Sony D5M/Maxell UDXL-II90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v9.12 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-15a89b4a3b6fd275eab4" kind="soundboard">
     <identifier scheme="archive-org">gd1980-12-13.sbd.miller.91939.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91939</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master -&gt; Reel -&gt; Dat (48k) D | Dat (Sony D8) -&gt; Sound Devices 744T -&gt; Samplitude Professional v10.02 -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-5e4ab20361f087332a5e" kind="soundboard">
     <identifier scheme="archive-org">gd1980-12-13.sbd.miller.bertha.92889.dvda</identifier>
+    <identifier scheme="shnid" certainty="probable">92889</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD&gt;&gt;MC&gt;&gt;R&gt;&gt;D&gt;&gt;Flac | Flac&gt;&gt;Daw(Bertha)&gt;&gt;Audio DVD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-e64c8b879fe15dfeadac" kind="audience">
+  <recording id="r-e64c8b879fe15dfeadac" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd80-12-13.nak700.miller.13412.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">13412</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Audience Recording: Nak 700 | (FOB) Nak 700 -&gt; Cm -&gt; Reel -&gt; Dat &gt; shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-676a3b6b1fbc1f0a1a9a" kind="audience">
     <identifier scheme="archive-org">gd80-12-13.set2-sonyecm280.clugston-revell.1633.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1633</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Long Beach Arena on 1980-12-13" references="archive-index archive-url-snapshot"/>
     <lineage>Audience Recording: Sony ECM-280 mics | Sony ECM-280 mics &gt; Sony D5&gt; DAT &gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Long Beach Arena on 1980-12-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

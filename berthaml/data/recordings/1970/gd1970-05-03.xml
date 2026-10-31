@@ -5,28 +5,32 @@
   </record>
   <recording id="r-25aa8b0baa2450cabd57" kind="soundboard">
     <identifier scheme="archive-org">gd1970-05-03.130844.aud.dimetravel-remaster.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">130844</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Field House, Wesleyan University on 1970-05-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">dimtravel</credit>
     <lineage>Recording Information: unknown stereo(?) recording equipment -&gt; master AUD cassette (NOT a SBD as noted in shnid 9770) -&gt; ? -&gt; unknown generation tape used for shnid 9770 -&gt; CDr &gt; EAC &gt; Soundforge (normalize &amp; pitch correction -&gt; shn -&gt; aiff (xACT) -&gt; flacs; flacs -&gt; TLH -&gt; wavs -&gt; Audacity using right channel for mono signal [fades, manual one-at-a-time glitch, bump, pop, click, dropout &amp; dullspot repairs, volume adjustments, NO equalisation] -&gt; CD Wave (track splits) -&gt; flacs (Trader's Little Helper)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): dimtravel</note>
   </recording>
   <recording id="r-dd0d18d6f94a5a4bae7a" kind="soundboard">
     <identifier scheme="archive-org">gd1970-05-03.aud.cotsman.hoey.130667.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">130667</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Field House, Wesleyan University on 1970-05-03" references="archive-index"/>
+    <credit role="transfer-mastering">Jeff Cotsman and N. Hoey</credit>
     <lineage>Audience cassette master (not sbd as previously thought) &gt; ? &gt; CDr &gt; EAC &gt; Soundforge - editing &gt; shn &gt; aiff (xACT) &gt; flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jeff Cotsman and N. Hoey</note>
   </recording>
   <recording id="r-4d9842ecbfc66a0e8568" kind="audience">
     <identifier scheme="archive-org">gd70-05-03.aud.cotsman.9378.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9378</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Field House, Wesleyan University on 1970-05-03" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jeff Cook and JCotsman</credit>
     <lineage>Audience | AUD &gt; MC &gt; ? &gt; Cass &gt; DAT &gt; CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jeff Cook and JCotsman</note>
   </recording>
   <recording id="r-9b67082c77d61fdb26c3" kind="audience">
     <identifier scheme="archive-org">gd70-05-03.aud.goldman-sirmick.20852.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">20852</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Field House, Wesleyan University on 1970-05-03" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Warren White</credit>
+    <credit role="transfer-mastering">Jim Goldman and SIRMick</credit>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>Audience (remastered) | AUD &gt; MR &gt; ? &gt; CD &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Field House, Wesleyan University on 1970-05-03. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jim Goldman and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
 </recordings>

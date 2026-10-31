@@ -5,75 +5,83 @@
   </record>
   <recording id="r-2b8df696bb7ac44c0ef2" kind="soundboard">
     <identifier scheme="archive-org">gd1987-11-07.122203.sbd.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">122203</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;Samplitude Professional v9.02 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-5406c4819ad0f4cd358e" kind="soundboard">
     <identifier scheme="archive-org">gd1987-11-07.138156.sbd.GEMS.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138156</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">PO and Stucco TINA Holmes</credit>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Sbd &gt; ? &gt; PCM; Sony L-750ESX-HFB Dynamicron EXCELLENT SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; Mastering by Jamie Waddell in Wavelab 7.2.1; Track, FLAC and Pack by Chris James</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-2ad8d0360d12e2be9af2" kind="audience">
     <identifier scheme="archive-org">gd1987-11-07.166969.nak700.wagner.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">166969</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
   <recording id="r-9512a20504f49409a7ac" kind="audience">
     <identifier scheme="archive-org">gd1987-11-07.166970.nak700.wagner.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">166970</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony TC-D5M (Maxell XLII-S90) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (.wav 24-bit/96k) &gt; Adobe Audition CC 2024 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
   <recording id="r-f68a3bfca196b974b2b5" kind="unknown">
     <identifier scheme="archive-org">gd1987-11-07.AudUnk.White.Keo.116665.Flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">116665</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07" references="archive-index"/>
     <credit role="recordist">Mr. White</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>First Generation Cassettes From Unknown Mics/Deck&gt;Unknown Original Copy Decks/Info; Tapes From White,Transfer By Keo; Tapes Maxell XLII Gold 90's; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Flacked/Metadata Tagging With AudioGate Software To 24 Bit/96 kHz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-3e14b91127c29f6743b6" kind="unknown">
     <identifier scheme="archive-org">gd1987-11-07.AudUnk.White.Keo.116669.Flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">116669</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mr. White</credit>
+    <credit role="transfer-mastering">Keo</credit>
     <lineage>First Generation Cassettes From Unknown Mics/Deck&gt;Unknown Original Copy Decks/Info; Tapes From White,Transfer By Keo Tapes Maxell XLII Gold 90's; Transfer With Nakamichi MR-1&gt;Korg MR-1000 @ 1 Bit/5.6 MHz; Tracking/Sample Rate Conversion/Metadata Tagging With AudioGate Software To 32 Bit Float/96 kHz; Dithered/Flacked With Korg Aqua To 16/44; SBE's Checked/Fixed With Trader's Little Helper</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Keo</note>
   </recording>
   <recording id="r-b61890e00dd1fb87a5be" kind="soundboard">
     <identifier scheme="archive-org">gd1987-11-07.sbd-pcm.remaster.uhclem.27581.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">27581</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-07" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; PCM &gt; CDR | remaster and edit by uhclem</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Convention Center on 1987-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-232556d1ec118e894ea2" kind="soundboard">
     <identifier scheme="archive-org">gd1987-11-07.sbd.walker-scotton.miller.83998.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">83998</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J. Kaiser Auditorium on 1987-11-07" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="unspecified"/>
+    <personMatch name="Paul Scotton" role="unspecified"/>
     <lineage>SBD -&gt; Cassette Master (TDK MA-XG90) D | Cassette Master (Tascam 122mkII) -&gt; Apogee MiniMe (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J. Kaiser Auditorium on 1987-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role unspecified.</note>
   </recording>
   <recording id="r-1a56d9aa48cda58709ed" kind="soundboard">
     <identifier scheme="archive-org">gd87-11-07.sbd.gardner.9242.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9242</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; PCM &gt; CDR | PCM SBD -&gt; Sony PCM 601ES -&gt; RME Hammerfall &gt; Soundforge 4.5 (editing- see notes)/CD Architect &gt; CDR by Sean Weber-small; CDR &gt; EAC &gt; SHN by Bill Gardner</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Henry J Kaiser Convention Center on 1987-11-07. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-717b9dc7bc555fdc4204" kind="unknown">
-    <identifier scheme="other">etree-603769</identifier>
-    <note>Supplied catalogue listing: etree; gd87-11-07.138156.sbd-UltraMatrix.Gems.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  <recording id="r-717b9dc7bc555fdc4204" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">603769</identifier>
+    <identifier scheme="shnid" certainty="probable">138156</identifier>
+    <listing provider="etree" title="gd87-11-07.138156.sbd-UltraMatrix.Gems.t-flac16" references="etree-snapshot"/>
+    <personMatch name="GEMS" role="unspecified"/>
   </recording>
 </recordings>

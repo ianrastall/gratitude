@@ -5,42 +5,47 @@
   </record>
   <recording id="r-5eb1f4c5fea390c15f55" kind="matrix">
     <identifier scheme="archive-org">gd1970-06-05.123702.mtx.dusborne.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123702</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-05" references="archive-index"/>
+    <personMatch name="Dave Usborne" role="unspecified"/>
     <lineage>Matrix from Soundboard (shnid:28653) (except where patched with low gen AUD as noted) | MSR&gt; CASS&gt; DAT&gt; CDR&gt; EAC&gt; FLAC and Audience (shnid:109847) Lineage: Source #1: Dire Wolf through New Speedway - unknown gen aud cassette; Source #2: Cold Rain through Mama Tried - unknown gen aud cassette; Source #3: Cryptical through Casey - unknown gen aud cassette</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Dave Usborne; role unspecified.</note>
   </recording>
   <recording id="r-16a5b7153799884cc00e" kind="unknown">
     <identifier scheme="archive-org">gd1970-06-05.132395.bear.wise.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132395</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-05" references="archive-index"/>
     <credit role="recordist">Bear</credit>
+    <credit role="transfer-mastering">Dick Latvala and Jim Wise</credit>
+    <personMatch name="Owsley Stanley" role="recordist"/>
+    <personMatch name="Dick Latvala" role="transfer-mastering"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>7 Inch Half Track Reel Master @ 7.5 ips(Recorded In Venue By Bear on a Sony 770 Reel 2 Reel)-1st Generation Cassettes Transferred By Dick Latvala(Master Reel Playback on a Technics 1506 Reel 2 Reel-Tascam 122 MK111 Cassette Deck no Dolby); Analog to Digital Transfer(Cassettes played back on Nakamichi Dragon-Sony PCM-R500 DAT @ 44.1KHz by Jim Wise circa late 1990's); Zero Gen DAT play back on a Sony PCM R-500-Digital Out @ 16/44.1kHz-Digital Audio Labs Card deluxe-WAV @ 16/44.1KHz; Editing(Adobe Audition CC)-Mastering &amp; Processing(iZotope Ozone 6)-FLAC encoding(dBpoweramp)-Tagging(Tag &amp; Re-name) JW:February 2015</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-05. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dick Latvala and Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Owsley Stanley; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Dick Latvala; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
   <recording id="r-e41d1c426bccad305180" kind="audience">
     <identifier scheme="archive-org">gd1970-06-05.aud-unknown.Tiedrich-Coulter-Oleynick.109847.sbeok.flac16</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">109847</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">John Oleynick</credit>
     <lineage>Unknown gen cassettes from unknown aud source &gt; WAV; see info file for details | Analog to digital transfer by John Oleynick via Denon DRW750 &gt; Behringer UCA202 &gt; Audacity</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): John Oleynick</note>
   </recording>
   <recording id="r-1b9b061aedb69bb9392c" kind="soundboard">
     <identifier scheme="archive-org">gd1970-06-05.sbd.bunjes-evans.28653.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">28653</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-05" references="archive-index archive-url-snapshot"/>
     <lineage>Soundboard (except where patched with low gen AUD as noted) | MSR&gt; CASS&gt; DAT&gt; CDR&gt; EAC&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-71bcf39b7c1d8126d60c" kind="soundboard">
     <identifier scheme="archive-org">gd1970-06-05.sbd.thecore.4361.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4361</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">thecore</credit>
     <lineage>SBD&gt;MR&gt;C&gt;D&gt;CD&gt;SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): thecore</note>
   </recording>
   <recording id="r-0a76a55cbdb62b27731b" kind="soundboard">
     <identifier scheme="archive-org">gd70-06-05.sbd.hanno.7589.sbefail.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7589</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-06-05" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Hanno Bunjes and Uli Tuete</credit>
     <lineage>Soundboard patched with Audience | SBD MR &gt; Cass &gt;DAT &gt; CD + AUD patch from low-gen cassette</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-06-05. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hanno Bunjes and Uli Tuete</note>
   </recording>
 </recordings>

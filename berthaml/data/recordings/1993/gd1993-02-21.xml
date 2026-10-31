@@ -5,31 +5,32 @@
   </record>
   <recording id="r-17c2db720ca6ec1b02d2" kind="soundboard">
     <identifier scheme="archive-org">gd1993-02-21.132376.sbd.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132376</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21" references="archive-index archive-url-snapshot"/>
     <lineage>SBD&gt; DAT&gt; Steve Block CAS master&gt; DAT&gt; CDR&gt; Sequoia 11-&gt; WAV</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-70e9e591ba05756d987e" kind="soundboard">
     <identifier scheme="archive-org">gd1993-02-21.138697.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">138697</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat (44.1k) | Dat (Sony PCM-R500) &gt; Sound Devices 744T &gt; Samplitude Pro X3 Suite &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-488202f766552bdb3958" kind="unknown">
+  <recording id="r-488202f766552bdb3958" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1993-02-21.fob.copeland.evans.GEMS.86058.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">86058</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-02-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chip Copeland</credit>
+    <credit role="transfer-mastering">DAT Clone from Dat Master from collection of Todd Evans Editing Info- All editing and mastering by Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Neumann km140 (110 deg. ORTF) -&gt; Neumann Supply -&gt; Panasonic sv255 | DAT(1) &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav May 2006</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum Arena on 1993-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): DAT Clone from Dat Master from collection of Todd Evans Editing Info- All editing and mastering by Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
-  <recording id="r-c5f24deab68e875e7f50" kind="audience">
+  <recording id="r-c5f24deab68e875e7f50" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd93-02-21.aud.seff.1055.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1055</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Jon Seff</credit>
     <lineage>Audience: Unknown Mics | Unknown Mics (FOB) &gt; DAT (48khz) &gt; Tascam DA-20mkII &gt; Hosa S/PDIF &gt; Delta DiO 2496 &gt; Peak &gt; downsampled to 44.1k/normalized to 98% &gt; SHN (no DAE)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1993-02-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Jon Seff</note>
   </recording>
 </recordings>

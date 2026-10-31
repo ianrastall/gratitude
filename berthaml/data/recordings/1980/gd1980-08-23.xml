@@ -3,17 +3,18 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-ba48908205e2d2db6330" kind="unknown">
+  <recording id="r-ba48908205e2d2db6330" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1980-08-23.aud.miller.89130.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">89130</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theater on 1980-08-23" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Unknown Mics -&gt; Cassette Master -&gt; Cassette | Cassette (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theater on 1980-08-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-08e247ea32fd5a005fe9" kind="audience">
     <identifier scheme="archive-org">gd80-08-23.aud.gillis.11928.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11928</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Alpine Valley Music Theatre on 1980-08-23" references="archive-index"/>
     <lineage>Audience Recording | Aud (Unknown mics) &gt;Cass&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Alpine Valley Music Theatre on 1980-08-23. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

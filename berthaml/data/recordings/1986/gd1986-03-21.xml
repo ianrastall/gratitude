@@ -5,146 +5,161 @@
   </record>
   <recording id="r-66c1822f37c4e8cdd6b6" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-21.127531.chasingwilma.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">127531</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">chasingwilma</credit>
+    <credit role="transfer-mastering">chasingwilma</credit>
     <lineage>source: (2) beyers 160&gt; tcd-d5&gt; mc; conversion: sony tc we435&gt;sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): chasingwilma</note>
   </recording>
   <recording id="r-3d28a93b5f1b4ef8d6b7" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-21.132688.naks.datbrad.lynn.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">132688</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">datbrad</credit>
+    <credit role="transfer-mastering">mark lynn</credit>
     <lineage>OTS 2 Nakamichi CM100s/cP4 shotguns(PAS)&gt;Sony TCD5M&gt;Fuji Metal; | Nakamichi CR7A&gt;Lucid AD9624&gt;Fostex D5&gt;DAT&gt;Tascam DA20MKII&gt;Tascam CDRW700&gt;CDR&gt;Wavelab 6&gt;CDWave&gt;Flac Frontend(Level 6); Recording by DATBRAD; Master cassette transfer to DAT by Mark Lynn; DAT to CDR and conversion to wav&gt;flac by DATBRAD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): mark lynn</note>
   </recording>
-  <recording id="r-4ab3f272d758974e1fd2" kind="audience">
+  <recording id="r-4ab3f272d758974e1fd2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1986-03-21.140274.fob.schoeps.cmc4.mk41.oade.wise.miller.clugston.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140274</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Jim Wise" role="recordist"/>
     <lineage>Source Info: (FOB) Schoeps CMC4/MK41 &gt; Oade M118 &gt; Sony PCM-F1; Transfer Info: Master Oade PCM (unknown deck/hardware/software) &gt; hard disk &gt; Adobe Audition 3.0 &gt; TLH flac16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
   </recording>
   <recording id="r-9bb516b5246a753accfa" kind="soundboard">
     <identifier scheme="archive-org">gd1986-03-21.142450.sbd.miller.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142450</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master &gt; Reel (Technics) &gt; Dat (Panasonic SV-3800/48k) | Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-c79a4a469d66525be76d" kind="matrix">
     <identifier scheme="archive-org">gd1986-03-21.142491.mtx.tobin.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142491</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Matrix 2 Source Mix - SBD (shnid = 142450) Recording Info: SBD &gt; Cassette Master &gt; Reel (Technics) &gt; Dat (Panasonic SV-3800/48k); Transfer Info: Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/48k + AUD (shnid = 107555) source: 2 Beyer M160 Microphones&gt;Sony TC-D5M - 25 feet from stage (mic's on a stand @about 5½ feet feet)&gt;analog cassette master - Maxell MX90's. | Sony TC-D5M (origional record deck)&gt; Pre Sonus Inspire GT&gt; Sound Forge&gt; .wav files&gt; Trader's Little Helper&gt; flac and ffp files - matrix mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9fe9798ee718eb132867" kind="soundboard">
+  <recording id="r-9fe9798ee718eb132867" kind="soundboard" modifiers="DTS">
     <identifier scheme="archive-org">gd1986-03-21.142492.dts.tobin.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142492</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix; - SBD (shnid = 142450) Recording Info: SBD &gt; Cassette Master &gt; Reel (Technics) &gt; Dat (Panasonic SV-3800/48k); Transfer Info: Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/48k + AUD (shnid = 107555) source: 2 Beyer M160 Microphones&gt;Sony TC-D5M - 25 feet from stage (mic's on a stand @about 5½ feet feet)&gt;analog cassette master - Maxell MX90's. | Sony TC-D5M (origional record deck)&gt; Pre Sonus Inspire GT&gt; Sound Forge&gt; .wav files&gt; Trader's Little Helper&gt; flac and ffp files - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-e9563089da569561a6f1" kind="soundboard">
     <identifier scheme="archive-org">gd1986-03-21.142493.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142493</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) - SBD (shnid = 142450) Recording Info: SBD &gt; Cassette Master &gt; Reel (Technics) &gt; Dat (Panasonic SV-3800/48k); Transfer Info: Dat (Sony PCM-R500) &gt; Tascam DA-3000 &gt; Adobe Audition CC2015 &gt; Samplitude Pro X3 Suite &gt; FLAC/48k + AUD (shnid = 107555) source: 2 Beyer M160 Microphones&gt;Sony TC-D5M - 25 feet from stage (mic's on a stand @about 5½ feet feet)&gt;analog cassette master - Maxell MX90's. | Sony TC-D5M (origional record deck)&gt; Pre Sonus Inspire GT&gt; Sound Forge&gt; .wav files&gt; Trader's Little Helper&gt; flac and ffp files - surround mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-12c5fddc7d793009f3f6" kind="audience">
     <identifier scheme="archive-org">gd1986-03-21.151198.senn.me80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">151198</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-1f9cfa175dc356472893" kind="audience">
     <identifier scheme="archive-org">gd1986-03-21.151199.senn.me80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">151199</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-4803a86b304153da1073" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-21.156025.beyer-m201.holbrook.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">156025</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Audience;Executive Crew; Mike Davis;Kenny Davis;Sean Murtha;Gary Steel?;Kyle Holbrook?; Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Microphones: Beyer m201 (hypercardioid) XY 90º Recorder: Sony TC-D5M No Dolby Location: 40' from stage; DFC; chest height on stand This Source: Master AUDCA Maxell MX90 No NR [KH] | Transfer: Nakamichi LX-5 &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-a022b3a25facd15a027a" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-21.156026.beyer-m201.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">156026</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index"/>
     <credit role="recordist">Audience;Executive Crew; Mike Davis;Kenny Davis;Sean Murtha;Gary Steel?;Kyle Holbrook?; Tom Pinney</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Microphones: Beyer m201 (hypercardioid) XY 90º Recorder: Sony TC-D5M No Dolby Location: 40' from stage; DFC; chest height on stand This Source: Master AUDCA Maxell MX90 No NR [KH] | Transfer: Nakamichi LX-5 &gt; Sonic AD2k @24/48 &gt; Marantz PMD661|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
   <recording id="r-24ead248089fd33e9db0" kind="audience">
     <identifier scheme="archive-org">gd1986-03-21.164772.nak304.thomas.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">164772</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b4a97e43cbf64b123659" kind="audience">
     <identifier scheme="archive-org">gd1986-03-21.164773.nak304.thomas.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">164773</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-367b1d800e5ee90f2421" kind="unknown">
+  <recording id="r-367b1d800e5ee90f2421" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1986-03-21.aud.bandrofcheck.81864.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">81864</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Charles Bandrofcheck</credit>
+    <credit role="transfer-mastering">Charles Bandrofcheck</credit>
     <lineage>Unknown shotgun mics &gt; Sony D6 &gt; Maxell MX 90s | MC &gt; Playback on Marantz PRD505 (azimuth adjusted) &gt; Marantz Intergrated Stereo Amp MP-68 &gt; SB Audigy4 on new P4 machine &gt; Sound Forge normalization &gt; WAV &gt; CDWave &gt; WAVs &gt; Flacfrontend 1.7.1 (level 8) &gt; flacs</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Charles Bandrofcheck</note>
   </recording>
   <recording id="r-ee838f1d2a60090665c2" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-21.beyerm160.d5scott.107555.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">107555</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">D5scott</credit>
+    <credit role="transfer-mastering">D5scott</credit>
     <lineage>source: 2 Beyer M160 Microphones&gt;Sony TC-D5M - 25 feet from stage (mic's on a stand @about 5½ feet feet)&gt;analog cassette master - Maxell MX90's. | Sony TC-D5M (origional record deck)&gt; Pre Sonus Inspire GT&gt; Sound Forge&gt; .wav files&gt; Trader's Little Helper&gt; flac and ffp files</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): D5scott</note>
   </recording>
   <recording id="r-d5a2082cd81e29fb3d83" kind="unknown">
     <identifier scheme="archive-org">gd1986-03-21.nak300.damico.87638.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">87638</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joe D'Amico</credit>
+    <credit role="transfer-mastering">Joe D'Amico</credit>
     <lineage>nak 300 mics &gt; sony d-5 &gt; mac | mac &gt; nak dragon tape deck &gt; creative extigy soundcard &gt; cooledit pro &gt; flac frontend</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe D'Amico</note>
   </recording>
   <recording id="r-be2bfb659bcf62c2480f" kind="audience">
     <identifier scheme="archive-org">gd86-03-21.naks.munder.5178.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5178</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index"/>
     <lineage>Audience Recording | Nakamichi BR3 -&gt; Cool Edit 2000 -&gt; Shn; see info file for flaw notes; via Willy</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-90669eec7d2544ece6a1" kind="matrix">
     <identifier scheme="archive-org">gd86-03-21.set1-sbd.munder.8453.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8453</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Hampton Coliseum on 1986-03-21" references="archive-index"/>
     <lineage>Matrix SBD&gt;MC&gt;C&gt;CD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Hampton Coliseum on 1986-03-21. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-6a9c56bafc1502d102f9" kind="unknown">
-    <identifier scheme="other">etree-600644</identifier>
-    <note>Supplied catalogue listing: etree; gd86-03-21.142491.mtx.tobin.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role unspecified.</note>
+  <recording id="r-6a9c56bafc1502d102f9" kind="unknown" inferredKind="matrix">
+    <identifier scheme="etree-torrent">600644</identifier>
+    <identifier scheme="shnid" certainty="probable">142491</identifier>
+    <listing provider="etree" title="gd86-03-21.142491.mtx.tobin.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Kevin Tobin" role="unspecified"/>
   </recording>
-  <recording id="r-1045415c6ed6a1b26700" kind="unknown">
-    <identifier scheme="other">etree-600643</identifier>
-    <note>Supplied catalogue listing: etree; gd86-03-21.142450.sbd.miller.t-flac1648. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-1045415c6ed6a1b26700" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">600643</identifier>
+    <identifier scheme="shnid" certainty="probable">142450</identifier>
+    <listing provider="etree" title="gd86-03-21.142450.sbd.miller.t-flac1648" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

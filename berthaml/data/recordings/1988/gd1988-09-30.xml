@@ -3,45 +3,47 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-a1fce9e3561643fa8488" kind="matrix">
+  <recording id="r-a1fce9e3561643fa8488" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-09-30.142145.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">142145</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-f87a70a825c90af5fd39" kind="matrix">
+  <recording id="r-f87a70a825c90af5fd39" kind="matrix" modifiers="ULTRAMATRIX">
     <identifier scheme="archive-org">gd1988-09-30.142152.UltraMatrix.cm.sbd.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">142152</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>UltraMatrix SBD &gt; Cassette Master (TDK MA-XG90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-5899b6e86e0ab225c109" kind="unknown">
     <identifier scheme="archive-org">gd1988-09-30.beyerM88.russjcan.94477.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">94477</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Russ Cansler</credit>
+    <credit role="transfer-mastering">Russ Cansler</credit>
     <lineage>Beyerdynamic M-88's XY60 with Sony WMD6-C (Maxell MX 90 No nr) Offical taping section front of lawn 140 feet away ,dead center Mic stand at 7 feet | Master&gt;D6&gt;HD&gt;Audacity&gt;CDWave&gt;TLH</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Russ Cansler</note>
   </recording>
   <recording id="r-63a9e29847e05e48ca8c" kind="soundboard">
     <identifier scheme="archive-org">gd88-09-30.set1aud-set2sbd.miller.21093.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">21093</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>Set 1 Aud - Set 2 Soundboard Cassette &gt;DAT&gt; CDR&gt; EAC&gt; seekable SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-046f783db52845c4924e" kind="soundboard">
     <identifier scheme="archive-org">gd88-09-30.set2-sbd.sacks.7585.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">7585</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30" references="archive-index archive-url-snapshot"/>
     <lineage>Set 2 Soundboard Cassette &gt;DAT&gt; CDR&gt; EAC&gt; seekable SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Shoreline Amphitheatre on 1988-09-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-68316b36bab551dafb8b" kind="unknown">
-    <identifier scheme="other">etree-599715</identifier>
-    <note>Supplied catalogue listing: etree; gd1988-09-30.142152.UltraMatrix.cm.sbd.miller.flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: ULTRAMATRIX</note>
-    <note certainty="uncertain">Legacy inferred type: MTX</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-68316b36bab551dafb8b" kind="unknown" inferredKind="matrix" modifiers="ULTRAMATRIX">
+    <identifier scheme="etree-torrent">599715</identifier>
+    <identifier scheme="shnid" certainty="probable">142152</identifier>
+    <listing provider="etree" title="gd1988-09-30.142152.UltraMatrix.cm.sbd.miller.flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

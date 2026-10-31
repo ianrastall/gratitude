@@ -5,49 +5,55 @@
   </record>
   <recording id="r-11c691c92153f9315bd8" kind="audience">
     <identifier scheme="archive-org">gd1976-07-14.123476.ecm270.menke.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">123476</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Orpheum Theatre on 1976-07-14" references="archive-index infinite-dead"/>
     <credit role="recordist">Bob Menke</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Menke" role="recordist"/>
     <lineage>(Front Row Balcony) Sony ECM-270 -&gt; Cassette Master (Sony TC-152SD) -&gt; Dat | Dat (Sony R500) -&gt; Tascam SS-R05 -&gt; Samplitude Professional v11.2 -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-14. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/"/>
   </recording>
   <recording id="r-9fc1ecbcfdac88793c3a" kind="soundboard">
     <identifier scheme="archive-org">gd1976-07-14.153042.sbd.koda.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">153042</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Orpheum Theatre on 1976-07-14" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Thanks to Dennis Koda for the cassettes</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller August 14, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master &gt; Cassette (Maxell UD/Dolby B) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge Pro 13 (WAV 24-bit/96k) &gt; DDi Codec (Dolby B) &gt; Samplitude Pro X5 Suite (24-bit/48k) &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 14, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-b38a5c9a765cd1fc051b" kind="soundboard">
     <identifier scheme="archive-org">gd1976-07-14.154388.sbd.1gen.miller.t.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">154388</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Orpheum Theatre on 1976-07-14" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Thanks to Dennis Koda for the cassettes</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller August 14, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master &gt; Cassette (Maxell UD/Dolby B) | Cassette (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge Pro 13 (WAV 24-bit/96k) &gt; DDi Codec (Dolby B) &gt; Samplitude Pro X5 Suite (24-bit/48k) &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller August 14, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/"/>
   </recording>
   <recording id="r-779348a95808e614888c" kind="soundboard">
     <identifier scheme="archive-org">gd1976-07-14.sbd.miller.backus.11938.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">11938</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Orpheum Theatre on 1976-07-14" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
     <lineage>SBD MR &gt; ??? &gt; CD-R &gt; EAC &gt; .SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-14. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
   </recording>
   <recording id="r-0129b65fa59c70f13034" kind="soundboard">
     <identifier scheme="archive-org">gd76-07-14.menke.vernon.18159.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18159</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Orpheum Theatre on 1976-07-14" references="archive-index archive-url-snapshot infinite-dead"/>
+    <personMatch name="Bob Menke" role="unspecified"/>
     <lineage>Soundboard | SBD&gt; MR&gt; C&gt; DAT&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/"/>
   </recording>
   <recording id="r-4934cd6b4c0c37102914" kind="soundboard">
     <identifier scheme="archive-org">gd76-07-14.sbd.vernon.18594.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18594</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Orpheum Theatre on 1976-07-14" references="archive-index archive-url-snapshot infinite-dead"/>
+    <personMatch name="Bob Menke" role="unspecified"/>
     <lineage>Soundboard | SBD&gt; MR&gt; C&gt; DAT&gt; CDR patched with the Bob Menke audience recording</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Orpheum Theatre on 1976-07-14. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role unspecified.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/14/7-14-76-san-francisco-ca-orpheum-theater/"/>
   </recording>
 </recordings>

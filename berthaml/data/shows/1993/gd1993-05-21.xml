@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19930521-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 eef224f7daaa03495e93ffe5ae85445bcfef7000220e5c37c2465adad8a9ca57. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-939" nameAsBilled="Shoreline Amphitheatre"/>
+  <venue ref="v-shoreline-amphitheatre" nameAsBilled="Shoreline Amphitheatre"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-let-the-good-times-roll" transition="unknown"/>
@@ -11,7 +11,7 @@
       <performance id="p01-03" song="s-friend-of-the-devil" transition="unknown"/>
       <performance id="p01-04" song="s-me-and-my-uncle" transition="segue"/>
       <performance id="p01-05" song="s-big-river" transition="unknown"/>
-      <performance id="p01-06" song="s-west-l-a-fadeaway" transition="unknown"/>
+      <performance id="p01-06" song="s-west-la-fadeaway" transition="unknown"/>
       <performance id="p01-07" song="s-eternity" transition="unknown"/>
       <performance id="p01-08" song="s-liberty" transition="unknown"/>
       <note>Source section label: Set 1</note>
@@ -21,7 +21,7 @@
       <performance id="p02-02" song="s-i-know-you-rider" transition="unknown"/>
       <performance id="p02-03" song="s-way-to-go-home" transition="unknown"/>
       <performance id="p02-04" song="s-estimated-prophet" transition="segue"/>
-      <performance id="p02-05" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-05" song="s-hes-gone" transition="segue"/>
       <performance id="p02-06" song="s-jam" transition="segue"/>
       <performance id="p02-07" song="s-drums" transition="segue"/>
       <performance id="p02-08" song="s-space" transition="segue"/>
@@ -30,7 +30,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-baba-o-riley" transition="segue"/>
+      <performance id="p03-01" song="s-baba-oriley" transition="segue"/>
       <performance id="p03-02" song="s-tomorrow-never-knows" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>

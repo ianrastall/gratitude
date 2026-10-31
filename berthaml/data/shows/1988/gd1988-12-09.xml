@@ -3,11 +3,11 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19881209-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 032b3ae3996514a897e2a3a119380068d555f4b67c62251adc5451ec3c366779. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-485" nameAsBilled="Long Beach Arena"/>
+  <venue ref="v-long-beach-arena" nameAsBilled="Long Beach Arena"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-let-the-good-times-roll" transition="segue"/>
-      <performance id="p01-02" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-02" song="s-franklins-tower" transition="unknown"/>
       <performance id="p01-03" song="s-when-i-paint-my-masterpiece" transition="unknown"/>
       <performance id="p01-04" song="s-jack-a-roe" transition="unknown"/>
       <performance id="p01-05" song="s-walkin-blues" transition="unknown"/>
@@ -30,7 +30,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

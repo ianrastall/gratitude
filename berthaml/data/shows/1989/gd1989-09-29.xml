@@ -3,12 +3,12 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19890929-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 54d6cb0db8f83c3b159214d06f4da006e65a9011413dcdc7815da6d89a47918e. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-939" nameAsBilled="Shoreline Amphitheatre"/>
+  <venue ref="v-shoreline-amphitheatre" nameAsBilled="Shoreline Amphitheatre"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-let-the-good-times-roll" transition="unknown"/>
       <performance id="p01-02" song="s-feel-like-a-stranger" transition="unknown"/>
-      <performance id="p01-03" song="s-franklin-s-tower" transition="unknown"/>
+      <performance id="p01-03" song="s-franklins-tower" transition="unknown"/>
       <performance id="p01-04" song="s-wang-dang-doodle" transition="unknown"/>
       <performance id="p01-05" song="s-jack-a-roe" transition="unknown"/>
       <performance id="p01-06" song="s-stuck-inside-of-mobile-with-the-memphis-blues-again" transition="unknown"/>
@@ -26,7 +26,7 @@
       <performance id="p02-06" song="s-drums" transition="segue"/>
       <performance id="p02-07" song="s-space" transition="segue"/>
       <performance id="p02-08" song="s-i-need-a-miracle" transition="segue"/>
-      <performance id="p02-09" song="s-death-don-t-have-no-mercy" transition="segue"/>
+      <performance id="p02-09" song="s-death-dont-have-no-mercy" transition="segue"/>
       <performance id="p02-10" song="s-sugar-magnolia" transition="unknown"/>
       <note>Source section label: Set 2</note>
     </set>

@@ -5,172 +5,189 @@
   </record>
   <recording id="r-fb9f331556b216b13b7c" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-15.136514.sbd.GEMS.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">136514</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">PO and Stucco TINA Holmes</credit>
+    <credit role="transfer-mastering">Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Soundboard &gt; PCM copy; Sony L-750ESX-HFB Dynamicron SUPER HIFI VIDEO CASSETTE-&gt; Sony SLO-1800 STEREO VIDEOCASSETTE RECORDER-&gt; Sony PCM-601ESD DIGITAL AUDIO PROCESSOR-&gt; SP/DIF-&gt; Mytek Stereo; 192 Sample Rate Converter-&gt; Upsampled to 44.1kHz/24bit-&gt; SP/DIF-&gt; RME FIREFACE 800-&gt; FireWire 400-&gt; Lenovo K450e Desktop PC-&gt; WaveLab 6.11; Wavelab 7.1 mastering by Jamie Waddell; tracked with Audacity-&gt; flac level 8-&gt; tagged with Tag&amp;Rename and checksums with TLH by Norm</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
-  <recording id="r-05bc041c7d7a8207798b" kind="audience">
+  <recording id="r-05bc041c7d7a8207798b" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-07-15.140050.FOB.s2.Schoeps.Oade.Bryant.Miller.Noel.t-flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">140050</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant patched out of Oade Brothers</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Set 2 Robert Bryant recording (patched out of Oade Bros) Schoeps CMC4/MK41 -&gt; Oade M118 -&gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) (FOB); Charlie Miller DSD | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt; KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
-  <recording id="r-affd0d140c3d0549b432" kind="audience">
+  <recording id="r-affd0d140c3d0549b432" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-07-15.141158.FOB.s2.Schoeps.Oade.Bryant.Miller.Noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141158</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Robert Bryant patched out of Oade Brothers</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Set 2 Robert Bryant recording (patched out of Oade Bros) Schoeps CMC4/MK41 -&gt; Oade M118 -&gt; Cassette Master (Sony WM-D6C/Dennon DXM-90) (FOB); Charlie Miller DSD | Cassette Master (Nakamichi DR-1) -&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) -&gt; KORG AudioGate 4 -&gt; Samplitude Professional v11.2.1 -&gt; FLAC 24/96; Edited &amp; Mastered in Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT; 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/"/>
   </recording>
   <recording id="r-b15f80e6f1af249d0ed4" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-15.150406.sbd.anon.gems.2444</identifier>
+    <identifier scheme="shnid" certainty="probable">150406</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Provided by ANON</credit>
+    <credit role="transfer-mastering">Speed Corrections by Jason Chastain Mastering by Jim Blackwood and Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Soundboard Cassette Masters Sony D-6</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Speed Corrections by Jason Chastain Mastering by Jim Blackwood and Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-e5f86b025fc6bc828ec0" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-15.151691.sbd.anon.gems.bandrofcheck.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">151691</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre on 1984-07-15" references="archive-index archive-url-snapshot"/>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Soundboard Cassette Masters Sony D-6 Dolby C Provided by ANON Speed Corrections by Jason Chastain Mastering by Jim Blackwood and Jamie Waddell 16bit by Charles Bandrofcheck | 24 bit/44.1 kHz FLAC -&gt; dBpoweramp -&gt; 16 bit/44.1 kHz WAV 16 bit/44.1 kHz WAV -&gt; THL -&gt; 16 bit/44.1 FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-925395f4d7fbc5178324" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-15.152163.sbd.miller.scotton.walker.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">152163</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California, on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller March 29, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD &gt; Cassette Master (Sony WM-D6C/Maxell XLII-S90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California, on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller March 29, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-6e5c99153392f09ce0b0" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-15.152256.sbd.cm.miller.t.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">152256</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">All Transfers and Mastering by Charlie Miller March 29, 2021</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD &gt; Cassette Master (Sony WM-D6C/Maxell XLII-S90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6MHz) &gt; Sound Forge 13 Pro (WAV 24-bit/96k) &gt; Samplitude Pro X5 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): All Transfers and Mastering by Charlie Miller March 29, 2021</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
   </recording>
   <recording id="r-30ee15374422ee7c952e" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.154262.nak700.severson.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">154262</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index infinite-dead"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/"/>
   </recording>
   <recording id="r-d6994c436aee675d3a54" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.154263.nak700.severson.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">154263</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Mark Severson</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Mark Severson's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2019 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2f20382b827d87430ba5" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.163365.nak700.wagner.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163365</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
   <recording id="r-da6ff35b8e42f034c8e8" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.163366.nak700.wagner.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163366</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre on 1984-07-15" references="archive-index"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre on 1984-07-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
   <recording id="r-47e8bd5e44390846a335" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.165129.senn421.vita.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">165129</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-2312c20224187476a893" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.165130.senn421.vita.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">165130</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-aea0bdad1e424bd3fa30" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.178742.senn421.wiseman.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">178742</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index"/>
     <credit role="recordist">Scott Wiseman</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Scott Wiseman's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony TC-D5M (Maxell UDXLII 90) | Master Cassettes (Nakamichi 680-ZX) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-44274625a5466c828818" kind="audience">
     <identifier scheme="archive-org">gd1984-07-15.178743.senn421.wiseman.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">178743</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index"/>
     <credit role="recordist">Scott Wiseman</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Scott Wiseman's Master Audience Cassettes; Sennheiser 421 mics &gt; Sony TC-D5M (Maxell UDXLII 90) | Master Cassettes (Nakamichi 680-ZX) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; Tascam Hi-Res Editor (24/96 .wav) &gt; Adobe Audition 2026 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-ff7cb44711f8711907c0" kind="audience">
+  <recording id="r-ff7cb44711f8711907c0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1984-07-15.beyerm160.quirk.perez.32295.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">32295</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre - University of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Quirk</credit>
+    <credit role="transfer-mastering">David Perez</credit>
     <lineage>FOB: 2 Beyer M160s&gt;D5&gt;MC | MC&gt;CDR&gt;EAC&gt;FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): David Perez</note>
   </recording>
   <recording id="r-9c4752bc6e20536f5114" kind="matrix">
     <identifier scheme="archive-org">gd1984-07-15.mtx.seamons.125681.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">125681</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Hunter Seamons</credit>
+    <personMatch name="Hunter Seamons" role="transfer-mastering"/>
     <lineage>Matrix by Hunter Seamons using Final Cut Pro (FLAC &gt; AIFF &gt; Final Cut w/EQ &gt; AIFF CD tracking via Audacity &gt; FLAC16 via xACT w/meta-tagging) September 15, 2013</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Hunter Seamons</note>
-    <note certainty="uncertain">Legacy name match: Hunter Seamons; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/"/>
   </recording>
   <recording id="r-466eaf2442d2c2d9212a" kind="soundboard">
     <identifier scheme="archive-org">gd1984-07-15.sbd.walker-scotton.miller.96152.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">96152</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre - University of California on 1984-07-15" references="archive-index archive-url-snapshot infinite-dead"/>
     <credit role="recordist">Joani Walker and Paul Scotton</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Joani Walker" role="recordist"/>
+    <personMatch name="Paul Scotton" role="recordist"/>
     <lineage>SBD -&gt; Cassette Master (Sony D6/Maxell XLII-S90) | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/96k) -&gt; Samplitude Professional v10.1 -&gt; Adobe Audition v1.5 -&gt; FLAC/16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre - University of California on 1984-07-15. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Joani Walker; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Paul Scotton; role recording.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/"/>
   </recording>
   <recording id="r-1d8665f1fa4317b20b4a" kind="soundboard">
     <identifier scheme="archive-org">gd84-07-15.pcm-sbd.miller.30641.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">30641</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot infinite-dead"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16 Set 1: SBD -&gt; PCM Master -&gt; Dat/0 -&gt; Samplitude Professional v8.0 -&gt; FLAC; Set 2: SBD -&gt; PCM Master -&gt; Dat/0 -&gt; Sonic Solutions -&gt; CD -&gt; EAC -&gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot infinite-dead. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note>Recording reference: http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/</note>
+    <reference href="http://infinitedead.net/2024/07/15/7-15-84-berkeley-ca-university-of-california-greek-theater/"/>
   </recording>
   <recording id="r-4d6d5be40341845997f9" kind="soundboard">
     <identifier scheme="archive-org">gd84-07-15.sbd.ferguson.355.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">355</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15" references="archive-index archive-url-snapshot"/>
     <lineage>SBD &gt; ? &gt; CDR&gt; DAE (cdparanoia)&gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Greek Theatre, U. Of California on 1984-07-15. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

@@ -5,50 +5,55 @@
   </record>
   <recording id="r-6f8a6e4d40d04bb1761e" kind="audience">
     <identifier scheme="archive-org">gd1970-08-18.141071.aud.pitch-adjusted.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141071</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-08-18" references="archive-index"/>
+    <credit role="transfer-mastering">syncopatico</credit>
     <lineage>AUD mC&gt; Rx2&gt; DAT&gt; CDR; this new version has been pitch adjusted with the following ratios: acoustic set with a 'slight' sliding time scale/pitch shift of +0.123%; 2) electric set with a sliding time scale/pitch shift of +9.678%; (electric [lower volume level] set has also been amplified by +3.9%)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-08-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): syncopatico</note>
   </recording>
   <recording id="r-39187b414fe461bb8f4d" kind="audience">
     <identifier scheme="archive-org">gd1970-08-18.142414.aud.knudsen.gems.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">142414</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-08-18" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">From the Collection of Jeff Knudsen</credit>
+    <credit role="transfer-mastering">Jason Chastain and Jamie Waddell and John Wenzel and Tom Markson</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Unknown Audience Cassette &gt; FLAC; Fixed version in circulation</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jason Chastain and Jamie Waddell and John Wenzel and Tom Markson</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-6913fca5f9b02a06b3a0" kind="audience">
     <identifier scheme="archive-org">gd1970-08-18.142416.aud.knudsen.gems.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">142416</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-08-18" references="archive-index"/>
     <credit role="recordist">From the Collection of Jeff Knudsen</credit>
+    <credit role="transfer-mastering">Jason Chastain and Jamie Waddell and John Wenzel and Tom Markson</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>flac16/48kHz ; Unknown Audience Cassette &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-08-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jason Chastain and Jamie Waddell and John Wenzel and Tom Markson</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-6283fcb2d7a341c65017" kind="audience">
     <identifier scheme="archive-org">gd1970-08-18.142417.aud.knudsen.gems.FIXED.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">142417</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-08-18" references="archive-index"/>
     <credit role="recordist">From the Collection of Jeff Knudsen</credit>
+    <credit role="transfer-mastering">Jason Chastain and Jamie Waddell and John Wenzel and Tom Markson</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Unknown Audience Cassette &gt; FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-08-18. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Jason Chastain and Jamie Waddell and John Wenzel and Tom Markson</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
   <recording id="r-7185e663575b34c1782a" kind="audience">
     <identifier scheme="archive-org">gd70-08-18.aud.yerys.1346.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">1346</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-08-18" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Miles Garret, Jared Minkoff, Ben Yerys</credit>
     <lineage>Audience | AUD mC &gt; Rx2 &gt; DAT &gt; CDR &gt; EAC &gt; SHN</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-08-18. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Miles Garret, Jared Minkoff, Ben Yerys</note>
   </recording>
-  <recording id="r-bdb2b43de6b34c43d2b8" kind="unknown">
-    <identifier scheme="other">etree-600045</identifier>
-    <note>Supplied catalogue listing: etree; gd1970-08-18.142417.aud.knudsen.gems.FIXED.flac24. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  <recording id="r-bdb2b43de6b34c43d2b8" kind="unknown" inferredKind="audience">
+    <identifier scheme="etree-torrent">600045</identifier>
+    <identifier scheme="shnid" certainty="probable">142417</identifier>
+    <listing provider="etree" title="gd1970-08-18.142417.aud.knudsen.gems.FIXED.flac24" references="etree-snapshot"/>
+    <personMatch name="GEMS" role="unspecified"/>
   </recording>
-  <recording id="r-0eb1cb679f18fb219e03" kind="unknown">
-    <identifier scheme="other">etree-600027</identifier>
-    <note>Supplied catalogue listing: etree; gd1970-08-18.142416.aud.knudsen.gems.flac1648. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
+  <recording id="r-0eb1cb679f18fb219e03" kind="unknown" inferredKind="audience">
+    <identifier scheme="etree-torrent">600027</identifier>
+    <identifier scheme="shnid" certainty="probable">142416</identifier>
+    <listing provider="etree" title="gd1970-08-18.142416.aud.knudsen.gems.flac1648" references="etree-snapshot"/>
+    <personMatch name="GEMS" role="unspecified"/>
   </recording>
 </recordings>

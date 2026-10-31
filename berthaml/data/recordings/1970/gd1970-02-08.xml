@@ -5,22 +5,25 @@
   </record>
   <recording id="r-b6c14b8014a039950919" kind="soundboard">
     <identifier scheme="archive-org">gd70-02-08.sbd-aud.cotsman.19152.sbeok.shnf</identifier>
-    <lineage>Soundboard and Audience composite | see notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andy Lemieux, Sean Cribbs, JCotsman</note>
-    <note certainty="uncertain">Legacy name match: David Lemieux; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">19152</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-02-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Andy Lemieux, Sean Cribbs, JCotsman</credit>
+    <personMatch name="David Lemieux" role="transfer-mastering"/>
+    <lineage>Soundboard and Audience composite</lineage>
   </recording>
   <recording id="r-f58642adf52f3c3465de" kind="soundboard">
     <identifier scheme="archive-org">gd70-02-08.sbd-aud.cousinit.18123.sbeok.shnf</identifier>
-    <lineage>Audience patched with Soundboard | see notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-02-08. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): CousinIt</note>
+    <identifier scheme="shnid" certainty="probable">18123</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-02-08" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">CousinIt</credit>
+    <lineage>Audience patched with Soundboard</lineage>
   </recording>
   <recording id="r-22fadf74644c44febe9a" kind="soundboard">
     <identifier scheme="archive-org">gd70-02-08.sbd-aud.cribbs.17679.sbeok.shnf</identifier>
-    <lineage>Audience patched with Soundboard | see notes</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Fillmore West on 1970-02-08. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Andy Lemieux and Sean Cribbs</note>
-    <note certainty="uncertain">Legacy name match: David Lemieux; role transfer-mastering.</note>
+    <identifier scheme="shnid" certainty="probable">17679</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Fillmore West on 1970-02-08" references="archive-index"/>
+    <credit role="transfer-mastering">Andy Lemieux and Sean Cribbs</credit>
+    <personMatch name="David Lemieux" role="transfer-mastering"/>
+    <lineage>Audience patched with Soundboard</lineage>
   </recording>
 </recordings>

@@ -3,294 +3,321 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-8c587d3032849f4ddeda" kind="audience">
+  <recording id="r-8c587d3032849f4ddeda" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.124788.chasingwilma.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">124788</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">chasingwilma</credit>
+    <credit role="transfer-mastering">chasingwilma</credit>
     <lineage>lineage: (3) audio technica atm 11 (fob)&gt; optimus&gt; d-5mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): chasingwilma</note>
   </recording>
   <recording id="r-3e2e8cd416e0d8c4cce0" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.138246.upg-aud.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138246</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Patched and Pitch corrected Audience Recording by Joe D'Amico</credit>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Patched/Pitch Corrected Audience (original shnid = 87290) taper: Joe D'Amico nak 300 mics &gt; sony d-6 nak dragon deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend - pitch correction and patches by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-b8d3657acbb82f78022e" kind="unknown">
+  <recording id="r-b8d3657acbb82f78022e" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.138250.upg-aud.tobin.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">138250</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>(original shnid = 124788) | (3) audio technica atm 11 (fob)&gt; optimus&gt; d-5mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit - 96/24 conversion to 48/24, pitch correction, and patches by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-cd5772355af9db2e3a60" kind="matrix">
+  <recording id="r-cd5772355af9db2e3a60" kind="matrix" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.138252.mtx.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138252</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Matrix by Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>Matrix 2 Source Mix - AUD1 (shnid = 87290)taper : Joe D'Amico nak 300 mics &gt; sony d-6 nak dragon deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend + AUD2 (shnid = 124788) | (3) audio technica atm 11 (fob)&gt; optimus&gt; d-5mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit - matrix mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Matrix by Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-98560392cb2165c70869" kind="unknown">
+  <recording id="r-98560392cb2165c70869" kind="unknown" modifiers="FOB DTS">
     <identifier scheme="archive-org">gd1985-04-01.138253.dts.tobin.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138253</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>DTS-Audio-CD 5.1 Mix: AUD1 (shnid = 87290)taper : Joe D'Amico nak 300 mics &gt; sony d-6 nak dragon deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend + AUD2 (shnid = 124788) | (3) audio technica atm 11 (fob)&gt; optimus&gt; d-5mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit - dts mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB DTS</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
-  <recording id="r-9094135386aaf99c8ceb" kind="unknown">
+  <recording id="r-9094135386aaf99c8ceb" kind="unknown" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.138254.5-1.tobin.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">138254</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Kevin Tobin</credit>
+    <personMatch name="Kevin Tobin" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; 5.1 LPCM Surround Sound (48k) AUD1 (shnid = 87290) taper : Joe D'Amico nak 300 mics &gt; sony d-6 nak dragon deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend + AUD2 (shnid = 124788) | (3) audio technica atm 11 (fob)&gt; optimus&gt; d-5mc&gt; sony tc we435&gt; sony pcm m-10 24bit/96khz&gt; soundforge&gt; cdwave&gt; traders little helper encoding option 8; conversion rate: 96000/24 bit - mixing by Kevin Tobin</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Kevin Tobin</note>
-    <note certainty="uncertain">Legacy name match: Kevin Tobin; role transfer-mastering.</note>
   </recording>
   <recording id="r-e24d467f12fe3a672a72" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.140859.s2.unkown.Bryant.Miller.Noel.t-flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140859</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 2 Robert Bryant recording: unknown mics &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Cassette Master (Nakamichi DR-1)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; Samplitude Professional v11.2.1 &gt; FLAC 24/96; Edited &amp; Mastered w/ Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-8216402bd0776846077e" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.141210.s2.unknown.Bryant.Miller.Noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141210</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Robert Bryant</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Set 2 Robert Bryant recording: unknown mics &gt; Cassette Master (Sony TC-D5M); Charlie Miller DSD | Charlie Miller DSD Transfer: Cassette Master (Nakamichi CR-7A)&gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt; KORG AudioGate 4 &gt; FLAC 24/96; Edited &amp; Mastered w/ Audacity by Joe Noel: Flac 24/96; Checksum &amp; tags created in xACT: 24 bit to 16 bit with MusicConverter using sox-14-4-2</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-9adda524cbbedc8ec611" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.141603.OTS.s2.AT835b-AKGD12e-Blend.Ackerman.Miller.Noel.t-flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141603</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ray Ackerman</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Set 2 Ray Ackerman’s Master Audience Cassettes; Two x Audio Technica 835b + One x AKG D12e center fill &gt; Realistic 32-1105A, 4 channel stereo mixer &gt; Sony D6; Transfer info: Master Cassettes (Nakamichi 700 MKii) &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-a6111a6db054d0b59fbe" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.145060.s2.ots.at835b.akg.d12e.blend.ackerman.miller.noel.t-flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">145060</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Ray Ackerman</credit>
+    <credit role="transfer-mastering">Joe Noel and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Ray Ackerman’s Master Audience Cassettes; Two x Audio Technica 835b + One x AKG D12e center fill &gt; Realistic 32-1105A, 4 channel stereo mixer &gt; Sony D6 | Master Cassettes (Nakamichi 700 MKii) &gt; Oade modified Grace Design Lunatec V3 &gt; M-Audio MicroTrack II &gt; WAV 24/96</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe Noel and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-0f4e46af872c5a5485de" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.145330.aud.lamarre.berger.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">145330</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's | nakamichi dragon &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-52014d979a2eb2a43ee8" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.145331.aud.lamarre.berger.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">145331</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Doug Lamarre</credit>
+    <credit role="transfer-mastering">Rob Berger</credit>
     <lineage>source: aud cassette master taped by Doug Lamarre sennheiser 441's &gt; sony d5, maxell xl-IIS90's | nakamichi dragon &gt; benchmark adc1 @ 24/96 &gt; adobe audition cc &gt; fission &gt; xACT flac transferred &amp; seeded by Rob Berger 2019</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Rob Berger</note>
   </recording>
   <recording id="r-774b2a6b48f4d88e05e7" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.149311.senn441.hunt.mattes.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">149311</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
   <recording id="r-1aaec833e64c656975e4" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.149312.senn441.hunt.mattes.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">149312</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Rob Hunt and Ted Mattes</credit>
+    <credit role="transfer-mastering">Scott Clugston and Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Ted Mattes" role="recordist"/>
     <lineage>Rob Hunt and Ted Mattes' Master Audience Cassettes; Sennheiser 441 mics &gt; Sony D5M | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2020 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston and Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Ted Mattes; role recording.</note>
   </recording>
   <recording id="r-3facd48a68793b4e1922" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.149791.akg224.dyche.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">149791</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">David Dyche</credit>
+    <credit role="transfer-mastering">David Dyche</credit>
     <lineage>AKG 224’s &gt; Sony TCD-5M &gt; Sound Devices 744t 24/96 &gt; Sound Forge Pro 11 &gt; Sound Studio &gt; xACT</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Dyche</note>
   </recording>
   <recording id="r-b8e3058d75d3953b7b60" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.150873.nak701x3.barnum.miller.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">150873</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bruce Barnum</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>3x Nak 701s &gt; MX-100 &gt; D5 | Transfer: Cassette Master &gt; Nakamichi DR-1 &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24/96) Lineage: Wav24/96 &gt; Wavelab 10 (tracking, patching, pitch correction, resample, MBit+ dither) &gt; FLAC 16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-02f964ea0e378ec3a07d" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.150874.nak701x3.barnum.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">150874</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bruce Barnum</credit>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>3x Nak 701s &gt; MX-100 &gt; D5 | Transfer: Cassette Master &gt; Nakamichi DR-1 &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt; dBpoweramp (24/96) Lineage: Wav24/96 &gt; Wavelab 10 (tracking, patching, pitch correction, resample, MBit+ dither) &gt; FLAC 16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-9060b3b7f757c048f5d5" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.152074.beyerm88.holbrook.flac2448</identifier>
+    <identifier scheme="shnid" certainty="probable">152074</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Executive Crew: Tom Pinney, Kyle Holbrook, Chris Kidwell, JJ Hance, Sean Murtha, Gary Steel, Eric Britt</credit>
+    <credit role="transfer-mastering">Kyle Holbrook</credit>
     <lineage>Source: 1st Gen AUDCA: Beyer M88's XY &gt; Marantz PMD430 w dbx &gt; Maxell MX 90s No Dolby -lead deck Location: 50 feet from stage DFC, shoulder height | Original Transfer: Marantz PMD430 dbx on &gt; Sony TCD5M no nr Transfer: Nakamichi LX5 &gt; Tascam DR680|24/48 SD Processing: SD| Audacity | cdwav editor | TLH | FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Kyle Holbrook</note>
   </recording>
-  <recording id="r-b42bc92f621b5e4cc8d2" kind="audience">
+  <recording id="r-b42bc92f621b5e4cc8d2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.163539.akg451.neumann.u87.blend.eaton.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163539</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Rob Eaton, Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
   </recording>
-  <recording id="r-1782f0ada1d15c8752d0" kind="audience">
+  <recording id="r-1782f0ada1d15c8752d0" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.163540.akg451.neumann.u87.blend.eaton.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163540</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Rob Eaton</credit>
+    <credit role="transfer-mastering">Rob Eaton, Scott Clugston, Charlie Miller;24 bit</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Rob Eaton" role="recordist"/>
     <lineage>Rob Eaton's Master (FOB) Audience Cassettes; (2) AKG 451's w/ CK8 shotguns (Left + Right) + (1)Neumann U87 (Center) blend &gt; Nakamichi 550 | Master Cassettes (Nakamichi Dragon) &gt; Pro Tools 12 &gt; .wav 24/96 &gt; Adobe Audition 2022 &gt; TLH2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Rob Eaton, Scott Clugston, Charlie Miller;24 bit</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Rob Eaton; role recording.</note>
   </recording>
   <recording id="r-f93b8bd69042c9d4b25d" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.167191.beyer.m160.vita.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">167191</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-3a2ed4481df2f686c34d" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.167192.beyer.m160.vita.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">167192</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Jim Vita</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Jim Vita's Master Audience Cassettes; Beyer M160 mics &gt; Sony D5M (Maxell XLII-S) | Master Cassettes (Nakamichi CR-7A)&gt; Tascam DA-3000 (.wav 24-bit/96k) &gt; Adobe Audition CC 2021 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-a8535e44e8e73b58c884" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.169191.nak304.thomas.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">169191</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f33edfabedee5dd7ae76" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.169192.nak304.thomas.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">169192</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Stephen Thomas</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Stephen Thomas' Master Audience Cassettes; Nakamichi 300 mics + CP4 shotguns &gt; Sony D5M | Master Cassettes (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24-bit/96k) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-1276b184ea73208e3a38" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.176004.sennme80.hessberg.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">176004</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-73912bba8f023ea4f728" kind="audience">
     <identifier scheme="archive-org">gd1985-04-01.176005.sennme80.hessberg.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">176005</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Michael Hessberg</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>Michael Hessberg's Master Audience Cassettes; Sennheiser ME-80 mics &gt; Sony D5M | Cassette Master (Nakamichi DR-1) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; dBpoweramp (24/96) &gt; Adobe Audition CC 2023 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f8ad1222b53389a56058" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.at835-d12e.Ackerman-Taraszki.102139.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">102139</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ray Ackerman</credit>
+    <credit role="transfer-mastering">Ray Ackerman;Tracks, FLACs, Tags by Craig Taraszki</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>(2x) AudioTechnica AT835 + (1x) AKG D12E &gt; Sony TCD5 | Nakamichi 700II (cassette master)&gt; Oade Modified Lunatec V3 @ 24/96&gt; Wave Lab 5 (resample, Apogee uv22hr dither)&gt; CDA&gt; FLAC16</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Ray Ackerman;Tracks, FLACs, Tags by Craig Taraszki</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
-  <recording id="r-1b742115790fb9c0524b" kind="audience">
+  <recording id="r-1b742115790fb9c0524b" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.beyerm88.suraci.78512.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">78512</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Tony Suraci</credit>
+    <credit role="transfer-mastering">Tony Suraci</credit>
     <lineage>*Beyer M88's &gt;Sony D5M FOB, stand at 7 feet | Sony D5Pro&gt;Lunatec V3&gt;722@24/96 722&gt;Adobe Aud. 2.0&gt;16bit&gt;Cdwav&gt;flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Tony Suraci</note>
   </recording>
   <recording id="r-d18c40594089e32bb0c1" kind="soundboard">
     <identifier scheme="archive-org">gd1985-04-01.nak.minor.vernon.30885.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">30885</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">David Minor</credit>
+    <credit role="transfer-mastering">David Minor and Matt Vernon</credit>
     <lineage>Nak CM100's &gt; D5 at the soundboard | EAC/FLAC</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): David Minor and Matt Vernon</note>
   </recording>
   <recording id="r-493926521f94a8be2b8b" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.nak300.barfield-lane.103296.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">103296</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Dave Barfield and David Lane</credit>
+    <credit role="transfer-mastering">Dave Barfield</credit>
     <lineage>nak 300/cp4 (ots, 12\') &gt; tcd5m/maxell mx 90 | master cassette &gt; tcd5m (orig recorder) &gt; minime (24/96) &gt; sd744t &gt; audacity &gt; xact (flac24)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Dave Barfield</note>
   </recording>
   <recording id="r-07a7817bbe13294b76d9" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.nak300.damico.87290.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">87290</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Joe D'Amico</credit>
+    <credit role="transfer-mastering">Joe D'Amico</credit>
     <lineage>nak 300 mics &gt; sony d-6 &gt; mac | mac &gt; nak dragon tape deck &gt; creative extigy soundcard &gt; cool edit pro &gt; flac frontend</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Joe D'Amico</note>
   </recording>
   <recording id="r-08a3cd49a75bb1a431d8" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.nak300.morris.106787.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">106787</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Morris and Sam Morris</credit>
+    <credit role="transfer-mastering">Bob Morris</credit>
     <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell UDII C-90) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Morris</note>
   </recording>
   <recording id="r-50a2aa1fc8d76de67111" kind="unknown">
     <identifier scheme="archive-org">gd1985-04-01.nak300.morris.114488.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">114488</identifier>
+    <listing provider="Archive.org" title="The Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Morris</credit>
     <lineage>Nakamichi CM-300 x2 &gt; Cassette Master (Sony TCD5M/Maxell UDII C-90) Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 24-bit/96KHz) &gt; Soundforge 9.0 (edits) &gt; flac24</lineage>
-    <note>Supplied catalogue listing: Archive.org; The Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-40519c267ff5f976528a" kind="audience">
+  <recording id="r-40519c267ff5f976528a" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1985-04-01.senn421.mccue.ford.76321.sbeok.flac</identifier>
+    <identifier scheme="shnid" certainty="probable">76321</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
     <credit role="recordist">Mark McCue, Adam, Monica, Johnny Kelly and Davey the beeker meade</credit>
+    <credit role="transfer-mastering">Alex Ford</credit>
     <lineage>MAC: (FOB) Sennheiser 421s &gt; Sony TC-D5 &gt; TDK MA90 (Set I) TDK MA-R90 [aluminum shell] (Set II) | MAC &gt; Nakamichi CD 2 (azimuth adjusted) &gt; rca &gt; xlr &gt; Lunatec V3(@16 bit/44.1 Hz) &gt; coax &gt; Audiophile 2496 &gt; CEP 2.0 &gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Alex Ford</note>
   </recording>
   <recording id="r-eb523b2e46725ef2cafa" kind="unknown">
     <identifier scheme="archive-org">gd85-04-01.oade-schoeps.sacks.23659.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">23659</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Oade Brothers</credit>
+    <credit role="transfer-mastering">Doug Oade - Darren Sacks</credit>
+    <personMatch name="Oade Brothers" role="recordist"/>
     <lineage>Schoeps CMC441s (90deg, 17cm) &gt; Oade M118 &gt; Oade mod SONY PCM-F1 | Master PCM &gt; DAW (via SEKD Prodif) &gt; Wav &gt; cdwav &gt; Flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Doug Oade - Darren Sacks</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role recording.</note>
   </recording>
   <recording id="r-90f3db50c6905ccb84e6" kind="audience">
     <identifier scheme="archive-org">gd85-04-01.oade.connor.8521.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8521</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index"/>
+    <personMatch name="Oade Brothers" role="unspecified"/>
     <lineage>Oade's Master Audience PCM &gt; Schoeps CMC-441 mics &gt; Oade M118&gt; Sony PCM-F1 &gt; DAT&gt; CDR&gt;EAC&gt;Shn</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
   </recording>
   <recording id="r-fb2d348fa5bb09b8aaf6" kind="audience">
     <identifier scheme="archive-org">gd85-04-01.ziemba.connor.5594.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5594</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1985-04-01" references="archive-index archive-url-snapshot"/>
     <lineage>Aud&gt; Nak300&gt; D5&gt; CM&gt; CDR&gt; EAC(Secure Mode)&gt; CDWave (Retracking Only)&gt; shnv3 (MKW ACT)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1985-04-01. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

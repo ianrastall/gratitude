@@ -5,73 +5,74 @@
   </record>
   <recording id="r-62e1b39c400e8ea167af" kind="unknown">
     <identifier scheme="archive-org">gd1980-04-28.128382.naks.mason.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">128382</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index"/>
     <credit role="recordist">Mason B. Taylor</credit>
     <lineage>Recorded By Mason Taylor on a Nakamichi 550 Cassette Deck, on chrome tapes, with Nakamichi microphones</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
   </recording>
   <recording id="r-53f1e7e1898f479c09be" kind="audience">
     <identifier scheme="archive-org">gd1980-04-28.163781.nak700.wagner.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">163781</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
   <recording id="r-fe7fc359c8c0e0f9164e" kind="audience">
     <identifier scheme="archive-org">gd1980-04-28.163782.nak700.wagner.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">163782</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Bob Wagner</credit>
+    <credit role="transfer-mastering">Scott Clugston, Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Bob Wagner" role="recordist"/>
     <lineage>Bob Wagner's Master Audience Cassettes; Nakamichi 700 mics &gt; Sony D5 | Master Cassettes (Nakamichi CR7-A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz)&gt; Tascam Hi-Res Editor (24/96) &gt; Adobe Audition CC 2022 &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Scott Clugston, Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Bob Wagner; role recording.</note>
   </recording>
-  <recording id="r-f11bc6b95b029db05f2e" kind="audience">
+  <recording id="r-f11bc6b95b029db05f2e" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-04-28.fob-nak700.dank.4993.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">4993</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Barry G</credit>
+    <credit role="transfer-mastering">Jim Wise and Jamie Lutch</credit>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>FOB (Nakamichi 700)&gt; Master Cassette(Sony TC-D5), Master Cassette (Tascam 112mkIII)&gt;Sony R500 @44.1&gt;DAT | ed to DAT&gt;MASTER CDR on HHB CDR 850&gt;DupCD(1) on Tascam CD-D4000MKII&gt;EAC in Secure Mode&gt;Soundforge&gt;CD WAV&gt;SHNv3 w/seek tables appended</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Jim Wise and Jamie Lutch</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d5ac683fe0490fe59bdb" kind="unknown">
+  <recording id="r-d5ac683fe0490fe59bdb" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-04-28.fob.glassberg.motb.0040.88858.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">88858</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Barry Glassberg and Robert Wagner</credit>
+    <credit role="transfer-mastering">A. Egert and D. McCabe</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
     <lineage>2 x Nakamichi CM-700 [15 dB Attenuation Pad] &gt; Sony TC-D5M &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; Benchmark ADC-1 &gt; AES &gt; Sound Devices 722 &gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): A. Egert and D. McCabe</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
   </recording>
-  <recording id="r-b620f3b5c3f41f226b90" kind="unknown">
+  <recording id="r-b620f3b5c3f41f226b90" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-04-28.fob.glassberg.motb.0040.88906.sbeok.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">88906</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index"/>
     <credit role="recordist">Barry Glassberg and Robert Wagner</credit>
+    <credit role="transfer-mastering">A. Egert and D. McCabe</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
     <lineage>2 x Nakamichi CM-700 [15 dB Attenuation Pad] &gt; Sony TC-D5M &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; Benchmark ADC-1 &gt; AES &gt; Sound Devices 722 &gt; WAV [24/96]</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): A. Egert and D. McCabe</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
   </recording>
-  <recording id="r-af038ab8913dfa70aad7" kind="audience">
+  <recording id="r-af038ab8913dfa70aad7" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1980-04-28.fob.sonyecm990.morris.99886.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">99886</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index"/>
     <credit role="recordist">Bob Morris</credit>
+    <credit role="transfer-mastering">Bob Morris</credit>
     <lineage>(FOB) Sony ECM-990 stereo mic &gt; Cassette Master (Marantz Superscope CD320/Maxell UDXLII) | Cassette Master (Nakamichi DR-1) &gt; Korg MR-1000 (1-bit/5.6MHz) &gt; Audiogate (1-bit/5.6MHz &gt; 16-bit/44.1KHz) &gt; cdwav (edits)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Bob Morris</note>
   </recording>
-  <recording id="r-c19ad5329eeb1a9d6de4" kind="audience">
+  <recording id="r-c19ad5329eeb1a9d6de4" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd80-04-28.fob-nak700.non-dank.3402.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">3402</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Boutwell Auditorium on 1980-04-28" references="archive-index"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <credit role="transfer-mastering">Jim Wise</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
+    <personMatch name="Jim Wise" role="transfer-mastering"/>
     <lineage>Audience Recording: Nakamichi 700 | FOB (Nakamichi 700)&gt; Master Cassette(Sony TC-D5); A&gt;D: Master Cassette (Tascam 112mkIII)&gt; Sony R500 @44.1; D&gt;CD: DAT&gt; MASTER CDR on HHB CDR 850&gt; Duped to CD(1) on Tascam CD-D4000MKII CD&gt;SHN: EAC (see info file)&gt; Soundforge&gt; CD WAV&gt; SHNv3 w/seek tables app</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Boutwell Auditorium on 1980-04-28. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Jim Wise</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role transfer-mastering.</note>
   </recording>
 </recordings>

@@ -5,24 +5,25 @@
   </record>
   <recording id="r-0f0a4b0649f5a6be6978" kind="unknown">
     <identifier scheme="archive-org">gd1994-11-30.138023.mgUM70S.graves.flac1648</identifier>
-    <credit role="recordist">unknown</credit>
+    <identifier scheme="shnid" certainty="probable">138023</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at McNichols Sports Arena on 1994-11-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Bill Graves</credit>
     <lineage>flac16/48kHz ; Source: Microtech Gefell UM70S Cards &gt; Teac P-20 &gt; DA-P1; | Tascam DA-30 mkII &gt; S/PDIF &gt; M Audio Microtrack 24/96 &gt; WAV &gt; Audacity &gt; Trader’s Little Helper &gt; FLAC; Taper Unknown; Transferred &amp; Seeded by Bill Graves</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1994-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bill Graves</note>
   </recording>
-  <recording id="r-7e327a2a7999ed6602f2" kind="audience">
+  <recording id="r-7e327a2a7999ed6602f2" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1994-11-30.141191.FOB.Schoeps.Clark.Miller.Noel.t-flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">141191</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at McNichols Sports Arena on 1994-11-30" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Greg Clark</credit>
+    <credit role="transfer-mastering">Charlie Miller and Joe Noel</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Master Dat Recording by Greg Clark: (FOB) Schoeps MK41 &gt; Dat (Panasonic SV-255/48k); Transfer info: Dat &gt; Panasonic SV-3700 &gt; Tascam DA-3000 &gt; wav 16/48</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1994-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and Joe Noel</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-f16f9822e9be5e25000c" kind="audience">
     <identifier scheme="archive-org">gd94-11-30.schoeps.ladner.10542.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10542</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at McNichols Sports Arena on 1994-11-30" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Paul B. and Chris L.</credit>
     <lineage>Audience: Schoeps MK4's | Schoeps MK4's &gt; DAT &gt; CDR &gt; EAC 0.9 beta4 &gt; CD Wave &gt; shntool &gt; SHN v3</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at McNichols Sports Arena on 1994-11-30. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Paul B. and Chris L.</note>
   </recording>
 </recordings>

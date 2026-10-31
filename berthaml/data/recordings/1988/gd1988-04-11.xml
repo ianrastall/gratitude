@@ -5,43 +5,46 @@
   </record>
   <recording id="r-2559d065e0d3871b1589" kind="soundboard">
     <identifier scheme="archive-org">gd1988-04-11.141859.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">141859</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Joe Louis Arena on 1988-04-11" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Joe Louis Arena on 1988-04-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-e31fde03ffd65766bcfc" kind="soundboard">
     <identifier scheme="archive-org">gd1988-04-11.141881.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">141881</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Joe Louis Arena on 1988-04-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Cassette Master (TDK MA-R90) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.6 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Joe Louis Arena on 1988-04-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-7b3a45954b0cbe4f8d09" kind="unknown">
+  <recording id="r-7b3a45954b0cbe4f8d09" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1988-04-11.aud.Holtz.Naks.116466.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">116466</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Joe Louis Arena on 1988-04-11" references="archive-index"/>
     <credit role="recordist">Greg Holtz</credit>
+    <credit role="transfer-mastering">Greg Holtz</credit>
     <lineage>Source: Nakamichi CM-100 mics w/ CP-4 Shotgun Caps &gt; Sony D-5 (Maxell XL-IIS 90 Cassette Tapes); | MAC &gt; Tascam 112 &gt; Edirol UA-5 &gt; PC &gt; Audacity &gt; TLH &gt; flac level 8; Taped by Greg Holtz; Transfers, edits, track/FLAC by Greg Holtz</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Joe Louis Arena on 1988-04-11. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Greg Holtz</note>
   </recording>
   <recording id="r-cad632c5dbf9199457fc" kind="soundboard">
     <identifier scheme="archive-org">gd1988-04-11.sbd.miller.91243.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">91243</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Joe Louis Arena on 1988-04-11" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD -&gt; Cassette Master (TDK SA-X90) D | Cassette Master (Nakamichi DR-1) -&gt; Sound Devices 744T (24bit/48k) -&gt;</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Joe Louis Arena on 1988-04-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-7e60728aa9ae66f84e77" kind="unknown">
+  <recording id="r-7e60728aa9ae66f84e77" kind="unknown" inferredKind="soundboard">
     <identifier scheme="archive-org">gd88-04-11.sbd.bennett.10157.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">10157</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Joe Louis Arena on 1988-04-11" references="archive-index archive-url-snapshot"/>
     <lineage>reEAC, reshn of previous shn set (see info), via Jim Bennett</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Joe Louis Arena on 1988-04-11. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
   </recording>
-  <recording id="r-ef3a9457c27d7fdb5849" kind="unknown">
-    <identifier scheme="other">etree-604225</identifier>
-    <note>Supplied catalogue listing: etree; gd88-04-11.141881.sbd.cm.miller.t-flac16. Source references: etree-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: SBD</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role unspecified.</note>
+  <recording id="r-ef3a9457c27d7fdb5849" kind="unknown" inferredKind="soundboard">
+    <identifier scheme="etree-torrent">604225</identifier>
+    <identifier scheme="shnid" certainty="probable">141881</identifier>
+    <listing provider="etree" title="gd88-04-11.141881.sbd.cm.miller.t-flac16" references="etree-snapshot"/>
+    <personMatch name="Charlie Miller" role="unspecified"/>
   </recording>
 </recordings>

@@ -3,63 +3,69 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-b7eeec68c7005c11f57a" kind="unknown">
+  <recording id="r-b7eeec68c7005c11f57a" kind="unknown" inferredKind="audience">
     <identifier scheme="archive-org">gd1979-05-13.127354.aud.stankiewicz.wienman.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">127354</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1979-05-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Richie Stankiewicz and Dave Wienman</credit>
+    <credit role="transfer-mastering">Richie Stankiewicz</credit>
     <lineage>First Set Nakamichi 550&gt;AKG 222e Recorded by Richie Stankiewicz; Second set Nakamichi 550&gt;Sen 441; Recorded By Dave Wienman | First Set MAC&gt;Nakamichi 1000II&gt;Sound Device USBPre2; Second set 1st Gen&gt;Nakamichi 1000II&gt;Sound Devices USBPre2</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1979-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Richie Stankiewicz</note>
   </recording>
   <recording id="r-e37b712985f0654844de" kind="audience">
     <identifier scheme="archive-org">gd1979-05-13.177841.nak700.glassberg.menke.miller.clugston.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">177841</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1979-05-13" references="archive-index"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <credit role="transfer-mastering">Bob Menke, Charlie Miller, Scott Clugston</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Barry Glassberg" role="recordist"/>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
     <lineage>Barry Glassberg's Master Audience Cassettes: Nakamichi 700 mics &gt; Sony TC-158SD (Maxell UDXL II) | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (.wav 32-bit/96k) &gt; Adobe Audition CC2026 (DDi codec) &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1979-05-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
   </recording>
   <recording id="r-131d483dbd8139eca4ce" kind="audience">
     <identifier scheme="archive-org">gd1979-05-13.177842.nak700.glassberg.menke.miller.clugston.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">177842</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1979-05-13" references="archive-index"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <credit role="transfer-mastering">Bob Menke, Charlie Miller, Scott Clugston;24 bit</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="Barry Glassberg" role="recordist"/>
+    <personMatch name="Bob Menke" role="transfer-mastering"/>
     <lineage>Barry Glassberg's Master Audience Cassettes: Nakamichi 700 mics &gt; Sony TC-158SD (Maxell UDXL II) | Master Cassettes (Nakamichi CR-7A) &gt; Behringer Ultralink Pro MX882 &gt; KORG MR-2000S (DSF 1-bit/5.6MHz) &gt; KORG AudioGate (.wav 32-bit/96k) &gt; Adobe Audition CC2026 (DDi codec) &gt; TLH flac2496</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1979-05-13. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Bob Menke, Charlie Miller, Scott Clugston;24 bit</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
-    <note certainty="uncertain">Legacy name match: Bob Menke; role transfer-mastering.</note>
   </recording>
   <recording id="r-89947959e952d1bc8cfe" kind="unknown">
     <identifier scheme="archive-org">gd1979-05-13.nak700.glassberg.8037.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">8037</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1979-05-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
     <lineage>Nak CM 700 &gt; Sony TCD-D5 &gt; DAT &gt; CD-r (via hhb-800 single wav) | CDR &gt; Cool Edit Pro "Treble Boost Filter" (7.89 db) &gt; CDR-WAV &gt; SHN (MKWACT .97b)</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1979-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
   </recording>
   <recording id="r-398817e7f4a3853e3665" kind="unknown">
     <identifier scheme="archive-org">gd1979-05-13.nak700.glassberg.motb.87854.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">87854</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1979-05-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <credit role="transfer-mastering">A. Egert and Andy Foust</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
     <lineage>Nakamichi CM700's &gt; Sony TC-158SD &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; Benchmark ADC-1 &gt; AES &gt; Sound Devices 722 &gt; 24/96 WAV</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1979-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): A. Egert and Andy Foust</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
   </recording>
   <recording id="r-fe6d7b510381644a2a9f" kind="unknown">
     <identifier scheme="archive-org">gd1979-05-13.nak700.glassberg.motb.88261.sbeok.flac24</identifier>
+    <identifier scheme="shnid" certainty="probable">88261</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1979-05-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <credit role="transfer-mastering">A. Egert and Andy Foust</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
     <lineage>Nakamichi CM700's &gt; Sony TC-158SD &gt; MAC | MAC &gt; Nakamichi DR-1 &gt; Benchmark ADC-1 &gt; AES &gt; Sound Devices 722 &gt; 24/96 WAV</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1979-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): A. Egert and Andy Foust</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
   </recording>
   <recording id="r-95fd13ace9c30f5fac4d" kind="audience">
     <identifier scheme="archive-org">gd79-05-13.glassberg.vernon.18873.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">18873</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Cumberland County Civic Center on 1979-05-13" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Barry Glassberg</credit>
+    <credit role="transfer-mastering">John Steinthal</credit>
+    <personMatch name="Barry Glassberg" role="recordist"/>
     <lineage>Audience Recording | NAK CM700, Sony 158SD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Cumberland County Civic Center on 1979-05-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): John Steinthal</note>
-    <note certainty="uncertain">Legacy name match: Barry Glassberg; role recording.</note>
   </recording>
 </recordings>

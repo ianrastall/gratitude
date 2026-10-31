@@ -24,7 +24,7 @@ import unicodedata
 from lxml import etree
 
 from playlist_data import apply_recording_playlists, export_playlists, recording_date
-from validate import validate_memory
+from validate import fuzzy_bounds, validate_memory
 
 ROOT = Path(__file__).resolve().parents[1]
 NS = 'urn:berthaml:1'
@@ -35,6 +35,8 @@ GENERATED = ('data/recordings/', 'playlists/', 'reports/')
 REGISTRIES = ['people', 'songs', 'venues', 'releases']
 REVIEWED = ('reviewed', 'verified')
 EVENT_URL = 'https://jerrybase.com/events/'
+SAMPLE_FORMATS = {'1644', '1648', '1688', '1696', '2444', '2448', '2488', '2496'}
+NO_INFORMATION = re.compile(r'(?i)(?:see (?:info|notes?|text)\b.*|unknown|n/?a|\?+)\.?')
 COUNTRIES = {'US': 'US', 'Canada': 'CA', 'England': 'GB', 'Scotland': 'GB',
              'Germany': 'DE', 'France': 'FR', 'Denmark': 'DK', 'Netherlands': 'NL',
              'Egypt': 'EG', 'Luxembourg': 'LU', 'Spain': 'ES', 'Jamaica': 'JM', 'Sweden': 'SE'}
@@ -52,7 +54,7 @@ def norm(value):
 
 def slug(value):
     value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode().lower()
-    return re.sub('[^a-z0-9]+', '-', value).strip('-') or 'untitled'
+    return re.sub('[^a-z0-9]+', '-', re.sub("['.]", '', value)).strip('-') or 'untitled'
 
 
 def el(tag, parent=None, text=None, **attrs):
@@ -157,36 +159,61 @@ def reconcile(licensed, events):
     return matched, [r for r in remaining if r['gdshowsdb'] or r['jerrybase']]
 
 
+def shnids(provider, key, title):
+    """Source numbers named by the collectors' dotted convention. Hyphenated numbers are not shnids."""
+    if provider == 'Archive.org':
+        name = key
+    else:
+        bracketed = re.search(r'\[(?:SBD|AUD|MTX|FM)\.(\d+)\]', title or '')
+        if bracketed:
+            return [bracketed[1]]
+        named = re.search(r'(?i)\bgd\d{2,4}[-.]\d\d[-.]\d\d\S*', title or '')
+        if not named:
+            return []
+        name = named[0]
+    name = re.sub(r'(?i)^gd(?:19)?\d{2}[-.]\d\d[-.]\d\d', '', name)
+    return [token for token in name.split('.')
+            if re.fullmatch(r'[1-9]\d{1,5}', token) and token not in SAMPLE_FORMATS]
+
+
+def informative(text):
+    return bool(text and text.strip()) and not NO_INFORMATION.fullmatch(text.strip())
+
+
 def recording(item):
     key, provider = item.get('key'), item.get('provider')
     inferred = item.get('inferredType') == 'true'
     node = el('recording', id='r-' + digest((provider + ':' + key).encode())[:20],
               kind='unknown' if inferred else KINDS[item.get('type')])
-    el('identifier', node, scheme='archive-org' if provider == 'Archive.org' else 'other',
-       text=key)
+    if inferred and item.get('type') != 'UNKNOWN':
+        node.set('inferredKind', KINDS[item.get('type')])
+    if item.get('modifiers'):
+        node.set('modifiers', item.get('modifiers'))
+    el('identifier', node, scheme='archive-org' if provider == 'Archive.org' else 'etree-torrent',
+       text=key.removeprefix('etree-'))
+    numbers = shnids(provider, key, item.get('title'))
+    for number in numbers:
+        el('identifier', node, scheme='shnid', certainty='probable' if len(numbers) == 1 else 'uncertain',
+           text=number)
+    el('listing', node, provider=provider, title=item.get('title'), references=item.get('sourceRefs'))
+    for credit in item.findall('creditText'):
+        if credit.get('role') == 'recording' and informative(credit.text):
+            name = re.sub(r'(?i)^(?:recording|recorded|taped) by\s+(.*?)\.?$', r'\1', credit.text.strip())
+            el('credit', node, role='recordist', text=name)
     # The legacy input combines transfer and mastering, so do not choose a role.
     for credit in item.findall('creditText'):
-        if credit.get('role') == 'recording' and credit.text:
-            el('credit', node, role='recordist', text=credit.text)
+        if credit.get('role') != 'recording' and informative(credit.text):
+            el('credit', node, role=credit.get('role'), text=credit.text)
+    for person in item.findall('person'):
+        el('personMatch', node, name=person.get('name'),
+           role='recordist' if person.get('role') == 'recording' else person.get('role'))
     chain = [item.findtext(tag, '') for tag in ['sourceChain', 'lineage']]
-    chain = list(dict.fromkeys(x.strip() for x in chain if x.strip()))
+    chain = list(dict.fromkeys(x.strip() for x in chain if informative(x)))
     if chain:
         el('lineage', node, text=' | '.join(chain))
-    el('note', node, text=f'Supplied catalogue listing: {provider}; {item.get("title")}. '
-       f'Source references: {item.get("sourceRefs")}. Metadata attribution is unreviewed.')
-    if item.get('modifiers'):
-        el('note', node, text='Source modifiers: ' + item.get('modifiers'))
-    if inferred:
-        el('note', node, certainty='uncertain', text='Legacy inferred type: ' + item.get('type'))
-    for credit in item.findall('creditText'):
-        if credit.get('role') != 'recording' and credit.text:
-            el('note', node, text=f'Source credit ({credit.get("role")}): {credit.text}')
-    for credit in item.findall('person'):
-        el('note', node, certainty='uncertain',
-           text=f'Legacy name match: {credit.get("name")}; role {credit.get("role")}.')
     for ref in item.findall('reference'):
         if ref.get('url'):
-            el('note', node, text='Recording reference: ' + ref.get('url'))
+            el('reference', node, href=ref.get('url'))
     return node
 
 
@@ -286,6 +313,67 @@ def source_drift(imported, show):
     return fields
 
 
+def track_witnesses(document, show):
+    """Track lists that reach most of a show. Tapes are evidence the setlist sources do not share."""
+    performances = {p.get('id') for p in show.iterfind('.//b:performance', N)}
+    count = 0
+    for playlist in document.findall('b:recording/b:playlist', N) if document is not None else []:
+        covered = {ref for track in playlist.findall('b:track', N) for ref in (track.get('covers') or '').split()}
+        count += bool(performances) and len(covered & performances) >= 0.8 * len(performances)
+    return count
+
+
+def corroboration(shows, documents, crosswalk, issues, drift):
+    """How well each show file is supported. Derived at every build so it cannot go stale."""
+    disputed = {i['subject'] for i in issues if i['state'] == 'open'
+                and i['kind'] in ('setlist-disagreement', 'venue-disagreement')}
+    differs = {d['show'] for d in drift if d['kind'] == 'changed' and {'songs', 'venue'} & set(d['fields'])}
+    source = {entry['show']: entry for entry in crosswalk}
+    rows = []
+    for sid, show in shows.items():
+        entry = source[sid]
+        witnesses = track_witnesses(documents.get(sid), show)
+        if show.find('b:record', N).get('status') in REVIEWED:
+            level = 'reviewed'
+        elif show.find('.//b:performance', N) is None:
+            level = 'no-setlist'
+        elif sid in disputed:
+            level = 'disputed'
+        elif sid in differs:
+            level = 'differs-from-sources'
+        elif witnesses:
+            level = 'recording-backed'
+        elif entry.get('sequence_agrees'):
+            level = 'sources-agree'
+        else:
+            level = 'single-source'
+        rows.append(dict(show=sid, level=level, sources_agree=bool(entry.get('sequence_agrees')),
+                         track_lists=witnesses))
+    return rows
+
+
+def roster(day, people):
+    """Who was in the band on a day, from membership periods. A default, never a fact about a show."""
+    moment = fuzzy_bounds(day)[0]
+    inside = lambda node: fuzzy_bounds(node.get('from'))[0] <= moment <= fuzzy_bounds(node.get('to'))[1]
+    return [person.get('id') for person in people.findall('b:person', N)
+            if any(inside(period) and not any(inside(a) for a in period.findall('b:absence', N))
+                   for period in person.findall('b:membership', N))]
+
+
+def roster_eras(shows, people):
+    """Runs of dated shows with one roster."""
+    eras = []
+    days = Counter(s.get('date') for s in shows if len(s.get('date')) == 10)
+    for day in sorted(days):
+        members = roster(day, people)
+        if eras and eras[-1]['members'] == members:
+            eras[-1].update(to=day, shows=eras[-1]['shows'] + days[day])
+        else:
+            eras.append(dict(start=day, to=day, shows=days[day], members=members))
+    return eras
+
+
 def build():
     lock = json.loads((ROOT / 'sources/inputs.lock.json').read_text('utf-8'))
     for name, expected in lock['files'].items():
@@ -324,11 +412,12 @@ def build():
     source_of = {sid: url for url, sid in cited.items()}
     overrides = json.loads((curated / 'identities.json').read_text('utf-8'))
     preserved_ids = json.loads((ROOT / 'sources/legacy-identity-map.json').read_text('utf-8'))['shows']
+    venues = {v.get('id'): v for v in regs['venues'].findall('b:venue', N)}
+    venue_sources = {ref.get('href'): vid for vid, venue in venues.items() for ref in venue.findall('b:sourceRef', N)}
     for event in events:
         event['id'] = cited.get(event['url']) or overrides['shows'].get(
             event['url'], preserved_ids.get(event['url'], show_id(event)))
-        event['venue_id'] = overrides['venues'].get(event['venue_url'],
-                                                 'v-jb-' + event['venue_url'].rsplit('/', 1)[1])
+        event['venue_id'] = venue_sources.get(event['venue_url'], 'v-' + slug(locality(event['venue_label'])[0]))
     song_nodes = {s.get('id'): s for s in regs['songs'].findall('b:song', N)}
     titles = {sid: song.findtext('b:title', namespaces=N) for sid, song in song_nodes.items()}
     song_names = {}
@@ -352,7 +441,6 @@ def build():
         song_names[norm(title)] = sid
         titles[sid] = title
         drift.append(dict(kind='new-song', song=sid, title=title))
-    venues = {v.get('id'): v for v in regs['venues'].findall('b:venue', N)}
     for vid, url, label in sorted({(e['venue_id'], e['venue_url'], e['venue_label']) for e in events}):
         if vid not in venues:
             drift.append(dict(kind='new-venue', venue=vid, source=url, label=label))
@@ -447,7 +535,7 @@ def build():
                         'identifier-date-unknown-or-out-of-scope' if actual_day is None
                         else 'identifier-date-disagrees-with-catalogue-group')
                     continue
-                if item.get('key') not in present:
+                if item.get('key').removeprefix('etree-') not in present:
                     document.append(recording(item))
                 assigned_keys.append((item.get('provider'), item.get('key')))
             el('cite', document.find('b:record', N), title='Ian supplied Gratitude catalogue, 2026-10-29 snapshot',
@@ -516,6 +604,7 @@ def build():
                 and not playlist_stats['unreviewed_track_mappings']
                 and all(s.find('b:record', N).get('status') in ('reviewed', 'verified') for s in xml_shows)
                 and all(r.find('b:record', N).get('status') in ('reviewed', 'verified') for r in regs.values()))
+    support = corroboration(shows, documents, crosswalk, issues, drift)
     stats = dict(version=1, scope=lock['scope'], updated=UPDATED,
                  completion='complete' if complete else 'incomplete', source_events=len(facts['events']), shows=len(shows),
                  show_status=dict(sorted(Counter(s.find('b:record', N).get('status') for s in xml_shows).items())),
@@ -531,6 +620,7 @@ def build():
                  issues=dict(sorted(Counter(i['kind'] for i in issues if i['state'] == 'open').items())),
                  open_issues=sum(i['state'] == 'open' for i in issues),
                  source_drift=len(drift),
+                 corroboration=dict(sorted(Counter(row['level'] for row in support).items())),
                  source_exclusions=dict(Counter(r['category'] for r in facts['events'] if r['category'] != 'Public')),
                  playlists=playlist_stats,
                  official_release_page_candidates=len(release_candidates),
@@ -540,6 +630,8 @@ def build():
     output['reports/review-queue.jsonl'] = lines(sorted(issues, key=lambda i: (i['kind'], i['subject'])))
     output['reports/source-crosswalk.jsonl'] = lines(crosswalk)
     output['reports/source-drift.jsonl'] = lines(drift)
+    output['reports/corroboration.jsonl'] = lines(support)
+    output['reports/roster-eras.json'] = jbytes(roster_eras(xml_shows, regs['people']))
     output['reports/recordings-unassigned.jsonl'] = lines(unassigned)
     output['reports/event-exclusions.jsonl'] = lines([dict(url=e['url'], date_label=e['date_label'],
                                                          category=e['category'], venue=e['venue_label'])
@@ -560,7 +652,13 @@ def build():
                'No duration is inferred from a show or setlist.', '', '## Open work', '',
                *[f'- {k}: {v:,}' for k, v in stats['issues'].items()], '',
                'Machine-readable evidence: coverage.json, review-queue.jsonl, source-crosswalk.jsonl, '
-               'source-drift.jsonl, recordings-unassigned.jsonl and event-exclusions.jsonl in this directory.', '',
+               'source-drift.jsonl, corroboration.jsonl, roster-eras.json, recordings-unassigned.jsonl and '
+               'event-exclusions.jsonl in this directory.', '',
+               '## Corroboration', '',
+               *[f'- {k}: {v:,}' for k, v in stats['corroboration'].items()], '',
+               'These levels are derived at every build and are not review. `sources-agree` means both setlist '
+               'sources give the show file\'s song order, and those sources may share upstream research. '
+               '`recording-backed` adds a track list reaching most of the show.', '',
                '## Shows by year', '', '| Year | Events |', '| --- | ---: |',
                *[f'| {y} | {n} |' for y, n in stats['years'].items()], ''])
     md.extend(['## Edition-specific playlists', '',

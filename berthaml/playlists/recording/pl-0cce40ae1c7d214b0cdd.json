@@ -37,12 +37,15 @@
       "n": 3,
       "title": "New Minglewood Blues",
       "file": "gd80-01-13d1t03.flac",
-      "mappingStatus": "unreviewed",
+      "mappingStatus": "candidate",
       "disc": 1,
       "sourceNumber": 3,
       "duration": "PT472.7S",
+      "certainty": "probable",
       "show": "gd1980-01-13",
-      "covers": []
+      "covers": [
+        "p01-03"
+      ]
     },
     {
       "n": 4,
@@ -198,12 +201,12 @@
   ],
   "notes": [
     "Lineage: SBD -> Cassette Master -> Dat | Dat -> Samplitude Professional v11.03 -> FLAC",
-    "Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1980-01-13. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.",
-    "Source credit (transfer-mastering): Charlie Miller",
-    "Legacy name match: Charlie Miller; role transfer-mastering.",
-    "Archive source metadata (lineage): Dat -> Samplitude Professional v11.03 -> FLAC",
-    "Archive source metadata (source): SBD -> Cassette Master -> Dat",
-    "Archive source metadata (transferer): Charlie Miller"
+    "Catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1980-01-13",
+    "transfer-mastering: Charlie Miller",
+    "Possible match: Charlie Miller (transfer-mastering)",
+    "Archive metadata (lineage): Dat -> Samplitude Professional v11.03 -> FLAC",
+    "Archive metadata (source): SBD -> Cassette Master -> Dat",
+    "Archive metadata (transferer): Charlie Miller"
   ],
   "date": "1980-01-13",
   "venue": "Oakland-Alameda County Coliseum Arena",

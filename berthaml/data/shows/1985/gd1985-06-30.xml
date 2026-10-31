@@ -3,11 +3,11 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19850630-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 882de8546909f4361d6dce265a5353b9b43011792e598c25e1b96be8023e5c89. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-885" nameAsBilled="Merriweather Post Pavilion"/>
+  <venue ref="v-merriweather-post-pavilion" nameAsBilled="Merriweather Post Pavilion"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-mississippi-half-step" transition="segue"/>
-      <performance id="p01-02" song="s-c-c-rider" transition="segue"/>
+      <performance id="p01-02" song="s-cc-rider" transition="segue"/>
       <performance id="p01-03" song="s-brown-eyed-women" transition="unknown"/>
       <performance id="p01-04" song="s-mama-tried" transition="segue"/>
       <performance id="p01-05" song="s-mexicali-blues" transition="unknown"/>
@@ -21,7 +21,7 @@
       <performance id="p02-01" song="s-shakedown-street" transition="segue"/>
       <performance id="p02-02" song="s-samson-and-delilah" transition="unknown"/>
       <performance id="p02-03" song="s-gimme-some-lovin" transition="segue"/>
-      <performance id="p02-04" song="s-he-s-gone" transition="segue"/>
+      <performance id="p02-04" song="s-hes-gone" transition="segue"/>
       <performance id="p02-05" song="s-cryptical-envelopment" transition="segue"/>
       <performance id="p02-06" song="s-drums" transition="segue"/>
       <performance id="p02-07" song="s-space" transition="segue"/>
@@ -32,7 +32,7 @@
       <note>Source section label: Set 2</note>
     </set>
     <set kind="encore" n="1" mode="unknown">
-      <performance id="p03-01" song="s-u-s-blues" transition="unknown"/>
+      <performance id="p03-01" song="s-us-blues" transition="unknown"/>
       <note>Source section label: Encore</note>
     </set>
   </program>

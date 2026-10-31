@@ -3,96 +3,100 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Ian supplied Gratitude catalogue, 2026-10-29 snapshot" href="urn:sha256:616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089" accessed="2026-10-30">Recording references associated by sole public event on this date only; individual metadata dates and provenance remain unreviewed. Input SHA-256 616f2ae3b45054351fdbb5cfa9c7df1d5013070aace9c89577d261d8c3a49089</cite>
   </record>
-  <recording id="r-290890de97db8fdddd81" kind="audience">
+  <recording id="r-290890de97db8fdddd81" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-12-16.138068.set2.akg414.wise.sirmick.sbeok.flac1648</identifier>
+    <identifier scheme="shnid" certainty="probable">138068</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Jim Wise</credit>
+    <credit role="transfer-mastering">SIRMick</credit>
+    <personMatch name="Oade Brothers" role="unspecified"/>
+    <personMatch name="Jim Wise" role="recordist"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Set 2 Fob recording &gt; AKG 414 &gt; Oade preamp &gt; Sony D-10 Pro &gt; DAT; recorded by Jim Wise; | DAT &gt; Sony D-10 Pro &gt; Tascam DA-3000 &gt; wav 16/48; Taped and transferred by Jim Wise; Lineage: wav 16/48 &gt; Adobe Audition 3.1 &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac16; edited and mastered SIRMick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Oade Brothers; role unspecified.</note>
-    <note certainty="uncertain">Legacy name match: Jim Wise; role recording.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-6f8476856a44115f5b3b" kind="audience">
     <identifier scheme="archive-org">gd1992-12-16.138710.aud.gastwirt.miller.sirmick.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">138710</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Unknown - provided by Rish Gastwirt</credit>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Source: unknown aud (possibly AKGs) &gt; dat (48k) provided by Rich Gastwirt; Transfer: Dat &gt; Sony PCM-R500 &gt; Sound Devices 744T &gt; wav 16/48; transferred by Charlie Miller; Lineage: wav &gt; iZotope RX 6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 16; edited and mastered SIRMick</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
-  <recording id="r-d832050a1c70415e7414" kind="audience">
+  <recording id="r-d832050a1c70415e7414" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-12-16.140423.s2.fob.Schoeps-MK41.miller.sirmick.flac1648</identifier>
-    <credit role="recordist">Unknown</credit>
+    <identifier scheme="shnid" certainty="probable">140423</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller and SIRMick</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
+    <personMatch name="SIRMick" role="transfer-mastering"/>
     <lineage>flac16/48kHz ; Set 2 Source: (FOB) Schoeps MK41 &gt; Panasonic SV-255 &gt; dat(48k); Transfer: dat &gt; Sony PCM-R500 &gt; Tascam DA-3000&gt; wav 16/48; Lineage: wav &gt; iZotope RX6 Advanced &gt; iZotope Ozone 5 Advanced &gt; CD Wave &gt; TLH &gt; Flac 1648; edited and mastered SIRMick January 2018</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Charlie Miller and SIRMick</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
-    <note certainty="uncertain">Legacy name match: SIRMick; role transfer-mastering.</note>
   </recording>
   <recording id="r-a03afc7b992e647fd9b6" kind="soundboard">
     <identifier scheme="archive-org">gd1992-12-16.140831.sbd.miller.flac2496</identifier>
+    <identifier scheme="shnid" certainty="probable">140831</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat Master (Panasonic SV-3700) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
   <recording id="r-260322b9e4e0c342522b" kind="soundboard">
     <identifier scheme="archive-org">gd1992-12-16.140853.sbd.cm.miller.flac1644</identifier>
+    <identifier scheme="shnid" certainty="probable">140853</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index archive-url-snapshot"/>
+    <credit role="transfer-mastering">Charlie Miller</credit>
+    <personMatch name="Charlie Miller" role="transfer-mastering"/>
     <lineage>SBD &gt; Dat Master (Panasonic SV-3700) &gt; Cassette Master (Tascam 122mkIII/TDK SA-X100) | Cassette Master (Nakamichi CR-7A) &gt; Tascam DA-3000 (DSF 1-bit/5.8 MHz) &gt;KORG AudioGate 4 &gt; Samplitude Pro X3 Suite &gt; FLAC/24</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source credit (transfer-mastering): Charlie Miller</note>
-    <note certainty="uncertain">Legacy name match: Charlie Miller; role transfer-mastering.</note>
   </recording>
-  <recording id="r-69ea14f74bc4e3126bea" kind="audience">
+  <recording id="r-69ea14f74bc4e3126bea" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-12-16.140956.FOB.Schoeps.Ammons.Noel.t-flac.1648</identifier>
+    <identifier scheme="shnid" certainty="probable">140956</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index"/>
     <credit role="recordist">John Ammons</credit>
+    <credit role="transfer-mastering">Joe Noel</credit>
     <lineage>flac16/48kHz ; Recording info: Schoeps CMC34 at 110 degrees ORTF on Schoeps t-bar &gt; MIT Cable &gt; Tao Research Power Supply &gt; Panasonic SV255; Location info: FOB, one person right of center, directly under center court Warriors scoreboard. Set 1 handheld at 5'9" &amp; Set 2 w/ 5'11" stand; Transfer info: Tascam DA20 Mark II DAT &gt; Roland SRC-2 sample rate/format converter (from SPDIF to Optical) &gt; Mac Mini &gt; Audacity 3.0 at 48K &gt; Wave; Master DAT Recording &amp; transfer by John Ammons</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Joe Noel</note>
   </recording>
-  <recording id="r-ac9fa2147720f148f29b" kind="unknown">
+  <recording id="r-ac9fa2147720f148f29b" kind="unknown" inferredKind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-12-16.fob.neumann.copeland.gems.79547.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">79547</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum Arena on 1992-12-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Chip Copeland</credit>
+    <credit role="transfer-mastering">Todd Evans and Jamie Waddell</credit>
+    <personMatch name="GEMS" role="unspecified"/>
     <lineage>Neumann km140 (110 deg. ORTF) -&gt; Neumann Supply -&gt; Panasonic sv255 | DAT(1) &gt; TASCAM DA-20 &gt; M-Audio Audiophile 192 &gt; Soundforge 8.0 wav</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note certainty="uncertain">Legacy inferred type: AUD</note>
-    <note>Source credit (transfer-mastering): Todd Evans and Jamie Waddell</note>
-    <note certainty="uncertain">Legacy name match: GEMS; role unspecified.</note>
   </recording>
-  <recording id="r-7347811bab939fdb0cab" kind="audience">
+  <recording id="r-7347811bab939fdb0cab" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd1992-12-16.fob.schoeps.boardman.evans.25812.sbeok.flac16</identifier>
+    <identifier scheme="shnid" certainty="probable">25812</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland Coliseum Arena on 1992-12-16" references="archive-index archive-url-snapshot"/>
     <credit role="recordist">Ed Boardman</credit>
+    <credit role="transfer-mastering">Ed Boardman and Chris Evans</credit>
     <lineage>fob 30' center(from stage) hand held cmc 4,41 ortf&gt;canare star quad cables&gt; koch power supply &gt; canare star quad cables&gt;koch modified panasonic sv-255 | panasonic sv-3700&gt; hhb 830&gt;CD-r&gt;EAC (secure mode)&gt;.wav&gt;Flac</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland Coliseum Arena on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
-    <note>Source credit (transfer-mastering): Ed Boardman and Chris Evans</note>
   </recording>
   <recording id="r-4063c3e8a64eed72c30a" kind="audience">
     <identifier scheme="archive-org">gd92-12-16.aud.vernon.9631.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">9631</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index archive-url-snapshot"/>
     <lineage>AUD&gt;??&gt;CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
-  <recording id="r-ca0c69b747e9ba46e38d" kind="audience">
+  <recording id="r-ca0c69b747e9ba46e38d" kind="audience" modifiers="FOB">
     <identifier scheme="archive-org">gd92-12-16.fob-schoeps.fishman.15395.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">15395</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index"/>
     <lineage>FOB Schoeps MK4V&gt; Sony D3&gt; D&gt; CD&gt; EAC&gt; WAV&gt; SHN encoded by JR Fishman</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index. Metadata attribution is unreviewed.</note>
-    <note>Source modifiers: FOB</note>
   </recording>
   <recording id="r-431378e9b2ec4e3ff738" kind="soundboard">
     <identifier scheme="archive-org">gd92-12-16.sbd-2track.stonebear.5551.sbeok.shnf</identifier>
+    <identifier scheme="shnid" certainty="probable">5551</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index archive-url-snapshot"/>
+    <personMatch name="Dan Healy" role="unspecified"/>
     <lineage>Soundboard | Dan Healy 2 track pa sbd dat master &gt; Healy cassette &gt; analog to digital by kingbee using Aoxoa's nak dragon for playback &gt; panasonic sv3800 dat &gt; HHb800&gt; CDR</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
-    <note certainty="uncertain">Legacy name match: Dan Healy; role unspecified.</note>
   </recording>
   <recording id="r-b071f05f004a0325940e" kind="matrix">
     <identifier scheme="archive-org">gd92-12-16.set2.matrix.27580.sbeok.flacf</identifier>
+    <identifier scheme="shnid" certainty="probable">27580</identifier>
+    <listing provider="Archive.org" title="Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16" references="archive-index archive-url-snapshot"/>
     <lineage>Matrix mix of Set 2 SBD</lineage>
-    <note>Supplied catalogue listing: Archive.org; Grateful Dead Live at Oakland-Alameda County Coliseum on 1992-12-16. Source references: archive-index archive-url-snapshot. Metadata attribution is unreviewed.</note>
   </recording>
 </recordings>

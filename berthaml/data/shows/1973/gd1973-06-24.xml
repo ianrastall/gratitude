@@ -3,7 +3,7 @@
   <record status="draft" updated="2026-10-30">
     <cite title="Jerrybase event and year-table factual capture" href="https://jerrybase.com/events/19730624-01" accessed="2026-10-31">Working event identity, venue and setlist facts; source year-page SHA-256 3eb1245f1a079cccc08242ea8879a56a615ac5a82caafd6a64a914813caa7f0c. Imported, not independently verified.</cite>
   </record>
-  <venue ref="v-jb-505" nameAsBilled="Portland Memorial Coliseum"/>
+  <venue ref="v-portland-memorial-coliseum" nameAsBilled="Portland Memorial Coliseum"/>
   <program coverage="partial">
     <set kind="set" n="1" mode="unknown">
       <performance id="p01-01" song="s-promised-land" transition="unknown"/>
@@ -25,7 +25,7 @@
     </set>
     <set kind="set" n="2" mode="unknown">
       <performance id="p02-01" song="s-mississippi-half-step" transition="unknown"/>
-      <performance id="p02-02" song="s-you-ain-t-woman-enough" transition="unknown"/>
+      <performance id="p02-02" song="s-you-aint-woman-enough" transition="unknown"/>
       <performance id="p02-03" song="s-el-paso" transition="unknown"/>
       <performance id="p02-04" song="s-stella-blue" transition="unknown"/>
       <performance id="p02-05" song="s-greatest-story-ever-told" transition="segue"/>
