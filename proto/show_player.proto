@@ -112,7 +112,73 @@ message Request {
     Empty get_priorities = 22;
     RecordingPriorities set_priorities = 23;
     TagShow tag_show = 24;
+    Empty list_shows = 25;
+    GetShow get_show = 26;
+    ListSongs list_songs = 27;
+    DescribeBook describe_book = 28;
   }
+}
+
+// BerthaML shows and songs, from the offline show database.
+message GetShow {
+  string id = 1;
+}
+// Every song, with each performance held by a show in the folder.
+message ListSongs {
+  string folder = 1;
+}
+// One book's library entry, including its BerthaML link, wherever the file is.
+message DescribeBook {
+  string path = 1;
+}
+message ShowSummary {
+  string id = 1;
+  string date = 2;
+  // Venue, city and region.
+  string place = 3;
+  // Record status: skeleton, draft, reviewed or verified.
+  string status = 4;
+  // The derived corroboration level, in words; never a review.
+  string corroboration = 5;
+  uint32 songs = 6;
+  uint32 recordings = 7;
+}
+message ShowList {
+  repeated ShowSummary shows = 1;
+}
+message SetlistEntry {
+  // Permanent performance ID within the show.
+  string id = 1;
+  string song_id = 2;
+  string title = 3;
+  bool segue = 4;
+  // "Set 1", "Encore" and so on.
+  string set = 5;
+}
+message ShowDetail {
+  ShowSummary summary = 1;
+  repeated SetlistEntry setlist = 2;
+  // The full reference text, as an import shows it.
+  string info = 3;
+}
+message OwnedPerformance {
+  string path = 1;
+  string book_title = 2;
+  string date = 3;
+  // Zero-based chapter index in the book.
+  uint32 chapter = 4;
+  string show = 5;
+  string place = 6;
+}
+message SongEntry {
+  string id = 1;
+  string title = 2;
+  // Performances in the show database.
+  uint32 played = 3;
+  repeated OwnedPerformance owned = 4;
+}
+message SongList {
+  repeated SongEntry songs = 1;
 }
 
 message Error {
@@ -194,6 +260,10 @@ message Response {
     RecordingList recordings = 7;
     ShowJob job = 8;
     RecordingPriorities priorities = 9;
+    ShowList shows = 10;
+    ShowDetail show = 11;
+    SongList songs = 12;
+    Book book = 13;
   }
 }
 

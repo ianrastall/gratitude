@@ -110,6 +110,66 @@ pub fn list_folder(reader: &mut Reader, folder: &Path, database: &Path) -> Resul
     Ok(books)
 }
 
+/// One book's entry, wherever its file is: what the store knows and its BerthaML link.
+pub fn describe(reader: &mut Reader, path: &str, database: &Path) -> BookEntry {
+    let row = reader.book(path).ok().flatten();
+    let stored = reader.source(path).ok().flatten();
+    entry(path.to_owned(), row, stored, database)
+}
+
+/// A song performance held by a chapter of a book in the folder.
+#[derive(Debug, Clone, Default, PartialEq, Eq)]
+pub struct OwnedPerformance {
+    pub path: String,
+    pub book_title: String,
+    pub date: String,
+    /// Zero-based chapter index.
+    pub chapter: u32,
+    pub show: String,
+    pub place: String,
+}
+
+#[derive(Debug, Clone, Default, PartialEq, Eq)]
+pub struct SongEntry {
+    pub id: String,
+    pub title: String,
+    /// Performances in the show database.
+    pub played: u32,
+    /// Performances held by books in the folder, by date.
+    pub owned: Vec<OwnedPerformance>,
+}
+
+/// Every song in the show database, each with the performances the folder's books hold.
+pub fn songs(reader: &mut Reader, folder: &Path, database: &Path) -> Result<Vec<SongEntry>, String> {
+    let mut owned = std::collections::HashMap::<String, Vec<OwnedPerformance>>::new();
+    for book in list_folder(reader, folder, database)?.into_iter().filter(|b| b.exists && !b.show_id.is_empty()) {
+        let Some(show) = crate::catalogue::show(database, &book.show_id)? else { continue };
+        for (chapter, held) in book.performances.iter().enumerate() {
+            for performance in held {
+                if let Some(entry) = show.setlist.iter().find(|e| e.id == *performance) {
+                    owned.entry(entry.song_id.clone()).or_default().push(OwnedPerformance {
+                        path: book.path.clone(),
+                        book_title: book.title.clone(),
+                        date: show.summary.date.clone(),
+                        chapter: chapter as u32,
+                        show: show.summary.id.clone(),
+                        place: show.summary.place.clone(),
+                    });
+                }
+            }
+        }
+    }
+    Ok(crate::catalogue::songs(database)?
+        .into_iter()
+        .map(|s| {
+            let mut held = owned.remove(&s.id).unwrap_or_default();
+            held.sort_by(|a, b| (&a.date, &a.book_title, a.chapter).cmp(&(&b.date, &b.book_title, b.chapter)));
+            held.dedup();
+            SongEntry { id: s.id, title: s.title, played: s.played, owned: held }
+        })
+        .collect())
+}
+
 /// Books played most recently first.
 pub fn recent(reader: &mut Reader, limit: usize, database: &Path) -> Result<Vec<BookEntry>, String> {
     let rows = reader.recent(limit)?;

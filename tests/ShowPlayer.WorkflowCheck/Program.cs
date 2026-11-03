@@ -143,6 +143,16 @@ foreach (bool copy in new[] { true, false })
     catch (AudioCoreException) { }
     Console.WriteLine($"PASS {(copy ? "stream copy" : "FLAC encode")}: chapters, exact TXT, exact decoded audio, overwrite protection");
 }
+var allShows = core.ListShows();
+Require(allShows.Count > 2000 && allShows.Any(s => s.Id == "gd1977-05-08" && s.Place.Contains("Barton Hall")), "The show list is incomplete");
+var cornellShow = core.GetShow("gd1977-05-08");
+Require(cornellShow.Setlist.Any(e => e.Title == "Scarlet Begonias" && e.Set == "Set 2") && cornellShow.Setlist.All(e => e.Id.Length > 0), "The Cornell setlist is incomplete");
+var described = core.DescribeBook(Path.Combine(fixture, "copy.mka"));
+Require(described.ShowId == "gd1977-05-08" && described.RecordingId == "r-a7630611865608b4e5e6", "A single book lost its BerthaML link");
+var folderSongs = core.ListSongs(fixture);
+Require(folderSongs.Count > 400 && folderSongs.All(s => s.Owned.Count == 0) && folderSongs.First(s => s.Title == "Scarlet Begonias").Played > 300,
+    "Song list is wrong: synthetic titles must hold no performances");
+Console.WriteLine("PASS all shows, Cornell setlist, single-book link and song list");
 core.Open(Path.Combine(fixture, "copy.mka"), out _);
 var wait = Stopwatch.StartNew();
 Snapshot snapshot;

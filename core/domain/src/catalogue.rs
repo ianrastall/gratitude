@@ -285,9 +285,47 @@ pub fn rank(x: &Profile, p: &Priorities) -> (usize, usize, usize) {
 }
 /// The database schema this build reads; compile_db.py sets it as user_version.
 const DATABASE_VERSION: i64 = 1;
+/// A BerthaML show for lists.
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
+pub struct ShowSummary {
+    pub id: String,
+    pub date: String,
+    /// Venue, city and region.
+    pub place: String,
+    pub status: String,
+    /// The derived corroboration level in words; never a review.
+    pub corroboration: String,
+    pub songs: u32,
+    pub recordings: u32,
+}
+/// One song performance in a show's setlist.
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
+pub struct SetlistEntry {
+    pub id: String,
+    pub song_id: String,
+    pub title: String,
+    pub segue: bool,
+    /// "Set 1", "Encore" and so on.
+    pub set: String,
+}
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
+pub struct ShowDetail {
+    pub summary: ShowSummary,
+    pub setlist: Vec<SetlistEntry>,
+    pub info: String,
+}
+/// A song and how many performances the show database holds.
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
+pub struct SongSummary {
+    pub id: String,
+    pub title: String,
+    pub played: u32,
+}
 /// One BerthaML show as Gratitude presents it.
 pub(crate) struct Show {
     pub(crate) id: String,
+    pub(crate) summary: ShowSummary,
+    pub(crate) setlist: Vec<SetlistEntry>,
     venue: String,
     names: Vec<String>,
     place: Place,
@@ -297,7 +335,16 @@ pub(crate) struct Show {
 }
 #[cfg(test)]
 pub(crate) fn test_show(id: &str, songs: Vec<(String, Vec<String>)>) -> Show {
-    Show { id: id.into(), venue: String::new(), names: Vec::new(), place: Place::default(), info: String::new(), songs }
+    Show {
+        id: id.into(),
+        summary: ShowSummary::default(),
+        setlist: Vec::new(),
+        venue: String::new(),
+        names: Vec::new(),
+        place: Place::default(),
+        info: String::new(),
+        songs,
+    }
 }
 /// One track of an original-file track list: file name, seconds when measured, covered performance IDs.
 pub(crate) type ListedTrack = (String, Option<f64>, Vec<String>);
@@ -320,6 +367,9 @@ pub(crate) struct Catalogue {
     pub(crate) sources: HashMap<String, Vec<Source>>,
     /// SHA-256 over the compiled corpus, from the database's meta table.
     pub(crate) corpus: String,
+    /// Each show's date, by ID.
+    dates: HashMap<String, String>,
+    songs: Vec<SongSummary>,
 }
 /// What the offline show database says about an imported show's date.
 #[derive(Clone, Debug, Default, PartialEq, Eq)]
@@ -447,17 +497,18 @@ impl Catalogue {
                 "" | "reviewed" => format!("\nBerthaML {id}: {review}."),
                 level => format!("\nBerthaML {id}: {review}; {level}."),
             };
+            let mut setlist = Vec::new();
             let show_sets = sets.get(&id).map(Vec::as_slice).unwrap_or_default();
             let encores = show_sets.iter().filter(|s| s.1 == "encore").count();
             for (set_n, kind, number, mode) in show_sets {
-                info += "\n\n";
-                info += &match kind.as_str() {
+                let label = match kind.as_str() {
                     "set" => format!("Set {number}"),
                     "encore" if encores == 1 => "Encore".into(),
                     "encore" => format!("Encore {number}"),
                     "soundcheck" => "Soundcheck".into(),
                     _ => "Set unknown".into(),
                 };
+                info += &format!("\n\n{label}");
                 if mode != "unknown" {
                     info += &format!(" ({mode})");
                 }
@@ -471,6 +522,13 @@ impl Catalogue {
                             let title = songs.get(song).map(String::as_str).unwrap_or(song);
                             let segue = if transition == "segue" { " >" } else { "" };
                             info += &format!("\n{n}. {title}{segue}");
+                            setlist.push(SetlistEntry {
+                                id: String::new(),
+                                song_id: song.clone(),
+                                title: title.to_owned(),
+                                segue: transition == "segue",
+                                set: label.clone(),
+                            });
                         }
                         None => info += &format!("\n({})", event.replace('-', " ")),
                     }
@@ -500,6 +558,18 @@ impl Catalogue {
                     members.join(", ")
                 );
             }
+            for (entry, performance) in setlist.iter_mut().zip(ids.get(&id).into_iter().flatten()) {
+                entry.id = performance.clone();
+            }
+            let summary = ShowSummary {
+                id: id.clone(),
+                date: date.clone(),
+                place: location.clone(),
+                status: status.clone(),
+                corroboration: corroboration(&level).to_owned(),
+                songs: setlist.len() as u32,
+                recordings: tapes.get(&id).copied().unwrap_or(0) as u32,
+            };
             match tapes.get(&id).copied().unwrap_or(0) {
                 0 => {}
                 1 => info += "\n\n1 circulating recording is listed for this show.",
@@ -521,8 +591,34 @@ impl Catalogue {
                 .zip(ids.get(&id).into_iter().flatten())
                 .map(|(song, performance)| (performance.clone(), titles.get(song).cloned().unwrap_or_default()))
                 .collect();
-            result.shows.entry(date).or_default().push(Show { id, venue, names, place, info, songs: show_songs });
+            result.dates.insert(id.clone(), date.clone());
+            result.shows.entry(date).or_default().push(Show {
+                id,
+                summary,
+                setlist,
+                venue,
+                names,
+                place,
+                info,
+                songs: show_songs,
+            });
         }
+        let mut played = HashMap::<&str, u32>::new();
+        for show in result.shows.values().flatten() {
+            for entry in &show.setlist {
+                *played.entry(entry.song_id.as_str()).or_default() += 1;
+            }
+        }
+        let mut song_list = songs
+            .iter()
+            .map(|(id, title)| SongSummary {
+                id: id.clone(),
+                title: title.clone(),
+                played: played.get(id.as_str()).copied().unwrap_or(0),
+            })
+            .collect::<Vec<_>>();
+        song_list.sort_by_cached_key(|s| (crate::linking::title_key(&s.title), s.id.clone()));
+        result.songs = song_list;
         result.excluded = grouped(rows(db, "SELECT date, category, venue FROM excluded_events ORDER BY date", |r| {
             Ok((text(r, 0)?, format!("{}: {}", text(r, 1)?, text(r, 2)?)))
         })?);
@@ -599,6 +695,9 @@ impl Catalogue {
             .optional()?
             .unwrap_or_default();
         Ok(result)
+    }
+    pub(crate) fn show(&self, id: &str) -> Option<&Show> {
+        self.shows.get(self.dates.get(id)?)?.iter().find(|s| s.id == id)
     }
     /// Everything known about a date, the chosen show first.
     fn date_info(&self, date: &str, first: Option<usize>) -> String {
@@ -678,6 +777,26 @@ pub(crate) fn choose(shows: &[Show], notes_venue: &str) -> Option<usize> {
         chosen = (0..shows.len()).collect();
     }
     chosen.first().copied().filter(|&i| chosen.iter().all(|&j| shows[j].venue == shows[i].venue))
+}
+/// Every BerthaML show, by date.
+pub fn shows(path: &Path) -> Result<Vec<ShowSummary>, String> {
+    let data = load(path)?;
+    let mut list = data.shows.values().flatten().map(|s| s.summary.clone()).collect::<Vec<_>>();
+    list.sort_by(|a, b| (&a.date, &a.id).cmp(&(&b.date, &b.id)));
+    Ok(list)
+}
+/// One show's summary, setlist and reference text.
+pub fn show(path: &Path, id: &str) -> Result<Option<ShowDetail>, String> {
+    let data = load(path)?;
+    Ok(data.show(id).map(|s| ShowDetail {
+        summary: s.summary.clone(),
+        setlist: s.setlist.clone(),
+        info: s.info.clone(),
+    }))
+}
+/// Every song in the registry, by title.
+pub fn songs(path: &Path) -> Result<Vec<SongSummary>, String> {
+    Ok(load(path)?.songs.clone())
 }
 pub fn search(path: &Path, query: &str, provider: &str, priorities: &Priorities) -> Result<Vec<Recording>, String> {
     let data = load(path)?;
@@ -841,6 +960,34 @@ mod tests {
         assert!(profile(&found[0]).people.contains(&"Charlie Miller".to_owned()));
         assert!(found[1].show_info.contains("Good Lovin'") && found[1].url.ends_with("/gd67-07-31.aud"));
         assert_eq!(search(&path, "good lovin", "etree", &Priorities::default()).unwrap().len(), 1);
+    }
+    #[test]
+    fn setlists_and_songs_come_from_the_database() {
+        let (_dir, path) = fixture();
+        let list = shows(&path).unwrap();
+        assert_eq!(
+            list.iter().map(|s| s.id.as_str()).collect::<Vec<_>>(),
+            ["gd1967-07-31-fillmore", "gd1967-07-31-okeefe"]
+        );
+        let detail = show(&path, "gd1967-07-31-okeefe").unwrap().unwrap();
+        assert_eq!((detail.summary.songs, detail.summary.recordings), (3, 2));
+        assert_eq!(detail.summary.place, "O'Keefe Centre, Toronto, Canada");
+        let rows = detail
+            .setlist
+            .iter()
+            .map(|e| (e.id.as_str(), e.title.as_str(), e.segue, e.set.as_str()))
+            .collect::<Vec<_>>();
+        assert_eq!(
+            rows,
+            [
+                ("p01-01", "Bertha", true, "Set 1"),
+                ("p01-02", "Good Lovin'", false, "Set 1"),
+                ("p02-01", "Bertha", false, "Encore")
+            ]
+        );
+        assert!(show(&path, "gd1999-01-01").unwrap().is_none());
+        let played = songs(&path).unwrap().into_iter().map(|s| (s.title, s.played)).collect::<Vec<_>>();
+        assert_eq!(played, [("Bertha".to_owned(), 2), ("Good Lovin'".to_owned(), 1)]);
     }
     #[test]
     fn refuses_other_database_versions() {

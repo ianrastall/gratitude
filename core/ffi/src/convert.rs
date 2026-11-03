@@ -123,6 +123,59 @@ pub fn books_to_message(books: &[BookEntry]) -> messages::BookList {
             .collect(),
     }
 }
+impl From<show_player_core::catalogue::ShowSummary> for messages::ShowSummary {
+    fn from(s: show_player_core::catalogue::ShowSummary) -> Self {
+        Self {
+            id: s.id,
+            date: s.date,
+            place: s.place,
+            status: s.status,
+            corroboration: s.corroboration,
+            songs: s.songs,
+            recordings: s.recordings,
+        }
+    }
+}
+impl From<show_player_core::catalogue::ShowDetail> for messages::ShowDetail {
+    fn from(d: show_player_core::catalogue::ShowDetail) -> Self {
+        Self {
+            summary: Some(d.summary.into()),
+            setlist: d
+                .setlist
+                .into_iter()
+                .map(|e| messages::SetlistEntry {
+                    id: e.id,
+                    song_id: e.song_id,
+                    title: e.title,
+                    segue: e.segue,
+                    set: e.set,
+                })
+                .collect(),
+            info: d.info,
+        }
+    }
+}
+impl From<show_player_core::library::SongEntry> for messages::SongEntry {
+    fn from(s: show_player_core::library::SongEntry) -> Self {
+        Self {
+            id: s.id,
+            title: s.title,
+            played: s.played,
+            owned: s
+                .owned
+                .into_iter()
+                .map(|o| messages::OwnedPerformance {
+                    path: o.path,
+                    book_title: o.book_title,
+                    date: o.date,
+                    chapter: o.chapter,
+                    show: o.show,
+                    place: o.place,
+                })
+                .collect(),
+        }
+    }
+}
 // Show import and catalogue values cross the same generated protobuf boundary.
 impl From<show_player_core::shows::Track> for crate::messages::ShowTrack {
     fn from(t: show_player_core::shows::Track) -> Self {

@@ -196,6 +196,10 @@ public sealed class AudioCore : IDisposable
         Query(new Request { PackageShow = new PackageShow { Draft = draft, Output = output, CopyAudio = copyAudio } }).Job;
     public ShowJob TagShow(ShowDraft draft, string folder) =>
         Query(new Request { TagShow = new TagShow { Draft = draft, Folder = folder } }).Job;
+    public IReadOnlyList<ShowSummary> ListShows() => Query(new Request { ListShows = NoArguments }).Shows.Shows;
+    public ShowDetail GetShow(string id) => Query(new Request { GetShow = new GetShow { Id = id } }).Show;
+    public IReadOnlyList<SongEntry> ListSongs(string folder) => Query(new Request { ListSongs = new ListSongs { Folder = folder } }).Songs.Songs;
+    public Book DescribeBook(string path) => Query(new Request { DescribeBook = new DescribeBook { Path = path } }).Book;
     public ShowJob GetJob() => Query(new Request { GetJob = NoArguments }).Job;
     public void CancelJob() => Query(new Request { CancelJob = NoArguments });
     public RecordingPriorities GetPriorities() => Query(new Request { GetPriorities = NoArguments }).Priorities;

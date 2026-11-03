@@ -15,11 +15,35 @@ using Windows.System;
 
 namespace Jupiter.ShowPlayer.App;
 
-/// <summary>One row of the chapter list.</summary>
-public sealed record ChapterRow(int Index, string Number, string Title, string Length)
+/// <summary>
+/// One row of the chapter list: a chapter (Index is its chapter), a set heading, or a setlist
+/// song this recording does not hold (Index -1 for both).
+/// </summary>
+public sealed record ChapterRow(int Index, string Number, string Title, string Length, bool Heading = false)
 {
+    public Visibility HeadingVisibility => Heading ? Visibility.Visible : Visibility.Collapsed;
+    public Visibility RowVisibility => Heading ? Visibility.Collapsed : Visibility.Visible;
+
     // What a screen reader announces for the row.
-    public override string ToString() => $"{Number}. {Title}, {Length}";
+    public override string ToString() => Heading ? Title : Index < 0 ? $"{Title}, {Length}" : $"{Number}. {Title}, {Length}";
+}
+
+/// <summary>One BerthaML show in the All shows list.</summary>
+public sealed record ShowRow(string Id, string Date, string Place, string Detail, string Owned)
+{
+    public override string ToString() => $"{Date}, {Place}, {Detail} {Owned}";
+}
+
+/// <summary>One song in the Songs list.</summary>
+public sealed record SongRow(string Id, string Title, string Detail)
+{
+    public override string ToString() => $"{Title}, {Detail}";
+}
+
+/// <summary>A performance of a song held by a chapter of a show in the folder.</summary>
+public sealed record PerformanceRow(string Path, int Chapter, string Heading, string Detail)
+{
+    public override string ToString() => $"{Heading}, {Detail}";
 }
 
 /// <summary>One row of the Books pane.</summary>
@@ -74,6 +98,15 @@ public sealed partial class MainWindow : Window
     private string _bookPath = "", _bookTitle = "", _codec = "", _lastBook = "";
     private long _fileSize;
     private List<Chapter> _chapters = [];
+    private List<ChapterRow> _chapterRows = [];
+    private Book? _bookLink;            // the open book's BerthaML link
+    private ShowDetail? _bookShow;      // and its show, for the setlist
+    private int _linkRequest;           // the newest link asked for; older answers are dropped
+    private int _playChapter = -1;      // chapter to start at once the requested open loads
+    private string _area = "player";
+    private List<ShowSummary>? _allShows;
+    private List<SongEntry>? _songs;
+    private string? _songsProblem;
     private List<Book> _books = [];
     private string? _booksProblem;
     private int _booksRequest;          // the newest book list asked for; older answers are dropped
@@ -195,6 +228,11 @@ public sealed partial class MainWindow : Window
                     reread = reloadChapters = loaded = true;
                     if (e.RequestId == _playRequest)
                     {
+                        if (_playChapter >= 0)
+                        {
+                            _core.SelectChapter(_playChapter);
+                            _playChapter = -1;
+                        }
                         _core.Play();
                     }
                     if (e.RequestId == _startupRequest)
@@ -232,6 +270,7 @@ public sealed partial class MainWindow : Window
             PlayPauseButton.Focus(FocusState.Programmatic);
             refreshBooks = true;
             _ = RefreshRecentAsync();
+            _ = LoadLinkAsync(_bookPath);
         }
         ShowAll();
         if (refreshBooks)
@@ -271,10 +310,101 @@ public sealed partial class MainWindow : Window
         }
         _chaptersGeneration = s.Generation;
         _chapters = [.. s.Chapters];
-        ChapterList.ItemsSource = _chapters
-            .Select((c, i) => new ChapterRow(i, $"{i + 1}", c.Title.Length > 0 ? c.Title : $"Chapter {i + 1}", Clock(c.End - c.Start)))
-            .ToList();
-        ChaptersHeading.Text = _chapters.Count == 1 ? "1 chapter" : $"{_chapters.Count} chapters";
+        ShowChapters();
+    }
+
+    /// <summary>
+    /// The chapters, laid out on the show's setlist when the book is linked to one: set
+    /// headings, and setlist songs this recording does not hold in their places.
+    /// </summary>
+    private void ShowChapters()
+    {
+        var rows = new List<ChapterRow>();
+        var setlist = _bookShow?.Setlist;
+        var held = _bookLink is { } link && SamePath(link.Path, _bookPath) ? link.ChapterPerformances : null;
+        bool laidOut = setlist is { Count: > 0 } && held is not null && held.Count == _chapters.Count && held.Any(h => h.Length > 0);
+        string set = "";
+        int next = 0;
+        void Heading(string label)
+        {
+            if (label.Length > 0 && label != set)
+            {
+                set = label;
+                rows.Add(new ChapterRow(-1, "", label, "", Heading: true));
+            }
+        }
+        void Missing(int until)
+        {
+            for (; next < until; next++)
+            {
+                Heading(setlist![next].Set);
+                rows.Add(new ChapterRow(-1, "", setlist[next].Title, "Not in this recording"));
+            }
+        }
+        for (int i = 0; i < _chapters.Count; i++)
+        {
+            if (laidOut)
+            {
+                string[] ids = held![i].Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                int first = ids.Length > 0 ? setlist!.ToList().FindIndex(e => e.Id == ids[0]) : -1;
+                if (first >= 0)
+                {
+                    if (first >= next)
+                    {
+                        Missing(first);
+                    }
+                    Heading(setlist![first].Set);
+                    next = Math.Max(next, setlist.ToList().FindIndex(e => e.Id == ids[^1]) + 1);
+                }
+            }
+            Chapter c = _chapters[i];
+            rows.Add(new ChapterRow(i, $"{i + 1}", c.Title.Length > 0 ? c.Title : $"Chapter {i + 1}", Clock(c.End - c.Start)));
+        }
+        if (laidOut)
+        {
+            Missing(setlist!.Count);
+        }
+        _chapterRows = rows;
+        ChapterList.ItemsSource = rows;
+        string count = _chapters.Count == 1 ? "1 chapter" : $"{_chapters.Count} chapters";
+        ChaptersHeading.Text = laidOut ? $"Setlist · {count}" : count;
+        SelectCurrentChapter(force: true);
+    }
+
+    /// <summary>Reads the open book's BerthaML link and its show, then lays the chapters on the setlist.</summary>
+    private async Task LoadLinkAsync(string path)
+    {
+        if (_core is null || path.Length == 0)
+        {
+            return;
+        }
+        int request = ++_linkRequest;
+        AudioCore core = _core;
+        Book? link = null;
+        ShowDetail? show = null;
+        try
+        {
+            (link, show) = await Task.Run(() =>
+            {
+                Book book = core.DescribeBook(path);
+                return (book, book.ShowId.Length > 0 ? core.GetShow(book.ShowId) : null);
+            });
+        }
+        catch (AudioCoreException e)
+        {
+            AppLog.Write($"The show's BerthaML link could not be read: {e.Message}");
+        }
+        if (request != _linkRequest || _closed || !SamePath(path, _bookPath))
+        {
+            return;
+        }
+        _bookLink = link;
+        _bookShow = show;
+        ShowLinkText.Text = show is null
+            ? link is { Link.Length: > 0 } ? link.Link : ""
+            : $"{show.Summary.Date} · {show.Summary.Place} · BerthaML {show.Summary.Id}, {show.Summary.Status} record";
+        ToolTipService.SetToolTip(ShowLinkText, link?.Link);
+        ShowChapters();
     }
 
     // ------------------------------------------------------------------
@@ -343,17 +473,18 @@ public sealed partial class MainWindow : Window
     private Chapter? CurrentChapter() =>
         _chapter >= 0 && _chapter < _chapters.Count && _chaptersGeneration == _generation ? _chapters[_chapter] : null;
 
-    private void SelectCurrentChapter()
+    private void SelectCurrentChapter(bool force = false)
     {
-        int index = _chaptersGeneration == _generation && _chapter < _chapters.Count ? _chapter : -1;
-        if (ChapterList.SelectedIndex == index)
+        int chapter = _chaptersGeneration == _generation && _chapter < _chapters.Count ? _chapter : -1;
+        int index = chapter < 0 ? -1 : _chapterRows.FindIndex(r => r.Index == chapter);
+        if (ChapterList.SelectedIndex == index && !force)
         {
             return;
         }
         ChapterList.SelectedIndex = index;
-        if (index >= 0 && ChapterList.ItemsSource is List<ChapterRow> rows)
+        if (index >= 0)
         {
-            ChapterList.ScrollIntoView(rows[index]);
+            ChapterList.ScrollIntoView(_chapterRows[index]);
         }
     }
 
@@ -486,6 +617,10 @@ public sealed partial class MainWindow : Window
             }
             _books = [.. books];
             _booksProblem = null;
+            if (_songs is not null)
+            {
+                _ = RefreshSongsAsync();
+            }
         }
         catch (AudioCoreException e)
         {
@@ -516,6 +651,10 @@ public sealed partial class MainWindow : Window
                 : "No shows in this folder. The Shows pane lists .mka files.");
         int index = rows.FindIndex(r => SamePath(r.Path, _bookPath));
         BookList.SelectedIndex = index;
+        if (_allShows is not null)
+        {
+            ShowShows();
+        }
     }
 
     private string BookDetail(Book b)
@@ -600,8 +739,7 @@ public sealed partial class MainWindow : Window
         }
         if (!SamePath(path, _bookPath) || _state is not (PlaybackState.Paused or PlaybackState.Playing or PlaybackState.Loading))
         {
-            _chapters = [];
-            ChapterList.ItemsSource = null;
+            ForgetChapters();
             _core.Open(path, out _playRequest);
         }
         else if (_state == PlaybackState.Paused)
@@ -642,10 +780,38 @@ public sealed partial class MainWindow : Window
         }
         if (!SamePath(path, _bookPath) || _state is PlaybackState.Missing or PlaybackState.Failed or PlaybackState.Idle)
         {
-            _chapters = [];
-            ChapterList.ItemsSource = null;
+            ForgetChapters();
             _core.Open(path, out _);
         }
+    }
+
+    private void ForgetChapters()
+    {
+        _chapters = [];
+        _chapterRows = [];
+        _bookLink = null;
+        _bookShow = null;
+        ShowLinkText.Text = "";
+        ChapterList.ItemsSource = null;
+    }
+
+    /// <summary>Plays a book from the start of one chapter, opening it first when needed.</summary>
+    private void PlayChapter(string path, int chapter)
+    {
+        if (_core is null)
+        {
+            return;
+        }
+        ShowArea("player");
+        if (SamePath(path, _bookPath) && _state is PlaybackState.Paused or PlaybackState.Playing or PlaybackState.Finished)
+        {
+            _core.SelectChapter(chapter);
+            _core.Play();
+            return;
+        }
+        ForgetChapters();
+        _playChapter = chapter;
+        _core.Open(path, out _playRequest);
     }
 
     private async void OnOpenFile(object sender, RoutedEventArgs e)
@@ -673,11 +839,283 @@ public sealed partial class MainWindow : Window
     private void OnCloseBook(object sender, RoutedEventArgs e) => _core?.CloseBook();
 
     // ------------------------------------------------------------------
+    // Navigation: Player, All shows, Songs, and Settings in the footer
+
+    private void OnNavigationChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+    {
+        if (args.IsSettingsSelected)
+        {
+            // Settings is its own window (standard section 11); the area stays as it was.
+            OpenSettings();
+            ShowArea(_area);
+            return;
+        }
+        ShowArea((args.SelectedItemContainer?.Tag as string) ?? "player");
+    }
+
+    private void ShowArea(string area)
+    {
+        _area = area;
+        Workspace.Visibility = area == "player" ? Visibility.Visible : Visibility.Collapsed;
+        ShowsArea.Visibility = area == "shows" ? Visibility.Visible : Visibility.Collapsed;
+        SongsArea.Visibility = area == "songs" ? Visibility.Visible : Visibility.Collapsed;
+        object item = area switch { "shows" => ShowsItem, "songs" => SongsItem, _ => PlayerItem };
+        if (!ReferenceEquals(Navigation.SelectedItem, item))
+        {
+            Navigation.SelectedItem = item;
+        }
+        if (area == "shows" && _allShows is null)
+        {
+            _ = LoadShowsAsync();
+        }
+        if (area == "songs" && _songs is null)
+        {
+            _ = RefreshSongsAsync();
+        }
+    }
+
+    // The pane is compact (48) below 1440 wide, where the player needs the room for its
+    // transport labels beside the Shows pane, and open (224) above. Auto mode does this
+    // itself but can draw an open pane with compact items when layout settles late, as it
+    // does with a real audio device, so Left mode is used and the pane is opened or closed
+    // here: only once the control has loaded, and only when the width crosses the line, so
+    // the pane button keeps working.
+    private const double WideNavigationWidth = 1440;
+    private bool? _wideNavigation;
+
+    private void OnNavigationLoaded(object sender, RoutedEventArgs e) => FitNavigationPane();
+
+    private void OnNavigationSizeChanged(object sender, SizeChangedEventArgs e) => FitNavigationPane();
+
+    private void FitNavigationPane()
+    {
+        if (!Navigation.IsLoaded)
+        {
+            return;
+        }
+        bool wide = Navigation.ActualWidth >= WideNavigationWidth;
+        if (wide == _wideNavigation)
+        {
+            return;
+        }
+        _wideNavigation = wide;
+        DispatcherQueue.TryEnqueue(Microsoft.UI.Dispatching.DispatcherQueuePriority.Low, () => Navigation.IsPaneOpen = wide);
+    }
+
+    private void OnShowPlayerArea(object sender, RoutedEventArgs e) => ShowArea("player");
+
+    private void OnShowShowsArea(object sender, RoutedEventArgs e) => ShowArea("shows");
+
+    private void OnShowSongsArea(object sender, RoutedEventArgs e) => ShowArea("songs");
+
+    // ------------------------------------------------------------------
+    // All shows
+
+    private async Task LoadShowsAsync()
+    {
+        if (_core is null)
+        {
+            ShowsCount.Text = "The show database is unavailable while the player cannot start.";
+            return;
+        }
+        AudioCore core = _core;
+        ShowsCount.Text = "Reading the show database…";
+        try
+        {
+            _allShows = [.. await Task.Run(core.ListShows)];
+        }
+        catch (AudioCoreException e)
+        {
+            ShowsCount.Text = $"The show database could not be read. {e.Message}";
+            return;
+        }
+        if (_closed)
+        {
+            return;
+        }
+        var years = _allShows.Select(s => s.Date[..4]).Distinct().Order().ToList();
+        YearFilter.Items.Clear();
+        YearFilter.Items.Add("All years");
+        foreach (string year in years)
+        {
+            YearFilter.Items.Add(year);
+        }
+        YearFilter.SelectedIndex = 0;
+        ShowShows();
+    }
+
+    private void ShowShows()
+    {
+        if (_allShows is null)
+        {
+            return;
+        }
+        var owned = _books.Where(b => b.Exists && b.ShowId.Length > 0).GroupBy(b => b.ShowId).ToDictionary(g => g.Key, g => g.Count());
+        string search = ShowSearch.Text.Trim();
+        string year = YearFilter.SelectedItem as string ?? "All years";
+        bool ownedOnly = OwnedShowsOnly.IsChecked == true;
+        string? selected = (ShowList.SelectedItem as ShowRow)?.Id;
+        var rows = _allShows
+            .Where(s => year == "All years" || s.Date.StartsWith(year, StringComparison.Ordinal))
+            .Where(s => !ownedOnly || owned.ContainsKey(s.Id))
+            .Where(s => search.Length == 0
+                || s.Date.Contains(search, StringComparison.OrdinalIgnoreCase)
+                || s.Place.Contains(search, StringComparison.CurrentCultureIgnoreCase)
+                || s.Id.Contains(search, StringComparison.OrdinalIgnoreCase))
+            .Select(s => new ShowRow(s.Id, s.Date, s.Place, ShowDetailText(s), owned.TryGetValue(s.Id, out int n) ? (n == 1 ? "In folder" : $"{n} in folder") : ""))
+            .ToList();
+        ShowList.ItemsSource = rows;
+        int ownedCount = _allShows.Count(s => owned.ContainsKey(s.Id));
+        ShowsCount.Text = $"{rows.Count:N0} of {_allShows.Count:N0} shows · {ownedCount:N0} in the shows folder";
+        ShowList.SelectedIndex = selected is null ? -1 : rows.FindIndex(r => r.Id == selected);
+    }
+
+    private static string ShowDetailText(ShowSummary s)
+    {
+        string songs = s.Songs == 0 ? "no setlist" : s.Songs == 1 ? "1 song" : $"{s.Songs} songs";
+        string tapes = s.Recordings == 1 ? "1 listed recording" : $"{s.Recordings} listed recordings";
+        return $"{songs} · {tapes} · {s.Status}";
+    }
+
+    private void OnShowSearchChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args) => ShowShows();
+
+    private void OnShowFilterChanged(object sender, SelectionChangedEventArgs e) => ShowShows();
+
+    private void OnShowFilterClicked(object sender, RoutedEventArgs e) => ShowShows();
+
+    private async void OnShowSelected(object sender, SelectionChangedEventArgs e)
+    {
+        if (ShowList.SelectedItem is not ShowRow row || _core is null)
+        {
+            return;
+        }
+        var books = _books.Where(b => b.ShowId == row.Id && b.Exists)
+            .Select(b => new BookRow(b.Path, b.Title, BookDetail(b), b.SourceSummary, b.Credits))
+            .ToList();
+        ShowRecordings.ItemsSource = books;
+        ShowRecordings.Visibility = books.Count > 0 ? Visibility.Visible : Visibility.Collapsed;
+        // The reference text begins with the date and place.
+        ShowDetailHint.Visibility = Visibility.Collapsed;
+        AudioCore core = _core;
+        try
+        {
+            ShowDetail detail = await Task.Run(() => core.GetShow(row.Id));
+            if (!_closed && (ShowList.SelectedItem as ShowRow)?.Id == row.Id)
+            {
+                ShowInfo.Text = detail.Info;
+            }
+        }
+        catch (AudioCoreException ex)
+        {
+            ShowInfo.Text = $"The show could not be read. {ex.Message}";
+        }
+    }
+
+    private void OnShowRecordingClicked(object sender, ItemClickEventArgs e)
+    {
+        if (e.ClickedItem is BookRow row)
+        {
+            ShowArea("player");
+            PlayBook(row.Path);
+        }
+    }
+
+    // ------------------------------------------------------------------
+    // Songs
+
+    private async Task RefreshSongsAsync()
+    {
+        string? folder = LibraryFolder();
+        if (_core is null || folder is null)
+        {
+            _songs = [];
+            _songsProblem = folder is null ? "Choose the folder that holds your shows to see the performances in it." : "The show database is unavailable.";
+            ShowSongs();
+            return;
+        }
+        AudioCore core = _core;
+        SongsCount.Text = "Reading the shows folder…";
+        try
+        {
+            var songs = await Task.Run(() => core.ListSongs(folder));
+            if (_closed)
+            {
+                return;
+            }
+            _songs = [.. songs];
+            _songsProblem = null;
+        }
+        catch (AudioCoreException e)
+        {
+            _songs = [];
+            _songsProblem = $"The songs could not be read. {e.Message}";
+        }
+        ShowSongs();
+    }
+
+    private void ShowSongs()
+    {
+        if (_songs is null)
+        {
+            return;
+        }
+        string search = SongSearch.Text.Trim();
+        bool ownedOnly = OwnedSongsOnly.IsChecked == true;
+        string? selected = (SongList.SelectedItem as SongRow)?.Id;
+        var rows = _songs
+            .Where(s => !ownedOnly || s.Owned.Count > 0)
+            .Where(s => search.Length == 0 || s.Title.Contains(search, StringComparison.CurrentCultureIgnoreCase))
+            .Select(s => new SongRow(s.Id, s.Title, SongDetail(s)))
+            .ToList();
+        SongList.ItemsSource = rows;
+        int ownedCount = _songs.Count(s => s.Owned.Count > 0);
+        SongsCount.Text = _songsProblem ?? $"{rows.Count:N0} of {_songs.Count:N0} songs · {ownedCount:N0} in the shows folder";
+        SongList.SelectedIndex = selected is null ? -1 : rows.FindIndex(r => r.Id == selected);
+        if (SongList.SelectedIndex < 0)
+        {
+            ShowPerformances(null);
+        }
+    }
+
+    private static string SongDetail(SongEntry s)
+    {
+        string played = s.Played == 1 ? "Played once" : $"Played {s.Played:N0} times";
+        string owned = s.Owned.Count switch { 0 => "none in the folder", 1 => "1 in the folder", var n => $"{n} in the folder" };
+        return $"{played} · {owned}";
+    }
+
+    private void OnSongSearchChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args) => ShowSongs();
+
+    private void OnSongFilterClicked(object sender, RoutedEventArgs e) => ShowSongs();
+
+    private void OnSongSelected(object sender, SelectionChangedEventArgs e) =>
+        ShowPerformances(SongList.SelectedItem is SongRow row ? _songs?.FirstOrDefault(s => s.Id == row.Id) : null);
+
+    private void ShowPerformances(SongEntry? song)
+    {
+        SongHeading.Text = song?.Title ?? "Song";
+        PerformanceList.ItemsSource = song?.Owned
+            .Select(o => new PerformanceRow(o.Path, (int)o.Chapter, $"{o.Date} · {o.Place}", $"{o.BookTitle} · chapter {o.Chapter + 1}"))
+            .ToList();
+        SongDetailHint.Text = song is null
+            ? "Choose a song to see the performances in the shows folder."
+            : song.Owned.Count == 0 ? "No show in the folder holds this song." : "Choose a performance to play it.";
+    }
+
+    private void OnPerformanceClicked(object sender, ItemClickEventArgs e)
+    {
+        if (e.ClickedItem is PerformanceRow row)
+        {
+            PlayChapter(row.Path, row.Chapter);
+        }
+    }
+
+    // ------------------------------------------------------------------
     // Transport and volume
 
     private void OnChapterClicked(object sender, ItemClickEventArgs e)
     {
-        if (e.ClickedItem is ChapterRow row)
+        if (e.ClickedItem is ChapterRow { Index: >= 0 } row)
         {
             _core?.SelectChapter(row.Index);
         }
@@ -889,6 +1327,7 @@ public sealed partial class MainWindow : Window
             ("Ctrl+M", "Mute"),
             ("Ctrl+O", "Open a file"),
             ("Ctrl+W", "Close the show"),
+            ("Ctrl+1 / Ctrl+2 / Ctrl+3", "Player, All shows, Songs"),
             ("Ctrl+B", "Show or hide the Shows pane"),
             ("F5", "Refresh the Shows pane"),
             ("Ctrl++ / Ctrl+- / Ctrl+0", "Zoom in, zoom out, actual size"),

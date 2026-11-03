@@ -7,8 +7,9 @@
     xmlns:controls="using:CommunityToolkit.WinUI.Controls"
     Title="Gratitude">
 
-    <!-- Player workspace (standard section 7): the open book centered on the window
-         background, the Books pane on the right, a status bar below. -->
+    <!-- Suite workspace (standard section 7): navigation between the player (a player
+         workspace with the Shows pane on the right), all BerthaML shows and songs (collection
+         workspaces with a detail pane), and Settings in the navigation footer. -->
     <Grid x:Name="Root" Background="{ThemeResource JupiterWindowBrush}" PreviewKeyDown="OnPreviewKeyDown">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -36,6 +37,22 @@
                 <MenuFlyoutItem Text="Exit" Click="OnExit" KeyboardAcceleratorTextOverride="Alt+F4" />
             </MenuBarItem>
             <MenuBarItem Title="View">
+                <MenuFlyoutItem Text="Player" Click="OnShowPlayerArea">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="Number1" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutItem Text="All shows" Click="OnShowShowsArea">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="Number2" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutItem Text="Songs" Click="OnShowSongsArea">
+                    <MenuFlyoutItem.KeyboardAccelerators>
+                        <KeyboardAccelerator Modifiers="Control" Key="Number3" />
+                    </MenuFlyoutItem.KeyboardAccelerators>
+                </MenuFlyoutItem>
+                <MenuFlyoutSeparator />
                 <ToggleMenuFlyoutItem x:Name="BooksPaneItem" Text="Shows pane" Click="OnToggleBooksPane">
                     <ToggleMenuFlyoutItem.KeyboardAccelerators>
                         <KeyboardAccelerator Modifiers="Control" Key="B" />
@@ -124,7 +141,22 @@
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
 
-                <Grid x:Name="Workspace" BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="0,1,0,0">
+                <NavigationView x:Name="Navigation" PaneDisplayMode="Left" Loaded="OnNavigationLoaded" SizeChanged="OnNavigationSizeChanged" IsBackButtonVisible="Collapsed" IsSettingsVisible="True"
+                                OpenPaneLength="{StaticResource JupiterNavigationPaneWidth}" SelectionChanged="OnNavigationChanged"
+                                BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="0,1,0,0">
+                    <NavigationView.MenuItems>
+                        <NavigationViewItem x:Name="PlayerItem" Content="Player" Tag="player" IsSelected="True">
+                            <NavigationViewItem.Icon><FontIcon Glyph="&#xE768;" /></NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                        <NavigationViewItem x:Name="ShowsItem" Content="All shows" Tag="shows">
+                            <NavigationViewItem.Icon><FontIcon Glyph="&#xE787;" /></NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                        <NavigationViewItem x:Name="SongsItem" Content="Songs" Tag="songs">
+                            <NavigationViewItem.Icon><FontIcon Glyph="&#xE8D6;" /></NavigationViewItem.Icon>
+                        </NavigationViewItem>
+                    </NavigationView.MenuItems>
+                <Grid>
+                <Grid x:Name="Workspace">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" MinWidth="480" />
                         <ColumnDefinition x:Name="SplitterColumn" Width="Auto" />
@@ -148,6 +180,7 @@
                             <TextBlock x:Name="TitleText" Style="{StaticResource JupiterSectionHeadingTextStyle}" TextWrapping="Wrap" MaxLines="2"
                                        TextTrimming="CharacterEllipsis" IsTextSelectionEnabled="True" />
                             <TextBlock x:Name="AuthorText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" />
+                            <TextBlock x:Name="ShowLinkText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True" />
                         </StackPanel>
 
                         <!-- Empty state: no book open -->
@@ -169,16 +202,20 @@
                                       AutomationProperties.Name="Chapters">
                                 <ListView.ItemTemplate>
                                     <DataTemplate x:DataType="local:ChapterRow">
-                                        <Grid ColumnSpacing="12">
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="Auto" />
-                                                <ColumnDefinition Width="*" />
-                                                <ColumnDefinition Width="Auto" />
-                                            </Grid.ColumnDefinitions>
-                                            <TextBlock Text="{x:Bind Number}" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center" MinWidth="24" />
-                                            <TextBlock Grid.Column="1" Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}"
-                                                       TextTrimming="CharacterEllipsis" VerticalAlignment="Center" ToolTipService.ToolTip="{x:Bind Title}" />
-                                            <TextBlock Grid.Column="2" Text="{x:Bind Length}" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center" />
+                                        <Grid>
+                                            <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterCaptionStrongTextStyle}" VerticalAlignment="Bottom"
+                                                       Padding="0,12,0,4" Visibility="{x:Bind HeadingVisibility}" />
+                                            <Grid ColumnSpacing="12" Visibility="{x:Bind RowVisibility}">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="{x:Bind Number}" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center" MinWidth="24" />
+                                                <TextBlock Grid.Column="1" Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}"
+                                                           TextTrimming="CharacterEllipsis" VerticalAlignment="Center" ToolTipService.ToolTip="{x:Bind Title}" />
+                                                <TextBlock Grid.Column="2" Text="{x:Bind Length}" Style="{StaticResource JupiterCaptionTextStyle}" VerticalAlignment="Center" />
+                                            </Grid>
                                         </Grid>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
@@ -299,6 +336,139 @@
                         </Expander>
                     </Grid>
                 </Grid>
+
+                <!-- All shows: every BerthaML show, with the selected one's setlist and reference -->
+                <Grid x:Name="ShowsArea" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MinWidth="320" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="400" MinWidth="240" />
+                    </Grid.ColumnDefinitions>
+                    <Grid Padding="24" RowSpacing="8">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid ColumnSpacing="8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <AutoSuggestBox x:Name="ShowSearch" PlaceholderText="Search by date, venue or city" QueryIcon="Find"
+                                            TextChanged="OnShowSearchChanged" AutomationProperties.Name="Search all shows" />
+                            <ComboBox x:Name="YearFilter" Grid.Column="1" MinWidth="120" SelectionChanged="OnShowFilterChanged" AutomationProperties.Name="Year" />
+                        </Grid>
+                        <CheckBox x:Name="OwnedShowsOnly" Grid.Row="1" Content="Only shows in the shows folder" Click="OnShowFilterClicked" />
+                        <TextBlock x:Name="ShowsCount" Grid.Row="2" Style="{StaticResource JupiterQuietCaptionTextStyle}" />
+                        <ListView x:Name="ShowList" Grid.Row="3" SelectionMode="Single" SelectionChanged="OnShowSelected" AutomationProperties.Name="Show list">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="local:ShowRow">
+                                    <Grid Padding="0,8" ColumnSpacing="12">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="{x:Bind Date}" Style="{StaticResource JupiterBodyStrongTextStyle}" />
+                                        <StackPanel Grid.Column="1" Spacing="4">
+                                            <TextBlock Text="{x:Bind Place}" Style="{StaticResource JupiterBodyTextStyle}" TextTrimming="CharacterEllipsis" ToolTipService.ToolTip="{x:Bind Place}" />
+                                            <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />
+                                        </StackPanel>
+                                        <TextBlock Grid.Column="2" Text="{x:Bind Owned}" Style="{StaticResource JupiterCaptionStrongTextStyle}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                    <controls:GridSplitter Grid.Column="1" Width="8" ResizeBehavior="BasedOnAlignment" ResizeDirection="Columns"
+                                           Background="{ThemeResource JupiterWindowBrush}" AutomationProperties.Name="Resize show pane" />
+                    <Grid Grid.Column="2" Padding="16" RowSpacing="8" Background="{ThemeResource JupiterSurfaceBrush}"
+                          BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="1,0,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Show" Style="{StaticResource JupiterPaneHeadingTextStyle}" />
+                        <TextBlock x:Name="ShowDetailHint" Grid.Row="1" Text="Choose a show to see its setlist." Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
+                        <ListView x:Name="ShowRecordings" Grid.Row="2" SelectionMode="None" IsItemClickEnabled="True" ItemClick="OnShowRecordingClicked"
+                                  AutomationProperties.Name="Recordings of this show in the shows folder" Visibility="Collapsed">
+                            <ListView.Header>
+                                <TextBlock Text="In the shows folder" Style="{StaticResource JupiterCaptionStrongTextStyle}" Padding="0,0,0,4" />
+                            </ListView.Header>
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="local:BookRow">
+                                    <StackPanel Padding="0,8" Spacing="4" ToolTipService.ToolTip="{x:Bind Path}">
+                                        <local:SourceBadgesControl Labels="{x:Bind SourceInfo}" />
+                                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
+                                        <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        <ScrollViewer Grid.Row="3">
+                            <TextBlock x:Name="ShowInfo" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True" />
+                        </ScrollViewer>
+                    </Grid>
+                </Grid>
+
+                <!-- Songs: every song, with each performance the shows folder holds -->
+                <Grid x:Name="SongsArea" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MinWidth="320" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="400" MinWidth="240" />
+                    </Grid.ColumnDefinitions>
+                    <Grid Padding="24" RowSpacing="8">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <AutoSuggestBox x:Name="SongSearch" PlaceholderText="Search songs" QueryIcon="Find" TextChanged="OnSongSearchChanged" AutomationProperties.Name="Search songs" />
+                        <CheckBox x:Name="OwnedSongsOnly" Grid.Row="1" Content="Only songs in the shows folder" IsChecked="True" Click="OnSongFilterClicked" />
+                        <TextBlock x:Name="SongsCount" Grid.Row="2" Style="{StaticResource JupiterQuietCaptionTextStyle}" TextWrapping="Wrap" />
+                        <ListView x:Name="SongList" Grid.Row="3" SelectionMode="Single" SelectionChanged="OnSongSelected" AutomationProperties.Name="Song list">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="local:SongRow">
+                                    <StackPanel Padding="0,8" Spacing="4">
+                                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
+                                        <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                    <controls:GridSplitter Grid.Column="1" Width="8" ResizeBehavior="BasedOnAlignment" ResizeDirection="Columns"
+                                           Background="{ThemeResource JupiterWindowBrush}" AutomationProperties.Name="Resize song pane" />
+                    <Grid Grid.Column="2" Padding="16" RowSpacing="8" Background="{ThemeResource JupiterSurfaceBrush}"
+                          BorderBrush="{ThemeResource JupiterSeparatorBrush}" BorderThickness="1,0,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <TextBlock x:Name="SongHeading" Text="Song" Style="{StaticResource JupiterPaneHeadingTextStyle}" TextWrapping="Wrap" />
+                        <TextBlock x:Name="SongDetailHint" Grid.Row="1" Text="Choose a song to see the performances in the shows folder." Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
+                        <ListView x:Name="PerformanceList" Grid.Row="2" SelectionMode="None" IsItemClickEnabled="True" ItemClick="OnPerformanceClicked"
+                                  AutomationProperties.Name="Performances in the shows folder">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="local:PerformanceRow">
+                                    <StackPanel Padding="0,8" Spacing="4" ToolTipService.ToolTip="{x:Bind Path}">
+                                        <TextBlock Text="{x:Bind Heading}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
+                                        <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                </Grid>
+                </Grid>
+                </NavigationView>
 
                 <!-- Status bar (standard section 6): persistent state only -->
                 <Grid x:Name="StatusBar" Grid.Row="1" MinHeight="{StaticResource JupiterStatusBarHeight}" Padding="{StaticResource JupiterStatusBarPadding}" ColumnSpacing="16"

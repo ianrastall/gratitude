@@ -1,6 +1,6 @@
 # Gratitude
 
-A Windows player and organizer for Grateful Dead recordings already on your computer, covering shows through 9 August 1995. Version 0.5.0. Follows Jupiter style standard 1.1.
+A Windows player and organizer for Grateful Dead recordings already on your computer, covering shows through 9 August 1995. Version 0.6.0. Follows Jupiter style standard 1.1.
 
 Gratitude works exclusively with local folders and Matroska audio (`.mka`). It does not search for online recordings, download, torrent, seed or stream online sources. The acquisition workflow, network client and bundled torrent engine have been removed. Existing downloaded files and partial downloads remain untouched.
 
@@ -34,7 +34,13 @@ In an MKA, each source file becomes a chapter holding the song title and track n
 
 **Job** shows packaging progress and cancellation. Closing the main window cancels an active package; closing only the workshop leaves it running. Failed/cancelled packaging does not publish a partial MKA.
 
-The local Shows pane displays colored source/modifier badges and credits. Clicking a show plays it. The top-right choice is **SBD first** or **MTX first**, with AUD/FM/UNKNOWN following both. The supplied category-specific tiers apply automatically; members of a tier tie. See `docs/recording-tiers.md`. Recent shows retain recency. Playback supports chapters, seeking, volume and saved positions. File > Settings controls library folder, skip interval, theme and accent. A red-family Windows accent is replaced once with a blue-teal so that red only ever means an error; Settings can restore it.
+The window has three areas in the navigation pane on the left (Ctrl+1, Ctrl+2, Ctrl+3), with Settings at its foot:
+
+- **Player**: the open show. When the show is linked to BerthaML, its chapters are laid out on the setlist under set headings, and setlist songs the recording does not hold appear in their places as "Not in this recording". The Shows pane on the right lists the MKAs in the shows folder.
+- **All shows**: every BerthaML show, searchable by date, venue or city and filterable by year or to the shows in the folder. The pane on the right shows the selected show's reference text, with its setlist, and any MKAs of it in the folder, which play when clicked.
+- **Songs**: every song, with how often the show database says it was played and how many performances the folder holds. Choosing a performance opens its show at that chapter and plays it.
+
+The Shows pane displays colored source/modifier badges and credits. Clicking a show plays it. The top-right choice is **SBD first** or **MTX first**, with AUD/FM/UNKNOWN following both. The supplied category-specific tiers apply automatically; members of a tier tie. See `docs/recording-tiers.md`. Recent shows retain recency. Playback supports chapters, seeking, volume and saved positions. File > Settings controls library folder, skip interval, theme and accent. A red-family Windows accent is replaced once with a blue-teal so that red only ever means an error; Settings can restore it.
 
 ## Offline reference
 
@@ -52,4 +58,4 @@ pwsh build/build.ps1
 
 Release runs formatting, Clippy, Rust/ABI tests, managed local-import/MKA/audio checks and WinUI style checks, then publishes a self-contained installer and supplemental portable zip under `dist/`. There is no bundled aria2 or HTTP client. Upgrades retain existing application identity and `%LOCALAPPDATA%\show-player` data. Uninstall does not remove user audio or app data.
 
-Rust owns local inspection, TXT parsing, offline references from the BerthaML database, MKA creation, playback and resume state. WinUI 3/C# owns the interface through a protobuf C ABI. Playback infrastructure is adapted from Jupiter Audio Bookshelf. See `docs/project-brief.md` and `docs/validation-0.5.0.md`.
+Rust owns local inspection, TXT parsing, offline references from the BerthaML database, MKA creation, playback and resume state. WinUI 3/C# owns the interface through a protobuf C ABI. Playback infrastructure is adapted from Jupiter Audio Bookshelf. See `docs/project-brief.md` and `docs/validation-0.6.0.md`.

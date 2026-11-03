@@ -307,6 +307,35 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
             let limit = if r.limit == 0 { DEFAULT_RECENT } else { r.limit as usize };
             books(library::recent(&mut lock(&core.reader), limit, &show_database()), false)
         }
+        Some(C::ListShows(_)) => match show_player_core::catalogue::shows(&show_database()) {
+            Ok(list) => {
+                ok(response::Result::Shows(messages::ShowList { shows: list.into_iter().map(Into::into).collect() }))
+            }
+            Err(e) => error_response(id, ErrorKind::Io, e),
+        },
+        Some(C::GetShow(g)) => match show_player_core::catalogue::show(&show_database(), &g.id) {
+            Ok(Some(show)) => ok(response::Result::Show(show.into())),
+            Ok(None) => error_response(id, ErrorKind::NotFound, format!("No BerthaML show {}.", g.id)),
+            Err(e) => error_response(id, ErrorKind::Io, e),
+        },
+        Some(C::ListSongs(l)) => {
+            if l.folder.is_empty() {
+                return error_response(id, ErrorKind::InvalidArgument, "No folder was given.");
+            }
+            match library::songs(&mut lock(&core.reader), Path::new(&l.folder), &show_database()) {
+                Ok(list) => ok(response::Result::Songs(messages::SongList {
+                    songs: list.into_iter().map(Into::into).collect(),
+                })),
+                Err(e) => error_response(id, ErrorKind::Io, e),
+            }
+        }
+        Some(C::DescribeBook(d)) => {
+            let entry = library::describe(&mut lock(&core.reader), &d.path, &show_database());
+            match convert::books_to_message(&[entry]).books.pop() {
+                Some(book) => ok(response::Result::Book(book)),
+                None => error_response(id, ErrorKind::NotFound, "The show could not be described."),
+            }
+        }
         None => error_response(id, ErrorKind::UnknownCommand, "Unknown or missing command."),
     }
 }
