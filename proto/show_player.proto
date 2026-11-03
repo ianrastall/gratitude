@@ -250,6 +250,10 @@ message Book {
   string link = 15;
   // BerthaML performance IDs held by each chapter, space-separated.
   repeated string chapter_performances = 16;
+  // The show's date as YYYY-MM-DD, written out, and its venue, city and region.
+  string date = 17;
+  string show_date = 18;
+  string place = 19;
 }
 
 message BookList {

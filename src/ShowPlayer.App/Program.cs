@@ -23,11 +23,19 @@ public static partial class Program
     [STAThread]
     public static int Main(string[] args)
     {
-        // Created before the instance mutex: a second launch can signal even during WinUI startup.
-        s_showSignal = new EventWaitHandle(false, EventResetMode.AutoReset, ShowEventName);
+        // One instance per user session and data folder. A run against its own --data folder
+        // (tests, development) cannot disturb the saved positions in use, so it may run beside
+        // the installed app; every ordinary launch shares the unscoped names.
+        string scope = App.Options.DataDirectory is { } data
+            ? "." + Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(
+                System.Text.Encoding.UTF8.GetBytes(Path.GetFullPath(data).ToLowerInvariant())))[..16]
+            : "";
 
-        // One instance per user session. A second launch asks the first to show its window.
-        using var instance = new Mutex(initiallyOwned: true, InstanceMutexName, out bool createdNew);
+        // Created before the instance mutex: a second launch can signal even during WinUI startup.
+        s_showSignal = new EventWaitHandle(false, EventResetMode.AutoReset, ShowEventName + scope);
+
+        // A second launch asks the first to show its window.
+        using var instance = new Mutex(initiallyOwned: true, InstanceMutexName + scope, out bool createdNew);
         if (!createdNew)
         {
             // This process was started by the user, so it may hand the foreground to the first one.

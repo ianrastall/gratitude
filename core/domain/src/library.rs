@@ -33,6 +33,12 @@ pub struct BookEntry {
     pub link: String,
     /// BerthaML performance IDs held by each chapter.
     pub performances: Vec<Vec<String>>,
+    /// The show's date as YYYY-MM-DD, from BerthaML or else the book itself; empty if unknown.
+    pub date: String,
+    /// The date written out, such as "Sunday, May 22, 1977".
+    pub show_date: String,
+    /// Venue, city and region from BerthaML; empty when the show is not linked.
+    pub place: String,
 }
 
 fn file_stem(path: &str) -> String {
@@ -58,14 +64,26 @@ fn link(path: &str, title: &str, stored: Option<String>, database: &Path) -> lin
     linking::link(database, &evidence).unwrap_or_default()
 }
 
+/// A book's source profile, with roles from what its notes say each person did.
+fn book_profile(notes: &str, title: &str, path: &str) -> crate::catalogue::Profile {
+    let (taper, transfer) = crate::catalogue::credited_in(notes);
+    crate::catalogue::classify(notes, &format!("{title} {path}"), &taper, &transfer, "", "")
+}
+
 fn entry(path: String, row: Option<BookRow>, stored: Option<String>, database: &Path) -> BookEntry {
     let exists = Path::new(&path).is_file();
     let title = title_of(&path, row.as_ref().map(|r| r.title.as_str()));
     let link = link(&path, &title, stored, database);
+    let show = (!link.show.is_empty()).then(|| crate::catalogue::show(database, &link.show).ok().flatten()).flatten();
+    let date = show
+        .as_ref()
+        .map(|s| s.summary.date.clone())
+        .unwrap_or_else(|| linking::mka_evidence(Path::new(&path), &title).date);
+    let place = show.map(|s| s.summary.place).unwrap_or_default();
     let (position_ms, duration_ms, finished, last_played_utc) =
         row.map_or((0, 0, false, 0), |r| (r.position_ms, r.duration_ms, r.finished, r.last_played_utc));
     let notes = matroska::read_source_notes(Path::new(&path));
-    let profile = crate::catalogue::classify(&notes, &format!("{title} {path}"), "", "", "", "");
+    let profile = book_profile(&notes, &title, &path);
     BookEntry {
         source_summary: profile.summary(),
         credits: profile.credits,
@@ -83,6 +101,9 @@ fn entry(path: String, row: Option<BookRow>, stored: Option<String>, database: &
         recording_id: link.recording,
         link: link.detail,
         performances: link.performances,
+        show_date: if date.is_empty() { String::new() } else { crate::report::long_date(&date) },
+        date,
+        place,
     }
 }
 
@@ -106,7 +127,8 @@ pub fn list_folder(reader: &mut Reader, folder: &Path, database: &Path) -> Resul
             entry(path, row, stored, database)
         })
         .collect();
-    books.sort_by_cached_key(|b| (b.title.to_lowercase(), b.path.to_lowercase()));
+    // By show date; books with no known date follow, by title.
+    books.sort_by_cached_key(|b| (b.date.is_empty(), b.date.clone(), b.title.to_lowercase(), b.path.to_lowercase()));
     Ok(books)
 }
 
@@ -125,7 +147,7 @@ pub fn report(reader: &mut Reader, path: &str, database: &Path) -> String {
     let link = link(path, &title, stored, database);
     let evidence = linking::mka_evidence(Path::new(path), &title);
     let notes = matroska::read_source_notes(Path::new(path));
-    let profile = crate::catalogue::classify(&notes, &format!("{title} {path}"), "", "", "", "");
+    let profile = book_profile(&notes, &title, path);
     // Earlier versions put the whole notes in the comment; the report keeps taper and equipment.
     let comment = if notes.lines().count() > 2 || notes.len() > 300 {
         crate::shows::recording_comment(&notes, &crate::catalogue::known_tapers(&profile))

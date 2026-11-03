@@ -1,6 +1,6 @@
 # Gratitude
 
-A Windows player and organizer for Grateful Dead recordings already on your computer, covering shows through 9 August 1995. Version 0.7.0. Follows Jupiter style standard 1.1.
+A Windows player and organizer for Grateful Dead recordings already on your computer, covering shows through 9 August 1995. Version 0.8.0. Follows Jupiter style standard 1.1.
 
 Gratitude works exclusively with local folders and Matroska audio (`.mka`). It does not search for online recordings, download, torrent, seed or stream online sources. The acquisition workflow, network client and bundled torrent engine have been removed. Existing downloaded files and partial downloads remain untouched.
 
@@ -62,4 +62,4 @@ pwsh build/build.ps1
 
 Release runs formatting, Clippy, Rust/ABI tests, managed local-import/MKA/audio checks and WinUI style checks, then publishes a self-contained installer and supplemental portable zip under `dist/`. There is no bundled aria2 or HTTP client. Upgrades retain existing application identity and `%LOCALAPPDATA%\show-player` data. Uninstall does not remove user audio or app data.
 
-Rust owns local inspection, TXT parsing, offline references from the BerthaML database, MKA creation, playback and resume state. WinUI 3/C# owns the interface through a protobuf C ABI. Playback infrastructure is adapted from Jupiter Audio Bookshelf. See `docs/project-brief.md` and `docs/validation-0.7.0.md`.
+Rust owns local inspection, TXT parsing, offline references from the BerthaML database, MKA creation, playback and resume state. WinUI 3/C# owns the interface through a protobuf C ABI. Playback infrastructure is adapted from Jupiter Audio Bookshelf. See `docs/project-brief.md` and `docs/validation-0.8.0.md`.

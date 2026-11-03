@@ -322,8 +322,9 @@
                                 <DataTemplate x:DataType="local:BookRow">
                                     <StackPanel Padding="0,8" Spacing="4" ToolTipService.ToolTip="{x:Bind Path}">
                                         <local:SourceBadgesControl Labels="{x:Bind SourceInfo}" />
-                                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" MaxLines="2" TextTrimming="CharacterEllipsis" />
-                                        <TextBlock Text="{x:Bind Credits}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" />
+                                        <TextBlock Text="{x:Bind Heading}" Style="{StaticResource JupiterBodyStrongTextStyle}" TextWrapping="Wrap" />
+                                        <TextBlock Text="{x:Bind Place}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" Visibility="{x:Bind PlaceVisibility}" />
+                                        <TextBlock Text="{x:Bind Credits}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" Visibility="{x:Bind CreditsVisibility}" />
                                         <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />
                                     </StackPanel>
                                 </DataTemplate>
@@ -407,7 +408,8 @@
                                 <DataTemplate x:DataType="local:BookRow">
                                     <StackPanel Padding="0,8" Spacing="4" ToolTipService.ToolTip="{x:Bind Path}">
                                         <local:SourceBadgesControl Labels="{x:Bind SourceInfo}" />
-                                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
+                                        <TextBlock Text="{x:Bind Credits}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" Visibility="{x:Bind CreditsVisibility}" />
+                                        <TextBlock Text="{x:Bind FileName}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" />
                                         <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />
                                     </StackPanel>
                                 </DataTemplate>

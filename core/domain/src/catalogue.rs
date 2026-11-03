@@ -146,7 +146,7 @@ const ALIASES: &[(&str, &str)] = &[
     ("Charlie Miller", r"(?i)\bcharlie[- ._]*miller\b|[._-]miller(?:[._-]|$)|^miller$"),
     ("Dan Healy", r"(?i)\b(?:dan[- ._]*healy|healy)\b"),
     ("Don Pearson", r"(?i)\b(?:don[- ._]*pearson|pearson)\b"),
-    ("Hunter Seamons", r"(?i)\b(?:hunter[- ._]*seamons|seamons|hunter.?s trix)\b"),
+    ("Hunter Seamons", r"(?i)\b(?:hunter[- ._]*seamons|seamons|hunter.?s[- ._]+(?:trix|matrix))\b"),
     ("Dave Usborne", r"(?i)\b(?:dave[- ._]*usborne|dusborne|usborne)\b"),
     ("Rob Eaton", r"(?i)\b(?:rob[- ._]*eaton|eaton)\b"),
     ("Rango Keshavan", r"(?i)\b(?:rango[- ._]*keshavan|keshavan)\b"),
@@ -201,6 +201,46 @@ const AUD_TIERS: &[&[&str]] = &[
 ];
 const MTX_TIERS: &[&[&str]] =
     &[&["Hunter Seamons", "Dave Usborne"], &["Chris Chappell", "Kevin Tobin", "SIRMick", "Hucky"]];
+const TAPER: &str = "Taper";
+const TRANSFER: &str = "Transfer and mastering";
+const MATRIX: &str = "Matrix";
+const CREDITED: &str = "Credited";
+/// The role the user-supplied tiers give a person: those who recorded (the board engineers and
+/// audience tapers), those who transferred and mastered, and those who made matrices.
+fn usual_role(name: &str) -> &'static str {
+    if SBD_TIERS[0].contains(&name) || AUD_TIERS.iter().any(|tier| tier.contains(&name)) {
+        TAPER
+    } else if SBD_TIERS[1..].iter().any(|tier| tier.contains(&name)) {
+        TRANSFER
+    } else if MTX_TIERS.iter().any(|tier| tier.contains(&name)) {
+        MATRIX
+    } else {
+        CREDITED
+    }
+}
+/// Who the notes say recorded the show and who transferred or mastered it, from lines such as
+/// "Taper: Rob Bertrando", "Recorded by ..." and "All Transfers and Mastering By Charlie Miller".
+/// Lineage chains ("CD -> Samplitude") are not credits.
+pub fn credited_in(notes: &str) -> (String, String) {
+    let taper = re(r"(?i)^(?:taper|taped by|recorded by|recording by|recordist)\s*(?::|-|by)?\s*(.+)$");
+    let transfer = re(concat!(
+        r"(?i)\b(?:transfers?|transferred|mastering|mastered|remastered|remastering)\b",
+        r"(?:\s+(?:and|&)\s+(?:transfers?|transferred|mastering|mastered|remastered|remastering))?",
+        r"\s*(?:\bby\b\s*:?|:)\s*(.+)$"
+    ));
+    let name = |text: &str| {
+        let text = text.split(';').next().unwrap_or_default().trim().trim_end_matches(['.', ',']);
+        (!text.is_empty() && !text.contains('>') && text.chars().count() <= 80).then(|| text.to_owned())
+    };
+    let first = |pattern: &Regex| {
+        notes
+            .lines()
+            .map(str::trim)
+            .find_map(|line| pattern.captures(line).and_then(|c| name(&c[1])))
+            .unwrap_or_default()
+    };
+    (first(&taper), first(&transfer))
+}
 pub fn classify(source: &str, identifier: &str, taper: &str, transfer: &str, lineage: &str, hints: &str) -> Profile {
     let hint = re(r"(?i)^\s*(?:(?:better|cool|great|main)\s+)*(SBD|AUD|matrix|ultramatrix|FM)\b")
         .captures(hints.trim())
@@ -223,32 +263,41 @@ pub fn classify(source: &str, identifier: &str, taper: &str, transfer: &str, lin
     if has(&all, r"(?i)\bfm\b") && !modifiers.iter().any(|s| s == "PRE-FM") {
         modifiers.push("FM".into());
     }
+    // A role comes from what the notes say a person did, else from the house tiers.
     let mut people = Vec::new();
-    let mut credits = Vec::new();
+    let mut roles = Vec::<(&str, String)>::new();
     for (name, pattern) in ALIASES {
         if [source, identifier, taper, transfer, lineage, hints].iter().any(|text| has(text.trim(), pattern)) {
             people.push((*name).into());
             let role = if has(taper, pattern) {
-                "recording"
+                TAPER
             } else if has(transfer, pattern) {
-                "transfer/mastering"
+                TRANSFER
             } else {
-                "role unspecified; name inferred"
+                usual_role(name)
             };
-            credits.push(format!("{name} ({role})"));
+            roles.push((role, (*name).into()));
         }
     }
-    if !taper.trim().is_empty() {
-        credits.push(format!("Recording credit: {}", clean(taper)));
+    // Someone the notes credit who is not a known name, if the credit is short enough to be a name.
+    for (role, text) in [(TAPER, taper), (TRANSFER, transfer)] {
+        let text = clean(text);
+        if !text.is_empty() && text.chars().count() <= 60 && !ALIASES.iter().any(|(_, p)| has(&text, p)) {
+            roles.push((role, text));
+        }
     }
-    if !transfer.trim().is_empty() {
-        credits.push(format!("Transfer/mastering credit: {}", clean(transfer)));
-    }
+    let credits = [TAPER, TRANSFER, MATRIX, CREDITED]
+        .iter()
+        .filter_map(|role| {
+            let names = roles.iter().filter(|(r, _)| r == role).map(|(_, n)| n.as_str()).collect::<Vec<_>>();
+            (!names.is_empty()).then(|| format!("{role}: {}", names.join(", ")))
+        })
+        .collect::<Vec<_>>();
     Profile {
         kind: primary.into(),
         modifiers,
         people,
-        credits: credits.join(" | "),
+        credits: credits.join(" · "),
         evidence: clean(&all),
         inferred: explicit.is_none() && primary != "UNKNOWN",
     }
@@ -839,7 +888,30 @@ mod tests {
     fn separates_matrix_broadcast_and_location() {
         let p = classify("Ultramatrix SBD > cassette", "gd1988.fob.fm", "", "Charlie Miller", "", "");
         assert_eq!(p.summary(), "MTX | FOB | ULTRAMATRIX | FM");
-        assert!(p.credits.contains("transfer/mastering"));
+        assert_eq!(p.credits, "Transfer and mastering: Charlie Miller");
+    }
+    #[test]
+    fn roles_come_from_the_notes_then_the_tiers() {
+        let notes = "Grateful Dead\nRecording Info:\nSBD -> Master Reel -> Dat -> CD\nTransfer Info:\nCD -> Samplitude -> FLAC\nAll Transfers and Mastering By Charlie Miller\n";
+        assert_eq!(credited_in(notes), (String::new(), "Charlie Miller".into()));
+        assert_eq!(credited_in("Taper: Rob Bertrando; Equipment: SBD > Reel"), ("Rob Bertrando".into(), String::new()));
+        assert_eq!(
+            credited_in("Recorded by Joe Smith.\nTransferred by: Ann Lee"),
+            ("Joe Smith".into(), "Ann Lee".into())
+        );
+        let profile = |notes: &str, name: &str| {
+            let (taper, transfer) = credited_in(notes);
+            classify(notes, name, &taper, &transfer, "", "").credits
+        };
+        assert_eq!(profile("Taper: Rob Bertrando", "770522_fl"), "Taper: Rob Bertrando");
+        assert_eq!(
+            profile("Transfer by Charlie Miller", "gd77.sbd.betty"),
+            "Taper: Betty Cantor-Jackson · Transfer and mastering: Charlie Miller"
+        );
+        // A taper the tiers do not know is still credited by the notes.
+        assert_eq!(profile("Taper: Joe Smith", "gd77.aud"), "Taper: Joe Smith");
+        assert_eq!(profile("", "1977-05-04 The Palladium Hunter_s Matrix"), "Matrix: Hunter Seamons");
+        assert_eq!(profile("", "gd77.miller"), "Transfer and mastering: Charlie Miller");
     }
     #[test]
     fn does_not_turn_david_cantor_into_betty() {

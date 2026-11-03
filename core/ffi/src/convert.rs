@@ -119,6 +119,9 @@ pub fn books_to_message(books: &[BookEntry]) -> messages::BookList {
                 recording_id: b.recording_id.clone(),
                 link: b.link.clone(),
                 chapter_performances: b.performances.iter().map(|p| p.join(" ")).collect(),
+                date: b.date.clone(),
+                show_date: b.show_date.clone(),
+                place: b.place.clone(),
             })
             .collect(),
     }

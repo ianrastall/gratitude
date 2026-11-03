@@ -748,7 +748,8 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
     }
     // Archive folder names state the source; notes may only mention one, as with an audience patch.
     let name = folder.file_name().unwrap_or_default().to_string_lossy().into_owned();
-    let profile = crate::catalogue::classify(&name, &draft.notes, "", "", "", "");
+    let (taper, transfer) = crate::catalogue::credited_in(&draft.notes);
+    let profile = crate::catalogue::classify(&name, &draft.notes, &taper, &transfer, "", "");
     draft.comment = recording_comment(&draft.notes, &crate::catalogue::known_tapers(&profile));
     if draft.comment.is_empty() {
         draft.warnings.push("The notes name no taper or equipment. Fill in the comment by hand.".into());

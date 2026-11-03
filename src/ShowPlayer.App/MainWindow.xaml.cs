@@ -47,9 +47,18 @@ public sealed record PerformanceRow(string Path, int Chapter, string Heading, st
 }
 
 /// <summary>One row of the Books pane.</summary>
-public sealed record BookRow(string Path, string Title, string Detail,string SourceInfo,string Credits)
+public sealed record BookRow(string Path, string Heading, string Place, string Detail, string SourceInfo, string Credits)
 {
-    public override string ToString() => $"{Title}, {Detail}";
+    public override string ToString() => string.Join(", ", new[] { Heading, Place, Credits, Detail }.Where(t => t.Length > 0));
+
+    /// <summary>A card for a book: the show's date and place when linked, else its own title.</summary>
+    public static BookRow From(Book b, string detail) => new(b.Path, BookHeading(b), b.ShowDate.Length > 0 ? b.Place : "", detail, b.SourceSummary, b.Credits);
+
+    public static string BookHeading(Book b) => b.ShowDate.Length > 0 ? b.ShowDate : b.Title;
+
+    public string FileName => System.IO.Path.GetFileName(Path);
+    public Visibility PlaceVisibility => Place.Length > 0 ? Visibility.Visible : Visibility.Collapsed;
+    public Visibility CreditsVisibility => Credits.Length > 0 ? Visibility.Visible : Visibility.Collapsed;
 }
 
 /// <summary>
@@ -96,6 +105,7 @@ public sealed partial class MainWindow : Window
     private double _position, _duration, _volume = 100;
     private bool _mute, _saveFailed, _wasFinished;
     private string _bookPath = "", _bookTitle = "", _codec = "", _lastBook = "";
+    private string _bookHeading = "", _bookPlace = "";  // the linked show's date and place
     private long _fileSize;
     private List<Chapter> _chapters = [];
     private List<ChapterRow> _chapterRows = [];
@@ -303,7 +313,7 @@ public sealed partial class MainWindow : Window
         _codec = s.Codec;
         _fileSize = s.FileSize;
         _bookTitle = s.Title.Length > 0 ? s.Title : s.Path.Length > 0 ? Path.GetFileNameWithoutExtension(s.Path) : "";
-        AuthorText.Text = s.Author;
+        AuthorText.Text = _bookPlace.Length > 0 ? _bookPlace : s.Author;
         if (!reloadChapters || s.State == PlaybackState.Loading)
         {
             return;
@@ -339,6 +349,18 @@ public sealed partial class MainWindow : Window
             {
                 Heading(setlist![next].Set);
                 rows.Add(new ChapterRow(-1, "", setlist[next].Title, "Not in this recording"));
+            }
+        }
+        // Chapters ahead of the first placed one, such as an opening jam or tuning, go under
+        // that chapter's set, after any setlist songs the recording starts too late for.
+        if (laidOut && held![0].Length == 0)
+        {
+            string? firstHeld = held.Select(h => h.Split(' ', StringSplitOptions.RemoveEmptyEntries).FirstOrDefault()).FirstOrDefault(id => id is not null);
+            int first = firstHeld is null ? -1 : setlist!.ToList().FindIndex(e => e.Id == firstHeld);
+            if (first >= 0)
+            {
+                Missing(first);
+                Heading(setlist![first].Set);
             }
         }
         for (int i = 0; i < _chapters.Count; i++)
@@ -404,9 +426,18 @@ public sealed partial class MainWindow : Window
         _bookReport = report;
         PlaybackNotes.Text = report;
         ExportReportItem.IsEnabled = report.Length > 0;
-        ShowLinkText.Text = show is null
-            ? link is { Link.Length: > 0 } ? link.Link : ""
-            : $"{show.Summary.Date} · {show.Summary.Place} · BerthaML {show.Summary.Id}, {show.Summary.Status} record";
+        _bookHeading = link is { ShowDate.Length: > 0 } ? link.ShowDate : "";
+        _bookPlace = link?.Place ?? "";
+        if (_bookPlace.Length > 0)
+        {
+            AuthorText.Text = _bookPlace;
+        }
+        var facts = new List<string>();
+        if (link is { SourceSummary.Length: > 0 }) facts.Add(link.SourceSummary.Replace(" | ", " · "));
+        if (link is { Credits.Length: > 0 }) facts.Add(link.Credits);
+        if (show is not null) facts.Add($"BerthaML {show.Summary.Id}, {show.Summary.Status} record");
+        ShowLinkText.Text = string.Join(" · ", facts);
+        ShowHeading();
         ToolTipService.SetToolTip(ShowLinkText, link?.Link);
         ShowChapters();
     }
@@ -437,11 +468,11 @@ public sealed partial class MainWindow : Window
             : "Choose a show in the Shows pane, or open a file.";
         BookHeading.Visibility = hasBook ? Visibility.Visible : Visibility.Collapsed;
         ChapterArea.Visibility = PositionRow.Visibility = TransportRow.Visibility = open ? Visibility.Visible : Visibility.Collapsed;
-        TitleText.Text = _bookTitle;
+        TitleText.Text = _bookHeading.Length > 0 ? _bookHeading : _bookTitle;
         ToolTipService.SetToolTip(TitleText, _bookPath);
         CloseBookItem.IsEnabled = hasBook;
         // Standard section 6: "Document name - App name" while a book is open.
-        Title = open && _state != PlaybackState.Loading ? $"{_bookTitle} - Gratitude" : "Gratitude";
+        Title = open && _state != PlaybackState.Loading ? $"{(_bookHeading.Length > 0 ? _bookHeading : _bookTitle)} - Gratitude" : "Gratitude";
     }
 
     private void ShowTransport()
@@ -642,8 +673,8 @@ public sealed partial class MainWindow : Window
     {
         string search = BookSearch.Text.Trim();
         var rows = _books
-            .Where(b => search.Length == 0 || b.Title.Contains(search, StringComparison.CurrentCultureIgnoreCase))
-            .Select(b => new BookRow(b.Path, b.Title, BookDetail(b),b.SourceSummary,string.IsNullOrWhiteSpace(b.Credits)?"People: not identified":b.Credits))
+            .Where(b => search.Length == 0 || new[] { b.Title, b.ShowDate, b.Date, b.Place, b.Credits }.Any(t => t.Contains(search, StringComparison.CurrentCultureIgnoreCase)))
+            .Select(b => BookRow.From(b, BookDetail(b)))
             .ToList();
         BookList.ItemsSource = rows;
         bool empty = rows.Count == 0;
@@ -710,7 +741,8 @@ public sealed partial class MainWindow : Window
         RecentMenu.Items.Clear();
         foreach (Book book in recent)
         {
-            var item = new MenuFlyoutItem { Text = $"{book.SourceSummary} | {book.Title}", Tag = book.Path, IsEnabled = book.Exists };
+            string label = book.ShowDate.Length > 0 && book.Place.Length > 0 ? $"{book.Date} · {book.Place}" : BookRow.BookHeading(book);
+            var item = new MenuFlyoutItem { Text = $"{label} ({book.SourceSummary.Replace(" | ", ", ")})", Tag = book.Path, IsEnabled = book.Exists };
             ToolTipService.SetToolTip(item, $"{book.Credits}\n{book.Path}");
             item.Click += (_, _) => OpenBook(book.Path);
             RecentMenu.Items.Add(item);
@@ -799,6 +831,8 @@ public sealed partial class MainWindow : Window
         PlaybackNotes.Text = "";
         ExportReportItem.IsEnabled = false;
         ShowLinkText.Text = "";
+        _bookHeading = "";
+        _bookPlace = "";
         ChapterList.ItemsSource = null;
     }
 
@@ -1027,7 +1061,7 @@ public sealed partial class MainWindow : Window
             return;
         }
         var books = _books.Where(b => b.ShowId == row.Id && b.Exists)
-            .Select(b => new BookRow(b.Path, b.Title, BookDetail(b), b.SourceSummary, b.Credits))
+            .Select(b => BookRow.From(b, BookDetail(b)))
             .ToList();
         ShowRecordings.ItemsSource = books;
         ShowRecordings.Visibility = books.Count > 0 ? Visibility.Visible : Visibility.Collapsed;

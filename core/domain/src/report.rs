@@ -33,6 +33,35 @@ pub struct ReportSource {
     pub link: Link,
 }
 
+/// "Sunday, May 22, 1977" from "1977-05-22"; anything else comes back as it is.
+pub fn long_date(iso: &str) -> String {
+    let parts = iso.split('-').map(|p| p.parse::<i64>().ok()).collect::<Vec<_>>();
+    let [Some(year), Some(month), Some(day)] = parts[..] else { return iso.to_owned() };
+    if !(1..=12).contains(&month) || !(1..=31).contains(&day) {
+        return iso.to_owned();
+    }
+    const MONTHS: [&str; 12] = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
+    const DAYS: [&str; 7] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    // Sakamoto's method for the day of the week.
+    const OFFSETS: [i64; 12] = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4];
+    let y = if month < 3 { year - 1 } else { year };
+    let weekday = (y + y / 4 - y / 100 + y / 400 + OFFSETS[(month - 1) as usize] + day).rem_euclid(7);
+    format!("{}, {} {day}, {year}", DAYS[weekday as usize], MONTHS[(month - 1) as usize])
+}
+
 pub(crate) fn clock(seconds: f64) -> String {
     let total = seconds.max(0.0).round() as u64;
     let (h, m, s) = (total / 3600, total / 60 % 60, total % 60);
@@ -285,6 +314,13 @@ mod tests {
         let report = render(&source, Path::new("no-such.db"));
         assert!(report.contains("\n\nSet 1\n1. Funiculi Funicula"), "{report}");
         assert!(!report.contains("Tracks\n"));
+    }
+    #[test]
+    fn long_dates_name_the_weekday() {
+        assert_eq!(long_date("1977-05-22"), "Sunday, May 22, 1977");
+        assert_eq!(long_date("1977-05-08"), "Sunday, May 8, 1977");
+        assert_eq!(long_date("1995-07-09"), "Sunday, July 9, 1995");
+        assert_eq!(long_date("1970-08"), "1970-08");
     }
     #[test]
     fn clock_and_audio_lines() {
