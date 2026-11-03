@@ -14,13 +14,25 @@ Remaining steps:
 
 1. Done: split recordings out and hand over the show files.
 2. Done: schema revision and ID freeze. `curated/id-ledger.json` holds 712 retirements from the first freeze.
-3. Compile the XML into a read-only `berthaml.db` shipped with Gratitude, replacing `data/gd-shows.xml`. Compare album names and the 129 recording-only dates first. Use `reports/corroboration.jsonl` and `roster-eras.json` for confidence and labelled default lineups.
+3. Done in Gratitude 0.4.0, 2 November 2026: `tools/compile_db.py` compiles the corpus into the read-only `berthaml.db` (schema `tools/berthaml-db.sql`), which replaces `data/gd-shows.xml`. See below.
 4. Link local folders to shows and recordings: identifier, shnid, then file names and durations against track lists. Needs a store schema migration that preserves saved positions.
 5. New UI against the Jupiter style standard: show browser, setlists in playback, every owned performance of a song.
 
 Still to do with the track lists: order-aware linking, because exact title matching cannot place a song played twice in a show (St. Stephen at Cornell), and a non-song status for tuning and banter tracks. 535 recordings have `sbd` in the identifier but are typed matrix; some are right, and `gd77-05-08.sbd.hicks.4982.sbeok.shnf` looks wrong. Both setlist sources date the Ohio University show of November 1968 to the 25th, though published member lists give Tom Constanten's start as the 23rd, which is worth a look during early-show research.
 
 1965-66 is a later capture. Before the roughly 18,000 Archive track lists are fetched, stop committing the TXT/JSON/M3U8 exports, which would reach about 54,000 files, and store the captures in a few bundled archives rather than one file each. File count is what costs here: `git add` of this 4,150-file change took about 30 minutes on Ian's hard disk, roughly 120 to 300 files a minute, despite being only about 30 MB. `sources/recording-playlists/index.json` and `cache_name` assume one file per capture and will need changing.
+
+## Runtime database, 2 November 2026
+
+Step 3. `tools/compile_db.py` reads the show files, registries, generated recordings, `corroboration.jsonl`, `roster-eras.json` and `event-exclusions.jsonl`, and writes a SQLite database with the Python standard library alone. The .NET build runs it from `build/native.targets` whenever an input changes and ships the result as `data/berthaml.db`; it is never committed. `PRAGMA user_version` is the database schema version, and Gratitude refuses any other. Rust tests build a fixture from the same `.sql` file, and `tools/test_compile_db.py` checks the real compile against `reports/coverage.json`.
+
+Gratitude reads it in `core/domain/src/catalogue.rs`: the import reference text, the album's place, and recording search. Rosters are always printed as membership-derived, never as who played; the corroboration level is printed beside the record status and never as review.
+
+The comparison asked for first is `../docs/berthaml-catalogue-comparison.md`, made by `tools/compare_catalogue.py`. Of 2,300 dates the 0.3 catalogue placed, 2,132 album names are unchanged and 26 differ (21 spelling fixes, 5 different venues or cities: 1968-09-01, 1970-05-02, 1980-08-17, 1981-07-07, 1982-11-25). 17 dates hold shows at different venues, so the notes' venue now picks one. All 124 recording-only dates with a venue, plus 1968-05-30 (Carousel Ballroom, gdshowsdb only), are not BerthaML shows; those imports keep the notes' place, and the reference lists any Jerrybase private or cancelled event on the date. The five venue changes and 1968-05-30 are worth checking during show review.
+
+Album names now keep accented letters (`café-au-go-go`, `rüsselsheim`), because the 0.3 catalogue had lost them rather than folded them. If Ian prefers ASCII album names, change `slug` in `core/domain/src/shows.rs` and the copy in `compare_catalogue.py`.
+
+The database also carries what steps 4 and 5 need: recording identifiers including shnids, original-file track lists with durations and candidate performance links, performance IDs and song title aliases. Only 654 tracks exist until more Archive track lists are captured.
 
 ## Dataset implementation, 30 October 2026
 

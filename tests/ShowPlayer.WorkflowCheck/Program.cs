@@ -59,6 +59,8 @@ Require(!draft.Folder.StartsWith(@"\\?\") && !draft.NotesPath.StartsWith(@"\\?\"
 Require(Path.GetFileName(draft.Tracks[2].Path) == "track10.flac", "Natural order mismatch");
 Require(draft.Tracks[2].Set == "Encore" && draft.Tracks[0].Title == "Test opening", "Set or song parsing failed");
 Require(draft.SourceSummary == "SBD" && draft.ReferenceInfo.Contains("Minglewood Blues"), "Local import source label or offline show reference is missing");
+Require(draft.ReferenceInfo.StartsWith("1977-05-08 · Barton Hall, Cornell University, Ithaca, NY") && draft.ReferenceInfo.Contains("BerthaML gd1977-05-08: draft record") && draft.ReferenceInfo.Contains("rather than a record of who played"), "BerthaML show reference is incomplete: " + draft.ReferenceInfo);
+Require(draft.Album == "770508_ny-ithaca-barton-hall-cornell-university", "The BerthaML venue did not name the album: " + draft.Album);
 Require(core.SearchRecordings("1993-09-22", "All sources").Count > 0, "Catalogue search failed");
 var priorities = core.GetPriorities();
 Require(priorities.Sources.Take(3).SequenceEqual(new[] { "SBD", "MTX", "AUD" }), "Default source priorities are incorrect");
@@ -71,7 +73,7 @@ Require(core.SearchRecordings("1977-05-08", "All sources")[0].SourceKind == "MTX
 using (var reopened = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(fixture, "data"), AudioOutput = "null" }))
     Require(reopened.GetPriorities().Sources[0] == "MTX", "Source preference was not persisted");
 core.SetPriorities(priorities);
-Console.WriteLine("PASS XML show/setlist search, source badges, personal ranking and persisted priorities");
+Console.WriteLine("PASS BerthaML show reference and album name, setlist search, source badges, personal ranking and persisted priorities");
 string incompleteNotes = Path.Combine(fixture, "incomplete.txt");
 File.WriteAllText(incompleteNotes, "Grateful Dead\n1977-05-08\nBarton Hall\n01. One entry\n");
 var fallback = core.InspectShow(source, incompleteNotes);

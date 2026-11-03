@@ -1,39 +1,31 @@
-# Grateful Dead catalogue, schema 1
+# Offline show database
 
-`data/gd-shows.xml` is the single runtime show/recording catalogue. It is UTF-8 XML with one `gratefulDeadCatalogue` root, covering 1967–1995. This is an attributed snapshot, not an assertion that every historical date, setlist or source is settled.
+From 0.4.0 Gratitude's offline show reference is `data/berthaml.db`, a read-only SQLite database compiled from the [BerthaML corpus](../berthaml/README.md) at every build. It replaces `data/gd-shows.xml`, the 29 October 2026 XML catalogue used by 0.2 and 0.3. That file is preserved byte for byte as `berthaml/sources/catalogue.xml.gz`, where it remains one of the corpus's pinned sources.
 
-The 29 October 2026 snapshot contains 2,305 distinct dates, 2,233 performance/setlist entries and 19,297 provider-specific recording listings. Of those dates, 2,176 have gdshowsdb performance entries; the remaining 129 occur only in recording metadata or linked listings. There are 531 unplaced source records (including dates outside the requested years). Recording counts do not imply distinct tape lineages or current download availability.
+The corpus is a draft. Most show records are imported and unreviewed, and the reference says so for each show. See [coverage](../berthaml/reports/coverage.md).
 
-## XML structure
+## What the app uses
 
-- `sources/source`: provenance identifiers, URLs, scope and acquisition-content SHA-256. gdshowsdb is pinned to its Git revision and its MIT licence accompanies the XML.
-- `recordingTaxonomy`: type/modifier meanings and the supplied personal default order.
-- `shows/show`: one date group with venue/location and `basis="show-database"` or `basis="recording-metadata"`.
-- `performance`: gdshowsdb UUID, location and source reference. Multiple entries on one date remain separate; recordings are not assigned to a particular performance without evidence.
-- `set`: source numbering, with `role="unspecified"`; the final set is not assumed to be an encore.
-- `song`: clean name and a separate `segueToNext` boolean. Continuation arrows do not enter titles.
-- `recording`: provider/key/title, primary `type`, space-separated modifiers, `inferredType` and provenance references. Nested `person` and `creditText` distinguish recording, transfer/mastering or unspecified roles; `credits` supplies display text. `sourceChain`, `lineage` and `evidence` retain supplied factual metadata. `reference` points to supporting material.
-- `unplacedRecords/record`: original identifier/date text, provenance and reason; these do not become invented show dates.
+- **Import reference.** For an imported folder's date, the Workshop's **Offline show reference** shows each BerthaML show on that date: venue and place, the record's review status, the derived corroboration level, the setlist with segues, a researched lineup or else the membership-period roster labelled as such, the number of listed circulating recordings and the show's citations. Canceled and private events that Jerrybase lists on the date follow, since a recording may come from one.
+- **Album name.** The show's venue, city and region name the album as `YYMMDD_region-city-venue`. A US or Canadian region is its state or province code when the venue registry gives one; otherwise the country name, with British venues named by nation (England, Scotland) as 0.3 did. When several shows on the date are at different venues, the notes' venue (or failing that, city) picks one; if nothing distinguishes them, the album keeps the place parsed from the notes. Dates with no BerthaML show also keep the notes' place.
+- **Recording search** (the `SearchRecordings` call, used by the workflow check) lists the 18,611 recording references assigned to shows, with their source type, modifiers, credits and lineage, ranked by the same SBD-first or MTX-first preference and credit tiers as before.
 
-SBD = soundboard; MTX = matrix; AUD = audience. FOB describes microphone location, FM broadcast, PRE-FM pre-broadcast, DSBD digital soundboard, ULTRAMATRIX lineage and DTS encoding. The primary type follows explicit source metadata before identifier inference. Unknown remains UNKNOWN. Source descriptions may themselves contain errors. Person aliases are conservative; David Cantor is not assumed to be Betty Cantor-Jackson, nor Miller Auditorium to be Charlie Miller.
+## Building it
 
-Personal preferences live separately in `%LOCALAPPDATA%\show-player\recording-priorities.json`. As of 0.2.1, only SBD-first versus MTX-first is configurable; AUD, FM and UNKNOWN follow both. Legacy preferences are normalized on read, retaining the relative SBD/MTX choice. Credit tiers use the user-supplied SBD, AUD and MTX tables, with members of each tier tied and unlisted credits following the listed tiers. The XML also records those tables as policy, distinct from facts. Old people/modifier/people-first fields are compatibility fields, not user controls. Priority applies before the 500-result display limit. Library lists share these preferences; the Recent menu retains recency.
+```powershell
+python berthaml/tools/compile_db.py target/berthaml/berthaml.db
+```
+
+The .NET build runs this through `build/native.targets` whenever a show file, registry, generated recording file or the compiler changes, and ships the result with `berthaml/sources/gdshowsdb-LICENSE.txt`. It needs only the Python standard library. The schema is `berthaml/tools/berthaml-db.sql`; its `user_version` is the database version, and the app refuses any other. Rust tests build a fixture database from the same schema file.
+
+The database holds shows, sets, performances and non-song events, songs and title aliases, venues and alternative names, people, researched lineups, era rosters, excluded events, recordings with identifiers and original-file track lists with durations and candidate performance links, and per-show citations. `meta` records the dataset version, its as-of date, a SHA-256 over every compiled input and the attribution.
+
+## Comparison with 0.3
+
+[berthaml-catalogue-comparison.md](berthaml-catalogue-comparison.md) compares album names for every date the 0.3 catalogue placed. 2,132 are unchanged. 26 differ: 0.3 misspelled Oakland and University and lost accented letters (`caf-au-go-go` is now `café-au-go-go`), and BerthaML gives different venues or cities for five dates. 17 dates have shows at more than one venue, which 0.3 collapsed into one. All 124 of 0.3's recording-only dates with a venue, and one gdshowsdb date, are not BerthaML shows: 53 are private events and 6 cancelled ones in Jerrybase, and the rest are dates known only from recording metadata.
 
 ## Sources and limits
 
-- [gdshowsdb](https://github.com/jefmsmit/gdshowsdb): MIT-licensed performance facts and setlists. The XML records the exact revision and links each year to that revision.
-- [Archive Grateful Dead collection](https://archive.org/details/GratefulDead): public metadata for 18,327 indexed items in the requested years, supplemented by the supplied historical URL list. Recording listings are historical references only; the app does not download or check online availability.
-- [Infinite Dead](https://infinitedead.net/about/): 359 public posts covering July and October. Only links and derived factual classifications/credits are used; review prose is not distributed.
-- Ian's etree JSON and Archive URL list: historical listings; reported seed counts are capture-time values.
-- John Brackett, *Live Dead* (Duke University Press), supplied as PDF: historical context. It is not used as an exhaustive show index; no book text is included.
+Show facts come from Jerrybase factual captures and gdshowsdb (MIT, Copyright Jeff Smith); recording references and track lists from Archive.org metadata and the etree snapshot. See `berthaml/sources/README.md`. Recording listings are historical references, not an availability index; Gratitude does not download recordings. Source agreement is not review. Only a person sets a record to reviewed or verified.
 
-## Rebuild
-
-Python 3 with PyYAML fetches/caches public inputs; the Rust domain compiler owns classification and XML generation:
-
-```powershell
-python tools/build_show_facts.py
-cargo run -p show-player-harness --release -- --compile-catalogue work/show-facts.json data/gd-shows.xml
-```
-
-Acquisition caches and intermediate facts stay under ignored `work/`. The ordinary app build uses the committed XML offline and never fetches sources. To refresh, use a fresh cache, review factual changes/counts, update capture dates and rebuild the XML. No PDF or review prose belongs in the runtime catalogue. Preferences, audio files and source tags are unaffected.
+Personal preferences remain in `%LOCALAPPDATA%\show-player\recording-priorities.json`. Only SBD-first versus MTX-first is configurable; AUD, FM and UNKNOWN follow both. Credit tiers are the user-supplied SBD, AUD and MTX tables in `core/domain/src/catalogue.rs`, house policy rather than historical fact.

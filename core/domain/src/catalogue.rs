@@ -1,8 +1,7 @@
-//! Attributed, offline show facts and personal recording priorities.
+//! Offline show facts from the compiled BerthaML database, and personal recording priorities.
 use crate::shows::{Place, Recording};
 use regex::Regex;
 use serde::{Deserialize, Serialize};
-use serde_json::Value;
 use std::cmp::Ordering;
 use std::collections::HashMap;
 use std::fs;
@@ -283,139 +282,283 @@ pub fn rank(x: &Profile, p: &Priorities) -> (usize, usize, usize) {
         tiers.iter().position(|tier| tier.iter().any(|name| x.people.iter().any(|p| p == name))).unwrap_or(tiers.len());
     (source, credit, 0)
 }
+/// The database schema this build reads; compile_db.py sets it as user_version.
+const DATABASE_VERSION: i64 = 1;
+/// One BerthaML show as Gratitude presents it.
+struct Show {
+    venue: String,
+    names: Vec<String>,
+    place: Place,
+    info: String,
+}
 #[derive(Default)]
 struct Catalogue {
     records: Vec<Recording>,
-    shows: HashMap<String, String>,
-    places: HashMap<String, Place>,
+    shows: HashMap<String, Vec<Show>>,
+    excluded: HashMap<String, Vec<String>>,
+}
+/// What the offline show database says about an imported show's date.
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
+pub struct Reference {
+    pub info: String,
+    /// Set when the date's show, or the one the notes' venue names, is known.
+    pub place: Option<Place>,
+}
+fn rows<T>(
+    db: &rusqlite::Connection,
+    sql: &str,
+    f: impl FnMut(&rusqlite::Row) -> rusqlite::Result<T>,
+) -> rusqlite::Result<Vec<T>> {
+    db.prepare(sql)?.query_map([], f)?.collect()
+}
+fn grouped<T>(items: Vec<(String, T)>) -> HashMap<String, Vec<T>> {
+    let mut map = HashMap::<String, Vec<T>>::new();
+    for (key, item) in items {
+        map.entry(key).or_default().push(item);
+    }
+    map
+}
+fn corroboration(level: &str) -> &str {
+    match level {
+        "reviewed" => "reviewed",
+        "recording-backed" => "setlist matches a recording's track list",
+        "sources-agree" => "two setlist sources agree",
+        "single-source" => "setlist from one source",
+        "disputed" => "setlist sources disagree",
+        "differs-from-sources" => "setlist edited away from its sources",
+        "no-setlist" => "no setlist",
+        other => other,
+    }
 }
 impl Catalogue {
-    fn parse(text: &str) -> Result<Self, String> {
-        let doc = roxmltree::Document::parse(text).map_err(|e| format!("Invalid show catalogue XML: {e}"))?;
-        let root = doc.root_element();
-        if root.tag_name().name() != "gratefulDeadCatalogue" || root.attribute("schemaVersion") != Some("1") {
-            return Err("Unsupported show catalogue schema.".into());
+    fn read(path: &Path) -> Result<Self, String> {
+        use rusqlite::OpenFlags;
+        let db = rusqlite::Connection::open_with_flags(
+            path,
+            OpenFlags::SQLITE_OPEN_READ_ONLY | OpenFlags::SQLITE_OPEN_NO_MUTEX,
+        )
+        .map_err(|e| format!("Show database is unavailable: {e}"))?;
+        let version: i64 = db.query_row("PRAGMA user_version", [], |r| r.get(0)).map_err(|e| e.to_string())?;
+        if version != DATABASE_VERSION {
+            return Err(format!("Unsupported show database version {version}."));
         }
+        Self::query(&db).map_err(|e| format!("Invalid show database: {e}"))
+    }
+    fn query(db: &rusqlite::Connection) -> rusqlite::Result<Self> {
+        let text = |r: &rusqlite::Row, i: usize| r.get::<_, String>(i);
+        let people: HashMap<_, _> =
+            rows(db, "SELECT id, name FROM people", |r| Ok((text(r, 0)?, text(r, 1)?)))?.into_iter().collect();
+        let songs: HashMap<_, _> =
+            rows(db, "SELECT id, title FROM songs", |r| Ok((text(r, 0)?, text(r, 1)?)))?.into_iter().collect();
+        let venues: HashMap<_, _> = rows(db, "SELECT id, name, city, place FROM venues", |r| {
+            Ok((text(r, 0)?, Place { venue: text(r, 1)?, city: text(r, 2)?, region: text(r, 3)? }))
+        })?
+        .into_iter()
+        .collect();
+        let venue_names = grouped(rows(db, "SELECT venue, name FROM venue_names", |r| Ok((text(r, 0)?, text(r, 1)?)))?);
+        let eras = rows(db, "SELECT start, finish, members FROM roster_eras", |r| {
+            Ok((text(r, 0)?, text(r, 1)?, text(r, 2)?))
+        })?;
+        let sets = grouped(rows(db, "SELECT show, n, kind, number, mode FROM sets ORDER BY show, n", |r| {
+            Ok((text(r, 0)?, (r.get::<_, i64>(1)?, text(r, 2)?, r.get::<_, i64>(3)?, text(r, 4)?)))
+        })?);
+        let performances = grouped(rows(
+            db,
+            "SELECT show, set_n, song, event, transition FROM performances ORDER BY show, set_n, n",
+            |r| Ok((text(r, 0)?, (r.get::<_, i64>(1)?, r.get::<_, Option<String>>(2)?, text(r, 3)?, text(r, 4)?))),
+        )?);
+        let lineups = grouped(rows(db, "SELECT show, person, instruments FROM lineup ORDER BY show, n", |r| {
+            Ok((text(r, 0)?, (text(r, 1)?, text(r, 2)?)))
+        })?);
+        let cites = grouped(rows(db, "SELECT show, title, href FROM show_cites ORDER BY show, n", |r| {
+            Ok((text(r, 0)?, (text(r, 1)?, text(r, 2)?)))
+        })?);
+        let tapes: HashMap<_, _> = rows(db, "SELECT show, count(*) FROM recordings GROUP BY show", |r| {
+            Ok((text(r, 0)?, r.get::<_, i64>(1)?))
+        })?
+        .into_iter()
+        .collect();
         let mut result = Self::default();
-        for show in root.descendants().filter(|n| n.has_tag_name("show")) {
-            let date = show.attribute("date").unwrap_or_default();
-            let venue = show.attribute("venue").unwrap_or_default();
-            let mut detail = format!(
-                "{date}\n{venue}\n{}, {} {}",
-                show.attribute("city").unwrap_or_default(),
-                show.attribute("state").unwrap_or_default(),
-                show.attribute("country").unwrap_or_default()
-            );
-            let performances: Vec<_> = show.children().filter(|n| n.has_tag_name("performance")).collect();
-            if show.attribute("basis") == Some("recording-metadata") {
-                detail
-                    .push_str("\nDate present in recording metadata; no performance entry in the show-data snapshot.");
+        let shows = rows(
+            db,
+            "SELECT id, date, venue, billed, slot, status, coverage, corroboration FROM shows ORDER BY date, id",
+            |r| {
+                (0..8)
+                    .map(|i| r.get::<_, Option<String>>(i).map(Option::unwrap_or_default))
+                    .collect::<Result<Vec<_>, _>>()
+            },
+        )?;
+        for row in shows {
+            let Ok([id, date, venue, billed, slot, status, coverage, level]) = <[String; 8]>::try_from(row) else {
+                continue;
+            };
+            let place = venues.get(&venue).cloned().unwrap_or_default();
+            let location = [&place.venue, &place.city, &place.region]
+                .into_iter()
+                .filter(|s| !s.is_empty())
+                .map(String::as_str)
+                .collect::<Vec<_>>()
+                .join(", ");
+            let mut info = format!("{date} · {location}");
+            if !billed.is_empty() && billed != place.venue {
+                info += &format!("\nBilled as {billed}");
             }
-            if performances.len() > 1 {
-                detail.push_str("\nMultiple performance/setlist variants on this date; recordings are not assigned to a variant without evidence.");
+            if slot == "early" || slot == "late" {
+                info += &format!("\n{}{} show", slot[..1].to_uppercase(), &slot[1..]);
             }
-            for (i, p) in performances.iter().enumerate() {
-                if performances.len() > 1 {
-                    detail += &format!("\n\nPerformance {}: {}", i + 1, p.attribute("venue").unwrap_or_default());
+            let review = match status.as_str() {
+                "draft" | "skeleton" => format!("{status} record, imported and not reviewed"),
+                _ => format!("{status} record"),
+            };
+            info += &match corroboration(&level) {
+                "" | "reviewed" => format!("\nBerthaML {id}: {review}."),
+                level => format!("\nBerthaML {id}: {review}; {level}."),
+            };
+            let show_sets = sets.get(&id).map(Vec::as_slice).unwrap_or_default();
+            let encores = show_sets.iter().filter(|s| s.1 == "encore").count();
+            for (set_n, kind, number, mode) in show_sets {
+                info += "\n\n";
+                info += &match kind.as_str() {
+                    "set" => format!("Set {number}"),
+                    "encore" if encores == 1 => "Encore".into(),
+                    "encore" => format!("Encore {number}"),
+                    "soundcheck" => "Soundcheck".into(),
+                    _ => "Set unknown".into(),
+                };
+                if mode != "unknown" {
+                    info += &format!(" ({mode})");
                 }
-                for set in p.children().filter(|n| n.has_tag_name("set")) {
-                    detail += &format!("\n\nSet {}", set.attribute("number").unwrap_or_default());
-                    for (i, song) in set.children().filter(|n| n.has_tag_name("song")).enumerate() {
-                        detail += &format!("\n{}. {}", i + 1, song.attribute("name").unwrap_or_default());
+                let mut n = 0;
+                for (_, song, event, transition) in
+                    performances.get(&id).into_iter().flatten().filter(|p| p.0 == *set_n)
+                {
+                    match song {
+                        Some(song) => {
+                            n += 1;
+                            let title = songs.get(song).map(String::as_str).unwrap_or(song);
+                            let segue = if transition == "segue" { " >" } else { "" };
+                            info += &format!("\n{n}. {title}{segue}");
+                        }
+                        None => info += &format!("\n({})", event.replace('-', " ")),
                     }
                 }
             }
-            if performances.is_empty() {
-                detail.push_str("\n\nNo setlist in this snapshot.");
+            match coverage.as_str() {
+                "none" => info += "\n\nNo setlist is recorded.",
+                "partial" => info += "\n\nThe setlist may be incomplete.",
+                _ => {}
             }
-            let refs = show
-                .children()
-                .filter(|n| n.has_tag_name("reference"))
-                .filter_map(|n| n.attribute("url"))
-                .collect::<Vec<_>>();
-            if !refs.is_empty() {
-                detail += &format!("\n\nSources:\n{}", refs.join("\n"));
-            }
-            result.shows.insert(date.into(), detail);
-            // Dates known only from recording metadata hold "City, ST" in the city field.
-            let city = show.attribute("city").unwrap_or_default();
-            let (city, listed_state) = city.split_once(", ").unwrap_or((city, ""));
-            let region = [
-                show.attribute("state").unwrap_or_default(),
-                listed_state,
-                show.attribute("country").unwrap_or_default(),
-            ]
-            .into_iter()
-            .find(|s| !s.is_empty())
-            .unwrap_or_default();
-            result.places.insert(
-                date.into(),
-                Place {
-                    venue: venue.into(),
-                    city: if city == "Unknown" { String::new() } else { city.into() },
-                    region: region.into(),
-                },
-            );
-            for r in show.children().filter(|n| n.has_tag_name("recording")) {
-                let key = r.attribute("key").unwrap_or_default();
-                let provider = r.attribute("provider").unwrap_or_default();
-                if key.is_empty() || !["Archive.org", "etree"].contains(&provider) {
-                    return Err("Catalogue recording has an invalid provider/key.".into());
-                }
-                let get = |name: &str| {
-                    r.children().find(|n| n.has_tag_name(name)).and_then(|n| n.text()).unwrap_or_default().to_owned()
-                };
-                let modifiers = r
-                    .attribute("modifiers")
-                    .unwrap_or_default()
-                    .split_whitespace()
-                    .map(str::to_owned)
+            let name = |id: &str| people.get(id).cloned().unwrap_or_else(|| id.to_owned());
+            if let Some(lineup) = lineups.get(&id) {
+                let players = lineup
+                    .iter()
+                    .map(|(p, i)| {
+                        let instruments = i.split_whitespace().map(|s| s.replace('-', " ")).collect::<Vec<_>>();
+                        format!("{} ({})", name(p), instruments.join(", "))
+                    })
                     .collect::<Vec<_>>();
-                let source_kind = r.attribute("type").unwrap_or("UNKNOWN").to_owned();
-                let summary = std::iter::once(source_kind.as_str())
-                    .chain(modifiers.iter().map(String::as_str))
-                    .collect::<Vec<_>>()
-                    .join(" | ");
-                result.records.push(Recording {
-                    title: r.attribute("title").unwrap_or(key).into(),
-                    source: provider.into(),
-                    url: if provider == "etree" {
-                        format!("https://bt.etree.org/details.php?torrentId={}", key.trim_start_matches("etree-"))
-                    } else {
-                        format!("https://archive.org/details/{key}")
-                    },
-                    key: key.into(),
-                    detail: get("detail"),
-                    source_kind,
-                    source_summary: summary,
-                    credits: get("credits"),
-                    date: date.into(),
-                    venue: venue.into(),
-                    show_info: String::new(),
-                    evidence: get("evidence"),
-                    modifiers,
-                    inferred: r.attribute("inferredType") == Some("true"),
-                });
+                info += &format!("\n\nLineup: {}", players.join("; "));
+            } else if let Some((_, _, members)) =
+                eras.iter().find(|(start, finish, _)| *start <= date && date <= *finish)
+            {
+                let members = members.split_whitespace().map(name).collect::<Vec<_>>();
+                info += &format!(
+                    "\n\nBand members for this period, from membership dates rather than a record of who played: {}",
+                    members.join(", ")
+                );
             }
+            match tapes.get(&id).copied().unwrap_or(0) {
+                0 => {}
+                1 => info += "\n\n1 circulating recording is listed for this show.",
+                n => info += &format!("\n\n{n} circulating recordings are listed for this show."),
+            }
+            if let Some(cites) = cites.get(&id) {
+                info += "\n\nSources:";
+                for (title, href) in cites {
+                    info += &format!("\n{title}: {href}");
+                }
+            }
+            let mut names = venue_names.get(&venue).cloned().unwrap_or_default();
+            names.push(billed);
+            result.shows.entry(date).or_default().push(Show { venue, names, place, info });
         }
+        result.excluded = grouped(rows(db, "SELECT date, category, venue FROM excluded_events ORDER BY date", |r| {
+            Ok((text(r, 0)?, format!("{}: {}", text(r, 1)?, text(r, 2)?)))
+        })?);
+        result.records = rows(
+            db,
+            "SELECT r.provider, r.key, r.title, r.kind, r.inferred, r.modifiers, r.credits, r.lineage, s.date, \
+             coalesce(v.name, '') FROM recordings r JOIN shows s ON s.id = r.show LEFT JOIN venues v ON v.id = s.venue",
+            |r| {
+                let (provider, key, title) = (text(r, 0)?, text(r, 1)?, text(r, 2)?);
+                let (source_kind, modifiers) = (text(r, 3)?, text(r, 5)?);
+                let (credits, lineage) = (text(r, 6)?, text(r, 7)?);
+                let modifiers = modifiers.split_whitespace().map(str::to_owned).collect::<Vec<_>>();
+                Ok(Recording {
+                    url: match provider.as_str() {
+                        "Archive.org" => format!("https://archive.org/details/{key}"),
+                        "etree" => {
+                            format!("https://bt.etree.org/details.php?torrentId={}", key.trim_start_matches("etree-"))
+                        }
+                        _ => String::new(),
+                    },
+                    source_summary: std::iter::once(source_kind.as_str())
+                        .chain(modifiers.iter().map(String::as_str))
+                        .collect::<Vec<_>>()
+                        .join(" | "),
+                    evidence: format!("{title} {key} {credits} {lineage}"),
+                    detail: if lineage.is_empty() { String::new() } else { format!("Lineage: {lineage}") },
+                    title,
+                    source: provider,
+                    key,
+                    source_kind,
+                    credits,
+                    date: text(r, 8)?,
+                    venue: text(r, 9)?,
+                    show_info: String::new(),
+                    modifiers,
+                    inferred: r.get::<_, i64>(4)? != 0,
+                })
+            },
+        )?;
         Ok(result)
     }
+    /// Everything known about a date, the chosen show first.
+    fn date_info(&self, date: &str, first: Option<usize>) -> String {
+        let shows = self.shows.get(date).map(Vec::as_slice).unwrap_or_default();
+        let mut order = (0..shows.len()).collect::<Vec<_>>();
+        if let Some(i) = first {
+            order.retain(|&j| j != i);
+            order.insert(0, i);
+        }
+        let mut parts = Vec::new();
+        if shows.len() > 1 {
+            parts.push(format!("{} BerthaML shows on this date.", shows.len()));
+        }
+        parts.extend(order.into_iter().map(|i| shows[i].info.clone()));
+        if let Some(excluded) = self.excluded.get(date) {
+            parts.push(format!("Events on this date kept outside the show records:\n{}", excluded.join("\n")));
+        }
+        parts.join("\n\n")
+    }
+}
+/// Lowercase words padded with spaces, so containment matches whole words.
+fn words(text: &str) -> String {
+    let text = text.to_lowercase().replace('&', " and ").replace(['\'', '’', '.'], "");
+    format!(" {} ", text.split(|c: char| !c.is_alphanumeric()).filter(|s| !s.is_empty()).collect::<Vec<_>>().join(" "))
 }
 type Cache = HashMap<PathBuf, (std::time::SystemTime, Arc<Catalogue>)>;
 fn load(path: &Path) -> Result<Arc<Catalogue>, String> {
     static CACHE: OnceLock<Mutex<Cache>> = OnceLock::new();
     let mut cache = CACHE.get_or_init(Default::default).lock().unwrap_or_else(|e| e.into_inner());
-    let metadata = fs::metadata(path).map_err(|e| format!("Show catalogue is unavailable: {e}"))?;
-    if metadata.len() > 128 * 1024 * 1024 {
-        return Err("Show catalogue exceeds 128 MiB.".into());
-    }
+    let metadata = fs::metadata(path).map_err(|e| format!("Show database is unavailable: {e}"))?;
     let modified = metadata.modified().map_err(|e| e.to_string())?;
     if let Some((old, data)) = cache.get(path)
         && *old == modified
     {
         return Ok(data.clone());
     }
-    let parsed = Arc::new(Catalogue::parse(&fs::read_to_string(path).map_err(|e| e.to_string())?)?);
+    let parsed = Arc::new(Catalogue::read(path)?);
     cache.insert(path.into(), (modified, parsed.clone()));
     Ok(parsed)
 }
@@ -430,16 +573,35 @@ pub fn profile(r: &Recording) -> Profile {
     }
 }
 /// Offline show reference for a local import; does not replace the folder's notes.
-pub fn show_info(path: &Path, date: &str) -> Result<Option<String>, String> {
-    Ok(load(path)?.shows.get(date).cloned())
-}
-/// Where a date's show took place, when the catalogue knows its venue.
-pub fn show_place(path: &Path, date: &str) -> Result<Option<Place>, String> {
-    Ok(load(path)?.places.get(date).filter(|p| !p.venue.is_empty()).cloned())
+/// When several shows share the date at different venues, the notes' venue picks one.
+pub fn reference(path: &Path, date: &str, notes_venue: &str) -> Result<Option<Reference>, String> {
+    let data = load(path)?;
+    let shows = data.shows.get(date).map(Vec::as_slice).unwrap_or_default();
+    if shows.is_empty() && !data.excluded.contains_key(date) {
+        return Ok(None);
+    }
+    let notes = words(notes_venue);
+    let named = |test: &dyn Fn(&Show) -> bool| (0..shows.len()).filter(|&i| test(&shows[i])).collect::<Vec<_>>();
+    let mut chosen = named(&|s| {
+        s.names.iter().any(|n| {
+            let n = words(n);
+            !n.trim().is_empty() && notes.contains(&n)
+        })
+    });
+    if chosen.is_empty() {
+        chosen = named(&|s| !s.place.city.is_empty() && notes.contains(&words(&s.place.city)));
+    }
+    if chosen.is_empty() {
+        chosen = (0..shows.len()).collect();
+    }
+    // Early and late shows at one venue share a place.
+    let one = chosen.first().copied().filter(|&i| chosen.iter().all(|&j| shows[j].venue == shows[i].venue));
+    Ok(Some(Reference { info: data.date_info(date, one), place: one.map(|i| shows[i].place.clone()) }))
 }
 pub fn search(path: &Path, query: &str, provider: &str, priorities: &Priorities) -> Result<Vec<Recording>, String> {
     let data = load(path)?;
     let tokens = query.to_lowercase().split_whitespace().map(str::to_owned).collect::<Vec<_>>();
+    let infos = data.shows.keys().map(|date| (date.as_str(), data.date_info(date, None))).collect::<HashMap<_, _>>();
     let mut rows = data
         .records
         .iter()
@@ -453,7 +615,7 @@ pub fn search(path: &Path, query: &str, provider: &str, priorities: &Priorities)
                 r.source_summary,
                 r.credits,
                 r.evidence,
-                data.shows.get(&r.date).map(String::as_str).unwrap_or_default()
+                infos.get(r.date.as_str()).map(String::as_str).unwrap_or_default()
             )
             .to_lowercase();
             tokens.iter().all(|q| text.contains(q))
@@ -465,185 +627,9 @@ pub fn search(path: &Path, query: &str, provider: &str, priorities: &Priorities)
     });
     rows.truncate(500);
     for r in &mut rows {
-        r.show_info = data.shows.get(&r.date).cloned().unwrap_or_default();
+        r.show_info = infos.get(r.date.as_str()).cloned().unwrap_or_default();
     }
     Ok(rows)
-}
-fn xml(value: &str) -> String {
-    value
-        .chars()
-        .filter(|&c| c == '\n' || c == '\r' || c == '\t' || c >= ' ')
-        .collect::<String>()
-        .replace('&', "&amp;")
-        .replace('<', "&lt;")
-        .replace('>', "&gt;")
-        .replace('"', "&quot;")
-        .replace('\'', "&apos;")
-}
-fn text(v: &Value, key: &str) -> String {
-    v[key].as_str().unwrap_or_default().to_owned()
-}
-pub fn compile(facts: &Path, output: &Path) -> Result<(), String> {
-    use std::fmt::Write as _;
-    let facts: Value =
-        serde_json::from_slice(&fs::read(facts).map_err(|e| e.to_string())?).map_err(|e| e.to_string())?;
-    let mut out = String::from(
-        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<gratefulDeadCatalogue schemaVersion=\"1\" artist=\"Grateful Dead\" startYear=\"1967\" endYear=\"1995\" capturedDate=\"2026-10-29\">\n",
-    );
-    out.push_str("  <coverage>Source-attributed snapshot, not a claim of complete or definitive historical knowledge. Unknown dates are retained separately. Set numbering follows the source; encore roles are not inferred. Recording listings are references only; Gratitude does not download recordings.</coverage>\n  <sources>\n");
-    for s in facts["sources"].as_array().ok_or("Missing fact sources")? {
-        let _ = writeln!(
-            out,
-            "    <source id=\"{}\" url=\"{}\" sha256=\"{}\" scope=\"{}\" />",
-            xml(&text(s, "id")),
-            xml(&text(s, "url")),
-            xml(&text(s, "sha256")),
-            xml(&text(s, "scope"))
-        );
-    }
-    out.push_str("  </sources>\n  <recordingTaxonomy>\n    <type code=\"SBD\" meaning=\"Soundboard\"/><type code=\"MTX\" meaning=\"Matrix of sources\"/><type code=\"AUD\" meaning=\"Audience recording\"/><type code=\"FM\" meaning=\"Broadcast source without a more specific known primary type\"/><type code=\"UNKNOWN\" meaning=\"Not established by available evidence\"/>\n    <modifier code=\"FOB\" meaning=\"Front of board microphone location\"/><modifier code=\"FM\" meaning=\"FM broadcast\"/><modifier code=\"PRE-FM\" meaning=\"Pre-broadcast source\"/><modifier code=\"DSBD\" meaning=\"Digital soundboard\"/><modifier code=\"ULTRAMATRIX\" meaning=\"Ultramatrix source lineage\"/>\n    <rankingPolicy>Personal source preference is SBD-first or MTX-first. AUD, FM and UNKNOWN follow both. Credit tiers are user-supplied house policy, separate from historical facts.</rankingPolicy>\n  </recordingTaxonomy>\n");
-    out.push_str("  <creditTiers policy=\"User-supplied house defaults; members of a tier tie; unlisted credits follow listed tiers\">\n");
-    for (kind, tiers) in [("SBD", SBD_TIERS), ("AUD", AUD_TIERS), ("MTX", MTX_TIERS)] {
-        let _ = writeln!(out, "    <category type=\"{kind}\">");
-        for (i, tier) in tiers.iter().enumerate() {
-            let _ = writeln!(out, "      <tier number=\"{}\">", i + 1);
-            for name in *tier {
-                let _ = writeln!(out, "        <person name=\"{}\" />", xml(name));
-            }
-            out.push_str("      </tier>\n");
-        }
-        out.push_str("    </category>\n");
-    }
-    out.push_str("  </creditTiers>\n  <shows>\n");
-    for s in facts["shows"].as_array().ok_or("Missing shows")? {
-        let date = text(s, "date");
-        if date.get(..4).and_then(|s| s.parse::<u32>().ok()).is_none_or(|y| !(1967..=1995).contains(&y)) {
-            return Err("A show lies outside 1967–1995.".into());
-        }
-        let _ = writeln!(
-            out,
-            "    <show date=\"{}\" venue=\"{}\" city=\"{}\" state=\"{}\" country=\"{}\" basis=\"{}\">",
-            xml(&date),
-            xml(&text(s, "venue")),
-            xml(&text(s, "city")),
-            xml(&text(s, "state")),
-            xml(&text(s, "country")),
-            if s["performances"].as_array().is_some_and(|p| !p.is_empty()) {
-                "show-database"
-            } else {
-                "recording-metadata"
-            }
-        );
-        for p in s["performances"].as_array().ok_or("Missing performances")? {
-            let _ = writeln!(
-                out,
-                "      <performance id=\"{}\" venue=\"{}\" city=\"{}\" state=\"{}\" country=\"{}\" sourceRef=\"gdshowsdb\">",
-                xml(&text(p, "id")),
-                xml(&text(p, "venue")),
-                xml(&text(p, "city")),
-                xml(&text(p, "state")),
-                xml(&text(p, "country"))
-            );
-            for set in p["sets"].as_array().ok_or("Missing sets")? {
-                let _ = writeln!(out, "        <set number=\"{}\" role=\"unspecified\">", set["number"]);
-                for song in set["songs"].as_array().ok_or("Missing songs")? {
-                    let _ = writeln!(
-                        out,
-                        "          <song name=\"{}\" segueToNext=\"{}\" />",
-                        xml(&crate::shows::clean_title(&text(song, "name"))),
-                        song["segue"].as_bool().unwrap_or(false)
-                    );
-                }
-                out.push_str("        </set>\n");
-            }
-            out.push_str("      </performance>\n");
-        }
-        for r in s["recordings"].as_array().ok_or("Missing recordings")? {
-            let p = classify(
-                &text(r, "source_text"),
-                &if text(r, "source") == "etree" { text(r, "title") } else { text(r, "key") },
-                &text(r, "taper"),
-                &text(r, "transferer"),
-                &text(r, "lineage"),
-                &text(r, "hints"),
-            );
-            let _ = writeln!(
-                out,
-                "      <recording key=\"{}\" provider=\"{}\" title=\"{}\" type=\"{}\" modifiers=\"{}\" inferredType=\"{}\" sourceRefs=\"{}\">",
-                xml(&text(r, "key")),
-                xml(&text(r, "source")),
-                xml(&text(r, "title")),
-                p.kind,
-                p.modifiers.join(" "),
-                p.inferred,
-                r["provenance"]
-                    .as_array()
-                    .unwrap_or(&Vec::new())
-                    .iter()
-                    .filter_map(Value::as_str)
-                    .collect::<Vec<_>>()
-                    .join(" ")
-            );
-            for (name, pattern) in ALIASES.iter().filter(|(name, _)| p.people.iter().any(|p| p == name)) {
-                let role = if has(&text(r, "taper"), pattern) {
-                    "recording"
-                } else if has(&text(r, "transferer"), pattern) {
-                    "transfer-mastering"
-                } else {
-                    "unspecified"
-                };
-                let _ = writeln!(out, "        <person name=\"{}\" role=\"{role}\" />", xml(name));
-            }
-            for (role, field) in [("recording", "taper"), ("transfer-mastering", "transferer")] {
-                let value = clean(&text(r, field));
-                if !value.is_empty() {
-                    let _ = writeln!(out, "        <creditText role=\"{role}\">{}</creditText>", xml(&value));
-                }
-            }
-            for (name, value) in [
-                ("credits", p.credits),
-                (
-                    "evidence",
-                    format!(
-                        "{} {} {} {} {}",
-                        text(r, "title"),
-                        text(r, "source_text"),
-                        clean(&text(r, "taper")),
-                        clean(&text(r, "transferer")),
-                        text(r, "lineage")
-                    ),
-                ),
-                ("sourceChain", text(r, "source_text")),
-                ("lineage", text(r, "lineage")),
-                ("detail", text(r, "detail").replace("availability checked before download", "reference only")),
-            ] {
-                let _ = writeln!(out, "        <{name}>{}</{name}>", xml(&value));
-            }
-            for url in
-                r["references"].as_array().ok_or("Missing recording references")?.iter().filter_map(Value::as_str)
-            {
-                let _ = writeln!(out, "        <reference url=\"{}\" />", xml(url));
-            }
-            out.push_str("      </recording>\n");
-        }
-        for url in s["references"].as_array().ok_or("Missing show references")?.iter().filter_map(Value::as_str) {
-            let _ = writeln!(out, "      <reference url=\"{}\" />", xml(url));
-        }
-        out.push_str("    </show>\n");
-    }
-    out.push_str("  </shows>\n  <unplacedRecords>\n");
-    for r in facts["unplaced"].as_array().ok_or("Missing unplaced records")? {
-        let _ = writeln!(
-            out,
-            "    <record sourceRef=\"{}\" dateText=\"{}\" reason=\"{}\" />",
-            xml(&text(r, "source")),
-            xml(&text(r, "date_text")),
-            xml(&text(r, "reason"))
-        );
-    }
-    out.push_str("  </unplacedRecords>\n</gratefulDeadCatalogue>\n");
-    Catalogue::parse(&out)?;
-    fs::write(output, out).map_err(|e| e.to_string())
 }
 
 #[cfg(test)]
@@ -708,9 +694,78 @@ mod tests {
         assert_eq!(recording("AUD", "Oade Brothers", "").people, vec!["Oade Brothers"]);
     }
     #[test]
-    fn xml_disables_dtd_and_preserves_unknowns() {
-        assert!(Catalogue::parse("<!DOCTYPE x [<!ENTITY ext SYSTEM 'file:///x'>]><gratefulDeadCatalogue schemaVersion='1'>&ext;</gratefulDeadCatalogue>").is_err());
+    fn preserves_unknown_source_types() {
         let p = classify("", "gd1977-12-27", "", "", "", "");
         assert_eq!(p.kind, "UNKNOWN");
+    }
+    /// A database with compile_db.py's schema: two shows on one date at different venues.
+    fn fixture() -> (tempfile::TempDir, PathBuf) {
+        let dir = tempfile::tempdir().unwrap();
+        let path = dir.path().join("berthaml.db");
+        let db = rusqlite::Connection::open(&path).unwrap();
+        db.execute_batch(include_str!("../../../berthaml/tools/berthaml-db.sql")).unwrap();
+        db.execute_batch(
+            "INSERT INTO people VALUES ('p-garcia', 'Jerry Garcia', 'Garcia, Jerry'), ('p-weir', 'Bob Weir', 'Weir, Bob');
+             INSERT INTO venues VALUES ('v-fillmore', 'Fillmore Auditorium', 'San Francisco', 'CA', 'US', 'CA'),
+                                       ('v-okeefe', 'O''Keefe Centre', 'Toronto', '', 'CA', 'Canada');
+             INSERT INTO venue_names VALUES ('v-fillmore', 'Fillmore Auditorium'), ('v-okeefe', 'O''Keefe Centre'),
+                                            ('v-okeefe', 'Hummingbird Centre');
+             INSERT INTO songs VALUES ('s-bertha', 'Bertha', 'song'), ('s-good-lovin', 'Good Lovin''', 'song');
+             INSERT INTO shows VALUES ('gd1967-07-31-fillmore', '1967-07-31', 'v-fillmore', '', 'unknown', 'draft', 'partial', 'sources-agree'),
+                                      ('gd1967-07-31-okeefe', '1967-07-31', 'v-okeefe', 'O''Keefe', 'unknown', 'reviewed', 'complete', 'reviewed');
+             INSERT INTO show_cites VALUES ('gd1967-07-31-okeefe', 1, 'Jerrybase', 'https://jerrybase.com/events/19670731-01');
+             INSERT INTO sets VALUES ('gd1967-07-31-okeefe', 1, 'set', 1, 'electric'), ('gd1967-07-31-okeefe', 2, 'encore', 1, 'unknown');
+             INSERT INTO performances VALUES ('gd1967-07-31-okeefe', 'p01-01', 1, 1, 's-bertha', '', 'segue', ''),
+                                             ('gd1967-07-31-okeefe', 'p01-00', 1, 2, NULL, 'tuning', 'unknown', ''),
+                                             ('gd1967-07-31-okeefe', 'p01-02', 1, 3, 's-good-lovin', '', 'stop', ''),
+                                             ('gd1967-07-31-okeefe', 'p02-01', 2, 1, 's-bertha', '', 'unknown', '');
+             INSERT INTO roster_eras VALUES ('1967-01-01', '1967-09-24', 'p-garcia p-weir');
+             INSERT INTO excluded_events VALUES ('1967-07-30', 'Private', 'RCA Studio A, Hollywood, CA', 'https://jerrybase.com/');
+             INSERT INTO recordings VALUES
+               ('r-1', 'gd1967-07-31-okeefe', 'Archive.org', 'gd67-07-31.aud', 'Live at O''Keefe', 'AUD', 0, '', '', ''),
+               ('r-2', 'gd1967-07-31-okeefe', 'etree', '1234', 'gd67-07-31.sbd.miller', 'SBD', 1, 'FM',
+                'Charlie Miller (transfer/mastering)', 'Reel > DAT');",
+        )
+        .unwrap();
+        (dir, path)
+    }
+    #[test]
+    fn notes_venue_picks_between_shows_on_one_date() {
+        let (_dir, path) = fixture();
+        let toronto = reference(&path, "1967-07-31", "O'Keefe Centre, Toronto, Ontario").unwrap().unwrap();
+        let place = toronto.place.unwrap();
+        assert_eq!(crate::shows::album_name("1967-07-31", &place), "670731_canada-toronto-okeefe-centre");
+        assert!(toronto.info.starts_with("2 BerthaML shows on this date.\n\n1967-07-31 · O'Keefe Centre, Toronto"));
+        assert!(toronto.info.contains("Set 1 (electric)\n1. Bertha >\n(tuning)\n2. Good Lovin'\n\nEncore\n1. Bertha"));
+        assert!(toronto.info.contains("Billed as O'Keefe"));
+        assert!(
+            toronto.info.contains("from membership dates rather than a record of who played: Jerry Garcia, Bob Weir")
+        );
+        assert!(toronto.info.contains("2 circulating recordings"));
+        let by_city = reference(&path, "1967-07-31", "Somewhere, San Francisco CA").unwrap().unwrap();
+        assert_eq!(by_city.place.unwrap().venue, "Fillmore Auditorium");
+        assert!(reference(&path, "1967-07-31", "").unwrap().unwrap().place.is_none());
+        let private = reference(&path, "1967-07-30", "").unwrap().unwrap();
+        assert!(private.place.is_none() && private.info.contains("Private: RCA Studio A"));
+        assert!(reference(&path, "1967-08-01", "").unwrap().is_none());
+    }
+    #[test]
+    fn database_recordings_rank_and_carry_show_facts() {
+        let (_dir, path) = fixture();
+        let found = search(&path, "1967-07-31", "All sources", &Priorities::default()).unwrap();
+        assert_eq!(found.len(), 2);
+        assert_eq!(found[0].source_kind, "SBD");
+        assert!(found[0].inferred && found[0].source_summary == "SBD | FM");
+        assert_eq!(found[0].url, "https://bt.etree.org/details.php?torrentId=1234");
+        assert!(profile(&found[0]).people.contains(&"Charlie Miller".to_owned()));
+        assert!(found[1].show_info.contains("Good Lovin'") && found[1].url.ends_with("/gd67-07-31.aud"));
+        assert_eq!(search(&path, "good lovin", "etree", &Priorities::default()).unwrap().len(), 1);
+    }
+    #[test]
+    fn refuses_other_database_versions() {
+        let dir = tempfile::tempdir().unwrap();
+        let path = dir.path().join("berthaml.db");
+        rusqlite::Connection::open(&path).unwrap().execute_batch("PRAGMA user_version = 2;").unwrap();
+        assert!(reference(&path, "1977-12-27", "").unwrap_err().contains("version 2"));
     }
 }

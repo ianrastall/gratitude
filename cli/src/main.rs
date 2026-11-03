@@ -165,16 +165,6 @@ fn main() {
     let mut engine_path = None;
     let mut save_interval = DEFAULT_SAVE_INTERVAL;
     let args: Vec<String> = std::env::args().skip(1).collect();
-    if let [option, facts, output] = args.as_slice()
-        && option == "--compile-catalogue"
-    {
-        if let Err(e) = show_player_core::catalogue::compile(std::path::Path::new(facts), std::path::Path::new(output))
-        {
-            eprintln!("{e}");
-            std::process::exit(1);
-        }
-        return;
-    }
     if let [option, value] = args.as_slice() {
         let result = match option.as_str() {
             "--inspect-show" => Some(

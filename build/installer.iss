@@ -59,6 +59,10 @@ Type: files; Name: "{autoprograms}\Show Player.lnk"
 Type: files; Name: "{autodesktop}\Show Player.lnk"
 ; 0.1 to 0.3 shipped the C++ core; it is replaced by the Rust core.
 Type: files; Name: "{app}\abcore.dll"
+; 0.4 replaces the XML catalogue with the BerthaML database; the acquisition snapshots are gone.
+Type: files; Name: "{app}\data\gd-shows.xml"
+Type: files; Name: "{app}\data\gd_torrents.json"
+Type: files; Name: "{app}\data\grateful_dead_torrent_urls.txt"
 ; A Jupiter folder in Start is never used; Start lists the app by name.
 Type: files; Name: "{autoprograms}\Jupiter\{#AppName}.lnk"
 Type: dirifempty; Name: "{autoprograms}\Jupiter"

@@ -1,6 +1,6 @@
 # Gratitude
 
-A Windows player and organizer for Grateful Dead recordings already on your computer, covering shows through 9 August 1995. Version 0.3.0. Follows Jupiter style standard 1.1.
+A Windows player and organizer for Grateful Dead recordings already on your computer, covering shows through 9 August 1995. Version 0.4.0. Follows Jupiter style standard 1.1.
 
 Gratitude works exclusively with local folders and Matroska audio (`.mka`). It does not search for online recordings, download, torrent, seed or stream online sources. The acquisition workflow, network client and bundled torrent engine have been removed. Existing downloaded files and partial downloads remain untouched.
 
@@ -26,7 +26,7 @@ Both outputs carry exactly these tags and remove all others:
 
 **Write tagged files...** creates a new folder named after the album, with files such as `01 Bertha.flac` and a copy of the notes. Source files are not changed. FLAC, MP3, Ogg, Opus and M4A keep their format and audio stream. SHN, WAV and AIFF become FLAC at the original rate and depth. MP3 uses ID3v2.4; FLAC holds the same fields as Vorbis comments, its native tag format. Each file's decoded samples and tag names are checked before the folder appears.
 
-Source badges and credits come from local notes/folder names. For a dated import, **Offline show reference** shows the matching entry from the bundled 1967-1995 XML, which also supplies the album's region, city and venue. No reference lookup uses the network.
+Source badges and credits come from local notes/folder names. For a dated import, **Offline show reference** shows the date's show from the bundled BerthaML database: setlist, review status, roster or researched lineup, listed recordings and citations. The same show supplies the album's region, city and venue; when several shows share the date, the notes' venue picks one. No reference lookup uses the network.
 
 Copying compressed audio unchanged is the default. Optional FLAC encoding accepts supported lossless 16-bit/24-bit integer sources at their original rate and depth. Tracks must have matching codecs, sample rates, depths, sample formats and channel layouts. Export re-probes inputs and verifies output precision. No resampling, gap insertion, trimming, fades or crossfading is applied; original silence remains. Source files are never modified, and existing output is refused. This preservation policy does not control Windows/audio-device conversions during playback.
 
@@ -38,13 +38,13 @@ The local Shows pane displays colored source/modifier badges and credits. Clicki
 
 ## Offline reference
 
-The separate [BerthaML dataset](berthaml/README.md) develops cited canonical show records and edition-specific TXT/JSON/M3U8 playlists for both official releases and circulating recordings. Its draft data and finite curation queue live under `berthaml/`; it does not replace the installed runtime catalogue automatically. See [coverage](berthaml/reports/coverage.md).
+The [BerthaML corpus](berthaml/README.md) in `berthaml/` is Gratitude's source of truth for shows: one hand-edited XML file per show, shared registries, recordings and track lists. Every build compiles it into the read-only `data/berthaml.db` that the app ships. The corpus is a draft; each reference states its record's review status. See [coverage](berthaml/reports/coverage.md) and `docs/catalogue.md`.
 
-`data/gd-shows.xml` contains attributed GD show facts, setlists, historical recording references and separately marked credit-tier policy. It is not a current availability index or download service. Unknown and metadata-only dates remain labelled. See `docs/catalogue.md` for coverage, sources and the separate developer rebuild workflow.
+The database is not a current availability index or download service.
 
 ## Build and delivery
 
-Requires Windows 11 24H2 x64, .NET 10, Rust, Python, Inno Setup 6, shared `../jupiter-ui`, and binaries described in `third_party/README.md`.
+Requires Windows 11 24H2 x64, .NET 10, Rust, Python 3 (standard library only), Inno Setup 6, shared `../jupiter-ui`, and binaries described in `third_party/README.md`.
 
 ```powershell
 pwsh build/build.ps1
@@ -52,4 +52,4 @@ pwsh build/build.ps1
 
 Release runs formatting, Clippy, Rust/ABI tests, managed local-import/MKA/audio checks and WinUI style checks, then publishes a self-contained installer and supplemental portable zip under `dist/`. There is no bundled aria2 or HTTP client. Upgrades retain existing application identity and `%LOCALAPPDATA%\show-player` data. Uninstall does not remove user audio or app data.
 
-Rust owns local inspection, TXT parsing, offline references, MKA creation, playback and resume state. WinUI 3/C# owns the interface through a protobuf C ABI. Playback infrastructure is adapted from Jupiter Audio Bookshelf. See `docs/project-brief.md` and `docs/validation-0.3.0.md`.
+Rust owns local inspection, TXT parsing, offline references from the BerthaML database, MKA creation, playback and resume state. WinUI 3/C# owns the interface through a protobuf C ABI. Playback infrastructure is adapted from Jupiter Audio Bookshelf. See `docs/project-brief.md` and `docs/validation-0.4.0.md`.

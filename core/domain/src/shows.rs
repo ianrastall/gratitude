@@ -1397,14 +1397,6 @@ mod tests {
         );
     }
     #[test]
-    fn places_every_catalogued_show() {
-        let catalogue = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../data/gd-shows.xml");
-        let place = crate::catalogue::show_place(&catalogue, "1977-12-27").unwrap().unwrap();
-        assert_eq!(album_name("1977-12-27", &place), "771227_ca-san-francisco-winterland");
-        let place = crate::catalogue::show_place(&catalogue, "1967-07-31").unwrap().unwrap();
-        assert_eq!(album_name("1967-07-31", &place), "670731_canada-toronto-okeefe-centre");
-    }
-    #[test]
     fn refuses_output_without_valid_tags() {
         let track = Track { title: "Bertha".into(), ..Default::default() };
         let mut draft =

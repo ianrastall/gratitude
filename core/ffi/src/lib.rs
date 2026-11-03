@@ -192,6 +192,11 @@ unsafe fn input<'a>(ptr: *const u8, len: usize) -> Option<&'a [u8]> {
     Some(unsafe { std::slice::from_raw_parts(ptr, len) })
 }
 
+/// The BerthaML show database shipped beside the executable.
+fn show_database() -> PathBuf {
+    std::env::current_exe().ok().and_then(|p| p.parent().map(|p| p.join("data/berthaml.db"))).unwrap_or_default()
+}
+
 /// Dispatches one decoded request.
 pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response {
     let id = req.request_id;
@@ -220,24 +225,23 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
     match req.command {
         Some(C::InspectShow(s)) => match show_player_core::shows::inspect(Path::new(&s.folder), &s.notes_path) {
             Ok(mut d) => {
-                let catalogue =
-                    std::env::current_exe().ok().and_then(|p| p.parent().map(|p| p.join("data/gd-shows.xml")));
-                if let Some(path) = catalogue {
-                    d.reference_info =
-                        show_player_core::catalogue::show_info(&path, &d.date).ok().flatten().unwrap_or_default();
-                    if let Ok(Some(place)) = show_player_core::catalogue::show_place(&path, &d.date) {
-                        d.set_place(&place);
+                match show_player_core::catalogue::reference(&show_database(), &d.date, &d.venue) {
+                    Ok(Some(reference)) => {
+                        d.reference_info = reference.info;
+                        if let Some(place) = reference.place {
+                            d.set_place(&place);
+                        }
                     }
+                    Ok(None) => {}
+                    Err(e) => d.reference_info = e,
                 }
                 ok(response::Result::ShowDraft(d.into()))
             }
             Err(e) => error_response(id, ErrorKind::Io, e),
         },
         Some(C::SearchRecordings(s)) => {
-            let data =
-                std::env::current_exe().ok().and_then(|p| p.parent().map(|p| p.join("data"))).unwrap_or_default();
             match show_player_core::catalogue::search(
-                &data.join("gd-shows.xml"),
+                &show_database(),
                 &s.query,
                 &s.source,
                 &show_player_core::catalogue::Priorities::load(&core.data_dir),

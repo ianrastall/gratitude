@@ -4,7 +4,7 @@ An attributed Grateful Dead research dataset and XML vocabulary. The current dat
 
 **Canonical curation is incomplete.** The first baseline has 2,234 show records and 39,639 performance entries. It retains uncertainty rather than filling gaps with invented facts. See the generated [coverage report](reports/coverage.md), the [curation contract](CURATION.md) and [source provenance](sources/README.md).
 
-BerthaML is currently a separate data product inside Gratitude's repository. The installed player and its existing `../data/gd-shows.xml` are unchanged. No audio is acquired by the dataset tools. See [validation](VALIDATION.md) for the first release checks.
+BerthaML lives inside Gratitude's repository and is Gratitude's source of truth for shows. From Gratitude 0.4.0, `tools/compile_db.py` compiles it into the read-only `berthaml.db` that the app ships, replacing the old `gd-shows.xml` catalogue; see `../docs/catalogue.md`. No audio is acquired by the dataset tools. See [validation](VALIDATION.md) for the first release checks.
 
 ## Layout
 
@@ -31,6 +31,8 @@ tools/
   build_corpus.py
   audit_corpus.py
   collect_playlists.py
+  compile_db.py       Gratitude's read-only berthaml.db (schema berthaml-db.sql)
+  compare_catalogue.py
 curated/          hand-entered recordings, identity and review decisions
 sources/          pinned evidence and original-import recovery archive
 reports/          coverage, source drift, crosswalks and the finite issue queue
