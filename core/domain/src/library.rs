@@ -39,6 +39,8 @@ pub struct BookEntry {
     pub show_date: String,
     /// Venue, city and region from BerthaML; empty when the show is not linked.
     pub place: String,
+    /// The tour as Jerrybase groups it, such as "Spring 1977 tour"; often empty.
+    pub tour: String,
 }
 
 fn file_stem(path: &str) -> String {
@@ -79,7 +81,7 @@ fn entry(path: String, row: Option<BookRow>, stored: Option<String>, database: &
         .as_ref()
         .map(|s| s.summary.date.clone())
         .unwrap_or_else(|| linking::mka_evidence(Path::new(&path), &title).date);
-    let place = show.map(|s| s.summary.place).unwrap_or_default();
+    let (place, tour) = show.map(|s| (s.summary.place, s.summary.tour)).unwrap_or_default();
     let (position_ms, duration_ms, finished, last_played_utc) =
         row.map_or((0, 0, false, 0), |r| (r.position_ms, r.duration_ms, r.finished, r.last_played_utc));
     let notes = matroska::read_source_notes(Path::new(&path));
@@ -104,6 +106,7 @@ fn entry(path: String, row: Option<BookRow>, stored: Option<String>, database: &
         show_date: if date.is_empty() { String::new() } else { crate::report::long_date(&date) },
         date,
         place,
+        tour,
     }
 }
 

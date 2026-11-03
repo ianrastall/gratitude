@@ -333,7 +333,7 @@ pub fn rank(x: &Profile, p: &Priorities) -> (usize, usize, usize) {
     (source, credit, 0)
 }
 /// The database schema this build reads; compile_db.py sets it as user_version.
-const DATABASE_VERSION: i64 = 1;
+const DATABASE_VERSION: i64 = 2;
 /// A BerthaML show for lists.
 #[derive(Clone, Debug, Default, PartialEq, Eq)]
 pub struct ShowSummary {
@@ -346,6 +346,8 @@ pub struct ShowSummary {
     pub corroboration: String,
     pub songs: u32,
     pub recordings: u32,
+    /// The tour as Jerrybase groups it, such as "Spring 1977 tour"; empty when it groups none.
+    pub tour: String,
 }
 /// One song performance in a show's setlist.
 #[derive(Clone, Debug, Default, PartialEq, Eq)]
@@ -362,6 +364,10 @@ pub struct ShowDetail {
     pub summary: ShowSummary,
     pub setlist: Vec<SetlistEntry>,
     pub info: String,
+}
+/// "Spring 1977 tour" from Jerrybase's "Spring 1977"; a name that already says tour is kept.
+pub fn tour_label(name: &str) -> String {
+    if name.is_empty() || name.to_lowercase().contains("tour") { name.to_owned() } else { format!("{name} tour") }
 }
 /// A song and how many performances the show database holds.
 #[derive(Clone, Debug, Default, PartialEq, Eq)]
@@ -505,6 +511,12 @@ impl Catalogue {
         for (song, title) in rows(db, "SELECT song, title FROM song_titles", |r| Ok((text(r, 0)?, text(r, 1)?)))? {
             titles.entry(song).or_default().push(crate::linking::title_key(&title));
         }
+        let tours: HashMap<_, _> =
+            rows(db, "SELECT s.show, t.name FROM show_tours s JOIN tours t ON t.id = s.tour", |r| {
+                Ok((text(r, 0)?, text(r, 1)?))
+            })?
+            .into_iter()
+            .collect();
         let tapes: HashMap<_, _> = rows(db, "SELECT show, count(*) FROM recordings GROUP BY show", |r| {
             Ok((text(r, 0)?, r.get::<_, i64>(1)?))
         })?
@@ -532,6 +544,10 @@ impl Catalogue {
                 .collect::<Vec<_>>()
                 .join(", ");
             let mut info = format!("{date} · {location}");
+            let tour = tours.get(&id).cloned().unwrap_or_default();
+            if !tour.is_empty() {
+                info += &format!("\n{}, as Jerrybase groups its tours", tour_label(&tour));
+            }
             if !billed.is_empty() && billed != place.venue {
                 info += &format!("\nBilled as {billed}");
             }
@@ -618,6 +634,7 @@ impl Catalogue {
                 corroboration: corroboration(&level).to_owned(),
                 songs: setlist.len() as u32,
                 recordings: tapes.get(&id).copied().unwrap_or(0) as u32,
+                tour: tour_label(&tour),
             };
             match tapes.get(&id).copied().unwrap_or(0) {
                 0 => {}
@@ -991,6 +1008,8 @@ mod tests {
                                              ('gd1967-07-31-okeefe', 'p01-00', 1, 2, NULL, 'tuning', 'unknown', ''),
                                              ('gd1967-07-31-okeefe', 'p01-02', 1, 3, 's-good-lovin', '', 'stop', ''),
                                              ('gd1967-07-31-okeefe', 'p02-01', 2, 1, 's-bertha', '', 'unknown', '');
+             INSERT INTO tours VALUES ('jbt-1', 'Summer 1967 Canada and Back', '1967-07-31', '1967-08-13', 'https://jerrybase.com/tours/201');
+             INSERT INTO show_tours VALUES ('gd1967-07-31-okeefe', 'jbt-1');
              INSERT INTO roster_eras VALUES ('1967-01-01', '1967-09-24', 'p-garcia p-weir');
              INSERT INTO excluded_events VALUES ('1967-07-30', 'Private', 'RCA Studio A, Hollywood, CA', 'https://jerrybase.com/');
              INSERT INTO recordings VALUES
@@ -1010,6 +1029,7 @@ mod tests {
         assert!(toronto.info.starts_with("2 BerthaML shows on this date.\n\n1967-07-31 · O'Keefe Centre, Toronto"));
         assert!(toronto.info.contains("Set 1 (electric)\n1. Bertha >\n(tuning)\n2. Good Lovin'\n\nEncore\n1. Bertha"));
         assert!(toronto.info.contains("Billed as O'Keefe"));
+        assert!(toronto.info.contains("\nSummer 1967 Canada and Back tour, as Jerrybase groups its tours\n"));
         assert!(
             toronto.info.contains("from membership dates rather than a record of who played: Jerry Garcia, Bob Weir")
         );
@@ -1044,6 +1064,8 @@ mod tests {
         let detail = show(&path, "gd1967-07-31-okeefe").unwrap().unwrap();
         assert_eq!((detail.summary.songs, detail.summary.recordings), (3, 2));
         assert_eq!(detail.summary.place, "O'Keefe Centre, Toronto, Canada");
+        assert_eq!(detail.summary.tour, "Summer 1967 Canada and Back tour");
+        assert_eq!(tour_label("August 1970 Caravan of Love Tour"), "August 1970 Caravan of Love Tour");
         let rows = detail
             .setlist
             .iter()
@@ -1065,7 +1087,7 @@ mod tests {
     fn refuses_other_database_versions() {
         let dir = tempfile::tempdir().unwrap();
         let path = dir.path().join("berthaml.db");
-        rusqlite::Connection::open(&path).unwrap().execute_batch("PRAGMA user_version = 2;").unwrap();
-        assert!(reference(&path, "1977-12-27", "").unwrap_err().contains("version 2"));
+        rusqlite::Connection::open(&path).unwrap().execute_batch("PRAGMA user_version = 9;").unwrap();
+        assert!(reference(&path, "1977-12-27", "").unwrap_err().contains("version 9"));
     }
 }

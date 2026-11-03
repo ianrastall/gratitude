@@ -94,6 +94,9 @@ pub fn render(source: &ReportSource, database: &Path) -> String {
     if !place.is_empty() {
         out.push(place);
     }
+    if let Some(tour) = show.as_ref().map(|s| s.summary.tour.clone()).filter(|t| !t.is_empty()) {
+        out.push(format!("Tour: {tour}"));
+    }
     if !source.album.is_empty() {
         out.push(format!("Album: {}", source.album));
     }

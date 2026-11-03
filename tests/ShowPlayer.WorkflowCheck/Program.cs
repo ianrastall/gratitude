@@ -112,7 +112,7 @@ foreach (bool copy in new[] { true, false })
     Require(listed.SourceKind == "SBD", "Library lost the recording type stored in MKA notes");
     // The MKA does not hold the checksum file's name; only the recorded source folder evidence does.
     Require(listed.ShowId == "gd1977-05-08" && listed.RecordingId == "r-a7630611865608b4e5e6" && listed.ChapterPerformances.Count == 3, "Library lost the BerthaML link recorded at packaging: " + listed.Link);
-    Require(listed.Date == "1977-05-08" && listed.ShowDate == "Sunday, May 8, 1977" && listed.Place == "Barton Hall, Cornell University, Ithaca, NY",
+    Require(listed.Date == "1977-05-08" && listed.ShowDate == "Sunday, May 8, 1977" && listed.Place == "Barton Hall, Cornell University, Ithaca, NY" && listed.Tour == "Spring 1977 tour",
         $"The library card lacks the show's date and place: {listed.ShowDate} / {listed.Place}");
     using var probe = JsonDocument.Parse(Run(Path.Combine(tools, "ffprobe.exe"), "-v", "error", "-show_chapters", "-show_streams", "-show_format", "-of", "json", output));
     Require(probe.RootElement.GetProperty("chapters").GetArrayLength() == 3, "Wrong chapter count");

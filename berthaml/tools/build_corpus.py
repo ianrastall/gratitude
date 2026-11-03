@@ -374,6 +374,27 @@ def roster_eras(shows, people):
     return eras
 
 
+def tour_groupings(events):
+    """Jerrybase's tour groupings mapped to show IDs, for every show they cover.
+
+    Jerrybase takes some tours from band documents and groups others itself, so this is a
+    source's grouping, derived at each build like the corroboration levels, not a corpus
+    claim. Tours of canceled events cover no show and are kept for completeness.
+    """
+    document = json.loads(gzip.decompress((ROOT / 'sources/jerrybase-tours.json.gz').read_bytes()))
+    show_of = {e['url']: e['id'] for e in events}
+    tours = []
+    for tour in document['tours']:
+        tours.append(dict(id=f"jbt-{tour['source_id']}",
+                          name=re.sub(r'^(?:Grateful Dead|GD-NRPS|GD)\s+', '', tour['name']),
+                          source_name=tour['name'], first=tour['first'], last=tour['last'], source=tour['url'],
+                          shows=sorted({show_of[u] for u in tour['events'] if u in show_of})))
+    covered = [sid for tour in tours for sid in tour['shows']]
+    if len(covered) != len(set(covered)):
+        raise ValueError('A show falls in two tour groupings; review the tour capture')
+    return tours
+
+
 def build():
     lock = json.loads((ROOT / 'sources/inputs.lock.json').read_text('utf-8'))
     for name, expected in lock['files'].items():
@@ -631,6 +652,7 @@ def build():
     output['reports/source-crosswalk.jsonl'] = lines(crosswalk)
     output['reports/source-drift.jsonl'] = lines(drift)
     output['reports/corroboration.jsonl'] = lines(support)
+    output['reports/tours.json'] = jbytes(tour_groupings(events))
     output['reports/roster-eras.json'] = jbytes(roster_eras(xml_shows, regs['people']))
     output['reports/recordings-unassigned.jsonl'] = lines(unassigned)
     output['reports/event-exclusions.jsonl'] = lines([dict(url=e['url'], date_label=e['date_label'],

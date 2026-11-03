@@ -199,7 +199,12 @@ def compile_db(output):
     shows = sorted((ROOT / "data/shows").glob("*/*.xml"))
     recordings = sorted((ROOT / "data/recordings").glob("*/*.xml"))
     registries = [ROOT / f"data/{name}.xml" for name in ("people", "songs", "venues", "releases")]
-    reports = [ROOT / "reports/corroboration.jsonl", ROOT / "reports/roster-eras.json", ROOT / "reports/event-exclusions.jsonl"]
+    reports = [
+        ROOT / "reports/corroboration.jsonl",
+        ROOT / "reports/roster-eras.json",
+        ROOT / "reports/event-exclusions.jsonl",
+        ROOT / "reports/tours.json",
+    ]
     dataset = json.loads((ROOT / "dataset.json").read_text(encoding="utf-8"))
     levels = {}
     for line in reports[0].read_text(encoding="utf-8").splitlines():
@@ -220,6 +225,9 @@ def compile_db(output):
             load_recordings(db, path)
         for era in json.loads(reports[1].read_text(encoding="utf-8")):
             db.execute("INSERT INTO roster_eras VALUES (?,?,?)", (era["start"], era["to"], " ".join(era["members"])))
+        for tour in json.loads(reports[3].read_text(encoding="utf-8")):
+            db.execute("INSERT INTO tours VALUES (?,?,?,?,?)", (tour["id"], tour["name"], tour["first"], tour["last"], tour["source"]))
+            db.executemany("INSERT INTO show_tours VALUES (?,?)", [(show, tour["id"]) for show in tour["shows"]])
         for line in reports[2].read_text(encoding="utf-8").splitlines():
             row = json.loads(line)
             date = row["date_label"].split(" ")[0]

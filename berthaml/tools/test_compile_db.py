@@ -25,7 +25,7 @@ class CompileDbTests(unittest.TestCase):
 
     def test_counts_match_the_coverage_report(self):
         coverage = json.loads((ROOT / "reports/coverage.json").read_text(encoding="utf-8"))
-        self.assertEqual(self.count("PRAGMA user_version"), 1)
+        self.assertEqual(self.count("PRAGMA user_version"), 2)
         for table in ("shows", "songs", "venues", "people", "recordings"):
             self.assertEqual(self.count(f"SELECT count(*) FROM {table}"), coverage[table], table)
         self.assertEqual(self.count("SELECT count(*) FROM performances WHERE song IS NOT NULL"), coverage["performances"])
@@ -41,6 +41,13 @@ class CompileDbTests(unittest.TestCase):
         self.assertEqual(self.count("SELECT count(*) FROM lineup WHERE show = 'gd1970-05-02'"), 6)
         level = self.db.execute("SELECT corroboration FROM shows WHERE id = 'gd1977-12-27'").fetchone()[0]
         self.assertEqual(level, "recording-backed")
+
+    def test_tours_group_shows(self):
+        tours = json.loads((ROOT / "reports/tours.json").read_text(encoding="utf-8"))
+        self.assertEqual(self.count("SELECT count(*) FROM tours"), len(tours))
+        self.assertEqual(self.count("SELECT count(*) FROM show_tours"), sum(len(t["shows"]) for t in tours))
+        name = self.db.execute("SELECT t.name FROM show_tours s JOIN tours t ON t.id = s.tour WHERE s.show = 'gd1977-05-08'").fetchone()
+        self.assertEqual(name, ("Spring 1977",))
 
     def test_recordings_use_application_codes(self):
         kinds = {k for (k,) in self.db.execute("SELECT DISTINCT kind FROM recordings")}

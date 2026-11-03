@@ -13,7 +13,7 @@
 
   <!-- Compiles the BerthaML corpus into the read-only show database whenever the corpus changes. -->
   <ItemGroup>
-    <ShowDatabaseInput Include="$(BerthaRoot)data\**\*.xml;$(BerthaRoot)reports\corroboration.jsonl;$(BerthaRoot)reports\roster-eras.json;$(BerthaRoot)reports\event-exclusions.jsonl;$(BerthaRoot)dataset.json;$(BerthaRoot)tools\compile_db.py;$(BerthaRoot)tools\berthaml-db.sql" />
+    <ShowDatabaseInput Include="$(BerthaRoot)data\**\*.xml;$(BerthaRoot)reports\corroboration.jsonl;$(BerthaRoot)reports\roster-eras.json;$(BerthaRoot)reports\event-exclusions.jsonl;$(BerthaRoot)reports\tours.json;$(BerthaRoot)dataset.json;$(BerthaRoot)tools\compile_db.py;$(BerthaRoot)tools\berthaml-db.sql" />
   </ItemGroup>
   <Target Name="CompileShowDatabase" BeforeTargets="AssignTargetPaths" Condition="'$(DesignTimeBuild)' != 'true'" Inputs="@(ShowDatabaseInput)" Outputs="$(ShowDatabase)">
     <Exec Command="python &quot;$(BerthaRoot)tools\compile_db.py&quot; &quot;$(ShowDatabase)&quot;" WorkingDirectory="$(RepoRoot)" />

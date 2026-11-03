@@ -324,6 +324,7 @@
                                         <local:SourceBadgesControl Labels="{x:Bind SourceInfo}" />
                                         <TextBlock Text="{x:Bind Heading}" Style="{StaticResource JupiterBodyStrongTextStyle}" TextWrapping="Wrap" />
                                         <TextBlock Text="{x:Bind Place}" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" Visibility="{x:Bind PlaceVisibility}" />
+                                        <TextBlock Text="{x:Bind Tour}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" Visibility="{x:Bind TourVisibility}" />
                                         <TextBlock Text="{x:Bind Credits}" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" Visibility="{x:Bind CreditsVisibility}" />
                                         <TextBlock Text="{x:Bind Detail}" Style="{StaticResource JupiterCaptionTextStyle}" />
                                     </StackPanel>
@@ -361,7 +362,7 @@
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="Auto" />
                             </Grid.ColumnDefinitions>
-                            <AutoSuggestBox x:Name="ShowSearch" PlaceholderText="Search by date, venue or city" QueryIcon="Find"
+                            <AutoSuggestBox x:Name="ShowSearch" PlaceholderText="Search by date, venue, city or tour" QueryIcon="Find"
                                             TextChanged="OnShowSearchChanged" AutomationProperties.Name="Search all shows" />
                             <ComboBox x:Name="YearFilter" Grid.Column="1" MinWidth="120" SelectionChanged="OnShowFilterChanged" AutomationProperties.Name="Year" />
                         </Grid>

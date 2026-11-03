@@ -122,6 +122,7 @@ pub fn books_to_message(books: &[BookEntry]) -> messages::BookList {
                 date: b.date.clone(),
                 show_date: b.show_date.clone(),
                 place: b.place.clone(),
+                tour: b.tour.clone(),
             })
             .collect(),
     }
@@ -136,6 +137,7 @@ impl From<show_player_core::catalogue::ShowSummary> for messages::ShowSummary {
             corroboration: s.corroboration,
             songs: s.songs,
             recordings: s.recordings,
+            tour: s.tour,
         }
     }
 }

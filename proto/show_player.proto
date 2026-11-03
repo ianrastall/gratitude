@@ -149,6 +149,7 @@ message ShowSummary {
   string corroboration = 5;
   uint32 songs = 6;
   uint32 recordings = 7;
+  string tour = 8;
 }
 message ShowList {
   repeated ShowSummary shows = 1;
@@ -254,6 +255,8 @@ message Book {
   string date = 17;
   string show_date = 18;
   string place = 19;
+  // The tour as Jerrybase groups it, such as "Spring 1977 tour"; often empty.
+  string tour = 20;
 }
 
 message BookList {

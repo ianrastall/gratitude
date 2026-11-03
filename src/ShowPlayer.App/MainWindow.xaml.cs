@@ -47,17 +47,18 @@ public sealed record PerformanceRow(string Path, int Chapter, string Heading, st
 }
 
 /// <summary>One row of the Books pane.</summary>
-public sealed record BookRow(string Path, string Heading, string Place, string Detail, string SourceInfo, string Credits)
+public sealed record BookRow(string Path, string Heading, string Place, string Tour, string Detail, string SourceInfo, string Credits)
 {
-    public override string ToString() => string.Join(", ", new[] { Heading, Place, Credits, Detail }.Where(t => t.Length > 0));
+    public override string ToString() => string.Join(", ", new[] { Heading, Place, Tour, Credits, Detail }.Where(t => t.Length > 0));
 
     /// <summary>A card for a book: the show's date and place when linked, else its own title.</summary>
-    public static BookRow From(Book b, string detail) => new(b.Path, BookHeading(b), b.ShowDate.Length > 0 ? b.Place : "", detail, b.SourceSummary, b.Credits);
+    public static BookRow From(Book b, string detail) => new(b.Path, BookHeading(b), b.ShowDate.Length > 0 ? b.Place : "", b.Tour, detail, b.SourceSummary, b.Credits);
 
     public static string BookHeading(Book b) => b.ShowDate.Length > 0 ? b.ShowDate : b.Title;
 
     public string FileName => System.IO.Path.GetFileName(Path);
     public Visibility PlaceVisibility => Place.Length > 0 ? Visibility.Visible : Visibility.Collapsed;
+    public Visibility TourVisibility => Tour.Length > 0 ? Visibility.Visible : Visibility.Collapsed;
     public Visibility CreditsVisibility => Credits.Length > 0 ? Visibility.Visible : Visibility.Collapsed;
 }
 
@@ -427,7 +428,7 @@ public sealed partial class MainWindow : Window
         PlaybackNotes.Text = report;
         ExportReportItem.IsEnabled = report.Length > 0;
         _bookHeading = link is { ShowDate.Length: > 0 } ? link.ShowDate : "";
-        _bookPlace = link?.Place ?? "";
+        _bookPlace = link is null ? "" : string.Join(" · ", new[] { link.Place, link.Tour }.Where(t => t.Length > 0));
         if (_bookPlace.Length > 0)
         {
             AuthorText.Text = _bookPlace;
@@ -673,7 +674,7 @@ public sealed partial class MainWindow : Window
     {
         string search = BookSearch.Text.Trim();
         var rows = _books
-            .Where(b => search.Length == 0 || new[] { b.Title, b.ShowDate, b.Date, b.Place, b.Credits }.Any(t => t.Contains(search, StringComparison.CurrentCultureIgnoreCase)))
+            .Where(b => search.Length == 0 || new[] { b.Title, b.ShowDate, b.Date, b.Place, b.Tour, b.Credits }.Any(t => t.Contains(search, StringComparison.CurrentCultureIgnoreCase)))
             .Select(b => BookRow.From(b, BookDetail(b)))
             .ToList();
         BookList.ItemsSource = rows;
@@ -1032,7 +1033,8 @@ public sealed partial class MainWindow : Window
             .Where(s => search.Length == 0
                 || s.Date.Contains(search, StringComparison.OrdinalIgnoreCase)
                 || s.Place.Contains(search, StringComparison.CurrentCultureIgnoreCase)
-                || s.Id.Contains(search, StringComparison.OrdinalIgnoreCase))
+                || s.Id.Contains(search, StringComparison.OrdinalIgnoreCase)
+                || s.Tour.Contains(search, StringComparison.CurrentCultureIgnoreCase))
             .Select(s => new ShowRow(s.Id, s.Date, s.Place, ShowDetailText(s), owned.TryGetValue(s.Id, out int n) ? (n == 1 ? "In folder" : $"{n} in folder") : ""))
             .ToList();
         ShowList.ItemsSource = rows;
@@ -1045,7 +1047,7 @@ public sealed partial class MainWindow : Window
     {
         string songs = s.Songs == 0 ? "no setlist" : s.Songs == 1 ? "1 song" : $"{s.Songs} songs";
         string tapes = s.Recordings == 1 ? "1 listed recording" : $"{s.Recordings} listed recordings";
-        return $"{songs} · {tapes} · {s.Status}";
+        return string.Join(" · ", new[] { s.Tour, songs, tapes, s.Status }.Where(t => t.Length > 0));
     }
 
     private void OnShowSearchChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args) => ShowShows();

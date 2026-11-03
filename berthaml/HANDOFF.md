@@ -22,6 +22,10 @@ Still to do with the track lists: order-aware linking, because exact title match
 
 1965-66 is a later capture. Before the roughly 18,000 Archive track lists are fetched, stop committing the TXT/JSON/M3U8 exports, which would reach about 54,000 files, and store the captures in a few bundled archives rather than one file each. File count is what costs here: `git add` of this 4,150-file change took about 30 minutes on Ian's hard disk, roughly 120 to 300 files a minute, despite being only about 30 MB. `sources/recording-playlists/index.json` and `cache_name` assume one file per capture and will need changing.
 
+## Tours, 3 November 2026
+
+Ian asked for tour names on Gratitude's show cards and supplied a research report on named tour legs (`D:/all/cc/events/Grateful Dead Tour Legs Report.md`). The report names about twenty legs, mixes billed tours with archival box-set titles, and has inconsistencies, so it was used only to find sources. Jerrybase's tour table covers every year: `tools/collect_tours.py` pins it as `sources/jerrybase-tours.json.gz`, and the build writes `reports/tours.json`, mapping 1,466 shows to 139 tours. `compile_db.py` now writes database version 2 with `tours` and `show_tours`. The CMU "Tour-by-Tour" pages cover only 1972-77 and 1990-95 and are not used. The report's box-set names (May 1977, Listen to the River and so on) are official releases, which belong in the release research, not tours.
+
 ## Runtime database, 2 November 2026
 
 Step 3. `tools/compile_db.py` reads the show files, registries, generated recordings, `corroboration.jsonl`, `roster-eras.json` and `event-exclusions.jsonl`, and writes a SQLite database with the Python standard library alone. The .NET build runs it from `build/native.targets` whenever an input changes and ships the result as `data/berthaml.db`; it is never committed. `PRAGMA user_version` is the database schema version, and Gratitude refuses any other. Rust tests build a fixture from the same `.sql` file, and `tools/test_compile_db.py` checks the real compile against `reports/coverage.json`.

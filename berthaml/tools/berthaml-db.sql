@@ -1,7 +1,7 @@
 -- Read-only runtime database compiled from the BerthaML corpus by compile_db.py.
 -- Gratitude reads it; nothing writes to it after the build. user_version is the
 -- database schema version, separate from the BerthaML language version in meta.
-PRAGMA user_version = 1;
+PRAGMA user_version = 2;
 
 CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 
@@ -36,6 +36,10 @@ CREATE TABLE shows (
     corroboration TEXT NOT NULL
 );
 CREATE INDEX shows_date ON shows (date);
+-- Jerrybase's tour groupings (reports/tours.json): a source's grouping, some from band
+-- documents and some its own, not a corpus claim. A show is in at most one tour.
+CREATE TABLE tours (id TEXT PRIMARY KEY, name TEXT NOT NULL, first TEXT NOT NULL, last TEXT NOT NULL, source TEXT NOT NULL);
+CREATE TABLE show_tours (show TEXT PRIMARY KEY REFERENCES shows, tour TEXT NOT NULL REFERENCES tours);
 -- Canceled and private events, kept outside the show corpus. date may lack a day.
 CREATE TABLE excluded_events (date TEXT NOT NULL, category TEXT NOT NULL, venue TEXT NOT NULL, href TEXT NOT NULL);
 CREATE INDEX excluded_events_date ON excluded_events (date);

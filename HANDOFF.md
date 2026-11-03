@@ -16,7 +16,9 @@ Local CLI helpers: `cargo run -p show-player-harness -- --inspect-show <folder>`
 
 Pending work is explicit in the brief. No full concert transfer is claimed as verified until it actually completes. Do not label the historical catalogue a live search. Preserve original audio and notes when creating MKA files.
 
-Current version: 0.8.0. Cards and the player heading are built from the BerthaML show (`BookEntry.date`, `show_date`, `place`), not the MKA title, which since 0.3 is the album name. Credits carry roles: `catalogue::credited_in` reads taper and transfer lines from notes, and `usual_role` falls back to the house tiers. A `--data` run has its own single-instance lock. See `docs/validation-0.8.0.md`.
+Current version: 0.9.0. Cards, the player heading, the All shows list, the reference text and the report name the show's tour from Jerrybase's grouping (`reports/tours.json`, database version 2, `ShowSummary.tour`). See `berthaml/HANDOFF.md` and `docs/validation-0.9.0.md`.
+
+Version 0.8.0. Cards and the player heading are built from the BerthaML show (`BookEntry.date`, `show_date`, `place`), not the MKA title, which since 0.3 is the album name. Credits carry roles: `catalogue::credited_in` reads taper and transfer lines from notes, and `usual_role` falls back to the house tiers. A `--data` run has its own single-instance lock. See `docs/validation-0.8.0.md`.
 
 Version 0.7.0. The standard show report (`core/domain/src/report.rs`): one layout for every show, rendered from an import (`report::for_draft`, which relinks from the final titles) or an MKA (`library::report`, from its link, chapters, tags and audio stream). The MKA job attaches it as `show-report.txt` after the original `show-notes.txt`; the tagged-files job writes it into the new folder. ABI `RenderReport` and `BookReport`. `song_title` now also drops a leading "Set 1 / " from 0.1-era chapter titles. The icon is drawn on a light tile, and the Start identity is `IanRastall.Gratitude` because Start cached Show Player's icon under the old one. See `docs/validation-0.7.0.md`.
 
