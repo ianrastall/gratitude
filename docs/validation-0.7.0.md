@@ -32,4 +32,4 @@ The Start menu kept showing Show Player's icon although Explorer's own cache alr
 
 ## Delivery
 
-The installer installed silently over 0.6.0. The new Start shortcut carries `IanRastall.Gratitude` and not the old ID, and Explorer gives it the new icon. Launched from Start, the app opened Ian's newest show and its Show report pane rendered. Saved positions for both of Ian's MKAs were unchanged. The Start menu's own display of the icon was not seen, because opening Start would take over Ian's screen.
+The installer installed silently over 0.6.0. The new Start shortcut carries `IanRastall.Gratitude` and not the old ID, and Explorer gives it the new icon. Launched from Start, the app opened Ian's newest show and its Show report pane rendered. Saved positions for both of Ian's MKAs were unchanged. Ian confirmed that the Start menu shows the new icon after installing 0.7.0.
