@@ -235,6 +235,11 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
                     Ok(None) => {}
                     Err(e) => d.reference_info = e,
                 }
+                if let Ok(link) =
+                    show_player_core::linking::link(&show_database(), &show_player_core::linking::import_evidence(&d))
+                {
+                    d.set_link(&link);
+                }
                 ok(response::Result::ShowDraft(d.into()))
             }
             Err(e) => error_response(id, ErrorKind::Io, e),
@@ -296,11 +301,11 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
             if l.folder.is_empty() {
                 return error_response(id, ErrorKind::InvalidArgument, "No folder was given.");
             }
-            books(library::list_folder(&mut lock(&core.reader), Path::new(&l.folder)), true)
+            books(library::list_folder(&mut lock(&core.reader), Path::new(&l.folder), &show_database()), true)
         }
         Some(C::RecentBooks(r)) => {
             let limit = if r.limit == 0 { DEFAULT_RECENT } else { r.limit as usize };
-            books(library::recent(&mut lock(&core.reader), limit), false)
+            books(library::recent(&mut lock(&core.reader), limit, &show_database()), false)
         }
         None => error_response(id, ErrorKind::UnknownCommand, "Unknown or missing command."),
     }
@@ -337,9 +342,11 @@ pub fn create(config: messages::CoreConfig) -> Result<CoreHandle, Box<messages::
         Box::new(QueueSink(Arc::clone(&events))),
     )
     .map_err(|e| fail(convert::error_kind(e.code), e.message))?;
+    let shows = show_player_core::shows::Service::default();
+    shows.record_sources_in(data_dir.clone());
     Ok(CoreHandle {
         data_dir: data_dir.clone(),
-        shows: Default::default(),
+        shows,
         player,
         events,
         reader: Mutex::new(Reader::new(&data_dir)),

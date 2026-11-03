@@ -15,7 +15,7 @@ Remaining steps:
 1. Done: split recordings out and hand over the show files.
 2. Done: schema revision and ID freeze. `curated/id-ledger.json` holds 712 retirements from the first freeze.
 3. Done in Gratitude 0.4.0, 2 November 2026: `tools/compile_db.py` compiles the corpus into the read-only `berthaml.db` (schema `tools/berthaml-db.sql`), which replaces `data/gd-shows.xml`. See below.
-4. Link local folders to shows and recordings: identifier, shnid, then file names and durations against track lists. Needs a store schema migration that preserves saved positions.
+4. Done in Gratitude 0.5.0, 2 November 2026: `core/domain/src/linking.rs`, with the resume store at schema 3. See `../docs/catalogue.md`.
 5. New UI against the Jupiter style standard: show browser, setlists in playback, every owned performance of a song.
 
 Still to do with the track lists: order-aware linking, because exact title matching cannot place a song played twice in a show (St. Stephen at Cornell), and a non-song status for tuning and banter tracks. 535 recordings have `sbd` in the identifier but are typed matrix; some are right, and `gd77-05-08.sbd.hicks.4982.sbeok.shnf` looks wrong. Both setlist sources date the Ohio University show of November 1968 to the 25th, though published member lists give Tom Constanten's start as the 23rd, which is worth a look during early-show research.

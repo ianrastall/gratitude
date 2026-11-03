@@ -1,18 +1,23 @@
 //! The resume store: one SQLite database in WAL mode with synchronous=FULL,
 //! so every commit is on disk before the call returns. The player owns the
-//! only writing connection, on its own thread; the library reads through a
+//! main writing connection, on its own thread; a finished MKA job records its
+//! source through a short-lived second one, and the library reads through a
 //! separate read-only connection.
 //!
 //! Schema version 2 adds the book's title, so lists can name a book without
-//! opening it. Version 1 databases (Show Player 0.1 to 0.3) are upgraded
-//! in place; a database from a newer version is refused and left untouched.
+//! opening it. Version 3 adds `source`: what a packaged MKA's original folder
+//! offered for linking to BerthaML (folder and file names, titles, durations),
+//! which the MKA itself does not keep. The link is worked out from it when
+//! read, so it follows corpus changes. Older databases are upgraded in place
+//! without touching saved positions; a database from a newer version is
+//! refused and left untouched.
 
 use std::path::{Path, PathBuf};
 use std::time::{SystemTime, UNIX_EPOCH};
 
 use rusqlite::{Connection, OpenFlags, OptionalExtension, params};
 
-pub const SCHEMA_VERSION: i32 = 2;
+pub const SCHEMA_VERSION: i32 = 3;
 pub const DATABASE_FILE: &str = "bookshelf.db";
 
 pub type StoreResult<T> = Result<T, String>;
@@ -191,10 +196,14 @@ fn prepare_schema(db: &Connection) -> StoreResult<()> {
              last_played_utc INTEGER,
              missing_since_utc INTEGER,
              save_seq INTEGER NOT NULL DEFAULT 0);
-         CREATE TABLE IF NOT EXISTS setting(key TEXT PRIMARY KEY, value TEXT NOT NULL);",
+         CREATE TABLE IF NOT EXISTS setting(key TEXT PRIMARY KEY, value TEXT NOT NULL);
+         CREATE TABLE IF NOT EXISTS source(
+             book_id INTEGER PRIMARY KEY REFERENCES book(id),
+             evidence TEXT NOT NULL,
+             recorded_utc INTEGER NOT NULL);",
     )
     .map_err(text)?;
-    if version < 2 {
+    if version < SCHEMA_VERSION {
         let has_title = db.prepare("SELECT title FROM book LIMIT 0").is_ok();
         let tx = db.unchecked_transaction().map_err(text)?;
         if !has_title {
@@ -204,6 +213,30 @@ fn prepare_schema(db: &Connection) -> StoreResult<()> {
         tx.commit().map_err(text)?;
     }
     Ok(())
+}
+
+/// Records what a newly packaged MKA's source folder offered for linking, replacing any
+/// earlier record for that path. Opens its own connection, so a job thread can call it
+/// while the player keeps its own; it never creates or upgrades the database.
+pub fn record_source(dir: &Path, path: &str, file_size: i64, evidence: &str) -> StoreResult<()> {
+    let mut db = Connection::open_with_flags(
+        dir.join(DATABASE_FILE),
+        OpenFlags::SQLITE_OPEN_READ_WRITE | OpenFlags::SQLITE_OPEN_NO_MUTEX,
+    )
+    .map_err(text)?;
+    db.busy_timeout(std::time::Duration::from_secs(5)).map_err(text)?;
+    let version: i32 = db.query_row("PRAGMA user_version", [], |row| row.get(0)).map_err(text)?;
+    if version != SCHEMA_VERSION {
+        return Err(format!("the saved positions use schema {version}, not {SCHEMA_VERSION}"));
+    }
+    let tx = db.transaction().map_err(text)?;
+    tx.execute("INSERT OR IGNORE INTO book(path, file_size) VALUES(?1, ?2)", params![path, file_size]).map_err(text)?;
+    tx.execute(
+        "INSERT OR REPLACE INTO source(book_id, evidence, recorded_utc) SELECT id, ?2, ?3 FROM book WHERE path = ?1",
+        params![path, evidence, now_utc()],
+    )
+    .map_err(text)?;
+    tx.commit().map_err(text)
 }
 
 /// Read-only access for lists. Opened on first use, after the player has
@@ -247,6 +280,18 @@ impl Reader {
     pub fn book(&mut self, path: &str) -> StoreResult<Option<BookRow>> {
         let sql = format!("SELECT {} FROM book WHERE path = ?1", Self::COLUMNS);
         self.db()?.query_row(&sql, [path], Self::row).optional().map_err(text)
+    }
+
+    /// The source evidence recorded when the book was packaged, if any.
+    pub fn source(&mut self, path: &str) -> StoreResult<Option<String>> {
+        self.db()?
+            .query_row(
+                "SELECT s.evidence FROM source s JOIN book b ON b.id = s.book_id WHERE b.path = ?1",
+                [path],
+                |row| row.get(0),
+            )
+            .optional()
+            .map_err(text)
     }
 
     /// Books played most recently first, leaving out any never played.
@@ -305,9 +350,38 @@ mod tests {
         }
         let (store, _) = Store::open(dir.path()).unwrap();
         assert_eq!(store.find_or_create("x.mka", 0).unwrap().position_ms, 5000);
+        record_source(dir.path(), "x.mka", 0, "{}").unwrap();
         assert_eq!(store.get_setting("volume").as_deref(), Some("55.0"));
         let mut reader = Reader::new(dir.path());
         assert_eq!(reader.book("x.mka").unwrap().unwrap().title, "");
+        assert_eq!(reader.source("x.mka").unwrap().as_deref(), Some("{}"));
+    }
+
+    #[test]
+    fn upgrades_version_2_keeping_positions_and_records_sources() {
+        let dir = tempfile::tempdir().unwrap();
+        {
+            let (store, _) = Store::open(dir.path()).unwrap();
+            let record = store.find_or_create(r"D:\shows\a.mka", 10).unwrap();
+            store.save_position(record.id, 61_000, 3_600_000, false).unwrap();
+            store.set_title(record.id, "770508_ny-ithaca").unwrap();
+        }
+        {
+            // Wind it back to what 0.4 left: schema 2, no source table.
+            let db = Connection::open(dir.path().join(DATABASE_FILE)).unwrap();
+            db.execute_batch("DROP TABLE source; PRAGMA user_version=2;").unwrap();
+        }
+        let (store, _) = Store::open(dir.path()).unwrap();
+        let record = store.find_or_create(r"D:\shows\a.mka", 10).unwrap();
+        assert_eq!((record.position_ms, record.duration_ms), (61_000, 3_600_000));
+        record_source(dir.path(), r"d:\SHOWS\a.mka", 10, "{\"date\":\"1977-05-08\"}").unwrap();
+        record_source(dir.path(), r"D:\shows\b.mka", 20, "{}").unwrap();
+        record_source(dir.path(), r"D:\shows\b.mka", 20, "{\"date\":\"1977-05-09\"}").unwrap();
+        let mut reader = Reader::new(dir.path());
+        assert_eq!(reader.source(r"D:\shows\a.mka").unwrap().as_deref(), Some("{\"date\":\"1977-05-08\"}"));
+        assert_eq!(reader.source(r"D:\shows\b.mka").unwrap().as_deref(), Some("{\"date\":\"1977-05-09\"}"));
+        assert_eq!(reader.book(r"D:\shows\a.mka").unwrap().unwrap().position_ms, 61_000);
+        assert!(reader.source(r"D:\shows\c.mka").unwrap().is_none());
     }
 
     #[test]

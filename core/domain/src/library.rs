@@ -3,6 +3,7 @@
 
 use std::path::Path;
 
+use crate::linking::{self, Evidence};
 use crate::matroska;
 use crate::store::{BookRow, Reader};
 
@@ -25,6 +26,13 @@ pub struct BookEntry {
     pub last_played_utc: i64,
     /// The file is present.
     pub exists: bool,
+    /// BerthaML show and recording IDs, empty when linking found none.
+    pub show_id: String,
+    pub recording_id: String,
+    /// What linking matched.
+    pub link: String,
+    /// BerthaML performance IDs held by each chapter.
+    pub performances: Vec<Vec<String>>,
 }
 
 fn file_stem(path: &str) -> String {
@@ -41,9 +49,19 @@ fn title_of(path: &str, stored: Option<&str>) -> String {
         .unwrap_or_else(|| file_stem(path))
 }
 
-fn entry(path: String, row: Option<BookRow>) -> BookEntry {
+/// Links a book through the source folder recorded when it was packaged, or else through
+/// its own date, title and chapters. Worked out on every list, so it follows corpus changes.
+fn link(path: &str, title: &str, stored: Option<String>, database: &Path) -> linking::Link {
+    let evidence = stored
+        .and_then(|s| serde_json::from_str::<Evidence>(&s).ok())
+        .unwrap_or_else(|| linking::mka_evidence(Path::new(path), title));
+    linking::link(database, &evidence).unwrap_or_default()
+}
+
+fn entry(path: String, row: Option<BookRow>, stored: Option<String>, database: &Path) -> BookEntry {
     let exists = Path::new(&path).is_file();
     let title = title_of(&path, row.as_ref().map(|r| r.title.as_str()));
+    let link = link(&path, &title, stored, database);
     let (position_ms, duration_ms, finished, last_played_utc) =
         row.map_or((0, 0, false, 0), |r| (r.position_ms, r.duration_ms, r.finished, r.last_played_utc));
     let notes = matroska::read_source_notes(Path::new(&path));
@@ -61,12 +79,16 @@ fn entry(path: String, row: Option<BookRow>) -> BookEntry {
         finished,
         last_played_utc,
         exists,
+        show_id: link.show,
+        recording_id: link.recording,
+        link: link.detail,
+        performances: link.performances,
     }
 }
 
 /// The books directly in `folder`, by title. A store that cannot be read
 /// leaves the progress fields empty rather than failing the list.
-pub fn list_folder(reader: &mut Reader, folder: &Path) -> Result<Vec<BookEntry>, String> {
+pub fn list_folder(reader: &mut Reader, folder: &Path, database: &Path) -> Result<Vec<BookEntry>, String> {
     let entries = std::fs::read_dir(folder).map_err(|e| format!("cannot read {}: {e}", folder.display()))?;
     let mut books: Vec<BookEntry> = entries
         .filter_map(Result::ok)
@@ -80,7 +102,8 @@ pub fn list_folder(reader: &mut Reader, folder: &Path) -> Result<Vec<BookEntry>,
         .filter_map(|p| p.to_str().map(str::to_owned))
         .map(|path| {
             let row = reader.book(&path).ok().flatten();
-            entry(path, row)
+            let stored = reader.source(&path).ok().flatten();
+            entry(path, row, stored, database)
         })
         .collect();
     books.sort_by_cached_key(|b| (b.title.to_lowercase(), b.path.to_lowercase()));
@@ -88,8 +111,15 @@ pub fn list_folder(reader: &mut Reader, folder: &Path) -> Result<Vec<BookEntry>,
 }
 
 /// Books played most recently first.
-pub fn recent(reader: &mut Reader, limit: usize) -> Result<Vec<BookEntry>, String> {
-    Ok(reader.recent(limit)?.into_iter().map(|row| entry(row.path.clone(), Some(row))).collect())
+pub fn recent(reader: &mut Reader, limit: usize, database: &Path) -> Result<Vec<BookEntry>, String> {
+    let rows = reader.recent(limit)?;
+    Ok(rows
+        .into_iter()
+        .map(|row| {
+            let stored = reader.source(&row.path).ok().flatten();
+            entry(row.path.clone(), Some(row), stored, database)
+        })
+        .collect())
 }
 
 #[cfg(test)]
@@ -112,13 +142,13 @@ mod tests {
             store.set_title(record.id, "Zebra").unwrap();
         }
         let mut reader = Reader::new(data.path());
-        let listed = list_folder(&mut reader, books.path()).unwrap();
+        let listed = list_folder(&mut reader, books.path(), &data.path().join("no.db")).unwrap();
         let titles: Vec<&str> = listed.iter().map(|b| b.title.as_str()).collect();
         assert_eq!(titles, ["a-first", "Zebra"]);
         assert_eq!((listed[1].position_ms, listed[1].duration_ms), (60_000, 120_000));
         assert!(listed.iter().all(|b| b.exists));
 
-        let recent = recent(&mut reader, 5).unwrap();
+        let recent = recent(&mut reader, 5, &data.path().join("no.db")).unwrap();
         assert_eq!(recent.len(), 1);
         assert_eq!(recent[0].title, "Zebra");
     }
@@ -127,6 +157,6 @@ mod tests {
     fn a_missing_folder_is_an_error() {
         let data = tempfile::tempdir().unwrap();
         let mut reader = Reader::new(data.path());
-        assert!(list_folder(&mut reader, &data.path().join("absent")).is_err());
+        assert!(list_folder(&mut reader, &data.path().join("absent"), &data.path().join("no.db")).is_err());
     }
 }

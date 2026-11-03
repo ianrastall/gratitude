@@ -114,6 +114,7 @@ public sealed partial class WorkshopWindow : Window
             NotesText.Text = draft.Notes;
             ImportSourceInfo.Labels = draft.SourceSummary;
             ImportCredits.Text = draft.Credits;
+            LinkText.Text = string.IsNullOrEmpty(draft.Link) ? "" : "BerthaML: " + draft.Link;
             ReferenceText.Text = string.IsNullOrEmpty(draft.ReferenceInfo) ? "No matching show reference in the offline catalogue." : draft.ReferenceInfo;
             WarningsText.Text = string.Join("\n\n", draft.Warnings);
             ReviewedBox.IsChecked = false;

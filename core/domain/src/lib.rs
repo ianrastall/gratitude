@@ -5,6 +5,7 @@
 
 pub mod catalogue;
 pub mod library;
+pub mod linking;
 pub mod matroska;
 pub mod mpv;
 pub mod player;

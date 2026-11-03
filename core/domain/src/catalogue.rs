@@ -1,6 +1,7 @@
 //! Offline show facts from the compiled BerthaML database, and personal recording priorities.
 use crate::shows::{Place, Recording};
 use regex::Regex;
+use rusqlite::OptionalExtension;
 use serde::{Deserialize, Serialize};
 use std::cmp::Ordering;
 use std::collections::HashMap;
@@ -285,17 +286,40 @@ pub fn rank(x: &Profile, p: &Priorities) -> (usize, usize, usize) {
 /// The database schema this build reads; compile_db.py sets it as user_version.
 const DATABASE_VERSION: i64 = 1;
 /// One BerthaML show as Gratitude presents it.
-struct Show {
+pub(crate) struct Show {
+    pub(crate) id: String,
     venue: String,
     names: Vec<String>,
     place: Place,
     info: String,
+    /// Song performances in stage order: performance ID and the song's title keys.
+    pub(crate) songs: Vec<(String, Vec<String>)>,
+}
+#[cfg(test)]
+pub(crate) fn test_show(id: &str, songs: Vec<(String, Vec<String>)>) -> Show {
+    Show { id: id.into(), venue: String::new(), names: Vec::new(), place: Place::default(), info: String::new(), songs }
+}
+/// One track of an original-file track list: file name, seconds when measured, covered performance IDs.
+pub(crate) type ListedTrack = (String, Option<f64>, Vec<String>);
+/// A listed recording, as the linker compares it with a local folder.
+pub(crate) struct Source {
+    pub(crate) id: String,
+    pub(crate) show: String,
+    pub(crate) provider: String,
+    pub(crate) key: String,
+    pub(crate) title: String,
+    pub(crate) shnids: Vec<String>,
+    pub(crate) playlists: Vec<Vec<ListedTrack>>,
 }
 #[derive(Default)]
-struct Catalogue {
+pub(crate) struct Catalogue {
     records: Vec<Recording>,
-    shows: HashMap<String, Vec<Show>>,
+    pub(crate) shows: HashMap<String, Vec<Show>>,
     excluded: HashMap<String, Vec<String>>,
+    /// Recordings by their show's date.
+    pub(crate) sources: HashMap<String, Vec<Source>>,
+    /// SHA-256 over the compiled corpus, from the database's meta table.
+    pub(crate) corpus: String,
 }
 /// What the offline show database says about an imported show's date.
 #[derive(Clone, Debug, Default, PartialEq, Eq)]
@@ -367,12 +391,21 @@ impl Catalogue {
             "SELECT show, set_n, song, event, transition FROM performances ORDER BY show, set_n, n",
             |r| Ok((text(r, 0)?, (r.get::<_, i64>(1)?, r.get::<_, Option<String>>(2)?, text(r, 3)?, text(r, 4)?))),
         )?);
+        let ids = grouped(rows(
+            db,
+            "SELECT show, id FROM performances WHERE song IS NOT NULL ORDER BY show, set_n, n",
+            |r| Ok((text(r, 0)?, text(r, 1)?)),
+        )?);
         let lineups = grouped(rows(db, "SELECT show, person, instruments FROM lineup ORDER BY show, n", |r| {
             Ok((text(r, 0)?, (text(r, 1)?, text(r, 2)?)))
         })?);
         let cites = grouped(rows(db, "SELECT show, title, href FROM show_cites ORDER BY show, n", |r| {
             Ok((text(r, 0)?, (text(r, 1)?, text(r, 2)?)))
         })?);
+        let mut titles = HashMap::<String, Vec<String>>::new();
+        for (song, title) in rows(db, "SELECT song, title FROM song_titles", |r| Ok((text(r, 0)?, text(r, 1)?)))? {
+            titles.entry(song).or_default().push(crate::linking::title_key(&title));
+        }
         let tapes: HashMap<_, _> = rows(db, "SELECT show, count(*) FROM recordings GROUP BY show", |r| {
             Ok((text(r, 0)?, r.get::<_, i64>(1)?))
         })?
@@ -480,7 +513,15 @@ impl Catalogue {
             }
             let mut names = venue_names.get(&venue).cloned().unwrap_or_default();
             names.push(billed);
-            result.shows.entry(date).or_default().push(Show { venue, names, place, info });
+            let show_songs = performances
+                .get(&id)
+                .into_iter()
+                .flatten()
+                .filter_map(|(_, song, _, _)| song.as_ref())
+                .zip(ids.get(&id).into_iter().flatten())
+                .map(|(song, performance)| (performance.clone(), titles.get(song).cloned().unwrap_or_default()))
+                .collect();
+            result.shows.entry(date).or_default().push(Show { id, venue, names, place, info, songs: show_songs });
         }
         result.excluded = grouped(rows(db, "SELECT date, category, venue FROM excluded_events ORDER BY date", |r| {
             Ok((text(r, 0)?, format!("{}: {}", text(r, 1)?, text(r, 2)?)))
@@ -521,6 +562,42 @@ impl Catalogue {
                 })
             },
         )?;
+        let shnids = grouped(rows(db, "SELECT recording, value FROM recording_ids WHERE scheme = 'shnid'", |r| {
+            Ok((text(r, 0)?, text(r, 1)?))
+        })?);
+        let mut playlists = HashMap::<String, Vec<(String, Vec<ListedTrack>)>>::new();
+        for (recording, playlist, file, seconds, covers) in rows(
+            db,
+            "SELECT recording, playlist, file, seconds, covers FROM tracks ORDER BY recording, playlist, n",
+            |r| Ok((text(r, 0)?, text(r, 1)?, text(r, 2)?, r.get::<_, Option<f64>>(3)?, text(r, 4)?)),
+        )? {
+            let lists = playlists.entry(recording).or_default();
+            if lists.last().is_none_or(|(id, _)| *id != playlist) {
+                lists.push((playlist, Vec::new()));
+            }
+            let covers = covers.split_whitespace().map(str::to_owned).collect();
+            lists.last_mut().expect("pushed above").1.push((file, seconds, covers));
+        }
+        for (date, source) in rows(
+            db,
+            "SELECT s.date, r.id, r.show, r.provider, r.key, r.title FROM recordings r JOIN shows s ON s.id = r.show",
+            |r| Ok((text(r, 0)?, [text(r, 1)?, text(r, 2)?, text(r, 3)?, text(r, 4)?, text(r, 5)?])),
+        )? {
+            let [id, show, provider, key, title] = source;
+            result.sources.entry(date).or_default().push(Source {
+                shnids: shnids.get(&id).cloned().unwrap_or_default(),
+                playlists: playlists.remove(&id).unwrap_or_default().into_iter().map(|(_, t)| t).collect(),
+                id,
+                show,
+                provider,
+                key,
+                title,
+            });
+        }
+        result.corpus = db
+            .query_row("SELECT value FROM meta WHERE key = 'corpus_sha256'", [], |r| r.get(0))
+            .optional()?
+            .unwrap_or_default();
         Ok(result)
     }
     /// Everything known about a date, the chosen show first.
@@ -548,7 +625,7 @@ fn words(text: &str) -> String {
     format!(" {} ", text.split(|c: char| !c.is_alphanumeric()).filter(|s| !s.is_empty()).collect::<Vec<_>>().join(" "))
 }
 type Cache = HashMap<PathBuf, (std::time::SystemTime, Arc<Catalogue>)>;
-fn load(path: &Path) -> Result<Arc<Catalogue>, String> {
+pub(crate) fn load(path: &Path) -> Result<Arc<Catalogue>, String> {
     static CACHE: OnceLock<Mutex<Cache>> = OnceLock::new();
     let mut cache = CACHE.get_or_init(Default::default).lock().unwrap_or_else(|e| e.into_inner());
     let metadata = fs::metadata(path).map_err(|e| format!("Show database is unavailable: {e}"))?;
@@ -580,6 +657,12 @@ pub fn reference(path: &Path, date: &str, notes_venue: &str) -> Result<Option<Re
     if shows.is_empty() && !data.excluded.contains_key(date) {
         return Ok(None);
     }
+    let one = choose(shows, notes_venue);
+    Ok(Some(Reference { info: data.date_info(date, one), place: one.map(|i| shows[i].place.clone()) }))
+}
+/// The show on a date that the notes' venue, or failing that its city, names. Early and late
+/// shows at one venue count as one choice; several venues with nothing to tell them apart, none.
+pub(crate) fn choose(shows: &[Show], notes_venue: &str) -> Option<usize> {
     let notes = words(notes_venue);
     let named = |test: &dyn Fn(&Show) -> bool| (0..shows.len()).filter(|&i| test(&shows[i])).collect::<Vec<_>>();
     let mut chosen = named(&|s| {
@@ -594,9 +677,7 @@ pub fn reference(path: &Path, date: &str, notes_venue: &str) -> Result<Option<Re
     if chosen.is_empty() {
         chosen = (0..shows.len()).collect();
     }
-    // Early and late shows at one venue share a place.
-    let one = chosen.first().copied().filter(|&i| chosen.iter().all(|&j| shows[j].venue == shows[i].venue));
-    Ok(Some(Reference { info: data.date_info(date, one), place: one.map(|i| shows[i].place.clone()) }))
+    chosen.first().copied().filter(|&i| chosen.iter().all(|&j| shows[j].venue == shows[i].venue))
 }
 pub fn search(path: &Path, query: &str, provider: &str, priorities: &Priorities) -> Result<Vec<Recording>, String> {
     let data = load(path)?;

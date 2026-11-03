@@ -170,6 +170,13 @@ message Book {
   string source_kind = 10;
   string evidence = 11;
   repeated string modifiers = 12;
+  // BerthaML show and recording IDs, empty when linking found none.
+  string show_id = 13;
+  string recording_id = 14;
+  // What linking matched.
+  string link = 15;
+  // BerthaML performance IDs held by each chapter, space-separated.
+  repeated string chapter_performances = 16;
 }
 
 message BookList {
@@ -242,6 +249,8 @@ message ShowTrack {
   uint32 bit_depth = 8;
   string sample_format = 9;
   string channel_layout = 10;
+  // BerthaML performance IDs this track holds; empty when unmatched.
+  repeated string performances = 11;
 }
 message ShowDraft {
   string folder = 1;
@@ -257,6 +266,11 @@ message ShowDraft {
   string reference_info = 11;
   string album = 12;
   string comment = 13;
+  // BerthaML show and recording IDs from linking, empty when not found.
+  string show_id = 14;
+  string recording_id = 15;
+  // What linking matched.
+  string link = 16;
 }
 message Recording {
   string title = 1;

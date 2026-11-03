@@ -3,6 +3,20 @@ using System.Text.Json;
 using Jupiter.ShowPlayer.Interop;
 using Jupiter.ShowPlayer.Interop.Messages;
 
+if (args.Length >= 2 && args[0] == "--verify-links")
+{
+    // Read-only: links each folder in Ian's Grateful Dead folder and prints what matched.
+    using var linkCore = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(Environment.CurrentDirectory, "work", "link-check-" + Guid.NewGuid().ToString("N")), AudioOutput = "null" });
+    foreach (var folder in Directory.GetDirectories(args[1]).Order())
+    {
+        var linked = linkCore.InspectShow(folder);
+        int held = linked.Tracks.Count(t => t.Performances.Count > 0);
+        Console.WriteLine(Path.GetFileName(folder));
+        Console.WriteLine($"  {linked.ShowId} {linked.RecordingId}: {linked.Link}");
+        Console.WriteLine($"  {held} of {linked.Tracks.Count} tracks hold performances");
+    }
+    return;
+}
 if (args.Length >= 2 && args[0] == "--verify-winterland")
 {
     using var checkCore = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(Environment.CurrentDirectory, "work", "winterland-check-" + Guid.NewGuid().ToString("N")), AudioOutput = "null" });
@@ -51,6 +65,8 @@ foreach (int track in new[] { 1, 2, 10 })
 }
 string notes = "Grateful Dead\r\n1977-05-08\r\nBarton Hall\r\nSet 1:\r\n01. Test opening >\r\n02. Test transition\r\nEncore:\r\n03. Test encore\r\nSource: SBD synthetic audio for verification\r\n";
 File.WriteAllText(Path.Combine(source, "show.txt"), notes);
+// Collectors name checksum files after the recording; this names a listed 1977-05-08 soundboard.
+File.WriteAllText(Path.Combine(source, "gd77-05-08.sbd.hicks.4982.sbeok.shnf.md5"), "");
 using var core = AudioCore.Create(new CoreOptions { DataDirectory = Path.Combine(fixture, "data"), AudioOutput = "null" });
 core.Start();
 var draft = core.InspectShow(source);
@@ -61,6 +77,9 @@ Require(draft.Tracks[2].Set == "Encore" && draft.Tracks[0].Title == "Test openin
 Require(draft.SourceSummary == "SBD" && draft.ReferenceInfo.Contains("Minglewood Blues"), "Local import source label or offline show reference is missing");
 Require(draft.ReferenceInfo.StartsWith("1977-05-08 · Barton Hall, Cornell University, Ithaca, NY") && draft.ReferenceInfo.Contains("BerthaML gd1977-05-08: draft record") && draft.ReferenceInfo.Contains("rather than a record of who played"), "BerthaML show reference is incomplete: " + draft.ReferenceInfo);
 Require(draft.Album == "770508_ny-ithaca-barton-hall-cornell-university", "The BerthaML venue did not name the album: " + draft.Album);
+Require(draft.ShowId == "gd1977-05-08" && draft.RecordingId == "r-a7630611865608b4e5e6" && draft.Link.Contains("Archive identifier"), "Import was not linked to its BerthaML recording: " + draft.Link);
+Require(draft.Tracks.All(t => t.Performances.Count == 0), "Synthetic song titles were matched to setlist performances");
+Console.WriteLine("PASS BerthaML link: checksum file name identifies the recording");
 Require(core.SearchRecordings("1993-09-22", "All sources").Count > 0, "Catalogue search failed");
 var priorities = core.GetPriorities();
 Require(priorities.Sources.Take(3).SequenceEqual(new[] { "SBD", "MTX", "AUD" }), "Default source priorities are incorrect");
@@ -89,7 +108,10 @@ foreach (bool copy in new[] { true, false })
     ShowJob job;
     do { Thread.Sleep(100); job = core.GetJob(); } while (job.State == "Running" && timer.Elapsed.TotalSeconds < 45);
     Require(job.State == "Completed", "Packaging failed: " + job.Log);
-    Require(core.ListBooks(fixture).Single(b => b.Path == output).SourceKind == "SBD", "Library lost the recording type stored in MKA notes");
+    var listed = core.ListBooks(fixture).Single(b => b.Path == output);
+    Require(listed.SourceKind == "SBD", "Library lost the recording type stored in MKA notes");
+    // The MKA does not hold the checksum file's name; only the recorded source folder evidence does.
+    Require(listed.ShowId == "gd1977-05-08" && listed.RecordingId == "r-a7630611865608b4e5e6" && listed.ChapterPerformances.Count == 3, "Library lost the BerthaML link recorded at packaging: " + listed.Link);
     using var probe = JsonDocument.Parse(Run(Path.Combine(tools, "ffprobe.exe"), "-v", "error", "-show_chapters", "-show_streams", "-show_format", "-of", "json", output));
     Require(probe.RootElement.GetProperty("chapters").GetArrayLength() == 3, "Wrong chapter count");
     Require(probe.RootElement.GetProperty("chapters")[0].GetProperty("tags").GetProperty("title").GetString() == "Test opening", "Export retained a manually entered segue marker");

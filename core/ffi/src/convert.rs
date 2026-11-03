@@ -115,6 +115,10 @@ pub fn books_to_message(books: &[BookEntry]) -> messages::BookList {
                 finished: b.finished,
                 last_played_utc: b.last_played_utc,
                 exists: b.exists,
+                show_id: b.show_id.clone(),
+                recording_id: b.recording_id.clone(),
+                link: b.link.clone(),
+                chapter_performances: b.performances.iter().map(|p| p.join(" ")).collect(),
             })
             .collect(),
     }
@@ -133,6 +137,7 @@ impl From<show_player_core::shows::Track> for crate::messages::ShowTrack {
             bit_depth: t.bit_depth,
             sample_format: t.sample_format,
             channel_layout: t.channel_layout,
+            performances: t.performances,
         }
     }
 }
@@ -149,6 +154,7 @@ impl From<crate::messages::ShowTrack> for show_player_core::shows::Track {
             bit_depth: t.bit_depth,
             sample_format: t.sample_format,
             channel_layout: t.channel_layout,
+            performances: t.performances,
         }
     }
 }
@@ -168,6 +174,9 @@ impl From<show_player_core::shows::Draft> for crate::messages::ShowDraft {
             tracks: d.tracks.into_iter().map(Into::into).collect(),
             album: d.album,
             comment: d.comment,
+            show_id: d.show_id,
+            recording_id: d.recording_id,
+            link: d.link,
         }
     }
 }
@@ -187,6 +196,9 @@ impl From<crate::messages::ShowDraft> for show_player_core::shows::Draft {
             tracks: d.tracks.into_iter().map(Into::into).collect(),
             album: d.album,
             comment: d.comment,
+            show_id: d.show_id,
+            recording_id: d.recording_id,
+            link: d.link,
         }
     }
 }

@@ -165,6 +165,41 @@ fn main() {
     let mut engine_path = None;
     let mut save_interval = DEFAULT_SAVE_INTERVAL;
     let args: Vec<String> = std::env::args().skip(1).collect();
+    // --link <show folder or .mka> <berthaml.db>: what linking finds, as JSON.
+    if let [option, target, database] = args.as_slice()
+        && option == "--link"
+    {
+        let target = std::path::Path::new(target);
+        let evidence = if target.is_dir() {
+            show_player_core::shows::inspect(target, "").map(|d| show_player_core::linking::import_evidence(&d))
+        } else {
+            let title = show_player_core::matroska::read_title(target).unwrap_or_default();
+            Ok(show_player_core::linking::mka_evidence(target, &title))
+        };
+        match evidence.and_then(|e| show_player_core::linking::link(std::path::Path::new(database), &e).map(|l| (e, l)))
+        {
+            Ok((evidence, link)) => println!(
+                "{}",
+                serde_json::json!({
+                    "names": evidence.names,
+                    "date": evidence.date,
+                    "show": link.show,
+                    "recording": link.recording,
+                    "recording_key": link.recording_key,
+                    "method": link.method,
+                    "certainty": link.certainty,
+                    "detail": link.detail,
+                    "tracks": evidence.tracks.iter().zip(link.performances.iter().chain(std::iter::repeat(&Vec::new())))
+                        .map(|(t, p)| format!("{} -> {}", t.title, p.join(" "))).collect::<Vec<_>>(),
+                })
+            ),
+            Err(e) => {
+                eprintln!("{e}");
+                std::process::exit(1);
+            }
+        }
+        return;
+    }
     if let [option, value] = args.as_slice() {
         let result = match option.as_str() {
             "--inspect-show" => Some(

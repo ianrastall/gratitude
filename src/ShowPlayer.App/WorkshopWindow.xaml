@@ -49,6 +49,7 @@
                             <TextBlock Text="Recording details" Style="{StaticResource JupiterPaneHeadingTextStyle}"/>
                             <local:SourceBadgesControl x:Name="ImportSourceInfo"/>
                             <TextBlock x:Name="ImportCredits" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
+                            <TextBlock x:Name="LinkText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/>
                             <TextBox x:Name="AlbumBox" Header="Album" PlaceholderText="YYMMDD_region-city-venue" TextWrapping="Wrap"/>
                             <TextBox x:Name="DateBox" Header="Date" PlaceholderText="YYYY-MM-DD"/>
                             <TextBox x:Name="CommentBox" Header="Comment (taper and equipment)" TextWrapping="Wrap" AcceptsReturn="True"/>

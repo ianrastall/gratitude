@@ -46,6 +46,8 @@ pub struct Track {
     pub bit_depth: u32,
     pub sample_format: String,
     pub channel_layout: String,
+    /// BerthaML performance IDs this track holds, from linking; empty when unmatched.
+    pub performances: Vec<String>,
 }
 #[derive(Clone, Debug, Default, Serialize, Deserialize)]
 pub struct Draft {
@@ -62,6 +64,11 @@ pub struct Draft {
     pub tracks: Vec<Track>,
     pub album: String,
     pub comment: String,
+    /// BerthaML show and recording IDs from linking, empty when not found.
+    pub show_id: String,
+    pub recording_id: String,
+    /// What linking matched, in a sentence or two.
+    pub link: String,
 }
 #[derive(Clone, Debug, Default, PartialEq, Eq)]
 pub struct Place {
@@ -98,6 +105,8 @@ pub struct Service {
     status: Arc<Mutex<Job>>,
     cancel: Arc<AtomicBool>,
     running: Arc<AtomicBool>,
+    /// The resume store's folder, where a finished MKA's source evidence is recorded.
+    store_dir: Mutex<Option<PathBuf>>,
 }
 impl Drop for Service {
     fn drop(&mut self) {
@@ -119,7 +128,7 @@ fn tool(name: &str) -> PathBuf {
         .filter(|p| p.is_file())
         .unwrap_or_else(|| PathBuf::from(format!("{name}.exe")))
 }
-fn rx(pattern: &str) -> Regex {
+pub(crate) fn rx(pattern: &str) -> Regex {
     static PATTERNS: std::sync::OnceLock<Mutex<std::collections::HashMap<String, Regex>>> = std::sync::OnceLock::new();
     PATTERNS
         .get_or_init(Default::default)
@@ -205,7 +214,7 @@ fn place_from_venue(venue: &str) -> Place {
         None => Place { venue: venue.trim().to_owned(), ..Default::default() },
     }
 }
-fn date_from_name(name: &str) -> Option<String> {
+pub(crate) fn date_from_name(name: &str) -> Option<String> {
     let c = rx(r"(?:^|\D)((?:19)?[6-9]\d)[-._]?(0[1-9]|1[0-2])[-._]?(0[1-9]|[12]\d|3[01])(?:\D|$)").captures(name)?;
     Some(format!("19{}-{}-{}", &c[1][c[1].len() - 2..], &c[2], &c[3]))
 }
@@ -719,6 +728,7 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
             bit_depth: source_depth(s),
             sample_format: s["sample_fmt"].as_str().unwrap_or_default().into(),
             channel_layout: s["channel_layout"].as_str().unwrap_or_default().into(),
+            performances: Vec::new(),
         });
     }
     if let Err(reason) = validate_audio(&draft.tracks, false) {
@@ -749,12 +759,25 @@ pub fn inspect(folder: &Path, notes_override: &str) -> Result<Draft, String> {
     Ok(draft)
 }
 impl Draft {
+    /// Takes a BerthaML link: IDs, its description and each track's performances.
+    pub fn set_link(&mut self, link: &crate::linking::Link) {
+        self.show_id = link.show.clone();
+        self.recording_id = link.recording.clone();
+        self.link = link.detail.clone();
+        for (i, track) in self.tracks.iter_mut().enumerate() {
+            track.performances = link.performances.get(i).cloned().unwrap_or_default();
+        }
+    }
     /// Names the show from a place. The offline catalogue's spelling replaces the notes' when it has the date.
     pub fn set_place(&mut self, place: &Place) {
         self.album = album_name(&self.date, place);
     }
 }
 impl Service {
+    /// Records each finished MKA's source folder evidence in the resume store in `dir`.
+    pub fn record_sources_in(&self, dir: PathBuf) {
+        *self.store_dir.lock().unwrap_or_else(|e| e.into_inner()) = Some(dir);
+    }
     pub fn snapshot(&self) -> Job {
         self.status.lock().unwrap_or_else(|e| e.into_inner()).clone()
     }
@@ -820,6 +843,9 @@ impl Service {
             }
         }
         let output_string = output.to_string_lossy().into_owned();
+        // The folder's names are gathered now, while it is certainly there.
+        let evidence = serde_json::to_string(&crate::linking::import_evidence(&draft)).map_err(|e| e.to_string())?;
+        let store_dir = self.store_dir.lock().unwrap_or_else(|e| e.into_inner()).clone();
         self.start("Creating MKA", output_string, move |cancel, status| {
             for track in &draft.tracks {
                 if cancel.load(Ordering::Relaxed) {
@@ -962,6 +988,13 @@ impl Service {
                 .map_err(|e| e.to_string())?;
             target.as_file_mut().flush().map_err(|e| e.to_string())?;
             target.persist_noclobber(&output).map_err(|e| e.to_string())?;
+            if let Some(dir) = store_dir {
+                let size = fs::metadata(&output).map(|m| m.len() as i64).unwrap_or(0);
+                if let Err(e) = crate::store::record_source(&dir, &output.to_string_lossy(), size, &evidence) {
+                    status.lock().unwrap_or_else(|e| e.into_inner()).log +=
+                        &format!("\nThe MKA was saved, but its source folder could not be recorded for linking: {e}");
+                }
+            }
             Ok(())
         })
     }
