@@ -199,6 +199,8 @@ public sealed class AudioCore : IDisposable
     public IReadOnlyList<ShowSummary> ListShows() => Query(new Request { ListShows = NoArguments }).Shows.Shows;
     public ShowDetail GetShow(string id) => Query(new Request { GetShow = new GetShow { Id = id } }).Show;
     public IReadOnlyList<SongEntry> ListSongs(string folder) => Query(new Request { ListSongs = new ListSongs { Folder = folder } }).Songs.Songs;
+    public string RenderReport(ShowDraft draft) => Query(new Request { RenderReport = new RenderReport { Draft = draft } }).Report;
+    public string BookReport(string path) => Query(new Request { BookReport = new DescribeBook { Path = path } }).Report;
     public Book DescribeBook(string path) => Query(new Request { DescribeBook = new DescribeBook { Path = path } }).Book;
     public ShowJob GetJob() => Query(new Request { GetJob = NoArguments }).Job;
     public void CancelJob() => Query(new Request { CancelJob = NoArguments });

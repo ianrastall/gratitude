@@ -100,6 +100,7 @@ public sealed partial class MainWindow : Window
     private List<Chapter> _chapters = [];
     private List<ChapterRow> _chapterRows = [];
     private Book? _bookLink;            // the open book's BerthaML link
+    private string _bookReport = "";    // and its standard report
     private ShowDetail? _bookShow;      // and its show, for the setlist
     private int _linkRequest;           // the newest link asked for; older answers are dropped
     private int _playChapter = -1;      // chapter to start at once the requested open loads
@@ -303,7 +304,6 @@ public sealed partial class MainWindow : Window
         _fileSize = s.FileSize;
         _bookTitle = s.Title.Length > 0 ? s.Title : s.Path.Length > 0 ? Path.GetFileNameWithoutExtension(s.Path) : "";
         AuthorText.Text = s.Author;
-        PlaybackNotes.Text = s.Comment;
         if (!reloadChapters || s.State == PlaybackState.Loading)
         {
             return;
@@ -382,12 +382,13 @@ public sealed partial class MainWindow : Window
         AudioCore core = _core;
         Book? link = null;
         ShowDetail? show = null;
+        string report = "";
         try
         {
-            (link, show) = await Task.Run(() =>
+            (link, show, report) = await Task.Run(() =>
             {
                 Book book = core.DescribeBook(path);
-                return (book, book.ShowId.Length > 0 ? core.GetShow(book.ShowId) : null);
+                return (book, book.ShowId.Length > 0 ? core.GetShow(book.ShowId) : null, core.BookReport(path));
             });
         }
         catch (AudioCoreException e)
@@ -400,6 +401,9 @@ public sealed partial class MainWindow : Window
         }
         _bookLink = link;
         _bookShow = show;
+        _bookReport = report;
+        PlaybackNotes.Text = report;
+        ExportReportItem.IsEnabled = report.Length > 0;
         ShowLinkText.Text = show is null
             ? link is { Link.Length: > 0 } ? link.Link : ""
             : $"{show.Summary.Date} · {show.Summary.Place} · BerthaML {show.Summary.Id}, {show.Summary.Status} record";
@@ -791,6 +795,9 @@ public sealed partial class MainWindow : Window
         _chapterRows = [];
         _bookLink = null;
         _bookShow = null;
+        _bookReport = "";
+        PlaybackNotes.Text = "";
+        ExportReportItem.IsEnabled = false;
         ShowLinkText.Text = "";
         ChapterList.ItemsSource = null;
     }
@@ -837,6 +844,36 @@ public sealed partial class MainWindow : Window
     }
 
     private void OnCloseBook(object sender, RoutedEventArgs e) => _core?.CloseBook();
+
+    /// <summary>Saves the open show's standard report as a text file.</summary>
+    private async void OnExportReport(object sender, RoutedEventArgs e)
+    {
+        if (_bookReport.Length == 0)
+        {
+            return;
+        }
+        string report = _bookReport;
+        var picker = new FileSavePicker(AppWindow.Id) { SuggestedFileName = $"{Path.GetFileNameWithoutExtension(_bookPath)} report" };
+        picker.FileTypeChoices.Add("Text", [".txt"]);
+        if (Path.GetDirectoryName(_bookPath) is { } folder && Directory.Exists(folder))
+        {
+            picker.SuggestedFolder = folder;
+        }
+        if (await picker.PickSaveFileAsync() is not { } file || _closed)
+        {
+            return;
+        }
+        try
+        {
+            await File.WriteAllTextAsync(file.Path, report);
+            StatusText.Text = $"Report saved to {file.Path}";
+        }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
+        {
+            _storeNotice = $"The report could not be saved. {ex.Message}";
+            ShowNotice();
+        }
+    }
 
     // ------------------------------------------------------------------
     // Navigation: Player, All shows, Songs, and Settings in the footer

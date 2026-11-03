@@ -336,6 +336,15 @@ pub fn dispatch(core: &CoreHandle, req: messages::Request) -> messages::Response
                 None => error_response(id, ErrorKind::NotFound, "The show could not be described."),
             }
         }
+        Some(C::RenderReport(r)) => match r.draft {
+            Some(d) => {
+                ok(response::Result::Report(show_player_core::report::for_draft(&d.into(), &show_database(), "")))
+            }
+            None => error_response(id, ErrorKind::InvalidArgument, "No show draft was provided."),
+        },
+        Some(C::BookReport(b)) => {
+            ok(response::Result::Report(library::report(&mut lock(&core.reader), &b.path, &show_database())))
+        }
         None => error_response(id, ErrorKind::UnknownCommand, "Unknown or missing command."),
     }
 }
@@ -373,6 +382,7 @@ pub fn create(config: messages::CoreConfig) -> Result<CoreHandle, Box<messages::
     .map_err(|e| fail(convert::error_kind(e.code), e.message))?;
     let shows = show_player_core::shows::Service::default();
     shows.record_sources_in(data_dir.clone());
+    shows.use_database(show_database());
     Ok(CoreHandle {
         data_dir: data_dir.clone(),
         shows,

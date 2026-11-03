@@ -29,7 +29,8 @@ function New-IconBitmap([int]$size) {
     $g.PixelOffsetMode = 'HighQuality'
     $g.ScaleTransform($size / 256.0, $size / 256.0)
 
-    # Rounded dark tile.
+    # Rounded light tile with a darker rim, so the red rose stands out on the dark Start
+    # menu and taskbar as well as on light ones; the earlier dark tile hid it.
     $tile = New-Object System.Drawing.Drawing2D.GraphicsPath
     $r = 52
     $tile.AddArc(8, 8, $r * 2, $r * 2, 180, 90)
@@ -37,7 +38,8 @@ function New-IconBitmap([int]$size) {
     $tile.AddArc(248 - $r * 2, 248 - $r * 2, $r * 2, $r * 2, 0, 90)
     $tile.AddArc(8, 248 - $r * 2, $r * 2, $r * 2, 90, 90)
     $tile.CloseFigure()
-    $g.FillPath((New-Object System.Drawing.SolidBrush (Get-Color 30 34 44)), $tile)
+    $g.FillPath((New-Object System.Drawing.SolidBrush (Get-Color 247 242 230)), $tile)
+    $g.DrawPath((New-Object System.Drawing.Pen (Get-Color 150 136 118), 6), $tile)
 
     # Two leaves behind the bloom.
     foreach ($leaf in @(@{ Angle = 148; Fill = (Get-Color 58 122 76) }, @{ Angle = 32; Fill = (Get-Color 46 104 64) })) {

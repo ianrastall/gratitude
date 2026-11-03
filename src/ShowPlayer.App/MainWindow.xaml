@@ -32,6 +32,8 @@
                     </MenuFlyoutItem.KeyboardAccelerators>
                 </MenuFlyoutItem>
                 <MenuFlyoutSeparator />
+                <MenuFlyoutItem x:Name="ExportReportItem" Text="Export report…" Click="OnExportReport" IsEnabled="False" />
+                <MenuFlyoutSeparator />
                 <MenuFlyoutItem Text="Settings" Click="OnSettings" KeyboardAcceleratorTextOverride="Ctrl+," />
                 <MenuFlyoutSeparator />
                 <MenuFlyoutItem Text="Exit" Click="OnExit" KeyboardAcceleratorTextOverride="Alt+F4" />
@@ -331,8 +333,10 @@
                             <TextBlock x:Name="BooksEmptyText" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" />
                             <HyperlinkButton Content="Choose a shows folder…" Click="OnChooseFolder" />
                         </StackPanel>
-                        <Expander Grid.Row="4" Header="Recording notes" HorizontalAlignment="Stretch">
-                            <ScrollViewer MaxHeight="240"><TextBlock x:Name="PlaybackNotes" Style="{StaticResource JupiterMonoTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True" /></ScrollViewer>
+                        <Expander Grid.Row="4" Header="Show report" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                            <ScrollViewer MaxHeight="320" HorizontalScrollBarVisibility="Auto" HorizontalScrollMode="Auto">
+                                <TextBlock x:Name="PlaybackNotes" Style="{StaticResource JupiterMonoTextStyle}" IsTextSelectionEnabled="True" />
+                            </ScrollViewer>
                         </Expander>
                     </Grid>
                 </Grid>

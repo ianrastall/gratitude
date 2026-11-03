@@ -116,7 +116,14 @@ message Request {
     GetShow get_show = 26;
     ListSongs list_songs = 27;
     DescribeBook describe_book = 28;
+    RenderReport render_report = 29;
+    DescribeBook book_report = 30;
   }
+}
+
+// The standard show report for an import, as its outputs will carry it.
+message RenderReport {
+  ShowDraft draft = 1;
 }
 
 // BerthaML shows and songs, from the offline show database.
@@ -264,6 +271,8 @@ message Response {
     ShowDetail show = 11;
     SongList songs = 12;
     Book book = 13;
+    // A standard show report.
+    string report = 14;
   }
 }
 

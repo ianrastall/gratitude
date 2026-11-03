@@ -165,6 +165,31 @@ fn main() {
     let mut engine_path = None;
     let mut save_interval = DEFAULT_SAVE_INTERVAL;
     let args: Vec<String> = std::env::args().skip(1).collect();
+    // --report <show folder or .mka> <berthaml.db>: the standard show report.
+    if let [option, target, database] = args.as_slice()
+        && option == "--report"
+    {
+        let (target, database) = (std::path::Path::new(target), std::path::Path::new(database));
+        let report = if target.is_dir() {
+            show_player_core::shows::inspect(target, "").map(|d| show_player_core::report::for_draft(&d, database, ""))
+        } else {
+            let data = std::env::temp_dir().join(format!("gratitude-report-{}", std::process::id()));
+            let report = show_player_core::store::Store::open(&data).map(drop).map(|()| {
+                let mut reader = show_player_core::store::Reader::new(&data);
+                show_player_core::library::report(&mut reader, &target.to_string_lossy(), database)
+            });
+            let _ = std::fs::remove_dir_all(&data);
+            report
+        };
+        match report {
+            Ok(text) => print!("{text}"),
+            Err(e) => {
+                eprintln!("{e}");
+                std::process::exit(1);
+            }
+        }
+        return;
+    }
     // --link <show folder or .mka> <berthaml.db>: what linking finds, as JSON.
     if let [option, target, database] = args.as_slice()
         && option == "--link"

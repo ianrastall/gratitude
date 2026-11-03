@@ -9,6 +9,7 @@ pub mod linking;
 pub mod matroska;
 pub mod mpv;
 pub mod player;
+pub mod report;
 pub mod shows;
 pub mod store;
 pub mod text;

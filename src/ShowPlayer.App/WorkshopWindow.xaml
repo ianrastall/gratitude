@@ -50,9 +50,9 @@
                             <local:SourceBadgesControl x:Name="ImportSourceInfo"/>
                             <TextBlock x:Name="ImportCredits" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <TextBlock x:Name="LinkText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/>
-                            <TextBox x:Name="AlbumBox" Header="Album" PlaceholderText="YYMMDD_region-city-venue" TextWrapping="Wrap"/>
-                            <TextBox x:Name="DateBox" Header="Date" PlaceholderText="YYYY-MM-DD"/>
-                            <TextBox x:Name="CommentBox" Header="Comment (taper and equipment)" TextWrapping="Wrap" AcceptsReturn="True"/>
+                            <TextBox x:Name="AlbumBox" Header="Album" PlaceholderText="YYMMDD_region-city-venue" TextWrapping="Wrap" LostFocus="OnFieldEditFinished"/>
+                            <TextBox x:Name="DateBox" Header="Date" PlaceholderText="YYYY-MM-DD" LostFocus="OnFieldEditFinished"/>
+                            <TextBox x:Name="CommentBox" Header="Comment (taper and equipment)" TextWrapping="Wrap" AcceptsReturn="True" LostFocus="OnFieldEditFinished"/>
                             <TextBlock Text="Artist is always Grateful Dead and genre is always Psychedelic Rock. Tracks number from 1 across the whole show. All other tags are removed." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <TextBlock x:Name="WarningsText" Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
                             <CheckBox x:Name="ReviewedBox"><TextBlock Text="I reviewed the track order, titles and tags" TextWrapping="Wrap"/></CheckBox>
@@ -61,6 +61,14 @@
                             <Button x:Name="CreateButton" Content="Create MKA…" Style="{StaticResource AccentButtonStyle}" Click="OnCreate" IsEnabled="False"/>
                             <Button x:Name="TagButton" Content="Write tagged files…" Click="OnWriteTags" IsEnabled="False"/>
                             <TextBlock Text="Writes a new folder named after the album. FLAC, MP3, Ogg, Opus and M4A keep their format; SHN, WAV and AIFF become FLAC. Source files are not changed." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
+                            <Expander Header="Show report" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="The standard report, updated as you edit. Both outputs carry it as show-report.txt beside the original notes." Style="{StaticResource JupiterCaptionTextStyle}" TextWrapping="Wrap"/>
+                                    <ScrollViewer MaxHeight="400" HorizontalScrollBarVisibility="Auto" HorizontalScrollMode="Auto">
+                                        <TextBlock x:Name="ReportText" Style="{StaticResource JupiterMonoTextStyle}" IsTextSelectionEnabled="True"/>
+                                    </ScrollViewer>
+                                </StackPanel>
+                            </Expander>
                             <Expander Header="Original show notes"><ScrollViewer MaxHeight="320"><TextBlock x:Name="NotesText" Style="{StaticResource JupiterMonoTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/></ScrollViewer></Expander>
                             <Expander Header="Offline show reference"><ScrollViewer MaxHeight="400"><TextBlock x:Name="ReferenceText" Style="{StaticResource JupiterBodyTextStyle}" TextWrapping="Wrap" IsTextSelectionEnabled="True"/></ScrollViewer></Expander>
                         </StackPanel>

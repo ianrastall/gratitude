@@ -10,7 +10,9 @@
 
 #define AppName "Gratitude"
 #define AppExe "ShowPlayer.exe"
-#define AppUserModelId "IanRastall.ShowPlayer"
+; 0.7 renamed this from IanRastall.ShowPlayer: the Start menu caches icons by this ID
+; and kept showing Show Player's icon. A taskbar pin made under the old ID is re-pinned once.
+#define AppUserModelId "IanRastall.Gratitude"
 #ifndef AppVersion
   #error AppVersion must be supplied by build.ps1
 #endif
@@ -79,4 +81,6 @@ Name: "{autoprograms}\{#AppName}"; Filename: "{app}\{#AppExe}"; WorkingDir: "{ap
 Name: "{autodesktop}\{#AppName}"; Filename: "{app}\{#AppExe}"; WorkingDir: "{app}"; AppUserModelID: "{#AppUserModelId}"; Tasks: desktopicon
 
 [Run]
+; Refreshes the per-user icon cache, so Start and the taskbar show the current icon.
+Filename: "{sys}\ie4uinit.exe"; Parameters: "-show"; Flags: runhidden skipifdoesntexist
 Filename: "{app}\{#AppExe}"; Description: "{cm:LaunchProgram,{#AppName}}"; Flags: nowait postinstall skipifsilent

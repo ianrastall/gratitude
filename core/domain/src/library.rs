@@ -117,6 +117,60 @@ pub fn describe(reader: &mut Reader, path: &str, database: &Path) -> BookEntry {
     entry(path.to_owned(), row, stored, database)
 }
 
+/// The standard report for a book, from its BerthaML link, chapters, tags and audio stream.
+pub fn report(reader: &mut Reader, path: &str, database: &Path) -> String {
+    let row = reader.book(path).ok().flatten();
+    let stored = reader.source(path).ok().flatten();
+    let title = title_of(path, row.as_ref().map(|r| r.title.as_str()));
+    let link = link(path, &title, stored, database);
+    let evidence = linking::mka_evidence(Path::new(path), &title);
+    let notes = matroska::read_source_notes(Path::new(path));
+    let profile = crate::catalogue::classify(&notes, &format!("{title} {path}"), "", "", "", "");
+    // Earlier versions put the whole notes in the comment; the report keeps taper and equipment.
+    let comment = if notes.lines().count() > 2 || notes.len() > 300 {
+        crate::shows::recording_comment(&notes, &crate::catalogue::known_tapers(&profile))
+    } else {
+        notes
+    };
+    let audio = crate::shows::probe_audio(Path::new(path))
+        .map(|v| {
+            let s = &v["streams"][0];
+            crate::report::audio_line(
+                s["codec_name"].as_str().unwrap_or_default(),
+                s["sample_rate"].as_str().and_then(|r| r.parse().ok()).unwrap_or(0),
+                crate::shows::source_depth(s),
+                s["channels"].as_u64().unwrap_or(0) as u32,
+            )
+        })
+        .unwrap_or_default();
+    let tracks = evidence
+        .tracks
+        .iter()
+        .enumerate()
+        .map(|(i, t)| crate::report::ReportTrack {
+            title: crate::shows::song_title(&t.title),
+            seconds: t.seconds,
+            set: String::new(),
+            performances: link.performances.get(i).cloned().unwrap_or_default(),
+        })
+        .collect();
+    crate::report::render(
+        &crate::report::ReportSource {
+            date: evidence.date.clone(),
+            place: String::new(),
+            album: title,
+            source_summary: profile.summary(),
+            credits: profile.credits,
+            comment,
+            audio,
+            notes: String::new(),
+            tracks,
+            link,
+        },
+        database,
+    )
+}
+
 /// A song performance held by a chapter of a book in the folder.
 #[derive(Debug, Clone, Default, PartialEq, Eq)]
 pub struct OwnedPerformance {

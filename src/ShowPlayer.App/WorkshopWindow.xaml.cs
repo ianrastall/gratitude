@@ -19,6 +19,7 @@ public sealed partial class WorkshopWindow : Window
     private ShowJob? _job;
     private bool _editing, _closed, _inspecting;
     private int _trackIndex = -1;
+    private int _reportRequest;     // the newest report asked for; older answers are dropped
 
     public WorkshopWindow(MainWindow main, AudioCore core, string page)
     {
@@ -140,6 +141,7 @@ public sealed partial class WorkshopWindow : Window
         int digits = _draft.Tracks.Count.ToString().Length;
         TracksList.ItemsSource = _draft.Tracks.Select((t, i) => new ImportTrackRow(i, $"{(i + 1).ToString().PadLeft(digits, '0')} {t.Title}", $"{t.Set} · {Path.GetFileName(t.Path)} · {t.Duration / 60:F1} min · {t.Codec} {t.SampleRate} Hz / {t.BitDepth} bit / {t.Channels} ch")).ToList();
         TracksList.SelectedIndex = selected;
+        _ = RefreshReport();
     }
 
     private void OnTrackSelected(object sender, SelectionChangedEventArgs e)
@@ -173,6 +175,20 @@ public sealed partial class WorkshopWindow : Window
     private void OnMoveUp(object sender, RoutedEventArgs e) => Move(-1);
     private void OnMoveDown(object sender, RoutedEventArgs e) => Move(1);
     private void OnTrackEditFinished(object sender, RoutedEventArgs e) { if (_draft is not null && _trackIndex >= 0) RenderTracks(_trackIndex); }
+    private void OnFieldEditFinished(object sender, RoutedEventArgs e) => _ = RefreshReport();
+
+    /// <summary>Writes the standard report from the draft as it stands, edits included.</summary>
+    private async Task RefreshReport()
+    {
+        if (_draft is null) return;
+        _draft.Date = DateBox.Text.Trim(); _draft.Album = AlbumBox.Text.Trim(); _draft.Comment = CommentBox.Text.Trim();
+        int request = ++_reportRequest;
+        ShowDraft draft = _draft.Clone();
+        string text;
+        try { text = await Task.Run(() => _core.RenderReport(draft)); }
+        catch (AudioCoreException ex) { text = $"The report could not be written. {ex.Message}"; }
+        if (request == _reportRequest && !_closed) ReportText.Text = text;
+    }
 
     private bool ReadReview()
     {

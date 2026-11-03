@@ -16,7 +16,7 @@ public static partial class Program
     /// 0.1 so existing pins keep working. The installer puts the same value on
     /// the Start shortcut.
     /// </summary>
-    public const string AppUserModelId = "IanRastall.ShowPlayer";
+    public const string AppUserModelId = "IanRastall.Gratitude";
 
     private static EventWaitHandle? s_showSignal;
 

@@ -12,6 +12,8 @@ use std::sync::{Arc, Mutex};
 use std::time::Duration;
 
 pub const ARTIST: &str = "Grateful Dead";
+/// The standard show report's file name, in an MKA and in a tagged folder.
+pub const REPORT_FILE: &str = "show-report.txt";
 pub const GENRE: &str = "Psychedelic Rock";
 /// Gratitude covers the band's years with Jerry Garcia: its first shows through his death.
 const FIRST_DATE: &str = "1965-05-05";
@@ -107,6 +109,8 @@ pub struct Service {
     running: Arc<AtomicBool>,
     /// The resume store's folder, where a finished MKA's source evidence is recorded.
     store_dir: Mutex<Option<PathBuf>>,
+    /// The BerthaML show database, for the report each output carries.
+    database: Mutex<Option<PathBuf>>,
 }
 impl Drop for Service {
     fn drop(&mut self) {
@@ -184,6 +188,8 @@ pub fn song_title(raw: &str) -> String {
         r"|\s*(?:-+>|=+>|~+>|[>→⇒➔➜⟶↦]+)",
         r"|\s+-+)\s*$"
     ));
+    // A set label in front, as Show Player 0.1 wrote chapter titles: "Set 1 / Sugaree".
+    let raw = rx(r"(?i)^\s*(?:set\s*\d+|encore(?:\s*\d+)?|soundcheck)\s+/\s+").replace(raw, "");
     let mut title = strip_labels(raw.trim().trim_start_matches(['*', '#', '~', '='])).to_owned();
     loop {
         let shorter = trailing.replace(&title, "").into_owned();
@@ -222,7 +228,7 @@ fn in_era(date: &str) -> bool {
     rx(r"^\d{4}-\d{2}-\d{2}$").is_match(date) && (FIRST_DATE..=LAST_DATE).contains(&date)
 }
 /// Taper and equipment for the comment tag, from the notes' own labels.
-fn recording_comment(notes: &str, known_tapers: &[String]) -> String {
+pub(crate) fn recording_comment(notes: &str, known_tapers: &[String]) -> String {
     let lines: Vec<_> = notes.lines().map(str::trim).filter(|l| !l.is_empty()).collect();
     let field = |pattern: &str| {
         let pattern = rx(pattern);
@@ -255,14 +261,14 @@ fn recording_comment(notes: &str, known_tapers: &[String]) -> String {
         .collect::<Vec<_>>()
         .join("; ")
 }
-fn probe_audio(path: &Path) -> Result<Value, String> {
+pub(crate) fn probe_audio(path: &Path) -> Result<Value, String> {
     let output=hidden(&mut Command::new(tool("ffprobe"))).args(["-v","error","-select_streams","a:0","-show_entries","stream=codec_name,sample_rate,channels,sample_fmt,channel_layout,bits_per_sample,bits_per_raw_sample:format=duration:format_tags=title:stream_tags=title","-of","json"]).arg(path).output().map_err(|e|format!("ffprobe could not start: {e}"))?;
     if !output.status.success() {
         return Err(format!("Cannot inspect {}: {}", path.display(), String::from_utf8_lossy(&output.stderr)));
     }
     serde_json::from_slice(&output.stdout).map_err(|e| e.to_string())
 }
-fn source_depth(stream: &Value) -> u32 {
+pub(crate) fn source_depth(stream: &Value) -> u32 {
     fn number(v: &Value) -> u32 {
         v.as_u64().map(|n| n as u32).or_else(|| v.as_str().and_then(|s| s.parse().ok())).unwrap_or(0)
     }
@@ -778,6 +784,14 @@ impl Service {
     pub fn record_sources_in(&self, dir: PathBuf) {
         *self.store_dir.lock().unwrap_or_else(|e| e.into_inner()) = Some(dir);
     }
+    /// Uses the BerthaML show database at `path` for output reports.
+    pub fn use_database(&self, path: PathBuf) {
+        *self.database.lock().unwrap_or_else(|e| e.into_inner()) = Some(path);
+    }
+    fn report(&self, draft: &Draft, notes: &str) -> String {
+        let database = self.database.lock().unwrap_or_else(|e| e.into_inner()).clone().unwrap_or_default();
+        crate::report::for_draft(draft, &database, notes)
+    }
     pub fn snapshot(&self) -> Job {
         self.status.lock().unwrap_or_else(|e| e.into_inner()).clone()
     }
@@ -846,6 +860,7 @@ impl Service {
         // The folder's names are gathered now, while it is certainly there.
         let evidence = serde_json::to_string(&crate::linking::import_evidence(&draft)).map_err(|e| e.to_string())?;
         let store_dir = self.store_dir.lock().unwrap_or_else(|e| e.into_inner()).clone();
+        let report = self.report(&draft, "show-notes.txt, attached to this MKA");
         self.start("Creating MKA", output_string, move |cancel, status| {
             for track in &draft.tracks {
                 if cancel.load(Ordering::Relaxed) {
@@ -953,6 +968,8 @@ impl Service {
             if !copy_audio {
                 add_flac_format(&mut cmd, &draft.tracks[0]);
             }
+            // The original notes come first and unchanged; the standard report follows.
+            let mut attached = 0;
             if !draft.notes_path.is_empty() {
                 cmd.arg("-attach").arg(&draft.notes_path).args([
                     "-metadata:s:t:0",
@@ -960,7 +977,13 @@ impl Service {
                     "-metadata:s:t:0",
                     "filename=show-notes.txt",
                 ]);
+                attached += 1;
             }
+            let report_path = temp.path().join(REPORT_FILE);
+            fs::write(&report_path, &report).map_err(|e| e.to_string())?;
+            cmd.arg("-attach").arg(&report_path);
+            cmd.arg(format!("-metadata:s:t:{attached}")).arg("mimetype=text/plain");
+            cmd.arg(format!("-metadata:s:t:{attached}")).arg(format!("filename={REPORT_FILE}"));
             cmd.arg(&partial);
             run(&mut cmd, &temp.path().join("ffmpeg.log"), &cancel, &status)?;
             let output_probe = probe_audio(&partial)?;
@@ -1013,6 +1036,7 @@ impl Service {
             validate_audio(std::slice::from_ref(t), false)?;
         }
         let output = folder.to_string_lossy().into_owned();
+        let report = self.report(&draft, "");
         self.start("Writing tagged files", output, move |cancel, status| {
             let temp =
                 tempfile::Builder::new().prefix(".show-player-").tempdir_in(&parent).map_err(|e| e.to_string())?;
@@ -1065,6 +1089,7 @@ impl Service {
             if let Some(name) = Path::new(&draft.notes_path).file_name() {
                 fs::copy(&draft.notes_path, work.join(name)).map_err(|e| e.to_string())?;
             }
+            fs::write(work.join(REPORT_FILE), &report).map_err(|e| e.to_string())?;
             if cancel.load(Ordering::Relaxed) {
                 return Err("Cancelled".into());
             }
@@ -1281,6 +1306,9 @@ mod tests {
             assert_eq!(song_title(title), title);
         }
         assert_eq!(song_title("03 500 Miles"), "500 Miles");
+        assert_eq!(song_title("Set 1 / Sugaree"), "Sugaree");
+        assert_eq!(song_title("Encore / One More Saturday Night"), "One More Saturday Night");
+        assert_eq!(song_title("Set 2 / Tuning/Take A Step Back"), "Tuning/Take A Step Back");
         assert_eq!(song_title("China Cat Sunflower > I Know You Rider"), "China Cat Sunflower / I Know You Rider");
     }
     #[test]

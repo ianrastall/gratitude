@@ -125,6 +125,11 @@ foreach (bool copy in new[] { true, false })
     string attachment = Path.Combine(fixture, copy ? "copy-notes.txt" : "flac-notes.txt");
     Ffmpeg("-v", "error", "-y", "-dump_attachment:t:0", attachment, "-i", output, "-f", "null", "-");
     Require(File.ReadAllBytes(attachment).SequenceEqual(File.ReadAllBytes(Path.Combine(source, "show.txt"))), "Original TXT bytes changed");
+    string reportAttachment = Path.Combine(fixture, copy ? "copy-report.txt" : "flac-report.txt");
+    Ffmpeg("-v", "error", "-y", "-dump_attachment:t:1", reportAttachment, "-i", output, "-f", "null", "-");
+    string attachedReport = File.ReadAllText(reportAttachment);
+    Require(attachedReport.StartsWith("Grateful Dead\n1977-05-08\nBarton Hall, Cornell University, Ithaca, NY\n") && attachedReport.Contains("Original notes: show-notes.txt, attached to this MKA")
+        && attachedReport.Contains("Recording: gd77-05-08.sbd.hicks.4982.sbeok.shnf"), "The MKA's standard report is wrong:\n" + attachedReport);
     string decoded = Path.Combine(fixture, copy ? "copy.pcm" : "flac.pcm");
     Ffmpeg("-v", "error", "-y", "-i", output, "-f", "s16le", decoded);
     string expected = Path.Combine(fixture, "expected.pcm");
@@ -152,7 +157,13 @@ Require(described.ShowId == "gd1977-05-08" && described.RecordingId == "r-a76306
 var folderSongs = core.ListSongs(fixture);
 Require(folderSongs.Count > 400 && folderSongs.All(s => s.Owned.Count == 0) && folderSongs.First(s => s.Title == "Scarlet Begonias").Played > 300,
     "Song list is wrong: synthetic titles must hold no performances");
-Console.WriteLine("PASS all shows, Cornell setlist, single-book link and song list");
+string draftReport = core.RenderReport(draft);
+Require(draftReport.Contains("Original notes: show.txt, in the source folder") && draftReport.Contains("Not in this recording: ") && draftReport.Contains("Encore\n3. Test encore"),
+    "The import's standard report is wrong:\n" + draftReport);
+string bookReport = core.BookReport(Path.Combine(fixture, "copy.mka"));
+Require(bookReport.Contains("Recording: gd77-05-08.sbd.hicks.4982.sbeok.shnf") && bookReport.Contains("Audio: FLAC, 44,100 Hz") && bookReport.Contains("3. Test encore"),
+    "The MKA's report from the library is wrong:\n" + bookReport);
+Console.WriteLine("PASS all shows, Cornell setlist, single-book link, song list and standard reports");
 core.Open(Path.Combine(fixture, "copy.mka"), out _);
 var wait = Stopwatch.StartNew();
 Snapshot snapshot;
@@ -260,7 +271,9 @@ Require(Samples(written[1]) == Samples(dirty.Tracks[1].Path), "Tagging changed t
 Require(Tags(dirty.Tracks[1].Path).Contains("Someone"), "Tagging changed the source file");
 try { core.TagShow(dirty, tagged); throw new Exception("Replacing a tagged folder was allowed"); }
 catch (AudioCoreException) { }
-Console.WriteLine("PASS tagged folder: exact tag set, old tags gone, samples and source unchanged, no replacement");
+string folderReport = File.ReadAllText(Path.Combine(tagged, dirty.Album, "show-report.txt"));
+Require(folderReport.StartsWith("Grateful Dead\n") && folderReport.Contains("Album: " + dirty.Album) && folderReport.Contains("Comment: " + dirty.Comment), "The tagged folder's standard report is wrong:\n" + folderReport);
+Console.WriteLine("PASS tagged folder: exact tag set, old tags gone, samples and source unchanged, no replacement, standard report");
 
 string mp3Source = Path.Combine(fixture, "mp3-show"); Directory.CreateDirectory(mp3Source);
 Ffmpeg("-v", "error", "-y", "-f", "lavfi", "-i", "sine=frequency=440:duration=3", "-ar", "44100", "-ac", "2", "-c:a", "libmp3lame", "-metadata", "publisher=Someone", "-id3v2_version", "3", "-write_id3v1", "1", Path.Combine(mp3Source, "01 Sugaree.mp3"));
